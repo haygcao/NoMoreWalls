@@ -7,9 +7,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:metadata_god/metadata_god.dart';
 import 'package:path/path.dart';
 import 'package:shelf/shelf.dart';
-import 'package:spotube/extensions/artist_simple.dart';
-import 'package:spotube/extensions/image.dart';
-import 'package:spotube/extensions/track.dart';
+
+
+import 'package:spotube/models/local_track.dart';
 import 'package:spotube/models/parser/range_headers.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/audio_player/state.dart';
@@ -20,7 +20,8 @@ import 'package:spotube/provider/user_preferences/user_preferences_provider.dart
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/logger/logger.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+ // 添加这个导入
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/utils/service_utils.dart';
 
 class ServerPlaybackRoutes {
@@ -31,6 +32,27 @@ class ServerPlaybackRoutes {
 
   ServerPlaybackRoutes(this.ref) : dio = Dio();
 
+  /// proxy hls playlist file
+  Future<Response> proxyHls(String url, Map<String, dynamic> headers) async {
+    try {
+      final response = await dio.get(
+        url,
+        options: Options(responseType: ResponseType.bytes),
+      );
+
+      return Response.ok(
+        response.data as Uint8List,
+        headers: {
+          "content-type": "audio/mpegurl",
+          "content-length": (response.data as Uint8List).length.toString(),
+        },
+      );
+    } catch (e, stack) {
+      AppLogger.reportError(e, stack);
+      return Response.internalServerError();
+    }
+  }
+
   Future<({dio_lib.Response<Uint8List> response, Uint8List? bytes})>
       streamTrack(
     SourcedTrack track,
@@ -39,7 +61,7 @@ class ServerPlaybackRoutes {
     final trackCacheFile = File(
       join(
         await UserPreferencesNotifier.getMusicCacheDir(),
-        '${track.name} - ${track.artists?.asString()} (${track.sourceInfo.id}).${track.codec.name}',
+        '${track.sourceInfo.title} - ${track.sourceInfo.artist} (${track.sourceInfo.id}).${track.codec.name}',
       ),
     );
     final trackPartialCacheFile = File("${trackCacheFile.path}.part");
@@ -100,15 +122,16 @@ class ServerPlaybackRoutes {
       );
     }
 
-    final res =
-        await dio.get<Uint8List>(track.url, options: options).catchError(
+    final res = await dio.get<Uint8List>(track.url, options: options).catchError(
       (e, stack) async {
         final sourcedTrack = await ref
-            .read(sourcedTrackProvider(SpotubeMedia(track)).notifier)
+            .read(sourcedTrackProvider(SpotubeMedia(
+              track,
+   
+            )).notifier)
             .switchToAlternativeSources();
 
         ref.read(activeSourcedTrackProvider.notifier).update(sourcedTrack);
-
         return await dio.get<Uint8List>(sourcedTrack!.url, options: options);
       },
     );
@@ -144,17 +167,22 @@ class ServerPlaybackRoutes {
 
     if (contentRange.total == fileLength && track.codec != SourceCodecs.weba) {
       final imageBytes = await ServiceUtils.downloadImage(
-        (track.album?.images).asUrlString(
-          placeholder: ImagePlaceholder.albumArt,
-          index: 1,
-        ),
+        track.sourceInfo.thumbnail,  // 使用 thumbnail 而不是 imageUrl
       );
 
       await MetadataGod.writeMetadata(
         file: trackCacheFile.path,
-        metadata: track.toMetadata(
-          fileLength: fileLength,
-          imageBytes: imageBytes,
+        metadata: Metadata(
+          title: track.sourceInfo.title,
+          artist: track.sourceInfo.artist,
+          album: track.sourceInfo.album ?? '',  // album 可能为 null，提供默认值
+          fileSize: BigInt.from(fileLength),
+          picture: imageBytes != null 
+              ? Picture(
+                  mimeType: 'image/jpeg',
+                  data: imageBytes,
+                ) 
+              : null,
         ),
       );
     }
@@ -165,18 +193,44 @@ class ServerPlaybackRoutes {
   /// @get('/stream/<trackId>')
   Future<Response> getStreamTrackId(Request request, String trackId) async {
     try {
-      final track =
-          playlist.tracks.firstWhere((element) => element.id == trackId);
+      final track = playlist.tracks.firstWhere(
+        (element) => element is LocalTrack 
+            ? (element).path == trackId
+            : element.id == trackId
+      );
+
+      if (track is LocalTrack) {
+        final localTrack = track;
+        final file = File(localTrack.path);
+        if (!await file.exists()) {
+          return Response.notFound('Track file not found');
+        }
+        return Response.ok(
+          await file.readAsBytes(),
+          headers: {
+            'content-type': 'audio/mpeg',
+          },
+        );
+      }
 
       final activeSourcedTrack = ref.read(activeSourcedTrackProvider);
       final sourcedTrack = activeSourcedTrack?.id == track.id
           ? activeSourcedTrack
-          : await ref.read(sourcedTrackProvider(SpotubeMedia(track)).future);
+          : await ref.read(sourcedTrackProvider(
+              SpotubeMedia(
+                track,
+              ),
+            ).future);
 
       ref.read(activeSourcedTrackProvider.notifier).update(sourcedTrack);
 
+      // 添加对 HLS 播放列表的支持
+      if (sourcedTrack!.url.contains(".m3u8")) {
+        return await proxyHls(sourcedTrack.url, request.headers);
+      }
+
       final (bytes: audioBytes, response: res) =
-          await streamTrack(sourcedTrack!, request.headers);
+          await streamTrack(sourcedTrack, request.headers);
 
       return Response(
         res.statusCode!,

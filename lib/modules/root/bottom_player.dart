@@ -14,7 +14,12 @@ import 'package:spotube/modules/player/player_controls.dart';
 import 'package:spotube/modules/player/volume_slider.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+// 移除 Spotify 特定的图片扩展
+// import 'package:spotube/extensions/spotify/image.dart';
+// 添加通用图片工具
+import 'package:spotube/utils/type/image_type.dart';
+// 添加 SourceableTrack 扩展
+import 'package:spotube/services/base/sourceable_track_extension.dart';
 import 'package:spotube/hooks/utils/use_brightness_value.dart';
 import 'package:flutter/material.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
@@ -35,14 +40,10 @@ class BottomPlayer extends HookConsumerWidget {
 
     final mediaQuery = MediaQuery.of(context);
 
+    // 使用通用的 getAlbumArt 扩展方法获取专辑封面
     String albumArt = useMemoized(
-      () => playlist.activeTrack?.album?.images?.isNotEmpty == true
-          ? (playlist.activeTrack?.album?.images).asUrlString(
-              index: (playlist.activeTrack?.album?.images?.length ?? 1) - 1,
-              placeholder: ImagePlaceholder.albumArt,
-            )
-          : Assets.albumPlaceholder.path,
-      [playlist.activeTrack?.album?.images],
+      () => playlist.activeTrack?.getAlbumArt() ?? Assets.albumPlaceholder.path,
+      [playlist.activeTrack],
     );
 
     final theme = Theme.of(context);

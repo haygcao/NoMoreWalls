@@ -1,9 +1,9 @@
 import 'package:collection/collection.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotify/spotify.dart';
 import 'package:spotube/models/current_playlist.dart';
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/provider/database/database.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class BlackListNotifier extends AsyncNotifier<List<BlacklistTableData>> {
   @override
@@ -34,38 +34,33 @@ class BlackListNotifier extends AsyncNotifier<List<BlacklistTableData>> {
         .go();
   }
 
-  bool contains(TrackSimple track) {
+  bool contains(SourceableTrack track) {
     final containsTrack =
         state.asData?.value.any((element) => element.elementId == track.id) ??
             false;
 
-    final containsTrackArtists = track.artists?.any(
-          (artist) =>
-              state.asData?.value.any((el) => el.elementId == artist.id) ??
-              false,
-        ) ??
-        false;
+    final containsTrackArtist = 
+        state.asData?.value.any((element) => element.elementId == track.artistId) ??
+            false;
 
-    return containsTrack || containsTrackArtists;
+    return containsTrack || containsTrackArtist;
   }
 
-  bool containsArtist(ArtistSimple artist) {
+  bool containsArtist(String artistId) {
     return state.asData?.value
-            .any((element) => element.elementId == artist.id) ??
+            .any((element) => element.elementId == artistId) ??
         false;
   }
-
   /// Filters the non blacklisted tracks from the given [tracks]
-  Iterable<TrackSimple> filter(Iterable<TrackSimple> tracks) {
+  Iterable<SourceableTrack> filter(Iterable<SourceableTrack> tracks) {
     return tracks.whereNot(contains).toList();
   }
 
   CurrentPlaylist filterPlaylist(CurrentPlaylist playlist) {
-    return CurrentPlaylist(
-      id: playlist.id,
-      name: playlist.name,
-      thumbnail: playlist.thumbnail,
-      tracks: playlist.tracks.where((track) => !contains(track)).toList(),
+    return playlist.copyWith(
+      tracks: playlist.tracks
+          .where((track) => !contains(track))
+          .toList(),
     );
   }
 }

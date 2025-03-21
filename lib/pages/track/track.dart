@@ -13,13 +13,23 @@ import 'package:spotube/components/links/link_text.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/components/track_tile/track_options.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
 import 'package:spotube/extensions/list.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+
 import 'package:spotube/services/audio_player/audio_player.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+
+
+
 
 import 'package:spotube/extensions/constrains.dart';
+
+
+import 'package:spotube/provider/track/track_provider.dart';
+import 'package:spotube/services/base/sourced_track.dart'; // 添加新的 provider
+
+// 添加 Artist 导入
+import 'package:spotube/services/base/artist.dart';
 
 class TrackPage extends HookConsumerWidget {
   static const name = "track";
@@ -40,15 +50,20 @@ class TrackPage extends HookConsumerWidget {
 
     final isActive = playlist.activeTrack?.id == trackId;
 
-    final trackQuery = ref.watch(trackProvider(trackId));
-
-    final track = trackQuery.asData?.value ?? FakeData.track;
+    // 替换 trackProvider 为 unifiedTrackProvider
+    final trackQuery = ref.watch(unifiedTrackProvider(trackId));
+    
+    // 使用 SourceableTrack
+    // 修正 fake track 的引用
+    final SourceableTrack track = trackQuery.asData?.value ?? FakeData.fakeTrack;
 
     void onPlay() async {
       if (isActive) {
         audioPlayer.pause();
       } else {
-        await playlistNotifier.load([track], autoPlay: true);
+        // 使用 SourcedTrack.fetchFromTrack 获取可播放的音轨
+        final sourcedTrack = await SourcedTrack.fetchFromTrack(track: track);
+        await playlistNotifier.load([sourcedTrack], autoPlay: true);
       }
     }
 
@@ -65,9 +80,7 @@ class TrackPage extends HookConsumerWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: UniversalImage.imageProvider(
-                    track.album!.images.asUrlString(
-                      placeholder: ImagePlaceholder.albumArt,
-                    ),
+                    track.thumbnailUrl.toString(),  // 修正类型
                   ),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
@@ -108,9 +121,7 @@ class TrackPage extends HookConsumerWidget {
                         ClipRRect(
                           borderRadius: BorderRadius.circular(10),
                           child: UniversalImage(
-                            path: track.album!.images.asUrlString(
-                              placeholder: ImagePlaceholder.albumArt,
-                            ),
+                            path: track.thumbnailUrl.toString(),  // 修正类型
                             height: 200,
                             width: 200,
                           ),
@@ -124,7 +135,7 @@ class TrackPage extends HookConsumerWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                track.name!,
+                                track.title,  // 使用 title 而不是 name
                                 style: textTheme.titleLarge,
                               ),
                               const Gap(10),
@@ -135,10 +146,10 @@ class TrackPage extends HookConsumerWidget {
                                   const Gap(5),
                                   Flexible(
                                     child: LinkText(
-                                      track.album!.name!,
-                                      '/album/${track.album!.id}',
+                                      track.albumName ?? '',
+                                      '/album/${track.albumId}',
                                       push: true,
-                                      extra: track.album,
+                                      extra: null,
                                     ),
                                   ),
                                 ],
@@ -151,7 +162,14 @@ class TrackPage extends HookConsumerWidget {
                                   const Gap(5),
                                   Flexible(
                                     child: ArtistLink(
-                                      artists: track.artists!,
+                                      artists: [
+                                        Artist(
+                                          id: track.artistId ?? '',
+                                          name: track.artistName,
+                                          uri: '/artist/${track.artistId}',
+                                          imageUrl: null,
+                                        )
+                                      ],
                                       hideOverflowArtist: false,
                                     ),
                                   ),

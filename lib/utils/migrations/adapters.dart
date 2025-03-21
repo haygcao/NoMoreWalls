@@ -3,9 +3,13 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:spotify/spotify.dart';
+// 移除 spotify 直接导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
+import 'package:spotube/services/base/base_track.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
+import 'package:spotube/utils/constants/app_markets.dart';
+import 'package:spotube/services/base/base_models.dart';
 
 part 'adapters.g.dart';
 part 'adapters.freezed.dart';
@@ -48,8 +52,7 @@ enum SourceType {
 
   const SourceType._(this.label);
 }
-
-@JsonSerializable()
+// 移除 @JsonSerializable() 注解
 @HiveType(typeId: 6)
 class SourceMatch {
   @HiveField(0)
@@ -70,18 +73,31 @@ class SourceMatch {
     required this.sourceType,
     required this.createdAt,
   });
-
-  factory SourceMatch.fromJson(Map<String, dynamic> json) =>
-      _$SourceMatchFromJson(json);
-
-  Map<String, dynamic> toJson() => _$SourceMatchToJson(this);
-
+  // 手动实现 fromJson 方法
+  factory SourceMatch.fromJson(Map<String, dynamic> json) {
+    return SourceMatch(
+      id: json['id'] as String,
+      sourceId: json['sourceId'] as String,
+      sourceType: SourceType.values.firstWhere(
+        (e) => e.name == json['sourceType'],
+        orElse: () => SourceType.youtube,
+      ),
+      createdAt: DateTime.parse(json['createdAt'] as String),
+    );
+  }
+  // 手动实现 toJson 方法
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'sourceId': sourceId,
+      'sourceType': sourceType.name,
+      'createdAt': createdAt.toIso8601String(),
+    };
+  }
   static String version = 'v1';
   static final boxName = "oss.krtirtho.spotube.source_matches.$version";
-
   static LazyBox<SourceMatch> get box => Hive.lazyBox<SourceMatch>(boxName);
 }
-
 @JsonSerializable()
 class AuthenticationCredentials {
   String cookie;
@@ -183,7 +199,13 @@ class UserPreferences with _$UserPreferences {
       readValue: UserPreferences._localeReadValue,
     )
     Locale locale,
-    @Default(Market.US) Market recommendationMarket,
+    // 使用字符串存储市场代码，而不是直接使用 Market 或 AppMarket 类型
+    @Default("US")
+    @JsonKey(
+      fromJson: UserPreferences._marketFromJson,
+      toJson: UserPreferences._marketToJson,
+    )
+    String market,
     @Default(SearchMode.youtube) SearchMode searchMode,
     @Default("") String downloadLocation,
     @Default([]) List<String> localLibraryLocation,
@@ -196,15 +218,24 @@ class UserPreferences with _$UserPreferences {
     @Default(true) bool endlessPlayback,
     @Default(false) bool enableConnect,
   }) = _UserPreferences;
+  
   factory UserPreferences.fromJson(Map<String, dynamic> json) =>
       _$UserPreferencesFromJson(json);
-
+  
   factory UserPreferences.withDefaults() => UserPreferences.fromJson({});
-
+  
   static SpotubeColor _accentColorSchemeFromJson(Map<String, dynamic> json) {
     return SpotubeColor.fromString(json["color"]);
   }
-
+  
+  static String _marketFromJson(Map<String, dynamic> json) {
+    return json["market"] as String? ?? "US";
+  }
+  
+  static Map<String, dynamic> _marketToJson(String market) {
+    return {"market": market};
+  }
+  
   static Map<String, dynamic>? _accentColorSchemeReadValue(
       Map<dynamic, dynamic> json, String key) {
     if (json[key] is String) {
@@ -213,22 +244,22 @@ class UserPreferences with _$UserPreferences {
 
     return json[key] as Map<String, dynamic>?;
   }
-
+  
   static Map<String, dynamic> _accentColorSchemeToJson(SpotubeColor color) {
     return {"color": color.toString()};
   }
-
+  
   static Locale _localeFromJson(Map<String, dynamic> json) {
     return Locale(json["languageCode"], json["countryCode"]);
   }
-
+  
   static Map<String, dynamic> _localeToJson(Locale locale) {
     return {
       "languageCode": locale.languageCode,
       "countryCode": locale.countryCode,
     };
   }
-
+  
   static Map<String, dynamic>? _localeReadValue(
       Map<dynamic, dynamic> json, String key) {
     if (json[key] is String) {
@@ -263,24 +294,21 @@ class BlacklistedElement {
 
   Map<String, dynamic> toJson() => {'id': id, 'type': type.name, 'name': name};
 }
-
 @freezed
 class PlaybackHistoryItem with _$PlaybackHistoryItem {
   factory PlaybackHistoryItem.playlist({
     required DateTime date,
-    required PlaylistSimple playlist,
+    required PlaylistBase playlist,  // 使用 PlaylistBase 替代 PlaylistSimple
   }) = PlaybackHistoryPlaylist;
 
   factory PlaybackHistoryItem.album({
     required DateTime date,
-    required AlbumSimple album,
+    required AlbumBase album,  // 使用 AlbumBase 替代 AlbumSimple
   }) = PlaybackHistoryAlbum;
-
   factory PlaybackHistoryItem.track({
     required DateTime date,
-    required Track track,
+    required BaseTrack track,  // 需要添加 BaseTrack 的导入
   }) = PlaybackHistoryTrack;
-
   factory PlaybackHistoryItem.fromJson(Map<String, dynamic> json) =>
       _$PlaybackHistoryItemFromJson(json);
 }

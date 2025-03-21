@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/modules/artist/artist_card.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+// 替换 Spotify 特定导入为通用提供者
+import 'package:spotube/provider/artist/artist_provider.dart';
 
 class ArtistPageRelatedArtists extends ConsumerWidget {
   final String artistId;
@@ -12,7 +13,8 @@ class ArtistPageRelatedArtists extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final relatedArtists = ref.watch(relatedArtistsProvider(artistId));
+    // 使用通用的相关艺术家提供者
+    final relatedArtists = ref.watch(unifiedRelatedArtistsProvider(artistId));
 
     return switch (relatedArtists) {
       AsyncData(value: final artists) => SliverPadding(

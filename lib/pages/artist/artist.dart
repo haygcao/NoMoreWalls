@@ -12,7 +12,10 @@ import 'package:spotube/pages/artist/section/footer.dart';
 import 'package:spotube/pages/artist/section/header.dart';
 import 'package:spotube/pages/artist/section/related_artists.dart';
 import 'package:spotube/pages/artist/section/top_tracks.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+// 移除 Spotify 特定导入
+// import 'package:spotube/provider/spotify/spotify.dart';
+// 添加统一的艺术家提供者
+import 'package:spotube/provider/artist/artist_provider.dart';
 
 class ArtistPage extends HookConsumerWidget {
   static const name = "artist";
@@ -25,7 +28,8 @@ class ArtistPage extends HookConsumerWidget {
     final scrollController = useScrollController();
     final theme = Theme.of(context);
 
-    final artistQuery = ref.watch(artistProvider(artistId));
+    // 使用统一的艺术家提供者
+    final artistQuery = ref.watch(unifiedArtistProvider(artistId));
 
     return SafeArea(
       bottom: false,
@@ -53,7 +57,29 @@ class ArtistPage extends HookConsumerWidget {
                 const SliverGap(50),
                 ArtistPageTopTracks(artistId: artistId),
                 const SliverGap(50),
-                SliverToBoxAdapter(child: ArtistAlbumList(artistId)),
+                // Replace the direct ArtistAlbumList with a provider-based approach
+                SliverToBoxAdapter(
+                  child: Consumer(
+                    builder: (context, ref, _) {
+                      final albumsQuery = ref.watch(unifiedArtistAlbumsProvider(artistId));
+                      
+                      if (albumsQuery.hasError) {
+                        return Center(child: Text(albumsQuery.error.toString()));
+                      }
+                      
+                      final albums = albumsQuery.asData?.value ?? [];
+                      final isLoading = albumsQuery.isLoading;
+                      
+                      return ArtistAlbumList(
+                        artistId: artistId,
+                        albums: albums,
+                        isLoadingNextPage: isLoading,
+                        hasNextPage: false, // Set based on your pagination logic
+                        onFetchMore: null, // Implement if you have pagination
+                      );
+                    },
+                  ),
+                ),
                 const SliverGap(20),
                 SliverPadding(
                   padding: const EdgeInsets.all(8.0),

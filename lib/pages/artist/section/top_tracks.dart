@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 特定导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/fake.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/dialogs/select_device_dialog.dart';
@@ -10,7 +11,10 @@ import 'package:spotube/extensions/context.dart';
 import 'package:spotube/models/connect/connect.dart';
 import 'package:spotube/provider/connect/connect.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+// 替换为统一的艺术家提供者
+import 'package:spotube/provider/artist/artist_provider.dart';
+// 导入通用的 Track 模型
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class ArtistPageTopTracks extends HookConsumerWidget {
   final String artistId;
@@ -23,10 +27,11 @@ class ArtistPageTopTracks extends HookConsumerWidget {
 
     final playlist = ref.watch(audioPlayerProvider);
     final playlistNotifier = ref.watch(audioPlayerProvider.notifier);
-    final topTracksQuery = ref.watch(artistTopTracksProvider(artistId));
+    // 使用统一的顶部曲目提供者
+    final topTracksQuery = ref.watch(unifiedArtistTopTracksProvider(artistId));
 
     final isPlaylistPlaying = playlist.containsTracks(
-      topTracksQuery.asData?.value ?? <Track>[],
+      topTracksQuery.asData?.value ?? <SourceableTrack>[],
     );
 
     if (topTracksQuery.hasError) {
@@ -38,9 +43,10 @@ class ArtistPageTopTracks extends HookConsumerWidget {
     }
 
     final topTracks = topTracksQuery.asData?.value ??
-        List.generate(10, (index) => FakeData.track);
+        List.generate(10, (index) => FakeData.sourceableTrack);
 
-    void playPlaylist(List<Track> tracks, {Track? currentTrack}) async {
+    // 修改 playPlaylist 方法以使用 SourceableTrack 而不是 Track
+    void playPlaylist(List<SourceableTrack> tracks, {SourceableTrack? currentTrack}) async {
       currentTrack ??= tracks.first;
 
       final isRemoteDevice = await showSelectDeviceDialog(context, ref);
@@ -51,15 +57,14 @@ class ArtistPageTopTracks extends HookConsumerWidget {
         final isPlaylistPlaying = remotePlaylist.containsTracks(tracks);
 
         if (!isPlaylistPlaying) {
+          // 直接使用 WebSocketLoadEventData 构造函数，而不是 playlist 工厂方法
           await remotePlayback.load(
-            WebSocketLoadEventData.playlist(
+            WebSocketLoadEventData(
               tracks: tracks,
-              collection: null,
               initialIndex: tracks.indexWhere((s) => s.id == currentTrack?.id),
             ),
           );
         } else if (isPlaylistPlaying &&
-            currentTrack.id != null &&
             currentTrack.id != remotePlaylist.activeTrack?.id) {
           final index = playlist.tracks
               .toList()
@@ -74,7 +79,6 @@ class ArtistPageTopTracks extends HookConsumerWidget {
             autoPlay: true,
           );
         } else if (isPlaylistPlaying &&
-            currentTrack.id != null &&
             currentTrack.id != playlist.activeTrack?.id) {
           await playlistNotifier.jumpToTrack(currentTrack);
         }

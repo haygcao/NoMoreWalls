@@ -7,7 +7,10 @@ import 'package:spotube/extensions/context.dart';
 import 'package:spotube/provider/history/top.dart';
 import 'package:spotube/provider/history/top/albums.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/services/base/base_models.dart';
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
+// Add import for Album class
+import 'package:spotube/services/base/album.dart';
 
 class TopAlbums extends HookConsumerWidget {
   const TopAlbums({super.key});
@@ -33,8 +36,10 @@ class TopAlbums extends HookConsumerWidget {
         itemCount: albumsData.length,
         itemBuilder: (context, index) {
           final album = albumsData[index];
+          // Convert AlbumBase to Album
+          final albumObj = _convertToAlbum(album.album);
           return StatsAlbumItem(
-            album: album.album,
+            album: albumObj,
             info: Text(
               context.l10n
                   .count_plays(compactNumberFormatter.format(album.count)),
@@ -42,6 +47,20 @@ class TopAlbums extends HookConsumerWidget {
           );
         },
       ),
+    );
+  }
+  
+  // Helper method to convert AlbumBase to Album
+  Album _convertToAlbum(AlbumBase albumBase) {
+    return Album(
+      id: albumBase.id,
+      name: albumBase.name,
+      uri: '', // You might need to provide a default or get this from somewhere
+      imageUrl: albumBase.imageUrl,
+      artists: albumBase.artists,
+      releaseDate: albumBase.releaseDate,
+      albumType: albumBase.albumType,
+      tracks: albumBase.tracks,
     );
   }
 }

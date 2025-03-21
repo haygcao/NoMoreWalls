@@ -31,9 +31,11 @@ class CategoryPlaylistsNotifier extends AutoDisposeFamilyPaginatedAsyncNotifier<
   @override
   fetch(arg, offset, limit) async {
     final preferences = ref.read(userPreferencesProvider);
+    final market = MarketConverter.toSpotifyMarket(AppMarket.fromString(preferences.market));
+    
     final playlists = await Pages<PlaylistSimple?>(
       spotify,
-      "v1/browse/categories/$arg/playlists?country=${preferences.market.name}&locale=${preferences.locale}",
+      "v1/browse/categories/$arg/playlists?country=${market.name}&locale=${preferences.locale}",
       (json) => json == null ? null : PlaylistSimple.fromJson(json),
       'playlists',
       (json) => PlaylistsFeatured.fromJson(json),

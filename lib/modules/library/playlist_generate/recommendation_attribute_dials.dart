@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/pages/library/playlist_generate/playlist_generate.dart';
+// 移除页面导入
+// import 'package:spotube/pages/library/playlist_generate/playlist_generate.dart';
 
 typedef RecommendationAttribute = ({double min, double target, double max});
+
+// 添加常量定义，替代从页面导入的常量
+const zeroValues = (min: 0.0, target: 0.0, max: 0.0);
 
 RecommendationAttribute lowValues(double base) =>
     (min: 1 * base, target: 0.3 * base, max: 0.3 * base);

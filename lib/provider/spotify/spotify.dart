@@ -2,33 +2,40 @@ library spotify;
 
 import 'dart:async';
 
-import 'package:drift/drift.dart';
-import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/provider/database/database.dart';
+
+import 'package:spotube/models/spotify/spotify_friends.dart';
+
+import 'package:spotube/provider/lyrics/base_lyrics_provider.dart';
+import 'package:spotube/services/base/base_track.dart';
+import 'package:spotube/provider/lyrics/lyrics_providers.dart';
+import 'package:spotube/provider/lyrics/providers/lrclib_lyrics.dart';
+import 'package:spotube/provider/lyrics/providers/spotify_lyrics.dart';
+
 import 'package:spotube/provider/spotify/utils/json_cast.dart';
+import 'package:spotube/provider/spotify/spotify_provider.dart';
 import 'package:spotube/services/logger/logger.dart';
 import 'package:collection/collection.dart';
-import 'package:dio/dio.dart';
+
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/intl.dart';
-import 'package:lrc/lrc.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+
 import 'package:spotify/spotify.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 // ignore: depend_on_referenced_packages, implementation_imports
 import 'package:riverpod/src/async_notifier.dart';
-import 'package:spotube/extensions/album_simple.dart';
-import 'package:spotube/extensions/track.dart';
+import 'package:spotube/provider/spotify/extension/album_simple.dart';
+import 'package:spotube/provider/spotify/extension/track.dart';
 import 'package:spotube/models/lyrics.dart';
 import 'package:spotube/models/spotify/recommendation_seeds.dart';
-import 'package:spotube/models/spotify_friends.dart';
-import 'package:spotube/provider/custom_spotify_endpoint_provider.dart';
-import 'package:spotube/provider/spotify_provider.dart';
+
+import 'package:spotube/provider/spotify/custom_spotify_endpoint_provider.dart';
+
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-import 'package:spotube/services/dio/dio.dart';
+
 import 'package:spotube/services/wikipedia/wikipedia.dart';
+import 'package:spotube/utils/constants/app_markets.dart';
+import 'package:spotube/utils/converters/market_converter.dart';
 
 import 'package:wikipedia_api/wikipedia_api.dart';
 
@@ -50,7 +57,7 @@ part 'category/categories.dart';
 part 'category/playlists.dart';
 
 part 'lyrics/synced.dart';
-
+part 'lyrics/spotify_lyrics_notifier.dart';
 part 'playlist/favorite.dart';
 part 'playlist/playlist.dart';
 part 'playlist/liked.dart';

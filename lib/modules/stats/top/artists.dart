@@ -9,6 +9,8 @@ import 'package:spotube/provider/history/top.dart';
 import 'package:spotube/provider/history/top/tracks.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
+// Add import for Artist class
+import 'package:spotube/services/base/artist.dart';
 
 class TopArtists extends HookConsumerWidget {
   const TopArtists({super.key});
@@ -37,8 +39,10 @@ class TopArtists extends HookConsumerWidget {
         itemCount: artistsData.length,
         itemBuilder: (context, index) {
           final artist = artistsData[index];
+          // Convert Map<String, dynamic> to Artist
+          final artistObj = _convertToArtist(artist.artist);
           return StatsArtistItem(
-            artist: artist.artist,
+            artist: artistObj,
             info: Text(
               context.l10n
                   .count_plays(compactNumberFormatter.format(artist.count)),
@@ -46,6 +50,18 @@ class TopArtists extends HookConsumerWidget {
           );
         },
       ),
+    );
+  }
+  
+  // Helper method to convert Map<String, dynamic> to Artist
+  Artist _convertToArtist(Map<String, dynamic> artistMap) {
+    return Artist(
+      id: artistMap['id'] as String? ?? '',
+      name: artistMap['name'] as String? ?? '',
+      uri: artistMap['uri'] as String? ?? '',
+      imageUrl: artistMap['images'] != null && (artistMap['images'] as List).isNotEmpty
+          ? ((artistMap['images'] as List).first as Map<String, dynamic>)['url'] as String?
+          : null,
     );
   }
 }

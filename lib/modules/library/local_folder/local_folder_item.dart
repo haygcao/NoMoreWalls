@@ -3,19 +3,20 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
-import 'package:go_router/go_router.dart';
+// 保留 go_router 导入，因为我们需要使用 queryParameters
+
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:path/path.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
-import 'package:spotube/extensions/string.dart';
+
 import 'package:spotube/hooks/utils/use_brightness_value.dart';
-import 'package:spotube/pages/library/local_folder.dart';
+// 移除页面导入
+// import 'package:spotube/pages/library/local_folder.dart';
 import 'package:spotube/provider/local_tracks/local_tracks_provider.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:spotube/modules/library/local_folder/components/folder_grid_view.dart';
+import 'package:spotube/modules/library/local_folder/components/folder_title_bar.dart';
+import 'package:spotube/modules/library/local_folder/components/folder_path_view.dart';
+// 添加 NavigationService 导入
+import 'package:spotube/services/navigation/navigation_service.dart';
 
 class LocalFolderItem extends HookConsumerWidget {
   final String folder;
@@ -23,6 +24,9 @@ class LocalFolderItem extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
+    // 获取导航服务
+    final navigationService = ref.watch(navigationServiceProvider);
+    
     final ThemeData(:colorScheme) = Theme.of(context);
     final mediaQuery = MediaQuery.of(context);
 
@@ -62,8 +66,9 @@ class LocalFolderItem extends HookConsumerWidget {
 
     return InkWell(
       onTap: () {
-        context.goNamed(
-          LocalLibraryPage.name,
+        // 使用 NavigationService 导航
+        navigationService.router.pushNamed(
+          "local-library", // 使用路由名称而不是页面类名
           queryParameters: {
             if (isDownloadFolder) "downloads": "true",
             if (isCacheFolder) "cache": "true",
@@ -86,116 +91,18 @@ class LocalFolderItem extends HookConsumerWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              if (tracks.isEmpty)
-                Card(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Icon(
-                      SpotubeIcons.folder,
-                      size: mediaQuery.smAndDown
-                          ? 95
-                          : mediaQuery.mdAndDown
-                              ? 100
-                              : 142,
-                    ),
-                  ),
-                )
-              else
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: GridView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: max((tracks.length / 2).ceil(), 2),
-                    ),
-                    itemCount: tracks.length,
-                    itemBuilder: (context, index) {
-                      final track = tracks[index];
-                      return UniversalImage(
-                        path: (track.album?.images).asUrlString(
-                          placeholder: ImagePlaceholder.albumArt,
-                        ),
-                        fit: BoxFit.cover,
-                      );
-                    },
-                  ),
-                ),
+              FolderGridView(
+                tracks: tracks,
+                mediaQuery: mediaQuery,
+              ),
               const Gap(8),
-              Stack(
-                children: [
-                  Center(
-                    child: Text(
-                      isDownloadFolder
-                          ? context.l10n.downloads
-                          : isCacheFolder
-                              ? context.l10n.cache_folder.capitalize()
-                              : basename(folder),
-                      style: const TextStyle(fontWeight: FontWeight.bold),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                  if (!isDownloadFolder)
-                    Align(
-                      alignment: Alignment.topRight,
-                      child: PopupMenuButton(
-                        child: const Padding(
-                          padding: EdgeInsets.all(3),
-                          child: Icon(Icons.more_vert),
-                        ),
-                        itemBuilder: (context) {
-                          return [
-                            PopupMenuItem(
-                              child: ListTile(
-                                leading: const Icon(SpotubeIcons.folderRemove),
-                                iconColor: colorScheme.error,
-                                title:
-                                    Text(context.l10n.remove_library_location),
-                                onTap: () {
-                                  final libraryLocations = ref
-                                      .read(userPreferencesProvider)
-                                      .localLibraryLocation;
-                                  ref
-                                      .read(userPreferencesProvider.notifier)
-                                      .setLocalLibraryLocation(
-                                        libraryLocations
-                                            .where((e) => e != folder)
-                                            .toList(),
-                                      );
-                                },
-                              ),
-                            )
-                          ];
-                        },
-                      ),
-                    ),
-                ],
+              FolderTitleBar(
+                folder: folder,
+                isDownloadFolder: isDownloadFolder,
+                isCacheFolder: isCacheFolder,
               ),
               const Spacer(),
-              Wrap(
-                spacing: 2,
-                runSpacing: 2,
-                children: [
-                  for (final MapEntry(key: index, value: segment)
-                      in segments.asMap().entries)
-                    Text.rich(
-                      TextSpan(
-                        children: [
-                          if (index != 0)
-                            TextSpan(
-                              text: "/ ",
-                              style: TextStyle(color: colorScheme.primary),
-                            ),
-                          TextSpan(text: segment),
-                        ],
-                      ),
-                      style: TextStyle(
-                        fontSize: 10,
-                        color: colorScheme.tertiary,
-                      ),
-                    ),
-                ],
-              ),
+              FolderPathView(segments: segments),
               const Spacer(),
             ],
           ),

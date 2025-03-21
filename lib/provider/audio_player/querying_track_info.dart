@@ -10,7 +10,6 @@ final queryingTrackInfoProvider = Provider<bool>((ref) {
       : audioPlayer.playlist.medias.elementAtOrNull(audioPlayer.playlist.index);
   final audioPlayerActiveTrack =
       media == null ? null : SpotubeMedia.fromMedia(media);
-
   final activeMedia = ref.watch(audioPlayerProvider.select(
         (s) => s.activeMedia == null
             ? null

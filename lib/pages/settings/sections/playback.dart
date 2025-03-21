@@ -100,7 +100,7 @@ class SettingsPlaybackSection extends HookConsumerWidget {
                         ),
                         value: preferences.pipedInstance,
                         showValueWhenUnfolded: false,
-                        options: data
+                        options: (data)
                             .sortedBy((e) => e.name)
                             .map(
                               (e) => DropdownMenuItem(
@@ -167,7 +167,7 @@ class SettingsPlaybackSection extends HookConsumerWidget {
                         ),
                         value: preferences.invidiousInstance,
                         showValueWhenUnfolded: false,
-                        options: data
+                        options: (data ?? [])
                             .sortedBy((e) => e.name)
                             .map(
                               (e) => DropdownMenuItem(

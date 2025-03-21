@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart' as paths;
-import 'package:spotify/spotify.dart';
+// 移除 spotify 导入
+// import 'package:spotify/spotify.dart';
+// 添加新的导入
+import 'package:spotube/utils/constants/app_markets.dart';
+import 'package:spotube/utils/converters/market_converter.dart'; // Add this import
+
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
 import 'package:spotube/provider/audio_player/audio_player_streams.dart';
@@ -131,11 +136,12 @@ class UserPreferencesNotifier extends Notifier<PreferencesTableData> {
   void setThemeMode(ThemeMode mode) {
     setData(PreferencesTableCompanion(themeMode: Value(mode)));
   }
-
-  void setRecommendationMarket(Market country) {
-    setData(PreferencesTableCompanion(market: Value(country)));
+  // 修改这个方法
+  // Modify this method
+  void setRecommendationMarket(AppMarket country) {
+    // Store the market code as a string instead of Spotify Market type
+    setData(PreferencesTableCompanion(market: Value(country.code)));
   }
-
   void setAccentColorScheme(SpotubeColor color) {
     setData(PreferencesTableCompanion(accentColorScheme: Value(color)));
   }

@@ -1,14 +1,14 @@
-import 'package:media_kit/media_kit.dart' hide Track;
-import 'package:spotify/spotify.dart' hide Playlist;
+import 'package:media_kit/media_kit.dart';
+
 import 'package:spotube/services/audio_player/audio_player.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class AudioPlayerState {
   final bool playing;
   final PlaylistMode loopMode;
   final bool shuffled;
   final Playlist playlist;
-
-  final List<Track> tracks;
+  final List<SourceableTrack> tracks;
   final List<String> collections;
 
   AudioPlayerState({
@@ -17,12 +17,10 @@ class AudioPlayerState {
     required this.shuffled,
     required this.playlist,
     required this.collections,
-    List<Track>? tracks,
-  }) : tracks = tracks ??
-            playlist.medias
-                .map((media) => SpotubeMedia.fromMedia(media).track)
-                .toList();
+    List<SourceableTrack>? tracks,
+  }) : tracks = tracks ?? [];  // 简化 tracks 初始化
 
+  // 修改工厂方法，将 ref 作为可选参数
   factory AudioPlayerState.fromJson(Map<String, dynamic> json) {
     return AudioPlayerState(
       playing: json['playing'],
@@ -33,18 +31,35 @@ class AudioPlayerState {
       shuffled: json['shuffled'],
       playlist: Playlist(
         json['playlist']['medias']
-            .map(
-              (media) => SpotubeMedia.fromMedia(Media(
-                media['uri'],
-                extras: media['extras'],
-                httpHeaders: media['httpHeaders'],
-              )),
-            )
+            .map((media) => Media(
+                  media['uri'],
+                  extras: media['extras'],
+                  httpHeaders: media['httpHeaders'],
+                ))
             .cast<Media>()
             .toList(),
         index: json['playlist']['index'],
       ),
       collections: List<String>.from(json['collections']),
+    );
+  }
+
+  // 修改 copyWith 方法，移除 ref 参数
+  AudioPlayerState copyWith({
+    bool? playing,
+    PlaylistMode? loopMode,
+    bool? shuffled,
+    Playlist? playlist,
+    List<String>? collections,
+    List<SourceableTrack>? tracks,
+  }) {
+    return AudioPlayerState(
+      playing: playing ?? this.playing,
+      loopMode: loopMode ?? this.loopMode,
+      shuffled: shuffled ?? this.shuffled,
+      playlist: playlist ?? this.playlist,
+      collections: collections ?? this.collections,
+      tracks: tracks ?? this.tracks,
     );
   }
 
@@ -67,24 +82,7 @@ class AudioPlayerState {
     };
   }
 
-  AudioPlayerState copyWith({
-    bool? playing,
-    PlaylistMode? loopMode,
-    bool? shuffled,
-    Playlist? playlist,
-    List<String>? collections,
-  }) {
-    return AudioPlayerState(
-      playing: playing ?? this.playing,
-      loopMode: loopMode ?? this.loopMode,
-      shuffled: shuffled ?? this.shuffled,
-      playlist: playlist ?? this.playlist,
-      collections: collections ?? this.collections,
-      tracks: playlist == null ? tracks : null,
-    );
-  }
-
-  Track? get activeTrack {
+  SourceableTrack? get activeTrack {
     if (playlist.index == -1) return null;
     return tracks.elementAtOrNull(playlist.index);
   }
@@ -94,11 +92,11 @@ class AudioPlayerState {
     return playlist.medias.elementAt(playlist.index);
   }
 
-  bool containsTrack(Track track) {
+  bool containsTrack(SourceableTrack track) {
     return tracks.any((t) => t.id == track.id);
   }
 
-  bool containsTracks(List<Track> tracks) {
+  bool containsTracks(List<SourceableTrack> tracks) {
     return tracks.every(containsTrack);
   }
 

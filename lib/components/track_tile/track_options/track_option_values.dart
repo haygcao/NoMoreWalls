@@ -1,0 +1,16 @@
+enum TrackOptionValue {
+  album,
+  share,
+  songlink,
+  addToPlaylist,
+  addToQueue,
+  removeFromPlaylist,
+  removeFromQueue,
+  blacklist,
+  delete,
+  playNext,
+  favorite,
+  details,
+  download,
+  startRadio, track, artist,
+}

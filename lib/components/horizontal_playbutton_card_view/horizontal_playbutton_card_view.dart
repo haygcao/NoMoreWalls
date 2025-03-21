@@ -3,12 +3,17 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/fake.dart';
 import 'package:spotube/modules/album/album_card.dart';
 import 'package:spotube/modules/artist/artist_card.dart';
 import 'package:spotube/modules/playlist/playlist_card.dart';
 import 'package:spotube/hooks/utils/use_breakpoint_value.dart';
+// 导入通用类型
+import 'package:spotube/services/base/album.dart';
+import 'package:spotube/services/base/artist.dart';
+import 'package:spotube/services/base/playlist.dart';
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
 
 class HorizontalPlaybuttonCardView<T> extends HookWidget {
@@ -29,8 +34,8 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
     super.key,
   }) : assert(
           items.every(
-            (item) =>
-                item is PlaylistSimple || item is Artist || item is AlbumSimple,
+            // 使用通用类型替换 Spotify 类型
+            (item) => item is Playlist || item is Artist || item is Album,
           ),
         );
 
@@ -75,7 +80,7 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
                         scrollDirection: Axis.horizontal,
                         itemCount: 5,
                         itemBuilder: (context, index) {
-                          return AlbumCard(FakeData.albumSimple);
+                          return AlbumCard(FakeData.album);
                         },
                       )
                     : InfiniteList(
@@ -86,7 +91,7 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
                         onFetchData: onFetchMore,
                         loadingBuilder: (context) => Skeletonizer(
                               enabled: true,
-                              child: AlbumCard(FakeData.albumSimple),
+                              child: AlbumCard(FakeData.album),
                             ),
                         isLoading: isLoadingNextPage,
                         hasReachedMax: !hasNextPage,
@@ -94,12 +99,10 @@ class HorizontalPlaybuttonCardView<T> extends HookWidget {
                           final item = items[index];
 
                           return switch (item) {
-                            PlaylistSimple() =>
-                              PlaylistCard(item as PlaylistSimple),
-                            AlbumSimple() => AlbumCard(item as AlbumSimple),
+                            Playlist() => PlaylistCard(item as Playlist),
+                            Album() => AlbumCard(item as Album),
                             Artist() => Padding(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 12.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 12.0),
                                 child: ArtistCard(item as Artist),
                               ),
                             _ => const SizedBox.shrink(),

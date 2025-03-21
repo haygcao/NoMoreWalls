@@ -15,10 +15,10 @@ import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/models/spotify/recommendation_seeds.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
-import 'package:spotube/provider/spotify_provider.dart';
+import 'package:spotube/provider/spotify/spotify_provider.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
 
 const RecommendationAttribute zeroValues = (min: 0, target: 0, max: 0);

@@ -6,7 +6,8 @@ import 'package:fuzzywuzzy/fuzzywuzzy.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:spotify/spotify.dart';
+// 移除 spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/fake.dart';
 import 'package:spotube/components/dialogs/select_device_dialog.dart';
 import 'package:spotube/components/expandable_search/expandable_search.dart';
@@ -20,6 +21,10 @@ import 'package:spotube/models/connect/connect.dart';
 import 'package:spotube/provider/connect/connect.dart';
 import 'package:spotube/provider/history/history.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
+import 'package:spotube/provider/music_platform.dart';
+import 'package:spotube/services/base/base_models.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/collection.dart';
 import 'package:spotube/utils/service_utils.dart';
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
 
@@ -33,6 +38,8 @@ class TrackViewBodySection extends HookConsumerWidget {
     final historyNotifier = ref.watch(playbackHistoryActionsProvider);
     final props = InheritedTrackView.of(context);
     final trackViewState = ref.watch(trackViewProvider(props.tracks));
+    // 获取当前音乐平台
+    final currentPlatform = ref.watch(currentMusicPlatformProvider);
 
     final searchController = useTextEditingController();
     final searchFocus = useFocusNode();
@@ -48,16 +55,17 @@ class TrackViewBodySection extends HookConsumerWidget {
     }, [props.tracks]);
 
     final tracks = useMemoized(() {
-      List<Track> filteredTracks;
+      List<SourceableTrack> filteredTracks;
       if (searchQuery.isEmpty) {
-        filteredTracks = uniqTracks;
+        filteredTracks = List<SourceableTrack>.from(uniqTracks);
       } else {
-        filteredTracks = uniqTracks
-            .map((e) => (weightedRatio(e.name!, searchQuery), e))
-            .sorted((a, b) => b.$1.compareTo(a.$1))
-            .where((e) => e.$1 > 50)
-            .map((e) => e.$2)
-            .toList();
+        filteredTracks = List<SourceableTrack>.from(
+          uniqTracks
+              .map((e) => (weightedRatio(e.title, searchQuery), e))
+              .sorted((a, b) => b.$1.compareTo(a.$1))
+              .where((e) => e.$1 > 50)
+              .map((e) => e.$2)
+        );
       }
       return ServiceUtils.sortTracks(filteredTracks, trackViewState.sortBy);
     }, [trackViewState.sortBy, searchQuery, uniqTracks]);
@@ -66,9 +74,9 @@ class TrackViewBodySection extends HookConsumerWidget {
 
     final isActive = playlist.collections.contains(props.collectionId);
 
-    final onTapTrackTile = useCallback((Track track, int index) async {
+    final onTapTrackTile = useCallback((SourceableTrack track, int index) async {
       if (trackViewState.isSelecting) {
-        trackViewState.toggleTrackSelection(track.id!);
+        trackViewState.toggleTrackSelection(track.id);
         return;
       }
 
@@ -82,16 +90,20 @@ class TrackViewBodySection extends HookConsumerWidget {
           await playlistNotifier.jumpToTrack(track);
         } else {
           final tracks = await props.pagination.onFetchAll();
+          // Check collection type using type property
+          final collection = props.collection;
+          final isAlbum = collection.type == CollectionType.album.name;
+          
           await remotePlayback.load(
-            props.collection is AlbumSimple
+            isAlbum
                 ? WebSocketLoadEventData.album(
-                    tracks: tracks,
-                    collection: props.collection as AlbumSimple,
+                    tracks: List<SourceableTrack>.from(tracks),
+                    collection: collection as AlbumBase,
                     initialIndex: index,
                   )
                 : WebSocketLoadEventData.playlist(
-                    tracks: tracks,
-                    collection: props.collection as PlaylistSimple,
+                    tracks: List<SourceableTrack>.from(tracks),
+                    collection: collection as PlaylistCollection,
                     initialIndex: index,
                   ),
           );
@@ -107,10 +119,12 @@ class TrackViewBodySection extends HookConsumerWidget {
             autoPlay: true,
           );
           playlistNotifier.addCollection(props.collectionId);
-          if (props.collection is AlbumSimple) {
-            historyNotifier.addAlbums([props.collection as AlbumSimple]);
+          // 使用更通用的方式判断集合类型
+          final isAlbum = props.collection.type == CollectionType.album.name;
+          if (isAlbum) {
+            historyNotifier.addAlbums([props.collection as AlbumBase]);
           } else {
-            historyNotifier.addPlaylists([props.collection as PlaylistSimple]);
+            historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
           }
         }
       }
@@ -146,7 +160,7 @@ class TrackViewBodySection extends HookConsumerWidget {
               enabled: true,
               child: TrackTile(
                 playlist: playlist,
-                track: FakeData.track,
+                track: FakeData.sourceableTrack,
                 index: 0,
               ),
             ),
@@ -156,7 +170,7 @@ class TrackViewBodySection extends HookConsumerWidget {
                 children: List.generate(
                   10,
                   (index) => TrackTile(
-                    track: FakeData.track,
+                    track: FakeData.sourceableTrack,
                     index: index,
                     playlist: playlist,
                   ),

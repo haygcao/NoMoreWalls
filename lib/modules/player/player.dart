@@ -17,21 +17,26 @@ import 'package:spotube/components/links/artist_link.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/panels/sliding_up_panel.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+import 'package:spotube/components/fallbacks/anonymous_fallback.dart';
+
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+// 移除 import 'package:spotube/extensions/spotify/image.dart';
 import 'package:spotube/hooks/utils/use_custom_status_bar_color.dart';
 import 'package:spotube/hooks/utils/use_palette_color.dart';
 import 'package:spotube/models/local_track.dart';
-import 'package:spotube/pages/lyrics/lyrics.dart';
-import 'package:spotube/pages/track/track.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+// 移除 import 'package:spotube/pages/lyrics/lyrics.dart';
+
 import 'package:spotube/provider/audio_player/audio_player.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
+import 'package:spotube/provider/music_platform.dart';
 import 'package:spotube/provider/server/active_sourced_track.dart';
 import 'package:spotube/provider/volume_provider.dart';
 import 'package:spotube/services/sourced_track/sources/youtube.dart';
-import 'package:spotube/utils/service_utils.dart';
+import 'package:spotube/services/navigation/navigation_service.dart';
+
+import 'package:spotube/utils/type/image_type.dart';
+
 
 import 'package:url_launcher/url_launcher_string.dart';
 
@@ -48,12 +53,19 @@ class PlayerView extends HookConsumerWidget {
   Widget build(BuildContext context, ref) {
     final theme = Theme.of(context);
     final auth = ref.watch(authenticationProvider);
+    final currentPlatform = ref.watch(currentMusicPlatformProvider);
     final sourcedCurrentTrack = ref.watch(activeSourcedTrackProvider);
     final currentActiveTrack =
         ref.watch(audioPlayerProvider.select((s) => s.activeTrack));
     final currentTrack = sourcedCurrentTrack ?? currentActiveTrack;
     final isLocalTrack = currentTrack is LocalTrack;
     final mediaQuery = MediaQuery.of(context);
+    final navigationService = ref.watch(navigationServiceProvider);
+
+    // 检查当前平台的认证状态
+    if (auth[currentPlatform]?.asData?.value == null) {
+      return const AnonymousFallback();
+    }
 
     useEffect(() {
       if (mediaQuery.lgAndUp) {
@@ -64,10 +76,17 @@ class PlayerView extends HookConsumerWidget {
       return null;
     }, [mediaQuery.lgAndUp]);
 
+    // 使用 MediaImageUtils 替代 Spotify 特定的扩展方法
     String albumArt = useMemoized(
-      () => (currentTrack?.album?.images).asUrlString(
-        placeholder: ImagePlaceholder.albumArt,
-      ),
+      () {
+        if (currentTrack?.album?.images == null) {
+          return MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt);
+        }
+        return MediaImageUtils.getImageUrl(
+          currentTrack?.album?.images as List<MediaImage>?,
+          placeholder: ImagePlaceholder.albumArt,
+        );
+      },
       [currentTrack?.album?.images],
     );
 
@@ -233,8 +252,10 @@ class PlayerView extends HookConsumerWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 AutoSizeText(
-                                  currentTrack?.name ??
-                                      context.l10n.not_playing,
+                                  // 使用 SourceableTrack 的方法获取标题
+                                  currentTrack != null 
+                                      ? (currentTrack).title
+                                      : context.l10n.not_playing,
                                   style: TextStyle(
                                     color: titleTextColor,
                                     fontSize: 22,
@@ -245,32 +266,30 @@ class PlayerView extends HookConsumerWidget {
                                 ),
                                 if (isLocalTrack)
                                   Text(
-                                    currentTrack.artists?.asString() ?? "",
+                                    // 使用 SourceableTrack 的方法获取艺术家名称
+                                    currentTrack.artistName,
                                     style: theme.textTheme.bodyMedium!.copyWith(
                                       fontWeight: FontWeight.bold,
                                       color: bodyTextColor,
                                     ),
                                   )
                                 else
-                                  ArtistLink(
-                                    artists: currentTrack?.artists ?? [],
-                                    textStyle:
-                                        theme.textTheme.bodyMedium!.copyWith(
+                                  // 使用 ArtistLink.fromTrack 工厂构造函数
+                                  ArtistLink.fromTrack(
+                                    track: currentTrack!,
+                                    textStyle: theme.textTheme.bodyMedium!.copyWith(
                                       fontWeight: FontWeight.bold,
                                       color: bodyTextColor,
                                     ),
-                                    onRouteChange: (route) {
+                                    // 使用 NavigationService 进行导航
+                                    onArtistSelected: (artistId) {
                                       panelController.close();
-                                      GoRouter.of(context).push(route);
+                                      navigationService.navigateToArtist(artistId);
                                     },
-                                    onOverflowArtistClick: () =>
-                                        ServiceUtils.pushNamed(
-                                      context,
-                                      TrackPage.name,
-                                      pathParameters: {
-                                        "id": currentTrack!.id!,
-                                      },
-                                    ),
+                                    onOverflowArtistClick: () {
+                                      panelController.close();
+                                      navigationService.navigateToTrack(currentTrack);
+                                    },
                                   ),
                               ],
                             ),
@@ -337,9 +356,10 @@ class PlayerView extends HookConsumerWidget {
                                           }
                                         : null),
                               ),
-                              if (auth.asData?.value != null)
+                              // 修改这两行代码
+                              if (auth[currentPlatform]?.asData?.value != null)
                                 const SizedBox(width: 10),
-                              if (auth.asData?.value != null)
+                              if (auth[currentPlatform]?.asData?.value != null)
                                 Expanded(
                                   child: OutlinedButton.icon(
                                     label: Text(context.l10n.lyrics),
@@ -351,27 +371,9 @@ class PlayerView extends HookConsumerWidget {
                                       ),
                                     ),
                                     onPressed: () {
-                                      showModalBottomSheet(
+                                      navigationService.navigateToLyrics(
+                                        isModal: true,
                                         context: context,
-                                        isDismissible: true,
-                                        enableDrag: true,
-                                        isScrollControlled: true,
-                                        backgroundColor: Colors.black38,
-                                        barrierColor: Colors.black12,
-                                        shape: const RoundedRectangleBorder(
-                                          borderRadius: BorderRadius.only(
-                                            topLeft: Radius.circular(20),
-                                            topRight: Radius.circular(20),
-                                          ),
-                                        ),
-                                        constraints: BoxConstraints(
-                                          maxHeight: MediaQuery.of(context)
-                                                  .size
-                                                  .height *
-                                              0.8,
-                                        ),
-                                        builder: (context) =>
-                                            const LyricsPage(isModal: true),
                                       );
                                     },
                                   ),

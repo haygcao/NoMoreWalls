@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/adaptive/adaptive_pop_sheet_list.dart';
 import 'package:spotube/components/dialogs/confirm_download_dialog.dart';
@@ -13,6 +14,8 @@ import 'package:spotube/provider/download_manager_provider.dart';
 import 'package:spotube/provider/history/history.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:spotube/services/base/base_models.dart';
+import 'package:spotube/services/base/collection.dart';
 
 class TrackViewBodyOptions extends HookConsumerWidget {
   const TrackViewBodyOptions({super.key});
@@ -75,11 +78,11 @@ class TrackViewBodyOptions extends HookConsumerWidget {
             {
               playlistNotifier.addTracksAtFirst(selectedTracks);
               playlistNotifier.addCollection(props.collectionId);
-              if (props.collection is AlbumSimple) {
-                historyNotifier.addAlbums([props.collection as AlbumSimple]);
+              // 使用 Collection 类型判断
+              if (props.collection.type == CollectionType.album.name) {
+                historyNotifier.addAlbums([props.collection as AlbumBase]);
               } else {
-                historyNotifier
-                    .addPlaylists([props.collection as PlaylistSimple]);
+                historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
               }
               trackViewState.deselectAll();
               break;
@@ -88,11 +91,11 @@ class TrackViewBodyOptions extends HookConsumerWidget {
             {
               playlistNotifier.addTracks(selectedTracks);
               playlistNotifier.addCollection(props.collectionId);
-              if (props.collection is AlbumSimple) {
-                historyNotifier.addAlbums([props.collection as AlbumSimple]);
+              // 使用 Collection 类型判断
+              if (props.collection.type == CollectionType.album.name) {
+                historyNotifier.addAlbums([props.collection as AlbumBase]);
               } else {
-                historyNotifier
-                    .addPlaylists([props.collection as PlaylistSimple]);
+                historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
               }
               trackViewState.deselectAll();
               break;

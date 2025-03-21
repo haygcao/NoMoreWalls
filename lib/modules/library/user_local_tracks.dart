@@ -14,16 +14,6 @@ import 'package:spotube/provider/user_preferences/user_preferences_provider.dart
 import 'package:spotube/utils/platform.dart';
 // ignore: depend_on_referenced_packages
 
-enum SortBy {
-  none,
-  ascending,
-  descending,
-  newest,
-  oldest,
-  duration,
-  artist,
-  album,
-}
 
 class UserLocalTracks extends HookConsumerWidget {
   const UserLocalTracks({super.key});

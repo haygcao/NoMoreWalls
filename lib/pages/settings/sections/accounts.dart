@@ -7,12 +7,13 @@ import 'package:spotube/modules/settings/section_card_with_heading.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/pages/profile/profile.dart';
 import 'package:spotube/pages/mobile_login/hooks/login_callback.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+import 'package:spotube/provider/spotify/authentication.dart';
 import 'package:spotube/provider/scrobbler/scrobbler.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/youtube_music/auth_provider.dart';
 import 'package:spotube/utils/service_utils.dart';
 
 class SettingsAccountSection extends HookConsumerWidget {
@@ -23,7 +24,8 @@ class SettingsAccountSection extends HookConsumerWidget {
     final theme = Theme.of(context);
     final router = GoRouter.of(context);
 
-    final auth = ref.watch(authenticationProvider);
+    final spotifyAuth = ref.watch(spotifyAuthenticationProvider);
+    final youtubeAuth = ref.watch(youtubeMusicAuthProvider);
     final scrobbler = ref.watch(scrobblerProvider);
     final me = ref.watch(meProvider);
     final meData = me.asData?.value;
@@ -33,15 +35,20 @@ class SettingsAccountSection extends HookConsumerWidget {
       foregroundColor: Colors.white,
     );
 
-    final onLogin = useLoginCallback(ref);
+    final onSpotifyLogin = useLoginCallback(ref, LoginService.spotify);
+    final onYouTubeLogin = useLoginCallback(ref, LoginService.youtubeMusic);
 
     return SectionCardWithHeading(
       heading: context.l10n.account,
       children: [
-        if (auth.asData?.value != null)
+        // Spotify 账户部分
+        if (spotifyAuth.asData?.value != null)
           ListTile(
-            leading: const Icon(SpotubeIcons.user),
-            title: Text(context.l10n.user_profile),
+            leading: const Icon(SpotubeIcons.spotify),
+            title: AutoSizeText(
+              context.l10n.user_profile,
+              maxLines: 1,
+            ),
             trailing: Padding(
               padding: const EdgeInsets.all(8.0),
               child: CircleAvatar(
@@ -55,13 +62,13 @@ class SettingsAccountSection extends HookConsumerWidget {
             onTap: () {
               ServiceUtils.pushNamed(context, ProfilePage.name);
             },
-          ),
-        if (auth.asData?.value == null)
+          )
+        else
           LayoutBuilder(builder: (context, constrains) {
             return ListTile(
-              leading: Icon(
+              leading: const Icon(
                 SpotubeIcons.spotify,
-                color: theme.colorScheme.primary,
+                color: Colors.green,
               ),
               title: Align(
                 alignment: Alignment.centerLeft,
@@ -73,49 +80,62 @@ class SettingsAccountSection extends HookConsumerWidget {
                   ),
                 ),
               ),
-              onTap: constrains.mdAndUp ? null : onLogin,
-              trailing: constrains.smAndDown
-                  ? null
-                  : FilledButton(
-                      onPressed: onLogin,
-                      style: ButtonStyle(
-                        shape: WidgetStateProperty.all(
-                          RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(25.0),
-                          ),
-                        ),
-                      ),
-                      child: Text(
-                        context.l10n.connect_with_spotify.toUpperCase(),
-                      ),
-                    ),
-            );
-          })
-        else
-          Builder(builder: (context) {
-            return ListTile(
-              leading: const Icon(SpotubeIcons.spotify),
-              title: SizedBox(
-                height: 50,
-                width: 180,
-                child: Align(
-                  alignment: Alignment.centerLeft,
-                  child: AutoSizeText(
-                    context.l10n.logout_of_this_account,
-                    maxLines: 1,
-                  ),
+              trailing: FilledButton.icon(
+                onPressed: constrains.smAndDown ? null : onSpotifyLogin,
+                icon: const Icon(SpotubeIcons.spotify),
+                label: AutoSizeText(
+                  context.l10n.connect,
+                  maxLines: 1,
                 ),
               ),
-              trailing: FilledButton(
-                style: logoutBtnStyle,
-                onPressed: () async {
-                  ref.read(authenticationProvider.notifier).logout();
-                  GoRouter.of(context).pop();
-                },
-                child: Text(context.l10n.logout),
-              ),
+              onTap: constrains.mdAndUp ? null : onSpotifyLogin,
             );
           }),
+
+        // YouTube Music 账户部分
+        if (youtubeAuth.asData?.value != null)
+          ListTile(
+            leading: const Icon(SpotubeIcons.youtube),
+            title: const AutoSizeText(
+              "YouTube Music",
+              maxLines: 1,
+            ),
+            trailing: FilledButton(
+              style: logoutBtnStyle,
+              onPressed: () {
+                ref.read(youtubeMusicAuthProvider.notifier).logout();
+              },
+              child: AutoSizeText(
+                context.l10n.logout,
+                maxLines: 1,
+              ),
+            ),
+          )
+        else
+          ListTile(
+            leading: const Icon(
+              SpotubeIcons.youtube,
+              color: Colors.red,
+            ),
+            title: const AutoSizeText(
+              "YouTube Music",
+              maxLines: 1,
+            ),
+            trailing: FilledButton.icon(
+              onPressed: onYouTubeLogin,
+              icon: const Icon(SpotubeIcons.youtube),
+              label: AutoSizeText(
+                context.l10n.connect,
+                maxLines: 1,
+              ),
+              style: FilledButton.styleFrom(
+                backgroundColor: Colors.red,
+                foregroundColor: Colors.white,
+              ),
+            ),
+          ),
+
+        // Last.fm 部分保持不变
         if (scrobbler.asData?.value == null)
           ListTile(
             leading: const Icon(SpotubeIcons.lastFm),

@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 依赖
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/utils/type/image_type.dart';
+// 添加 SourceableTrack 导入
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class SimpleTrackTile extends HookWidget {
-  final Track track;
+  // 修改类型从 Track 到 SourceableTrack
+  final SourceableTrack track;
   final VoidCallback? onDelete;
   const SimpleTrackTile({
     super.key,
@@ -21,24 +25,26 @@ class SimpleTrackTile extends HookWidget {
       leading: ClipRRect(
         borderRadius: BorderRadius.circular(8),
         child: UniversalImage(
-          path: (track.album?.images).asUrlString(
-            placeholder: ImagePlaceholder.artist,
-          ),
+          // 使用 SourceableTrack 的 thumbnailUrl 属性
+          path: track.thumbnailUrl ?? 
+              MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
           height: 40,
           width: 40,
         ),
       ),
       horizontalTitleGap: 10,
       contentPadding: const EdgeInsets.symmetric(horizontal: 8),
-      title: Text(track.name!),
+      // 使用 SourceableTrack 的 title 属性
+      title: Text(track.title),
       trailing: onDelete == null
           ? null
           : IconButton(
               icon: const Icon(SpotubeIcons.close),
               onPressed: onDelete,
             ),
+      // 使用 SourceableTrack 的 artistName 和 albumName 属性
       subtitle: Text(
-        track.artists?.map((e) => e.name).join(", ") ?? track.album?.name ?? "",
+        track.albumName != null ? "${track.artistName} • ${track.albumName}" : track.artistName,
       ),
     );
   }

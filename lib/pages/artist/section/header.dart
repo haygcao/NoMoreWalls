@@ -8,12 +8,16 @@ import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
 import 'package:spotube/hooks/utils/use_breakpoint_value.dart';
 import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+
 import 'package:spotube/provider/blacklist_provider.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/services/base/artist.dart';
+import 'package:spotube/provider/artist/artist_provider.dart';
+
+import 'package:spotube/utils/type/image_type.dart';
+import 'package:spotube/provider/music_platform.dart';
 import 'package:spotube/utils/primitive_utils.dart';
 
 class ArtistPageHeader extends HookConsumerWidget {
@@ -22,8 +26,15 @@ class ArtistPageHeader extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final artistQuery = ref.watch(artistProvider(artistId));
-    final artist = artistQuery.asData?.value ?? FakeData.artist;
+    // 使用通用艺术家提供者
+    final artistQuery = ref.watch(unifiedArtistProvider(artistId));
+    // 正确的类型声明方式
+    final Artist artist;
+    if (artistQuery.asData?.value != null) {
+      artist = artistQuery.asData!.value;
+    } else {
+      artist = FakeData.artist;
+    }
 
     final scaffoldMessenger = ScaffoldMessenger.of(context);
     final mediaQuery = MediaQuery.of(context);
@@ -39,14 +50,20 @@ class ArtistPageHeader extends HookConsumerWidget {
       xxl: textTheme.titleMedium,
     );
 
-    final auth = ref.watch(authenticationProvider);
+    // 修复 auth.asData 问题
+    final authMap = ref.watch(authenticationProvider);
+    final spotifyAuth = authMap[MusicPlatform.spotify];
+    final youtubeAuth = authMap[MusicPlatform.youtubeMusic];
+    final isAuthenticated = spotifyAuth?.asData?.value != null || youtubeAuth?.asData?.value != null;
+    
     ref.watch(blacklistProvider);
     final blacklistNotifier = ref.watch(blacklistProvider.notifier);
-    final isBlackListed = blacklistNotifier.containsArtist(artist);
+    // 使用通用艺术家模型，传入 artist.id
+    final isBlackListed = blacklistNotifier.containsArtist(artist.id);
 
-    final image = artist.images.asUrlString(
-      placeholder: ImagePlaceholder.artist,
-    );
+    // 使用 MediaImageUtils 获取图片 URL
+    final image = artist.imageUrl ?? 
+        MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.artist);
 
     return LayoutBuilder(
       builder: (context, constrains) {
@@ -89,7 +106,7 @@ class ArtistPageHeader extends HookConsumerWidget {
                             borderRadius: BorderRadius.circular(50)),
                         child: Skeleton.keep(
                           child: Text(
-                            artist.type!.toUpperCase(),
+                            "ARTIST", // 使用固定值替代 artist.type
                             style: chipTextVariant.copyWith(
                               color: Colors.white,
                             ),
@@ -115,7 +132,7 @@ class ArtistPageHeader extends HookConsumerWidget {
                     ],
                   ),
                   Text(
-                    artist.name!,
+                    artist.name,
                     style: mediaQuery.smAndDown
                         ? textTheme.headlineSmall
                         : textTheme.headlineMedium,
@@ -123,7 +140,7 @@ class ArtistPageHeader extends HookConsumerWidget {
                   Text(
                     context.l10n.followers(
                       PrimitiveUtils.toReadableNumber(
-                        artist.followers!.total!.toDouble(),
+                        artist.platformMetadata?['followers']?.toDouble() ?? 0,
                       ),
                     ),
                     style: textTheme.bodyMedium?.copyWith(
@@ -135,13 +152,15 @@ class ArtistPageHeader extends HookConsumerWidget {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        if (auth.asData?.value != null)
+                        if (isAuthenticated)
                           Consumer(
                             builder: (context, ref, _) {
+                              // 使用通用关注艺术家提供者
                               final isFollowingQuery = ref
-                                  .watch(artistIsFollowingProvider(artist.id!));
+                                  .watch(isArtistFollowedProvider(artist.id));
+                              // 使用正确的提供者
                               final followingArtistNotifier =
-                                  ref.watch(followedArtistsProvider.notifier);
+                                  ref.watch(followedArtistsNotifierProvider.notifier);
 
                               return switch (isFollowingQuery) {
                                 AsyncData(value: final following) => Builder(
@@ -150,7 +169,7 @@ class ArtistPageHeader extends HookConsumerWidget {
                                         return OutlinedButton(
                                           onPressed: () async {
                                             await followingArtistNotifier
-                                                .removeArtists([artist.id!]);
+                                                .unfollowArtist(artist.id);
                                           },
                                           child: Text(context.l10n.following),
                                         );
@@ -159,7 +178,7 @@ class ArtistPageHeader extends HookConsumerWidget {
                                       return FilledButton(
                                         onPressed: () async {
                                           await followingArtistNotifier
-                                              .saveArtists([artist.id!]);
+                                              .followArtist(artist.id);
                                         },
                                         child: Text(context.l10n.follow),
                                       );
@@ -189,12 +208,12 @@ class ArtistPageHeader extends HookConsumerWidget {
                             if (isBlackListed) {
                               await ref
                                   .read(blacklistProvider.notifier)
-                                  .remove(artist.id!);
+                                  .remove(artist.id);
                             } else {
                               await ref.read(blacklistProvider.notifier).add(
                                     BlacklistTableCompanion.insert(
-                                      name: artist.name!,
-                                      elementId: artist.id!,
+                                      name: artist.name,
+                                      elementId: artist.id,
                                       elementType: BlacklistedType.artist,
                                     ),
                                   );
@@ -204,13 +223,13 @@ class ArtistPageHeader extends HookConsumerWidget {
                         IconButton(
                           icon: const Icon(SpotubeIcons.share),
                           onPressed: () async {
-                            if (artist.externalUrls?.spotify != null) {
-                              await Clipboard.setData(
-                                ClipboardData(
-                                  text: artist.externalUrls!.spotify!,
-                                ),
-                              );
-                            }
+                            // 使用通用分享 URL
+                            final shareUrl = _getShareUrl(artist);
+                            await Clipboard.setData(
+                              ClipboardData(
+                                text: shareUrl,
+                              ),
+                            );
 
                             if (!context.mounted) return;
 
@@ -236,5 +255,18 @@ class ArtistPageHeader extends HookConsumerWidget {
         );
       },
     );
+  }
+  
+  // 根据艺术家类型获取分享 URL
+  String _getShareUrl(Artist artist) {
+    // 检查是否是 YouTube Music 艺术家
+    if (artist.platformMetadata['type'] == 'youtube_music') {
+      return artist.platformMetadata['externalUrls']?['youtube'] ?? 
+             "https://music.youtube.com/channel/${artist.id}";
+    }
+    
+    // 默认为 Spotify 艺术家
+    return artist.platformMetadata['externalUrls']?['spotify'] ?? 
+           "https://open.spotify.com/artist/${artist.id}";
   }
 }

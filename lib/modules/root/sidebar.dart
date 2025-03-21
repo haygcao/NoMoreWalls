@@ -14,19 +14,21 @@ import 'package:spotube/modules/connect/connect_device.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+
 import 'package:spotube/hooks/utils/use_brightness_value.dart';
 import 'package:spotube/hooks/controllers/use_sidebarx_controller.dart';
-import 'package:spotube/pages/profile/profile.dart';
-import 'package:spotube/pages/settings/settings.dart';
+
+import 'package:spotube/provider/authentication/authentication_provider.dart';
 import 'package:spotube/provider/download_manager_provider.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/music_platform.dart';
 
+import 'package:spotube/provider/user/user_provider.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-
 import 'package:spotube/utils/platform.dart';
-import 'package:spotube/utils/service_utils.dart';
+// 移除 ServiceUtils 导入
+// import 'package:spotube/utils/service_utils.dart';
+// 添加 NavigationService 导入
+import 'package:spotube/services/navigation/navigation_service.dart';
 import 'package:window_manager/window_manager.dart';
 
 class Sidebar extends HookConsumerWidget {
@@ -100,7 +102,9 @@ class Sidebar extends HookConsumerWidget {
         (mediaQuery.smAndDown && layoutMode == LayoutMode.adaptive)) {
       return Scaffold(body: child);
     }
-
+    // 获取导航服务
+    final navigationService = ref.watch(navigationServiceProvider);
+    
     return Row(
       children: [
         SafeArea(
@@ -241,20 +245,25 @@ class SidebarFooter extends HookConsumerWidget {
   Widget build(BuildContext context, ref) {
     final theme = Theme.of(context);
     final mediaQuery = MediaQuery.of(context);
-    final me = ref.watch(meProvider);
-    final data = me.asData?.value;
+    // 获取当前平台
+    final currentPlatform = ref.watch(currentMusicPlatformProvider);
+    // 使用通用用户提供者
+    final currentUser = ref.watch(currentUserProvider);
+    final userData = currentUser.asData?.value;
 
-    final avatarImg = (data?.images).asUrlString(
-      index: (data?.images?.length ?? 1) - 1,
-      placeholder: ImagePlaceholder.artist,
-    );
+    // 使用通用图片工具获取头像
+    final avatarImg = userData?.imageUrl ?? Assets.userPlaceholder.path;
 
     final auth = ref.watch(authenticationProvider);
+    
+    // 获取导航服务
+    final navigationService = ref.watch(navigationServiceProvider);
 
     if (mediaQuery.mdAndDown) {
       return IconButton(
         icon: const Icon(SpotubeIcons.settings),
-        onPressed: () => ServiceUtils.navigateNamed(context, SettingsPage.name),
+        // 修正：使用正确的导航方法
+        onPressed: () => navigationService.navigateToSettings(),
       );
     }
 
@@ -269,13 +278,15 @@ class SidebarFooter extends HookConsumerWidget {
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              if (auth.asData?.value != null && data == null)
+              // 修正：根据当前平台检查认证状态
+              if (auth[currentPlatform]?.asData?.value != null && userData == null)
                 const CircularProgressIndicator()
-              else if (data != null)
+              else if (userData != null)
                 Flexible(
                   child: InkWell(
                     onTap: () {
-                      ServiceUtils.pushNamed(context, ProfilePage.name);
+                      // 修正：使用正确的导航方法
+                      navigationService.navigateToProfile();
                     },
                     borderRadius: BorderRadius.circular(30),
                     child: Row(
@@ -292,7 +303,7 @@ class SidebarFooter extends HookConsumerWidget {
                         const SizedBox(width: 10),
                         Flexible(
                           child: Text(
-                            data.displayName ?? context.l10n.guest,
+                            userData.name ?? context.l10n.guest,
                             maxLines: 1,
                             softWrap: false,
                             overflow: TextOverflow.fade,
@@ -307,7 +318,8 @@ class SidebarFooter extends HookConsumerWidget {
               IconButton(
                 icon: const Icon(SpotubeIcons.settings),
                 onPressed: () {
-                  ServiceUtils.pushNamed(context, SettingsPage.name);
+                  // 修正：使用正确的导航方法
+                  navigationService.navigateToSettings();
                 },
               ),
             ],

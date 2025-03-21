@@ -39,8 +39,12 @@ mixin _$UserPreferences {
       fromJson: UserPreferences._localeFromJson,
       toJson: UserPreferences._localeToJson,
       readValue: UserPreferences._localeReadValue)
-  Locale get locale => throw _privateConstructorUsedError;
-  Market get recommendationMarket => throw _privateConstructorUsedError;
+  Locale get locale =>
+      throw _privateConstructorUsedError; // 使用字符串存储市场代码，而不是直接使用 Market 或 AppMarket 类型
+  @JsonKey(
+      fromJson: UserPreferences._marketFromJson,
+      toJson: UserPreferences._marketToJson)
+  String get market => throw _privateConstructorUsedError;
   SearchMode get searchMode => throw _privateConstructorUsedError;
   String get downloadLocation => throw _privateConstructorUsedError;
   List<String> get localLibraryLocation => throw _privateConstructorUsedError;
@@ -90,7 +94,10 @@ abstract class $UserPreferencesCopyWith<$Res> {
           toJson: UserPreferences._localeToJson,
           readValue: UserPreferences._localeReadValue)
       Locale locale,
-      Market recommendationMarket,
+      @JsonKey(
+          fromJson: UserPreferences._marketFromJson,
+          toJson: UserPreferences._marketToJson)
+      String market,
       SearchMode searchMode,
       String downloadLocation,
       List<String> localLibraryLocation,
@@ -131,7 +138,7 @@ class _$UserPreferencesCopyWithImpl<$Res, $Val extends UserPreferences>
     Object? accentColorScheme = null,
     Object? layoutMode = null,
     Object? locale = null,
-    Object? recommendationMarket = null,
+    Object? market = null,
     Object? searchMode = null,
     Object? downloadLocation = null,
     Object? localLibraryLocation = null,
@@ -193,10 +200,10 @@ class _$UserPreferencesCopyWithImpl<$Res, $Val extends UserPreferences>
           ? _value.locale
           : locale // ignore: cast_nullable_to_non_nullable
               as Locale,
-      recommendationMarket: null == recommendationMarket
-          ? _value.recommendationMarket
-          : recommendationMarket // ignore: cast_nullable_to_non_nullable
-              as Market,
+      market: null == market
+          ? _value.market
+          : market // ignore: cast_nullable_to_non_nullable
+              as String,
       searchMode: null == searchMode
           ? _value.searchMode
           : searchMode // ignore: cast_nullable_to_non_nullable
@@ -274,7 +281,10 @@ abstract class _$$UserPreferencesImplCopyWith<$Res>
           toJson: UserPreferences._localeToJson,
           readValue: UserPreferences._localeReadValue)
       Locale locale,
-      Market recommendationMarket,
+      @JsonKey(
+          fromJson: UserPreferences._marketFromJson,
+          toJson: UserPreferences._marketToJson)
+      String market,
       SearchMode searchMode,
       String downloadLocation,
       List<String> localLibraryLocation,
@@ -313,7 +323,7 @@ class __$$UserPreferencesImplCopyWithImpl<$Res>
     Object? accentColorScheme = null,
     Object? layoutMode = null,
     Object? locale = null,
-    Object? recommendationMarket = null,
+    Object? market = null,
     Object? searchMode = null,
     Object? downloadLocation = null,
     Object? localLibraryLocation = null,
@@ -375,10 +385,10 @@ class __$$UserPreferencesImplCopyWithImpl<$Res>
           ? _value.locale
           : locale // ignore: cast_nullable_to_non_nullable
               as Locale,
-      recommendationMarket: null == recommendationMarket
-          ? _value.recommendationMarket
-          : recommendationMarket // ignore: cast_nullable_to_non_nullable
-              as Market,
+      market: null == market
+          ? _value.market
+          : market // ignore: cast_nullable_to_non_nullable
+              as String,
       searchMode: null == searchMode
           ? _value.searchMode
           : searchMode // ignore: cast_nullable_to_non_nullable
@@ -451,7 +461,10 @@ class _$UserPreferencesImpl implements _UserPreferences {
           toJson: UserPreferences._localeToJson,
           readValue: UserPreferences._localeReadValue)
       this.locale = const Locale("system", "system"),
-      this.recommendationMarket = Market.US,
+      @JsonKey(
+          fromJson: UserPreferences._marketFromJson,
+          toJson: UserPreferences._marketToJson)
+      this.market = "US",
       this.searchMode = SearchMode.youtube,
       this.downloadLocation = "",
       final List<String> localLibraryLocation = const [],
@@ -510,9 +523,12 @@ class _$UserPreferencesImpl implements _UserPreferences {
       toJson: UserPreferences._localeToJson,
       readValue: UserPreferences._localeReadValue)
   final Locale locale;
+// 使用字符串存储市场代码，而不是直接使用 Market 或 AppMarket 类型
   @override
-  @JsonKey()
-  final Market recommendationMarket;
+  @JsonKey(
+      fromJson: UserPreferences._marketFromJson,
+      toJson: UserPreferences._marketToJson)
+  final String market;
   @override
   @JsonKey()
   final SearchMode searchMode;
@@ -556,7 +572,7 @@ class _$UserPreferencesImpl implements _UserPreferences {
 
   @override
   String toString() {
-    return 'UserPreferences(audioQuality: $audioQuality, albumColorSync: $albumColorSync, amoledDarkTheme: $amoledDarkTheme, checkUpdate: $checkUpdate, normalizeAudio: $normalizeAudio, showSystemTrayIcon: $showSystemTrayIcon, skipNonMusic: $skipNonMusic, systemTitleBar: $systemTitleBar, closeBehavior: $closeBehavior, accentColorScheme: $accentColorScheme, layoutMode: $layoutMode, locale: $locale, recommendationMarket: $recommendationMarket, searchMode: $searchMode, downloadLocation: $downloadLocation, localLibraryLocation: $localLibraryLocation, pipedInstance: $pipedInstance, themeMode: $themeMode, audioSource: $audioSource, streamMusicCodec: $streamMusicCodec, downloadMusicCodec: $downloadMusicCodec, discordPresence: $discordPresence, endlessPlayback: $endlessPlayback, enableConnect: $enableConnect)';
+    return 'UserPreferences(audioQuality: $audioQuality, albumColorSync: $albumColorSync, amoledDarkTheme: $amoledDarkTheme, checkUpdate: $checkUpdate, normalizeAudio: $normalizeAudio, showSystemTrayIcon: $showSystemTrayIcon, skipNonMusic: $skipNonMusic, systemTitleBar: $systemTitleBar, closeBehavior: $closeBehavior, accentColorScheme: $accentColorScheme, layoutMode: $layoutMode, locale: $locale, market: $market, searchMode: $searchMode, downloadLocation: $downloadLocation, localLibraryLocation: $localLibraryLocation, pipedInstance: $pipedInstance, themeMode: $themeMode, audioSource: $audioSource, streamMusicCodec: $streamMusicCodec, downloadMusicCodec: $downloadMusicCodec, discordPresence: $discordPresence, endlessPlayback: $endlessPlayback, enableConnect: $enableConnect)';
   }
 
   @override
@@ -587,8 +603,7 @@ class _$UserPreferencesImpl implements _UserPreferences {
             (identical(other.layoutMode, layoutMode) ||
                 other.layoutMode == layoutMode) &&
             (identical(other.locale, locale) || other.locale == locale) &&
-            (identical(other.recommendationMarket, recommendationMarket) ||
-                other.recommendationMarket == recommendationMarket) &&
+            (identical(other.market, market) || other.market == market) &&
             (identical(other.searchMode, searchMode) ||
                 other.searchMode == searchMode) &&
             (identical(other.downloadLocation, downloadLocation) ||
@@ -629,7 +644,7 @@ class _$UserPreferencesImpl implements _UserPreferences {
         accentColorScheme,
         layoutMode,
         locale,
-        recommendationMarket,
+        market,
         searchMode,
         downloadLocation,
         const DeepCollectionEquality().hash(_localLibraryLocation),
@@ -682,7 +697,10 @@ abstract class _UserPreferences implements UserPreferences {
           toJson: UserPreferences._localeToJson,
           readValue: UserPreferences._localeReadValue)
       final Locale locale,
-      final Market recommendationMarket,
+      @JsonKey(
+          fromJson: UserPreferences._marketFromJson,
+          toJson: UserPreferences._marketToJson)
+      final String market,
       final SearchMode searchMode,
       final String downloadLocation,
       final List<String> localLibraryLocation,
@@ -729,9 +747,12 @@ abstract class _UserPreferences implements UserPreferences {
       fromJson: UserPreferences._localeFromJson,
       toJson: UserPreferences._localeToJson,
       readValue: UserPreferences._localeReadValue)
-  Locale get locale;
+  Locale get locale; // 使用字符串存储市场代码，而不是直接使用 Market 或 AppMarket 类型
   @override
-  Market get recommendationMarket;
+  @JsonKey(
+      fromJson: UserPreferences._marketFromJson,
+      toJson: UserPreferences._marketToJson)
+  String get market;
   @override
   SearchMode get searchMode;
   @override
@@ -783,23 +804,23 @@ mixin _$PlaybackHistoryItem {
   DateTime get date => throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistSimple playlist) playlist,
-    required TResult Function(DateTime date, AlbumSimple album) album,
-    required TResult Function(DateTime date, Track track) track,
+    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
+    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(DateTime date, BaseTrack track) track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult? Function(DateTime date, AlbumSimple album)? album,
-    TResult? Function(DateTime date, Track track)? track,
+    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(DateTime date, BaseTrack track)? track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult Function(DateTime date, AlbumSimple album)? album,
-    TResult Function(DateTime date, Track track)? track,
+    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -880,7 +901,7 @@ abstract class _$$PlaybackHistoryPlaylistImplCopyWith<$Res>
       __$$PlaybackHistoryPlaylistImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, PlaylistSimple playlist});
+  $Res call({DateTime date, PlaylistBase playlist});
 }
 
 /// @nodoc
@@ -909,7 +930,7 @@ class __$$PlaybackHistoryPlaylistImplCopyWithImpl<$Res>
       playlist: null == playlist
           ? _value.playlist
           : playlist // ignore: cast_nullable_to_non_nullable
-              as PlaylistSimple,
+              as PlaylistBase,
     ));
   }
 }
@@ -927,7 +948,7 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   final DateTime date;
   @override
-  final PlaylistSimple playlist;
+  final PlaylistBase playlist;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
@@ -963,9 +984,9 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistSimple playlist) playlist,
-    required TResult Function(DateTime date, AlbumSimple album) album,
-    required TResult Function(DateTime date, Track track) track,
+    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
+    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return playlist(date, this.playlist);
   }
@@ -973,9 +994,9 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult? Function(DateTime date, AlbumSimple album)? album,
-    TResult? Function(DateTime date, Track track)? track,
+    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return playlist?.call(date, this.playlist);
   }
@@ -983,9 +1004,9 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult Function(DateTime date, AlbumSimple album)? album,
-    TResult Function(DateTime date, Track track)? track,
+    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {
     if (playlist != null) {
@@ -1039,14 +1060,14 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
 abstract class PlaybackHistoryPlaylist implements PlaybackHistoryItem {
   factory PlaybackHistoryPlaylist(
       {required final DateTime date,
-      required final PlaylistSimple playlist}) = _$PlaybackHistoryPlaylistImpl;
+      required final PlaylistBase playlist}) = _$PlaybackHistoryPlaylistImpl;
 
   factory PlaybackHistoryPlaylist.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryPlaylistImpl.fromJson;
 
   @override
   DateTime get date;
-  PlaylistSimple get playlist;
+  PlaylistBase get playlist;
 
   /// Create a copy of PlaybackHistoryItem
   /// with the given fields replaced by the non-null parameter values.
@@ -1064,7 +1085,7 @@ abstract class _$$PlaybackHistoryAlbumImplCopyWith<$Res>
       __$$PlaybackHistoryAlbumImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, AlbumSimple album});
+  $Res call({DateTime date, AlbumBase album});
 }
 
 /// @nodoc
@@ -1091,7 +1112,7 @@ class __$$PlaybackHistoryAlbumImplCopyWithImpl<$Res>
       album: null == album
           ? _value.album
           : album // ignore: cast_nullable_to_non_nullable
-              as AlbumSimple,
+              as AlbumBase,
     ));
   }
 }
@@ -1109,7 +1130,7 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   final DateTime date;
   @override
-  final AlbumSimple album;
+  final AlbumBase album;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
@@ -1145,9 +1166,9 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistSimple playlist) playlist,
-    required TResult Function(DateTime date, AlbumSimple album) album,
-    required TResult Function(DateTime date, Track track) track,
+    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
+    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return album(date, this.album);
   }
@@ -1155,9 +1176,9 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult? Function(DateTime date, AlbumSimple album)? album,
-    TResult? Function(DateTime date, Track track)? track,
+    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return album?.call(date, this.album);
   }
@@ -1165,9 +1186,9 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult Function(DateTime date, AlbumSimple album)? album,
-    TResult Function(DateTime date, Track track)? track,
+    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {
     if (album != null) {
@@ -1221,14 +1242,14 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
 abstract class PlaybackHistoryAlbum implements PlaybackHistoryItem {
   factory PlaybackHistoryAlbum(
       {required final DateTime date,
-      required final AlbumSimple album}) = _$PlaybackHistoryAlbumImpl;
+      required final AlbumBase album}) = _$PlaybackHistoryAlbumImpl;
 
   factory PlaybackHistoryAlbum.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryAlbumImpl.fromJson;
 
   @override
   DateTime get date;
-  AlbumSimple get album;
+  AlbumBase get album;
 
   /// Create a copy of PlaybackHistoryItem
   /// with the given fields replaced by the non-null parameter values.
@@ -1246,7 +1267,7 @@ abstract class _$$PlaybackHistoryTrackImplCopyWith<$Res>
       __$$PlaybackHistoryTrackImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, Track track});
+  $Res call({DateTime date, BaseTrack track});
 }
 
 /// @nodoc
@@ -1273,7 +1294,7 @@ class __$$PlaybackHistoryTrackImplCopyWithImpl<$Res>
       track: null == track
           ? _value.track
           : track // ignore: cast_nullable_to_non_nullable
-              as Track,
+              as BaseTrack,
     ));
   }
 }
@@ -1291,7 +1312,7 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   final DateTime date;
   @override
-  final Track track;
+  final BaseTrack track;
 
   @JsonKey(name: 'runtimeType')
   final String $type;
@@ -1327,9 +1348,9 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistSimple playlist) playlist,
-    required TResult Function(DateTime date, AlbumSimple album) album,
-    required TResult Function(DateTime date, Track track) track,
+    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
+    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return track(date, this.track);
   }
@@ -1337,9 +1358,9 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult? Function(DateTime date, AlbumSimple album)? album,
-    TResult? Function(DateTime date, Track track)? track,
+    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return track?.call(date, this.track);
   }
@@ -1347,9 +1368,9 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistSimple playlist)? playlist,
-    TResult Function(DateTime date, AlbumSimple album)? album,
-    TResult Function(DateTime date, Track track)? track,
+    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
+    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {
     if (track != null) {
@@ -1403,14 +1424,14 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
 abstract class PlaybackHistoryTrack implements PlaybackHistoryItem {
   factory PlaybackHistoryTrack(
       {required final DateTime date,
-      required final Track track}) = _$PlaybackHistoryTrackImpl;
+      required final BaseTrack track}) = _$PlaybackHistoryTrackImpl;
 
   factory PlaybackHistoryTrack.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryTrackImpl.fromJson;
 
   @override
   DateTime get date;
-  Track get track;
+  BaseTrack get track;
 
   /// Create a copy of PlaybackHistoryItem
   /// with the given fields replaced by the non-null parameter values.

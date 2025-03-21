@@ -52,6 +52,7 @@ class Assets {
   static const AssetGenImage emptyBox = AssetGenImage('assets/empty_box.png');
   static const AssetGenImage invidious = AssetGenImage('assets/invidious.jpg');
   static const AssetGenImage jiosaavn = AssetGenImage('assets/jiosaavn.png');
+  static const AssetGenImage sounndcloud = AssetGenImage('assets/soundcloud.png');  
   static const AssetGenImage likedTracks =
       AssetGenImage('assets/liked-tracks.jpg');
   static const $AssetsLogosGen logos = $AssetsLogosGen();
@@ -61,6 +62,8 @@ class Assets {
       AssetGenImage('assets/spotube-hero-banner.png');
   static const AssetGenImage spotubeLogoForeground =
       AssetGenImage('assets/spotube-logo-foreground.jpg');
+  static const AssetGenImage spotubeLogoMacos =
+      AssetGenImage('assets/spotube-logo-macos.png');
   static const AssetGenImage spotubeLogoBmp =
       AssetGenImage('assets/spotube-logo.bmp');
   static const String spotubeLogoIco = 'assets/spotube-logo.ico';
@@ -104,6 +107,7 @@ class Assets {
         placeholder,
         spotubeHeroBanner,
         spotubeLogoForeground,
+        spotubeLogoMacos,
         spotubeLogoBmp,
         spotubeLogoIco,
         spotubeLogoPng,

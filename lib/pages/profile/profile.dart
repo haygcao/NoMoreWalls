@@ -10,7 +10,7 @@ import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

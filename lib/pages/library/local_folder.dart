@@ -11,21 +11,22 @@ import 'package:skeletonizer/skeletonizer.dart';
 import 'package:spotube/collections/fake.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/extensions/string.dart';
+import 'package:spotube/provider/spotify/utils/sort_by.dart';
 import 'package:spotube/modules/library/local_folder/cache_export_dialog.dart';
-import 'package:spotube/modules/library/user_local_tracks.dart';
+
 import 'package:spotube/components/expandable_search/expandable_search.dart';
 import 'package:spotube/components/fallbacks/not_found.dart';
 import 'package:spotube/components/inter_scrollbar/inter_scrollbar.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/components/sort_tracks_dropdown.dart';
 import 'package:spotube/components/track_tile/track_tile.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/models/local_track.dart';
 import 'package:spotube/provider/local_tracks/local_tracks_provider.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
-import 'package:spotube/utils/service_utils.dart';
+
 
 class LocalLibraryPage extends HookConsumerWidget {
   static const name = "local_library_page";
@@ -250,7 +251,9 @@ class LocalLibraryPage extends HookConsumerWidget {
                     SortTracksDropdown(
                       value: sortBy.value,
                       onChanged: (value) {
-                        sortBy.value = value;
+                        if (value != null) {
+                          sortBy.value = value as SortBy;
+                        }
                       },
                     ),
                     const SizedBox(width: 5),
@@ -272,8 +275,27 @@ class LocalLibraryPage extends HookConsumerWidget {
               trackSnapshot.when(
                 data: (tracks) {
                   final sortedTracks = useMemoized(() {
-                    return ServiceUtils.sortTracks(
-                        tracks[location] ?? <LocalTrack>[], sortBy.value);
+                    final tracksToSort = tracks[location] ?? <LocalTrack>[];
+                    return List<LocalTrack>.from(tracksToSort)
+                      ..sort((a, b) {
+                        switch (sortBy.value) {
+                          case SortBy.ascending:
+                            return a.title.compareTo(b.title);
+                          case SortBy.descending:
+                            return b.title.compareTo(a.title);
+                          case SortBy.duration:
+                            return (a.duration)
+                                .compareTo(b.duration);
+                          case SortBy.artist:
+                            return (a.artistName)
+                                .compareTo(b.artistName);
+                          case SortBy.album:
+                            return (a.albumName ?? '')
+                                .compareTo(b.albumName ?? '');
+                          default:
+                            return 0;
+                        }
+                      });
                   }, [sortBy.value, tracks]);
 
                   final filteredTracks = useMemoized(() {
@@ -283,7 +305,7 @@ class LocalLibraryPage extends HookConsumerWidget {
                     return sortedTracks
                         .map((e) => (
                               weightedRatio(
-                                "${e.name} - ${e.artists?.asString() ?? ""}",
+                                "${e.title} - ${e.artistName}",
                                 searchController.text,
                               ),
                               e,
@@ -294,7 +316,6 @@ class LocalLibraryPage extends HookConsumerWidget {
                         )
                         .where((e) => e.$1 > 50)
                         .map((e) => e.$2)
-                        .toList()
                         .toList();
                   }, [searchController.text, sortedTracks]);
 

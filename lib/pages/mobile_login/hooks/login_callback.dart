@@ -8,15 +8,25 @@ import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:spotube/services/cookie/cookie_manager.dart';
+import 'package:spotube/provider/spotify/authentication.dart';
+import 'package:spotube/provider/youtube_music/auth_provider.dart';
+
 import 'package:spotube/pages/mobile_login/mobile_login.dart';
 import 'package:spotube/pages/mobile_login/no_webview_runtime_dialog.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/utils/platform.dart';
 
-Future<void> Function() useLoginCallback(WidgetRef ref) {
+import 'package:spotube/utils/platform.dart';
+enum LoginService {
+  spotify,
+  youtubeMusic
+}
+
+Future<void> Function() useLoginCallback(WidgetRef ref, LoginService service) {
   final context = useContext();
   final theme = Theme.of(context);
-  final authNotifier = ref.read(authenticationProvider.notifier);
+  final spotifyAuthNotifier = ref.read(authenticationProvider.notifier);
+  final youtubeAuthNotifier = ref.read(youtubeMusicAuthProvider.notifier);
+  final cookieManager = CookieManager();
 
   return useCallback(() async {
     if (kIsMobile || kIsMacOS) {
@@ -25,7 +35,7 @@ Future<void> Function() useLoginCallback(WidgetRef ref) {
     }
 
     try {
-      final exp = RegExp(r"https:\/\/accounts.spotify.com\/.+\/status");
+      final config = _getServiceConfig(service);
       final applicationSupportDir = await getApplicationSupportDirectory();
       final userDataFolder = Directory(
           join(applicationSupportDir.path, "webview_window_Webview2"));
@@ -36,23 +46,38 @@ Future<void> Function() useLoginCallback(WidgetRef ref) {
 
       final webview = await WebviewWindow.create(
         configuration: CreateConfiguration(
-          title: "Spotify Login",
+          title: config.title,
           titleBarTopPadding: kIsMacOS ? 20 : 0,
           windowHeight: 720,
           windowWidth: 1280,
           userDataFolderWindows: userDataFolder.path,
         ),
       );
+
       webview
         ..setBrightness(theme.colorScheme.brightness)
-        ..launch("https://accounts.spotify.com/")
+        ..launch(config.url)
         ..setOnUrlRequestCallback((url) {
-          if (exp.hasMatch(url)) {
+          if (config.urlPattern.hasMatch(url)) {
             webview.getAllCookies().then((cookies) async {
-              final cookieHeader =
-                  "sp_dc=${cookies.firstWhere((element) => element.name.contains("sp_dc")).value.replaceAll("\u0000", "")}";
+              final cookieMap = {
+                for (var cookie in cookies)
+                  cookie.name: cookie.value.replaceAll("\u0000", "")
+              };
 
-              await authNotifier.login(cookieHeader);
+              // 保存 cookies 到统一管理器
+              await cookieManager.saveCookies(
+                service == LoginService.spotify ? 'spotify' : 'youtube_music',
+                cookieMap
+              );
+
+              // 根据服务类型调用对应的登录处理
+              if (service == LoginService.spotify) {
+                final cookieHeader = "sp_dc=${cookieMap['sp_dc']}";
+                await spotifyAuthNotifier.login(cookieHeader);
+              } else {
+                await youtubeAuthNotifier.login(cookieMap);
+              }
 
               webview.close();
               if (context.mounted) {
@@ -60,7 +85,6 @@ Future<void> Function() useLoginCallback(WidgetRef ref) {
               }
             });
           }
-
           return true;
         });
     } on PlatformException catch (_) {
@@ -68,12 +92,39 @@ Future<void> Function() useLoginCallback(WidgetRef ref) {
         WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
           showDialog(
             context: context,
-            builder: (context) {
-              return const NoWebviewRuntimeDialog();
-            },
+            builder: (context) => const NoWebviewRuntimeDialog(),
           );
         });
       }
     }
-  }, [authNotifier, theme, context.go, context.pushNamed]);
+  }, [service, cookieManager, spotifyAuthNotifier, youtubeAuthNotifier, theme, context.go]);
+}
+
+class _ServiceConfig {
+  final String title;
+  final String url;
+  final RegExp urlPattern;
+
+  const _ServiceConfig({
+    required this.title,
+    required this.url,
+    required this.urlPattern,
+  });
+}
+
+_ServiceConfig _getServiceConfig(LoginService service) {
+  switch (service) {
+    case LoginService.spotify:
+      return _ServiceConfig(
+        title: "Spotify Login",
+        url: "https://accounts.spotify.com/",
+        urlPattern: RegExp(r"https:\/\/accounts.spotify.com\/.+\/status"),
+      );
+    case LoginService.youtubeMusic:
+      return _ServiceConfig(
+        title: "YouTube Music Login",
+        url: "https://music.youtube.com",
+        urlPattern: RegExp(r"https:\/\/music\.youtube\.com"),
+      );
+  }
 }

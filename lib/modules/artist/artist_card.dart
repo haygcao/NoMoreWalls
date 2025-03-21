@@ -3,15 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 
-import 'package:spotify/spotify.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/services/base/artist.dart';
+// 移除 Spotify 图片扩展
+// import 'package:spotube/extensions/spotify/image.dart';
+// 添加通用图片类型
+import 'package:spotube/utils/type/image_type.dart';
 import 'package:spotube/hooks/utils/use_breakpoint_value.dart';
 import 'package:spotube/hooks/utils/use_brightness_value.dart';
-import 'package:spotube/pages/artist/artist.dart';
 import 'package:spotube/provider/blacklist_provider.dart';
-import 'package:spotube/utils/service_utils.dart';
+
+import 'package:spotube/services/navigation/navigation_service.dart';
 
 class ArtistCard extends HookConsumerWidget {
   final Artist artist;
@@ -20,11 +23,13 @@ class ArtistCard extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     final theme = Theme.of(context);
+    final navigationService = ref.watch(navigationServiceProvider);
+    
+    // 使用 MediaImageUtils 替代 Spotify 特定的图片处理
     final backgroundImage = UniversalImage.imageProvider(
-      artist.images.asUrlString(
-        placeholder: ImagePlaceholder.artist,
-      ),
+      artist.imageUrl ?? MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.artist),
     );
+    
     final isBlackListed = ref.watch(
       blacklistProvider.select(
         (blacklist) => blacklist.asData?.value.any(
@@ -64,13 +69,8 @@ class ArtistCard extends HookConsumerWidget {
         ),
         child: InkWell(
             onTap: () {
-              ServiceUtils.pushNamed(
-                context,
-                ArtistPage.name,
-                pathParameters: {
-                  "id": artist.id!,
-                },
-              );
+              // 使用 NavigationService 导航到艺术家页面
+              navigationService.navigateToArtist(artist.id!);
             },
             borderRadius: radius,
             child: Padding(

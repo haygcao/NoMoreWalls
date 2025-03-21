@@ -5,7 +5,8 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:palette_generator/palette_generator.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/dialogs/select_device_dialog.dart';
 import 'package:spotube/components/tracks_view/track_view_props.dart';
@@ -15,6 +16,8 @@ import 'package:spotube/provider/connect/connect.dart';
 import 'package:spotube/provider/history/history.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/services/audio_player/audio_player.dart';
+import 'package:spotube/services/base/base_models.dart';
+import 'package:spotube/services/base/collection.dart';
 
 class TrackViewHeaderButtons extends HookConsumerWidget {
   final PaletteColor color;
@@ -55,14 +58,14 @@ class TrackViewHeaderButtons extends HookConsumerWidget {
           final allTracks = await props.pagination.onFetchAll();
           final remotePlayback = ref.read(connectProvider.notifier);
           await remotePlayback.load(
-            props.collection is AlbumSimple
+            props.collection.type == CollectionType.album.name
                 ? WebSocketLoadEventData.album(
                     tracks: allTracks,
-                    collection: props.collection as AlbumSimple,
+                    collection: props.collection as AlbumBase,
                     initialIndex: Random().nextInt(allTracks.length))
                 : WebSocketLoadEventData.playlist(
                     tracks: allTracks,
-                    collection: props.collection as PlaylistSimple,
+                    collection: props.collection as PlaylistCollection,
                     initialIndex: Random().nextInt(allTracks.length),
                   ),
           );
@@ -75,10 +78,10 @@ class TrackViewHeaderButtons extends HookConsumerWidget {
           );
           await audioPlayer.setShuffle(true);
           playlistNotifier.addCollection(props.collectionId);
-          if (props.collection is AlbumSimple) {
-            historyNotifier.addAlbums([props.collection as AlbumSimple]);
+          if (props.collection.type == CollectionType.album.name) {
+            historyNotifier.addAlbums([props.collection as AlbumBase]);
           } else {
-            historyNotifier.addPlaylists([props.collection as PlaylistSimple]);
+            historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
           }
 
           final allTracks = await props.pagination.onFetchAll();
@@ -105,23 +108,23 @@ class TrackViewHeaderButtons extends HookConsumerWidget {
           final allTracks = await props.pagination.onFetchAll();
           final remotePlayback = ref.read(connectProvider.notifier);
           await remotePlayback.load(
-            props.collection is AlbumSimple
+            props.collection.type == CollectionType.album.name
                 ? WebSocketLoadEventData.album(
                     tracks: allTracks,
-                    collection: props.collection as AlbumSimple,
+                    collection: props.collection as AlbumBase,
                   )
                 : WebSocketLoadEventData.playlist(
                     tracks: allTracks,
-                    collection: props.collection as PlaylistSimple,
+                    collection: props.collection as PlaylistCollection,
                   ),
           );
         } else {
           await playlistNotifier.load(initialTracks, autoPlay: true);
           playlistNotifier.addCollection(props.collectionId);
-          if (props.collection is AlbumSimple) {
-            historyNotifier.addAlbums([props.collection as AlbumSimple]);
+          if (props.collection.type == CollectionType.album.name) {
+            historyNotifier.addAlbums([props.collection as AlbumBase]);
           } else {
-            historyNotifier.addPlaylists([props.collection as PlaylistSimple]);
+            historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
           }
 
           final allTracks = await props.pagination.onFetchAll();

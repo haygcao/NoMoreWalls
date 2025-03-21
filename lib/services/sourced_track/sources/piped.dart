@@ -2,20 +2,24 @@ import 'package:collection/collection.dart';
 import 'package:drift/drift.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:piped_client/piped_client.dart';
-import 'package:spotify/spotify.dart';
+
 import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/database/database.dart';
+
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
 
 import 'package:spotube/services/sourced_track/enums.dart';
 import 'package:spotube/services/sourced_track/exceptions.dart';
 import 'package:spotube/services/sourced_track/models/source_info.dart';
 import 'package:spotube/services/sourced_track/models/source_map.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 import 'package:spotube/services/sourced_track/models/video_info.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/services/sourced_track/sources/youtube.dart';
 import 'package:spotube/utils/service_utils.dart';
+import 'package:spotube/services/song_link/song_link.dart'; // 添加 SongLink 导入
+import 'package:spotube/services/logger/logger.dart'; // 添加日志导入
 
+// 保留原有的 provider 定义
 final pipedProvider = Provider<PipedClient>(
   (ref) {
     final instance =
@@ -23,6 +27,13 @@ final pipedProvider = Provider<PipedClient>(
     return PipedClient(instance: instance);
   },
 );
+
+// 添加全局数据库实例
+final _databaseInstance = AppDatabase();
+// 添加全局 PipedClient 实例，但不硬编码实例 URL
+final _pipedClient = PipedClient();
+// 添加默认搜索模式
+const _searchMode = SearchMode.youtube;
 
 class PipedSourceInfo extends SourceInfo {
   PipedSourceInfo({
@@ -39,41 +50,76 @@ class PipedSourceInfo extends SourceInfo {
 
 class PipedSourcedTrack extends SourcedTrack {
   PipedSourcedTrack({
-    required super.ref,
+    // 移除 ref 参数
     required super.source,
     required super.siblings,
     required super.sourceInfo,
     required super.track,
   });
 
+  // 实现 SourceableTrack 接口
+  @override
+  String get id => track.id;
+
+  @override
+  String get title => track.title;
+
+  @override
+  String get artistName => track.artistName;
+
+  @override
+  String? get albumName => track.albumName;
+
+  @override
+  Duration get duration => track.duration;
+
+  @override
+  String? get thumbnailUrl => sourceInfo.thumbnail;
+
+  @override
+  String? get artistId => track.artistId;
+
+  @override
+  String? get albumId => track.albumId;
+
+  @override
+  String getSearchTerm() => track.getSearchTerm();
+
+  @override
+  Map<String, dynamic> toJson() => {
+        ...track.toJson(),
+        'source': source.toJson(),
+        'sourceInfo': sourceInfo.toJson(),
+        'siblings': siblings.map((s) => s.toJson()).toList(),
+      };
+
   static Future<SourcedTrack> fetchFromTrack({
-    required Track track,
-    required Ref ref,
+    required SourceableTrack track,
   }) async {
-    final database = ref.read(databaseProvider);
+    final database = _databaseInstance;
     final cachedSource = await (database.select(database.sourceMatchTable)
-          ..where((s) => s.trackId.equals(track.id!))
+          ..where((s) => s.trackId.equals(track.id))
           ..limit(1)
           ..orderBy([
             (s) =>
                 OrderingTerm(expression: s.createdAt, mode: OrderingMode.desc),
           ]))
         .getSingleOrNull();
-    final preferences = ref.read(userPreferencesProvider);
-    final pipedClient = ref.read(pipedProvider);
+    
+    final pipedClient = _pipedClient;
 
     if (cachedSource == null) {
-      final siblings = await fetchSiblings(ref: ref, track: track);
+      final siblings = await fetchSiblings(track: track);
       if (siblings.isEmpty) {
         throw TrackNotFoundError(track);
       }
 
       await database.into(database.sourceMatchTable).insert(
             SourceMatchTableCompanion.insert(
-              trackId: track.id!,
+              trackId: track.id,
               sourceId: siblings.first.info.id,
-              sourceType: Value(
-                preferences.searchMode == SearchMode.youtube
+              sourceType: const Value(
+                _searchMode == SearchMode.youtube
                     ? SourceType.youtube
                     : SourceType.youtubeMusic,
               ),
@@ -81,7 +127,6 @@ class PipedSourcedTrack extends SourcedTrack {
           );
 
       return PipedSourcedTrack(
-        ref: ref,
         siblings: siblings.map((s) => s.info).skip(1).toList(),
         source: siblings.first.source as SourceMap,
         sourceInfo: siblings.first.info,
@@ -91,7 +136,6 @@ class PipedSourcedTrack extends SourcedTrack {
       final manifest = await pipedClient.streams(cachedSource.sourceId);
 
       return PipedSourcedTrack(
-        ref: ref,
         siblings: [],
         source: toSourceMap(manifest),
         sourceInfo: PipedSourceInfo(
@@ -110,6 +154,7 @@ class PipedSourcedTrack extends SourcedTrack {
   }
 
   static SourceMap toSourceMap(PipedStreamResponse manifest) {
+    // 此方法不需要修改，保持原样
     final m4a = manifest.audioStreams
         .where((audio) => audio.format == PipedAudioStreamFormat.m4a)
         .sorted((a, b) => a.bitrate.compareTo(b.bitrate));
@@ -136,11 +181,10 @@ class PipedSourcedTrack extends SourcedTrack {
   static Future<SiblingType> toSiblingType(
     int index,
     YoutubeVideoInfo item,
-    PipedClient pipedClient,
   ) async {
     SourceMap? sourceMap;
     if (index == 0) {
-      final manifest = await pipedClient.streams(item.id);
+      final manifest = await _pipedClient.streams(item.id);
       sourceMap = toSourceMap(manifest);
     }
 
@@ -162,63 +206,72 @@ class PipedSourcedTrack extends SourcedTrack {
   }
 
   static Future<List<SiblingType>> fetchSiblings({
-    required Track track,
-    required Ref ref,
+    required SourceableTrack track,
   }) async {
-    final pipedClient = ref.read(pipedProvider);
-    final preference = ref.read(userPreferencesProvider);
+    final pipedClient = _pipedClient;
+    
+    // 添加 SongLink 支持
+    final links = await SongLinkService.links(track.id);
+    final ytLink = links.firstWhereOrNull((link) => link.platform == "youtube");
 
-    final query = SourcedTrack.getSearchTerm(track);
+    if (ytLink != null && track is! SourcedTrack) {
+      try {
+        final videoId = Uri.parse(ytLink.url!).queryParameters["v"]!;
+        final manifest = await pipedClient.streams(videoId);
+
+        return [
+          await toSiblingType(
+            0,
+            YoutubeVideoInfo.fromStreamResponse(manifest, _searchMode),
+          )
+        ];
+      } catch (e, stack) {
+        AppLogger.reportError(e, stack);
+      }
+    }
+    
+    final searchQuery = track.getSearchTerm();
 
     final PipedSearchResult(items: searchResults) = await pipedClient.search(
-      query,
-      preference.searchMode == SearchMode.youtube
-          ? PipedFilter.video
+      searchQuery,
+      _searchMode == SearchMode.youtube
+          ? PipedFilter.videos
           : PipedFilter.musicSongs,
     );
 
     // when falling back to piped API make sure to use the YouTube mode
-    final isYouTubeMusic = preference.audioSource != AudioSource.piped
-        ? false
-        : preference.searchMode == SearchMode.youtubeMusic;
+    const isYouTubeMusic = _searchMode == SearchMode.youtubeMusic;
 
     if (isYouTubeMusic) {
-      final artists = (track.artists ?? [])
-          .map((ar) => ar.name)
-          .toList()
-          .whereNotNull()
-          .toList();
+      final artist = track.artistName;
 
       return await Future.wait(
         searchResults
             .map(
               (result) => YoutubeVideoInfo.fromSearchItemStream(
                 result as PipedSearchItemStream,
-                preference.searchMode,
+                _searchMode,
               ),
             )
             .sorted((a, b) => b.views.compareTo(a.views))
             .where(
-              (item) => artists.any(
-                (artist) =>
-                    artist.toLowerCase() == item.channelName.toLowerCase(),
-              ),
+              (item) => artist.toLowerCase() == item.channelName.toLowerCase(),
             )
-            .mapIndexed((i, r) => toSiblingType(i, r, pipedClient)),
+            .mapIndexed((i, r) => toSiblingType(i, r)),
       );
     }
 
-    if (ServiceUtils.onlyContainsEnglish(query)) {
+    if (ServiceUtils.onlyContainsEnglish(searchQuery)) {
       return await Future.wait(
         searchResults
             .whereType<PipedSearchItemStream>()
             .map(
               (result) => YoutubeVideoInfo.fromSearchItemStream(
                 result,
-                preference.searchMode,
+                _searchMode,
               ),
             )
-            .mapIndexed((i, r) => toSiblingType(i, r, pipedClient)),
+            .mapIndexed((i, r) => toSiblingType(i, r)),
       );
     }
 
@@ -227,7 +280,7 @@ class PipedSourcedTrack extends SourcedTrack {
           .map(
             (result) => YoutubeVideoInfo.fromSearchItemStream(
               result as PipedSearchItemStream,
-              preference.searchMode,
+              _searchMode,
             ),
           )
           .toList(),
@@ -235,19 +288,17 @@ class PipedSourcedTrack extends SourcedTrack {
     );
 
     return await Future.wait(
-      rankedSiblings.mapIndexed((i, r) => toSiblingType(i, r, pipedClient)),
+      rankedSiblings.mapIndexed((i, r) => toSiblingType(i, r)),
     );
   }
 
-  @override
   Future<SourcedTrack> copyWithSibling() async {
     if (siblings.isNotEmpty) {
       return this;
     }
-    final fetchedSiblings = await fetchSiblings(ref: ref, track: this);
+    final fetchedSiblings = await fetchSiblings(track: this);
 
     return PipedSourcedTrack(
-      ref: ref,
       siblings: fetchedSiblings
           .where((s) => s.info.id != sourceInfo.id)
           .map((s) => s.info)
@@ -258,7 +309,6 @@ class PipedSourcedTrack extends SourcedTrack {
     );
   }
 
-  @override
   Future<SourcedTrack?> swapWithSibling(SourceInfo sibling) async {
     if (sibling.id == sourceInfo.id) {
       return null;
@@ -273,14 +323,12 @@ class PipedSourcedTrack extends SourcedTrack {
     final newSiblings = siblings.where((s) => s.id != sibling.id).toList()
       ..insert(0, sourceInfo);
 
-    final pipedClient = ref.read(pipedProvider);
+    final manifest = await _pipedClient.streams(newSourceInfo.id);
 
-    final manifest = await pipedClient.streams(newSourceInfo.id);
-
-    final database = ref.read(databaseProvider);
+    final database = _databaseInstance;
     await database.into(database.sourceMatchTable).insert(
           SourceMatchTableCompanion.insert(
-            trackId: id!,
+            trackId: id,
             sourceId: newSourceInfo.id,
             sourceType: const Value(SourceType.youtube),
             // Because we're sorting by createdAt in the query
@@ -291,11 +339,26 @@ class PipedSourcedTrack extends SourcedTrack {
         );
 
     return PipedSourcedTrack(
-      ref: ref,
       siblings: newSiblings,
       source: toSourceMap(manifest),
       sourceInfo: newSourceInfo,
       track: this,
     );
   }
+
+  @override
+  String getDisplayName() => "$title - $artistName";
+
+  @override
+  String getDescription() => sourceInfo.artist;
+
+  @override
+  Map<String, dynamic> toMediaItem() => {
+    'id': id,
+    'title': title,
+    'artist': artistName,
+    'album': albumName,
+    'duration': duration.inMilliseconds,
+    'artUri': thumbnailUrl,
+  };
 }

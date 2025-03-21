@@ -3,17 +3,19 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'package:spotify/spotify.dart';
 import 'package:spotube/modules/playlist/playlist_create_dialog.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/music_platform.dart';
+import 'package:spotube/provider/playlist/playlist_provider.dart';
+
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/utils/type/image_type.dart';
 
 class PlaylistAddTrackDialog extends HookConsumerWidget {
   /// The id of the playlist this dialog was opened from
   final String? openFromPlaylist;
-  final List<Track> tracks;
+  final List<SourceableTrack> tracks;
   const PlaylistAddTrackDialog({
     required this.tracks,
     required this.openFromPlaylist,
@@ -23,31 +25,26 @@ class PlaylistAddTrackDialog extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     final ThemeData(:textTheme) = Theme.of(context);
-    final userPlaylists = ref.watch(favoritePlaylistsProvider);
-    final favoritePlaylistsNotifier =
-        ref.watch(favoritePlaylistsProvider.notifier);
-
-    final me = ref.watch(meProvider);
+    final currentPlatform = ref.watch(currentMusicPlatformProvider);
+    final userPlaylists = ref.watch(currentPlatformPlaylistsProvider);
+    final unifiedPlaylistNotifier = ref.watch(unifiedPlaylistProvider.notifier);
 
     final filteredPlaylists = useMemoized(
       () =>
-          userPlaylists.asData?.value.items
+          userPlaylists.asData?.value
               .where(
-                (playlist) =>
-                    playlist.owner?.id != null &&
-                    playlist.owner!.id == me.asData?.value.id &&
-                    playlist.id != openFromPlaylist,
+                (playlist) => playlist.id != openFromPlaylist,
               )
               .toList() ??
           [],
-      [userPlaylists.asData?.value, me.asData?.value.id, openFromPlaylist],
+      [userPlaylists.asData?.value, openFromPlaylist],
     );
 
     final playlistsCheck = useState(<String, bool>{});
 
     useEffect(() {
       if (userPlaylists.asData?.value != null) {
-        favoritePlaylistsNotifier.fetchAll();
+        unifiedPlaylistNotifier.fetchPlaylists(currentPlatform);
       }
       return null;
     }, [userPlaylists.asData?.value]);
@@ -59,9 +56,10 @@ class PlaylistAddTrackDialog extends HookConsumerWidget {
 
       await Future.wait(
         selectedPlaylists.map(
-          (playlistId) => favoritePlaylistsNotifier.addTracks(
+          (playlistId) => unifiedPlaylistNotifier.addTracks(
+            currentPlatform,
             playlistId,
-            tracks.map((e) => e.id!).toList(),
+            tracks.map((e) => e.id).toList(),
           ),
         ),
       ).then((_) => Navigator.pop(context, true));
@@ -105,21 +103,19 @@ class PlaylistAddTrackDialog extends HookConsumerWidget {
                   return CheckboxListTile(
                     secondary: CircleAvatar(
                       backgroundImage: UniversalImage.imageProvider(
-                        playlist.images.asUrlString(
-                          placeholder: ImagePlaceholder.collection,
-                        ),
+                        playlist.imageUrl ?? MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.collection),
                       ),
                     ),
                     contentPadding: EdgeInsets.zero,
                     title: Padding(
                       padding: const EdgeInsets.only(left: 8.0),
-                      child: Text(playlist.name!),
+                      child: Text(playlist.name),
                     ),
                     value: playlistsCheck.value[playlist.id] ?? false,
                     onChanged: (val) {
                       playlistsCheck.value = {
                         ...playlistsCheck.value,
-                        playlist.id!: val == true
+                        playlist.id: val == true
                       };
                     },
                   );

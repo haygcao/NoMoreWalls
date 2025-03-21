@@ -10,8 +10,8 @@ import 'package:mime/mime.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'package:spotify/spotify.dart';
-import 'package:spotube/extensions/track.dart';
+
+
 import 'package:spotube/models/local_track.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
 // ignore: depend_on_referenced_packages
@@ -112,15 +112,13 @@ final localTracksProvider =
         }),
       ).then((value) => value.whereNotNull().toList());
 
+      // 修改这里，直接使用 LocalTrack.fromFile
       final tracksFromMetadata = filesWithMetadata
           .map(
-            (fileWithMetadata) => LocalTrack.fromTrack(
-              track: Track().fromFile(
-                fileWithMetadata["file"],
-                metadata: fileWithMetadata["metadata"],
-                art: fileWithMetadata["art"],
-              ),
-              path: fileWithMetadata["file"].path,
+            (fileWithMetadata) => LocalTrack.fromFile(
+              fileWithMetadata["file"],
+              metadata: fileWithMetadata["metadata"],
+              art: fileWithMetadata["art"],
             ),
           )
           .toList();

@@ -1,14 +1,17 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart' hide Page;
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/collection.dart';
 
 class PaginationProps {
   final bool hasNextPage;
   final bool isLoading;
   final VoidCallback onFetchMore;
   final Future<void> Function() onRefresh;
-  final Future<List<Track>> Function() onFetchAll;
+  final Future<List<SourceableTrack>> Function() onFetchAll;
 
   const PaginationProps({
     required this.hasNextPage,
@@ -39,12 +42,12 @@ class PaginationProps {
 }
 
 class InheritedTrackView extends InheritedWidget {
-  final Object collection;
+  final Collection collection;
   final String title;
   final String? description;
   final String image;
   final String routePath;
-  final List<Track> tracks;
+  final List<SourceableTrack> tracks;
   final PaginationProps pagination;
   final bool isLiked;
   final String shareUrl;
@@ -65,11 +68,9 @@ class InheritedTrackView extends InheritedWidget {
     required this.shareUrl,
     this.isLiked = false,
     this.onHeart,
-  }) : assert(collection is AlbumSimple || collection is PlaylistSimple);
+  });
 
-  String get collectionId => collection is AlbumSimple
-      ? (collection as AlbumSimple).id!
-      : (collection as PlaylistSimple).id!;
+  String get collectionId => collection.id;
 
   @override
   bool updateShouldNotify(InheritedTrackView oldWidget) {

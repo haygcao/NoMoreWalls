@@ -11,14 +11,17 @@ import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/themed_button_tab_bar.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/hooks/utils/use_custom_status_bar_color.dart';
 import 'package:spotube/hooks/utils/use_palette_color.dart';
 import 'package:spotube/pages/lyrics/plain_lyrics.dart';
 import 'package:spotube/pages/lyrics/synced_lyrics.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
+// 移除 spotify 导入
+import 'package:spotube/provider/lyrics/lyrics_providers.dart';
+
 import 'package:spotube/utils/platform.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+
 
 class LyricsPage extends HookConsumerWidget {
   static const name = "lyrics";
@@ -29,13 +32,15 @@ class LyricsPage extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     final playlist = ref.watch(audioPlayerProvider);
+    final activeTrack = playlist.activeTrack;
     String albumArt = useMemoized(
-      () => (playlist.activeTrack?.album?.images).asUrlString(
-        index: (playlist.activeTrack?.album?.images?.length ?? 1) - 1,
-        placeholder: ImagePlaceholder.albumArt,
-      ),
-      [playlist.activeTrack?.album?.images],
+      () {
+        final url = activeTrack?.thumbnailUrl;
+        return url ?? ImagePlaceholder.albumArt.toString();
+      },
+      [activeTrack?.thumbnailUrl],
     );
+
     final palette = usePaletteColor(albumArt, ref);
     final mediaQuery = MediaQuery.of(context);
     final route = ModalRoute.of(context);
@@ -61,9 +66,8 @@ class LyricsPage extends HookConsumerWidget {
           const Spacer(),
           Consumer(
             builder: (context, ref, child) {
-              final playback = ref.watch(audioPlayerProvider);
-              final lyric =
-                  ref.watch(syncedLyricsProvider(playback.activeTrack));
+              final track = ref.watch(activeTrackProvider);
+              final lyric = ref.watch(lyricsProvider(track));
               final providerName = lyric.asData?.value.provider;
 
               if (providerName == null) {

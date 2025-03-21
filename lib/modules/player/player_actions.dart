@@ -7,13 +7,15 @@ import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/player/sibling_tracks_sheet.dart';
 import 'package:spotube/components/adaptive/adaptive_pop_sheet_list.dart';
 import 'package:spotube/components/heart_button/heart_button.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/extensions/duration.dart';
 import 'package:spotube/models/local_track.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
 import 'package:spotube/provider/download_manager_provider.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+
 import 'package:spotube/provider/audio_player/audio_player.dart';
+import 'package:spotube/provider/music_platform.dart';
 import 'package:spotube/provider/sleep_timer_provider.dart';
 
 class PlayerActions extends HookConsumerWidget {
@@ -50,14 +52,14 @@ class PlayerActions extends HookConsumerWidget {
     final sleepTimerNotifier = ref.watch(sleepTimerProvider.notifier);
 
     final isDownloaded = useMemoized(() {
+      if (playlist.activeTrack == null) return false;
+      
       return localTracks.any(
-            (element) =>
-                element.name == playlist.activeTrack?.name &&
-                element.album?.name == playlist.activeTrack?.album?.name &&
-                element.artists?.asString() ==
-                    playlist.activeTrack?.artists?.asString(),
-          ) ==
-          true;
+        (element) =>
+            element.title == playlist.activeTrack?.title &&
+            element.albumName == playlist.activeTrack?.albumName &&
+            element.artistName == playlist.activeTrack?.artistName,
+      );
     }, [localTracks, playlist.activeTrack]);
 
     final sleepTimerEntries = useMemoized(
@@ -130,7 +132,7 @@ class PlayerActions extends HookConsumerWidget {
             ),
         if (playlist.activeTrack != null &&
             !isLocalTrack &&
-            auth.asData?.value != null)
+            auth[MusicPlatform.spotify]?.asData?.value != null)
           TrackHeartButton(track: playlist.activeTrack!),
         AdaptivePopSheetList(
           offset: Offset(0, -50 * (sleepTimerEntries.values.length + 2)),

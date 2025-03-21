@@ -6,14 +6,18 @@ import 'package:spotube/collections/formatters.dart';
 import 'package:spotube/modules/stats/summary/summary_card.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/pages/stats/albums/albums.dart';
-import 'package:spotube/pages/stats/artists/artists.dart';
-import 'package:spotube/pages/stats/fees/fees.dart';
-import 'package:spotube/pages/stats/minutes/minutes.dart';
-import 'package:spotube/pages/stats/playlists/playlists.dart';
-import 'package:spotube/pages/stats/streams/streams.dart';
 import 'package:spotube/provider/history/summary.dart';
-import 'package:spotube/utils/service_utils.dart';
+// 移除页面导入
+// import 'package:spotube/pages/stats/albums/albums.dart';
+// import 'package:spotube/pages/stats/artists/artists.dart';
+// import 'package:spotube/pages/stats/fees/fees.dart';
+// import 'package:spotube/pages/stats/minutes/minutes.dart';
+// import 'package:spotube/pages/stats/playlists/playlists.dart';
+// import 'package:spotube/pages/stats/streams/streams.dart';
+// 移除 ServiceUtils 导入
+// import 'package:spotube/utils/service_utils.dart';
+// 添加 NavigationService 导入
+import 'package:spotube/services/navigation/navigation_service.dart';
 
 class StatsPageSummarySection extends HookConsumerWidget {
   const StatsPageSummarySection({super.key});
@@ -22,6 +26,9 @@ class StatsPageSummarySection extends HookConsumerWidget {
   Widget build(BuildContext context, ref) {
     final summary = ref.watch(playbackHistorySummaryProvider);
     final summaryData = summary.asData?.value ?? FakeData.historySummary;
+
+    // 获取导航服务
+    final navigationService = ref.watch(navigationServiceProvider);
 
     return Skeletonizer.sliver(
       enabled: summary.isLoading,
@@ -50,7 +57,8 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_listened_to_music,
                 color: Colors.purple,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsMinutesPage.name);
+                  // 使用导航服务的专用方法
+                  navigationService.navigateToStatsMinutes();
                 },
               ),
               SummaryCard(
@@ -59,7 +67,7 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_streamed_overall,
                 color: Colors.lightBlue,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsStreamsPage.name);
+                  navigationService.navigateToStatsStreams();
                 },
               ),
               SummaryCard.unformatted(
@@ -68,7 +76,8 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_owed_to_artists,
                 color: Colors.green,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsStreamFeesPage.name);
+                  // 使用导航服务
+                  navigationService.router.pushNamed("stats-stream-fees");
                 },
               ),
               SummaryCard(
@@ -77,7 +86,8 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_music_reached_you,
                 color: Colors.yellow,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsArtistsPage.name);
+                  // 使用导航服务
+                  navigationService.router.pushNamed("stats-artists");
                 },
               ),
               SummaryCard(
@@ -86,7 +96,8 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_got_your_love,
                 color: Colors.pink,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsAlbumsPage.name);
+                  // 使用导航服务
+                  navigationService.router.pushNamed("stats-albums");
                 },
               ),
               SummaryCard(
@@ -95,7 +106,8 @@ class StatsPageSummarySection extends HookConsumerWidget {
                 description: context.l10n.summary_were_on_repeat,
                 color: Colors.teal,
                 onTap: () {
-                  ServiceUtils.pushNamed(context, StatsPlaylistsPage.name);
+                  // 使用导航服务
+                  navigationService.router.pushNamed("stats-playlists");
                 },
               ),
             ]),

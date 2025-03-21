@@ -1,12 +1,7 @@
-import 'package:spotify/spotify.dart';
+
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class TrackNotFoundError extends Error {
-  final Track track;
-
+  final SourceableTrack track;
   TrackNotFoundError(this.track);
-
-  @override
-  String toString() {
-    return '[TrackNotFoundError] ${track.name} - ${track.artists?.map((e) => e.name).join(", ")}';
-  }
 }

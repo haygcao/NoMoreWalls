@@ -64,6 +64,7 @@ dependencies:
   freezed_annotation: ^2.4.1
   fuzzywuzzy: ^1.1.6
   gap: ^3.0.1
+  genius_lyrics: ^1.0.1
   go_router: ^14.2.7
   google_fonts: ^6.2.1
   hive: ^2.2.3
@@ -74,7 +75,7 @@ dependencies:
   http: ^1.2.1
   image_picker: ^1.1.0
   intl: any
-  invidious: ^0.1.0
+  #invidious: ^0.1.0
   jiosaavn: ^0.1.0
   json_annotation: ^4.8.1
   local_notifier: ^0.1.6
@@ -90,7 +91,13 @@ dependencies:
   path: ^1.9.0
   path_provider: ^2.1.3
   permission_handler: ^11.3.1
-  piped_client: ^0.1.1
+
+
+  piped_client: 
+    git:
+      url: https://github.com/haygcao/piped_client.git
+      ref: main
+
   popover: ^0.3.0
   riverpod: ^2.5.1
   scrobblenaut:
@@ -107,6 +114,7 @@ dependencies:
   skeletonizer: ^1.1.1
   sliver_tools: ^0.2.12
   smtc_windows: ^1.0.0
+  soundcloud_explode_dart: ^1.0.3
   spotify: ^0.13.7
   sqlite3: ^2.4.3
   sqlite3_flutter_libs: ^0.5.23
@@ -125,6 +133,7 @@ dependencies:
   wikipedia_api: ^0.1.0
   win32_registry: ^1.1.5
   window_manager: ^0.4.3
+  windows_taskbar: ^1.1.2
   youtube_explode_dart: ^2.3.5
 
 dev_dependencies:

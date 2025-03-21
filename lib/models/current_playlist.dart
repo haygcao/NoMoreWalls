@@ -1,10 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotify/spotify.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 
 class CurrentPlaylist {
-  List<Track>? _tempTrack;
-  List<Track> tracks;
+  List<SourceableTrack>? _tempTrack;
+  List<SourceableTrack> tracks;
   String id;
   String name;
   String thumbnail;
@@ -21,11 +21,11 @@ class CurrentPlaylist {
   static CurrentPlaylist fromJson(Map<String, dynamic> map, Ref ref) {
     return CurrentPlaylist(
       id: map["id"],
-      tracks: List.castFrom<dynamic, Track>(map["tracks"]
+      tracks: List.castFrom<dynamic, SourceableTrack>(map["tracks"]
           .map(
             (track) => map["isLocal"] == true
-                ? SourcedTrack.fromJson(track, ref: ref)
-                : Track.fromJson(track),
+                ? SourcedTrack.fromJson(track)
+                : SourcedTrack.fromJson(track),
           )
           .toList()),
       name: map["name"],
@@ -34,10 +34,9 @@ class CurrentPlaylist {
     );
   }
 
-  List<String> get trackIds => tracks.map((e) => e.id!).toList();
+  List<String> get trackIds => tracks.map((e) => e.id).toList();
 
-  bool shuffle(Track? topTrack) {
-    // won't shuffle if already shuffled
+  bool shuffle(SourceableTrack? topTrack) {
     if (_tempTrack == null) {
       _tempTrack = [...tracks];
       tracks = List.from(tracks)..shuffle();
@@ -51,7 +50,6 @@ class CurrentPlaylist {
   }
 
   bool unshuffle() {
-    // without _tempTracks unshuffling can't be done
     if (_tempTrack != null) {
       tracks = [..._tempTrack!];
       _tempTrack = null;
@@ -60,14 +58,26 @@ class CurrentPlaylist {
     return false;
   }
 
+  CurrentPlaylist copyWith({
+    List<SourceableTrack>? tracks,
+    String? id,
+    String? name,
+    String? thumbnail,
+    bool? isLocal,
+  }) {
+    return CurrentPlaylist(
+      tracks: tracks ?? this.tracks,
+      id: id ?? this.id,
+      name: name ?? this.name,
+      thumbnail: thumbnail ?? this.thumbnail,
+      isLocal: isLocal ?? this.isLocal,
+    );
+  }
   Map<String, dynamic> toJson() {
     return {
       "id": id,
       "name": name,
-      "tracks": tracks
-          .map((track) =>
-              track is SourcedTrack ? track.toJson() : track.toJson())
-          .toList(),
+      "tracks": tracks.map((track) => track.toJson()).toList(),
       "thumbnail": thumbnail,
       "isLocal": isLocal,
     };

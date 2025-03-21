@@ -16,25 +16,30 @@ import 'package:spotube/modules/playlist/playlist_card.dart';
 import 'package:spotube/components/waypoint.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/pages/library/playlist_generate/playlist_generate.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
+import 'package:spotube/services/navigation/navigation_service.dart';
+
+
 import 'package:spotube/utils/platform.dart';
-import 'package:spotube/utils/service_utils.dart';
+
+
+import 'package:spotube/provider/music_platform.dart';
+import 'package:spotube/provider/playlist/favorite_playlist_provider.dart';
 
 class UserPlaylists extends HookConsumerWidget {
   const UserPlaylists({super.key});
-
+  
   @override
   Widget build(BuildContext context, ref) {
     final searchText = useState('');
-
     final auth = ref.watch(authenticationProvider);
-
-    final playlistsQuery = ref.watch(favoritePlaylistsProvider);
-    final playlistsQueryNotifier =
-        ref.watch(favoritePlaylistsProvider.notifier);
-
+    final currentPlatform = ref.watch(currentMusicPlatformProvider);
+    
+    // 使用统一的播放列表提供者
+    final playlistsQuery = ref.watch(unifiedFavoritePlaylistsProvider);
+    final playlistsQueryNotifier = ref.watch(unifiedFavoritePlaylistsProvider.notifier);
+    final navigationService = ref.watch(navigationServiceProvider);
+    
     final likedTracksPlaylist = useMemoized(
       () => PlaylistSimple()
         ..name = context.l10n.liked_tracks
@@ -51,20 +56,23 @@ class UserPlaylists extends HookConsumerWidget {
         ],
       [context.l10n],
     );
-
+    
     final playlists = useMemoized(
       () {
-        if (searchText.value.isEmpty) {
-          return [
-            likedTracksPlaylist,
-            ...?playlistsQuery.asData?.value.items,
-          ];
-        }
-        return [
+        final List<dynamic> allPlaylists = [
           likedTracksPlaylist,
           ...?playlistsQuery.asData?.value.items,
-        ]
-            .map((e) => (weightedRatio(e.name!, searchText.value), e))
+        ];
+    
+        if (searchText.value.isEmpty) {
+          return allPlaylists;
+        }
+    
+        return allPlaylists
+            .map((e) {
+              final name = e is PlaylistSimple ? e.name! : (e as Playlist).name;
+              return (weightedRatio(name!, searchText.value), e);
+            })
             .sorted((a, b) => b.$1.compareTo(a.$1))
             .where((e) => e.$1 > 50)
             .map((e) => e.$2)
@@ -72,16 +80,17 @@ class UserPlaylists extends HookConsumerWidget {
       },
       [playlistsQuery, searchText.value],
     );
-
+    
     final controller = useScrollController();
-
-    if (auth.asData?.value == null) {
+    
+    // 检查当前平台的认证状态
+    if (auth[currentPlatform]?.asData?.value == null) {
       return const AnonymousFallback();
     }
-
+    
     return RefreshIndicator(
       onRefresh: () async {
-        ref.invalidate(favoritePlaylistsProvider);
+        playlistsQueryNotifier.loadPlaylists();
       },
       child: SafeArea(
         child: InterScrollbar(
@@ -105,14 +114,38 @@ class UserPlaylists extends HookConsumerWidget {
                   child: Row(
                     children: [
                       const Gap(10),
+                      // 添加平台选择器
+                      SegmentedButton<MusicPlatform>(
+                        segments: const [
+                          ButtonSegment(
+                            value: MusicPlatform.spotify,
+                            label: Text('Spotify'),
+                            icon: Icon(SpotubeIcons.spotify),
+                          ),
+                          ButtonSegment(
+                            value: MusicPlatform.youtubeMusic,
+                            label: Text('YouTube Music'),
+                            icon: Icon(SpotubeIcons.youtube),
+                          ),
+                          ButtonSegment(
+                            value: MusicPlatform.mixed,
+                            label: Text('Mixed'),
+                            icon: Icon(Icons.all_inclusive),
+                          ),
+                        ],
+                        selected: {currentPlatform},
+                        onSelectionChanged: (Set<MusicPlatform> selection) {
+                          ref.read(currentMusicPlatformProvider.notifier).state = selection.first;
+                        },
+                      ),
+                      const Gap(10),
                       const PlaylistCreateDialogButton(),
                       const Gap(10),
                       ElevatedButton.icon(
                         icon: const Icon(SpotubeIcons.magic),
                         label: Text(context.l10n.generate_playlist),
                         onPressed: () {
-                          ServiceUtils.pushNamed(
-                              context, PlaylistGeneratorPage.name);
+                          navigationService.router.pushNamed("playlist-generator");
                         },
                       ),
                       const Gap(10),
@@ -142,7 +175,7 @@ class UserPlaylists extends HookConsumerWidget {
                         onTouchEdge: playlistsQueryNotifier.fetchMore,
                         child: Skeletonizer(
                           enabled: true,
-                          child: PlaylistCard(FakeData.playlistSimple),
+                          child: PlaylistCard(FakeData.playlist),
                         ),
                       );
                     }

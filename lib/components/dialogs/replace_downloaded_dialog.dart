@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:spotify/spotify.dart';
 import 'package:spotube/extensions/context.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 final replaceDownloadedFileState = StateProvider<bool?>((ref) => null);
 
 class ReplaceDownloadedDialog extends ConsumerWidget {
-  final Track track;
+  final SourceableTrack track;
   const ReplaceDownloadedDialog({required this.track, super.key});
 
   @override
@@ -17,7 +17,7 @@ class ReplaceDownloadedDialog extends ConsumerWidget {
     final replaceAll = ref.watch(replaceDownloadedFileState);
 
     return AlertDialog(
-      title: Text(context.l10n.track_exists(track.name ?? "")),
+      title: Text(context.l10n.track_exists(track.getDisplayName())),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [

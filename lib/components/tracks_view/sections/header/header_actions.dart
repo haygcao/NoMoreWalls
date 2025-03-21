@@ -2,14 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/playlist/playlist_create_dialog.dart';
 import 'package:spotube/components/heart_button/heart_button.dart';
 import 'package:spotube/components/tracks_view/sections/body/use_is_user_playlist.dart';
 import 'package:spotube/components/tracks_view/track_view_props.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
+import 'package:spotube/provider/music_platform.dart';
+import 'package:spotube/services/base/base_models.dart';
+import 'package:spotube/services/base/collection.dart';
 import 'package:spotube/provider/history/history.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 
@@ -30,7 +34,9 @@ class TrackViewHeaderActions extends HookConsumerWidget {
 
     final scaffoldMessenger = ScaffoldMessenger.of(context);
 
+    // 获取当前平台的认证状态
     final auth = ref.watch(authenticationProvider);
+    final currentPlatformAuth = auth[ref.watch(currentMusicPlatformProvider)];
 
     final copiedText =
         context.l10n.copied_shareurl_to_clipboard(props.shareUrl);
@@ -67,16 +73,20 @@ class TrackViewHeaderActions extends HookConsumerWidget {
                   final tracks = await props.pagination.onFetchAll();
                   await playlistNotifier.addTracks(tracks);
                   playlistNotifier.addCollection(props.collectionId);
-                  if (props.collection is AlbumSimple) {
-                    historyNotifier
-                        .addAlbums([props.collection as AlbumSimple]);
+                  
+                  // 使用 Collection 类型判断
+                  if (props.collection.type == CollectionType.album.name) {
+                    // 修改为 AlbumBase 类型
+                    historyNotifier.addAlbums([props.collection as AlbumBase]);
                   } else {
-                    historyNotifier
-                        .addPlaylists([props.collection as PlaylistSimple]);
+                    // 修改为 PlaylistCollection 类型
+                    historyNotifier.addPlaylists([props.collection as PlaylistCollection]);
                   }
                 },
         ),
-        if (props.onHeart != null && auth.asData?.value != null)
+        
+        // 使用当前平台的认证状态，添加空检查
+        if (props.onHeart != null && currentPlatformAuth?.asData?.value != null)
           HeartButton(
             isLiked: props.isLiked,
             icon: isUserPlaylist ? SpotubeIcons.trash : null,

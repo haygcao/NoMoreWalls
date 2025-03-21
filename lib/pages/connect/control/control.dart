@@ -12,7 +12,7 @@ import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/extensions/duration.dart';
-import 'package:spotube/extensions/image.dart';
+import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/pages/track/track.dart';
 import 'package:spotube/provider/connect/clients.dart';
 import 'package:spotube/provider/connect/connect.dart';

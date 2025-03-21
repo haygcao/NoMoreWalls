@@ -6,29 +6,37 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/hover_builder.dart';
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/components/links/artist_link.dart';
+
 import 'package:spotube/components/links/link_text.dart';
 import 'package:spotube/components/track_tile/track_options.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+// 移除 Spotify 特定扩展
+// import 'package:spotube/extensions/spotify/artist_simple.dart';
+// import 'package:spotube/extensions/spotify/image.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/duration.dart';
-import 'package:spotube/extensions/image.dart';
 import 'package:spotube/models/local_track.dart';
-import 'package:spotube/pages/track/track.dart';
+// 移除页面依赖
+// import 'package:spotube/pages/track/track.dart';
 import 'package:spotube/provider/audio_player/querying_track_info.dart';
 import 'package:spotube/provider/audio_player/state.dart';
 import 'package:spotube/provider/blacklist_provider.dart';
 import 'package:spotube/utils/platform.dart';
-import 'package:spotube/utils/service_utils.dart';
+
+// 添加通用接口
+import 'package:spotube/services/base/sourceable_track.dart';
+// 添加图片工具
+import 'package:spotube/utils/type/image_type.dart';
 
 class TrackTile extends HookConsumerWidget {
   /// [index] will not be shown if null
   final int? index;
-  final Track track;
+  // 修改为 SourceableTrack 类型
+  final SourceableTrack track;
   final bool selected;
   final ValueChanged<bool?>? onChanged;
   final Future<void> Function()? onTap;
@@ -137,9 +145,9 @@ class TrackTile extends HookConsumerWidget {
                       child: AspectRatio(
                         aspectRatio: 1,
                         child: UniversalImage(
-                          path: (track.album?.images).asUrlString(
-                            placeholder: ImagePlaceholder.albumArt,
-                          ),
+                          // 使用通用的缩略图URL
+                          path: track.thumbnailUrl ?? 
+                                MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -202,12 +210,12 @@ class TrackTile extends HookConsumerWidget {
                   flex: 6,
                   child: switch (track) {
                     LocalTrack() => Text(
-                        track.name!,
+                        (track as LocalTrack).title,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
                     _ => LinkText(
-                        track.name!,
+                        track.title,
                         "/track/${track.id}",
                         push: true,
                         maxLines: 1,
@@ -221,16 +229,15 @@ class TrackTile extends HookConsumerWidget {
                     flex: 4,
                     child: switch (track) {
                       LocalTrack() => Text(
-                          track.album!.name!,
+                          (track as LocalTrack).albumName ?? '',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
                       _ => Align(
                           alignment: Alignment.centerLeft,
                           child: LinkText(
-                            track.album!.name!,
-                            "/album/${track.album?.id}",
-                            extra: track.album,
+                            track.albumName ?? '',
+                            "/album/${track.albumId}",
                             push: true,
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -244,31 +251,16 @@ class TrackTile extends HookConsumerWidget {
               alignment: Alignment.centerLeft,
               child: track is LocalTrack
                   ? Text(
-                      track.artists?.asString() ?? '',
+                      (track as LocalTrack).artistName,
                     )
-                  : ClipRect(
-                      child: ConstrainedBox(
-                        constraints: const BoxConstraints(maxHeight: 40),
-                        child: ArtistLink(
-                          artists: track.artists ?? [],
-                          onOverflowArtistClick: () => ServiceUtils.pushNamed(
-                            context,
-                            TrackPage.name,
-                            pathParameters: {
-                              "id": track.id!,
-                            },
-                          ),
-                        ),
-                      ),
-                    ),
+                  : Text(track.artistName),
             ),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
                 const SizedBox(width: 8),
                 Text(
-                  Duration(milliseconds: track.durationMs ?? 0)
-                      .toHumanReadableString(padZero: false),
+                  track.duration.toHumanReadableString(padZero: false),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),

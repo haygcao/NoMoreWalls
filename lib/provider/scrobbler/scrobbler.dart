@@ -3,16 +3,18 @@ import 'dart:async';
 import 'package:drift/drift.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:scrobblenaut/scrobblenaut.dart';
-import 'package:spotify/spotify.dart';
+
 import 'package:spotube/collections/env.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/provider/database/database.dart';
 import 'package:spotube/services/logger/logger.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class ScrobblerNotifier extends AsyncNotifier<Scrobblenaut?> {
-  final StreamController<Track> _scrobbleController =
-      StreamController<Track>.broadcast();
+  final _scrobbleController = StreamController<SourceableTrack>.broadcast();
+  StreamSubscription? _scrobbleSubscription;
+  
   @override
   build() async {
     final database = ref.watch(databaseProvider);
@@ -43,17 +45,16 @@ class ScrobblerNotifier extends AsyncNotifier<Scrobblenaut?> {
       }
     });
 
-    final scrobblerSubscription =
-        _scrobbleController.stream.listen((track) async {
+    _scrobbleSubscription?.cancel();
+    _scrobbleSubscription = _scrobbleController.stream.listen((track) async {
       try {
         await state.asData?.value?.track.scrobble(
-          artist: track.artists!.first.name!,
-          track: track.name!,
-          album: track.album!.name!,
+          artist: track.artistName,
+          track: track.title,
+          album: track.albumName ?? "",
           chosenByUser: true,
           duration: track.duration,
           timestamp: DateTime.now().toUtc(),
-          trackNumber: track.trackNumber,
         );
       } catch (e, stackTrace) {
         AppLogger.reportError(e, stackTrace);
@@ -62,7 +63,8 @@ class ScrobblerNotifier extends AsyncNotifier<Scrobblenaut?> {
 
     ref.onDispose(() {
       subscription.cancel();
-      scrobblerSubscription.cancel();
+      _scrobbleSubscription?.cancel();
+      _scrobbleController.close();
     });
 
     if (loginInfo == null) {
@@ -109,23 +111,41 @@ class ScrobblerNotifier extends AsyncNotifier<Scrobblenaut?> {
     await database.delete(database.scrobblerTable).go();
   }
 
-  void scrobble(Track track) {
+  void scrobble(SourceableTrack track) {
     _scrobbleController.add(track);
   }
 
-  Future<void> love(Track track) async {
+  Future<void> love(SourceableTrack track) async {
     await state.asData?.value?.track.love(
-      artist: track.artists!.asString(),
-      track: track.name!,
+      artist: track.artistName,
+      track: track.title,
     );
   }
 
-  Future<void> unlove(Track track) async {
+  Future<void> unlove(SourceableTrack track) async {
     await state.asData?.value?.track.unLove(
-      artist: track.artists!.asString(),
-      track: track.name!,
+      artist: track.artistName,
+      track: track.title,
     );
   }
+  // 删除这部分重复的代码
+  /*
+  final scrobblerSubscription =
+      _scrobbleController.stream.listen((track) async {
+    try {
+      await state.asData?.value?.track.scrobble(
+        artist: track.artistName,
+        track: track.title,
+        album: track.albumName ?? "",
+        chosenByUser: true,
+        duration: track.duration,
+        timestamp: DateTime.now().toUtc(),
+      );
+    } catch (e, stackTrace) {
+      AppLogger.reportError(e, stackTrace);
+    }
+  });
+  */
 }
 
 final scrobblerProvider =

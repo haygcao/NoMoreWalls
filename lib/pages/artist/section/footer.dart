@@ -1,16 +1,20 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+import 'package:spotify/spotify.dart' as spotify;
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/image.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
+
+// 导入通用模型和工具类
+import 'package:spotube/services/base/artist.dart';
+import 'package:spotube/utils/type/image_type.dart';
 
 import 'package:url_launcher/url_launcher_string.dart';
 
 class ArtistPageFooter extends ConsumerWidget {
+  // 使用通用 Artist 类型
   final Artist artist;
   const ArtistPageFooter({super.key, required this.artist});
 
@@ -19,10 +23,15 @@ class ArtistPageFooter extends ConsumerWidget {
     final ThemeData(:textTheme) = Theme.of(context);
     final mediaQuery = MediaQuery.of(context);
 
-    final artistImage = artist.images.asUrlString(
-      placeholder: ImagePlaceholder.artist,
-    );
-    final summary = ref.watch(artistWikipediaSummaryProvider(artist));
+    // 使用 MediaImageUtils 获取图片 URL
+    final artistImage = artist.imageUrl ?? 
+        MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.artist);
+    
+    // 创建一个临时的 Spotify ArtistSimple 对象来使用 Wikipedia 提供者
+    final spotifyArtist = spotify.Artist()..name = artist.name;
+    
+    // 使用 Spotify 的 Wikipedia 提供者
+    final summary = ref.watch(artistWikipediaSummaryProvider(spotifyArtist));
     if (summary.asData?.value == null) return const SizedBox.shrink();
 
     return Container(

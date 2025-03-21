@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'package:spotify/spotify.dart';
 import 'package:spotube/components/heart_button/use_track_toggle_like.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
+import 'package:spotube/provider/music_platform.dart';
+// 移除 Spotify 依赖
+// import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+
 
 class HeartButton extends HookConsumerWidget {
   final bool isLiked;
@@ -24,9 +27,15 @@ class HeartButton extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final auth = ref.watch(authenticationProvider);
+    // 使用新的认证提供者
+    final authState = ref.watch(authenticationProvider);
+    final spotifyAuth = authState[MusicPlatform.spotify];
+    final youtubeAuth = authState[MusicPlatform.youtubeMusic];
 
-    if (auth.asData?.value == null) return const SizedBox.shrink();
+    // 如果没有任何平台登录，则不显示
+    if ((spotifyAuth?.valueOrNull == null) && (youtubeAuth?.valueOrNull == null)) {
+      return const SizedBox.shrink();
+    }
 
     return IconButton(
       tooltip: tooltip,
@@ -55,7 +64,7 @@ class HeartButton extends HookConsumerWidget {
 }
 
 class TrackHeartButton extends HookConsumerWidget {
-  final Track track;
+  final SourceableTrack track;
   const TrackHeartButton({
     super.key,
     required this.track,
@@ -63,12 +72,36 @@ class TrackHeartButton extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final savedTracks = ref.watch(likedTracksProvider);
-    final me = ref.watch(meProvider);
+    // 判断音轨来源
+    final isYoutubeTrack =
+        track.id.startsWith('youtube:') || track.id.contains('youtube');
+
+    // 使用通用的收藏切换钩子
     final (:isLiked, :toggleTrackLike) = useTrackToggleLike(track, ref);
 
-    if (me.isLoading) {
+    // 获取认证状态
+    final authState = ref.watch(authenticationProvider);
+    final spotifyAuth = authState[MusicPlatform.spotify];
+    final youtubeAuth = authState[MusicPlatform.youtubeMusic];
+
+    // 根据音轨类型和认证状态决定是否显示加载指示器
+    final bool isLoading;
+    if (isYoutubeTrack) {
+      isLoading = youtubeAuth?.isLoading ?? false;
+    } else {
+      isLoading = spotifyAuth?.isLoading ?? false;
+    }
+
+    if (isLoading) {
       return const CircularProgressIndicator();
+    }
+
+    // 检查是否有权限操作
+    final bool canInteract;
+    if (isYoutubeTrack) {
+      canInteract = youtubeAuth?.valueOrNull != null;
+    } else {
+      canInteract = spotifyAuth?.valueOrNull != null;
     }
 
     return HeartButton(
@@ -76,7 +109,7 @@ class TrackHeartButton extends HookConsumerWidget {
           ? context.l10n.remove_from_favorites
           : context.l10n.save_as_favorite,
       isLiked: isLiked,
-      onPressed: savedTracks.asData?.value != null
+      onPressed: canInteract
           ? () {
               toggleTrackLike(track);
             }

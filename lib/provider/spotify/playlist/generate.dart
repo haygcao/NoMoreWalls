@@ -4,9 +4,10 @@ final generatePlaylistProvider = FutureProvider.autoDispose
     .family<List<Track>, GeneratePlaylistProviderInput>(
   (ref, input) async {
     final spotify = ref.watch(spotifyProvider);
-    final market = ref.watch(
+    final marketStr = ref.watch(
       userPreferencesProvider.select((s) => s.market),
     );
+    final market = MarketConverter.toSpotifyMarket(AppMarket.fromString(marketStr));
 
     final recommendation = await spotify.recommendations
         .get(

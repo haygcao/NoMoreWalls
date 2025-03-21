@@ -1,9 +1,10 @@
 import 'dart:io';
 
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:media_kit/media_kit.dart' hide Track;
 import 'package:spotube/services/logger/logger.dart';
 import 'package:flutter/foundation.dart';
-import 'package:spotify/spotify.dart' hide Playlist;
+
 import 'package:spotube/models/local_track.dart';
 import 'package:spotube/services/audio_player/custom_player.dart';
 import 'dart:async';
@@ -11,72 +12,56 @@ import 'dart:async';
 import 'package:media_kit/media_kit.dart' as mk;
 
 import 'package:spotube/services/audio_player/playback_state.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/utils/platform.dart';
 
 part 'audio_players_streams_mixin.dart';
 part 'audio_player_impl.dart';
 
 class SpotubeMedia extends mk.Media {
-  final Track track;
-
+  final SourceableTrack track;
   static int serverPort = 0;
 
   SpotubeMedia(
     this.track, {
     Map<String, dynamic>? extras,
     super.httpHeaders,
+
   }) : super(
-          track is LocalTrack
-              ? track.path
-              : "http://${kIsWindows ? "localhost" : InternetAddress.anyIPv4.address}:$serverPort/stream/${track.id}",
+          _getMediaUri(track),
           extras: {
             ...?extras,
-            "track": switch (track) {
-              LocalTrack() => track.toJson(),
-              SourcedTrack() => track.toJson(),
-              _ => track.toJson(),
-            },
+            "track": track.toJson(),
           },
         );
 
-  @override
-  String get uri {
-    return switch (track) {
-      /// [super.uri] must be used instead of [track.path] to prevent wrong
-      /// path format exceptions in Windows causing [extras] to be null
-      LocalTrack() => super.uri,
-      _ =>
-        "http://${kIsWindows ? "localhost" : InternetAddress.anyIPv4.address}:"
-            "$serverPort/stream/${track.id}",
-    };
+  static String _getMediaUri(SourceableTrack track) {
+    if (track is LocalTrack) {
+      return track.path;
+    }
+    final host = kIsWindows ? "localhost" : InternetAddress.anyIPv4.address;
+    return "http://$host:$serverPort/stream/${track.id}";
   }
 
+  @override
+  String get uri => _getMediaUri(track);
+
   factory SpotubeMedia.fromMedia(mk.Media media) {
-    final track = media.uri.startsWith("http")
-        ? Track.fromJson(media.extras?["track"])
-        : LocalTrack.fromJson(media.extras?["track"]);
+    final isLocalTrack = !media.uri.startsWith("http");
+    final trackJson = media.extras?["track"] as Map<String, dynamic>;
+    
+    final track = isLocalTrack
+        ? LocalTrack.fromJson(trackJson)
+        : SourcedTrack.fromJson(trackJson);
+        
     return SpotubeMedia(
       track,
       extras: media.extras,
       httpHeaders: media.httpHeaders,
+
     );
   }
-
-  // @override
-  // operator ==(Object other) {
-  //   if (other is! SpotubeMedia) return false;
-
-  //   final isLocal = track is LocalTrack && other.track is LocalTrack;
-  //   return isLocal
-  //       ? (other.track as LocalTrack).path == (track as LocalTrack).path
-  //       : other.track.id == track.id;
-  // }
-
-  // @override
-  // int get hashCode => track is LocalTrack
-  //     ? (track as LocalTrack).path.hashCode
-  //     : track.id.hashCode;
 }
 
 abstract class AudioPlayerInterface {

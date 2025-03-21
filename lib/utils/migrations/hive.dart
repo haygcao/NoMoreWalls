@@ -94,7 +94,8 @@ Future<void> migratePreferences() async {
           ),
           localLibraryLocation: Value(preferences.localLibraryLocation),
           locale: Value(preferences.locale),
-          market: Value(preferences.recommendationMarket),
+          // 修改这里，使用 market 而不是 recommendationMarket
+          market: Value(preferences.market),
           normalizeAudio: Value(preferences.normalizeAudio),
           pipedInstance: Value(preferences.pipedInstance),
           searchMode: Value(
@@ -280,7 +281,7 @@ Future<void> migratePlaybackHistory() async {
             ),
           PlaybackHistoryTrack() => HistoryTableCompanion.insert(
               createdAt: Value(item.date),
-              itemId: item.track.id!,
+              itemId: item.track.id,
               data: item.track.toJson(),
               type: db.HistoryEntryType.track,
             ),

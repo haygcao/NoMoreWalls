@@ -9,27 +9,28 @@ import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'package:scroll_to_index/scroll_to_index.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/fallbacks/not_found.dart';
 import 'package:spotube/components/inter_scrollbar/inter_scrollbar.dart';
 import 'package:spotube/components/track_tile/track_tile.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/hooks/controllers/use_auto_scroll_controller.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/audio_player/state.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class PlayerQueue extends HookConsumerWidget {
   final bool floating;
   final AudioPlayerState playlist;
-
-  final Future<void> Function(Track track) onJump;
+  // 将 Track 类型改为 SourceableTrack
+  final Future<void> Function(SourceableTrack track) onJump;
   final Future<void> Function(String trackId) onRemove;
   final Future<void> Function(int oldIndex, int newIndex) onReorder;
   final Future<void> Function() onStop;
-
   const PlayerQueue({
     this.floating = true,
     required this.playlist,
@@ -39,7 +40,6 @@ class PlayerQueue extends HookConsumerWidget {
     required this.onStop,
     super.key,
   });
-
   PlayerQueue.fromAudioPlayerNotifier({
     this.floating = true,
     required this.playlist,
@@ -49,16 +49,12 @@ class PlayerQueue extends HookConsumerWidget {
         onRemove = notifier.removeTrack,
         onReorder = notifier.moveTrack,
         onStop = notifier.stop;
-
   @override
   Widget build(BuildContext context, ref) {
     final mediaQuery = MediaQuery.of(context);
-
     final controller = useAutoScrollController();
     final searchText = useState('');
-
     final isSearching = useState(false);
-
     final tracks = playlist.tracks;
     final borderRadius = floating
         ? const BorderRadius.only(
@@ -70,7 +66,6 @@ class PlayerQueue extends HookConsumerWidget {
           );
     final theme = Theme.of(context);
     final headlineColor = theme.textTheme.headlineSmall?.color;
-
     final filteredTracks = useMemoized(
       () {
         if (searchText.value.isEmpty) {
@@ -79,7 +74,8 @@ class PlayerQueue extends HookConsumerWidget {
         return tracks
             .map((e) => (
                   weightedRatio(
-                    '${e.name!} - ${e.artists?.asString() ?? ""}',
+                    // 使用 SourceableTrack 的方法获取搜索文本
+                    '${e.title} - ${e.artistName}',
                     searchText.value,
                   ),
                   e
@@ -91,21 +87,17 @@ class PlayerQueue extends HookConsumerWidget {
       },
       [tracks, searchText.value],
     );
-
     useEffect(() {
       if (playlist.activeTrack == null) return null;
-
       controller.scrollToIndex(
         playlist.playlist.index,
         preferPosition: AutoScrollPosition.middle,
       );
       return null;
     }, []);
-
     if (tracks.isEmpty) {
       return const NotFound(vertical: true);
     }
-
     return LayoutBuilder(
       builder: (context, constrains) {
         return ClipRRect(

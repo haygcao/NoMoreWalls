@@ -1,73 +1,105 @@
 import 'package:spotify/spotify.dart';
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/models/spotify/home_feed.dart';
-import 'package:spotube/models/spotify_friends.dart';
+import 'package:spotube/models/spotify/spotify_friends.dart';
 import 'package:spotube/provider/history/summary.dart';
-
+import 'package:spotube/services/base/sourceable_track.dart';
+// 添加 Album 类的导入
+import 'package:spotube/services/base/album.dart' as base;  // 给我们的 Album 添加前缀
+import 'package:spotube/services/base/artist.dart' as spotube_artist;  // 修改导入，添加前缀避免冲突
+import 'package:spotube/services/base/playlist.dart' as spotube_playlist;
 abstract class FakeData {
   static final Image image = Image()
     ..height = 1
     ..width = 1
     ..url = "https://dummyimage.com/100x100/cfcfcf/cfcfcf.jpg";
+    
+// 在 FakeData 类中添加，将 ArtistBase 改为 Artist
+static final artistFake = spotube_artist.Artist(
+  id: "1",
+  name: "What an artist",
+  imageUrl: image.url,
+  uri: "uri",
+  platformMetadata: {
+    'type': 'artist',
+    'href': 'text',
+    'externalUrls': {'spotify': 'text'},
+  },
+);
 
-  static final Followers followers = Followers()
-    ..href = "text"
-    ..total = 1;
-
-  static final Artist artist = Artist()
-    ..id = "1"
-    ..name = "Wow artist Good!"
-    ..images = [image]
-    ..popularity = 1
-    ..type = "type"
-    ..uri = "uri"
-    ..externalUrls = externalUrls
-    ..genres = ["genre"]
-    ..href = "text"
-    ..followers = followers;
-
-  static final externalIds = ExternalIds()
-    ..isrc = "text"
-    ..ean = "text"
-    ..upc = "text";
-
-  static final externalUrls = ExternalUrls()..spotify = "text";
-
-  static final Album album = Album()
-    ..id = "1"
-    ..genres = ["genre"]
-    ..label = "label"
-    ..popularity = 1
-    ..albumType = AlbumType.album
-    ..artists = [artist]
-    ..availableMarkets = [Market.BD]
-    ..externalUrls = externalUrls
-    ..href = "text"
-    ..images = [image]
-    ..name = "Another good album"
-    ..releaseDate = "2021-01-01"
-    ..releaseDatePrecision = DatePrecision.day
-    ..tracks = [track]
-    ..type = "type"
-    ..uri = "uri"
-    ..externalIds = externalIds
-    ..copyrights = [
-      Copyright()
-        ..type = CopyrightType.C
-        ..text = "text",
-    ];
-
-  static final ArtistSimple artistSimple = ArtistSimple()
+  //  spotifyArtist 
+  static final spotifyArtist = Artist()
     ..id = "1"
     ..name = "What an artist"
     ..type = "type"
     ..uri = "uri"
     ..externalUrls = externalUrls;
 
+  // 添加一个新的 artist 字段，使用 spotube_artist.Artist 类型
+  static final artist = spotube_artist.Artist(
+    id: "1",
+    name: "What an artist",
+    imageUrl: image.url,
+    uri: "uri",
+    platformMetadata: {
+      'type': 'artist',
+      'href': 'text',
+      'externalUrls': {'spotify': 'text'},
+      'followers': 1000,
+    },
+  );
+
+  // 添加基于 services/base/album.dart 的 Album 实现
+static final album = base.Album(
+    id: "1",
+    name: "A good album",
+    uri: "uri",
+    description: "A fake album for testing",
+    imageUrl: image.url,
+    releaseDate: DateTime.parse("2021-01-01"),
+    artists: ["What an artist"],
+    albumType: "album",
+    tracks: [sourceableTrack],
+    platformMetadata: {
+      'type': 'album',
+      'href': 'text',
+      'externalUrls': {'spotify': 'text'},
+    },
+  );
+
+  // 添加通用 Playlist 实现
+  static final playlist = spotube_playlist.Playlist(
+    id: "1",
+    name: "A good playlist",
+    description: "A fake playlist for testing",
+    imageUrl: image.url,
+    uri: "spotify:playlist:1",
+    isPublic: false,
+    collaborative: false,
+    owner: "Test User",
+    totalTracks: 0,
+    platformMetadata: {
+      'platform': 'spotify',
+      'type': 'playlist',
+      'href': 'text',
+      'externalUrls': {'spotify': 'text'},
+    },
+  );
+
+  // 添加通用spotify Playlist 实现
+  static final PlaylistSimple playlistSimple = PlaylistSimple()
+    ..id = "1"
+    ..name = "A good playlist"
+    ..description = "A fake playlist for testing"
+    ..type = "playlist"
+    ..collaborative = false
+    ..public = false
+    ..images = [image];
+  static final externalUrls = ExternalUrls()..spotify = "text";
   static final AlbumSimple albumSimple = AlbumSimple()
     ..id = "1"
     ..albumType = AlbumType.album
-    ..artists = [artistSimple]
+    ..artists = [spotifyArtist] // 修改这里，使用 spotifyArtist 而不是 artist
     ..availableMarkets = [Market.BD]
     ..externalUrls = externalUrls
     ..href = "text"
@@ -77,97 +109,28 @@ abstract class FakeData {
     ..releaseDatePrecision = DatePrecision.day
     ..type = "type"
     ..uri = "uri";
-
+  // 通用接口实现
+  static final sourceableTrack = SourcedTrackImpl(
+    id: "1",
+    title: "A Track Name",
+    artistName: "What an artist",
+    albumName: "A good album",
+    duration: const Duration(milliseconds: 50000),
+    thumbnailUrl: image.url,  // 使用 image.url 替代 _dummyImageUrl
+    albumId: albumSimple.id,
+    artistId: artist.id,
+  );
+  
+  // 添加一个新的 fakeTrack 字段，类型为 SourceableTrack
+  static final fakeTrack = _FakeTrack();
+  
+  // Spotify 特定实现
   static final Track track = Track()
-    ..id = "1"
-    ..artists = [artist, artist, artist]
+    ..id = sourceableTrack.id
+    ..name = sourceableTrack.title
+    ..artists = [spotifyArtist]  // 修改这里，使用 spotifyArtist 而不是 artist
     ..album = albumSimple
-    ..availableMarkets = [Market.BD]
-    ..discNumber = 1
-    ..durationMs = 50000
-    ..explicit = false
-    ..externalUrls = externalUrls
-    ..href = "text"
-    ..name = "A Track Name"
-    ..popularity = 1
-    ..previewUrl = "url"
-    ..trackNumber = 1
-    ..type = "type"
-    ..uri = "uri"
-    ..isPlayable = true
-    ..explicit = false
-    ..linkedFrom = trackLink;
-
-  static final TrackLink trackLink = TrackLink()
-    ..id = "1"
-    ..type = "type"
-    ..uri = "uri"
-    ..externalUrls = {"spotify": "text"}
-    ..href = "text";
-
-  static final Paging<Track> paging = Paging()
-    ..href = "text"
-    ..itemsNative = [track.toJson()]
-    ..limit = 1
-    ..next = "text"
-    ..offset = 1
-    ..previous = "text"
-    ..total = 1;
-
-  static final User user = User()
-    ..id = "1"
-    ..displayName = "Your Name"
-    ..birthdate = "2021-01-01"
-    ..country = Market.BD
-    ..email = "test@email.com"
-    ..followers = followers
-    ..href = "text"
-    ..images = [image]
-    ..type = "type"
-    ..uri = "uri";
-
-  static final TracksLink tracksLink = TracksLink()
-    ..href = "text"
-    ..total = 1;
-
-  static final Playlist playlist = Playlist()
-    ..id = "1"
-    ..collaborative = false
-    ..description = "A very good playlist description"
-    ..externalUrls = externalUrls
-    ..followers = followers
-    ..href = "text"
-    ..images = [image]
-    ..name = "A good playlist"
-    ..owner = user
-    ..public = true
-    ..snapshotId = "text"
-    ..tracks = paging
-    ..tracksLink = tracksLink
-    ..type = "type"
-    ..uri = "uri";
-
-  static final PlaylistSimple playlistSimple = PlaylistSimple()
-    ..id = "1"
-    ..collaborative = false
-    ..externalUrls = externalUrls
-    ..href = "text"
-    ..images = [image]
-    ..name = "A good playlist"
-    ..owner = user
-    ..public = true
-    ..snapshotId = "text"
-    ..tracksLink = tracksLink
-    ..type = "type"
-    ..description = "A very good playlist description"
-    ..uri = "uri";
-
-  static final Category category = Category()
-    ..href = "text"
-    ..icons = [image]
-    ..id = "1"
-    ..name = "category";
-
+    ..durationMs = sourceableTrack.duration.inMilliseconds;
   static final friends = SpotifyFriends(
     friends: [
       for (var i = 0; i < 3; i++)
@@ -198,7 +161,6 @@ abstract class FakeData {
         ),
     ],
   );
-
   static final feedSection = SpotifyHomeFeedSection(
     typename: "HomeGenericSectionData",
     uri: "spotify:section:lol",
@@ -217,14 +179,19 @@ abstract class FakeData {
                 width: 1,
                 url: "https://dummyimage.com/100x100/cfcfcf/cfcfcf.jpg",
               ),
-            ],
-            owner: "Spotify",
-            uri: "spotify:playlist:id",
+            ], owner: '', uri: '',
           ),
-        )
+        ),
     ],
   );
-
+  static final historyRecentlyPlayedTrack = HistoryTableData(
+    id: 0,
+    type: HistoryEntryType.track,
+    createdAt: DateTime.now(),
+    itemId: "1",
+    data: sourceableTrack.toJson(),
+  );
+  
   static const historySummary = PlaybackHistorySummary(
     albums: 1,
     artists: 1,
@@ -233,27 +200,168 @@ abstract class FakeData {
     tracks: 1,
     fees: 1,
   );
-
-  static final historyRecentlyPlayedPlaylist = HistoryTableData(
-    id: 0,
-    type: HistoryEntryType.track,
-    createdAt: DateTime.now(),
-    itemId: "1",
-    data: playlist.toJson(),
-  );
-
-  static final historyRecentlyPlayedAlbum = HistoryTableData(
-    id: 0,
-    type: HistoryEntryType.track,
-    createdAt: DateTime.now(),
-    itemId: "1",
-    data: album.toJson(),
-  );
-
+  
   static final historyRecentlyPlayedItems = List.generate(
     10,
-    (index) => index % 2 == 0
-        ? historyRecentlyPlayedPlaylist
-        : historyRecentlyPlayedAlbum,
+    (index) => historyRecentlyPlayedTrack,
   );
+
+  static final Category category = Category()
+    ..href = "text"
+    ..icons = [
+      Image()
+        ..url = "https://via.placeholder.com/150"
+        ..height = 150
+        ..width = 150
+    ]
+    ..id = "1"
+    ..name = "category";
+
+
+
 }
+class _FakeTrack implements SourceableTrack {
+  @override
+  String get id => "fake_track_id";
+  
+  @override
+  String get title => "A Track Name";
+  
+  @override
+  String get artistName => "Wow artist Good!";
+  
+  @override
+  String? get albumName => "A good album";
+  
+  @override
+  Duration get duration => const Duration(milliseconds: 50000);
+  
+  @override
+  String? get thumbnailUrl => FakeData.image.url;  // 修复重复定义并使用正确的图片URL
+  
+  @override
+  String? get albumId => "1";
+  
+  @override
+  String? get artistId => "1";
+  @override
+  String getSearchTerm() {
+    return "$title - $artistName";
+  }
+  @override
+  Map<String, dynamic> toMediaItem() {
+    return {
+      'id': id,
+      'title': title,
+      'artist': artistName,
+      'album': albumName,
+      'duration': duration.inMilliseconds,
+      'artUri': thumbnailUrl,
+    };
+  }
+  @override
+  String getDisplayName() {
+    return "$title - $artistName";
+  }
+  @override
+  String getDescription() {
+    return albumName != null ? "专辑: $albumName" : "";
+  }
+  @override
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'artistName': artistName,
+    'albumName': albumName,
+    'duration': duration.inMilliseconds,
+    'thumbnailUrl': thumbnailUrl,
+    'albumId': albumId,
+    'artistId': artistId,
+  };
+}
+
+// 通用接口实现类
+class SourcedTrackImpl implements SourceableTrack {
+  final String _id;
+  final String _title;
+  final String _artistName;
+  final String? _albumName;
+  final Duration _duration;
+  final String? _thumbnailUrl;
+  final String? _albumId;
+  final String? _artistId;
+
+  const SourcedTrackImpl({
+    required String id,
+    required String title,
+    required String artistName,
+    String? albumName,
+    required Duration duration,
+    String? thumbnailUrl,
+    String? albumId,
+    String? artistId,
+  })  : _id = id,
+        _title = title,
+        _artistName = artistName,
+        _albumName = albumName,
+        _duration = duration,
+        _thumbnailUrl = thumbnailUrl,
+        _albumId = albumId,
+        _artistId = artistId;
+
+  @override
+  String get id => _id;
+  
+  @override
+  String get title => _title;
+  
+  @override
+  String get artistName => _artistName;
+  
+  @override
+  String? get albumName => _albumName;
+  
+  @override
+  Duration get duration => _duration;
+  
+  @override
+  String? get thumbnailUrl => _thumbnailUrl;
+  
+  @override
+  String? get albumId => _albumId;
+  
+  @override
+  String? get artistId => _artistId;
+
+  @override
+  String getSearchTerm() => "$title - $artistName";
+
+  @override
+  String getDisplayName() => "$title - $artistName";
+
+  @override
+  String getDescription() => albumName != null ? "专辑: $albumName" : "";
+
+  @override
+  Map<String, dynamic> toMediaItem() => {
+    'id': id,
+    'title': title,
+    'artist': artistName,
+    'album': albumName,
+    'duration': duration.inMilliseconds,
+    'artUri': thumbnailUrl,
+  };
+
+  @override
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'artistName': artistName,
+    'albumName': albumName,
+    'duration': duration.inMilliseconds,
+    'thumbnailUrl': thumbnailUrl,
+    'albumId': albumId,
+    'artistId': artistId,
+  };
+}
+

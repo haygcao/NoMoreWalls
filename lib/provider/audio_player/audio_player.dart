@@ -3,18 +3,21 @@ import 'dart:math';
 import 'package:drift/drift.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:media_kit/media_kit.dart' hide Track;
-import 'package:spotify/spotify.dart' hide Playlist;
+// 移除 spotify 导入
+// import 'package:spotify/spotify.dart' hide Playlist;
 import 'package:spotube/extensions/list.dart';
-import 'package:spotube/extensions/track.dart';
+
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/models/local_track.dart';
 import 'package:spotube/provider/audio_player/state.dart';
 import 'package:spotube/provider/blacklist_provider.dart';
 import 'package:spotube/provider/database/database.dart';
 import 'package:spotube/provider/discord_provider.dart';
-import 'package:spotube/provider/server/sourced_track.dart';
+
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/logger/logger.dart';
+import 'package:spotube/services/base/sourceable_track.dart';  // 添加这个导入
+import 'package:spotube/services/base/sourced_track.dart';
 
 class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
   BlackListNotifier get _blacklist => ref.read(blacklistProvider.notifier);
@@ -44,19 +47,18 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     }
 
     var playlist =
-        await database.select(database.playlistTable).getSingleOrNull();
+        await database.select(database.playQueueTable).getSingleOrNull();  // 修改这里
     var medias = await database.select(database.playlistMediaTable).get();
 
     if (playlist == null) {
-      await database.into(database.playlistTable).insert(
-            PlaylistTableCompanion.insert(
+      await database.into(database.playQueueTable).insert(  // 修改这里
+            PlayQueueTableCompanion.insert(  // 修改这里
               audioPlayerStateId: 0,
               index: audioPlayer.playlist.index,
-              id: const Value(0),
             ),
           );
 
-      playlist = await database.select(database.playlistTable).getSingle();
+      playlist = await database.select(database.playQueueTable).getSingle();  // 修改这里
     }
 
     if (medias.isEmpty && audioPlayer.playlist.medias.isNotEmpty) {
@@ -84,6 +86,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
                   extras: media.extras,
                   httpHeaders: media.httpHeaders,
                 ),
+            
               ),
             )
             .toList(),
@@ -116,8 +119,8 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
 
     await database.batch((batch) {
       batch.update(
-        database.playlistTable,
-        PlaylistTableCompanion(index: Value(playlist.index)),
+        database.playQueueTable,  // 修改这里
+        PlayQueueTableCompanion(index: Value(playlist.index)),  // 修改这里
         where: (tb) => tb.id.equals(0),
       );
 
@@ -206,6 +209,7 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
       playlist: audioPlayer.playlist,
       shuffled: audioPlayer.isShuffled,
       collections: [],
+
     );
   }
 
@@ -246,16 +250,22 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
   }
 
   // Tracks related methods
+  bool _compareTracks(SourceableTrack a, SourceableTrack b) {
+    if ((a is LocalTrack && b is! LocalTrack) ||
+        (a is! LocalTrack && b is LocalTrack)) return false;
+
+    return a is LocalTrack && b is LocalTrack
+        ? (a).path == (b).path
+        : a.id == b.id;
+  }
 
   Future<void> addTracksAtFirst(
-    Iterable<Track> tracks, {
+    Iterable<SourceableTrack> tracks, {
     bool allowDuplicates = false,
   }) async {
     if (state.tracks.length == 1) {
       return addTracks(tracks);
     }
-
-    tracks = _blacklist.filter(tracks).toList() as List<Track>;
 
     for (int i = 0; i < tracks.length; i++) {
       final track = tracks.elementAt(i);
@@ -272,24 +282,60 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     }
   }
 
-  Future<void> addTrack(Track track) async {
-    if (_blacklist.contains(track)) return;
+  Future<void> addTrack(SourceableTrack track) async {
+    if (_blacklist.contains(track)) return;  // 直接使用 SourceableTrack
     if (state.tracks.any((element) => _compareTracks(element, track))) return;
     await audioPlayer.addTrack(SpotubeMedia(track));
   }
 
-  Future<void> addTracks(Iterable<Track> tracks) async {
-    tracks = _blacklist.filter(tracks).toList() as List<Track>;
-    for (final track in tracks) {
+  Future<void> addTracks(Iterable<SourceableTrack> tracks) async {
+    final filteredTracks = _blacklist.filter(tracks);  // 直接使用 tracks
+    for (final track in filteredTracks) {
       await audioPlayer.addTrack(SpotubeMedia(track));
     }
   }
 
+  Future<void> load(
+    List<SourceableTrack> tracks, {
+    int initialIndex = 0,
+    bool autoPlay = false,
+  }) async {
+    final filteredTracks = _blacklist.filter(tracks);
+    
+    final medias = filteredTracks
+        .map((track) => SpotubeMedia(track))
+        .toList()
+        .unique((a, b) => _compareTracks(a.track, b.track));
+
+    if (medias.isEmpty) return;
+
+    // Giving the initial track a boost so MediaKit won't skip
+    // because of timeout
+    final intendedActiveTrack = medias.elementAt(initialIndex);
+    if (intendedActiveTrack.track is! LocalTrack) {
+      // 这里需要修改，使用 SourcedTrack 的静态方法而不是 provider
+      await SourcedTrack.fetchFromTrack(track: intendedActiveTrack.track);
+    }
+
+    await removeCollections(state.collections);
+
+    await audioPlayer.openPlaylist(
+      medias,
+      initialIndex: initialIndex,
+      autoPlay: autoPlay,
+    );
+  }
+
+  Future<void> jumpToTrack(SourceableTrack track) async {
+    final index = state.tracks.toList().indexWhere(
+          (element) => element.id == track.id);
+    if (index == -1) return;
+    await audioPlayer.jumpTo(index);
+  }
+
   Future<void> removeTrack(String trackId) async {
     final index = state.tracks.indexWhere((element) => element.id == trackId);
-
     if (index == -1) return;
-
     await audioPlayer.removeTrack(index);
   }
 
@@ -297,49 +343,6 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     for (final trackId in trackIds) {
       await removeTrack(trackId);
     }
-  }
-
-  bool _compareTracks(Track a, Track b) {
-    if ((a is LocalTrack && b is! LocalTrack) ||
-        (a is! LocalTrack && b is LocalTrack)) return false;
-
-    return a is LocalTrack && b is LocalTrack
-        ? (a).path == (b).path
-        : a.id == b.id;
-  }
-
-  Future<void> load(
-    List<Track> tracks, {
-    int initialIndex = 0,
-    bool autoPlay = false,
-  }) async {
-    final medias = (_blacklist.filter(tracks).toList() as List<Track>)
-        .asMediaList()
-        .unique((a, b) => _compareTracks(a.track, b.track));
-
-    // Giving the initial track a boost so MediaKit won't skip
-    // because of timeout
-    final intendedActiveTrack = medias.elementAt(initialIndex);
-    if (intendedActiveTrack.track is! LocalTrack) {
-      await ref.read(sourcedTrackProvider(intendedActiveTrack).future);
-    }
-
-    if (medias.isEmpty) return;
-
-    await removeCollections(state.collections);
-
-    await audioPlayer.openPlaylist(
-      medias.map((s) => s as Media).toList(),
-      initialIndex: initialIndex,
-      autoPlay: autoPlay,
-    );
-  }
-
-  Future<void> jumpToTrack(Track track) async {
-    final index =
-        state.tracks.toList().indexWhere((element) => element.id == track.id);
-    if (index == -1) return;
-    await audioPlayer.jumpTo(index);
   }
 
   Future<void> moveTrack(int oldIndex, int newIndex) async {

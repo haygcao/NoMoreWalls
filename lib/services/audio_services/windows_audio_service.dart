@@ -2,12 +2,11 @@ import 'dart:async';
 
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:smtc_windows/smtc_windows.dart';
-import 'package:spotify/spotify.dart';
-import 'package:spotube/extensions/artist_simple.dart';
-import 'package:spotube/extensions/image.dart';
+
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/audio_player/playback_state.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class WindowsAudioService {
   final SMTCWindows smtc;
@@ -77,19 +76,17 @@ class WindowsAudioService {
     ]);
   }
 
-  Future<void> addTrack(Track track) async {
+  Future<void> addTrack(SourceableTrack track) async {
     if (!smtc.enabled) {
       await smtc.enableSmtc();
     }
     await smtc.updateMetadata(
       MusicMetadata(
-        title: track.name!,
-        albumArtist: track.artists?.firstOrNull?.name ?? "Unknown",
-        artist: track.artists?.asString() ?? "Unknown",
-        album: track.album?.name ?? "Unknown",
-        thumbnail: (track.album?.images).asUrlString(
-          placeholder: ImagePlaceholder.albumArt,
-        ),
+        title: track.title,
+        albumArtist: track.artistName,
+        artist: track.artistName,
+        album: track.albumName ?? "Unknown",
+        thumbnail: track.thumbnailUrl ?? "",
       ),
     );
   }

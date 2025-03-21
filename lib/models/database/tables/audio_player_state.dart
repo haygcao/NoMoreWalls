@@ -8,16 +8,18 @@ class AudioPlayerStateTable extends Table {
   TextColumn get collections => text().map(const StringListConverter())();
 }
 
-class PlaylistTable extends Table {
+// 重命名为 PlayQueueTable 以避免冲突
+class PlayQueueTable extends Table {
   IntColumn get id => integer().autoIncrement()();
   IntColumn get audioPlayerStateId =>
       integer().references(AudioPlayerStateTable, #id)();
   IntColumn get index => integer()();
 }
 
+// 相应地更新引用
 class PlaylistMediaTable extends Table {
   IntColumn get id => integer().autoIncrement()();
-  IntColumn get playlistId => integer().references(PlaylistTable, #id)();
+  IntColumn get playlistId => integer().references(PlayQueueTable, #id)();
 
   TextColumn get uri => text()();
   TextColumn get extras =>

@@ -1,18 +1,21 @@
 import 'package:collection/collection.dart';
 import 'package:drift/drift.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 import 'package:http/http.dart';
-import 'package:spotify/spotify.dart';
+
 import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/database/database.dart';
+
+
 import 'package:spotube/services/logger/logger.dart';
 import 'package:spotube/services/song_link/song_link.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
 import 'package:spotube/services/sourced_track/exceptions.dart';
 import 'package:spotube/services/sourced_track/models/source_info.dart';
 import 'package:spotube/services/sourced_track/models/source_map.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 import 'package:spotube/services/sourced_track/models/video_info.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
+
 import 'package:spotube/utils/service_utils.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
@@ -21,6 +24,9 @@ final officialMusicRegex = RegExp(
   r"official\s(video|audio|music\svideo|lyric\svideo|visualizer)",
   caseSensitive: false,
 );
+
+// 在文件顶部添加数据库单例
+final _databaseInstance = AppDatabase();
 
 class YoutubeSourceInfo extends SourceInfo {
   YoutubeSourceInfo({
@@ -36,45 +42,80 @@ class YoutubeSourceInfo extends SourceInfo {
 }
 
 class YoutubeSourcedTrack extends SourcedTrack {
+  // 构造函数和所有 override 方法保持不变
   YoutubeSourcedTrack({
     required super.source,
     required super.siblings,
     required super.sourceInfo,
     required super.track,
-    required super.ref,
   });
 
-  static Future<YoutubeSourcedTrack> fetchFromTrack({
-    required Track track,
-    required Ref ref,
+  // 实现 SourceableTrack 的所有必需方法
+  @override
+  String get id => track.id;
+
+  @override
+  String get title => track.title;
+
+  @override
+  String get artistName => track.artistName;
+
+  @override
+  String? get albumName => track.albumName;
+
+  @override
+  Duration get duration => track.duration;
+
+  @override
+  String? get thumbnailUrl => sourceInfo.thumbnail;
+
+  @override
+  String? get artistId => track.artistId;
+
+  @override
+  String? get albumId => track.albumId;
+
+  @override
+  String getSearchTerm() => track.getSearchTerm();
+
+  @override
+  Map<String, dynamic> toJson() => {
+        ...track.toJson(),
+        'source': source.toJson(),
+        'sourceInfo': sourceInfo.toJson(),
+        'siblings': siblings.map((s) => s.toJson()).toList(),
+      };
+
+  static Future<SourcedTrack> fetchFromTrack({
+    required SourceableTrack track,
   }) async {
-    final database = ref.read(databaseProvider);
+    final database = _databaseInstance;  // 使用文件级别的单例
     final cachedSource = await (database.select(database.sourceMatchTable)
-          ..where((s) => s.trackId.equals(track.id!))
+          ..where((s) => s.trackId.equals(track.id))
           ..limit(1)
           ..orderBy([
-            (s) =>
-                OrderingTerm(expression: s.createdAt, mode: OrderingMode.desc),
+            (s) => OrderingTerm(expression: s.createdAt, mode: OrderingMode.desc),
           ]))
         .get()
         .then((s) => s.firstOrNull);
 
     if (cachedSource == null || cachedSource.sourceType != SourceType.youtube) {
-      final siblings = await fetchSiblings(ref: ref, track: track);
+      // 移除 ref 参数
+      final siblings = await fetchSiblings(track: track);
       if (siblings.isEmpty) {
         throw TrackNotFoundError(track);
       }
 
       await database.into(database.sourceMatchTable).insert(
             SourceMatchTableCompanion.insert(
-              trackId: track.id!,
+              trackId: track.id,  // 修改这里
               sourceId: siblings.first.info.id,
               sourceType: const Value(SourceType.youtube),
             ),
           );
 
       return YoutubeSourcedTrack(
-        ref: ref,
+       
         siblings: siblings.map((s) => s.info).skip(1).toList(),
         source: siblings.first.source as SourceMap,
         sourceInfo: siblings.first.info,
@@ -91,7 +132,7 @@ class YoutubeSourcedTrack extends SourcedTrack {
           onTimeout: () => throw ClientException("Timeout"),
         );
     return YoutubeSourcedTrack(
-      ref: ref,
+     
       siblings: [],
       source: toSourceMap(manifest),
       sourceInfo: YoutubeSourceInfo(
@@ -167,12 +208,9 @@ class YoutubeSourcedTrack extends SourcedTrack {
   }
 
   static List<YoutubeVideoInfo> rankResults(
-      List<YoutubeVideoInfo> results, Track track) {
-    final artists = (track.artists ?? [])
-        .map((ar) => ar.name)
-        .toList()
-        .whereNotNull()
-        .toList();
+      List<YoutubeVideoInfo> results, SourceableTrack track) {
+    // 获取艺术家列表
+    final artists = [track.artistName];
 
     return results
         .sorted((a, b) => b.views.compareTo(a.views))
@@ -199,7 +237,7 @@ class YoutubeSourcedTrack extends SourcedTrack {
           }
 
           final titleContainsTrackName =
-              sibling.title.toLowerCase().contains(track.name!.toLowerCase());
+              sibling.title.toLowerCase().contains(track.title.toLowerCase());
 
           final hasOfficialFlag =
               officialMusicRegex.hasMatch(sibling.title.toLowerCase());
@@ -224,10 +262,12 @@ class YoutubeSourcedTrack extends SourcedTrack {
   }
 
   static Future<List<SiblingType>> fetchSiblings({
-    required Track track,
-    required Ref ref,
+    required SourceableTrack track,
   }) async {
-    final links = await SongLinkService.links(track.id!);
+    // 移除 ref 参数
+    final searchQuery = track.getSearchTerm();  // 使用 SourceableTrack 的方法
+
+    final links = await SongLinkService.links(track.id);
     final ytLink = links.firstWhereOrNull((link) => link.platform == "youtube");
 
     if (ytLink?.url != null
@@ -249,14 +289,14 @@ class YoutubeSourcedTrack extends SourcedTrack {
       }
     }
 
-    final query = SourcedTrack.getSearchTerm(track);
+    //final query = SourcedTrack.getSearchTerm(track);
 
     final searchResults = await youtubeClient.search.search(
-      "$query - Topic",
+      "$searchQuery - Topic",
       filter: TypeFilters.video,
     );
 
-    if (ServiceUtils.onlyContainsEnglish(query)) {
+    if (ServiceUtils.onlyContainsEnglish(searchQuery)) {
       return await Future.wait(searchResults
           .map(YoutubeVideoInfo.fromVideo)
           .mapIndexed(toSiblingType));
@@ -270,7 +310,6 @@ class YoutubeSourcedTrack extends SourcedTrack {
     return await Future.wait(rankedSiblings.mapIndexed(toSiblingType));
   }
 
-  @override
   Future<YoutubeSourcedTrack?> swapWithSibling(SourceInfo sibling) async {
     if (sibling.id == sourceInfo.id) {
       return null;
@@ -292,22 +331,20 @@ class YoutubeSourcedTrack extends SourcedTrack {
           onTimeout: () => throw ClientException("Timeout"),
         );
 
-    final database = ref.read(databaseProvider);
-
+    // 使用全局单例
+    final database = _databaseInstance;
     await database.into(database.sourceMatchTable).insert(
           SourceMatchTableCompanion.insert(
             trackId: id!,
             sourceId: newSourceInfo.id,
             sourceType: const Value(SourceType.youtube),
-            // Because we're sorting by createdAt in the query
-            // we have to update it to indicate priority
             createdAt: Value(DateTime.now()),
           ),
           mode: InsertMode.replace,
         );
 
     return YoutubeSourcedTrack(
-      ref: ref,
+     
       siblings: newSiblings,
       source: toSourceMap(manifest),
       sourceInfo: newSourceInfo,
@@ -315,15 +352,14 @@ class YoutubeSourcedTrack extends SourcedTrack {
     );
   }
 
-  @override
   Future<YoutubeSourcedTrack> copyWithSibling() async {
     if (siblings.isNotEmpty) {
       return this;
     }
-    final fetchedSiblings = await fetchSiblings(ref: ref, track: this);
+    final fetchedSiblings = await fetchSiblings(track: this);
 
     return YoutubeSourcedTrack(
-      ref: ref,
+     
       siblings: fetchedSiblings
           .where((s) => s.info.id != sourceInfo.id)
           .map((s) => s.info)
@@ -333,4 +369,20 @@ class YoutubeSourcedTrack extends SourcedTrack {
       track: this,
     );
   }
+
+  @override
+  String getDisplayName() => "$title - $artistName";
+
+  @override
+  String getDescription() => sourceInfo.artist;
+
+  @override
+  Map<String, dynamic> toMediaItem() => {
+    'id': id,
+    'title': title,
+    'artist': artistName,
+    'album': albumName,
+    'duration': duration.inMilliseconds,
+    'artUri': thumbnailUrl,
+  };
 }

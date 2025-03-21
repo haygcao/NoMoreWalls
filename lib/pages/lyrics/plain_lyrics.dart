@@ -1,3 +1,4 @@
+
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -7,12 +8,13 @@ import 'package:palette_generator/palette_generator.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/lyrics/zoom_controls.dart';
 import 'package:spotube/components/shimmers/shimmer_lyrics.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+import 'package:spotube/provider/spotify/extension/artist_simple.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 
 import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/lyrics/lyrics_providers.dart';
+
 
 class PlainLyrics extends HookConsumerWidget {
   final PaletteColor palette;
@@ -28,7 +30,8 @@ class PlainLyrics extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     final playlist = ref.watch(audioPlayerProvider);
-    final lyricsQuery = ref.watch(syncedLyricsProvider(playlist.activeTrack));
+    final track = ref.watch(activeTrackProvider);  // 新增
+    final lyricsQuery = ref.watch(lyricsProvider(track));  // 修改
     final mediaQuery = MediaQuery.of(context);
     final textTheme = Theme.of(context).textTheme;
 

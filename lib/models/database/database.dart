@@ -5,18 +5,22 @@ import 'dart:io';
 
 import 'package:drift/drift.dart';
 import 'package:encrypt/encrypt.dart';
-import 'package:media_kit/media_kit.dart' hide Track;
+import 'package:media_kit/media_kit.dart' hide Track, Playlist;
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:spotify/spotify.dart' hide Playlist;
+import 'package:spotube/services/base/album.dart';
+import 'package:spotube/services/base/playlist.dart'; // 添加这一行导入
 import 'package:spotube/models/database/database.steps.dart';
 import 'package:spotube/models/lyrics.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/services/kv_store/encrypted_kv_store.dart';
 import 'package:spotube/services/kv_store/kv_store.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
 import 'package:flutter/material.dart' hide Table, Key, View;
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
 import 'package:drift/native.dart';
+
 import 'package:sqlite3/sqlite3.dart';
 import 'package:sqlite3_flutter_libs/sqlite3_flutter_libs.dart';
 
@@ -31,6 +35,7 @@ part 'tables/source_match.dart';
 part 'tables/audio_player_state.dart';
 part 'tables/history.dart';
 part 'tables/lyrics.dart';
+part 'tables/playlist.dart';
 
 part 'typeconverters/color.dart';
 part 'typeconverters/locale.dart';
@@ -38,6 +43,8 @@ part 'typeconverters/string_list.dart';
 part 'typeconverters/encrypted_text.dart';
 part 'typeconverters/map.dart';
 part 'typeconverters/subtitle.dart';
+
+
 
 @DriftDatabase(
   tables: [
@@ -48,7 +55,8 @@ part 'typeconverters/subtitle.dart';
     SkipSegmentTable,
     SourceMatchTable,
     AudioPlayerStateTable,
-    PlaylistTable,
+    PlayQueueTable,      // 更新：使用新的 PlayQueueTable
+    PlaylistTable,       // 添加：新的 PlaylistTable
     PlaylistMediaTable,
     HistoryTable,
     LyricsTable,

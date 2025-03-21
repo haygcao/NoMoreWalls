@@ -20,7 +20,7 @@ import 'package:spotube/pages/search/sections/albums.dart';
 import 'package:spotube/pages/search/sections/artists.dart';
 import 'package:spotube/pages/search/sections/playlists.dart';
 import 'package:spotube/pages/search/sections/tracks.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+import 'package:spotube/provider/spotify/authentication.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
 import 'package:spotube/services/kv_store/kv_store.dart';
 

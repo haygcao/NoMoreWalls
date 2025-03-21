@@ -1,17 +1,19 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/models/spotify/home_feed.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
-import 'package:spotube/provider/custom_spotify_endpoint_provider.dart';
+import 'package:spotube/provider/spotify/authentication.dart';
+import 'package:spotube/provider/spotify/custom_spotify_endpoint_provider.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:spotube/utils/constants/app_markets.dart';
+import 'package:spotube/utils/converters/market_converter.dart';
 
 final homeSectionViewProvider =
     FutureProvider.family<SpotifyHomeFeedSection?, String>(
         (ref, sectionUri) async {
-  final country = ref.watch(
+  final countryStr = ref.watch(
     userPreferencesProvider.select((s) => s.market),
   );
   final spTCookie = ref.watch(
-    authenticationProvider.select((s) => s.asData?.value?.getCookie("sp_t")),
+    spotifyAuthenticationProvider.select((s) => s.asData?.value?.getCookie("sp_t")),
   );
 
   if (spTCookie == null) return null;
@@ -20,7 +22,7 @@ final homeSectionViewProvider =
 
   return spotify.getHomeFeedSection(
     sectionUri,
-    country: country,
+    country: MarketConverter.toSpotifyMarket(AppMarket.fromString(countryStr)),
     spTCookie: spTCookie,
   );
 });

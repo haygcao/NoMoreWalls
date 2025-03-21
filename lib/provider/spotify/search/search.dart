@@ -44,11 +44,14 @@ class SearchNotifier<Y> extends AutoDisposeFamilyPaginatedAsyncNotifier<Y,
         nextOffset: 0,
       );
     }
+    final marketStr = ref.read(userPreferencesProvider).market;
+    final market = MarketConverter.toSpotifyMarket(AppMarket.fromString(marketStr));
+    
     final results = await spotify.search
         .get(
           ref.read(searchTermStateProvider),
           types: [arg],
-          market: ref.read(userPreferencesProvider).market,
+          market: market,
         )
         .getPage(limit, offset);
 

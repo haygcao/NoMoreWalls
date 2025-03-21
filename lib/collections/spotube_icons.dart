@@ -35,6 +35,7 @@ abstract class SpotubeIcons {
   static const moreVertical = FeatherIcons.moreVertical;
   static const moreHorizontal = FeatherIcons.moreHorizontal;
   static const share = FeatherIcons.share2;
+  static const playlist = Icons.queue_music;
   static const playlistAdd = Icons.playlist_add_rounded;
   static const playlistRemove = Icons.playlist_remove_rounded;
   static const trash = FeatherIcons.trash2;

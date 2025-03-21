@@ -1,56 +1,46 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart' hide Page;
-import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+
+// 移除 Spotify 依赖
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/assets.gen.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/adaptive/adaptive_pop_sheet_list.dart';
-import 'package:spotube/components/dialogs/playlist_add_track_dialog.dart';
-import 'package:spotube/components/dialogs/prompt_dialog.dart';
 import 'package:spotube/components/dialogs/track_details_dialog.dart';
 import 'package:spotube/components/heart_button/use_track_toggle_like.dart';
-import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/components/links/artist_link.dart';
+import 'package:spotube/components/track_tile/track_options/track_option_values.dart';
+import 'package:spotube/components/track_tile/track_options/track_options_actions.dart';
+import 'package:spotube/components/track_tile/track_options/track_options_header.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/image.dart';
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/models/local_track.dart';
-import 'package:spotube/pages/track/track.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
 import 'package:spotube/provider/blacklist_provider.dart';
 import 'package:spotube/provider/download_manager_provider.dart';
 import 'package:spotube/provider/local_tracks/local_tracks_provider.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
+import 'package:spotube/provider/music_platform.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
-import 'package:spotube/provider/spotify_provider.dart';
-import 'package:spotube/utils/service_utils.dart';
+import 'package:spotube/provider/youtube_music/youtube_music_provider.dart';
+// 移除 Spotify 依赖
+// import 'package:spotube/provider/spotify/spotify.dart';
+// 添加 SourceableTrack 接口
+import 'package:spotube/services/base/sourceable_track.dart';
+// 添加 YouTube Music 依赖
+import 'package:spotube/provider/youtube_music/youtube_music.dart';
+// 添加导入
+import 'package:spotube/services/navigation/navigation_service.dart';
 
 import 'package:url_launcher/url_launcher_string.dart';
 
-enum TrackOptionValue {
-  album,
-  share,
-  songlink,
-  addToPlaylist,
-  addToQueue,
-  removeFromPlaylist,
-  removeFromQueue,
-  blacklist,
-  delete,
-  playNext,
-  favorite,
-  details,
-  download,
-  startRadio,
-}
-
 class TrackOptions extends HookConsumerWidget {
-  final Track track;
+  // 将 Track 类型替换为 SourceableTrack
+  final SourceableTrack track;
   final bool userPlaylist;
   final String? playlistId;
   final ObjectRef<ValueChanged<RelativeRect>?>? showMenuCbRef;
@@ -63,114 +53,32 @@ class TrackOptions extends HookConsumerWidget {
     this.playlistId,
     this.icon,
   });
-
-  void actionShare(BuildContext context, Track track) {
-    final data = "https://open.spotify.com/track/${track.id}";
-    Clipboard.setData(ClipboardData(text: data)).then((_) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          width: 300,
-          behavior: SnackBarBehavior.floating,
-          content: Text(
-            context.l10n.copied_to_clipboard(data),
-            textAlign: TextAlign.center,
-          ),
-        ),
-      );
-    });
-  }
-
-  void actionAddToPlaylist(
-    BuildContext context,
-    Track track,
-  ) {
-    showDialog(
-      context: context,
-      builder: (context) => PlaylistAddTrackDialog(
-        tracks: [track],
-        openFromPlaylist: playlistId,
-      ),
-    );
-  }
-
-  void actionStartRadio(
-    BuildContext context,
-    WidgetRef ref,
-    Track track,
-  ) async {
-    final playback = ref.read(audioPlayerProvider.notifier);
-    final playlist = ref.read(audioPlayerProvider);
-    final spotify = ref.read(spotifyProvider);
-    final query = "${track.name} Radio";
-    final pages =
-        await spotify.search.get(query, types: [SearchType.playlist]).first();
-
-    final radios = pages
-        .expand((e) => e.items?.cast<PlaylistSimple>().toList() ?? [])
-        .toList();
-
-    final artists = track.artists!.map((e) => e.name);
-
-    final radio = radios.firstWhere(
-      (e) {
-        final validPlaylists =
-            artists.where((a) => e.description!.contains(a!));
-        return e.name == "${track.name} Radio" &&
-            (validPlaylists.length >= 2 ||
-                validPlaylists.length == artists.length) &&
-            e.owner?.displayName == "Spotify";
-      },
-      orElse: () => radios.first,
-    );
-
-    bool replaceQueue = false;
-
-    if (context.mounted && playlist.tracks.isNotEmpty) {
-      replaceQueue = await showPromptDialog(
-        context: context,
-        title: context.l10n.how_to_start_radio,
-        message: context.l10n.replace_queue_question,
-        okText: context.l10n.replace,
-        cancelText: context.l10n.add_to_queue,
-      );
-    }
-
-    if (replaceQueue || playlist.tracks.isEmpty) {
-      await playback.stop();
-      await playback.load([track], autoPlay: true);
-
-      // we don't have to add those tracks as useEndlessPlayback will do it for us
-      return;
-    } else {
-      await playback.addTrack(track);
-    }
-
-    final tracks =
-        await spotify.playlists.getTracksByPlaylistId(radio.id!).all();
-
-    await playback.addTracks(
-      tracks.toList()
-        ..removeWhere((e) {
-          final isDuplicate = playlist.tracks.any((t) => t.id == e.id);
-          return e.id == track.id || isDuplicate;
-        }),
-    );
-  }
-
   @override
   Widget build(BuildContext context, ref) {
     final scaffoldMessenger = ScaffoldMessenger.of(context);
     final mediaQuery = MediaQuery.of(context);
     final router = GoRouter.of(context);
     final ThemeData(:colorScheme) = Theme.of(context);
-
     final playlist = ref.watch(audioPlayerProvider);
     final playback = ref.watch(audioPlayerProvider.notifier);
-    final auth = ref.watch(authenticationProvider);
+    
+    // 使用新的认证提供者
+    final authState = ref.watch(authenticationProvider);
+    final spotifyAuth = authState[MusicPlatform.spotify];
+    final youtubeAuth = authState[MusicPlatform.youtubeMusic];
+    
+    // 判断音轨来源
+    final isYoutubeTrack = track.id.startsWith('youtube:') || track.id.contains('youtube');
+    // 获取导航服务
+    final navigationService = ref.watch(navigationServiceProvider);
+        
     ref.watch(downloadManagerProvider);
     final downloadManager = ref.watch(downloadManagerProvider.notifier);
     final blacklist = ref.watch(blacklistProvider);
+    
+    // 使用现有的提供者
     final me = ref.watch(meProvider);
+    final youtubeMusicState = ref.watch(youtubeMusicStateProvider);
 
     final favorites = useTrackToggleLike(track, ref);
 
@@ -182,8 +90,9 @@ class TrackOptions extends HookConsumerWidget {
     );
 
     final removingTrack = useState<String?>(null);
-    final favoritePlaylistsNotifier =
-        ref.watch(favoritePlaylistsProvider.notifier);
+    
+    // 使用现有的播放列表提供者
+    final favoritePlaylistsNotifier = ref.watch(favoritePlaylistsProvider.notifier);
 
     final isInQueue = useMemoized(() {
       if (playlist.activeTrack == null) return false;
@@ -200,19 +109,42 @@ class TrackOptions extends HookConsumerWidget {
     });
 
     final isLocalTrack = track is LocalTrack;
-
+    
+    // 检查是否有权限操作
+    final bool isAuthenticated;
+    if (isYoutubeTrack) {
+      isAuthenticated = youtubeAuth?.valueOrNull != null;
+    } else {
+      isAuthenticated = spotifyAuth?.valueOrNull != null;
+    }
+    
     final adaptivePopSheetList = AdaptivePopSheetList<TrackOptionValue>(
       onSelected: (value) async {
         switch (value) {
           case TrackOptionValue.album:
-            await router.push(
-              '/album/${track.album!.id}',
-              extra: track.album!,
-            );
+            if (track.albumId != null) {
+              navigationService.navigateToAlbumById(track.albumId!);
+            }
             break;
+            
+          case TrackOptionValue.track:
+            // 使用导航服务导航到音轨页面
+            navigationService.navigateToTrack(track);
+            break;
+            
+          case TrackOptionValue.artist:
+            if (track.artists?.isNotEmpty == true) {
+              // 直接使用艺术家名称作为ID
+              // 因为在这种情况下，track.artists 是字符串列表
+              navigationService.navigateToArtist(track.artists!.first);
+            }
+            break;
+            
           case TrackOptionValue.delete:
-            await File((track as LocalTrack).path).delete();
-            ref.invalidate(localTracksProvider);
+            if (isLocalTrack) {
+              await File((track as LocalTrack).path).delete();
+              ref.invalidate(localTracksProvider);
+            }
             break;
           case TrackOptionValue.addToQueue:
             await playback.addTrack(track);
@@ -220,7 +152,7 @@ class TrackOptions extends HookConsumerWidget {
               scaffoldMessenger.showSnackBar(
                 SnackBar(
                   content: Text(
-                    context.l10n.added_track_to_queue(track.name!),
+                    context.l10n.added_track_to_queue(track.title),
                   ),
                 ),
               );
@@ -231,18 +163,18 @@ class TrackOptions extends HookConsumerWidget {
             scaffoldMessenger.showSnackBar(
               SnackBar(
                 content: Text(
-                  context.l10n.track_will_play_next(track.name!),
+                  context.l10n.track_will_play_next(track.title),
                 ),
               ),
             );
             break;
           case TrackOptionValue.removeFromQueue:
-            playback.removeTrack(track.id!);
+            playback.removeTrack(track.id);
             scaffoldMessenger.showSnackBar(
               SnackBar(
                 content: Text(
                   context.l10n.removed_track_from_queue(
-                    track.name!,
+                    track.title,
                   ),
                 ),
               ),
@@ -252,29 +184,52 @@ class TrackOptions extends HookConsumerWidget {
             favorites.toggleTrackLike(track);
             break;
           case TrackOptionValue.addToPlaylist:
-            actionAddToPlaylist(context, track);
+            // 直接使用 TrackOptionsActions 中的方法，不再区分平台
+            TrackOptionsActions.actionAddToPlaylist(context, track, playlistId);
             break;
           case TrackOptionValue.removeFromPlaylist:
-            removingTrack.value = track.uri;
-            favoritePlaylistsNotifier
-                .removeTracks(playlistId ?? "", [track.id!]);
+            removingTrack.value = track.id;
+            if (isYoutubeTrack) {
+              // 使用 YouTube Music 播放列表操作
+              final playlistActions = ref.read(youtubeMusicPlaylistActionsProvider);
+              await playlistActions.removeTrackFromPlaylist(playlistId ?? "", track.id);
+              
+              // 刷新播放列表
+              ref.invalidate(youtubeMusicPlaylistTracksProvider(playlistId ?? ""));
+              
+              if (context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      context.l10n.removed_track_from_queue(
+                        track.title,
+                      ),
+                    ),
+                  ),
+                );
+              }
+            } else {
+              // Spotify 从播放列表移除逻辑
+              await favoritePlaylistsNotifier.removeTracks(playlistId ?? "", [track.id]);
+            }
+            removingTrack.value = null;
             break;
           case TrackOptionValue.blacklist:
             if (isBlackListed == null) break;
             if (isBlackListed == true) {
-              await ref.read(blacklistProvider.notifier).remove(track.id!);
+              await ref.read(blacklistProvider.notifier).remove(track.id);
             } else {
               await ref.read(blacklistProvider.notifier).add(
                     BlacklistTableCompanion.insert(
-                      name: track.name!,
-                      elementId: track.id!,
+                      name: track.title,
+                      elementId: track.id,
                       elementType: BlacklistedType.track,
                     ),
                   );
             }
             break;
           case TrackOptionValue.share:
-            actionShare(context, track);
+            TrackOptionsActions.actionShare(context, track);
             break;
           case TrackOptionValue.songlink:
             final url = "https://song.link/s/${track.id}";
@@ -290,45 +245,37 @@ class TrackOptions extends HookConsumerWidget {
             await downloadManager.addToQueue(track);
             break;
           case TrackOptionValue.startRadio:
-            actionStartRadio(context, ref, track);
+            if (isYoutubeTrack) {
+              // 使用 YouTube Music 电台功能
+              final service = ref.read(youtubeMusicProvider);
+              final radioTracks = await service.getRadioTracks(track.id);
+              
+              // 添加到播放队列
+              await playback.load(
+                radioTracks,
+                initialIndex: 0,
+                autoPlay: true,
+              );
+              
+              if (context.mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      "Started radio for ${track.title}",
+                    ),
+                  ),
+                );
+              }
+            } else {
+              // Spotify 电台逻辑
+              TrackOptionsActions.actionStartRadio(context, ref, track);
+            }
             break;
         }
       },
       icon: icon ?? const Icon(SpotubeIcons.moreHorizontal),
       headings: [
-        ListTile(
-          dense: true,
-          leading: AspectRatio(
-            aspectRatio: 1,
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: UniversalImage(
-                path: track.album!.images
-                    .asUrlString(placeholder: ImagePlaceholder.albumArt),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-          title: Text(
-            track.name!,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: Theme.of(context).textTheme.titleMedium,
-          ),
-          subtitle: Align(
-            alignment: Alignment.centerLeft,
-            child: ArtistLink(
-              artists: track.artists!,
-              onOverflowArtistClick: () => ServiceUtils.pushNamed(
-                context,
-                TrackPage.name,
-                pathParameters: {
-                  "id": track.id!,
-                },
-              ),
-            ),
-          ),
-        ),
+        TrackOptionsHeader(track: track),
       ],
       children: [
         if (isLocalTrack)
@@ -337,12 +284,12 @@ class TrackOptions extends HookConsumerWidget {
             leading: const Icon(SpotubeIcons.trash),
             title: Text(context.l10n.delete),
           ),
-        if (mediaQuery.smAndDown && !isLocalTrack)
+        if (mediaQuery.smAndDown && !isLocalTrack && track.albumId != null)
           PopSheetEntry(
             value: TrackOptionValue.album,
             leading: const Icon(SpotubeIcons.album),
             title: Text(context.l10n.go_to_album),
-            subtitle: Text(track.album!.name!),
+            subtitle: Text(track.albumName ?? ''),
           ),
         if (!playlist.containsTrack(track)) ...[
           PopSheetEntry(
@@ -362,7 +309,7 @@ class TrackOptions extends HookConsumerWidget {
             leading: const Icon(SpotubeIcons.queueRemove),
             title: Text(context.l10n.remove_from_queue),
           ),
-        if (me.asData?.value != null && !isLocalTrack)
+        if (isAuthenticated && !isLocalTrack)
           PopSheetEntry(
             value: TrackOptionValue.favorite,
             leading: favorites.isLiked
@@ -377,7 +324,7 @@ class TrackOptions extends HookConsumerWidget {
                   : context.l10n.save_as_favorite,
             ),
           ),
-        if (auth.asData?.value != null && !isLocalTrack) ...[
+        if (isAuthenticated && !isLocalTrack) ...[
           PopSheetEntry(
             value: TrackOptionValue.startRadio,
             leading: const Icon(SpotubeIcons.radio),
@@ -389,7 +336,7 @@ class TrackOptions extends HookConsumerWidget {
             title: Text(context.l10n.add_to_playlist),
           ),
         ],
-        if (userPlaylist && auth.asData?.value != null && !isLocalTrack)
+        if (userPlaylist && isAuthenticated && !isLocalTrack)
           PopSheetEntry(
             value: TrackOptionValue.removeFromPlaylist,
             leading: const Icon(SpotubeIcons.removeFilled),

@@ -4,7 +4,7 @@ import 'package:app_links/app_links.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/collections/routes.dart';
-import 'package:spotube/provider/spotify_provider.dart';
+import 'package:spotube/provider/spotify/spotify_provider.dart';
 import 'package:flutter_sharing_intent/flutter_sharing_intent.dart';
 import 'package:flutter_sharing_intent/model/sharing_file.dart';
 import 'package:spotube/services/logger/logger.dart';

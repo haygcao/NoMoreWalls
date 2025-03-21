@@ -6,7 +6,8 @@ final artistTopTracksProvider =
     ref.cacheFor();
 
     final spotify = ref.watch(spotifyProvider);
-    final market = ref.watch(userPreferencesProvider.select((s) => s.market));
+    final marketStr = ref.watch(userPreferencesProvider.select((s) => s.market));
+    final market = MarketConverter.toSpotifyMarket(AppMarket.fromString(marketStr));
     final tracks = await spotify.artists.topTracks(artistId, market);
 
     return tracks.toList();

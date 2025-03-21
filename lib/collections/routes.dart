@@ -32,7 +32,7 @@ import 'package:spotube/pages/stats/playlists/playlists.dart';
 import 'package:spotube/pages/stats/stats.dart';
 import 'package:spotube/pages/stats/streams/streams.dart';
 import 'package:spotube/pages/track/track.dart';
-import 'package:spotube/provider/authentication/authentication.dart';
+import 'package:spotube/provider/spotify/authentication.dart';
 import 'package:spotube/services/kv_store/kv_store.dart';
 import 'package:spotube/components/spotube_page_route.dart';
 import 'package:spotube/pages/artist/artist.dart';
@@ -56,7 +56,7 @@ final routerProvider = Provider((ref) {
             path: "/",
             name: HomePage.name,
             redirect: (context, state) async {
-              final auth = await ref.read(authenticationProvider.future);
+              final auth = await ref.read(spotifyAuthenticationProvider.future);
 
               if (auth == null && !KVStoreService.doneGettingStarted) {
                 return "/getting-started";
@@ -179,9 +179,9 @@ final routerProvider = Provider((ref) {
             path: "/album/:id",
             name: AlbumPage.name,
             pageBuilder: (context, state) {
-              assert(state.extra is AlbumSimple);
+              assert(state.extra is Album);
               return SpotubePage(
-                child: AlbumPage(album: state.extra as AlbumSimple),
+                child: AlbumPage(album: state.extra as Album),
               );
             },
           ),

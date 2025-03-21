@@ -16,10 +16,13 @@ class HistoryTable extends Table {
 }
 
 extension HistoryItemParseExtension on HistoryTableData {
-  PlaylistSimple? get playlist =>
-      type == HistoryEntryType.playlist ? PlaylistSimple.fromJson(data) : null;
-  AlbumSimple? get album =>
-      type == HistoryEntryType.album ? AlbumSimple.fromJson(data) : null;
-  Track? get track =>
-      type == HistoryEntryType.track ? Track.fromJson(data) : null;
+  // 将 PlaylistSimple 替换为 Playlist
+  Playlist? get playlist =>
+      type == HistoryEntryType.playlist ? Playlist.fromJson(data) : null;
+  // 使用 Album 替换 AlbumSimple
+  Album? get album =>
+      type == HistoryEntryType.album ? Album.fromJson(data) : null;
+  // 使用 SourceableTrack 替换 Track
+  SourceableTrack? get track =>
+      type == HistoryEntryType.track ? SourcedTrack.fromJson(data) : null;
 }

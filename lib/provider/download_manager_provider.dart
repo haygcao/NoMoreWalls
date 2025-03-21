@@ -1,27 +1,48 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:spotube/extensions/track.dart';
+
 import 'package:spotube/services/logger/logger.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:metadata_god/metadata_god.dart';
 import 'package:path/path.dart';
-import 'package:spotify/spotify.dart';
-import 'package:spotube/extensions/artist_simple.dart';
-import 'package:spotube/extensions/image.dart';
+// 移除 spotify 导入
+// import 'package:spotify/spotify.dart';
+// 添加新的导入
+import 'package:spotube/services/base/sourceable_track.dart';
+
+
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
 import 'package:spotube/services/download_manager/download_manager.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/utils/primitive_utils.dart';
 import 'package:spotube/utils/service_utils.dart';
+
+// 添加 Metadata 扩展方法
+// Add this import for Uint8List
+
+extension SourcedTrackMetadataExtension on SourcedTrack {
+  Metadata toMetadata({
+    required BigInt? fileLength,
+    required Uint8List? imageBytes,
+  }) {
+    return Metadata(
+      title: track.title,
+      artist: track.artistName,
+      album: track.albumName,
+      fileSize: fileLength,
+      picture: imageBytes != null ? Picture(data: imageBytes, mimeType: "image/jpeg") : null,
+    );
+  }
+}
 
 class DownloadManagerProvider extends ChangeNotifier {
   DownloadManagerProvider({required this.ref})
       : $history = <SourcedTrack>{},
-        $backHistory = <Track>{},
+        $backHistory = <SourceableTrack>{},
         dl = DownloadManager() {
     dl.statusStream.listen((event) async {
       try {
@@ -54,16 +75,14 @@ class DownloadManagerProvider extends ChangeNotifier {
           await oldFile.delete();
         }
 
+        // 使用 thumbnailUrl 替代 album.images
         final imageBytes = await ServiceUtils.downloadImage(
-          (track.album?.images).asUrlString(
-            placeholder: ImagePlaceholder.albumArt,
-            index: 1,
-          ),
+          track.track.thumbnailUrl ?? "",
         );
 
         final metadata = track.toMetadata(
-          fileLength: await file.length(),
-          imageBytes: imageBytes,
+          fileLength: BigInt.from(await file.length()),
+          imageBytes: imageBytes != null ? Uint8List.fromList(imageBytes) : null,
         );
 
         await MetadataGod.writeMetadata(
@@ -76,7 +95,7 @@ class DownloadManagerProvider extends ChangeNotifier {
     });
   }
 
-  Future<bool> Function(Track track) onFileExists = (Track track) async => true;
+  Future<bool> Function(SourceableTrack track) onFileExists = (SourceableTrack track) async => true;
 
   final Ref<DownloadManagerProvider> ref;
 
@@ -96,17 +115,17 @@ class DownloadManagerProvider extends ChangeNotifier {
       .length;
 
   final Set<SourcedTrack> $history;
-  // these are the tracks which metadata hasn't been fetched yet
-  final Set<Track> $backHistory;
+  final Set<SourceableTrack> $backHistory;
   final DownloadManager dl;
 
-  String getTrackFileUrl(Track track) {
+  String getTrackFileUrl(SourceableTrack track) {
     final name =
-        "${track.name} - ${track.artists?.asString() ?? ""}.${downloadCodec.name}";
+        "${track.title} - ${track.artistName}.${downloadCodec.name}";
     return join(downloadDirectory, PrimitiveUtils.toSafeFileName(name));
   }
 
-  bool isActive(Track track) {
+  // 修改参数类型
+  bool isActive(SourceableTrack track) {
     if ($backHistory.contains(track)) return true;
 
     final sourcedTrack = mapToSourcedTrack(track);
@@ -125,8 +144,8 @@ class DownloadManagerProvider extends ChangeNotifier {
         .contains(sourcedTrack.getUrlOfCodec(downloadCodec));
   }
 
-  /// For singular downloads
-  Future<void> addToQueue(Track track) async {
+  // 修改参数类型
+  Future<void> addToQueue(SourceableTrack track) async {
     final savePath = getTrackFileUrl(track);
 
     final oldFile = File(savePath);
@@ -147,7 +166,6 @@ class DownloadManagerProvider extends ChangeNotifier {
     } else {
       $backHistory.add(track);
       final sourcedTrack = await SourcedTrack.fetchFromTrack(
-        ref: ref,
         track: track,
       ).then((d) {
         $backHistory.remove(track);
@@ -165,7 +183,8 @@ class DownloadManagerProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> batchAddToQueue(List<Track> tracks) async {
+  // 修改参数类型
+  Future<void> batchAddToQueue(List<SourceableTrack> tracks) async {
     $backHistory.addAll(
       tracks.where((element) => element is! SourcedTrack),
     );
@@ -184,6 +203,15 @@ class DownloadManagerProvider extends ChangeNotifier {
         AppLogger.reportError(e, StackTrace.current);
         continue;
       }
+    }
+  }
+
+  // 修改参数和返回类型
+  SourcedTrack? mapToSourcedTrack(SourceableTrack track) {
+    if (track is SourcedTrack) {
+      return track;
+    } else {
+      return $history.firstWhereOrNull((element) => element.id == track.id);
     }
   }
 
@@ -215,13 +243,7 @@ class DownloadManagerProvider extends ChangeNotifier {
     }
   }
 
-  SourcedTrack? mapToSourcedTrack(Track track) {
-    if (track is SourcedTrack) {
-      return track;
-    } else {
-      return $history.firstWhereOrNull((element) => element.id == track.id);
-    }
-  }
+
 
   ValueNotifier<DownloadStatus>? getStatusNotifier(SourcedTrack track) {
     return dl.getDownload(track.getUrlOfCodec(downloadCodec))?.status;

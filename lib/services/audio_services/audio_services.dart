@@ -1,14 +1,12 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotify/spotify.dart';
-import 'package:spotube/extensions/artist_simple.dart';
-import 'package:spotube/extensions/image.dart';
+
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/audio_services/mobile_audio_service.dart';
 import 'package:spotube/services/audio_services/windows_audio_service.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 import 'package:spotube/utils/platform.dart';
 
 class AudioServices with WidgetsBindingObserver {
@@ -42,21 +40,15 @@ class AudioServices with WidgetsBindingObserver {
     return AudioServices(mobile, smtc);
   }
 
-  Future<void> addTrack(Track track) async {
+  Future<void> addTrack(SourceableTrack track) async {
     await smtc?.addTrack(track);
     mobile?.addItem(MediaItem(
-      id: track.id!,
-      album: track.album?.name ?? "",
-      title: track.name!,
-      artist: (track.artists)?.asString() ?? "",
-      duration: track is SourcedTrack
-          ? track.sourceInfo.duration
-          : Duration(milliseconds: track.durationMs ?? 0),
-      artUri: Uri.parse(
-        (track.album?.images).asUrlString(
-          placeholder: ImagePlaceholder.albumArt,
-        ),
-      ),
+      id: track.id,
+      album: track.albumName ?? "",
+      title: track.title,
+      artist: track.artistName,
+      duration: track.duration,
+      artUri: Uri.parse(track.thumbnailUrl ?? ""),
       playable: true,
     ));
   }

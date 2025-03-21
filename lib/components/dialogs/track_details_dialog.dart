@@ -1,17 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 导入
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
-import 'package:spotube/components/links/artist_link.dart';
+
 import 'package:spotube/components/links/hyper_link.dart';
 import 'package:spotube/components/links/link_text.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:spotube/extensions/duration.dart';
+// 导入通用接口
+import 'package:spotube/services/base/sourceable_track.dart';
+//import 'package:spotube/services/base/collection.dart';
+
+// 扩展 SourceableTrack 接口，添加我们需要的属性
+extension TrackDetailsExtension on SourceableTrack {
+  dynamic get album => null;
+  String? get releaseDate => null;
+  int? get popularity => null;
+  List<String>? get artists => [artistName]; // 使用 String 类型的艺术家列表
+}
 
 class TrackDetailsDialog extends HookWidget {
-  final Track track;
+  final SourceableTrack track;
   const TrackDetailsDialog({
     super.key,
     required this.track,
@@ -23,26 +35,21 @@ class TrackDetailsDialog extends HookWidget {
     final mediaQuery = MediaQuery.of(context);
 
     final detailsMap = {
-      context.l10n.title: track.name!,
-      context.l10n.artist: ArtistLink(
-        artists: track.artists ?? <Artist>[],
-        mainAxisAlignment: WrapAlignment.start,
-        textStyle: const TextStyle(color: Colors.blue),
-        hideOverflowArtist: false,
-      ),
+      context.l10n.title: track.title,
+      context.l10n.artist: Text(track.artistName), // 简化为直接显示艺术家名称
       context.l10n.album: LinkText(
-        track.album!.name!,
-        "/album/${track.album?.id}",
+        track.albumName ?? '',
+        "/album/${track.albumId}",
         extra: track.album,
         overflow: TextOverflow.ellipsis,
         style: const TextStyle(color: Colors.blue),
       ),
       context.l10n.duration: (track is SourcedTrack
               ? (track as SourcedTrack).sourceInfo.duration
-              : track.duration!)
+              : track.duration)
           .toHumanReadableString(),
-      if (track.album!.releaseDate != null)
-        context.l10n.released: track.album!.releaseDate,
+      if (track.releaseDate != null)
+        context.l10n.released: track.releaseDate,
       context.l10n.popularity: track.popularity?.toString() ?? "0",
     };
 

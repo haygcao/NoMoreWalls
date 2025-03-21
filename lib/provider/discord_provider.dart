@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:flutter_discord_rpc/flutter_discord_rpc.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
-import 'package:spotube/extensions/artist_simple.dart';
+
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/logger/logger.dart';
 import 'package:spotube/utils/platform.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
 
 class DiscordNotifier extends AsyncNotifier<void> {
   @override
@@ -74,29 +74,26 @@ class DiscordNotifier extends AsyncNotifier<void> {
     }
   }
 
-  Future<void> updatePresence(Track track) async {
+  Future<void> updatePresence(SourceableTrack track) async {
     if (!kIsDesktop) return;
     if (FlutterDiscordRPC.instance.isConnected == false) return;
-    final artistNames = track.artists?.asString();
     final isPlaying = audioPlayer.isPlaying;
     final position = audioPlayer.position;
 
     await FlutterDiscordRPC.instance.setActivity(
       activity: RPCActivity(
-        details: track.name,
-        state: artistNames != null ? "by $artistNames" : null,
+        details: track.title,
+        state: "by ${track.artistName}",
         assets: RPCAssets(
-          largeImage:
-              track.album?.images?.first.url ?? "spotube-logo-foreground",
-          largeText: track.album?.name ?? "Unknown album",
+          largeImage: track.thumbnailUrl ?? "spotube-logo-foreground",
+          largeText: track.albumName ?? "Unknown album",
           smallImage: "spotube-logo-foreground",
           smallText: "Spotube",
         ),
         buttons: [
-          RPCButton(
-            label: "Listen on Spotify",
-            url: track.externalUrls?.spotify ??
-                "https://open.spotify.com/tracks/${track.id}",
+          const RPCButton(
+            label: "Listen on Spotube",
+            url: "https://spotube.krtirtho.dev",
           ),
         ],
         timestamps: RPCTimestamps(

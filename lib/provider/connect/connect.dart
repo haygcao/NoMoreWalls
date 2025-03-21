@@ -5,12 +5,14 @@ import 'package:spotube/provider/audio_player/state.dart';
 import 'package:spotube/services/audio_player/audio_player.dart';
 import 'package:spotube/services/logger/logger.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotify/spotify.dart' hide Playlist;
+
 import 'package:spotube/models/connect/connect.dart';
 
 import 'package:spotube/provider/connect/clients.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:web_socket_channel/status.dart' as status;
+// 移除 spotify 导入
+import 'package:spotube/services/base/sourceable_track.dart';
 
 final playingProvider = StateProvider<bool>(
   (ref) => false,
@@ -38,7 +40,7 @@ final queueProvider = StateProvider<AudioPlayerState>(
     loopMode: audioPlayer.loopMode,
     shuffled: audioPlayer.isShuffled,
     playlist: audioPlayer.playlist,
-    collections: [],
+    collections: const [], // 使用 const 优化性能
   ),
 );
 
@@ -167,7 +169,7 @@ class ConnectNotifier extends AsyncNotifier<WebSocketChannel?> {
     emit(WebSocketLoopEvent(value));
   }
 
-  Future<void> addTrack(Track data) async {
+  Future<void> addTrack(SourceableTrack data) async {
     emit(WebSocketAddTrackEvent(data));
   }
 

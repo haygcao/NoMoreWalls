@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:palette_generator/palette_generator.dart';
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/extensions/image.dart';
+
 import 'package:spotube/models/local_track.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/audio_player/state.dart';
@@ -60,9 +60,7 @@ class AudioPlayerStreamListeners {
 
       final palette = await PaletteGenerator.fromImageProvider(
         UniversalImage.imageProvider(
-          (activeTrack.album?.images).asUrlString(
-            placeholder: ImagePlaceholder.albumArt,
-          ),
+          activeTrack.thumbnailUrl ?? "",  // 使用 SourceableTrack 的 thumbnailUrl
           height: 50,
           width: 50,
         ),
@@ -129,7 +127,7 @@ class AudioPlayerStreamListeners {
   }
 
   StreamSubscription subscribeToPosition() {
-    String lastTrack = ""; // used to prevent multiple calls to the same track
+    String lastTrack = "";
     return audioPlayer.positionStream.listen((event) async {
       try {
         if (event < const Duration(seconds: 3) ||
@@ -138,9 +136,11 @@ class AudioPlayerStreamListeners {
                 audioPlayerState.tracks.length - 1) {
           return;
         }
-        final nextTrack = SpotubeMedia.fromMedia(audioPlayerState
-            .playlist.medias
-            .elementAt(audioPlayerState.playlist.index + 1));
+        final nextTrack = SpotubeMedia.fromMedia(
+          audioPlayerState.playlist.medias
+              .elementAt(audioPlayerState.playlist.index + 1),
+
+        );
 
         if (lastTrack == nextTrack.track.id || nextTrack.track is LocalTrack) {
           return;

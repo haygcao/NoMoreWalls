@@ -1,17 +1,20 @@
 import 'package:collection/collection.dart';
 import 'package:drift/drift.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:spotify/spotify.dart';
+
+
 import 'package:spotube/models/database/database.dart';
-import 'package:spotube/provider/database/database.dart';
+
 import 'package:spotube/services/sourced_track/enums.dart';
 import 'package:spotube/services/sourced_track/exceptions.dart';
 import 'package:spotube/services/sourced_track/models/source_info.dart';
 import 'package:spotube/services/sourced_track/models/source_map.dart';
-import 'package:spotube/services/sourced_track/sourced_track.dart';
+import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/services/base/sourced_track.dart';
 import 'package:jiosaavn/jiosaavn.dart';
 import 'package:spotube/extensions/string.dart';
 
+// 添加全局单例
+final _databaseInstance = AppDatabase();
 final jiosaavnClient = JioSaavnClient();
 
 class JioSaavnSourceInfo extends SourceInfo {
@@ -29,19 +32,54 @@ class JioSaavnSourceInfo extends SourceInfo {
 
 class JioSaavnSourcedTrack extends SourcedTrack {
   JioSaavnSourcedTrack({
-    required super.ref,
+    // 移除 ref 参数
     required super.source,
     required super.siblings,
     required super.sourceInfo,
     required super.track,
   });
 
+  // 实现 SourceableTrack 接口
+  @override
+  String get id => track.id;
+
+  @override
+  String get title => track.title;
+
+  @override
+  String get artistName => track.artistName;
+
+  @override
+  String? get albumName => track.albumName;
+
+  @override
+  Duration get duration => track.duration;
+
+  @override
+  String? get thumbnailUrl => sourceInfo.thumbnail;
+
+  @override
+  String? get artistId => track.artistId;
+
+  @override
+  String? get albumId => track.albumId;
+
+  @override
+  String getSearchTerm() => track.getSearchTerm();
+
+  @override
+  Map<String, dynamic> toJson() => {
+        ...track.toJson(),
+        'source': source.toJson(),
+        'sourceInfo': sourceInfo.toJson(),
+        'siblings': siblings.map((s) => s.toJson()).toList(),
+      };
+
   static Future<SourcedTrack> fetchFromTrack({
-    required Track track,
-    required Ref ref,
+    required SourceableTrack track,
     bool weakMatch = false,
   }) async {
-    final database = ref.read(databaseProvider);
+    final database = _databaseInstance;
     final cachedSource = await (database.select(database.sourceMatchTable)
           ..where((s) => s.trackId.equals(track.id!))
           ..limit(1)
@@ -53,8 +91,7 @@ class JioSaavnSourcedTrack extends SourcedTrack {
 
     if (cachedSource == null ||
         cachedSource.sourceType != SourceType.jiosaavn) {
-      final siblings =
-          await fetchSiblings(ref: ref, track: track, weakMatch: weakMatch);
+      final siblings = await fetchSiblings(track: track, weakMatch: weakMatch);
 
       if (siblings.isEmpty) {
         throw TrackNotFoundError(track);
@@ -69,7 +106,6 @@ class JioSaavnSourcedTrack extends SourcedTrack {
           );
 
       return JioSaavnSourcedTrack(
-        ref: ref,
         siblings: siblings.map((s) => s.info).skip(1).toList(),
         source: siblings.first.source!,
         sourceInfo: siblings.first.info,
@@ -77,13 +113,10 @@ class JioSaavnSourcedTrack extends SourcedTrack {
       );
     }
 
-    final [item] =
-        await jiosaavnClient.songs.detailsById([cachedSource.sourceId]);
-
+    final [item] = await jiosaavnClient.songs.detailsById([cachedSource.sourceId]);
     final (:info, :source) = toSiblingType(item);
 
     return JioSaavnSourcedTrack(
-      ref: ref,
       siblings: [],
       source: source!,
       sourceInfo: info,
@@ -91,6 +124,7 @@ class JioSaavnSourcedTrack extends SourcedTrack {
     );
   }
 
+  // 恢复原有的 toSiblingType 方法
   static SiblingType toSiblingType(SongResponse result) {
     final SiblingType sibling = (
       info: JioSaavnSourceInfo(
@@ -127,43 +161,41 @@ class JioSaavnSourcedTrack extends SourcedTrack {
   }
 
   static Future<List<SiblingType>> fetchSiblings({
-    required Track track,
-    required Ref ref,
+    required SourceableTrack track,
     bool weakMatch = false,
   }) async {
-    final query = SourcedTrack.getSearchTerm(track);
+    final searchQuery = track.getSearchTerm();
 
     final SongSearchResponse(:results) =
-        await jiosaavnClient.search.songs(query, limit: 20);
-
-    final trackArtistNames = track.artists?.map((ar) => ar.name).toList();
+        await jiosaavnClient.search.songs(searchQuery, limit: 20);
 
     final matchedResults = results
         .where(
           (s) {
-            s.name?.unescapeHtml().contains(track.name!) ?? false;
+            s.name?.unescapeHtml().contains(track.title) ?? false;  // 使用 title
 
-            final sameName = s.name?.unescapeHtml() == track.name;
+            final sameName = s.name?.unescapeHtml() == track.title;  // 使用 title
             final artistNames = [
               s.primaryArtists,
               if (s.featuredArtists.isNotEmpty) ", ",
               s.featuredArtists
             ].join("").unescapeHtml();
-            final sameArtists = artistNames.split(", ").any(
-                  (artist) =>
-                      trackArtistNames?.any((ar) => artist == ar) ?? false,
-                );
+            
+            // 使用 artistName
+            final sameArtist = artistNames.split(", ")
+                .any((artist) => artist.toLowerCase() == track.artistName.toLowerCase());
+
             if (weakMatch) {
               final containsName =
-                  s.name?.unescapeHtml().contains(track.name!) ?? false;
+                  s.name?.unescapeHtml().contains(track.title) ?? false;  // 使用 title
               final containsPrimaryArtist = s.primaryArtists
                   .unescapeHtml()
-                  .contains(trackArtistNames?.first ?? "");
+                  .contains(track.artistName);  // 使用 artistName
 
               return containsName && containsPrimaryArtist;
             }
 
-            return sameName && sameArtists;
+            return sameName && sameArtist;
           },
         )
         .map(toSiblingType)
@@ -181,10 +213,9 @@ class JioSaavnSourcedTrack extends SourcedTrack {
     if (siblings.isNotEmpty) {
       return this;
     }
-    final fetchedSiblings = await fetchSiblings(ref: ref, track: this);
+    final fetchedSiblings = await fetchSiblings(track: this);
 
     return JioSaavnSourcedTrack(
-      ref: ref,
       siblings: fetchedSiblings
           .where((s) => s.info.id != sourceInfo.id)
           .map((s) => s.info)
@@ -201,9 +232,7 @@ class JioSaavnSourcedTrack extends SourcedTrack {
       return null;
     }
 
-    // a sibling source that was fetched from the search results
     final isStepSibling = siblings.none((s) => s.id == sibling.id);
-
     final newSourceInfo = isStepSibling
         ? sibling
         : siblings.firstWhere((s) => s.id == sibling.id);
@@ -211,28 +240,40 @@ class JioSaavnSourcedTrack extends SourcedTrack {
       ..insert(0, sourceInfo);
 
     final [item] = await jiosaavnClient.songs.detailsById([newSourceInfo.id]);
-
     final (:info, :source) = toSiblingType(item);
 
-    final database = ref.read(databaseProvider);
+    final database = _databaseInstance;
     await database.into(database.sourceMatchTable).insert(
           SourceMatchTableCompanion.insert(
             trackId: id!,
             sourceId: info.id,
             sourceType: const Value(SourceType.jiosaavn),
-            // Because we're sorting by createdAt in the query
-            // we have to update it to indicate priority
             createdAt: Value(DateTime.now()),
           ),
           mode: InsertMode.replace,
         );
 
     return JioSaavnSourcedTrack(
-      ref: ref,
       siblings: newSiblings,
       source: source!,
       sourceInfo: info,
       track: this,
     );
   }
+
+  @override
+  String getDisplayName() => "$title - $artistName";
+
+  @override
+  String getDescription() => albumName ?? sourceInfo.artist;
+
+  @override
+  Map<String, dynamic> toMediaItem() => {
+    'id': id,
+    'title': title,
+    'artist': artistName,
+    'album': albumName,
+    'duration': duration.inMilliseconds,
+    'artUri': thumbnailUrl,
+  };
 }

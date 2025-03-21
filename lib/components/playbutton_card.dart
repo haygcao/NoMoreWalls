@@ -6,9 +6,10 @@ import 'package:skeletonizer/skeletonizer.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/hover_builder.dart';
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/extensions/context.dart';
-import 'package:spotube/extensions/string.dart';
+// 移除了以下依赖
+// import 'package:spotube/extensions/constrains.dart';
+// import 'package:spotube/extensions/context.dart';
+// import 'package:spotube/extensions/string.dart';
 import 'package:spotube/hooks/utils/use_breakpoint_value.dart';
 import 'package:spotube/hooks/utils/use_brightness_value.dart';
 
@@ -18,11 +19,12 @@ class PlaybuttonCard extends HookWidget {
   final void Function()? onAddToQueuePressed;
   final String? description;
   final EdgeInsetsGeometry? margin;
-  final String imageUrl;
+  final Object imageUrl; // 修改为 Object 类型，以接受不同类型的图片URL
   final bool isPlaying;
   final bool isLoading;
   final String title;
   final bool isOwner;
+  final String? ownerText; // 添加自定义所有者文本
 
   const PlaybuttonCard({
     required this.imageUrl,
@@ -35,6 +37,7 @@ class PlaybuttonCard extends HookWidget {
     this.onAddToQueuePressed,
     this.onTap,
     this.isOwner = false,
+    this.ownerText,
     super.key,
   });
 
@@ -58,7 +61,9 @@ class PlaybuttonCard extends HookWidget {
       others: 15,
     );
 
-    final unescapeHtml = description?.unescapeHtml().cleanHtml();
+    // 不再使用 unescapeHtml 和 cleanHtml 扩展方法
+    final descriptionText = description ?? '';
+    
     return Container(
       constraints: BoxConstraints(maxWidth: size),
       margin: margin,
@@ -90,15 +95,17 @@ class PlaybuttonCard extends HookWidget {
                       right: 8,
                       top: 8,
                     ),
-                    height: mediaQuery.smAndDown
+                    // 不再使用 mediaQuery.smAndDown 和 mediaQuery.mdAndDown 扩展方法
+                    height: mediaQuery.size.width <= 600
                         ? 120
-                        : mediaQuery.mdAndDown
+                        : mediaQuery.size.width <= 900
                             ? 130
                             : 150,
                     decoration: BoxDecoration(
                       borderRadius: radius,
                       image: DecorationImage(
-                        image: UniversalImage.imageProvider(imageUrl),
+                        // 将 imageUrl 转换为字符串
+                        image: UniversalImage.imageProvider(imageUrl.toString()),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -128,7 +135,8 @@ class PlaybuttonCard extends HookWidget {
                                 ),
                                 if (isHovered)
                                   Text(
-                                    context.l10n.owned_by_you,
+                                    // 使用传入的 ownerText 而不是 context.l10n
+                                    ownerText ?? "Owned by you",
                                     style: theme.textTheme.bodySmall?.copyWith(
                                       color: Colors.white,
                                     ),
@@ -200,7 +208,7 @@ class PlaybuttonCard extends HookWidget {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 12.0),
                       child: AutoSizeText(
-                        unescapeHtml!,
+                        descriptionText,
                         maxLines: 2,
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: theme.colorScheme.onSurface.withOpacity(.5),

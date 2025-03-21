@@ -133,4 +133,23 @@ class YoutubeVideoInfo {
           DateTime.fromMillisecondsSinceEpoch(searchResponse.published * 1000),
     );
   }
+  
+  factory YoutubeVideoInfo.fromVideoResponse(
+    InvidiousVideoResponse videoResponse,
+    SearchMode searchMode,
+  ) {
+    return YoutubeVideoInfo(
+      searchMode: searchMode,
+      title: videoResponse.title,
+      duration: Duration(seconds: videoResponse.lengthSeconds),
+      thumbnailUrl: videoResponse.videoThumbnails.first.url,
+      id: videoResponse.videoId,
+      likes: videoResponse.likeCount,
+      dislikes: videoResponse.dislikeCount,
+      views: videoResponse.viewCount,
+      channelName: videoResponse.author,
+      channelId: videoResponse.authorId,
+      publishedAt: DateTime.fromMillisecondsSinceEpoch(videoResponse.published),
+    );
+  }
 }

@@ -30,7 +30,8 @@ class AlbumReleasesNotifier
 
   @override
   fetch(int offset, int limit) async {
-    final market = ref.read(userPreferencesProvider).market;
+    final marketStr = ref.read(userPreferencesProvider).market;
+    final market = MarketConverter.toSpotifyMarket(AppMarket.fromString(marketStr));
 
     final albums = await spotify.browse
         .newReleases(country: market)

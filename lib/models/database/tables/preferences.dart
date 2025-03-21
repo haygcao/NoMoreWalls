@@ -15,7 +15,8 @@ enum AudioSource {
   youtube,
   piped,
   jiosaavn,
-  invidious;
+  invidious,
+  soundcloud;
 
   String get label => name[0].toUpperCase() + name.substring(1);
 }
@@ -69,8 +70,8 @@ class PreferencesTable extends Table {
         const Constant('{"languageCode":"system","countryCode":"system"}'),
       )
       .map(const LocaleConverter())();
-  TextColumn get market =>
-      textEnum<Market>().withDefault(Constant(Market.US.name))();
+  // 修改 market 列的定义
+  TextColumn get market => text().withDefault(const Constant("US"))();
   TextColumn get searchMode =>
       textEnum<SearchMode>().withDefault(Constant(SearchMode.youtube.name))();
   TextColumn get downloadLocation => text().withDefault(const Constant(""))();
@@ -112,7 +113,7 @@ class PreferencesTable extends Table {
       accentColorScheme: SpotubeColor(Colors.blue.value, name: "Blue"),
       layoutMode: LayoutMode.adaptive,
       locale: const Locale("system", "system"),
-      market: Market.US,
+      market: "US",  // Keep using US as default market
       searchMode: SearchMode.youtube,
       downloadLocation: "",
       localLibraryLocation: [],
