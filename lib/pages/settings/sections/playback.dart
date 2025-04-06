@@ -1,6 +1,9 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_form_builder/flutter_form_builder.dart';
+import 'package:form_builder_validators/form_builder_validators.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -71,6 +74,7 @@ class SettingsPlaybackSection extends HookConsumerWidget {
             preferencesNotifier.setAudioSource(value);
           },
         ),
+        // 修改 Piped 实例选择部分
         AnimatedSwitcher(
           duration: const Duration(milliseconds: 300),
           child: preferences.audioSource != AudioSource.piped
@@ -100,6 +104,67 @@ class SettingsPlaybackSection extends HookConsumerWidget {
                         ),
                         value: preferences.pipedInstance,
                         showValueWhenUnfolded: false,
+                        // 添加编辑按钮
+                        trailing: [
+                          IconButton(
+                            icon: const Icon(SpotubeIcons.edit),
+                            tooltip: "自定义 Piped 实例",
+                            onPressed: () {
+                              showDialog(
+                                context: context,
+                                builder: (context) => HookBuilder(
+                                  builder: (context) {
+                                    final controller = TextEditingController(
+                                      text: preferences.pipedInstance,
+                                    );
+                                    final formKey = GlobalKey<FormBuilderState>();
+
+                                    return AlertDialog(
+                                      title: Text(context.l10n.piped_instance),
+                                      content: FormBuilder(
+                                        key: formKey,
+                                        child: Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          children: [
+                                            FormBuilderTextField(
+                                              name: "url",
+                                              controller: controller,
+                                              decoration: InputDecoration(
+                                                labelText: "Piped 实例 URL",
+                                                hintText: "https://pipedapi.example.com",
+                                              ),
+                                              validator: FormBuilderValidators.url(),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                          },
+                                          child: Text(context.l10n.cancel),
+                                        ),
+                                        TextButton(
+                                          onPressed: () {
+                                            if (formKey.currentState?.saveAndValidate() ?? false) {
+                                              final url = controller.text.trim();
+                                              if (url.isNotEmpty) {
+                                                preferencesNotifier.setPipedInstance(url);
+                                              }
+                                              Navigator.of(context).pop();
+                                            }
+                                          },
+                                          child: Text(context.l10n.save),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                ),
+                              );
+                            },
+                          ),
+                        ],
                         options: (data)
                             .sortedBy((e) => e.name)
                             .map(

@@ -7,6 +7,7 @@ class AdaptiveSelectTile<T> extends HookWidget {
   final Widget title;
   final Widget? subtitle;
   final Widget? secondary;
+  final List<Widget>? trailing; // 添加 trailing 参数
   final ListTileControlAffinity? controlAffinity;
   final T value;
   final ValueChanged<T?>? onChanged;
@@ -30,6 +31,7 @@ class AdaptiveSelectTile<T> extends HookWidget {
     this.controlAffinity = ListTileControlAffinity.trailing,
     this.subtitle,
     this.secondary,
+    this.trailing, // 添加 trailing 参数
     this.breakLayout,
     this.showValueWhenUnfolded = true,
     super.key,
@@ -95,9 +97,19 @@ class AdaptiveSelectTile<T> extends HookWidget {
       leading: controlAffinity != ListTileControlAffinity.leading
           ? secondary
           : control,
-      trailing: controlAffinity == ListTileControlAffinity.leading
-          ? secondary
-          : control,
+      // 修改 trailing 部分，支持自定义 trailing 组件
+      trailing: trailing != null
+          ? Row(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                ...trailing!,
+                if (controlAffinity == ListTileControlAffinity.trailing) control,
+              ],
+            )
+          : (controlAffinity == ListTileControlAffinity.leading
+              ? secondary
+              : control),
       onTap: breakLayout ?? mediaQuery.mdAndUp
           ? null
           : () {
