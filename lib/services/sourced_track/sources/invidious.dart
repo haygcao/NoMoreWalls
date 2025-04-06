@@ -30,7 +30,8 @@ final invidiousProvider = Provider<InvidiousClient>(
 
 // 添加全局单例
 final _databaseInstance = AppDatabase();
-final _invidiousClient = InvidiousClient();
+// 使用默认的 Invidious 实例
+final _invidiousClient = InvidiousClient(server: "https://pipedapi.kavin.rocks");
 
 class InvidiousSourceInfo extends SourceInfo {
   InvidiousSourceInfo({

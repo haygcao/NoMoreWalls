@@ -1,0 +1,209 @@
+c:\Users\Ngokel\Desktop\en\music\spotube\lib\
+├── core/
+│   ├── base/
+│   │   ├── interfaces/
+│   │   │   ├── media/
+│   │   │   │   ├── media_interface.dart
+│   │   │   │   ├── album_interface.dart
+│   │   │   │   ├── artist_interface.dart
+│   │   │   │   ├── playlist_interface.dart
+│   │   │   │   ├── track_interface.dart
+│   │   │   │   └── collection_interface.dart
+│   │   │   ├── player/
+│   │   │   │   ├── player_interface.dart
+│   │   │   │   ├── queue_interface.dart
+│   │   │   │   └── playback_interface.dart
+│   │   │   ├── auth/
+│   │   │   │   ├── auth_interface.dart
+│   │   │   │   └── user_interface.dart
+│   │   │   └── events/
+│   │   │       └── event_interface.dart
+│   │   │
+│   │   ├── services/
+│   │   │   ├── base_service.dart
+│   │   │   ├── media_service.dart
+│   │   │   ├── player_service.dart
+│   │   │   ├── auth_service.dart
+│   │   │   ├── search_service.dart
+│   │   │   ├── playlist_service.dart
+│   │   │   ├── album_service.dart
+│   │   │   ├── artist_service.dart
+│   │   │   └── collection_service.dart
+│   │   │
+│   │   ├── providers/
+│   │   │   ├── base_provider.dart
+│   │   │   ├── media_provider.dart
+│   │   │   ├── player_provider.dart
+│   │   │   ├── auth_provider.dart
+│   │   │   ├── search_provider.dart
+│   │   │   ├── playlist_provider.dart
+│   │   │   ├── album_provider.dart
+│   │   │   └── artist_provider.dart
+│   │   │
+│   │   └── models/
+│   │       ├── base_model.dart
+│   │       ├── media_model.dart
+│   │       ├── track_model.dart
+│   │       ├── album_model.dart
+│   │       ├── artist_model.dart
+│   │       ├── playlist_model.dart
+│   │       ├── user_model.dart
+│   │       └── collection_model.dart
+│   │
+│   └── storage/
+│       ├── database/
+│       │   ├── app_database.dart
+│       │   ├── database_config.dart
+│       │   ├── tables/
+│       │   │   ├── track_table.dart
+│       │   │   ├── album_table.dart
+│       │   │   ├── artist_table.dart
+│       │   │   ├── playlist_table.dart
+│       │   │   ├── user_table.dart
+│       │   │   └── collection_table.dart
+│       │   └── daos/
+│       │       ├── track_dao.dart
+│       │       ├── album_dao.dart
+│       │       ├── artist_dao.dart
+│       │       ├── playlist_dao.dart
+│       │       ├── user_dao.dart
+│       │       └── collection_dao.dart
+│       └── cache/
+│           ├── cache_manager.dart
+│           ├── cache_config.dart
+│           └── cache_keys.dart
+│
+├── platforms/
+│   ├── spotify/
+│   │   ├── models/
+│   │   │   ├── spotify_track.dart
+│   │   │   ├── spotify_album.dart
+│   │   │   ├── spotify_artist.dart
+│   │   │   ├── spotify_playlist.dart
+│   │   │   └── spotify_user.dart
+│   │   ├── services/
+│   │   │   ├── spotify_auth_service.dart
+│   │   │   ├── spotify_player_service.dart
+│   │   │   ├── spotify_search_service.dart
+│   │   │   ├── spotify_playlist_service.dart
+│   │   │   ├── spotify_album_service.dart
+│   │   │   └── spotify_artist_service.dart
+│   │   ├── providers/
+│   │   │   ├── spotify_auth_provider.dart
+│   │   │   ├── spotify_player_provider.dart
+│   │   │   ├── spotify_search_provider.dart
+│   │   │   ├── spotify_playlist_provider.dart
+│   │   │   ├── spotify_album_provider.dart
+│   │   │   └── spotify_artist_provider.dart
+│   │   └── adapters/
+│   │       ├── spotify_track_adapter.dart
+│   │       ├── spotify_album_adapter.dart
+│   │       ├── spotify_artist_adapter.dart
+│   │       ├── spotify_playlist_adapter.dart
+│   │       └── spotify_user_adapter.dart
+│   │
+│   └── youtube_music/
+│       ├── models/
+│       │   ├── youtube_track.dart
+│       │   ├── youtube_album.dart
+│       │   ├── youtube_artist.dart
+│       │   ├── youtube_playlist.dart
+│       │   └── youtube_user.dart
+│       ├── services/
+│       │   ├── youtube_auth_service.dart
+│       │   ├── youtube_player_service.dart
+│       │   ├── youtube_search_service.dart
+│       │   ├── youtube_playlist_service.dart
+│       │   ├── youtube_album_service.dart
+│       │   └── youtube_artist_service.dart
+│       ├── providers/
+│       │   ├── youtube_auth_provider.dart
+│       │   ├── youtube_player_provider.dart
+│       │   ├── youtube_search_provider.dart
+│       │   ├── youtube_playlist_provider.dart
+│       │   ├── youtube_album_provider.dart
+│       │   └── youtube_artist_provider.dart
+│       └── adapters/
+│           ├── youtube_track_adapter.dart
+│           ├── youtube_album_adapter.dart
+│           ├── youtube_artist_adapter.dart
+│           ├── youtube_playlist_adapter.dart
+│           └── youtube_user_adapter.dart
+│
+├── features/
+│   ├── player/
+│   │   ├── services/
+│   │   │   ├── player_service_impl.dart
+│   │   │   ├── queue_service_impl.dart
+│   │   │   └── playback_service_impl.dart
+│   │   ├── providers/
+│   │   │   ├── player_state_provider.dart
+│   │   │   ├── queue_provider.dart
+│   │   │   └── playback_provider.dart
+│   │   └── controllers/
+│   │       ├── player_controller.dart
+│   │       ├── queue_controller.dart
+│   │       └── playback_controller.dart
+│   │
+│   ├── search/
+│   │   ├── services/
+│   │   │   └── search_service_impl.dart
+│   │   ├── providers/
+│   │   │   └── search_provider.dart
+│   │   └── controllers/
+│   │       └── search_controller.dart
+│   │
+│   └── playlist/
+│       ├── services/
+│       │   └── playlist_service_impl.dart
+│       ├── providers/
+│       │   └── playlist_provider.dart
+│       └── controllers/
+│           └── playlist_controller.dart
+│
+└── presentation/
+    ├── pages/
+    │   ├── home/
+    │   │   ├── home_page.dart
+    │   │   └── widgets/
+    │   │       ├── home_header.dart
+    │   │       ├── featured_playlists.dart
+    │   │       ├── recent_tracks.dart
+    │   │       └── recommended_artists.dart
+    │   ├── search/
+    │   │   ├── search_page.dart
+    │   │   └── widgets/
+    │   │       ├── search_bar.dart
+    │   │       ├── search_results.dart
+    │   │       └── search_filters.dart
+    │   ├── album/
+    │   │   ├── album_page.dart
+    │   │   └── widgets/
+    │   │       ├── album_header.dart
+    │   │       ├── album_tracks.dart
+    │   │       └── album_info.dart
+    │   ├── artist/
+    │   │   ├── artist_page.dart
+    │   │   └── widgets/
+    │   │       ├── artist_header.dart
+    │   │       ├── artist_top_tracks.dart
+    │   │       ├── artist_albums.dart
+    │   │       └── artist_related.dart
+    │   └── playlist/
+    │       ├── playlist_page.dart
+    │       └── widgets/
+    │           ├── playlist_header.dart
+    │           ├── playlist_tracks.dart
+    │           └── playlist_info.dart
+    └── widgets/
+        ├── common/
+        │   ├── track_tile.dart
+        │   ├── album_card.dart
+        │   ├── artist_card.dart
+        │   ├── playlist_card.dart
+        │   └── loading_indicator.dart
+        └── player/
+            ├── player_bar.dart
+            ├── player_controls.dart
+            ├── player_queue.dart
+            └── volume_slider.dart

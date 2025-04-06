@@ -804,22 +804,32 @@ mixin _$PlaybackHistoryItem {
   DateTime get date => throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
-    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)
+        playlist,
+    required TResult Function(
+            DateTime date, @AlbumBaseConverter() AlbumBase album)
+        album,
     required TResult Function(DateTime date, BaseTrack track) track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult? Function(DateTime date, BaseTrack track)? track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) =>
@@ -901,7 +911,7 @@ abstract class _$$PlaybackHistoryPlaylistImplCopyWith<$Res>
       __$$PlaybackHistoryPlaylistImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, PlaylistBase playlist});
+  $Res call({DateTime date, @PlaylistBaseConverter() PlaylistBase playlist});
 }
 
 /// @nodoc
@@ -939,7 +949,9 @@ class __$$PlaybackHistoryPlaylistImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   _$PlaybackHistoryPlaylistImpl(
-      {required this.date, required this.playlist, final String? $type})
+      {required this.date,
+      @PlaylistBaseConverter() required this.playlist,
+      final String? $type})
       : $type = $type ?? 'playlist';
 
   factory _$PlaybackHistoryPlaylistImpl.fromJson(Map<String, dynamic> json) =>
@@ -948,6 +960,7 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   final DateTime date;
   @override
+  @PlaylistBaseConverter()
   final PlaylistBase playlist;
 
   @JsonKey(name: 'runtimeType')
@@ -984,8 +997,12 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
-    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)
+        playlist,
+    required TResult Function(
+            DateTime date, @AlbumBaseConverter() AlbumBase album)
+        album,
     required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return playlist(date, this.playlist);
@@ -994,8 +1011,11 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return playlist?.call(date, this.playlist);
@@ -1004,8 +1024,11 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {
@@ -1059,14 +1082,16 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
 
 abstract class PlaybackHistoryPlaylist implements PlaybackHistoryItem {
   factory PlaybackHistoryPlaylist(
-      {required final DateTime date,
-      required final PlaylistBase playlist}) = _$PlaybackHistoryPlaylistImpl;
+          {required final DateTime date,
+          @PlaylistBaseConverter() required final PlaylistBase playlist}) =
+      _$PlaybackHistoryPlaylistImpl;
 
   factory PlaybackHistoryPlaylist.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryPlaylistImpl.fromJson;
 
   @override
   DateTime get date;
+  @PlaylistBaseConverter()
   PlaylistBase get playlist;
 
   /// Create a copy of PlaybackHistoryItem
@@ -1085,7 +1110,7 @@ abstract class _$$PlaybackHistoryAlbumImplCopyWith<$Res>
       __$$PlaybackHistoryAlbumImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, AlbumBase album});
+  $Res call({DateTime date, @AlbumBaseConverter() AlbumBase album});
 }
 
 /// @nodoc
@@ -1121,7 +1146,9 @@ class __$$PlaybackHistoryAlbumImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   _$PlaybackHistoryAlbumImpl(
-      {required this.date, required this.album, final String? $type})
+      {required this.date,
+      @AlbumBaseConverter() required this.album,
+      final String? $type})
       : $type = $type ?? 'album';
 
   factory _$PlaybackHistoryAlbumImpl.fromJson(Map<String, dynamic> json) =>
@@ -1130,6 +1157,7 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   final DateTime date;
   @override
+  @AlbumBaseConverter()
   final AlbumBase album;
 
   @JsonKey(name: 'runtimeType')
@@ -1166,8 +1194,12 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
-    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)
+        playlist,
+    required TResult Function(
+            DateTime date, @AlbumBaseConverter() AlbumBase album)
+        album,
     required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return album(date, this.album);
@@ -1176,8 +1208,11 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return album?.call(date, this.album);
@@ -1186,8 +1221,11 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {
@@ -1241,14 +1279,16 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
 
 abstract class PlaybackHistoryAlbum implements PlaybackHistoryItem {
   factory PlaybackHistoryAlbum(
-      {required final DateTime date,
-      required final AlbumBase album}) = _$PlaybackHistoryAlbumImpl;
+          {required final DateTime date,
+          @AlbumBaseConverter() required final AlbumBase album}) =
+      _$PlaybackHistoryAlbumImpl;
 
   factory PlaybackHistoryAlbum.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryAlbumImpl.fromJson;
 
   @override
   DateTime get date;
+  @AlbumBaseConverter()
   AlbumBase get album;
 
   /// Create a copy of PlaybackHistoryItem
@@ -1348,8 +1388,12 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(DateTime date, PlaylistBase playlist) playlist,
-    required TResult Function(DateTime date, AlbumBase album) album,
+    required TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)
+        playlist,
+    required TResult Function(
+            DateTime date, @AlbumBaseConverter() AlbumBase album)
+        album,
     required TResult Function(DateTime date, BaseTrack track) track,
   }) {
     return track(date, this.track);
@@ -1358,8 +1402,11 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult? Function(DateTime date, AlbumBase album)? album,
+    TResult? Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult? Function(DateTime date, BaseTrack track)? track,
   }) {
     return track?.call(date, this.track);
@@ -1368,8 +1415,11 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(DateTime date, PlaylistBase playlist)? playlist,
-    TResult Function(DateTime date, AlbumBase album)? album,
+    TResult Function(
+            DateTime date, @PlaylistBaseConverter() PlaylistBase playlist)?
+        playlist,
+    TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
+        album,
     TResult Function(DateTime date, BaseTrack track)? track,
     required TResult orElse(),
   }) {

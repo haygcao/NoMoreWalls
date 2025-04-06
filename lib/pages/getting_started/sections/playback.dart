@@ -22,6 +22,7 @@ final audioSourceToIconMap = {
     child: Assets.invidious.image(width: 48, height: 48),
   ),
   AudioSource.jiosaavn: Assets.jiosaavn.image(width: 48, height: 48),
+  AudioSource.soundcloud: Assets.soundcloud.image(width: 48, height: 48), // Added SoundCloud icon
 };
 
 class GettingStartedPagePlaybackSection extends HookConsumerWidget {
@@ -50,6 +51,7 @@ class GettingStartedPagePlaybackSection extends HookConsumerWidget {
                   "${context.l10n.jiosaavn_source_description}\n"
                       "${context.l10n.highest_quality("320kbps mp")}",
               AudioSource.invidious: context.l10n.invidious_source_description,
+              AudioSource.soundcloud: context.l10n.soundcloud_source_description, // Added SoundCloud description
             },
         []);
 
@@ -113,6 +115,7 @@ class GettingStartedPagePlaybackSection extends HookConsumerWidget {
                   AudioSource.invidious =>
                     Alignment.center,
                   AudioSource.jiosaavn => Alignment.centerRight,
+                  AudioSource.soundcloud => Alignment.center, // Added missing case
                 },
                 child: Text(
                   audioSourceToDescription[preferences.audioSource]!,

@@ -166,8 +166,17 @@ class MiniLyricsPage extends HookConsumerWidget {
           body: Column(
             children: [
               if (playlistQueue.activeTrack != null)
+                // 如果有使用 name 属性的地方，替换为 title
+                // 例如：
                 Text(
-                  playlistQueue.activeTrack!.name!,
+                  playlistQueue.activeTrack?.title ?? "",  // 使用 title 而不是 name
+                  style: theme.textTheme.titleMedium,
+                ),
+                
+                // 如果有使用 artists 属性的地方，替换为 artistName
+                // 例如：
+                Text(
+                  playlistQueue.activeTrack?.artistName ?? "",  // 使用 artistName 而不是 artists?.asString()
                   style: theme.textTheme.titleMedium,
                 ),
               if (showLyrics.value)

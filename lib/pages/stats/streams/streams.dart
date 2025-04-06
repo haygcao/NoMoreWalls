@@ -9,7 +9,7 @@ import 'package:spotube/extensions/context.dart';
 
 import 'package:spotube/provider/history/top.dart';
 import 'package:spotube/provider/history/top/tracks.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
 
 class StatsStreamsPage extends HookConsumerWidget {
@@ -34,14 +34,14 @@ class StatsStreamsPage extends HookConsumerWidget {
         automaticallyImplyLeading: true,
       ),
       body: Skeletonizer(
-        enabled: topTracks.isLoading && !topTracks.isLoadingNextPage,
+        enabled: topTracks.isLoading && !topTracks.isRefreshing,
         child: InfiniteList(
           separatorBuilder: (context, index) => const Gap(8),
           onFetchData: () async {
             await topTracksNotifier.fetchMore();
           },
           hasError: topTracks.hasError,
-          isLoading: topTracks.isLoading && !topTracks.isLoadingNextPage,
+          isLoading: topTracks.isLoading && !topTracks.isRefreshing,
           hasReachedMax: topTracks.asData?.value.hasMore ?? true,
           itemCount: tracksData.length,
           itemBuilder: (context, index) {

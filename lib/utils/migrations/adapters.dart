@@ -3,13 +3,12 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-// 移除 spotify 直接导入
-// import 'package:spotify/spotify.dart';
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
 import 'package:spotube/services/base/base_track.dart';
 import 'package:spotube/services/sourced_track/enums.dart';
-import 'package:spotube/utils/constants/app_markets.dart';
 import 'package:spotube/services/base/base_models.dart';
+import 'package:spotube/services/base/playlist.dart'; // 添加 Playlist 导入
+import 'package:spotube/services/base/album.dart'; // 添加 Album 导入
 
 part 'adapters.g.dart';
 part 'adapters.freezed.dart';
@@ -294,21 +293,55 @@ class BlacklistedElement {
 
   Map<String, dynamic> toJson() => {'id': id, 'type': type.name, 'name': name};
 }
+// 添加 PlaylistBase 的 JsonConverter
+class PlaylistBaseConverter implements JsonConverter<PlaylistBase, Map<String, dynamic>> {
+  const PlaylistBaseConverter();
+
+  @override
+  PlaylistBase fromJson(Map<String, dynamic> json) {
+    // 使用类型转换确保返回类型兼容
+    return Playlist.fromJson(json) as PlaylistBase;
+  }
+
+  @override
+  Map<String, dynamic> toJson(PlaylistBase object) {
+    return object.toJson();
+  }
+}
+
+// 添加 AlbumBase 的 JsonConverter
+class AlbumBaseConverter implements JsonConverter<AlbumBase, Map<String, dynamic>> {
+  const AlbumBaseConverter();
+
+  @override
+  AlbumBase fromJson(Map<String, dynamic> json) {
+    // 使用类型转换确保返回类型兼容
+    return Album.fromJson(json) as AlbumBase;
+  }
+
+  @override
+  Map<String, dynamic> toJson(AlbumBase object) {
+    return object.toJson();
+  }
+}
+
 @freezed
 class PlaybackHistoryItem with _$PlaybackHistoryItem {
   factory PlaybackHistoryItem.playlist({
     required DateTime date,
-    required PlaylistBase playlist,  // 使用 PlaylistBase 替代 PlaylistSimple
+    @PlaylistBaseConverter() required PlaylistBase playlist,
   }) = PlaybackHistoryPlaylist;
 
   factory PlaybackHistoryItem.album({
     required DateTime date,
-    required AlbumBase album,  // 使用 AlbumBase 替代 AlbumSimple
+    @AlbumBaseConverter() required AlbumBase album,
   }) = PlaybackHistoryAlbum;
+  
   factory PlaybackHistoryItem.track({
     required DateTime date,
-    required BaseTrack track,  // 需要添加 BaseTrack 的导入
+    required BaseTrack track,
   }) = PlaybackHistoryTrack;
+  
   factory PlaybackHistoryItem.fromJson(Map<String, dynamic> json) =>
       _$PlaybackHistoryItemFromJson(json);
 }

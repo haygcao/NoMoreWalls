@@ -61,7 +61,7 @@ class SourceManager {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4),
         image: DecorationImage(
-          image: Assets.sounndcloud.provider(), // 需要添加 SoundCloud 图标资源
+          image: Assets.soundcloud.provider(), // 需要添加 SoundCloud 图标资源
           fit: BoxFit.cover,
         ),
       ),

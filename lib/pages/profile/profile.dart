@@ -5,13 +5,15 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 import 'package:sliver_tools/sliver_tools.dart';
 import 'package:spotube/collections/fake.dart';
-import 'package:spotube/collections/spotify_markets.dart';
+
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/provider/spotify/extension/image.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
+// 添加市场工具导入
+import 'package:spotube/utils/constants/app_markets.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class ProfilePage extends HookConsumerWidget {
@@ -32,9 +34,8 @@ class ProfilePage extends HookConsumerWidget {
         context.l10n.profile_followers:
             meData.followers?.total.toString() ?? "N/A",
         context.l10n.birthday: meData.birthdate ?? context.l10n.not_born,
-        context.l10n.country: spotifyMarkets
-            .firstWhere((market) => market.$1 == meData.country)
-            .$2,
+        // 修复 Market? 类型转换为 String?
+        context.l10n.country: getMarketDisplayName(meData.country?.name),
         context.l10n.subscription: meData.product ?? context.l10n.hacker,
       },
       [meData],

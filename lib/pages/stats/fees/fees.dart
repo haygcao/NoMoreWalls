@@ -7,10 +7,11 @@ import 'package:spotube/collections/formatters.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/modules/stats/common/artist_item.dart';
 import 'package:spotube/extensions/context.dart';
+import 'package:spotube/services/base/artist.dart';
 
 import 'package:spotube/provider/history/top.dart';
 import 'package:spotube/provider/history/top/tracks.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
 
 class StatsStreamFeesPage extends HookConsumerWidget {
@@ -112,19 +113,19 @@ class StatsStreamFeesPage extends HookConsumerWidget {
           ),
           SliverSafeArea(
             sliver: Skeletonizer.sliver(
-              enabled: topTracks.isLoading && !topTracks.isLoadingNextPage,
+              enabled: topTracks.isLoading && !topTracks.isRefreshing,
               child: SliverInfiniteList(
                 onFetchData: () async {
                   await topTracksNotifier.fetchMore();
                 },
                 hasError: topTracks.hasError,
-                isLoading: topTracks.isLoading && !topTracks.isLoadingNextPage,
+                isLoading: topTracks.isLoading && !topTracks.isRefreshing,
                 hasReachedMax: topTracks.asData?.value.hasMore ?? true,
                 itemCount: artistsData.length,
                 itemBuilder: (context, index) {
                   final artist = artistsData[index];
                   return StatsArtistItem(
-                    artist: artist.artist,
+                    artist: artist.artist as Artist,
                     info: Text(usdFormatter.format(artist.count * 0.005)),
                   );
                 },

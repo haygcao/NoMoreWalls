@@ -103,13 +103,15 @@ class SyncedLyrics extends HookConsumerWidget {
                 backgroundColor: Colors.transparent,
                 centerTitle: true,
                 title: Text(
-                  playlist.activeTrack?.name ?? context.l10n.not_playing,
+                  // 修改这里，使用 title 而不是 name
+                  playlist.activeTrack?.title ?? context.l10n.not_playing,
                   style: headlineTextStyle,
                 ),
                 bottom: PreferredSize(
                   preferredSize: const Size.fromHeight(40),
                   child: Text(
-                    playlist.activeTrack?.artists?.asString() ?? "",
+                    // 修改这里，使用 artistName 而不是 artists?.asString()
+                    playlist.activeTrack?.artistName ?? "",
                     style: mediaQuery.mdAndUp
                         ? textTheme.headlineSmall
                         : textTheme.titleLarge,

@@ -11,7 +11,7 @@ import 'package:spotube/components/image/universal_image.dart';
 import 'package:spotube/components/themed_button_tab_bar.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/spotify/extension/image.dart';
+
 import 'package:spotube/hooks/utils/use_custom_status_bar_color.dart';
 import 'package:spotube/hooks/utils/use_palette_color.dart';
 import 'package:spotube/pages/lyrics/plain_lyrics.dart';
@@ -21,6 +21,7 @@ import 'package:spotube/provider/audio_player/audio_player.dart';
 import 'package:spotube/provider/lyrics/lyrics_providers.dart';
 
 import 'package:spotube/utils/platform.dart';
+import 'package:spotube/utils/type/image_type.dart';
 
 
 class LyricsPage extends HookConsumerWidget {

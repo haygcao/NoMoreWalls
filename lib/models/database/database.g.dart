@@ -6225,7 +6225,7 @@ final class $$PlayQueueTableTableReferences extends BaseReferences<
   $$AudioPlayerStateTableTableProcessedTableManager get audioPlayerStateId {
     final manager = $$AudioPlayerStateTableTableTableManager(
             $_db, $_db.audioPlayerStateTable)
-        .filter((f) => f.id($_item.audioPlayerStateId!));
+        .filter((f) => f.id($_item.audioPlayerStateId));
     final item = $_typedResult.readTableOrNull(_audioPlayerStateIdTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
@@ -6733,7 +6733,7 @@ final class $$PlaylistMediaTableTableReferences extends BaseReferences<
 
   $$PlayQueueTableTableProcessedTableManager get playlistId {
     final manager = $$PlayQueueTableTableTableManager($_db, $_db.playQueueTable)
-        .filter((f) => f.id($_item.playlistId!));
+        .filter((f) => f.id($_item.playlistId));
     final item = $_typedResult.readTableOrNull(_playlistIdTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(

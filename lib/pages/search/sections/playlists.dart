@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart' hide Page;
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 依赖
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/components/horizontal_playbutton_card_view/horizontal_playbutton_card_view.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+// 替换为统一搜索提供者
+import 'package:spotube/provider/search/unified_search_provider.dart';
+// 添加通用播放列表模型
+import 'package:spotube/services/base/playlist.dart';
 
 class SearchPlaylistsSection extends HookConsumerWidget {
   const SearchPlaylistsSection({
@@ -12,14 +16,16 @@ class SearchPlaylistsSection extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final playlistsQuery = ref.watch(searchProvider(SearchType.playlist));
+    // 使用统一搜索提供者
+    final playlistsQuery = ref.watch(unifiedSearchProvider(SearchType.playlist));
     final playlistsQueryNotifier =
-        ref.watch(searchProvider(SearchType.playlist).notifier);
+        ref.watch(unifiedSearchProvider(SearchType.playlist).notifier);
+    // 使用通用 Playlist 类型
     final playlists =
-        playlistsQuery.asData?.value.items.cast<PlaylistSimple>() ?? [];
+        playlistsQuery.asData?.value.items.cast<Playlist>() ?? [];
 
     return HorizontalPlaybuttonCardView(
-      isLoadingNextPage: playlistsQuery.isLoadingNextPage,
+      isLoadingNextPage: playlistsQuery.isRefreshing,
       hasNextPage: playlistsQuery.asData?.value.hasMore == true,
       items: playlists,
       onFetchMore: playlistsQueryNotifier.fetchMore,

@@ -31,3 +31,17 @@ class AppMarket {
 
 /// 所有支持的市场列表，用于 UI 显示
 final appMarkets = AppMarket.values;
+
+/// 将市场代码转换为显示名称的辅助函数
+String getMarketDisplayName(String? code) {
+  if (code == null) return "未知";
+  
+  final market = AppMarket.values.firstWhere(
+    (market) => market.code == code,
+    orElse: () => AppMarket.values.firstWhere(
+      (m) => m.code == AppMarket.defaultMarket
+    ),
+  );
+  
+  return market.displayName;
+}

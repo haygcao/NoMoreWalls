@@ -8,8 +8,9 @@ import 'package:spotube/extensions/context.dart';
 
 import 'package:spotube/provider/history/top.dart';
 import 'package:spotube/provider/history/top/albums.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+
 import 'package:very_good_infinite_list/very_good_infinite_list.dart';
+import 'package:spotube/services/base/album.dart';
 
 class StatsAlbumsPage extends HookConsumerWidget {
   static const name = "stats_albums";
@@ -31,19 +32,19 @@ class StatsAlbumsPage extends HookConsumerWidget {
         title: Text(context.l10n.albums),
       ),
       body: Skeletonizer(
-        enabled: topAlbums.isLoading && !topAlbums.isLoadingNextPage,
+        enabled: topAlbums.isLoading && !topAlbums.isRefreshing,
         child: InfiniteList(
           onFetchData: () async {
             await topAlbumsNotifier.fetchMore();
           },
           hasError: topAlbums.hasError,
-          isLoading: topAlbums.isLoading && !topAlbums.isLoadingNextPage,
+          isLoading: topAlbums.isLoading && !topAlbums.isRefreshing,
           hasReachedMax: topAlbums.asData?.value.hasMore ?? true,
           itemCount: albumsData.length,
           itemBuilder: (context, index) {
             final album = albumsData[index];
             return StatsAlbumItem(
-              album: album.album,
+              album: album.album as Album,
               info: Text(context.l10n
                   .count_plays(compactNumberFormatter.format(album.count))),
             );

@@ -2,20 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-// 移除页面导入
-// import 'package:spotube/pages/library/playlist_generate/playlist_generate.dart';
+import 'package:spotube/models/unified/recommendation.dart';
 
-typedef RecommendationAttribute = ({double min, double target, double max});
-
-// 添加常量定义，替代从页面导入的常量
-const zeroValues = (min: 0.0, target: 0.0, max: 0.0);
+// 使用统一的 RecommendationAttribute 类
+const zeroValues = RecommendationAttribute(min: 0.0, target: 0.0, max: 0.0);
 
 RecommendationAttribute lowValues(double base) =>
-    (min: 1 * base, target: 0.3 * base, max: 0.3 * base);
+    RecommendationAttribute(min: 1 * base, target: 0.3 * base, max: 0.3 * base);
 RecommendationAttribute moderateValues(double base) =>
-    (min: 0.5 * base, target: 1 * base, max: 0.5 * base);
+    RecommendationAttribute(min: 0.5 * base, target: 1 * base, max: 0.5 * base);
 RecommendationAttribute highValues(double base) =>
-    (min: 0.3 * base, target: 0.3 * base, max: 1 * base);
+    RecommendationAttribute(min: 0.3 * base, target: 0.3 * base, max: 1 * base);
 
 class RecommendationAttributeDials extends HookWidget {
   final Widget title;
@@ -45,10 +42,10 @@ class RecommendationAttributeDials extends HookWidget {
         Text(context.l10n.min, style: labelStyle),
         Expanded(
           child: Slider(
-            value: values.min / base,
+            value: (values.min ?? 0) / base,
             min: 0,
             max: 1,
-            onChanged: (value) => onChanged((
+            onChanged: (value) => onChanged(RecommendationAttribute(
               min: value * base,
               target: values.target,
               max: values.max,
@@ -63,10 +60,10 @@ class RecommendationAttributeDials extends HookWidget {
         Text(context.l10n.target, style: labelStyle),
         Expanded(
           child: Slider(
-            value: values.target / base,
+            value: (values.target ?? 0) / base,
             min: 0,
             max: 1,
-            onChanged: (value) => onChanged((
+            onChanged: (value) => onChanged(RecommendationAttribute(
               min: values.min,
               target: value * base,
               max: values.max,
@@ -81,10 +78,10 @@ class RecommendationAttributeDials extends HookWidget {
         Text(context.l10n.max, style: labelStyle),
         Expanded(
           child: Slider(
-            value: values.max / base,
+            value: (values.max ?? 0) / base,
             min: 0,
             max: 1,
-            onChanged: (value) => onChanged((
+            onChanged: (value) => onChanged(RecommendationAttribute(
               min: values.min,
               target: values.target,
               max: value * base,
@@ -118,9 +115,17 @@ class RecommendationAttributeDials extends HookWidget {
               borderRadius: BorderRadius.circular(8),
               textStyle: labelStyle,
               isSelected: [
-                values == lowValues(base),
-                values == moderateValues(base),
-                values == highValues(base),
+                values.min == lowValues(base).min && 
+                values.target == lowValues(base).target && 
+                values.max == lowValues(base).max,
+                
+                values.min == moderateValues(base).min && 
+                values.target == moderateValues(base).target && 
+                values.max == moderateValues(base).max,
+                
+                values.min == highValues(base).min && 
+                values.target == highValues(base).target && 
+                values.max == highValues(base).max,
               ],
               onPressed: (index) {
                 RecommendationAttribute newValues = zeroValues;

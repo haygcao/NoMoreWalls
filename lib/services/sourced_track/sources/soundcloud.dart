@@ -158,31 +158,34 @@ class SoundcloudSourcedTrack extends SourcedTrack {
   }
 
   static SourceMap toSourceMap(List<soundcloud.StreamInfo> manifest) {
+    // Fix: Use string comparison instead of enum
     final m4a = manifest
-        .where((audio) => audio.container == soundcloud.Container.mp3)
+        .where((audio) => audio.container == "mp3")
         .sorted((a, b) {
       return a.quality == soundcloud.Quality.highQuality ? 1 : -1;
     });
 
     final weba = manifest
-        .where((audio) => audio.container == soundcloud.Container.ogg)
+        .where((audio) => audio.container == "ogg")
         .sorted((a, b) {
       return a.quality == soundcloud.Quality.highQuality ? 1 : -1;
     });
 
     return SourceMap(
-      m4a: SourceQualityMap(
-        high: m4a.first.url.toString(),
-        medium: (m4a.elementAtOrNull(m4a.length ~/ 2) ?? m4a[1]).url.toString(),
-        low: m4a.last.url.toString(),
-      ),
+      m4a: m4a.isNotEmpty
+          ? SourceQualityMap(
+              high: m4a.first.url.toString(),
+              medium: (m4a.elementAtOrNull(m4a.length ~/ 2) ?? m4a.firstOrNull ?? m4a.first).url.toString(),
+              low: m4a.lastOrNull?.url.toString() ?? m4a.first.url.toString(),
+            )
+          : null,
       weba: weba.isNotEmpty
           ? SourceQualityMap(
               high: weba.first.url.toString(),
-              medium: (weba.elementAtOrNull(weba.length ~/ 2) ?? weba[1])
+              medium: (weba.elementAtOrNull(weba.length ~/ 2) ?? weba.firstOrNull ?? weba.first)
                   .url
                   .toString(),
-              low: weba.last.url.toString(),
+              low: weba.lastOrNull?.url.toString() ?? weba.first.url.toString(),
             )
           : null,
     );

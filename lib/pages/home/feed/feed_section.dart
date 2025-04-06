@@ -7,7 +7,7 @@ import 'package:spotube/modules/artist/artist_card.dart';
 import 'package:spotube/modules/playlist/playlist_card.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/constrains.dart';
-import 'package:spotube/provider/spotify/views/home_section.dart';
+import 'package:spotube/provider/feed/feed_provider.dart'; // 替换为统一的feed provider
 
 class HomeFeedSectionPage extends HookConsumerWidget {
   static const name = "home_feed_section";
@@ -17,7 +17,7 @@ class HomeFeedSectionPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final homeFeedSection = ref.watch(homeSectionViewProvider(sectionUri));
+    final homeFeedSection = ref.watch(feedSectionProvider(sectionUri)); // 使用统一的provider
     final section = homeFeedSection.asData?.value ?? FakeData.feedSection;
 
     return Skeletonizer(

@@ -32,4 +32,17 @@ abstract class AlbumBase {
   Map<String, dynamic> toJson();
 }
 
+/// 用户基础接口
+abstract class UserBase {
+  String get id;
+  String get displayName;
+  String? get email;
+  String? get country;
+  String? get imageUrl;
+  int? get followersCount;
+  String? get subscriptionType;
+  String? get birthdate;
+  Map<String, dynamic> get platformMetadata;
+}
+
 

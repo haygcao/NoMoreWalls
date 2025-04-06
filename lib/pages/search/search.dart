@@ -8,7 +8,11 @@ import 'package:gap/gap.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 依赖
+// import 'package:spotify/spotify.dart';
+// 添加统一搜索提供者
+import 'package:spotube/provider/search/unified_search_provider.dart';
+
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/inter_scrollbar/inter_scrollbar.dart';
 import 'package:spotube/components/fallbacks/anonymous_fallback.dart';
@@ -20,11 +24,14 @@ import 'package:spotube/pages/search/sections/albums.dart';
 import 'package:spotube/pages/search/sections/artists.dart';
 import 'package:spotube/pages/search/sections/playlists.dart';
 import 'package:spotube/pages/search/sections/tracks.dart';
-import 'package:spotube/provider/spotify/authentication.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+import 'package:spotube/provider/authentication/authentication_provider.dart';
+
 import 'package:spotube/services/kv_store/kv_store.dart';
 
 import 'package:spotube/utils/platform.dart';
+
+// 添加搜索词状态提供者
+final searchTermStateProvider = StateProvider<String>((ref) => "");
 
 class SearchPage extends HookConsumerWidget {
   static const name = "search";
@@ -37,17 +44,19 @@ class SearchPage extends HookConsumerWidget {
     final searchTerm = ref.watch(searchTermStateProvider);
     final controller = useSearchController();
 
+    // 修复 auth 的获取方式
     final auth = ref.watch(authenticationProvider);
     final mediaQuery = MediaQuery.of(context);
 
-    final searchTrack = ref.watch(searchProvider(SearchType.track));
-    final searchAlbum = ref.watch(searchProvider(SearchType.album));
-    final searchPlaylist = ref.watch(searchProvider(SearchType.playlist));
-    final searchArtist = ref.watch(searchProvider(SearchType.artist));
+    // 使用统一搜索提供者
+    final searchTrack = ref.watch(unifiedSearchProvider(SearchType.track));
+    final searchAlbum = ref.watch(unifiedSearchProvider(SearchType.album));
+    final searchPlaylist = ref.watch(unifiedSearchProvider(SearchType.playlist));
+    final searchArtist = ref.watch(unifiedSearchProvider(SearchType.artist));
 
     final queries = [searchTrack, searchAlbum, searchPlaylist, searchArtist];
 
-    final isFetching = queries.every((s) => s.isLoading);
+    final isFetching = queries.every((s) => s.isRefreshing);
 
     useEffect(() {
       controller.text = searchTerm;
@@ -90,7 +99,8 @@ class SearchPage extends HookConsumerWidget {
         appBar: kIsDesktop && !kIsMacOS
             ? const PageWindowTitleBar(automaticallyImplyLeading: true)
             : null,
-        body: auth.asData?.value == null
+        // 修复 auth 的检查方式
+        body: auth.isEmpty
             ? const AnonymousFallback()
             : Column(
                 children: [
@@ -183,6 +193,7 @@ class SearchPage extends HookConsumerWidget {
                             },
                             builder: (context, controller) {
                               return SearchBar(
+                                // 修改 isLoading 为 isRefreshing
                                 autoFocus: queries.none((s) =>
                                         s.asData?.value != null &&
                                         !s.hasError) &&
@@ -225,6 +236,7 @@ class SearchPage extends HookConsumerWidget {
                                 ),
                               ],
                             )
+                          // 修改 isLoading 为 isRefreshing
                           : isFetching
                               ? Container(
                                   constraints: BoxConstraints(

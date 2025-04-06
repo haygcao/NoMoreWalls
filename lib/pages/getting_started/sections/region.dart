@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/collections/language_codes.dart';
-import 'package:spotube/collections/spotify_markets.dart';
+
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/getting_started/blur_card.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/l10n/l10n.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+import 'package:spotube/utils/constants/app_markets.dart'; // 添加导入
 
 class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
   final void Function() onNext;
@@ -18,6 +19,9 @@ class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
   Widget build(BuildContext context, ref) {
     final ThemeData(:textTheme, :dividerColor) = Theme.of(context);
     final preferences = ref.watch(userPreferencesProvider);
+    
+    // Convert String market to AppMarket
+    final currentMarket = AppMarket.fromString(preferences.market);
 
     return SafeArea(
       child: Center(
@@ -54,23 +58,23 @@ class GettingStartedPageLanguageRegionSection extends HookConsumerWidget {
                     ),
                   ),
                   const Gap(16),
-                  DropdownMenu(
-                    initialSelection: preferences.market,
+                  DropdownMenu<AppMarket>( // 指定类型为 AppMarket
+                    initialSelection: currentMarket,
                     onSelected: (value) {
                       if (value == null) return;
                       ref
                           .read(userPreferencesProvider.notifier)
-                          .setRecommendationMarket(value);
+                          .setRecommendationMarket(value); // Pass the AppMarket object directly
                     },
-                    hintText: preferences.market.name,
+                    hintText: currentMarket.displayName,
                     label: Text(context.l10n.market_place_region),
                     inputDecorationTheme:
                         const InputDecorationTheme(isDense: true),
                     dropdownMenuEntries: [
-                      for (final market in spotifyMarkets)
+                      for (final market in AppMarket.values)
                         DropdownMenuEntry(
-                          value: market.$1,
-                          label: market.$2,
+                          value: market,
+                          label: market.displayName,
                         ),
                     ],
                   ),

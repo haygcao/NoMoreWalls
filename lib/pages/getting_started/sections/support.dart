@@ -17,7 +17,8 @@ class GettingStartedScreenSupportSection extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, ref) {
     final ThemeData(:textTheme, :colorScheme) = Theme.of(context);
-    final onLogin = useLoginCallback(ref);
+    final onSpotifyLogin = useLoginCallback(ref, LoginService.spotify);
+    final onYouTubeMusicLogin = useLoginCallback(ref, LoginService.youtubeMusic);
 
     return Center(
       child: Column(
@@ -125,7 +126,20 @@ class GettingStartedScreenSupportSection extends HookConsumerWidget {
                   ),
                   onPressed: () async {
                     await KVStoreService.setDoneGettingStarted(true);
-                    await onLogin();
+                    await onSpotifyLogin();
+                  },
+                ),
+                const Gap(16),
+                FilledButton.icon(
+                  icon: const Icon(SpotubeIcons.youtube),
+                  label: Text(context.l10n.connect_with_youtube),
+                  style: FilledButton.styleFrom(
+                    backgroundColor: const Color(0xffFF0000),
+                    foregroundColor: Colors.white,
+                  ),
+                  onPressed: () async {
+                    await KVStoreService.setDoneGettingStarted(true);
+                    await onYouTubeMusicLogin();
                   },
                 ),
               ],

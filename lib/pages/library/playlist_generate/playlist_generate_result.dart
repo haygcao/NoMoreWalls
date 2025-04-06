@@ -2,22 +2,28 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart';
+// 移除 Spotify 依赖
+// import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/library/playlist_generate/simple_track_tile.dart';
 import 'package:spotube/modules/playlist/playlist_create_dialog.dart';
 import 'package:spotube/components/dialogs/playlist_add_track_dialog.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/context.dart';
-import 'package:spotube/models/spotify/recommendation_seeds.dart';
+// 使用统一的推荐模型
+import 'package:spotube/models/unified/recommendation.dart';
 import 'package:spotube/pages/playlist/playlist.dart';
 import 'package:spotube/provider/audio_player/audio_player.dart';
-import 'package:spotube/provider/spotify/spotify.dart';
+// 移除 Spotify 特定提供者
+// import 'package:spotube/provider/spotify/spotify.dart';
+// 使用统一的推荐提供者
+import 'package:spotube/provider/recommendation/recommendation_provider.dart';
+import 'package:spotube/services/base/playlist.dart';
 
 class PlaylistGenerateResultPage extends HookConsumerWidget {
   static const name = "playlist_generate_result";
 
-  final GeneratePlaylistProviderInput state;
+  final RecommendationSeeds state;
 
   const PlaylistGenerateResultPage({
     super.key,
@@ -30,16 +36,16 @@ class PlaylistGenerateResultPage extends HookConsumerWidget {
     final scaffoldMessenger = ScaffoldMessenger.of(context);
     final playlistNotifier = ref.watch(audioPlayerProvider.notifier);
 
-    final generatedPlaylist = ref.watch(generatePlaylistProvider(state));
+    final generatedPlaylist = ref.watch(unifiedRecommendationProvider(state));
 
     final selectedTracks = useState<List<String>>(
-      generatedPlaylist.asData?.value.map((e) => e.id!).toList() ?? [],
+      generatedPlaylist.asData?.value.map((e) => e.id).toList() ?? [],
     );
 
     useEffect(() {
       if (generatedPlaylist.asData?.value != null) {
         selectedTracks.value =
-            generatedPlaylist.asData!.value.map((e) => e.id!).toList();
+            generatedPlaylist.asData!.value.map((e) => e.id).toList();
       }
       return null;
     }, [generatedPlaylist.asData?.value]);
@@ -74,6 +80,7 @@ class PlaylistGenerateResultPage extends HookConsumerWidget {
                     ),
                     shrinkWrap: true,
                     children: [
+                      // 修改播放按钮处理
                       FilledButton.tonalIcon(
                         icon: const Icon(SpotubeIcons.play),
                         label: Text(context.l10n.play),
@@ -84,7 +91,7 @@ class PlaylistGenerateResultPage extends HookConsumerWidget {
                                   generatedPlaylist.asData!.value
                                       .where(
                                         (e) => selectedTracks.value
-                                            .contains(e.id!),
+                                            .contains(e.id),
                                       )
                                       .toList(),
                                   autoPlay: true,
@@ -139,6 +146,7 @@ class PlaylistGenerateResultPage extends HookConsumerWidget {
                                 }
                               },
                       ),
+                      // 修改添加到播放列表对话框
                       FilledButton.tonalIcon(
                         icon: const Icon(SpotubeIcons.playlistAdd),
                         label: Text(context.l10n.add_to_playlist),

@@ -9,7 +9,7 @@ homepage: https://spotube.krtirtho.dev
 repository: https://github.com/KRTirtho/spotube
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.0.0"
   flutter: ">=3.10.0"
 
 dependencies:
@@ -75,9 +75,9 @@ dependencies:
   http: ^1.2.1
   image_picker: ^1.1.0
   intl: any
-  #invidious: ^0.1.0
+  invidious: ^0.1.0
   jiosaavn: ^0.1.0
-  json_annotation: ^4.8.1
+  json_annotation: ^4.9.0
   local_notifier: ^0.1.6
   logger: ^2.0.2
   lrc: ^1.0.2

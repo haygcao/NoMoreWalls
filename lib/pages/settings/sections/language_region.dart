@@ -3,7 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotify/spotify.dart';
 import 'package:spotube/collections/language_codes.dart';
-import 'package:spotube/collections/spotify_markets.dart';
+
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/modules/settings/section_card_with_heading.dart';
 import 'package:spotube/components/adaptive/adaptive_select_tile.dart';
@@ -11,6 +11,10 @@ import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/l10n/l10n.dart';
 import 'package:spotube/provider/user_preferences/user_preferences_provider.dart';
+
+// 添加这些导入
+import 'package:spotube/utils/constants/app_markets.dart';
+import 'package:spotube/utils/converters/market_converter.dart';
 
 class SettingsLanguageRegionSection extends HookConsumerWidget {
   const SettingsLanguageRegionSection({super.key});
@@ -57,16 +61,18 @@ class SettingsLanguageRegionSection extends HookConsumerWidget {
           secondary: const Icon(SpotubeIcons.shoppingBag),
           title: Text(context.l10n.market_place_region),
           subtitle: Text(context.l10n.recommendation_country),
-          value: preferences.market,
+          value: MarketConverter.toSpotifyMarket(
+              AppMarket.fromString(preferences.market)),
           onChanged: (value) {
             if (value == null) return;
-            preferencesNotifier.setRecommendationMarket(value);
+            preferencesNotifier.setRecommendationMarket(
+                MarketConverter.fromSpotifyMarket(value));
           },
-          options: spotifyMarkets
+          options: appMarkets
               .map(
-                (country) => DropdownMenuItem(
-                  value: country.$1,
-                  child: Text(country.$2),
+                (market) => DropdownMenuItem(
+                  value: MarketConverter.toSpotifyMarket(market),
+                  child: Text(market.displayName),
                 ),
               )
               .toList(),

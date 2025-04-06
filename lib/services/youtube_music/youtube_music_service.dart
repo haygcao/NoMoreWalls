@@ -1,6 +1,9 @@
+import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:spotube/models/youtube_music/category.dart';
 import 'package:spotube/models/youtube_music/credentials.dart';
+import 'package:spotube/models/youtube_music/recommendation.dart';
 import 'package:spotube/models/youtube_music/user.dart';
 import 'package:spotube/models/youtube_music/track.dart';
 import 'package:spotube/models/youtube_music/album.dart';
@@ -819,4 +822,189 @@ Future<Map<String, dynamic>> getArtistInfo(String artistId) async {
       throw Exception('Failed to get track: $e');
     }
   }
+
+
+  // 收藏播放列表
+  Future<void> followPlaylist(String playlistId) async {
+    try {
+      await _dio.post('/browse/edit', data: {
+        'context': {'client': {'clientName': 'WEB_REMIX'}},
+        'actions': [{
+          'action': 'ACTION_ADD_LIBRARY',
+          'entityType': 'PLAYLIST',
+          'entityId': playlistId
+        }]
+      });
+    } catch (e, stack) {
+      AppLogger.reportError(e, stack);
+      throw Exception('收藏播放列表失败: $e');
+    }
+  }
+
+  // 取消收藏播放列表
+  Future<void> unfollowPlaylist(String playlistId) async {
+    try {
+      await _dio.post('/browse/edit', data: {
+        'context': {'client': {'clientName': 'WEB_REMIX'}},
+        'actions': [{
+          'action': 'ACTION_REMOVE_LIBRARY',
+          'entityType': 'PLAYLIST',
+          'entityId': playlistId
+        }]
+      });
+    } catch (e, stack) {
+      AppLogger.reportError(e, stack);
+      throw Exception('取消收藏播放列表失败: $e');
+    }
+  }
+
+  // 检查播放列表是否已收藏
+  Future<bool> isPlaylistInLibrary(String playlistId) async {
+    try {
+      final library = await getUserLibrary();
+      return library.playlists.any((playlist) => playlist.id == playlistId);
+    } catch (e, stack) {
+      AppLogger.reportError(e, stack);
+      return false;
+    }
+  }
+
+
+// 添加获取推荐的方法
+Future<List<YoutubeMusicRecommendation>> getRecommendations() async {
+  final response = await _dio.post('/browse', data: {
+    'context': {'client': {'clientName': 'WEB_REMIX'}},
+    'browseId': 'FEmusic_home',
+  });
+  
+  final recommendations = <YoutubeMusicRecommendation>[];
+  
+  final contents = response.data['contents']['singleColumnBrowseResultsRenderer']
+      ['tabs'][0]['tabRenderer']['content']['sectionListRenderer']['contents'];
+  
+  for (final section in contents) {
+    if (section['musicCarouselShelfRenderer'] != null) {
+      final shelfRenderer = section['musicCarouselShelfRenderer'];
+      final title = shelfRenderer['header']['musicCarouselShelfBasicHeaderRenderer']
+          ['title']['runs'][0]['text'];
+      
+      if (title.contains('Recommended') || title.contains('推荐')) {
+        final items = <YoutubeMusicTrack>[];
+        
+        for (final item in shelfRenderer['contents']) {
+          if (item['musicTwoRowItemRenderer'] != null) {
+            final renderer = item['musicTwoRowItemRenderer'];
+            final navigationEndpoint = renderer['navigationEndpoint'];
+            final watchEndpoint = navigationEndpoint['watchEndpoint'];
+            
+            if (watchEndpoint != null) {
+              final videoId = watchEndpoint['videoId'];
+              final title = renderer['title']['runs'][0]['text'];
+              final subtitle = renderer['subtitle']['runs']
+                  .map((run) => run['text'])
+                  .join(' ');
+              final thumbnailUrl = renderer['thumbnailRenderer']['musicThumbnailRenderer']
+                  ['thumbnail']['thumbnails'].last['url'];
+              
+              items.add(YoutubeMusicTrack(
+                id: videoId,
+                title: title,
+                thumbnailUrl: thumbnailUrl,
+                artistName: subtitle,
+                artistId: '',
+                channelId: '',
+                channelName: subtitle,
+                duration: const Duration(minutes: 3), // 默认时长
+                viewCount: 0,
+                publishedAt: DateTime.now(),
+              ));
+            }
+          }
+        }
+        
+        if (items.isNotEmpty) {
+          recommendations.add(YoutubeMusicRecommendation(
+            id: 'recommendation_${recommendations.length}',
+            title: title,
+            thumbnailUrl: items.first.thumbnailUrl, // Add thumbnailUrl parameter
+            tracks: items,
+            type: 'recommended', // Add type parameter
+            createdAt: DateTime.now(), // Add createdAt parameter
+            description: 'Recommended tracks for you', // Optional parameter
+          ));
+        }
+      }
+    }
+  }
+  
+  return recommendations;
+}
+
+Future<YoutubeMusicRecommendation> getRecommendationsFromTrack(String trackId) async {
+  final response = await _dio.post('/next', data: {
+    'context': {'client': {'clientName': 'WEB_REMIX'}},
+    'videoId': trackId,
+    'params': 'wAEB8gECGAE%3D'
+  });
+  
+  final contents = response.data['contents']['singleColumnMusicWatchNextResultsRenderer']
+      ['tabbedRenderer']['watchNextTabbedResultsRenderer']
+      ['tabs'][0]['tabRenderer']['content']['musicQueueRenderer']
+      ['content']['playlistPanelRenderer']['contents'];
+  
+  final tracks = (contents as List).map((item) {
+    try {
+      final details = item['playlistPanelVideoRenderer'];
+      return YoutubeMusicTrack(
+        id: details['videoId'],
+        title: details['title']['runs'][0]['text'],
+        thumbnailUrl: details['thumbnail']['thumbnails'].last['url'],
+        duration: Duration(seconds: int.parse(details['lengthText']['runs'][0]['text']
+            .split(':')
+            .fold(0, (p, e) => p * 60 + int.parse(e)))),
+        channelId: details['shortBylineText']['runs'][0]['navigationEndpoint']
+            ['browseEndpoint']['browseId'],
+        channelName: details['shortBylineText']['runs'][0]['text'],
+        viewCount: 0,
+        publishedAt: DateTime.now(),
+        artistId: details['shortBylineText']['runs'][0]['navigationEndpoint']
+            ['browseEndpoint']['browseId'],
+        artistName: details['shortBylineText']['runs'][0]['text'],
+      );
+    } catch (e) {
+      AppLogger.reportError(e, StackTrace.current);
+      return null;
+    }
+  }).whereType<YoutubeMusicTrack>().toList();
+  
+  return YoutubeMusicRecommendation(
+    id: 'track_recommendation_$trackId',
+    title: 'Recommendations based on track',
+    thumbnailUrl: tracks.isNotEmpty ? tracks.first.thumbnailUrl ?? '' : '', // Add thumbnailUrl
+    tracks: tracks,
+    type: 'radio', // Add type parameter
+    createdAt: DateTime.now(), // Add createdAt parameter
+    description: 'Similar tracks to your selection', // Optional parameter
+  );
+}
+
+Future<YoutubeMusicRecommendation> getRecommendationsFromArtist(String artistId) async {
+  final response = await _dio.post('/browse', data: {
+    'context': {'client': {'clientName': 'WEB_REMIX'}},
+    'browseId': artistId,
+    'params': 'EgWKAQIIAWoKEAMQBBAJEAoQBQ', // 热门歌曲过滤参数
+  });
+  
+  final tracks = await getArtistTopTracks(artistId);
+  
+  return YoutubeMusicRecommendation(
+    id: 'artist_recommendation_$artistId',
+    title: 'Top tracks from artist',
+    thumbnailUrl: tracks.isNotEmpty ? tracks.first.thumbnailUrl : '', // Add thumbnailUrl
+    tracks: tracks,
+    type: 'artist_top', // Add type parameter
+    createdAt: DateTime.now(), // Add createdAt parameter
+    description: 'Popular tracks from this artist', // Optional parameter
+  );
+}
 }

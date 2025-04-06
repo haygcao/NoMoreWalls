@@ -347,7 +347,7 @@ class LocalLibraryPage extends HookConsumerWidget {
                               if (trackSnapshot.isLoading) {
                                 return TrackTile(
                                   playlist: playlist,
-                                  track: FakeData.track,
+                                  track: FakeData.fakeTrack, // 修改这里，使用 fakeTrack 而不是 track
                                   index: index,
                                 );
                               }
@@ -379,7 +379,7 @@ class LocalLibraryPage extends HookConsumerWidget {
                     child: ListView.builder(
                       itemCount: 5,
                       itemBuilder: (context, index) => TrackTile(
-                        track: FakeData.track,
+                        track: FakeData.fakeTrack,
                         index: index,
                         playlist: playlist,
                       ),

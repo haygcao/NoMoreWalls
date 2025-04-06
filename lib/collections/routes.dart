@@ -2,8 +2,8 @@ import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/widgets.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotify/spotify.dart' hide Search;
-import 'package:spotube/models/spotify/recommendation_seeds.dart';
+//import 'package:spotify/spotify.dart' hide Search, Album;
+//import 'package:spotube/models/spotify/recommendation_seeds.dart';
 import 'package:spotube/pages/album/album.dart';
 import 'package:spotube/pages/connect/connect.dart';
 import 'package:spotube/pages/connect/control/control.dart';
@@ -33,6 +33,7 @@ import 'package:spotube/pages/stats/stats.dart';
 import 'package:spotube/pages/stats/streams/streams.dart';
 import 'package:spotube/pages/track/track.dart';
 import 'package:spotube/provider/spotify/authentication.dart';
+import 'package:spotube/services/base/album.dart';
 import 'package:spotube/services/kv_store/kv_store.dart';
 import 'package:spotube/components/spotube_page_route.dart';
 import 'package:spotube/pages/artist/artist.dart';
@@ -41,6 +42,8 @@ import 'package:spotube/pages/lyrics/lyrics.dart';
 import 'package:spotube/pages/root/root_app.dart';
 import 'package:spotube/pages/settings/settings.dart';
 import 'package:spotube/pages/mobile_login/mobile_login.dart';
+import 'package:spotube/models/unified/recommendation.dart'; // Add this import
+import 'package:spotube/services/base/playlist.dart'; // Add this import
 
 final rootNavigatorKey = GlobalKey<NavigatorState>();
 final shellRouteNavigatorKey = GlobalKey<NavigatorState>();
@@ -78,7 +81,8 @@ final routerProvider = Provider((ref) {
                 name: GenrePlaylistsPage.name,
                 pageBuilder: (context, state) => SpotubePage(
                   child: GenrePlaylistsPage(
-                    category: state.extra as Category,
+                    category: state.extra as dynamic,
+                    categoryId: state.pathParameters["categoryId"] ?? "",
                   ),
                 ),
               ),
@@ -116,7 +120,7 @@ final routerProvider = Provider((ref) {
                       name: PlaylistGenerateResultPage.name,
                       pageBuilder: (context, state) => SpotubePage(
                         child: PlaylistGenerateResultPage(
-                          state: state.extra as GeneratePlaylistProviderInput,
+                          state: state.extra as RecommendationSeeds,
                         ),
                       ),
                     )
@@ -198,11 +202,12 @@ final routerProvider = Provider((ref) {
             path: "/playlist/:id",
             name: PlaylistPage.name,
             pageBuilder: (context, state) {
-              assert(state.extra is PlaylistSimple);
+              // Update assertion to use unified Playlist model
+              assert(state.extra is Playlist);
               return SpotubePage(
-                child: state.pathParameters["id"] == "user-liked-tracks"
-                    ? LikedPlaylistPage(playlist: state.extra as PlaylistSimple)
-                    : PlaylistPage(playlist: state.extra as PlaylistSimple),
+                child: state.pathParameters["playlistId"] == "liked"
+                    ? LikedPlaylistPage(playlist: state.extra as Playlist)
+                    : PlaylistPage(playlist: state.extra as Playlist),
               );
             },
           ),

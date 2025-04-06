@@ -8,6 +8,8 @@ import 'package:spotube/services/base/sourceable_track.dart';
 import 'package:spotube/services/base/album.dart' as base;  // 给我们的 Album 添加前缀
 import 'package:spotube/services/base/artist.dart' as spotube_artist;  // 修改导入，添加前缀避免冲突
 import 'package:spotube/services/base/playlist.dart' as spotube_playlist;
+import 'package:spotube/services/base/user.dart' as base_user;  // 导入通用用户模型
+
 abstract class FakeData {
   static final Image image = Image()
     ..height = 1
@@ -217,9 +219,38 @@ static final album = base.Album(
     ..id = "1"
     ..name = "category";
 
+  // 添加通用用户实现
+  static final baseUser = base_user.User(
+    id: "1",
+    name: "测试用户",
+    email: "test@example.com",
+    imageUrl: image.url,
+    platform: "spotify",
+  );
 
+  // 修复 user 对象定义，使用正确的 Spotify User 类型和级联表示法
+  static final followers = Followers()..total = 100;
+  
+  static final User user = User()
+    ..id = "1"
+    ..displayName = "测试用户"
+    ..birthdate = "2000-01-01"
+    ..country = Market.US
+    ..email = "test@example.com"
+    ..followers = followers
+    ..href = "text"
+    ..images = [image]
+    ..type = "type"
+    ..uri = "uri"
+    ..product = "premium";
 
+  static final TracksLink tracksLink = TracksLink()
+    ..href = "text"
+    ..total = 1;
 }
+
+// 删除类外部的 user 定义
+// 这里只保留 _FakeTrack 和 SourcedTrackImpl 类
 class _FakeTrack implements SourceableTrack {
   @override
   String get id => "fake_track_id";

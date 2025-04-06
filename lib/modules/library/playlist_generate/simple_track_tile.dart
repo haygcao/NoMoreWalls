@@ -1,51 +1,62 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
-// 移除 Spotify 依赖
-// import 'package:spotify/spotify.dart';
-import 'package:spotube/collections/spotube_icons.dart';
-
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/utils/type/image_type.dart';
-// 添加 SourceableTrack 导入
 import 'package:spotube/services/base/sourceable_track.dart';
+import 'package:spotube/utils/type/image_type.dart';
 
-class SimpleTrackTile extends HookWidget {
-  // 修改类型从 Track 到 SourceableTrack
+class SimpleTrackTile extends StatelessWidget {
   final SourceableTrack track;
-  final VoidCallback? onDelete;
+  // 添加 onRemove 回调函数
+  final VoidCallback? onRemove;
+
   const SimpleTrackTile({
     super.key,
     required this.track,
-    this.onDelete,
+    this.onRemove,
   });
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: ClipRRect(
-        borderRadius: BorderRadius.circular(8),
-        child: UniversalImage(
-          // 使用 SourceableTrack 的 thumbnailUrl 属性
-          path: track.thumbnailUrl ?? 
-              MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
-          height: 40,
-          width: 40,
-        ),
-      ),
-      horizontalTitleGap: 10,
-      contentPadding: const EdgeInsets.symmetric(horizontal: 8),
-      // 使用 SourceableTrack 的 title 属性
-      title: Text(track.title),
-      trailing: onDelete == null
-          ? null
-          : IconButton(
-              icon: const Icon(SpotubeIcons.close),
-              onPressed: onDelete,
+    return Row(
+      children: [
+        ClipRRect(
+          borderRadius: BorderRadius.circular(5),
+          child: SizedBox(
+            height: 40,
+            width: 40,
+            child: UniversalImage(
+              path: track.thumbnailUrl ?? 
+                  MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
+              height: 40,
+              width: 40,
             ),
-      // 使用 SourceableTrack 的 artistName 和 albumName 属性
-      subtitle: Text(
-        track.albumName != null ? "${track.artistName} • ${track.albumName}" : track.artistName,
-      ),
+          ),
+        ),
+        const SizedBox(width: 8),
+        Expanded(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                track.title,
+                style: Theme.of(context).textTheme.bodyMedium,
+                overflow: TextOverflow.ellipsis,
+              ),
+              Text(
+                track.artistName,
+                style: Theme.of(context).textTheme.bodySmall,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
+          ),
+        ),
+        // 添加删除按钮
+        if (onRemove != null)
+          IconButton(
+            icon: const Icon(Icons.close, size: 16),
+            onPressed: onRemove,
+            splashRadius: 20,
+          ),
+      ],
     );
   }
 }

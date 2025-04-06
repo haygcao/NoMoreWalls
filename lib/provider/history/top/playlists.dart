@@ -153,6 +153,19 @@ class HistoryTopPlaylistsNotifier extends FamilyAsyncNotifier<HistoryTopPlaylist
           .sorted((a, b) => b.count.compareTo(a.count))
           .toList();
     }
+
+  Future<void> fetchMore() async {
+    if (!state.hasValue || state.value!.hasMore == false) return;
+
+    final (items: playlists, hasMore: hasMore, nextOffset: nextOffset) = 
+        await fetch(arg, state.value!.offset, state.value!.limit);
+
+    state = AsyncValue.data(state.value!.copyWith(
+      items: [...state.value!.items, ...playlists],
+      offset: nextOffset,
+      hasMore: hasMore,
+    ));
+  }
 }
 
 final historyTopPlaylistsProvider = AsyncNotifierProviderFamily<

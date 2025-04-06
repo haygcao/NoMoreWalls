@@ -1,14 +1,12 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotify/spotify.dart' hide Playlist, Track;
-import 'package:spotube/models/spotify/track_adapter.dart';
 import 'package:spotube/models/youtube_music/playlist.dart';
-import 'package:spotube/models/youtube_music/track.dart';
 import 'package:spotube/provider/music_platform.dart';
 import 'package:spotube/provider/spotify/spotify.dart';
 import 'package:spotube/provider/spotify/spotify_provider.dart';
 import 'package:spotube/provider/youtube_music/youtube_music.dart';
+import 'package:spotube/provider/youtube_music/youtube_music_provider.dart';
 import 'package:spotube/services/base/playlist.dart';
-import 'package:spotube/services/base/sourceable_track.dart';
 import 'package:collection/collection.dart';
 
 class FavoritePlaylistsState {
@@ -210,6 +208,52 @@ class FavoritePlaylistsNotifier extends StateNotifier<AsyncValue<FavoritePlaylis
         'authorId': ytPlaylist.authorId,
       },
     );
+  }
+
+  // 添加播放列表到收藏
+  Future<bool> addToFavorites(Playlist playlist) async {
+    try {
+      // 根据平台调用不同的收藏方法
+      if (playlist.platformMetadata?['platform'] == 'spotify') {
+        await ref.read(spotifyProvider).playlists.followPlaylist(playlist.id);
+      } else if (playlist.platformMetadata?['platform'] == 'youtube_music') {
+        await ref.read(youtubeMusicProvider).followPlaylist(playlist.id);
+      }
+      
+      // 刷新收藏列表
+      await loadPlaylists();
+      return true;
+    } catch (e, stack) {
+      // 处理错误
+      state = AsyncValue.error(e, stack);
+      return false;
+    }
+  }
+
+  // 从收藏中移除播放列表
+  Future<bool> removeFromFavorites(Playlist playlist) async {
+    try {
+      // 根据平台调用不同的取消收藏方法
+      if (playlist.platformMetadata?['platform'] == 'spotify') {
+        await ref.read(spotifyProvider).playlists.unfollowPlaylist(playlist.id);
+      } else if (playlist.platformMetadata?['platform'] == 'youtube_music') {
+        await ref.read(youtubeMusicProvider).unfollowPlaylist(playlist.id);
+      }
+      
+      // 刷新收藏列表
+      await loadPlaylists();
+      return true;
+    } catch (e, stack) {
+      // 处理错误
+      state = AsyncValue.error(e, stack);
+      return false;
+    }
+  }
+
+  // 检查播放列表是否已收藏
+  bool isPlaylistInFavorites(String playlistId) {
+    if (state.value == null) return false;
+    return state.value!.items.any((playlist) => playlist.id == playlistId);
   }
 }
 

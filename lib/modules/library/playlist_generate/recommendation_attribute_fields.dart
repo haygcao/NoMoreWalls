@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:spotube/modules/library/playlist_generate/recommendation_attribute_dials.dart';
+import 'package:spotube/models/unified/recommendation.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
-// 移除页面导入
-// import 'package:spotube/pages/library/playlist_generate/playlist_generate.dart';
 
 class RecommendationAttributeFields extends HookWidget {
   final Widget title;
@@ -29,14 +27,13 @@ class RecommendationAttributeFields extends HookWidget {
           fontWeight: FontWeight.w500,
         );
 
-    final minController = useTextEditingController(text: values.min.toString());
-    final targetController =
-        useTextEditingController(text: values.target.toString());
-    final maxController = useTextEditingController(text: values.max.toString());
+    final minController = useTextEditingController(text: (values.min ?? 0).toString());
+    final targetController = useTextEditingController(text: (values.target ?? 0).toString());
+    final maxController = useTextEditingController(text: (values.max ?? 0).toString());
 
     useEffect(() {
       listener() {
-        onChanged((
+        onChanged(RecommendationAttribute(
           min: double.tryParse(minController.text) ?? 0,
           target: double.tryParse(targetController.text) ?? 0,
           max: double.tryParse(maxController.text) ?? 0,
@@ -116,21 +113,27 @@ class RecommendationAttributeFields extends HookWidget {
                     borderRadius: BorderRadius.circular(8),
                     textStyle: labelStyle,
                     isSelected: presets!.values
-                        .map((value) => value == values)
+                        .map((value) => 
+                            value.min == values.min && 
+                            value.target == values.target && 
+                            value.max == values.max)
                         .toList(),
                     onPressed: (index) {
                       RecommendationAttribute newValues =
                           presets!.values.elementAt(index);
-                      if (newValues == values) {
+                      if (newValues.min == values.min && 
+                          newValues.target == values.target && 
+                          newValues.max == values.max) {
+                        final zeroValues = const RecommendationAttribute(min: 0, target: 0, max: 0);
                         onChanged(zeroValues);
-                        minController.text = zeroValues.min.toString();
-                        targetController.text = zeroValues.target.toString();
-                        maxController.text = zeroValues.max.toString();
+                        minController.text = (zeroValues.min ?? 0).toString();
+                        targetController.text = (zeroValues.target ?? 0).toString();
+                        maxController.text = (zeroValues.max ?? 0).toString();
                       } else {
                         onChanged(newValues);
-                        minController.text = newValues.min.toString();
-                        targetController.text = newValues.target.toString();
-                        maxController.text = newValues.max.toString();
+                        minController.text = (newValues.min ?? 0).toString();
+                        targetController.text = (newValues.target ?? 0).toString();
+                        maxController.text = (newValues.max ?? 0).toString();
                       }
                     },
                     children: presets!.keys.map((key) => Text(key)).toList(),

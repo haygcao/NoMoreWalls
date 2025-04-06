@@ -3,6 +3,7 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/provider/authentication/authentication_provider.dart';
+import 'package:spotube/provider/music_platform.dart';
 
 
 class SpotifyLoginView extends HookConsumerWidget {
@@ -37,7 +38,12 @@ class SpotifyLoginView extends HookConsumerWidget {
           final cookies = await CookieManager.instance().getCookies(url: action);
           final cookieHeader = "sp_dc=${cookies.firstWhere((element) => element.name == "sp_dc").value}";
 
-          await authenticationNotifier.login(cookieHeader);
+          // 修改这一行，传入 MusicPlatform.spotify 和包含 cookie 的 Map
+          await authenticationNotifier.login(
+            MusicPlatform.spotify, 
+            {'cookie': cookieHeader}
+          );
+          
           if (context.mounted) {
             context.go("/");
           }

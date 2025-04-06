@@ -41,7 +41,7 @@ class $AssetsTutorialGen {
 }
 
 class Assets {
-  Assets._();
+  const Assets._();
 
   static const String license = 'LICENSE';
   static const AssetGenImage albumPlaceholder =
@@ -52,12 +52,13 @@ class Assets {
   static const AssetGenImage emptyBox = AssetGenImage('assets/empty_box.png');
   static const AssetGenImage invidious = AssetGenImage('assets/invidious.jpg');
   static const AssetGenImage jiosaavn = AssetGenImage('assets/jiosaavn.png');
-  static const AssetGenImage sounndcloud = AssetGenImage('assets/soundcloud.png');  
   static const AssetGenImage likedTracks =
       AssetGenImage('assets/liked-tracks.jpg');
   static const $AssetsLogosGen logos = $AssetsLogosGen();
   static const AssetGenImage placeholder =
       AssetGenImage('assets/placeholder.png');
+  static const AssetGenImage soundcloud =
+      AssetGenImage('assets/soundcloud.jpg');
   static const AssetGenImage spotubeHeroBanner =
       AssetGenImage('assets/spotube-hero-banner.png');
   static const AssetGenImage spotubeLogoForeground =
@@ -105,6 +106,7 @@ class Assets {
         jiosaavn,
         likedTracks,
         placeholder,
+        soundcloud,
         spotubeHeroBanner,
         spotubeLogoForeground,
         spotubeLogoMacos,
@@ -160,7 +162,7 @@ class AssetGenImage {
     bool gaplessPlayback = true,
     bool isAntiAlias = false,
     String? package,
-    FilterQuality filterQuality = FilterQuality.low,
+    FilterQuality filterQuality = FilterQuality.medium,
     int? cacheWidth,
     int? cacheHeight,
   }) {

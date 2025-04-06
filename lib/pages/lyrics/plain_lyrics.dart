@@ -45,7 +45,8 @@ class PlainLyrics extends HookConsumerWidget {
             if (isModal != true) ...[
               Center(
                 child: Text(
-                  playlist.activeTrack?.name ?? "",
+                  // 修改这里，使用 title 而不是 name
+                  playlist.activeTrack?.title ?? "",
                   style: mediaQuery.mdAndUp
                       ? textTheme.displaySmall
                       : textTheme.headlineMedium?.copyWith(
@@ -56,7 +57,8 @@ class PlainLyrics extends HookConsumerWidget {
               ),
               Center(
                 child: Text(
-                  playlist.activeTrack?.artists?.asString() ?? "",
+                  // 修改这里，使用 artistName 而不是 artists?.asString()
+                  playlist.activeTrack?.artistName ?? "",
                   style: (mediaQuery.mdAndUp
                           ? textTheme.headlineSmall
                           : textTheme.titleLarge)

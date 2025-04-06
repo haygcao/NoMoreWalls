@@ -12,7 +12,11 @@ import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/extensions/duration.dart';
-import 'package:spotube/provider/spotify/extension/image.dart';
+import 'package:spotube/services/base/artist.dart';
+// 移除 Spotify 特定的导入
+// import 'package:spotube/provider/spotify/extension/image.dart';
+// 添加通用图片类型导入
+import 'package:spotube/utils/type/image_type.dart';
 import 'package:spotube/pages/track/track.dart';
 import 'package:spotube/provider/connect/clients.dart';
 import 'package:spotube/provider/connect/connect.dart';
@@ -110,10 +114,10 @@ class ConnectControlPage extends HookConsumerWidget {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20),
                           child: UniversalImage(
-                            path: (playlist.activeTrack?.album?.images)
-                                .asUrlString(
-                              placeholder: ImagePlaceholder.albumArt,
-                            ),
+                            // Use thumbnailUrl directly from SourceableTrack
+                            path: playlist.activeTrack?.thumbnailUrl != null
+                                ? playlist.activeTrack!.thumbnailUrl.toString()
+                                : MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -125,7 +129,8 @@ class ConnectControlPage extends HookConsumerWidget {
                         slivers: [
                           SliverToBoxAdapter(
                             child: AnchorButton(
-                              playlist.activeTrack?.name ?? "",
+                              // Use title instead of name
+                              playlist.activeTrack?.title ?? "",
                               style: textTheme.titleLarge!,
                               onTap: () {
                                 if (playlist.activeTrack == null) return;
@@ -141,7 +146,17 @@ class ConnectControlPage extends HookConsumerWidget {
                           ),
                           SliverToBoxAdapter(
                             child: ArtistLink(
-                              artists: playlist.activeTrack?.artists ?? [],
+                              // Create Artist object using artistName and artistId from SourceableTrack
+                              artists: playlist.activeTrack != null
+                                  ? [
+                                      Artist(
+                                        id: playlist.activeTrack!.artistId ?? '',
+                                        name: playlist.activeTrack!.artistName,
+                                        uri: 'artist:${playlist.activeTrack!.artistId}',
+                                        imageUrl: null,
+                                      )
+                                    ]
+                                  : [],
                               textStyle: textTheme.bodyMedium!,
                               mainAxisAlignment: WrapAlignment.start,
                               onOverflowArtistClick: () =>
