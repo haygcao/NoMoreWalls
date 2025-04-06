@@ -10,6 +10,7 @@ import 'package:spotube/services/base/base_models.dart';
 import 'package:spotube/services/base/playlist.dart'; // 添加 Playlist 导入
 import 'package:spotube/services/base/album.dart'; // 添加 Album 导入
 
+
 part 'adapters.g.dart';
 part 'adapters.freezed.dart';
 
@@ -325,6 +326,77 @@ class AlbumBaseConverter implements JsonConverter<AlbumBase, Map<String, dynamic
   }
 }
 
+// 修改 BaseTrack 的 JsonConverter
+class BaseTrackConverter implements JsonConverter<BaseTrack, Map<String, dynamic>> {
+  const BaseTrackConverter();
+
+  @override
+  BaseTrack fromJson(Map<String, dynamic> json) {
+    // 简单返回一个匿名实现
+    return _AnonymousTrack.fromJson(json);
+  }
+
+  @override
+  Map<String, dynamic> toJson(BaseTrack object) {
+    return object.toJson();
+  }
+}
+
+// 添加一个匿名实现类
+class _AnonymousTrack implements BaseTrack {
+  final String _id;
+  final String _title;
+  final String? _artistName;
+  final String? _albumName;
+  final Duration? _duration;
+  final Map<String, dynamic> _json;
+
+  _AnonymousTrack({
+    required String id,
+    required String title,
+    String? artistName,
+    String? albumName,
+    Duration? duration,
+    required Map<String, dynamic> json,
+  })  : _id = id,
+        _title = title,
+        _artistName = artistName,
+        _albumName = albumName,
+        _duration = duration,
+        _json = json;
+
+  factory _AnonymousTrack.fromJson(Map<String, dynamic> json) {
+    return _AnonymousTrack(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      artistName: json['artistName'] as String?,
+      albumName: json['albumName'] as String?,
+      duration: json['duration'] != null
+          ? Duration(milliseconds: json['duration'] as int)
+          : null,
+      json: json,
+    );
+  }
+
+  @override
+  String get id => _id;
+
+  @override
+  String get title => _title;
+
+  @override
+  String? get artistName => _artistName;
+
+  @override
+  String? get albumName => _albumName;
+
+  @override
+  Duration? get duration => _duration;
+
+  @override
+  Map<String, dynamic> toJson() => _json;
+}
+
 @freezed
 class PlaybackHistoryItem with _$PlaybackHistoryItem {
   factory PlaybackHistoryItem.playlist({
@@ -339,7 +411,7 @@ class PlaybackHistoryItem with _$PlaybackHistoryItem {
   
   factory PlaybackHistoryItem.track({
     required DateTime date,
-    required BaseTrack track,
+    @BaseTrackConverter() required BaseTrack track,  // 添加 JsonConverter 注解
   }) = PlaybackHistoryTrack;
   
   factory PlaybackHistoryItem.fromJson(Map<String, dynamic> json) =>

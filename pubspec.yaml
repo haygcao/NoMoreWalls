@@ -93,10 +93,7 @@ dependencies:
   permission_handler: ^11.3.1
 
 
-  piped_client: 
-    git:
-      url: https://github.com/haygcao/piped_client.git
-      ref: main
+  piped_client: ^0.1.2
 
   popover: ^0.3.0
   riverpod: ^2.5.1

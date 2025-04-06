@@ -810,7 +810,9 @@ mixin _$PlaybackHistoryItem {
     required TResult Function(
             DateTime date, @AlbumBaseConverter() AlbumBase album)
         album,
-    required TResult Function(DateTime date, BaseTrack track) track,
+    required TResult Function(
+            DateTime date, @BaseTrackConverter() BaseTrack track)
+        track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -820,7 +822,8 @@ mixin _$PlaybackHistoryItem {
         playlist,
     TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult? Function(DateTime date, BaseTrack track)? track,
+    TResult? Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -830,7 +833,8 @@ mixin _$PlaybackHistoryItem {
         playlist,
     TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult Function(DateTime date, BaseTrack track)? track,
+    TResult Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -1003,7 +1007,9 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
     required TResult Function(
             DateTime date, @AlbumBaseConverter() AlbumBase album)
         album,
-    required TResult Function(DateTime date, BaseTrack track) track,
+    required TResult Function(
+            DateTime date, @BaseTrackConverter() BaseTrack track)
+        track,
   }) {
     return playlist(date, this.playlist);
   }
@@ -1016,7 +1022,8 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
         playlist,
     TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult? Function(DateTime date, BaseTrack track)? track,
+    TResult? Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
   }) {
     return playlist?.call(date, this.playlist);
   }
@@ -1029,7 +1036,8 @@ class _$PlaybackHistoryPlaylistImpl implements PlaybackHistoryPlaylist {
         playlist,
     TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult Function(DateTime date, BaseTrack track)? track,
+    TResult Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
     required TResult orElse(),
   }) {
     if (playlist != null) {
@@ -1200,7 +1208,9 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
     required TResult Function(
             DateTime date, @AlbumBaseConverter() AlbumBase album)
         album,
-    required TResult Function(DateTime date, BaseTrack track) track,
+    required TResult Function(
+            DateTime date, @BaseTrackConverter() BaseTrack track)
+        track,
   }) {
     return album(date, this.album);
   }
@@ -1213,7 +1223,8 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
         playlist,
     TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult? Function(DateTime date, BaseTrack track)? track,
+    TResult? Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
   }) {
     return album?.call(date, this.album);
   }
@@ -1226,7 +1237,8 @@ class _$PlaybackHistoryAlbumImpl implements PlaybackHistoryAlbum {
         playlist,
     TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult Function(DateTime date, BaseTrack track)? track,
+    TResult Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
     required TResult orElse(),
   }) {
     if (album != null) {
@@ -1307,7 +1319,7 @@ abstract class _$$PlaybackHistoryTrackImplCopyWith<$Res>
       __$$PlaybackHistoryTrackImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({DateTime date, BaseTrack track});
+  $Res call({DateTime date, @BaseTrackConverter() BaseTrack track});
 }
 
 /// @nodoc
@@ -1343,7 +1355,9 @@ class __$$PlaybackHistoryTrackImplCopyWithImpl<$Res>
 @JsonSerializable()
 class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   _$PlaybackHistoryTrackImpl(
-      {required this.date, required this.track, final String? $type})
+      {required this.date,
+      @BaseTrackConverter() required this.track,
+      final String? $type})
       : $type = $type ?? 'track';
 
   factory _$PlaybackHistoryTrackImpl.fromJson(Map<String, dynamic> json) =>
@@ -1352,6 +1366,7 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
   @override
   final DateTime date;
   @override
+  @BaseTrackConverter()
   final BaseTrack track;
 
   @JsonKey(name: 'runtimeType')
@@ -1394,7 +1409,9 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
     required TResult Function(
             DateTime date, @AlbumBaseConverter() AlbumBase album)
         album,
-    required TResult Function(DateTime date, BaseTrack track) track,
+    required TResult Function(
+            DateTime date, @BaseTrackConverter() BaseTrack track)
+        track,
   }) {
     return track(date, this.track);
   }
@@ -1407,7 +1424,8 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
         playlist,
     TResult? Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult? Function(DateTime date, BaseTrack track)? track,
+    TResult? Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
   }) {
     return track?.call(date, this.track);
   }
@@ -1420,7 +1438,8 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
         playlist,
     TResult Function(DateTime date, @AlbumBaseConverter() AlbumBase album)?
         album,
-    TResult Function(DateTime date, BaseTrack track)? track,
+    TResult Function(DateTime date, @BaseTrackConverter() BaseTrack track)?
+        track,
     required TResult orElse(),
   }) {
     if (track != null) {
@@ -1473,14 +1492,16 @@ class _$PlaybackHistoryTrackImpl implements PlaybackHistoryTrack {
 
 abstract class PlaybackHistoryTrack implements PlaybackHistoryItem {
   factory PlaybackHistoryTrack(
-      {required final DateTime date,
-      required final BaseTrack track}) = _$PlaybackHistoryTrackImpl;
+          {required final DateTime date,
+          @BaseTrackConverter() required final BaseTrack track}) =
+      _$PlaybackHistoryTrackImpl;
 
   factory PlaybackHistoryTrack.fromJson(Map<String, dynamic> json) =
       _$PlaybackHistoryTrackImpl.fromJson;
 
   @override
   DateTime get date;
+  @BaseTrackConverter()
   BaseTrack get track;
 
   /// Create a copy of PlaybackHistoryItem

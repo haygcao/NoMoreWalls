@@ -7,6 +7,7 @@ import 'package:spotube/extensions/context.dart';
 import 'package:spotube/pages/settings/sections/about.dart';
 import 'package:spotube/pages/settings/sections/accounts.dart';
 import 'package:spotube/pages/settings/sections/appearance.dart';
+import 'package:spotube/pages/settings/sections/cookie_import_export.dart'; // 添加导入
 import 'package:spotube/pages/settings/sections/desktop.dart';
 import 'package:spotube/pages/settings/sections/developers.dart';
 import 'package:spotube/pages/settings/sections/downloads.dart';
@@ -44,6 +45,7 @@ class SettingsPage extends HookConsumerWidget {
                   controller: controller,
                   children: [
                     const SettingsAccountSection(),
+                    const CookieImportExportSection(), // 添加 Cookie 导入导出部分
                     const SettingsLanguageRegionSection(),
                     const SettingsAppearanceSection(),
                     const SettingsPlaybackSection(),
