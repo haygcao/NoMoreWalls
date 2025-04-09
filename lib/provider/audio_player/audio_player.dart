@@ -360,6 +360,63 @@ class AudioPlayerNotifier extends Notifier<AudioPlayerState> {
     await removeCollections(state.collections);
     ref.read(discordProvider.notifier).clear();
   }
+  
+  // 添加清除队列方法
+  Future<void> clearQueue() async {
+    // 保留当前播放的歌曲，清除其他所有歌曲
+    final currentIndex = state.playlist.index;
+    if (currentIndex < 0 || state.tracks.isEmpty) {
+      await stop();
+      return;
+    }
+    
+    final currentTrack = state.tracks[currentIndex];
+    await audioPlayer.openPlaylist(
+      [SpotubeMedia(currentTrack)],
+      initialIndex: 0,
+      autoPlay: state.playing,
+    );
+  }
+  
+  // 添加从队列中移除选定歌曲的方法
+  Future<void> removeSelectedTracks(List<int> indices) async {
+    if (indices.isEmpty) return;
+    
+    // 获取当前队列
+    final tracks = List<SourceableTrack>.from(state.tracks);
+    final currentIndex = state.playlist.index;
+    
+    // 创建一个新的队列，排除要移除的索引
+    final newTracks = <SourceableTrack>[];
+    int newCurrentIndex = -1;
+    
+    for (int i = 0; i < tracks.length; i++) {
+      if (!indices.contains(i)) {
+        newTracks.add(tracks[i]);
+        if (i == currentIndex) {
+          newCurrentIndex = newTracks.length - 1;
+        }
+      }
+    }
+    
+    // 如果队列为空，停止播放
+    if (newTracks.isEmpty) {
+      await stop();
+      return;
+    }
+    
+    // 如果当前播放的歌曲被移除，设置为第一首
+    if (newCurrentIndex == -1) {
+      newCurrentIndex = 0;
+    }
+    
+    // 更新播放器队列
+    await audioPlayer.openPlaylist(
+      newTracks.map((track) => SpotubeMedia(track)).toList(),
+      initialIndex: newCurrentIndex,
+      autoPlay: state.playing,
+    );
+  }
 }
 
 final audioPlayerProvider =

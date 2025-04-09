@@ -20,6 +20,9 @@ import 'package:spotube/services/sourced_track/enums.dart';
 import 'package:flutter/material.dart' hide Table, Key, View;
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
 import 'package:drift/native.dart';
+import 'package:spotube/services/youtube_engine/newpipe_engine.dart';
+import 'package:spotube/services/youtube_engine/youtube_explode_engine.dart';
+import 'package:spotube/services/youtube_engine/yt_dlp_engine.dart';
 
 import 'package:sqlite3/sqlite3.dart';
 import 'package:sqlite3_flutter_libs/sqlite3_flutter_libs.dart';
@@ -43,6 +46,7 @@ part 'typeconverters/string_list.dart';
 part 'typeconverters/encrypted_text.dart';
 part 'typeconverters/map.dart';
 part 'typeconverters/subtitle.dart';
+part 'typeconverters/youtube_client_engine.dart';
 
 
 
@@ -66,7 +70,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase() : super(_openConnection());
 
   @override
-  int get schemaVersion => 3;
+  int get schemaVersion => 4; // Increment schema version
 
   @override
   MigrationStrategy get migration {
@@ -83,6 +87,13 @@ class AppDatabase extends _$AppDatabase {
           await m.addColumn(
             schema.preferencesTable,
             schema.preferencesTable.cacheMusic,
+          );
+        },
+        from3To4: (m, schema) async {
+          // Add youtubeClientEngine column to preferences table
+          await m.addColumn(
+            schema.preferencesTable,
+            schema.preferencesTable.youtubeClientEngine,
           );
         },
       ),
@@ -113,3 +124,8 @@ LazyDatabase _openConnection() {
     return NativeDatabase.createInBackground(file);
   });
 }
+
+
+
+
+

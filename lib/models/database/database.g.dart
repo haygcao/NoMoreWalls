@@ -821,6 +821,17 @@ class $PreferencesTableTable extends PreferencesTable
       defaultConstraints:
           GeneratedColumn.constraintIsAlways('CHECK ("cache_music" IN (0, 1))'),
       defaultValue: const Constant(true));
+  static const VerificationMeta _youtubeClientEngineMeta =
+      const VerificationMeta('youtubeClientEngine');
+  @override
+  late final GeneratedColumnWithTypeConverter<YoutubeClientEngine, String>
+      youtubeClientEngine = GeneratedColumn<String>(
+              'youtube_client_engine', aliasedName, false,
+              type: DriftSqlType.string,
+              requiredDuringInsert: false,
+              defaultValue: Constant(YoutubeClientEngine.youtubeExplode.name))
+          .withConverter<YoutubeClientEngine>(
+              $PreferencesTableTable.$converteryoutubeClientEngine);
   @override
   List<GeneratedColumn> get $columns => [
         id,
@@ -849,7 +860,8 @@ class $PreferencesTableTable extends PreferencesTable
         discordPresence,
         endlessPlayback,
         enableConnect,
-        cacheMusic
+        cacheMusic,
+        youtubeClientEngine
       ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -965,6 +977,8 @@ class $PreferencesTableTable extends PreferencesTable
           cacheMusic.isAcceptableOrUnknown(
               data['cache_music']!, _cacheMusicMeta));
     }
+    context.handle(
+        _youtubeClientEngineMeta, const VerificationResult.success());
     return context;
   }
 
@@ -1040,6 +1054,9 @@ class $PreferencesTableTable extends PreferencesTable
           .read(DriftSqlType.bool, data['${effectivePrefix}enable_connect'])!,
       cacheMusic: attachedDatabase.typeMapping
           .read(DriftSqlType.bool, data['${effectivePrefix}cache_music'])!,
+      youtubeClientEngine: $PreferencesTableTable.$converteryoutubeClientEngine
+          .fromSql(attachedDatabase.typeMapping.read(DriftSqlType.string,
+              data['${effectivePrefix}youtube_client_engine'])!),
     );
   }
 
@@ -1074,6 +1091,9 @@ class $PreferencesTableTable extends PreferencesTable
   static JsonTypeConverter2<SourceCodecs, String, String>
       $converterdownloadMusicCodec =
       const EnumNameConverter<SourceCodecs>(SourceCodecs.values);
+  static JsonTypeConverter2<YoutubeClientEngine, String, String>
+      $converteryoutubeClientEngine =
+      const EnumNameConverter<YoutubeClientEngine>(YoutubeClientEngine.values);
 }
 
 class PreferencesTableData extends DataClass
@@ -1105,6 +1125,7 @@ class PreferencesTableData extends DataClass
   final bool endlessPlayback;
   final bool enableConnect;
   final bool cacheMusic;
+  final YoutubeClientEngine youtubeClientEngine;
   const PreferencesTableData(
       {required this.id,
       required this.audioQuality,
@@ -1132,7 +1153,8 @@ class PreferencesTableData extends DataClass
       required this.discordPresence,
       required this.endlessPlayback,
       required this.enableConnect,
-      required this.cacheMusic});
+      required this.cacheMusic,
+      required this.youtubeClientEngine});
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
@@ -1200,6 +1222,11 @@ class PreferencesTableData extends DataClass
     map['endless_playback'] = Variable<bool>(endlessPlayback);
     map['enable_connect'] = Variable<bool>(enableConnect);
     map['cache_music'] = Variable<bool>(cacheMusic);
+    {
+      map['youtube_client_engine'] = Variable<String>($PreferencesTableTable
+          .$converteryoutubeClientEngine
+          .toSql(youtubeClientEngine));
+    }
     return map;
   }
 
@@ -1232,6 +1259,7 @@ class PreferencesTableData extends DataClass
       endlessPlayback: Value(endlessPlayback),
       enableConnect: Value(enableConnect),
       cacheMusic: Value(cacheMusic),
+      youtubeClientEngine: Value(youtubeClientEngine),
     );
   }
 
@@ -1276,6 +1304,8 @@ class PreferencesTableData extends DataClass
       endlessPlayback: serializer.fromJson<bool>(json['endlessPlayback']),
       enableConnect: serializer.fromJson<bool>(json['enableConnect']),
       cacheMusic: serializer.fromJson<bool>(json['cacheMusic']),
+      youtubeClientEngine: $PreferencesTableTable.$converteryoutubeClientEngine
+          .fromJson(serializer.fromJson<String>(json['youtubeClientEngine'])),
     );
   }
   @override
@@ -1320,6 +1350,9 @@ class PreferencesTableData extends DataClass
       'endlessPlayback': serializer.toJson<bool>(endlessPlayback),
       'enableConnect': serializer.toJson<bool>(enableConnect),
       'cacheMusic': serializer.toJson<bool>(cacheMusic),
+      'youtubeClientEngine': serializer.toJson<String>($PreferencesTableTable
+          .$converteryoutubeClientEngine
+          .toJson(youtubeClientEngine)),
     };
   }
 
@@ -1350,7 +1383,8 @@ class PreferencesTableData extends DataClass
           bool? discordPresence,
           bool? endlessPlayback,
           bool? enableConnect,
-          bool? cacheMusic}) =>
+          bool? cacheMusic,
+          YoutubeClientEngine? youtubeClientEngine}) =>
       PreferencesTableData(
         id: id ?? this.id,
         audioQuality: audioQuality ?? this.audioQuality,
@@ -1379,6 +1413,7 @@ class PreferencesTableData extends DataClass
         endlessPlayback: endlessPlayback ?? this.endlessPlayback,
         enableConnect: enableConnect ?? this.enableConnect,
         cacheMusic: cacheMusic ?? this.cacheMusic,
+        youtubeClientEngine: youtubeClientEngine ?? this.youtubeClientEngine,
       );
   PreferencesTableData copyWithCompanion(PreferencesTableCompanion data) {
     return PreferencesTableData(
@@ -1450,6 +1485,9 @@ class PreferencesTableData extends DataClass
           : this.enableConnect,
       cacheMusic:
           data.cacheMusic.present ? data.cacheMusic.value : this.cacheMusic,
+      youtubeClientEngine: data.youtubeClientEngine.present
+          ? data.youtubeClientEngine.value
+          : this.youtubeClientEngine,
     );
   }
 
@@ -1482,7 +1520,8 @@ class PreferencesTableData extends DataClass
           ..write('discordPresence: $discordPresence, ')
           ..write('endlessPlayback: $endlessPlayback, ')
           ..write('enableConnect: $enableConnect, ')
-          ..write('cacheMusic: $cacheMusic')
+          ..write('cacheMusic: $cacheMusic, ')
+          ..write('youtubeClientEngine: $youtubeClientEngine')
           ..write(')'))
         .toString();
   }
@@ -1515,7 +1554,8 @@ class PreferencesTableData extends DataClass
         discordPresence,
         endlessPlayback,
         enableConnect,
-        cacheMusic
+        cacheMusic,
+        youtubeClientEngine
       ]);
   @override
   bool operator ==(Object other) =>
@@ -1547,7 +1587,8 @@ class PreferencesTableData extends DataClass
           other.discordPresence == this.discordPresence &&
           other.endlessPlayback == this.endlessPlayback &&
           other.enableConnect == this.enableConnect &&
-          other.cacheMusic == this.cacheMusic);
+          other.cacheMusic == this.cacheMusic &&
+          other.youtubeClientEngine == this.youtubeClientEngine);
 }
 
 class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
@@ -1578,6 +1619,7 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
   final Value<bool> endlessPlayback;
   final Value<bool> enableConnect;
   final Value<bool> cacheMusic;
+  final Value<YoutubeClientEngine> youtubeClientEngine;
   const PreferencesTableCompanion({
     this.id = const Value.absent(),
     this.audioQuality = const Value.absent(),
@@ -1606,6 +1648,7 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
     this.endlessPlayback = const Value.absent(),
     this.enableConnect = const Value.absent(),
     this.cacheMusic = const Value.absent(),
+    this.youtubeClientEngine = const Value.absent(),
   });
   PreferencesTableCompanion.insert({
     this.id = const Value.absent(),
@@ -1635,6 +1678,7 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
     this.endlessPlayback = const Value.absent(),
     this.enableConnect = const Value.absent(),
     this.cacheMusic = const Value.absent(),
+    this.youtubeClientEngine = const Value.absent(),
   });
   static Insertable<PreferencesTableData> custom({
     Expression<int>? id,
@@ -1664,6 +1708,7 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
     Expression<bool>? endlessPlayback,
     Expression<bool>? enableConnect,
     Expression<bool>? cacheMusic,
+    Expression<String>? youtubeClientEngine,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -1696,6 +1741,8 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
       if (endlessPlayback != null) 'endless_playback': endlessPlayback,
       if (enableConnect != null) 'enable_connect': enableConnect,
       if (cacheMusic != null) 'cache_music': cacheMusic,
+      if (youtubeClientEngine != null)
+        'youtube_client_engine': youtubeClientEngine,
     });
   }
 
@@ -1726,7 +1773,8 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
       Value<bool>? discordPresence,
       Value<bool>? endlessPlayback,
       Value<bool>? enableConnect,
-      Value<bool>? cacheMusic}) {
+      Value<bool>? cacheMusic,
+      Value<YoutubeClientEngine>? youtubeClientEngine}) {
     return PreferencesTableCompanion(
       id: id ?? this.id,
       audioQuality: audioQuality ?? this.audioQuality,
@@ -1755,6 +1803,7 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
       endlessPlayback: endlessPlayback ?? this.endlessPlayback,
       enableConnect: enableConnect ?? this.enableConnect,
       cacheMusic: cacheMusic ?? this.cacheMusic,
+      youtubeClientEngine: youtubeClientEngine ?? this.youtubeClientEngine,
     );
   }
 
@@ -1860,6 +1909,11 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
     if (cacheMusic.present) {
       map['cache_music'] = Variable<bool>(cacheMusic.value);
     }
+    if (youtubeClientEngine.present) {
+      map['youtube_client_engine'] = Variable<String>($PreferencesTableTable
+          .$converteryoutubeClientEngine
+          .toSql(youtubeClientEngine.value));
+    }
     return map;
   }
 
@@ -1892,7 +1946,8 @@ class PreferencesTableCompanion extends UpdateCompanion<PreferencesTableData> {
           ..write('discordPresence: $discordPresence, ')
           ..write('endlessPlayback: $endlessPlayback, ')
           ..write('enableConnect: $enableConnect, ')
-          ..write('cacheMusic: $cacheMusic')
+          ..write('cacheMusic: $cacheMusic, ')
+          ..write('youtubeClientEngine: $youtubeClientEngine')
           ..write(')'))
         .toString();
   }
@@ -4908,6 +4963,7 @@ typedef $$PreferencesTableTableCreateCompanionBuilder
   Value<bool> endlessPlayback,
   Value<bool> enableConnect,
   Value<bool> cacheMusic,
+  Value<YoutubeClientEngine> youtubeClientEngine,
 });
 typedef $$PreferencesTableTableUpdateCompanionBuilder
     = PreferencesTableCompanion Function({
@@ -4938,6 +4994,7 @@ typedef $$PreferencesTableTableUpdateCompanionBuilder
   Value<bool> endlessPlayback,
   Value<bool> enableConnect,
   Value<bool> cacheMusic,
+  Value<YoutubeClientEngine> youtubeClientEngine,
 });
 
 class $$PreferencesTableTableFilterComposer
@@ -5060,6 +5117,12 @@ class $$PreferencesTableTableFilterComposer
 
   ColumnFilters<bool> get cacheMusic => $composableBuilder(
       column: $table.cacheMusic, builder: (column) => ColumnFilters(column));
+
+  ColumnWithTypeConverterFilters<YoutubeClientEngine, YoutubeClientEngine,
+          String>
+      get youtubeClientEngine => $composableBuilder(
+          column: $table.youtubeClientEngine,
+          builder: (column) => ColumnWithTypeConverterFilters(column));
 }
 
 class $$PreferencesTableTableOrderingComposer
@@ -5169,6 +5232,10 @@ class $$PreferencesTableTableOrderingComposer
 
   ColumnOrderings<bool> get cacheMusic => $composableBuilder(
       column: $table.cacheMusic, builder: (column) => ColumnOrderings(column));
+
+  ColumnOrderings<String> get youtubeClientEngine => $composableBuilder(
+      column: $table.youtubeClientEngine,
+      builder: (column) => ColumnOrderings(column));
 }
 
 class $$PreferencesTableTableAnnotationComposer
@@ -5269,6 +5336,10 @@ class $$PreferencesTableTableAnnotationComposer
 
   GeneratedColumn<bool> get cacheMusic => $composableBuilder(
       column: $table.cacheMusic, builder: (column) => column);
+
+  GeneratedColumnWithTypeConverter<YoutubeClientEngine, String>
+      get youtubeClientEngine => $composableBuilder(
+          column: $table.youtubeClientEngine, builder: (column) => column);
 }
 
 class $$PreferencesTableTableTableManager extends RootTableManager<
@@ -5326,6 +5397,8 @@ class $$PreferencesTableTableTableManager extends RootTableManager<
             Value<bool> endlessPlayback = const Value.absent(),
             Value<bool> enableConnect = const Value.absent(),
             Value<bool> cacheMusic = const Value.absent(),
+            Value<YoutubeClientEngine> youtubeClientEngine =
+                const Value.absent(),
           }) =>
               PreferencesTableCompanion(
             id: id,
@@ -5355,6 +5428,7 @@ class $$PreferencesTableTableTableManager extends RootTableManager<
             endlessPlayback: endlessPlayback,
             enableConnect: enableConnect,
             cacheMusic: cacheMusic,
+            youtubeClientEngine: youtubeClientEngine,
           ),
           createCompanionCallback: ({
             Value<int> id = const Value.absent(),
@@ -5384,6 +5458,8 @@ class $$PreferencesTableTableTableManager extends RootTableManager<
             Value<bool> endlessPlayback = const Value.absent(),
             Value<bool> enableConnect = const Value.absent(),
             Value<bool> cacheMusic = const Value.absent(),
+            Value<YoutubeClientEngine> youtubeClientEngine =
+                const Value.absent(),
           }) =>
               PreferencesTableCompanion.insert(
             id: id,
@@ -5413,6 +5489,7 @@ class $$PreferencesTableTableTableManager extends RootTableManager<
             endlessPlayback: endlessPlayback,
             enableConnect: enableConnect,
             cacheMusic: cacheMusic,
+            youtubeClientEngine: youtubeClientEngine,
           ),
           withReferenceMapper: (p0) => p0
               .map((e) => (e.readTable(table), BaseReferences(db, table, e)))

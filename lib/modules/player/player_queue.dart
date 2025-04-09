@@ -31,6 +31,11 @@ class PlayerQueue extends HookConsumerWidget {
   final Future<void> Function(String trackId) onRemove;
   final Future<void> Function(int oldIndex, int newIndex) onReorder;
   final Future<void> Function() onStop;
+  // 添加这些参数
+  final Function(SourceableTrack track, int index)? onTrackTap;
+  final Function(SourceableTrack track, int index)? onTrackLongPress;
+  final Set<int>? selectedIndices;
+  
   const PlayerQueue({
     this.floating = true,
     required this.playlist,
@@ -38,12 +43,19 @@ class PlayerQueue extends HookConsumerWidget {
     required this.onRemove,
     required this.onReorder,
     required this.onStop,
+    this.onTrackTap,
+    this.onTrackLongPress,
+    this.selectedIndices,
     super.key,
   });
+  
   PlayerQueue.fromAudioPlayerNotifier({
     this.floating = true,
     required this.playlist,
     required AudioPlayerNotifier notifier,
+    this.onTrackTap,
+    this.onTrackLongPress,
+    this.selectedIndices,
     super.key,
   })  : onJump = notifier.jumpToTrack,
         onRemove = notifier.removeTrack,
@@ -262,12 +274,21 @@ class PlayerQueue extends HookConsumerWidget {
                                 playlist: playlist,
                                 index: i,
                                 track: track,
+                                selected: selectedIndices?.contains(i) ?? false,
                                 onTap: () async {
+                                  if (onTrackTap != null) {
+                                    onTrackTap!(track, i);
+                                    return;
+                                  }
+                                  
                                   if (playlist.activeTrack?.id == track.id) {
                                     return;
                                   }
                                   await onJump(track);
                                 },
+                                onLongPress: onTrackLongPress != null 
+                                    ? () => onTrackLongPress!(track, i)
+                                    : null,
                                 leadingActions: [
                                   if (!isSearching.value &&
                                       searchText.value.isEmpty)

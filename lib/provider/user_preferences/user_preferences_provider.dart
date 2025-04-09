@@ -7,7 +7,7 @@ import 'package:path_provider/path_provider.dart' as paths;
 // import 'package:spotify/spotify.dart';
 // 添加新的导入
 import 'package:spotube/utils/constants/app_markets.dart';
-import 'package:spotube/utils/converters/market_converter.dart'; // Add this import
+// Add this import
 
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/modules/settings/color_scheme_picker_dialog.dart';
@@ -246,8 +246,14 @@ class UserPreferencesNotifier extends Notifier<PreferencesTableData> {
   void setCacheMusic(bool cache) {
     setData(PreferencesTableCompanion(cacheMusic: Value(cache)));
   }
+  
+  // Add method to set YouTube client engine
+  void setYoutubeClientEngine(YoutubeClientEngine engine) {
+    setData(PreferencesTableCompanion(youtubeClientEngine: Value(engine)));
+  }
 }
 
+// Keep the provider definition
 final userPreferencesProvider =
     NotifierProvider<UserPreferencesNotifier, PreferencesTableData>(
   () => UserPreferencesNotifier(),

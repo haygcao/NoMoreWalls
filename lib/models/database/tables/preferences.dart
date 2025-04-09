@@ -21,6 +21,26 @@ enum AudioSource {
   String get label => name[0].toUpperCase() + name.substring(1);
 }
 
+// 添加 YoutubeClientEngine 枚举
+enum YoutubeClientEngine {
+  ytDlp("yt-dlp"),
+  youtubeExplode("YouTubeExplode"),
+  newPipe("NewPipe");
+
+  final String label;
+
+  const YoutubeClientEngine(this.label);
+
+  bool isAvailableForPlatform() {
+    return switch (this) {
+      YoutubeClientEngine.youtubeExplode =>
+        YouTubeExplodeEngine.isAvailableForPlatform,
+      YoutubeClientEngine.ytDlp => YtDlpEngine.isAvailableForPlatform,
+      YoutubeClientEngine.newPipe => NewPipeEngine.isAvailableForPlatform,
+    };
+  }
+}
+
 enum MusicCodec {
   m4a._("M4a (Best for downloaded music)"),
   weba._("WebA (Best for streamed music)\nDoesn't support audio metadata");
@@ -97,6 +117,9 @@ class PreferencesTable extends Table {
       boolean().withDefault(const Constant(false))();
   BoolColumn get cacheMusic => boolean().withDefault(const Constant(true))();
 
+  // Add YouTube engine field
+  TextColumn get youtubeClientEngine => textEnum<YoutubeClientEngine>()
+      .withDefault(Constant(YoutubeClientEngine.youtubeExplode.name))();
   // Default values as PreferencesTableData
   static PreferencesTableData defaults() {
     return PreferencesTableData(
@@ -113,20 +136,21 @@ class PreferencesTable extends Table {
       accentColorScheme: SpotubeColor(Colors.blue.value, name: "Blue"),
       layoutMode: LayoutMode.adaptive,
       locale: const Locale("system", "system"),
-      market: "US",  // Keep using US as default market
+      market: "US",
       searchMode: SearchMode.youtube,
       downloadLocation: "",
-      localLibraryLocation: [],
+      localLibraryLocation: const [],
       pipedInstance: "https://pipedapi.kavin.rocks",
       invidiousInstance: "https://inv.nadeko.net",
       themeMode: ThemeMode.system,
       audioSource: AudioSource.youtube,
-      streamMusicCodec: SourceCodecs.m4a,
+      streamMusicCodec: SourceCodecs.weba,
       downloadMusicCodec: SourceCodecs.m4a,
       discordPresence: true,
       endlessPlayback: true,
       enableConnect: false,
       cacheMusic: true,
+      youtubeClientEngine: YoutubeClientEngine.youtubeExplode,
     );
   }
 }

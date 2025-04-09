@@ -33,10 +33,12 @@ import 'package:spotube/utils/service_utils.dart';
 // 删除 sourceInfoToIconMap 定义，改用 SourceManager.sourceIcons
 class SiblingTracksSheet extends HookConsumerWidget {
   final bool floating;
+
   const SiblingTracksSheet({
     super.key,
     this.floating = true,
   });
+
   @override
   Widget build(BuildContext context, ref) {
     final theme = Theme.of(context);

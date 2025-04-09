@@ -51,6 +51,9 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:window_manager/window_manager.dart';
+import 'package:yt_dlp_dart/yt_dlp_dart.dart';
+import 'package:flutter_new_pipe_extractor/flutter_new_pipe_extractor.dart';
+import 'package:spotube/hooks/configurators/use_check_yt_dlp_installed.dart';
 
 Future<void> main(List<String> rawArgs) async {
   if (rawArgs.contains("web_view_title_bar")) {
@@ -78,6 +81,8 @@ Future<void> main(List<String> rawArgs) async {
     // force High Refresh Rate on some Android devices (like One Plus)
     if (kIsAndroid) {
       await FlutterDisplayMode.setHighRefreshRate();
+      // 添加 NewPipe 初始化
+      await NewPipeExtractor.init();
     }
 
     if (kIsDesktop) {
@@ -157,6 +162,8 @@ class Spotube extends HookConsumerWidget {
     useDeepLinking(ref);
     useCloseBehavior(ref);
     useGetStoragePermissions(ref);
+    // 添加检查 YouTube 引擎是否安装的 hook
+    useCheckYtDlpInstalled(ref);
 
     useEffect(() {
       FlutterNativeSplash.remove();
