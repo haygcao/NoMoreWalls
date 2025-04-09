@@ -9,6 +9,7 @@ import 'package:flutter_discord_rpc/flutter_discord_rpc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hive/hive.dart';
+import 'package:home_widget/home_widget.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:local_notifier/local_notifier.dart';
 import 'package:media_kit/media_kit.dart';
@@ -27,6 +28,7 @@ import 'package:spotube/hooks/configurators/use_has_touch.dart';
 import 'package:spotube/models/database/database.dart';
 import 'package:spotube/provider/audio_player/audio_player_streams.dart';
 import 'package:spotube/provider/database/database.dart';
+import 'package:spotube/provider/glance/glance.dart';
 import 'package:spotube/provider/server/bonsoir.dart';
 import 'package:spotube/provider/server/server.dart';
 import 'package:spotube/provider/tray_manager/tray_manager.dart';
@@ -87,6 +89,12 @@ Future<void> main(List<String> rawArgs) async {
 
     if (kIsDesktop) {
       await windowManager.setPreventClose(true);
+      await YtDlp.instance
+          .setBinaryLocation(
+            KVStoreService.getYoutubeEnginePath(YoutubeClientEngine.ytDlp) ??
+                "yt-dlp${kIsWindows ? '.exe' : ''}",
+          )
+          .catchError((e, stack) => null);
     }
 
     await SystemTheme.accentColor.load();
@@ -145,6 +153,32 @@ class Spotube extends HookConsumerWidget {
     final locale = ref.watch(userPreferencesProvider.select((s) => s.locale));
     final router = ref.watch(routerProvider);
     final hasTouchSupport = useHasTouch();
+
+    // 添加必要的监听器和配置
+    ref.listen(audioPlayerStreamListenersProvider, (_, __) {});
+    ref.listen(bonsoirProvider, (_, __) {});
+    ref.listen(serverProvider, (_, __) {});
+    ref.listen(trayManagerProvider, (_, __) {});
+    ref.listen(connectClientsProvider, (_, __) {});
+    ref.listen(paletteProvider, (_, __) {}); // 添加 palette provider 监听
+
+    useFixWindowStretching();
+    useDisableBatteryOptimizations();
+    useDeepLinking(ref);  // 移除 router 参数
+    useCloseBehavior(ref);
+    useGetStoragePermissions(ref);
+    useCheckYtDlpInstalled(ref);
+
+    useEffect(() {
+      FlutterNativeSplash.remove();
+      if (kIsMobile) {
+        HomeWidget.registerInteractivityCallback(glanceBackgroundCallback);
+      }
+      return () {
+        if (!kDebugMode) return;
+        audioPlayer.dispose();
+      };
+    }, []);
 
     // 删除 paletteColor 相关代码
     // 删除 lightTheme 和 darkTheme 的 useMemoized
