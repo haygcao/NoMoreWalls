@@ -5,6 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   app_links
   bonsoir_windows
+  connectivity_plus
   desktop_webview_window
   file_selector_windows
   flutter_inappwebview_windows
@@ -18,11 +19,11 @@ list(APPEND FLUTTER_PLUGIN_LIST
   tray_manager
   url_launcher_windows
   window_manager
-  windows_taskbar
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
   flutter_discord_rpc
+  media_kit_native_event_loop
   metadata_god
   smtc_windows
 )
