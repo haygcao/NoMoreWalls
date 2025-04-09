@@ -8,7 +8,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:spotube/collections/spotube_icons.dart';
 import 'package:spotube/components/titlebar/titlebar.dart';
 import 'package:spotube/components/image/universal_image.dart';
-import 'package:spotube/components/themed_button_tab_bar.dart';
+
 import 'package:spotube/extensions/constrains.dart';
 import 'package:spotube/extensions/context.dart';
 
@@ -52,11 +52,15 @@ class LyricsPage extends HookConsumerWidget {
       noSetBGColor: true,
     );
 
-    PreferredSizeWidget tabbar = ThemedButtonsTabBar(
+    PreferredSizeWidget tabbar = TabBar(
       tabs: [
         Tab(text: "  ${context.l10n.synced}  "),
         Tab(text: "  ${context.l10n.plain}  "),
       ],
+      // 添加一些样式使其更美观
+      labelStyle: const TextStyle(fontWeight: FontWeight.bold),
+      indicatorSize: TabBarIndicatorSize.label,
+      dividerColor: Colors.transparent,
     );
 
     tabbar = PreferredSize(
@@ -115,12 +119,11 @@ class LyricsPage extends HookConsumerWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                     ),
-                    AppBar(
-                      leadingWidth: double.infinity,
-                      leading: tabbar,
+                    TitleBar(
+                      leading: const [BackButton()],
                       backgroundColor: Colors.transparent,
                       automaticallyImplyLeading: false,
-                      actions: [
+                      trailing: [
                         IconButton(
                           icon: const Icon(SpotubeIcons.minimize),
                           onPressed: () => Navigator.of(context).pop(),
@@ -151,7 +154,7 @@ class LyricsPage extends HookConsumerWidget {
         child: Scaffold(
           extendBodyBehindAppBar: true,
           appBar: !kIsMacOS
-              ? PageWindowTitleBar(
+              ? TitleBar(
                   backgroundColor: Colors.transparent,
                   title: tabbar,
                 )

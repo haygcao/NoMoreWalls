@@ -29,10 +29,10 @@ class SettingsPage extends HookConsumerWidget {
     return SafeArea(
       bottom: false,
       child: Scaffold(
-        appBar: PageWindowTitleBar(
+        appBar: TitleBar(
           title: Text(context.l10n.settings),
-          centerTitle: true,
-          automaticallyImplyLeading: true,
+ 
+          leading: const [BackButton()],
         ),
         body: Scrollbar(
           controller: controller,

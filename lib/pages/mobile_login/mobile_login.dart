@@ -14,8 +14,8 @@ class WebViewLogin extends HookConsumerWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        appBar: PageWindowTitleBar(
-          leading: const BackButton(color: Colors.white),
+        appBar: TitleBar(
+          leading: const [BackButton(color: Colors.white)],
           backgroundColor: Colors.transparent,
           title: TabBar(
             tabs: [

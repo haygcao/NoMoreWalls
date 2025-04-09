@@ -94,9 +94,9 @@ class LocalLibraryPage extends HookConsumerWidget {
     return SafeArea(
       bottom: false,
       child: Scaffold(
-          appBar: PageWindowTitleBar(
-            leading: const BackButton(),
-            centerTitle: true,
+          appBar: TitleBar(
+            leading: const [BackButton()],
+            backgroundColor: Colors.transparent,
             title: Column(
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -120,8 +120,7 @@ class LocalLibraryPage extends HookConsumerWidget {
                 )
               ],
             ),
-            backgroundColor: Colors.transparent,
-            actions: [
+            trailing: [
               if (isCache) ...[
                 IconButton(
                   iconSize: 16,
@@ -206,7 +205,7 @@ class LocalLibraryPage extends HookConsumerWidget {
                     );
                   },
                 ),
-              ]
+              ],
             ],
           ),
           body: Column(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:spotube/components/themed_button_tab_bar.dart';
+
 import 'package:spotube/modules/stats/top/albums.dart';
 import 'package:spotube/modules/stats/top/artists.dart';
 import 'package:spotube/modules/stats/top/tracks.dart';
@@ -23,7 +23,7 @@ class StatsPageTopSection extends HookConsumerWidget {
       slivers: [
         SliverAppBar(
           floating: true,
-          flexibleSpace: ThemedButtonsTabBar(
+          flexibleSpace: TabBar(
             controller: tabController,
             tabs: [
               Tab(
@@ -45,6 +45,10 @@ class StatsPageTopSection extends HookConsumerWidget {
                 ),
               ),
             ],
+            // 添加一些基本样式
+            labelStyle: const TextStyle(fontWeight: FontWeight.bold),
+            indicatorSize: TabBarIndicatorSize.label,
+            dividerColor: Colors.transparent,
           ),
         ),
         SliverToBoxAdapter(

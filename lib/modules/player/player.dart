@@ -154,15 +154,16 @@ class PlayerView extends HookConsumerWidget {
               child: ForceDraggableWidget(
                 child: Padding(
                   padding: EdgeInsets.only(top: topPadding),
-                  child: PageWindowTitleBar(
+                  child: TitleBar(
                     backgroundColor: Colors.transparent,
                     foregroundColor: titleTextColor,
-                    toolbarOpacity: 1,
-                    leading: IconButton(
-                      icon: const Icon(SpotubeIcons.angleDown, size: 18),
-                      onPressed: panelController.close,
-                    ),
-                    actions: [
+                    leading: [
+                      IconButton(
+                        icon: const Icon(SpotubeIcons.angleDown, size: 18),
+                        onPressed: panelController.close,
+                      ),
+                    ],
+                    trailing: [
                       if (currentTrack is YoutubeSourcedTrack)
                         TextButton.icon(
                           icon: Assets.logos.songlinkTransparent.image(
@@ -176,9 +177,7 @@ class PlayerView extends HookConsumerWidget {
                             padding: const EdgeInsets.symmetric(horizontal: 10),
                           ),
                           onPressed: () {
-                            final url =
-                                "https://song.link/s/${currentTrack.id}";
-
+                            final url = "https://song.link/s/${currentTrack.id}";
                             launchUrlString(url);
                           },
                         ),
@@ -192,14 +191,15 @@ class PlayerView extends HookConsumerWidget {
                             ? null
                             : () {
                                 showDialog(
-                                    context: context,
-                                    builder: (context) {
-                                      return TrackDetailsDialog(
-                                        track: currentTrack,
-                                      );
-                                    });
+                                  context: context,
+                                  builder: (context) {
+                                    return TrackDetailsDialog(
+                                      track: currentTrack,
+                                    );
+                                  },
+                                );
                               },
-                      )
+                      ),
                     ],
                   ),
                 ),

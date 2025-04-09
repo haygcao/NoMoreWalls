@@ -280,11 +280,11 @@ class PlaylistGeneratorPage extends HookConsumerWidget {
 
 
     return Scaffold(
-      appBar: PageWindowTitleBar(
-        leading: const BackButton(),
-        title: Text(context.l10n.generate_playlist),
-        centerTitle: true,
-      ),
+      appBar: TitleBar(
+            leading: const [BackButton()],
+            title: Text(context.l10n.generate_playlist),
+           
+          ),
       body: Scrollbar(
         controller: controller,
         child: Center(

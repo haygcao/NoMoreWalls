@@ -28,11 +28,12 @@ class StatsMinutesPage extends HookConsumerWidget {
     final tracksData = topTracks.asData?.value.items ?? [];
 
     return Scaffold(
-      appBar: PageWindowTitleBar(
+      appBar: TitleBar(
         title: Text(context.l10n.minutes_listened),
-        centerTitle: false,
-        automaticallyImplyLeading: true,
+
+        leading: const [BackButton()],
       ),
+ 
       body: Skeletonizer(
         enabled: topTracks.isLoading && !topTracks.isLoadingNextPage,
         child: InfiniteList(

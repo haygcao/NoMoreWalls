@@ -42,9 +42,9 @@ class StatsStreamFeesPage extends HookConsumerWidget {
     );
 
     return Scaffold(
-      appBar: PageWindowTitleBar(
-        automaticallyImplyLeading: true,
-        centerTitle: false,
+      appBar: TitleBar(
+        leading: const [BackButton()],
+    
         title: Text(context.l10n.streaming_fees_hypothetical),
       ),
       body: CustomScrollView(

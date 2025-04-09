@@ -97,9 +97,8 @@ class SearchPage extends HookConsumerWidget {
       bottom: false,
       child: Scaffold(
         appBar: kIsDesktop && !kIsMacOS
-            ? const PageWindowTitleBar(automaticallyImplyLeading: true)
+            ? const TitleBar(automaticallyImplyLeading: true)
             : null,
-        // 修复 auth 的检查方式
         body: auth.isEmpty
             ? const AnonymousFallback()
             : Column(

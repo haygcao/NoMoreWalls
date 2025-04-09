@@ -25,7 +25,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "bn": [
@@ -54,7 +55,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ca": [
@@ -83,7 +85,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "cs": [
@@ -112,7 +115,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "de": [
@@ -141,7 +145,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "es": [
@@ -170,7 +175,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "eu": [
@@ -199,7 +205,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "fa": [
@@ -228,7 +235,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "fi": [
@@ -257,7 +265,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "fr": [
@@ -286,7 +295,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "hi": [
@@ -315,7 +325,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "id": [
@@ -344,7 +355,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "it": [
@@ -373,7 +385,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ja": [
@@ -402,7 +415,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ka": [
@@ -431,7 +445,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ko": [
@@ -460,7 +475,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ne": [
@@ -489,7 +505,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "nl": [
@@ -518,7 +535,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "pl": [
@@ -547,7 +565,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "pt": [
@@ -576,7 +595,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "ru": [
@@ -605,7 +625,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "th": [
@@ -634,7 +655,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "tr": [
@@ -663,7 +685,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "uk": [
@@ -692,7 +715,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "vi": [
@@ -721,7 +745,8 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ],
 
   "zh": [
@@ -750,6 +775,7 @@
     "custom",
     "add_custom_url",
     "remove",
-    "clear_queue"
+    "clear_queue",
+    "generate"
   ]
 }

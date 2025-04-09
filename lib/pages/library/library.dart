@@ -7,7 +7,6 @@ import 'package:spotube/modules/library/user_albums.dart';
 import 'package:spotube/modules/library/user_artists.dart';
 import 'package:spotube/modules/library/user_downloads.dart';
 import 'package:spotube/modules/library/user_playlists.dart';
-import 'package:spotube/components/themed_button_tab_bar.dart';
 import 'package:spotube/extensions/context.dart';
 import 'package:spotube/provider/download_manager_provider.dart';
 
@@ -24,9 +23,9 @@ class LibraryPage extends HookConsumerWidget {
       child: SafeArea(
         bottom: false,
         child: Scaffold(
-          appBar: PageWindowTitleBar(
-            centerTitle: true,
-            leading: ThemedButtonsTabBar(
+          appBar: TitleBar(
+            title: TabBar(
+              isScrollable: true,
               tabs: [
                 Tab(text: "  ${context.l10n.playlists}  "),
                 Tab(text: "  ${context.l10n.local_tab}  "),
@@ -41,7 +40,6 @@ class LibraryPage extends HookConsumerWidget {
                 Tab(text: "  ${context.l10n.albums}  "),
               ],
             ),
-            leadingWidth: double.infinity,
           ),
           body: const TabBarView(
             children: [

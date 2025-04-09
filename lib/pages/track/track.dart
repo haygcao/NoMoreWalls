@@ -68,8 +68,8 @@ class TrackPage extends HookConsumerWidget {
     }
 
     return Scaffold(
-      appBar: const PageWindowTitleBar(
-        automaticallyImplyLeading: true,
+      appBar: const TitleBar(
+        leading: [BackButton()],
         backgroundColor: Colors.transparent,
       ),
       extendBodyBehindAppBar: true,

@@ -92,261 +92,512 @@ class ConnectControlPage extends HookConsumerWidget {
 
     return SafeArea(
       child: Scaffold(
-        appBar: PageWindowTitleBar(
+        appBar: TitleBar(
           title: Text(resolvedService!.name),
-          automaticallyImplyLeading: true,
+          leading: const [BackButton()],
+          backgroundColor: Colors.transparent,
         ),
-        body: LayoutBuilder(builder: (context, constrains) {
-          return Row(
-            children: [
-              Expanded(
-                child: CustomScrollView(
-                  slivers: [
-                    SliverToBoxAdapter(
-                      child: Container(
-                        alignment: Alignment.center,
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 20,
-                          vertical: 10,
-                        ).copyWith(top: 0),
-                        constraints:
-                            const BoxConstraints(maxHeight: 400, maxWidth: 400),
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(20),
-                          child: UniversalImage(
-                            // Use thumbnailUrl directly from SourceableTrack
-                            path: playlist.activeTrack?.thumbnailUrl != null
-                                ? playlist.activeTrack!.thumbnailUrl.toString()
-                                : MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
-                            fit: BoxFit.cover,
+        body: LayoutBuilder(
+          builder: (context, constrains) {
+            return Row(
+              children: [
+                Expanded(
+                  child: CustomScrollView(
+                    slivers: [
+                      SliverToBoxAdapter(
+                        child: Container(
+                          alignment: Alignment.center,
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 10,
+                          ).copyWith(top: 0),
+                          constraints:
+                              const BoxConstraints(maxHeight: 400, maxWidth: 400),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(20),
+                            child: UniversalImage(
+                              // Use thumbnailUrl directly from SourceableTrack
+                              path: playlist.activeTrack?.thumbnailUrl != null
+                                  ? playlist.activeTrack!.thumbnailUrl.toString()
+                                  : MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
+                              fit: BoxFit.cover,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    SliverPadding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      sliver: SliverMainAxisGroup(
-                        slivers: [
-                          SliverToBoxAdapter(
-                            child: AnchorButton(
-                              // Use title instead of name
-                              playlist.activeTrack?.title ?? "",
-                              style: textTheme.titleLarge!,
-                              onTap: () {
-                                if (playlist.activeTrack == null) return;
-                                ServiceUtils.pushNamed(
+                      SliverPadding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        sliver: SliverMainAxisGroup(
+                          slivers: [
+                            SliverToBoxAdapter(
+                              child: AnchorButton(
+                                // Use title instead of name
+                                playlist.activeTrack?.title ?? "",
+                                style: textTheme.titleLarge!,
+                                onTap: () {
+                                  if (playlist.activeTrack == null) return;
+                                  ServiceUtils.pushNamed(
+                                    context,
+                                    TrackPage.name,
+                                    pathParameters: {
+                                      "id": playlist.activeTrack!.id!,
+                                    },
+                                  );
+                                },
+                              ),
+                            ),
+                            SliverToBoxAdapter(
+                              child: ArtistLink(
+                                // Create Artist object using artistName and artistId from SourceableTrack
+                                artists: playlist.activeTrack != null
+                                    ? [
+                                        Artist(
+                                          id: playlist.activeTrack!.artistId ?? '',
+                                          name: playlist.activeTrack!.artistName,
+                                          uri: 'artist:${playlist.activeTrack!.artistId}',
+                                          imageUrl: null,
+                                        )
+                                      ]
+                                    : [],
+                                textStyle: textTheme.bodyMedium!,
+                                mainAxisAlignment: WrapAlignment.start,
+                                onOverflowArtistClick: () =>
+                                    ServiceUtils.pushNamed(
                                   context,
                                   TrackPage.name,
                                   pathParameters: {
                                     "id": playlist.activeTrack!.id!,
                                   },
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SliverGap(30),
+                      SliverToBoxAdapter(
+                        child: Consumer(
+                          builder: (context, ref, _) {
+                            final position = ref.watch(positionProvider);
+                            final duration = ref.watch(durationProvider);
+
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 12),
+                              child: Column(
+                                children: [
+                                  Slider(
+                                    value: position > duration
+                                        ? 0
+                                        : position.inSeconds.toDouble(),
+                                    min: 0,
+                                    max: duration.inSeconds.toDouble(),
+                                    onChanged: (value) {
+                                      connectNotifier
+                                          .seek(Duration(seconds: value.toInt()));
+                                    },
+                                  ),
+                                  Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(position.toHumanReadableString()),
+                                      Text(duration.toHumanReadableString()),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                      SliverToBoxAdapter(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            IconButton(
+                              tooltip: shuffled
+                                  ? context.l10n.unshuffle_playlist
+                                  : context.l10n.shuffle_playlist,
+                              icon: const Icon(SpotubeIcons.shuffle),
+                              style: shuffled ? activeButtonStyle : buttonStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () {
+                                      connectNotifier.setShuffle(!shuffled);
+                                    },
+                            ),
+                            IconButton(
+                              tooltip: context.l10n.previous_track,
+                              icon: const Icon(SpotubeIcons.skipBack),
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : connectNotifier.previous,
+                            ),
+                            IconButton(
+                              tooltip: playing
+                                  ? context.l10n.pause_playback
+                                  : context.l10n.resume_playback,
+                              icon: playlist.activeTrack == null
+                                  ? SizedBox(
+                                      height: 20,
+                                      width: 20,
+                                      child: CircularProgressIndicator(
+                                        color: colorScheme.onPrimary,
+                                      ),
+                                    )
+                                  : Icon(
+                                      playing
+                                          ? SpotubeIcons.pause
+                                          : SpotubeIcons.play,
+                                    ),
+                              style: resumePauseStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () {
+                                      if (playing) {
+                                        connectNotifier.pause();
+                                      } else {
+                                        connectNotifier.resume();
+                                      }
+                                    },
+                            ),
+                            IconButton(
+                              tooltip: context.l10n.next_track,
+                              icon: const Icon(SpotubeIcons.skipForward),
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : connectNotifier.next,
+                            ),
+                            IconButton(
+                              tooltip: loopMode == PlaylistMode.single
+                                  ? context.l10n.loop_track
+                                  : loopMode == PlaylistMode.loop
+                                      ? context.l10n.repeat_playlist
+                                      : null,
+                              icon: Icon(
+                                loopMode == PlaylistMode.single
+                                    ? SpotubeIcons.repeatOne
+                                    : SpotubeIcons.repeat,
+                              ),
+                              style: loopMode == PlaylistMode.single ||
+                                      loopMode == PlaylistMode.loop
+                                  ? activeButtonStyle
+                                  : buttonStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () async {
+                                      connectNotifier.setLoopMode(
+                                        switch (loopMode) {
+                                          PlaylistMode.loop =>
+                                            PlaylistMode.single,
+                                          PlaylistMode.single =>
+                                            PlaylistMode.none,
+                                          PlaylistMode.none => PlaylistMode.loop,
+                                        },
+                                      );
+                                    },
+                            )
+                          ],
+                        ),
+                      ),
+                      const SliverGap(30),
+                      SliverPadding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        sliver: SliverToBoxAdapter(
+                          child: Consumer(builder: (context, ref, _) {
+                            final volume = ref.watch(volumeProvider);
+                            return VolumeSlider(
+                              fullWidth: true,
+                              value: volume,
+                              onChanged: (value) {
+                                ref.read(volumeProvider.notifier).state = value;
+                                connectNotifier.setVolume(value);
+                              },
+                            );
+                          }),
+                        ),
+                      ),
+                      const SliverGap(30),
+                      if (constrains.mdAndDown)
+                        SliverPadding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          sliver: SliverToBoxAdapter(
+                            child: OutlinedButton.icon(
+                              icon: const Icon(SpotubeIcons.queue),
+                              label: Text(context.l10n.queue),
+                              onPressed: () {
+                                showModalBottomSheet(
+                                  context: context,
+                                  builder: (context) {
+                                    return const RemotePlayerQueue();
+                                  },
                                 );
                               },
                             ),
                           ),
-                          SliverToBoxAdapter(
-                            child: ArtistLink(
-                              // Create Artist object using artistName and artistId from SourceableTrack
-                              artists: playlist.activeTrack != null
-                                  ? [
-                                      Artist(
-                                        id: playlist.activeTrack!.artistId ?? '',
-                                        name: playlist.activeTrack!.artistName,
-                                        uri: 'artist:${playlist.activeTrack!.artistId}',
-                                        imageUrl: null,
-                                      )
-                                    ]
-                                  : [],
-                              textStyle: textTheme.bodyMedium!,
-                              mainAxisAlignment: WrapAlignment.start,
-                              onOverflowArtistClick: () =>
+                        ),
+                      ],
+                    ),
+                  ),
+           
+
+                
+            
+                Expanded(
+                  child: CustomScrollView(
+                    slivers: [
+                      SliverToBoxAdapter(
+                        child: Container(
+                          alignment: Alignment.center,
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 10,
+                          ).copyWith(top: 0),
+                          constraints:
+                              const BoxConstraints(maxHeight: 400, maxWidth: 400),
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(20),
+                            child: UniversalImage(
+                              // Use thumbnailUrl directly from SourceableTrack
+                              path: playlist.activeTrack?.thumbnailUrl != null
+                                  ? playlist.activeTrack!.thumbnailUrl.toString()
+                                  : MediaImageUtils.getPlaceholderUrl(ImagePlaceholder.albumArt),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                      ),
+                      SliverPadding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        sliver: SliverMainAxisGroup(
+                          slivers: [
+                            SliverToBoxAdapter(
+                              child: AnchorButton(
+                                // Use title instead of name
+                                playlist.activeTrack?.title ?? "",
+                                style: textTheme.titleLarge!,
+                                onTap: () {
+                                  if (playlist.activeTrack == null) return;
                                   ServiceUtils.pushNamed(
-                                context,
-                                TrackPage.name,
-                                pathParameters: {
-                                  "id": playlist.activeTrack!.id!,
+                                    context,
+                                    TrackPage.name,
+                                    pathParameters: {
+                                      "id": playlist.activeTrack!.id!,
+                                    },
+                                  );
                                 },
                               ),
                             ),
-                          ),
-                        ],
+                            SliverToBoxAdapter(
+                              child: ArtistLink(
+                                // Create Artist object using artistName and artistId from SourceableTrack
+                                artists: playlist.activeTrack != null
+                                    ? [
+                                        Artist(
+                                          id: playlist.activeTrack!.artistId ?? '',
+                                          name: playlist.activeTrack!.artistName,
+                                          uri: 'artist:${playlist.activeTrack!.artistId}',
+                                          imageUrl: null,
+                                        )
+                                      ]
+                                    : [],
+                                textStyle: textTheme.bodyMedium!,
+                                mainAxisAlignment: WrapAlignment.start,
+                                onOverflowArtistClick: () =>
+                                    ServiceUtils.pushNamed(
+                                  context,
+                                  TrackPage.name,
+                                  pathParameters: {
+                                    "id": playlist.activeTrack!.id!,
+                                  },
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    const SliverGap(30),
-                    SliverToBoxAdapter(
-                      child: Consumer(
-                        builder: (context, ref, _) {
-                          final position = ref.watch(positionProvider);
-                          final duration = ref.watch(durationProvider);
+                      const SliverGap(30),
+                      SliverToBoxAdapter(
+                        child: Consumer(
+                          builder: (context, ref, _) {
+                            final position = ref.watch(positionProvider);
+                            final duration = ref.watch(durationProvider);
 
-                          return Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 12),
-                            child: Column(
-                              children: [
-                                Slider(
-                                  value: position > duration
-                                      ? 0
-                                      : position.inSeconds.toDouble(),
-                                  min: 0,
-                                  max: duration.inSeconds.toDouble(),
-                                  onChanged: (value) {
-                                    connectNotifier
-                                        .seek(Duration(seconds: value.toInt()));
-                                  },
-                                ),
-                                Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Text(position.toHumanReadableString()),
-                                    Text(duration.toHumanReadableString()),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                    SliverToBoxAdapter(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          IconButton(
-                            tooltip: shuffled
-                                ? context.l10n.unshuffle_playlist
-                                : context.l10n.shuffle_playlist,
-                            icon: const Icon(SpotubeIcons.shuffle),
-                            style: shuffled ? activeButtonStyle : buttonStyle,
-                            onPressed: playlist.activeTrack == null
-                                ? null
-                                : () {
-                                    connectNotifier.setShuffle(!shuffled);
-                                  },
-                          ),
-                          IconButton(
-                            tooltip: context.l10n.previous_track,
-                            icon: const Icon(SpotubeIcons.skipBack),
-                            onPressed: playlist.activeTrack == null
-                                ? null
-                                : connectNotifier.previous,
-                          ),
-                          IconButton(
-                            tooltip: playing
-                                ? context.l10n.pause_playback
-                                : context.l10n.resume_playback,
-                            icon: playlist.activeTrack == null
-                                ? SizedBox(
-                                    height: 20,
-                                    width: 20,
-                                    child: CircularProgressIndicator(
-                                      color: colorScheme.onPrimary,
-                                    ),
-                                  )
-                                : Icon(
-                                    playing
-                                        ? SpotubeIcons.pause
-                                        : SpotubeIcons.play,
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 12),
+                              child: Column(
+                                children: [
+                                  Slider(
+                                    value: position > duration
+                                        ? 0
+                                        : position.inSeconds.toDouble(),
+                                    min: 0,
+                                    max: duration.inSeconds.toDouble(),
+                                    onChanged: (value) {
+                                      connectNotifier
+                                          .seek(Duration(seconds: value.toInt()));
+                                    },
                                   ),
-                            style: resumePauseStyle,
-                            onPressed: playlist.activeTrack == null
-                                ? null
-                                : () {
-                                    if (playing) {
-                                      connectNotifier.pause();
-                                    } else {
-                                      connectNotifier.resume();
-                                    }
-                                  },
-                          ),
-                          IconButton(
-                            tooltip: context.l10n.next_track,
-                            icon: const Icon(SpotubeIcons.skipForward),
-                            onPressed: playlist.activeTrack == null
-                                ? null
-                                : connectNotifier.next,
-                          ),
-                          IconButton(
-                            tooltip: loopMode == PlaylistMode.single
-                                ? context.l10n.loop_track
-                                : loopMode == PlaylistMode.loop
-                                    ? context.l10n.repeat_playlist
-                                    : null,
-                            icon: Icon(
-                              loopMode == PlaylistMode.single
-                                  ? SpotubeIcons.repeatOne
-                                  : SpotubeIcons.repeat,
+                                  Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(position.toHumanReadableString()),
+                                      Text(duration.toHumanReadableString()),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                      SliverToBoxAdapter(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            IconButton(
+                              tooltip: shuffled
+                                  ? context.l10n.unshuffle_playlist
+                                  : context.l10n.shuffle_playlist,
+                              icon: const Icon(SpotubeIcons.shuffle),
+                              style: shuffled ? activeButtonStyle : buttonStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () {
+                                      connectNotifier.setShuffle(!shuffled);
+                                    },
                             ),
-                            style: loopMode == PlaylistMode.single ||
-                                    loopMode == PlaylistMode.loop
-                                ? activeButtonStyle
-                                : buttonStyle,
-                            onPressed: playlist.activeTrack == null
-                                ? null
-                                : () async {
-                                    connectNotifier.setLoopMode(
-                                      switch (loopMode) {
-                                        PlaylistMode.loop =>
-                                          PlaylistMode.single,
-                                        PlaylistMode.single =>
-                                          PlaylistMode.none,
-                                        PlaylistMode.none => PlaylistMode.loop,
-                                      },
-                                    );
-                                  },
-                          )
-                        ],
+                            IconButton(
+                              tooltip: context.l10n.previous_track,
+                              icon: const Icon(SpotubeIcons.skipBack),
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : connectNotifier.previous,
+                            ),
+                            IconButton(
+                              tooltip: playing
+                                  ? context.l10n.pause_playback
+                                  : context.l10n.resume_playback,
+                              icon: playlist.activeTrack == null
+                                  ? SizedBox(
+                                      height: 20,
+                                      width: 20,
+                                      child: CircularProgressIndicator(
+                                        color: colorScheme.onPrimary,
+                                      ),
+                                    )
+                                  : Icon(
+                                      playing
+                                          ? SpotubeIcons.pause
+                                          : SpotubeIcons.play,
+                                    ),
+                              style: resumePauseStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () {
+                                      if (playing) {
+                                        connectNotifier.pause();
+                                      } else {
+                                        connectNotifier.resume();
+                                      }
+                                    },
+                            ),
+                            IconButton(
+                              tooltip: context.l10n.next_track,
+                              icon: const Icon(SpotubeIcons.skipForward),
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : connectNotifier.next,
+                            ),
+                            IconButton(
+                              tooltip: loopMode == PlaylistMode.single
+                                  ? context.l10n.loop_track
+                                  : loopMode == PlaylistMode.loop
+                                      ? context.l10n.repeat_playlist
+                                      : null,
+                              icon: Icon(
+                                loopMode == PlaylistMode.single
+                                    ? SpotubeIcons.repeatOne
+                                    : SpotubeIcons.repeat,
+                              ),
+                              style: loopMode == PlaylistMode.single ||
+                                      loopMode == PlaylistMode.loop
+                                  ? activeButtonStyle
+                                  : buttonStyle,
+                              onPressed: playlist.activeTrack == null
+                                  ? null
+                                  : () async {
+                                      connectNotifier.setLoopMode(
+                                        switch (loopMode) {
+                                          PlaylistMode.loop =>
+                                            PlaylistMode.single,
+                                          PlaylistMode.single =>
+                                            PlaylistMode.none,
+                                          PlaylistMode.none => PlaylistMode.loop,
+                                        },
+                                      );
+                                    },
+                            )
+                          ],
+                        ),
                       ),
-                    ),
-                    const SliverGap(30),
-                    SliverPadding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      sliver: SliverToBoxAdapter(
-                        child: Consumer(builder: (context, ref, _) {
-                          final volume = ref.watch(volumeProvider);
-                          return VolumeSlider(
-                            fullWidth: true,
-                            value: volume,
-                            onChanged: (value) {
-                              ref.read(volumeProvider.notifier).state = value;
-                              connectNotifier.setVolume(value);
-                            },
-                          );
-                        }),
-                      ),
-                    ),
-                    const SliverGap(30),
-                    if (constrains.mdAndDown)
+                      const SliverGap(30),
                       SliverPadding(
                         padding: const EdgeInsets.symmetric(horizontal: 20),
                         sliver: SliverToBoxAdapter(
-                          child: OutlinedButton.icon(
-                            icon: const Icon(SpotubeIcons.queue),
-                            label: Text(context.l10n.queue),
-                            onPressed: () {
-                              showModalBottomSheet(
-                                context: context,
-                                builder: (context) {
-                                  return const RemotePlayerQueue();
-                                },
-                              );
-                            },
+                          child: Consumer(builder: (context, ref, _) {
+                            final volume = ref.watch(volumeProvider);
+                            return VolumeSlider(
+                              fullWidth: true,
+                              value: volume,
+                              onChanged: (value) {
+                                ref.read(volumeProvider.notifier).state = value;
+                                connectNotifier.setVolume(value);
+                              },
+                            );
+                          }),
+                        ),
+                      ),
+                      const SliverGap(30),
+                      if (constrains.mdAndDown)
+                        SliverPadding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          sliver: SliverToBoxAdapter(
+                            child: OutlinedButton.icon(
+                              icon: const Icon(SpotubeIcons.queue),
+                              label: Text(context.l10n.queue),
+                              onPressed: () {
+                                showModalBottomSheet(
+                                  context: context,
+                                  builder: (context) {
+                                    return const RemotePlayerQueue();
+                                  },
+                                );
+                              },
+                            ),
                           ),
                         ),
-                      )
-                  ],
-                ),
-              ),
-              if (constrains.lgAndUp) ...[
-                const VerticalDivider(thickness: 1),
-                const Expanded(
-                  child: RemotePlayerQueue(),
-                ),
-              ]
-            ],
-          );
-        }),
-      ),
-    );
-  }
-}
+                      ],
+                    ),
+                  ),
+              
+
+                
+            
+                if (constrains.lgAndUp) ...[
+                  const VerticalDivider(thickness: 1),
+                  const Expanded(
+                    child: RemotePlayerQueue(),
+                  ),
+                ],  // Row children 结束
+              ], 
+               ); // Row 结束
+            },    // LayoutBuilder builder 结束
+          ),     // LayoutBuilder 结束
+        ),      // Scaffold body 结束
+      );       // Scaffold 结束
+    }        // build 方法结束
+  }         // 类结束
+
+

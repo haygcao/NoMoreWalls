@@ -28,11 +28,12 @@ class StatsStreamsPage extends HookConsumerWidget {
     final tracksData = topTracks.asData?.value.items ?? [];
 
     return Scaffold(
-      appBar: PageWindowTitleBar(
+      appBar: TitleBar(
         title: Text(context.l10n.streamed_songs),
-        centerTitle: false,
-        automaticallyImplyLeading: true,
+   
+        leading: const [BackButton()],
       ),
+
       body: Skeletonizer(
         enabled: topTracks.isLoading && !topTracks.isRefreshing,
         child: InfiniteList(

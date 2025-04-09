@@ -427,5 +427,6 @@
 	"custom": "Custom",
 	"add_custom_url": "Add custom URL",
   "remove": "Remove",
-  "clear_queue": "Clear Queue"
+  "clear_queue": "Clear Queue",
+  "generate": "Generate"
 }

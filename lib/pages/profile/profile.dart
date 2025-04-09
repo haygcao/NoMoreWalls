@@ -43,11 +43,11 @@ class ProfilePage extends HookConsumerWidget {
 
     return SafeArea(
       child: Scaffold(
-        appBar: PageWindowTitleBar(
+        appBar: TitleBar(
           title: Text(context.l10n.profile),
-          titleSpacing: 0,
-          automaticallyImplyLeading: true,
-          centerTitle: false,
+  
+          leading: const [BackButton()],
+
         ),
         body: Skeletonizer(
           enabled: me.isLoading,

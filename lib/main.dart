@@ -40,7 +40,7 @@ import 'package:spotube/services/kv_store/encrypted_kv_store.dart';
 import 'package:spotube/services/kv_store/kv_store.dart';
 import 'package:spotube/services/logger/logger.dart';
 import 'package:spotube/services/wm_tools/wm_tools.dart';
-import 'package:spotube/themes/theme.dart';
+
 import 'package:spotube/utils/migrations/hive.dart';
 import 'package:spotube/utils/migrations/sandbox.dart';
 import 'package:spotube/utils/platform.dart';
@@ -139,54 +139,15 @@ class Spotube extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final themeMode =
-        ref.watch(userPreferencesProvider.select((s) => s.themeMode));
-    final accentMaterialColor =
-        ref.watch(userPreferencesProvider.select((s) => s.accentColorScheme));
-    final isAmoledTheme =
-        ref.watch(userPreferencesProvider.select((s) => s.amoledDarkTheme));
+    final themeMode = ref.watch(userPreferencesProvider.select((s) => s.themeMode));
+    final accentMaterialColor = ref.watch(userPreferencesProvider.select((s) => s.accentColorScheme));
+    final isAmoledTheme = ref.watch(userPreferencesProvider.select((s) => s.amoledDarkTheme));
     final locale = ref.watch(userPreferencesProvider.select((s) => s.locale));
-    final paletteColor =
-        ref.watch(paletteProvider.select((s) => s?.dominantColor?.color));
     final router = ref.watch(routerProvider);
     final hasTouchSupport = useHasTouch();
 
-    ref.listen(audioPlayerStreamListenersProvider, (_, __) {});
-    ref.listen(bonsoirProvider, (_, __) {});
-    ref.listen(connectClientsProvider, (_, __) {});
-    ref.listen(serverProvider, (_, __) {});
-    ref.listen(trayManagerProvider, (_, __) {});
-
-    useFixWindowStretching();
-    useDisableBatteryOptimizations();
-    useDeepLinking(ref);
-    useCloseBehavior(ref);
-    useGetStoragePermissions(ref);
-    // 添加检查 YouTube 引擎是否安装的 hook
-    useCheckYtDlpInstalled(ref);
-
-    useEffect(() {
-      FlutterNativeSplash.remove();
-
-      return () {
-        /// For enabling hot reload for audio player
-        if (!kDebugMode) return;
-        audioPlayer.dispose();
-      };
-    }, []);
-
-    final lightTheme = useMemoized(
-      () => theme(paletteColor ?? accentMaterialColor, Brightness.light, false),
-      [paletteColor, accentMaterialColor],
-    );
-    final darkTheme = useMemoized(
-      () => theme(
-        paletteColor ?? accentMaterialColor,
-        Brightness.dark,
-        isAmoledTheme,
-      ),
-      [paletteColor, accentMaterialColor, isAmoledTheme],
-    );
+    // 删除 paletteColor 相关代码
+    // 删除 lightTheme 和 darkTheme 的 useMemoized
 
     return MaterialApp.router(
       supportedLocales: L10n.all,
@@ -219,8 +180,25 @@ class Spotube extends HookConsumerWidget {
         return child;
       },
       themeMode: themeMode,
-      theme: lightTheme,
-      darkTheme: darkTheme,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: accentMaterialColor,
+          brightness: Brightness.light,
+        ),
+        useMaterial3: true,
+      ),
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: accentMaterialColor,
+          brightness: Brightness.dark,
+          // Using surface instead of deprecated background property
+          surface: isAmoledTheme ? Colors.black : null,
+        ),
+        useMaterial3: true,
+      ),
+
+
+
       shortcuts: {
         ...WidgetsApp.defaultShortcuts.map((key, value) {
           return MapEntry(
