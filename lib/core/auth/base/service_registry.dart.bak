@@ -1,0 +1,34 @@
+import 'auth_manager.dart.bak';
+
+class ServiceRegistry {
+  static final ServiceRegistry _instance = ServiceRegistry._();
+  factory ServiceRegistry() => _instance;
+  ServiceRegistry._();
+
+  final Map<String, AuthManager Function()> _authManagerFactories = {};
+  AuthManager? _currentManager;
+
+  AuthManager? get currentManager => _currentManager;
+
+  void registerAuthManager(
+    String platform,
+    AuthManager Function() factory,
+  ) {
+    _authManagerFactories[platform] = factory;
+  }
+
+  AuthManager? getAuthManager(String platform) {
+    final factory = _authManagerFactories[platform];
+    if (factory != null) {
+      _currentManager = factory();
+      return _currentManager;
+    }
+    return null;
+  }
+
+  void clearCurrentManager() {
+    _currentManager = null;
+  }
+
+  List<String> get availablePlatforms => _authManagerFactories.keys.toList();
+}

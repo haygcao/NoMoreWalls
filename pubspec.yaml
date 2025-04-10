@@ -102,7 +102,7 @@ dependencies:
 
 
   piped_client: ^0.1.2
-
+  provider: ^6.1.4
   popover: ^0.3.0
   riverpod: ^2.5.1
   scrobblenaut:

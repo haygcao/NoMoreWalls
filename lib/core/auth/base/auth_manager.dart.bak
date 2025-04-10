@@ -1,0 +1,39 @@
+import 'package:flutter/foundation.dart';
+
+enum AuthenticationStatus {
+  initial,
+  loading,
+  authenticated,
+  unauthenticated,
+  error,
+}
+
+class AuthState {
+  final AuthenticationStatus status;
+  final String? accessToken;
+  final Map<String, dynamic>? credentials;
+  final String? error;
+
+  const AuthState({
+    this.status = AuthenticationStatus.initial,
+    this.accessToken,
+    this.credentials,
+    this.error,
+  });
+}
+
+abstract class AuthManager extends ChangeNotifier {
+  AuthState _state = const AuthState();
+  AuthState get state => _state;
+  bool get isAuthenticated =>
+      _state.status == AuthenticationStatus.authenticated;
+
+  void updateState(AuthState newState) {
+    _state = newState;
+    notifyListeners();
+  }
+
+  Future<void> login(Map<String, dynamic> credentials);
+  Future<void> logout();
+  Future<void> refreshToken(String newToken);
+}
