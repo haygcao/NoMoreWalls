@@ -147,9 +147,12 @@ class Spotube extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, ref) {
-    final themeMode = ref.watch(userPreferencesProvider.select((s) => s.themeMode));
-    final accentMaterialColor = ref.watch(userPreferencesProvider.select((s) => s.accentColorScheme));
-    final isAmoledTheme = ref.watch(userPreferencesProvider.select((s) => s.amoledDarkTheme));
+    final themeMode =
+        ref.watch(userPreferencesProvider.select((s) => s.themeMode));
+    final accentMaterialColor =
+        ref.watch(userPreferencesProvider.select((s) => s.accentColorScheme));
+    final isAmoledTheme =
+        ref.watch(userPreferencesProvider.select((s) => s.amoledDarkTheme));
     final locale = ref.watch(userPreferencesProvider.select((s) => s.locale));
     final router = ref.watch(routerProvider);
     final hasTouchSupport = useHasTouch();
@@ -164,7 +167,7 @@ class Spotube extends HookConsumerWidget {
 
     useFixWindowStretching();
     useDisableBatteryOptimizations();
-    useDeepLinking(ref);  // 移除 router 参数
+    useDeepLinking(ref); // 移除 router 参数
     useCloseBehavior(ref);
     useGetStoragePermissions(ref);
     useCheckYtDlpInstalled(ref);
@@ -230,9 +233,6 @@ class Spotube extends HookConsumerWidget {
         ),
         useMaterial3: true,
       ),
-
-
-
       shortcuts: {
         ...WidgetsApp.defaultShortcuts.map((key, value) {
           return MapEntry(

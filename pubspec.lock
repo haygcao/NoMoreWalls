@@ -594,10 +594,11 @@ packages:
   disable_battery_optimization:
     dependency: "direct main"
     description:
-      name: disable_battery_optimization
-      sha256: "6b2ba802f984af141faf1b6b5fb956d5ef01f9cd555597c35b9cc335a03185ba"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: aa77a61946849fff495091fc13dcc390948cc60b
+      url: "https://github.com/KRTirtho/Disable-Battery-Optimizations.git"
+    source: git
     version: "1.1.1"
   draggable_scrollbar:
     dependency: "direct main"
@@ -2471,10 +2472,10 @@ packages:
     dependency: "direct main"
     description:
       name: system_theme
-      sha256: "1f208db140a3d1e1eac2034b54920d95699c1534df576ced44b3312c5de3975f"
+      sha256: "5f93485401689601d4636a695f99f7c70a30873ee68c1d95025d908a3386be7e"
       url: "https://pub.dev"
     source: hosted
-    version: "2.3.1"
+    version: "3.1.2"
   system_theme_web:
     dependency: transitive
     description:
