@@ -1,11 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 712ecc6c-f8cd-46a4-96a9-b8d6e2e249d3
+  password: b3d6f11a-cf16-42fa-81a4-5240b2cd79ae
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇨🇦1 |  1.0MB/s
+  network: tcp
+  port: 58891
+  raw:
+    add: 91.194.11.162
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
+    net: tcp
+    path: ''
+    port: '58891'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 91.194.11.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0003
