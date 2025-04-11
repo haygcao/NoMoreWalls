@@ -1,23 +1,23 @@
-/// Media interface that defines the basic structure for all media types
+import 'package:flutter/foundation.dart';
+
+/// Base interface for all media types in the application
+///
+/// This interface defines the common properties and methods that all media types
+/// (tracks, albums, artists, playlists) should implement.
+@immutable
 abstract class MediaInterface {
-  /// Unique identifier for the media item
+  /// Unique identifier for the media
   String get id;
 
-  /// Name or title of the media item
+  /// Name or title of the media
   String get name;
 
-  /// URL to the media item's artwork/image
+  /// URL to the media's image/thumbnail
   String? get imageUrl;
 
-  /// Duration of the media in milliseconds (if applicable)
-  int? get duration;
+  /// Platform source of this media (e.g., "spotify", "youtube_music")
+  String get platform;
 
-  /// Additional metadata as key-value pairs
-  Map<String, dynamic> get metadata;
-
-  /// Convert the media item to a JSON representation
+  /// Convert the media to a JSON representation
   Map<String, dynamic> toJson();
-
-  /// Create a copy of the media item with optional parameter overrides
-  MediaInterface copyWith();
 }

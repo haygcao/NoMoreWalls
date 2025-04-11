@@ -1,95 +1,72 @@
-import 'package:spotube/core/base/interfaces/media/artist_interface.dart';
-import 'package:spotube/core/base/interfaces/media/album_interface.dart';
-import 'package:spotube/core/base/interfaces/media/track_interface.dart';
-import 'package:spotube/core/base/models/media_model.dart';
+import 'package:flutter/foundation.dart';
+import '../interfaces/media/artist_interface.dart';
+import 'media_model.dart';
 
-/// Implementation of ArtistInterface that provides artist-specific functionality
+/// Model class for artists
+///
+/// Implements the ArtistInterface and extends MediaModel
+@immutable
 class ArtistModel extends MediaModel implements ArtistInterface {
-  @override
-  final List<String> genres;
+  /// Genres associated with this artist
+  final List<String>? genres;
 
-  @override
-  final int followers;
+  /// Popularity score (0-100)
+  final int? popularity;
 
-  @override
-  final int popularity;
+  /// Number of followers
+  final int? followersCount;
 
-  @override
-  final List<TrackInterface> topTracks;
+  /// Artist description or biography
+  final String? description;
 
-  @override
-  final List<AlbumInterface> albums;
+  /// Platform-specific metadata
+  final Map<String, dynamic> platformMetadata;
 
-  @override
-  final String? biography;
-
-  @override
-  final Map<String, String> externalUrls;
-
-  @override
-  final bool isFollowed;
-
+  /// Create a new artist model
   const ArtistModel({
     required super.id,
+    required super.platform,
     required super.name,
     super.imageUrl,
-    super.duration,
-    super.metadata = const {},
-    this.genres = const [],
-    this.followers = 0,
-    this.popularity = 0,
-    this.topTracks = const [],
-    this.albums = const [],
-    this.biography,
-    this.externalUrls = const {},
-    this.isFollowed = false,
+    this.genres,
+    this.popularity,
+    this.followersCount,
+    this.description,
+    this.platformMetadata = const {},
   });
 
   @override
-  Map<String, dynamic> toJson() {
-    return {
-      ...super.toJson(),
-      'genres': genres,
-      'followers': followers,
-      'popularity': popularity,
-      'topTracks': topTracks.map((track) => track.toJson()).toList(),
-      'albums': albums.map((album) => album.toJson()).toList(),
-      'biography': biography,
-      'externalUrls': externalUrls,
-      'isFollowed': isFollowed,
-    };
-  }
+  Map<String, dynamic> toJson() => {
+        ...super.toJson(),
+        'genres': genres,
+        'popularity': popularity,
+        'followersCount': followersCount,
+        'description': description,
+        'platformMetadata': platformMetadata,
+      };
 
   @override
   ArtistModel copyWith({
     String? id,
+    String? platform,
     String? name,
     String? imageUrl,
-    int? duration,
-    Map<String, dynamic>? metadata,
     List<String>? genres,
-    int? followers,
     int? popularity,
-    List<TrackInterface>? topTracks,
-    List<AlbumInterface>? albums,
-    String? biography,
-    Map<String, String>? externalUrls,
-    bool? isFollowed,
+    int? followersCount,
+    String? description,
+    Map<String, dynamic>? platformMetadata,
   }) {
     return ArtistModel(
       id: id ?? this.id,
+      platform: platform ?? this.platform,
       name: name ?? this.name,
       imageUrl: imageUrl ?? this.imageUrl,
-      duration: duration ?? this.duration,
-      metadata: metadata ?? this.metadata,
       genres: genres ?? this.genres,
-      followers: followers ?? this.followers,
       popularity: popularity ?? this.popularity,
-      topTracks: topTracks ?? this.topTracks,
-      albums: albums ?? this.albums,
-      biography: biography ?? this.biography,
-      externalUrls: externalUrls ?? this.externalUrls,
-      isFollowed: isFollowed ?? this.isFollowed,
+      followersCount: followersCount ?? this.followersCount,
+      description: description ?? this.description,
+      platformMetadata: platformMetadata ?? this.platformMetadata,
     );
   }
 
@@ -100,15 +77,15 @@ class ArtistModel extends MediaModel implements ArtistInterface {
           other is ArtistModel &&
           runtimeType == other.runtimeType &&
           genres == other.genres &&
-          followers == other.followers &&
           popularity == other.popularity &&
-          isFollowed == other.isFollowed;
+          followersCount == other.followersCount &&
+          description == other.description;
 
   @override
   int get hashCode =>
       super.hashCode ^
       genres.hashCode ^
-      followers.hashCode ^
       popularity.hashCode ^
-      isFollowed.hashCode;
+      followersCount.hashCode ^
+      description.hashCode;
 }

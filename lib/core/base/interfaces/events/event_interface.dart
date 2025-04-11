@@ -1,13 +1,15 @@
-/// Base interface for all events in the application
+import 'package:flutter/foundation.dart';
+
+/// Interface for application events
+///
+/// Defines the base structure for all events in the application
+@immutable
 abstract class EventInterface {
-  /// Unique identifier for the event
-  String get id;
+  /// Unique identifier for the event type
+  String get eventType;
 
   /// Timestamp when the event occurred
   DateTime get timestamp;
-
-  /// Type of the event
-  String get type;
 
   /// Source that generated the event
   String get source;
@@ -15,46 +17,34 @@ abstract class EventInterface {
   /// Event data payload
   Map<String, dynamic> get data;
 
-  /// Whether the event can be cancelled
-  bool get isCancellable;
-
-  /// Whether the event has been handled
-  bool get isHandled;
-
-  /// Whether the event propagation is stopped
-  bool get isPropagationStopped;
-
-  /// Mark the event as handled
-  void markAsHandled();
-
-  /// Stop event propagation
-  void stopPropagation();
-
-  /// Convert event to JSON representation
+  /// Convert the event to a JSON representation
   Map<String, dynamic> toJson();
 }
 
-/// Interface for event handlers
-abstract class EventHandlerInterface<T extends EventInterface> {
-  /// Handle the event
-  void handle(T event);
+/// Interface for event listeners
+///
+/// Defines the structure for objects that can listen to events
+abstract class EventListenerInterface {
+  /// Handle an incoming event
+  void onEvent(EventInterface event);
 
-  /// Whether this handler can handle the given event
-  bool canHandle(EventInterface event);
+  /// Get the event types this listener is interested in
+  List<String> get interestedEventTypes;
 }
 
-/// Interface for event dispatcher
+/// Interface for event dispatchers
+///
+/// Defines the structure for objects that can dispatch events
 abstract class EventDispatcherInterface {
-  /// Dispatch an event
-  void dispatch(EventInterface event);
+  /// Dispatch an event to all registered listeners
+  void dispatchEvent(EventInterface event);
 
-  /// Add event handler
-  void addHandler<T extends EventInterface>(EventHandlerInterface<T> handler);
+  /// Register a listener for events
+  void registerListener(EventListenerInterface listener);
 
-  /// Remove event handler
-  void removeHandler<T extends EventInterface>(
-      EventHandlerInterface<T> handler);
+  /// Unregister a listener
+  void unregisterListener(EventListenerInterface listener);
 
-  /// Clear all handlers
-  void clearHandlers();
+  /// Unregister all listeners
+  void clearListeners();
 }

@@ -1,87 +1,71 @@
-import '../media/track_interface.dart';
+import 'package:flutter/foundation.dart';
 
-/// Interface defining the core player functionality
+/// Interface for player functionality
+///
+/// Defines the core methods and properties that any player implementation must provide
+@immutable
 abstract class PlayerInterface {
-  /// Current playing track
-  TrackInterface? get currentTrack;
+  /// Initialize the player
+  Future<void> initialize();
 
-  /// Current playback position in milliseconds
-  int get position;
+  /// Play a track by its ID
+  Future<void> play(
+      {required String trackId, String? sourceId, String? sourceName});
 
-  /// Total duration of current track in milliseconds
-  int get duration;
-
-  /// Current playback state
-  PlayerState get state;
-
-  /// Current volume level (0.0 to 1.0)
-  double get volume;
-
-  /// Whether audio is currently muted
-  bool get isMuted;
-
-  /// Whether player is currently shuffling
-  bool get isShuffling;
-
-  /// Current repeat mode
-  RepeatMode get repeatMode;
-
-  /// Play the specified track
-  Future<void> play(TrackInterface track);
-
-  /// Resume playback
-  Future<void> resume();
-
-  /// Pause playback
+  /// Pause the current playback
   Future<void> pause();
 
-  /// Stop playback
+  /// Resume playback of the current track
+  Future<void> resume();
+
+  /// Stop the current playback
   Future<void> stop();
 
-  /// Seek to position
-  Future<void> seek(int position);
+  /// Seek to a specific position in the current track
+  Future<void> seekTo(Duration position);
 
-  /// Skip to next track
+  /// Skip to the next track
   Future<void> next();
 
-  /// Skip to previous track
+  /// Skip to the previous track
   Future<void> previous();
 
-  /// Set volume level
+  /// Set the volume level (0.0 to 1.0)
   Future<void> setVolume(double volume);
 
-  /// Toggle mute state
-  Future<void> toggleMute();
+  /// Get the current playback position
+  Future<Duration> getPosition();
 
-  /// Toggle shuffle mode
-  Future<void> toggleShuffle();
+  /// Get the total duration of the current track
+  Future<Duration> getDuration();
 
-  /// Set repeat mode
+  /// Check if the player is currently playing
+  Future<bool> isPlaying();
+
+  /// Dispose the player and release resources
+  Future<void> dispose();
+
+  /// Get the current track ID
+  Future<String?> getCurrentTrackId();
+
+  /// Set the playback speed (1.0 is normal speed)
+  Future<void> setPlaybackSpeed(double speed);
+
+  /// Set whether to repeat the current track
   Future<void> setRepeatMode(RepeatMode mode);
 
-  /// Stream of player state changes
-  Stream<PlayerState> get onPlayerStateChanged;
-
-  /// Stream of position updates
-  Stream<int> get onPositionChanged;
-
-  /// Stream of current track changes
-  Stream<TrackInterface?> get onTrackChanged;
+  /// Set whether to shuffle the playlist
+  Future<void> setShuffleMode(bool enabled);
 }
 
-/// Enum defining possible player states
-enum PlayerState {
-  idle,
-  loading,
-  playing,
-  paused,
-  stopped,
-  error,
-}
-
-/// Enum defining repeat modes
+/// Enum representing repeat modes for playback
 enum RepeatMode {
+  /// No repeat
   off,
-  track,
-  playlist,
+
+  /// Repeat the current track
+  one,
+
+  /// Repeat the entire playlist/album
+  all
 }

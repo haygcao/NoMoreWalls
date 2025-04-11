@@ -1,69 +1,50 @@
-import 'package:spotube/core/base/interfaces/media/media_interface.dart';
+import 'package:flutter/foundation.dart';
+import '../interfaces/media/media_interface.dart';
+import 'base_model.dart';
 
-/// Base implementation of MediaInterface that provides common functionality
-class MediaModel implements MediaInterface {
-  @override
-  final String id;
-
-  @override
+/// Base class for all media models in the application
+///
+/// Implements the MediaInterface and extends BaseModel
+@immutable
+abstract class MediaModel extends BaseModel implements MediaInterface {
+  /// Name or title of the media
   final String name;
 
-  @override
+  /// URL to the media's image/thumbnail
   final String? imageUrl;
 
-  @override
-  final int? duration;
-
-  @override
-  final Map<String, dynamic> metadata;
-
+  /// Create a new media model
   const MediaModel({
-    required this.id,
+    required super.id,
+    required super.platform,
     required this.name,
     this.imageUrl,
-    this.duration,
-    this.metadata = const {},
   });
 
   @override
-  Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'name': name,
-      'imageUrl': imageUrl,
-      'duration': duration,
-      'metadata': metadata,
-    };
-  }
+  Map<String, dynamic> toJson() => {
+        ...super.toJson(),
+        'name': name,
+        'imageUrl': imageUrl,
+      };
 
   @override
   MediaModel copyWith({
     String? id,
+    String? platform,
     String? name,
     String? imageUrl,
-    int? duration,
-    Map<String, dynamic>? metadata,
-  }) {
-    return MediaModel(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      imageUrl: imageUrl ?? this.imageUrl,
-      duration: duration ?? this.duration,
-      metadata: metadata ?? this.metadata,
-    );
-  }
+  });
 
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is MediaModel &&
+      super == other &&
+          other is MediaModel &&
           runtimeType == other.runtimeType &&
-          id == other.id &&
           name == other.name &&
-          imageUrl == other.imageUrl &&
-          duration == other.duration;
+          imageUrl == other.imageUrl;
 
   @override
-  int get hashCode =>
-      id.hashCode ^ name.hashCode ^ imageUrl.hashCode ^ duration.hashCode;
+  int get hashCode => super.hashCode ^ name.hashCode ^ imageUrl.hashCode;
 }

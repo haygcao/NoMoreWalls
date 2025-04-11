@@ -1,102 +1,93 @@
-import 'package:spotube/core/base/interfaces/media/album_interface.dart';
-import 'package:spotube/core/base/interfaces/media/artist_interface.dart';
-import 'package:spotube/core/base/interfaces/media/track_interface.dart';
-import 'package:spotube/core/base/models/media_model.dart';
+import 'package:flutter/foundation.dart';
+import '../interfaces/media/album_interface.dart';
+import 'media_model.dart';
 
-/// Implementation of AlbumInterface that provides album-specific functionality
+/// Model class for albums
+///
+/// Implements the AlbumInterface and extends MediaModel
+@immutable
 class AlbumModel extends MediaModel implements AlbumInterface {
-  @override
-  final List<ArtistInterface> artists;
+  /// List of artist IDs associated with this album
+  final List<String> artistIds;
 
-  @override
-  final List<TrackInterface> tracks;
+  /// List of artist names associated with this album
+  final List<String> artistNames;
 
-  @override
-  final DateTime releaseDate;
+  /// Release date of the album
+  final DateTime? releaseDate;
 
-  @override
+  /// Total number of tracks in the album
   final int totalTracks;
 
-  @override
-  final String albumType;
+  /// Album type (album, single, compilation, etc.)
+  final String? albumType;
 
-  @override
-  final String? label;
+  /// Genres associated with this album
+  final List<String>? genres;
 
-  @override
-  final List<String> genres;
+  /// Popularity score (0-100)
+  final int? popularity;
 
-  @override
-  final bool isAvailable;
+  /// Platform-specific metadata
+  final Map<String, dynamic> platformMetadata;
 
-  @override
-  final String? copyrightText;
-
+  /// Create a new album model
   const AlbumModel({
     required super.id,
+    required super.platform,
     required super.name,
     super.imageUrl,
-    super.duration,
-    super.metadata = const {},
-    required this.artists,
-    this.tracks = const [],
-    required this.releaseDate,
+    required this.artistIds,
+    required this.artistNames,
+    this.releaseDate,
     required this.totalTracks,
-    required this.albumType,
-    this.label,
-    this.genres = const [],
-    this.isAvailable = true,
-    this.copyrightText,
+    this.albumType,
+    this.genres,
+    this.popularity,
+    this.platformMetadata = const {},
   });
 
   @override
-  Map<String, dynamic> toJson() {
-    return {
-      ...super.toJson(),
-      'artists': artists.map((artist) => artist.toJson()).toList(),
-      'tracks': tracks.map((track) => track.toJson()).toList(),
-      'releaseDate': releaseDate.toIso8601String(),
-      'totalTracks': totalTracks,
-      'albumType': albumType,
-      'label': label,
-      'genres': genres,
-      'isAvailable': isAvailable,
-      'copyrightText': copyrightText,
-    };
-  }
+  Map<String, dynamic> toJson() => {
+        ...super.toJson(),
+        'artistIds': artistIds,
+        'artistNames': artistNames,
+        'releaseDate': releaseDate?.toIso8601String(),
+        'totalTracks': totalTracks,
+        'albumType': albumType,
+        'genres': genres,
+        'popularity': popularity,
+        'platformMetadata': platformMetadata,
+      };
 
   @override
   AlbumModel copyWith({
     String? id,
+    String? platform,
     String? name,
     String? imageUrl,
-    int? duration,
-    Map<String, dynamic>? metadata,
-    List<ArtistInterface>? artists,
-    List<TrackInterface>? tracks,
+    List<String>? artistIds,
+    List<String>? artistNames,
     DateTime? releaseDate,
     int? totalTracks,
     String? albumType,
-    String? label,
     List<String>? genres,
-    bool? isAvailable,
-    String? copyrightText,
+    int? popularity,
+    Map<String, dynamic>? platformMetadata,
   }) {
     return AlbumModel(
       id: id ?? this.id,
+      platform: platform ?? this.platform,
       name: name ?? this.name,
       imageUrl: imageUrl ?? this.imageUrl,
-      duration: duration ?? this.duration,
-      metadata: metadata ?? this.metadata,
-      artists: artists ?? this.artists,
-      tracks: tracks ?? this.tracks,
+      artistIds: artistIds ?? this.artistIds,
+      artistNames: artistNames ?? this.artistNames,
       releaseDate: releaseDate ?? this.releaseDate,
       totalTracks: totalTracks ?? this.totalTracks,
       albumType: albumType ?? this.albumType,
-      label: label ?? this.label,
       genres: genres ?? this.genres,
-      isAvailable: isAvailable ?? this.isAvailable,
-      copyrightText: copyrightText ?? this.copyrightText,
+      popularity: popularity ?? this.popularity,
+      platformMetadata: platformMetadata ?? this.platformMetadata,
     );
   }
 
@@ -106,20 +97,22 @@ class AlbumModel extends MediaModel implements AlbumInterface {
       super == other &&
           other is AlbumModel &&
           runtimeType == other.runtimeType &&
-          artists == other.artists &&
-          tracks == other.tracks &&
+          artistIds == other.artistIds &&
+          artistNames == other.artistNames &&
           releaseDate == other.releaseDate &&
           totalTracks == other.totalTracks &&
           albumType == other.albumType &&
-          isAvailable == other.isAvailable;
+          genres == other.genres &&
+          popularity == other.popularity;
 
   @override
   int get hashCode =>
       super.hashCode ^
-      artists.hashCode ^
-      tracks.hashCode ^
+      artistIds.hashCode ^
+      artistNames.hashCode ^
       releaseDate.hashCode ^
       totalTracks.hashCode ^
       albumType.hashCode ^
-      isAvailable.hashCode;
+      genres.hashCode ^
+      popularity.hashCode;
 }

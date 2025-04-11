@@ -1,14 +1,28 @@
+import 'package:flutter/foundation.dart';
 import 'media_interface.dart';
-import 'artist_interface.dart';
-import 'album_interface.dart';
 
-/// Interface defining the structure for track objects
-abstract class TrackInterface implements MediaInterface {
-  /// List of artists performing the track
-  List<ArtistInterface> get artists;
+/// Interface for track media type
+///
+/// Defines the properties and methods specific to music tracks
+@immutable
+abstract class TrackInterface extends MediaInterface {
+  /// List of artist IDs associated with this track
+  List<String> get artistIds;
 
-  /// Album containing this track
-  AlbumInterface? get album;
+  /// List of artist names associated with this track
+  List<String> get artistNames;
+
+  /// Album ID this track belongs to
+  String? get albumId;
+
+  /// Album name this track belongs to
+  String? get albumName;
+
+  /// Duration of the track in milliseconds
+  int get durationMs;
+
+  /// Whether this track is playable
+  bool get isPlayable;
 
   /// Track number in the album
   int? get trackNumber;
@@ -16,48 +30,15 @@ abstract class TrackInterface implements MediaInterface {
   /// Disc number in the album
   int? get discNumber;
 
-  /// Whether the track is explicit
+  /// Popularity score (0-100)
+  int? get popularity;
+
+  /// Whether this track is explicit
   bool get isExplicit;
 
-  /// Whether the track is playable in the user's region
-  bool get isPlayable;
-
-  /// Whether the track is currently liked/saved by the user
-  bool get isLiked;
-
-  /// Preview URL for the track (30s sample)
+  /// Preview URL for the track (if available)
   String? get previewUrl;
 
-  /// URLs for different quality audio streams
-  Map<String, String> get audioUrls;
-
-  /// Popularity rating of the track (0-100)
-  int get popularity;
-
-  /// Whether the track is currently downloaded
-  bool get isDownloaded;
-
-  /// Local file path if the track is downloaded
-  String? get localFilePath;
-
-  /// Start playing the track
-  Future<void> play();
-
-  /// Pause the current playback
-  Future<void> pause();
-
-  /// Stop the current playback
-  Future<void> stop();
-
-  /// Download the track
-  Future<void> download();
-
-  /// Delete the downloaded track
-  Future<void> deleteDownload();
-
-  @override
-  Map<String, dynamic> toJson();
-
-  @override
-  TrackInterface copyWith();
+  /// Platform-specific metadata
+  Map<String, dynamic> get platformMetadata;
 }

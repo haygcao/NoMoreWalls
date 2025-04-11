@@ -1,55 +1,43 @@
-import '../media/track_interface.dart';
+import 'package:flutter/foundation.dart';
 
-/// Interface defining the queue management functionality
+/// Interface for player queue functionality
+///
+/// Defines the methods and properties for managing the playback queue
+@immutable
 abstract class QueueInterface {
-  /// List of tracks in the queue
-  List<TrackInterface> get tracks;
+  /// Add a track to the queue
+  Future<void> addTrack(String trackId);
 
-  /// Current track index in the queue
-  int get currentIndex;
+  /// Add multiple tracks to the queue
+  Future<void> addTracks(List<String> trackIds);
 
-  /// Total number of tracks in queue
-  int get length;
+  /// Remove a track from the queue by its ID
+  Future<void> removeTrack(String trackId);
 
-  /// Whether the queue is empty
-  bool get isEmpty;
-
-  /// Original unshuffled queue
-  List<TrackInterface> get originalQueue;
-
-  /// Add tracks to the end of queue
-  Future<void> add(List<TrackInterface> tracks);
-
-  /// Add tracks next in queue (after current track)
-  Future<void> addNext(List<TrackInterface> tracks);
-
-  /// Remove tracks from queue
-  Future<void> remove(List<TrackInterface> tracks);
+  /// Remove a track from the queue by its position
+  Future<void> removeTrackAt(int index);
 
   /// Clear the entire queue
-  Future<void> clear();
+  Future<void> clearQueue();
 
-  /// Move track from one position to another
-  Future<void> move(int oldIndex, int newIndex);
+  /// Get all track IDs in the current queue
+  Future<List<String>> getQueue();
 
-  /// Skip to specific track in queue
-  Future<void> skipTo(int index);
+  /// Get the current index in the queue
+  Future<int> getCurrentIndex();
 
-  /// Shuffle the queue
-  Future<void> shuffle();
+  /// Move a track in the queue from one position to another
+  Future<void> moveTrack(int oldIndex, int newIndex);
 
-  /// Restore original queue order
-  Future<void> unshuffle();
+  /// Skip to a specific track in the queue by index
+  Future<void> skipToIndex(int index);
 
-  /// Get the next track in queue
-  TrackInterface? getNextTrack();
+  /// Replace the entire queue with a new list of tracks
+  Future<void> replaceQueue(List<String> trackIds, {int startIndex = 0});
 
-  /// Get the previous track in queue
-  TrackInterface? getPreviousTrack();
+  /// Get the history of played tracks
+  Future<List<String>> getHistory();
 
-  /// Stream of queue changes
-  Stream<List<TrackInterface>> get onQueueChanged;
-
-  /// Stream of current track index changes
-  Stream<int> get onCurrentIndexChanged;
+  /// Clear the playback history
+  Future<void> clearHistory();
 }

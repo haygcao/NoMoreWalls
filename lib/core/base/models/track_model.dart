@@ -1,148 +1,121 @@
-import 'package:spotube/core/base/interfaces/media/track_interface.dart';
-import 'package:spotube/core/base/interfaces/media/artist_interface.dart';
-import 'package:spotube/core/base/interfaces/media/album_interface.dart';
-import 'package:spotube/core/base/models/media_model.dart';
+import 'package:flutter/foundation.dart';
+import '../interfaces/media/track_interface.dart';
+import 'media_model.dart';
 
-/// Implementation of TrackInterface that provides track-specific functionality
+/// Model class for tracks
+///
+/// Implements the TrackInterface and extends MediaModel
+@immutable
 class TrackModel extends MediaModel implements TrackInterface {
-  @override
-  final List<ArtistInterface> artists;
+  /// List of artist IDs associated with this track
+  final List<String> artistIds;
 
-  @override
-  final AlbumInterface? album;
+  /// List of artist names associated with this track
+  final List<String> artistNames;
 
-  @override
-  final int? trackNumber;
+  /// Album ID this track belongs to
+  final String? albumId;
 
-  @override
-  final int? discNumber;
+  /// Album name this track belongs to
+  final String? albumName;
 
-  @override
-  final bool isExplicit;
+  /// Duration of the track in milliseconds
+  final int durationMs;
 
-  @override
+  /// Whether this track is playable
   final bool isPlayable;
 
-  @override
-  final bool isLiked;
+  /// Track number in the album
+  final int? trackNumber;
 
-  @override
+  /// Disc number in the album
+  final int? discNumber;
+
+  /// Popularity score (0-100)
+  final int? popularity;
+
+  /// Whether this track is explicit
+  final bool isExplicit;
+
+  /// Preview URL for the track (if available)
   final String? previewUrl;
 
-  @override
-  final Map<String, String> audioUrls;
+  /// Platform-specific metadata
+  final Map<String, dynamic> platformMetadata;
 
-  @override
-  final int popularity;
-
-  @override
-  final bool isDownloaded;
-
-  @override
-  final String? localFilePath;
-
+  /// Create a new track model
   const TrackModel({
     required super.id,
+    required super.platform,
     required super.name,
     super.imageUrl,
-    super.duration,
-    super.metadata = const {},
-    required this.artists,
-    this.album,
+    required this.artistIds,
+    required this.artistNames,
+    this.albumId,
+    this.albumName,
+    required this.durationMs,
+    this.isPlayable = true,
     this.trackNumber,
     this.discNumber,
+    this.popularity,
     this.isExplicit = false,
-    this.isPlayable = true,
-    this.isLiked = false,
     this.previewUrl,
-    this.audioUrls = const {},
-    this.popularity = 0,
-    this.isDownloaded = false,
-    this.localFilePath,
+    this.platformMetadata = const {},
   });
 
   @override
-  Future<void> play() async {
-    // Implementation will be provided by the PlaybackService
-  }
-
-  @override
-  Future<void> pause() async {
-    // Implementation will be provided by the PlaybackService
-  }
-
-  @override
-  Future<void> stop() async {
-    // Implementation will be provided by the PlaybackService
-  }
-
-  @override
-  Future<void> download() async {
-    // Implementation will be provided by the DownloadService
-  }
-
-  @override
-  Future<void> deleteDownload() async {
-    // Implementation will be provided by the DownloadService
-  }
-
-  @override
-  Map<String, dynamic> toJson() {
-    return {
-      ...super.toJson(),
-      'artists': artists.map((artist) => artist.toJson()).toList(),
-      'album': album?.toJson(),
-      'trackNumber': trackNumber,
-      'discNumber': discNumber,
-      'isExplicit': isExplicit,
-      'isPlayable': isPlayable,
-      'isLiked': isLiked,
-      'previewUrl': previewUrl,
-      'audioUrls': audioUrls,
-      'popularity': popularity,
-      'isDownloaded': isDownloaded,
-      'localFilePath': localFilePath,
-    };
-  }
+  Map<String, dynamic> toJson() => {
+        ...super.toJson(),
+        'artistIds': artistIds,
+        'artistNames': artistNames,
+        'albumId': albumId,
+        'albumName': albumName,
+        'durationMs': durationMs,
+        'isPlayable': isPlayable,
+        'trackNumber': trackNumber,
+        'discNumber': discNumber,
+        'popularity': popularity,
+        'isExplicit': isExplicit,
+        'previewUrl': previewUrl,
+        'platformMetadata': platformMetadata,
+      };
 
   @override
   TrackModel copyWith({
     String? id,
+    String? platform,
     String? name,
     String? imageUrl,
-    int? duration,
-    Map<String, dynamic>? metadata,
-    List<ArtistInterface>? artists,
-    AlbumInterface? album,
+    List<String>? artistIds,
+    List<String>? artistNames,
+    String? albumId,
+    String? albumName,
+    int? durationMs,
+    bool? isPlayable,
     int? trackNumber,
     int? discNumber,
-    bool? isExplicit,
-    bool? isPlayable,
-    bool? isLiked,
-    String? previewUrl,
-    Map<String, String>? audioUrls,
     int? popularity,
-    bool? isDownloaded,
-    String? localFilePath,
+    bool? isExplicit,
+    String? previewUrl,
+    Map<String, dynamic>? platformMetadata,
   }) {
     return TrackModel(
       id: id ?? this.id,
+      platform: platform ?? this.platform,
       name: name ?? this.name,
       imageUrl: imageUrl ?? this.imageUrl,
-      duration: duration ?? this.duration,
-      metadata: metadata ?? this.metadata,
-      artists: artists ?? this.artists,
-      album: album ?? this.album,
+      artistIds: artistIds ?? this.artistIds,
+      artistNames: artistNames ?? this.artistNames,
+      albumId: albumId ?? this.albumId,
+      albumName: albumName ?? this.albumName,
+      durationMs: durationMs ?? this.durationMs,
+      isPlayable: isPlayable ?? this.isPlayable,
       trackNumber: trackNumber ?? this.trackNumber,
       discNumber: discNumber ?? this.discNumber,
-      isExplicit: isExplicit ?? this.isExplicit,
-      isPlayable: isPlayable ?? this.isPlayable,
-      isLiked: isLiked ?? this.isLiked,
-      previewUrl: previewUrl ?? this.previewUrl,
-      audioUrls: audioUrls ?? this.audioUrls,
       popularity: popularity ?? this.popularity,
-      isDownloaded: isDownloaded ?? this.isDownloaded,
-      localFilePath: localFilePath ?? this.localFilePath,
+      isExplicit: isExplicit ?? this.isExplicit,
+      previewUrl: previewUrl ?? this.previewUrl,
+      platformMetadata: platformMetadata ?? this.platformMetadata,
     );
   }
 
@@ -152,22 +125,30 @@ class TrackModel extends MediaModel implements TrackInterface {
       super == other &&
           other is TrackModel &&
           runtimeType == other.runtimeType &&
-          artists == other.artists &&
-          album == other.album &&
+          artistIds == other.artistIds &&
+          artistNames == other.artistNames &&
+          albumId == other.albumId &&
+          albumName == other.albumName &&
+          durationMs == other.durationMs &&
+          isPlayable == other.isPlayable &&
           trackNumber == other.trackNumber &&
           discNumber == other.discNumber &&
+          popularity == other.popularity &&
           isExplicit == other.isExplicit &&
-          isPlayable == other.isPlayable &&
-          isLiked == other.isLiked;
+          previewUrl == other.previewUrl;
 
   @override
   int get hashCode =>
       super.hashCode ^
-      artists.hashCode ^
-      album.hashCode ^
+      artistIds.hashCode ^
+      artistNames.hashCode ^
+      albumId.hashCode ^
+      albumName.hashCode ^
+      durationMs.hashCode ^
+      isPlayable.hashCode ^
       trackNumber.hashCode ^
       discNumber.hashCode ^
+      popularity.hashCode ^
       isExplicit.hashCode ^
-      isPlayable.hashCode ^
-      isLiked.hashCode;
+      previewUrl.hashCode;
 }

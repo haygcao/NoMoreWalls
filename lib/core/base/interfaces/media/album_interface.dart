@@ -1,39 +1,32 @@
+import 'package:flutter/foundation.dart';
 import 'media_interface.dart';
-import 'artist_interface.dart';
-import 'track_interface.dart';
 
-/// Interface defining the structure for album objects
-abstract class AlbumInterface implements MediaInterface {
-  /// List of artists associated with the album
-  List<ArtistInterface> get artists;
+/// Interface for album media type
+///
+/// Defines the properties and methods specific to music albums
+@immutable
+abstract class AlbumInterface extends MediaInterface {
+  /// List of artist IDs associated with this album
+  List<String> get artistIds;
 
-  /// List of tracks in the album
-  List<TrackInterface> get tracks;
+  /// List of artist names associated with this album
+  List<String> get artistNames;
 
   /// Release date of the album
-  DateTime get releaseDate;
+  DateTime? get releaseDate;
 
   /// Total number of tracks in the album
   int get totalTracks;
 
-  /// Album type (e.g., album, single, compilation)
-  String get albumType;
+  /// Album type (album, single, compilation, etc.)
+  String? get albumType;
 
-  /// Label that released the album
-  String? get label;
+  /// Genres associated with this album
+  List<String>? get genres;
 
-  /// Genres associated with the album
-  List<String> get genres;
+  /// Popularity score (0-100)
+  int? get popularity;
 
-  /// Whether the album is currently available
-  bool get isAvailable;
-
-  /// Copyright text for the album
-  String? get copyrightText;
-
-  @override
-  Map<String, dynamic> toJson();
-
-  @override
-  AlbumInterface copyWith();
+  /// Platform-specific metadata
+  Map<String, dynamic> get platformMetadata;
 }

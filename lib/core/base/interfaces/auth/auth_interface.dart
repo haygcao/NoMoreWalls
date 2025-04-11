@@ -1,56 +1,43 @@
+import 'package:flutter/foundation.dart';
 import 'user_interface.dart';
 
-/// Interface defining the authentication and authorization functionality
+/// Interface for authentication functionality
+///
+/// Defines the methods and properties for platform authentication
+@immutable
 abstract class AuthInterface {
-  /// Current authenticated user
-  UserInterface? get currentUser;
+  /// Check if the user is currently authenticated
+  Future<bool> isAuthenticated();
 
-  /// Whether a user is currently authenticated
-  bool get isAuthenticated;
+  /// Authenticate the user
+  ///
+  /// This may open a web view or other authentication UI
+  Future<bool> authenticate();
 
-  /// Current access token
-  String? get accessToken;
-
-  /// Current refresh token
-  String? get refreshToken;
-
-  /// Token expiration timestamp
-  DateTime? get tokenExpiration;
-
-  /// Sign in with email and password
-  Future<UserInterface> signInWithEmailAndPassword(
-    String email,
-    String password,
-  );
-
-  /// Sign in with OAuth provider
-  Future<UserInterface> signInWithOAuth(String provider);
+  /// Refresh the authentication token
+  Future<bool> refreshToken();
 
   /// Sign out the current user
   Future<void> signOut();
 
-  /// Refresh the access token
-  Future<void> refreshAccessToken();
+  /// Get the current authentication token
+  Future<String?> getToken();
 
-  /// Register a new user with email and password
-  Future<UserInterface> register({
-    required String email,
-    required String password,
-    required String displayName,
-  });
+  /// Get the current user information
+  Future<UserInterface?> getCurrentUser();
 
-  /// Send password reset email
-  Future<void> sendPasswordResetEmail(String email);
+  /// Get the expiration time of the current token
+  Future<DateTime?> getTokenExpiration();
 
-  /// Verify email address
-  Future<void> verifyEmail(String code);
+  /// Check if the current token is expired
+  Future<bool> isTokenExpired();
 
-  /// Delete the current user's account
-  Future<void> deleteAccount(String password);
+  /// Get the platform name this auth is for
+  String get platformName;
 
-  /// Listen to authentication state changes
-  Stream<UserInterface?> get onAuthStateChanged;
+  /// Stream of authentication state changes
+  Stream<bool> get authStateStream;
 
-  /// Initialize the authentication system
-  Future<void> initialize();
+  /// Stream of current user changes
+  Stream<UserInterface?> get userStream;
 }

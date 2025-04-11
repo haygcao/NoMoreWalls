@@ -1,53 +1,65 @@
-import '../media/track_interface.dart';
+import 'package:flutter/foundation.dart';
 import 'player_interface.dart';
 
-/// Interface defining playback event callbacks and state management
+/// Interface for playback state and control
+///
+/// Defines the methods and properties for monitoring and controlling playback state
+@immutable
 abstract class PlaybackInterface {
-  /// Called when playback state changes
-  void onPlaybackStateChanged(PlayerState state);
+  /// Stream of playback positions
+  Stream<Duration> get positionStream;
 
-  /// Called when current track changes
-  void onTrackChanged(TrackInterface? track);
+  /// Stream of buffered positions
+  Stream<Duration> get bufferedPositionStream;
 
-  /// Called when playback position changes
-  void onPositionChanged(int position);
+  /// Stream of total durations
+  Stream<Duration> get durationStream;
 
-  /// Called when playback encounters an error
-  void onPlaybackError(String message);
+  /// Stream of playback states (playing, paused, etc.)
+  Stream<PlaybackState> get playbackStateStream;
 
-  /// Called when buffering state changes
-  void onBufferingStateChanged(bool isBuffering);
+  /// Stream of current track IDs
+  Stream<String?> get currentTrackStream;
 
-  /// Called when volume changes
-  void onVolumeChanged(double volume);
+  /// Stream of volume changes
+  Stream<double> get volumeStream;
 
-  /// Called when mute state changes
-  void onMuteStateChanged(bool isMuted);
+  /// Stream of repeat mode changes
+  Stream<RepeatMode> get repeatModeStream;
 
-  /// Called when shuffle mode changes
-  void onShuffleModeChanged(bool isShuffling);
+  /// Stream of shuffle mode changes
+  Stream<bool> get shuffleModeStream;
 
-  /// Called when repeat mode changes
-  void onRepeatModeChanged(RepeatMode mode);
+  /// Get the current playback state
+  PlaybackState get currentState;
 
-  /// Called when audio session is activated
-  void onAudioSessionActivated();
+  /// Get the current volume level
+  double get volume;
 
-  /// Called when audio session is deactivated
-  void onAudioSessionDeactivated();
+  /// Get the current repeat mode
+  RepeatMode get repeatMode;
 
-  /// Called when audio focus is gained
-  void onAudioFocusGained();
+  /// Get the current shuffle mode
+  bool get shuffleMode;
+}
 
-  /// Called when audio focus is lost
-  void onAudioFocusLost();
+/// Enum representing the current state of playback
+enum PlaybackState {
+  /// No track is loaded
+  none,
 
-  /// Called when metadata changes
-  void onMetadataChanged(Map<String, dynamic> metadata);
+  /// Track is loaded but not playing
+  paused,
 
-  /// Called when playback quality changes
-  void onPlaybackQualityChanged(String quality);
+  /// Track is currently playing
+  playing,
 
-  /// Called when network state changes
-  void onNetworkStateChanged(bool isConnected);
+  /// Track is being loaded/buffered
+  buffering,
+
+  /// Playback has completed
+  completed,
+
+  /// An error occurred during playback
+  error
 }

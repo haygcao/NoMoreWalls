@@ -1,0 +1,29 @@
+import 'package:spotube/core/base/providers/base_provider.dart';
+import 'package:spotube/core/base/interfaces/media/track_interface.dart';
+import 'package:spotube/core/base/interfaces/media/album_interface.dart';
+import 'package:spotube/core/base/interfaces/media/artist_interface.dart';
+import 'package:spotube/core/base/interfaces/media/playlist_interface.dart';
+
+/// 搜索提供者接口
+abstract class SearchProvider extends BaseProvider<Map<String, List<dynamic>>> {
+  /// 搜索曲目
+  Future<List<TrackInterface>> searchTracks(String query, {int limit = 20, int offset = 0});
+  
+  /// 搜索专辑
+  Future<List<AlbumInterface>> searchAlbums(String query, {int limit = 20, int offset = 0});
+  
+  /// 搜索艺术家
+  Future<List<ArtistInterface>> searchArtists(String query, {int limit = 20, int offset = 0});
+  
+  /// 搜索播放列表
+  Future<List<PlaylistInterface>> searchPlaylists(String query, {int limit = 20, int offset = 0});
+  
+  /// 综合搜索
+  Future<Map<String, List<dynamic>>> search(String query, {int limit = 20, int offset = 0});
+  
+  /// 当前搜索查询
+  String get query;
+  
+  /// 设置搜索查询
+  set query(String value);
+}

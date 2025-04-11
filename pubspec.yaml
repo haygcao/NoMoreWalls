@@ -153,6 +153,7 @@ dependencies:
   shadcn_flutter: ^0.0.34
   auto_route: ^10.0.1
   home_widget: ^0.7.0+1
+  get_it: ^8.0.3
 
 
 dev_dependencies:
