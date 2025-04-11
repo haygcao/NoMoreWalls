@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: b3d6f11a-cf16-42fa-81a4-5240b2cd79ae
-  port: 36441
-  server: free.2weradf.xyz
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 00747e0d-ff47-4a94-9287-c64e1330918e
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇨🇦1 |  1.0MB/s
+  name: 1|🇨🇦1 |  4.2MB/s
   network: tcp
   port: 58891
   raw:
@@ -34,7 +34,60 @@ proxies:
   uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0003
+  name: 1|🇨🇦2 |  2.6MB/s
+  network: tcp
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  server: 192.18.145.7
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+- alterId: 0
+  cipher: auto
+  name: 1|🇨🇦3 |  1.1MB/s
+  network: tcp
+  port: 27699
+  raw:
+    add: 91.194.11.118
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: c23b127b-af87-43bb-aa1e-ce42374a2b53
+    net: tcp
+    path: ''
+    port: '27699'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 91.194.11.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
+- alterId: 2
+  cipher: auto
+  name: 1|🇨🇦4 |  2.5MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,13|CA_speednode_0003
+  network: tcp
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
@@ -46,3 +99,10 @@ proxies:
   type: vless
   udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 8084d5de-362d-4818-9b73-71d3e5c28c37
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
