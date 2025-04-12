@@ -1,21 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: bed63982-5ce6-410e-b0cc-666f240221d5
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 0235287d-0d58-43c2-bd73-a6f2bda5b2bd
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: eba84d65-f45d-4506-8d35-f7070b34529d
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 0fc45fb5-3ec7-42eb-bab2-707e4dbb79c1
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇨🇦2 |  2.4MB/s
+  name: 2|🇨🇦1 |  5.4MB/s
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇨🇦4 |  5.0MB/s
   network: tcp
   port: 27699
   raw:
