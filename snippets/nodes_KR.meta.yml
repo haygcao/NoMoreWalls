@@ -1,94 +1,80 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 329fac00-464f-441a-b5f9-a060537a8faa
+  password: 7abe9f61-12ef-4a61-895d-7d300b505dd1
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 329fac00-464f-441a-b5f9-a060537a8faa
+  password: 7abe9f61-12ef-4a61-895d-7d300b505dd1
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇰🇷1 |  3.6MB/s
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+    path: /Telegram-XV2ry2?ed=512
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷2 |  1.0MB/s
+  network: tcp
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+  ws-headers:
+    Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷3 |  3.9MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 52db8db8-6f43-4783-bd07-761f166f8f45
-  port: 36311
-  server: free.2weradf.xyz
+  client-fingerprint: chrome
+  name: 1,11|🇰🇷 韩国1|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 43450
+  server: gdlt.aicheetah.lol
+  tfo: false
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 52db8db8-6f43-4783-bd07-761f166f8f45
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - auth: d07ec566-018a-4a80-b3d3-b378fdead52c
-  name: 2|🇰🇷1 |  3.7MB/s
+  name: 1|🇰🇷5 |  5.3MB/s
   password: d07ec566-018a-4a80-b3d3-b378fdead52c
   port: 55215
   server: shy23.zqjc.cloud
   skip-cert-verify: false
   sni: shy23.zqjc.cloud
   type: hysteria2
-- name: 2|🇰🇷2 |  3.1MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.94
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷3 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.132
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 2|🇰🇷4 |  4.6MB/s
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 2|🇰🇷5 |  2.0MB/s
-  port: 17232
-  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|韩国|@ripaojiedian
+  name: 11,12|韩国|@ripaojiedian
   network: ws
   port: '30828'
   server: v28.heduian.link
@@ -103,7 +89,7 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 11|🇰🇷 韩国2|@ripaojiedian
   network: ws
   password: ji0612uenfs
   port: 50000
@@ -117,7 +103,7 @@ proxies:
     path: /?ed=2560&proxyip=121.167.108.242:50000
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国3|@ripaojiedian
+  name: 11|🇰🇷 韩国3|@ripaojiedian
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
@@ -125,13 +111,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.114.140.139
   tfo: false
   type: ss
-- name: 13|韩国2|@ripaojiedian
+- name: 12|韩国2|@ripaojiedian
   network: ws
   password: ji0612uenfs
   port: 50000
@@ -142,7 +128,7 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D121.167.108.242%3A50000'
-- name: 14|KR_speednode_0060
+- name: 13|KR_speednode_0060
   network: ws
   port: 12527
   server: 221.144.200.91
@@ -156,7 +142,7 @@ proxies:
     headers:
       Host: edccy.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|KR_speednode_0061
+- name: 13|KR_speednode_0061
   network: ws
   port: 10099
   server: 146.56.136.39
@@ -170,3 +156,17 @@ proxies:
     headers:
       Host: nx.ylka.dpdns.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 8b3ef66b-59de-45d8-8e64-d31d70ed916a
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: 8b3ef66b-59de-45d8-8e64-d31d70ed916a
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
