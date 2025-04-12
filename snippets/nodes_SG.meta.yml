@@ -1,34 +1,95 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬1 |  2.2MB/s
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: d83373df-aea1-4066-88bc-44a9a72c0105
+  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: d83373df-aea1-4066-88bc-44a9a72c0105
+  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: d83373df-aea1-4066-88bc-44a9a72c0105
+  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇸🇬1 |  3.0MB/s
+  network: ws
+  port: 2096
+  server: 141.193.213.20
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬2 |  4.0MB/s
+  port: 17231
+  server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇸🇬3 |  6.1MB/s
+  network: ws
+  port: 8080
+  server: 170.114.45.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: db33e70b-3769-474a-8d44-193159b64756
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬4 |  5.8MB/s
+  port: 17231
+  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -36,7 +97,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -44,7 +105,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -54,7 +115,7 @@ proxies:
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   password: '!!str 1234'
   port: 1234
   server: 54.255.247.220
@@ -62,7 +123,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
@@ -70,27 +131,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.194.243.103
   tfo: false
   type: ss
-- name: 13|SG_speednode_0063
-  network: ws
-  port: 8443
-  server: 27.50.49.230
-  servername: edccy.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|SG_speednode_0065
+- name: 14|SG_speednode_0065
   network: ws
   port: 443
   server: 152.42.218.33
@@ -104,24 +151,3 @@ proxies:
     headers:
       Host: fonts.googleapis.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: a8f1342c-7f6c-4679-b152-ac3c80470546
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: a8f1342c-7f6c-4679-b152-ac3c80470546
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: a8f1342c-7f6c-4679-b152-ac3c80470546
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
