@@ -1,40 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 00747e0d-ff47-4a94-9287-c64e1330918e
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: bed63982-5ce6-410e-b0cc-666f240221d5
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 0235287d-0d58-43c2-bd73-a6f2bda5b2bd
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇨🇦1 |  4.2MB/s
-  network: tcp
-  port: 58891
-  raw:
-    add: 91.194.11.162
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
-    net: tcp
-    path: ''
-    port: '58891'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 91.194.11.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇨🇦2 |  2.6MB/s
+  name: 2|🇨🇦1 |  2.7MB/s
   network: tcp
   port: 26113
   reality-opts:
@@ -47,7 +28,7 @@ proxies:
   uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
 - alterId: 0
   cipher: auto
-  name: 1|🇨🇦3 |  1.1MB/s
+  name: 2|🇨🇦2 |  2.4MB/s
   network: tcp
   port: 27699
   raw:
@@ -71,23 +52,9 @@ proxies:
   tls: false
   type: vmess
   uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- alterId: 2
-  cipher: auto
-  name: 1|🇨🇦4 |  2.5MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CA_speednode_0003
-  network: tcp
+  name: 14|CA_speednode_0003
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
@@ -99,10 +66,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 8084d5de-362d-4818-9b73-71d3e5c28c37
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
