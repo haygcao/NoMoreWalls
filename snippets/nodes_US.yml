@@ -1,61 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 13f7b999-e94b-4a73-9262-ad367df5ccc1
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 329fac00-464f-441a-b5f9-a060537a8faa
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 329fac00-464f-441a-b5f9-a060537a8faa
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 9a4fd2b3-52f1-4b5d-bfc2-b7e0df85c2c2
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 329fac00-464f-441a-b5f9-a060537a8faa
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 52db8db8-6f43-4783-bd07-761f166f8f45
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 52db8db8-6f43-4783-bd07-761f166f8f45
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 52db8db8-6f43-4783-bd07-761f166f8f45
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇺🇸3 |  5.7MB/s
+  network: ws
+  password: aTArbZ2F0E
+  port: 443
+  server: 172.66.168.209
+  sni: uSa-vp-27.bLAzECLOUD.SITE
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uSa-vp-27.bLAzECLOUD.SITE
+    path: /linkvkws
 - alterId: 0
   cipher: auto
-  name: 2,13|美国2|@ripaojiedian
+  name: 2|🇺🇸8 |  4.0MB/s
   network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 2|🇺🇸19 |  4.8MB/s
-  network: tcp
-  port: '5229'
+  port: 5229
   server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   skip-cert-verify: true
   tls: false
@@ -64,6 +65,28 @@ proxies:
   ws-headers:
     Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸10 |  3.0MB/s
+  network: ws
+  port: 8083
+  server: 69bd7056-sunz40-tazb7x-1t848.se.plebai.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6b795e40-e75d-11ef-b717-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 69bd7056-sunz40-tazb7x-1t848.se.plebai.net
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 2|🇺🇸11 |  3.8MB/s
+  network: tcp
+  port: '5229'
+  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
+  type: vmess
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -77,30 +100,65 @@ proxies:
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸16 |  5.5MB/s
-  network: tcp
-  port: 5229
-  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
+  name: 2|🇺🇸21 |  5.7MB/s
+  network: ws
+  port: 443
+  raw:
+    add: cloudgetservice.mcloudservice.site
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    id: 3cf58606-5f2a-4609-9abd-404f633bd7e0
+    net: ws
+    path: /linkws?ed=2560
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    tls: tls
+    type: ''
+    v: '2'
+  server: cloudgetservice.mcloudservice.site
+  servername: maXNEtVIP-usA-VP3.nETKH3.SiTE
+  tls: true
   type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-  ws-headers:
-    Host: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
-  ws-path: /
-- alterId: 0
+  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
+  ws-opts:
+    headers:
+      Host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    path: /linkws?ed=2560
+- alterId: '0'
   cipher: auto
-  name: 2|🇺🇸20 |  2.1MB/s
+  name: 2|🇺🇸24 |  3.5MB/s
   network: tcp
-  port: 5228
+  port: '5228'
   server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  ws-headers:
-    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 2|🇺🇸27 |  4.8MB/s
+  network: ws
+  port: '443'
+  server: cloudgetservice.mcloudservice.site
+  tls: true
+  type: vmess
+  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
+  ws-opts:
+    headers:
+      host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    path: /linkws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 2,13|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
