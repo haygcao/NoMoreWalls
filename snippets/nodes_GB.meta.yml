@@ -1,61 +1,67 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 37d7739a-448f-488d-a2b8-c225c54082c2
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 37d7739a-448f-488d-a2b8-c225c54082c2
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: ff7353e3-e414-471d-abf1-62e8ec949f2f
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: ff7353e3-e414-471d-abf1-62e8ec949f2f
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧1 |  3.2MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
+  flow: ''
+  mode: ''
+  name: 0|🇬🇧1 |  1.6MB/s
+  network: ws
+  port: 8443
+  server: 104.17.148.22
+  servername: MdLoXlYg.rIcKtMoUsE.InFo
   tls: true
   type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: MdLoXlYg.rIcKtMoUsE.InFo
+    path: /
+- client-fingerprint: chrome
+  delay: 2307
+  flow: xtls-rprx-vision
+  name: 0,13|CN_speednode_0029
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0045
+  name: 0,13|CN_speednode_0035
   network: tcp
-  port: 49699
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: csuzhou01.1cooldns.com
   servername: www.amazon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  delay: 2310
+  flow: xtls-rprx-vision
+  name: 0,13|CN_speednode_0031
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - flow: ''
   mode: ''
-  name: 2|🇬🇧3 |  5.1MB/s
+  name: 0|🇬🇧5 |  5.0MB/s
   network: ws
   port: 8443
   server: 104.17.147.22
@@ -68,127 +74,33 @@ proxies:
     headers:
       Host: MdLoXlYg.rIcKtMoUsE.InFo
     path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇬🇧4 |  2.3MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 188.114.97.3
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: linde06.indiavideo.sbs
-    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🏁 ZZ_364
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 188.114.97.3
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0035
+  name: 0|🇬🇧6 |  5.1MB/s
   network: tcp
-  port: 32055
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  skip-cert-verify: false
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- flow: ''
-  mode: ''
-  name: 2|🇬🇧6 |  5.7MB/s
-  network: ws
-  port: 443
-  server: ns4.esfahansiman.com
-  servername: WWW.pegAh-Esfahan.De.
-  tls: true
-  type: vless
-  udp: false
-  uuid: 54568d51-2365-4f1f-9367-0cf255c22d60
-  ws-opts:
-    headers:
-      Host: WWW.pegAh-Esfahan.De.
-    path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧7 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.25.140.153
-  servername: BPB-pANEL-En-1O0.pAges.DEV
-  tls: true
-  type: vless
-  udp: false
-  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
-  ws-opts:
-    headers:
-      Host: BPB-pANEL-En-1O0.pAges.DEV
-    path: /
-- client-fingerprint: chrome
-  delay: 2307
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0029
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 556fec82-5324-40b9-a8c8-3aebfc168588
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇬🇧9 |  2.6MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.179.199
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: linde06.indiavideo.sbs
-    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🇺🇸 US_309
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.179.199
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 556fec82-5324-40b9-a8c8-3aebfc168588
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -196,3 +108,10 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: f0091a8f-b8ea-411c-a7c9-58e277594b1a
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
