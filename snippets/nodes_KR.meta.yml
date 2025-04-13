@@ -1,32 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- country: 🇰🇷KR
-  delay: 2987
-  name: 1|🇰🇷1 |  2.7MB/s
-  password: d07ec566-018a-4a80-b3d3-b378fdead52c
-  port: 55215
-  server: shy23.zqjc.cloud
-  skip-cert-verify: false
-  sni: shy23.zqjc.cloud
-  type: hysteria2
-  udp: true
-- name: 1|🇰🇷2 |  5.8MB/s
+- name: 1|🇰🇷1 |  3.3MB/s
   network: ws
   port: 443
-  server: 198.62.62.156
+  server: 45.67.215.167
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -35,12 +25,12 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vb.ylka.dpdns.org
+      Host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷3 |  1.8MB/s
+- name: 1|🇰🇷2 |  4.7MB/s
   network: ws
   port: 443
-  server: wilson.ns.cloudflare.com
+  server: benedict.ns.cloudflare.com
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -49,12 +39,28 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vb.ylka.dpdns.org
+      Host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷4 |  1.3MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇰🇷3 |  5.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.210.186
+  servername: redfree8.pooriashop.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: Telegram@WangCai2/?ed
+- name: 1|🇰🇷4 |  4.6MB/s
   network: ws
   port: 443
-  server: 192.200.160.119
+  server: uriah.ns.cloudflare.com
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -63,11 +69,11 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vb.ylka.dpdns.org
+      Host: vb.ylka.dpdns.org
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷5 |  1.1MB/s
+  name: 1|🇰🇷5 |  1.8MB/s
   network: tcp
   port: 17232
   server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
@@ -78,10 +84,10 @@ proxies:
   ws-headers:
     Host: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   ws-path: /
-- name: 1|🇰🇷6 |  1.5MB/s
+- name: 1|🇰🇷6 |  4.4MB/s
   network: ws
   port: 443
-  server: 160.79.104.199
+  server: moura.ns.cloudflare.com
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -92,10 +98,117 @@ proxies:
     headers:
       host: vb.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷7 |  5.8MB/s
+- name: 1|🇰🇷7 |  5.5MB/s
   network: ws
   port: 443
-  server: sullivan.ns.cloudflare.com
+  server: 160.79.105.66
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷8 |  5.7MB/s
+  network: ws
+  port: 443
+  server: julio.ns.cloudflare.com
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷9 |  4.7MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.141
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- country: 🇰🇷KR
+  delay: 2987
+  name: 1|🇰🇷10 |  4.9MB/s
+  password: d07ec566-018a-4a80-b3d3-b378fdead52c
+  port: 55215
+  server: shy23.zqjc.cloud
+  skip-cert-verify: false
+  sni: shy23.zqjc.cloud
+  type: hysteria2
+  udp: true
+- name: 1|🇰🇷11 |  4.7MB/s
+  network: ws
+  port: 443
+  server: nikon.ns.cloudflare.com
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷12 |  3.3MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+  ws-headers:
+    Host: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  ws-path: /
+- name: 1|🇰🇷13 |  2.1MB/s
+  network: ws
+  port: 5006
+  server: 45.154.98.99
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷14 |  4.0MB/s
+  network: ws
+  port: 8443
+  server: 138.2.235.224
+  servername: vb.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷15 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.76
   servername: vb.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -132,14 +245,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

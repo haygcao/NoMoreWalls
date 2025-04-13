@@ -1,36 +1,76 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- auth: 073d062a-3170-4e8c-9123-aaa32155152d
-  name: 1|🇸🇬1 |  3.0MB/s
-  password: 073d062a-3170-4e8c-9123-aaa32155152d
-  port: 29831
-  server: 111.119.207.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬1 |  1.2MB/s
+  network: ws
+  port: 2096
+  server: 199.34.228.48
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬2 |  1.9MB/s
+  network: ws
+  port: 2096
+  server: 199.34.228.164
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬3 |  1.5MB/s
+  network: ws
+  port: 2096
+  server: 152.70.155.147
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
 - flow: none
   mode: ''
-  name: 1|🇸🇬2 |  1.5MB/s
+  name: 1|🇸🇬4 |  1.1MB/s
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -99,35 +139,7 @@ proxies:
   server: 54.255.246.167
   tfo: false
   type: ss
-- name: 13|SG_speednode_0052
-  network: ws
-  port: 8443
-  server: 27.50.49.230
-  servername: edccy.ambercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|SG_speednode_0053
-  network: ws
-  port: 8443
-  server: 92.243.74.239
-  servername: edccr.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccr.aimercc.filegear-sg.me
-    path: /
-- name: 13|SG_speednode_0054
+- name: 13|SG_speednode_0049
   network: ws
   port: 443
   server: 152.42.218.33
@@ -143,21 +155,21 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31175
   server: free.2apzhfa.xyz
   type: ss

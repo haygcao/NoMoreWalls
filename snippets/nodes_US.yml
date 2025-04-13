@@ -1,96 +1,63 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 618e7164-2583-4939-8a20-07c2b847c631
+  password: e92d81c5-8188-4fc2-a6a3-7d9302cbfc4d
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸1 |  1.7MB/s
-  network: tcp
-  port: 44491
-  server: 120.232.153.41
-  skip-cert-verify: true
+  name: 1|🇺🇸17 |  5.5MB/s
+  port: 5229
+  server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.232.153.41
-  ws-path: /
-- alterId: 0
+  uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
+- alterId: '2'
   cipher: auto
-  name: 1|🇺🇸21 |  2.9MB/s
+  name: 1|🇺🇸24 |  1.1MB/s
   network: ws
-  port: 8443
-  server: 156.238.18.68
-  servername: uswuxian.pai50288.uk
-  skip-cert-verify: true
-  tfo: false
-  tls: true
+  port: '30829'
+  server: v29.heduian.link
   type: vmess
-  udp: true
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: uswuxian.pai50288.uk
-    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
-- alterId: '0'
+      host: ocbc.com
+    path: /oooo
+- alterId: 2
   cipher: auto
-  name: 1|🇺🇸49 |  5.4MB/s
-  network: tcp
-  port: '5228'
-  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  skip-cert-verify: true
+  name: 1|🇺🇸31 |  5.6MB/s
+  network: ws
+  port: 1280
+  server: d5d99dc5-sunz40-sumf02-155d9.sv.plebai.net
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  ws-headers:
-    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸10 |  2.7MB/s
-  network: tcp
-  port: 48737
-  server: 185.189.32.179
-  type: vmess
-  uuid: 3680a006-d824-4574-90f3-21226dae6903
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇺🇸23 |  2.9MB/s
-  network: ws
-  port: 7612
-  server: cbe195c0-supts0-svp9t7-1oijm.lza.plebai.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
+  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
-      HOST: broadcastlv.chat.bilibili.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 1,11,12|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -104,83 +71,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸32 |  4.3MB/s
-  network: tcp
-  port: 5229
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  ws-headers:
-    Host: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸34 |  4.0MB/s
-  network: tcp
-  port: '5229'
-  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸40 |  1.9MB/s
-  network: tcp
-  port: '5229'
-  server: 20697491-supts0-t1rksu-1ssud.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  ws-headers:
-    Host: 20697491-supts0-t1rksu-1ssud.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇺🇸41 |  5.2MB/s
-  port: 5229
-  server: 42317099-supts0-sxw44d-1re2s.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸43 |  5.7MB/s
-  network: ws
-  port: '443'
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
-  ws-opts:
-    headers:
-      host: maXNEtVIP-usA-VP3.nETKH3.SiTE
-    path: /linkws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸45 |  5.6MB/s
-  network: ws
-  port: 7612
-  server: cbe195c0-supts0-svp9t7-1oijm.lza.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
-  ws-headers:
-    Host: broadcastlv.chat.bilibili.com
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸46 |  4.0MB/s
-  network: tcp
-  port: '5229'
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
@@ -212,7 +102,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+    host: 202504131296640-OW0JYD5Wra.download.microsoft.com
     mode: http
   port: 8775
   server: cn01.efan8867801.xyz
@@ -220,21 +110,21 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  password: 665e4d2e-9bd0-4e11-ae86-d21c973960d0
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
