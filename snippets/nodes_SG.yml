@@ -1,30 +1,23 @@
 proxies:
-- name: 0|🇸🇬2 |  3.8MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: hk39.work.gd
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 556fec82-5324-40b9-a8c8-3aebfc168588
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 618e7164-2583-4939-8a20-07c2b847c631
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 556fec82-5324-40b9-a8c8-3aebfc168588
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 618e7164-2583-4939-8a20-07c2b847c631
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 556fec82-5324-40b9-a8c8-3aebfc168588
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 618e7164-2583-4939-8a20-07c2b847c631
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -60,23 +53,23 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: f0091a8f-b8ea-411c-a7c9-58e277594b1a
-  port: 36171
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: f0091a8f-b8ea-411c-a7c9-58e277594b1a
-  port: 36173
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: f0091a8f-b8ea-411c-a7c9-58e277594b1a
-  port: 36175
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 3a76a48c-118a-41f7-ac0d-e14d6750baec
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
