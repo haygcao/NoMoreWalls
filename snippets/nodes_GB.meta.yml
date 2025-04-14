@@ -1,59 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 2310
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0031
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0035
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧3 |  5.2MB/s
-  network: ws
-  port: 8443
-  server: 104.17.147.22
-  servername: MdLoXlYg.rIcKtMoUsE.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: MdLoXlYg.rIcKtMoUsE.InFo
-    path: /
 - flow: ''
   mode: ''
-  name: 1|🇬🇧4 |  5.7MB/s
+  name: 2|🇬🇧1 |  5.5MB/s
   network: ws
   port: 8443
   server: 104.17.148.22
@@ -68,12 +16,12 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0045
+  name: 2,14|CN_speednode_0035
   network: tcp
-  port: 49699
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: csuzhou01.1cooldns.com
   servername: www.amazon.com
   skip-cert-verify: false
   tls: true
@@ -82,7 +30,38 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0029
+  mode: ''
+  name: 2|🇬🇧3 |  5.1MB/s
+  network: tcp
+  port: 32785
+  reality-opts:
+    public-key: K-rJkQX4Aix-0zxXbhxaZx2YcZmftmsMwybwpdGcpBU
+    short-id: ''
+  server: 18.169.158.249
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 0feab3e5-b30a-47f6-b4ce-65a23fd33856
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧4 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 104.16.209.110
+  servername: masaleini.mahsaamini.dpdns.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
+  ws-opts:
+    headers:
+      Host: masaleini.mahsaamini.dpdns.org
+    path: JOKERRVPNJoin_Bade_Channel@JOKERRVPN/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0029
   network: tcp
   port: 65053
   reality-opts:
@@ -94,20 +73,6 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 82747a32-0e0f-4296-be53-00a6fd66bded
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
