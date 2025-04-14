@@ -1,45 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰8 |  2.1MB/s
+  name: 2|🇭🇰4 |  1.6MB/s
   network: tcp
   port: 15229
-  server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   ws-headers:
-    Host: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
+    Host: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
   ws-path: /
+- name: 2|🇭🇰10 |  6.0MB/s
+  password: 7655935d-51f8-301f-8e5f-17d3e232bf28
+  port: 20278
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z278.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰16 |  2.6MB/s
+  port: 15229
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

@@ -1,78 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇸🇬1 |  5.9MB/s
-  network: ws
-  port: 2096
-  server: 162.120.94.90
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇸🇬2 |  1.1MB/s
-  network: ws
-  port: 2096
-  server: 199.34.228.171
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: /
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 2|🇸🇬1 |  1.2MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

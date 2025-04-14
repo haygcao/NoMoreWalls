@@ -1,53 +1,68 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 5f225e99-6e76-401d-94f0-7e372156691d
+  password: 5dd7d900-409d-4ae7-8197-c94c6629ef0c
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 2|🇩🇪1 |  5.0MB/s
-  network: tcp
-  password: 4467ae8518abf1ef321618c0bfb5549ccc
-  port: 60800
-  server: 130.61.173.105
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: 17783vless
+  mode: gun
+  name: 2|🇩🇪1 |  5.5MB/s
+  network: grpc
+  port: 1773
+  server: germany.khoreshtsabzi.ir
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
+- client-fingerprint: ''
   flow: ''
   mode: ''
   name: 2|🇩🇪2 |  1.9MB/s
-  network: tcp
-  port: 3037
-  reality-opts:
-    public-key: 91bCG1r8YkOBqn138sLf8099WoHAzdsxVr24UVSZJig
-    short-id: ''
-  server: de.headsetabad.ir
-  servername: refersion.com
+  network: ws
+  port: 2095
+  server: 173.245.59.100
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 2fb92a60-11ed-4490-a3a1-0afa2bbfa2eb
+  ws-opts:
+    headers:
+      Host: xpntEamfree.sockSchangert.ir.
+    path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048'
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
+  mode: gun
+  name: 2|🇩🇪3 |  2.7MB/s
+  network: grpc
+  port: 8443
+  server: crm.iranigamepars.ir
+  servername: Vpnmizban.iranigamepars.ir
   tls: true
   type: vless
   udp: false
-  uuid: 7f3e8830-70ce-4fa2-8185-e73baeb780a6
-  ws-opts:
-    headers:
-      Host: 'TELEGRAM : MARAMBASHI MARAMBASHI'
-    path: ''
+  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
 - client-fingerprint: chrome
   flow: ''
   grpc-opts:
     grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
   mode: ''
-  name: 2|🇩🇪3 |  1.2MB/s
+  name: 2|🇩🇪4 |  2.3MB/s
   network: grpc
   port: 8443
   server: 91.107.181.10
@@ -59,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  2.4MB/s
+  name: 2|🇩🇪5 |  3.1MB/s
   network: tcp
   port: 3037
   reality-opts:
@@ -75,44 +90,18 @@ proxies:
     headers:
       Host: 'TELEGRAM : MARAMBASHI MARAMBASHI'
     path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  2.1MB/s
-  network: tcp
-  port: 31904
-  server: 138.199.203.23
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 37e9ed0b-bde6-48ad-b837-9f19a5bbc80f
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: 17783vless
-  mode: gun
-  name: 2|🇩🇪6 |  2.9MB/s
-  network: grpc
-  port: 1773
-  server: germany.khoreshtsabzi.ir
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪7 |  1.2MB/s
+  delay: 2415
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0033
   network: tcp
-  port: 56214
+  port: 58031
   reality-opts:
-    public-key: PMSTWGkG5GBwCojgR5r-W0rV76SbgTHFzz47x_IuFgI
-    short-id: 1d66b8787c09bf57
-  server: 188.245.83.227
-  servername: stackoverflow.com
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: false
-  uuid: dbfde921-73a9-4475-94c0-f99c6c1cc2b9
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
