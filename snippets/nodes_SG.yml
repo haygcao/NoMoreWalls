@@ -1,48 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf
-  name: 2|🇸🇬1 |  6.2MB/s
+  name: 1|🇸🇬1 |  2.5MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8215
+  protocol: origin
+  protocol-param: ''
+  server: cn09.closeai.one
+  type: ssr
+- cipher: chacha20-ietf
+  name: 1|🇸🇬2 |  2.6MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
@@ -52,15 +41,36 @@ proxies:
   server: cn08.closeai.one
   type: ssr
 - cipher: chacha20-ietf
-  name: 2|🇸🇬3 |  6.1MB/s
+  name: 1|🇸🇬4 |  6.3MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
-  port: 8215
+  port: 8207
   protocol: origin
   protocol-param: ''
-  server: cn09.closeai.one
+  server: cn07.closeai.one
   type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian

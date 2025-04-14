@@ -1,21 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇨🇦1 |  1.6MB/s
+  name: 1|🇨🇦1 |  4.5MB/s
   network: tcp
   port: 16011
   reality-opts:
@@ -26,9 +19,31 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇨🇦2 |  3.2MB/s
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /57ba2ab1
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CA_speednode_0001
-  network: tcp
+  name: 14|CA_speednode_0001
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo

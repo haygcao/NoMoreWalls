@@ -1,35 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  password: 97f68f64-f148-4137-a272-0defe38a5f54
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: b77de874-b287-49a2-9ece-cabc7fb56d66
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧1 |  5.7MB/s
+  network: ws
+  port: 8443
+  server: 104.17.147.22
+  servername: MdLoXlYg.rIcKtMoUsE.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: MdLoXlYg.rIcKtMoUsE.InFo
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧2 |  5.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.208.125
+  servername: redfree8.pooriashop.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: Telegram@WangCai2/?ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0045
+  name: 1,14|CN_speednode_0045
   network: tcp
   port: 49699
   reality-opts:
@@ -41,9 +59,41 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧4 |  4.7MB/s
+  network: ws
+  port: 22222
+  server: 52.56.82.217
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧5 |  3.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.214
+  servername: redfree8.pooriashop.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: Telegram@WangCai2/?ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0035
+  name: 1,14|CN_speednode_0035
   network: tcp
   port: 32055
   reality-opts:
@@ -55,63 +105,32 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  6.2MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.90
-  servername: redfree8.pooriashop.ir
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: Telegram@WangCai2/?ed
-- flow: ''
-  mode: ''
-  name: 2|🇬🇧4 |  2.7MB/s
-  network: ws
-  port: 8443
-  server: 104.17.148.22
-  servername: MdLoXlYg.rIcKtMoUsE.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: MdLoXlYg.rIcKtMoUsE.InFo
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0029
+  name: 1|🇬🇧7 |  5.0MB/s
   network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧6 |  1.1MB/s
-  network: tcp
-  port: 47151
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou02.mysynology.net
-  servername: www.amazon.com
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
