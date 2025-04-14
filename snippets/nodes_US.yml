@@ -1,192 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 97f68f64-f148-4137-a272-0defe38a5f54
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸4 |  1.8MB/s
-  network: tcp
-  port: '5229'
-  server: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
-  type: vmess
-  uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
-- name: 1|🇺🇸5 |  5.3MB/s
-  password: 821b0ce0-b565-3b7c-917c-9a58a6de6358
-  port: 20304
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z304.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇺🇸9 |  2.0MB/s
-  port: 5228
-  server: 6912162d-surog0-tb016b-1m7l4.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸11 |  4.9MB/s
-  network: tcp
-  port: '5228'
-  server: b4fd1bd2-surog0-tc9wl2-py5w.cu.plebai.net
-  type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- name: 1|🇺🇸16 |  2.2MB/s
-  password: 821b0ce0-b565-3b7c-917c-9a58a6de6358
-  port: 20308
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z308.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸19 |  5.5MB/s
-  network: ws
-  port: 7612
-  server: ac9c2713-surog0-tb016b-1m7l4.lza.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: chacha20-ietf
-  name: 1|🇺🇸21 |  5.7MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8504
-  protocol: origin
-  protocol-param: ''
-  server: cn15.closeai.one
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸35 |  5.5MB/s
-  network: ws
-  port: 7612
-  raw:
-    add: 64.32.13.244
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-    net: ws
-    path: /
-    port: 7612
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 64.32.13.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: chacha20-ietf
-  name: 1|🇺🇸38 |  2.1MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8514
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸46 |  3.9MB/s
-  network: ws
-  port: 7612
-  server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
-  tls: false
-  type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸47 |  5.2MB/s
-  network: ws
-  port: 7612
-  server: f05013d4-surog0-svbm2l-1t8q3.lza.plebai.net
-  tls: false
-  type: vmess
-  uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: aes-128-cfb
-  name: 1|🇺🇸53 |  4.7MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: chacha20-ietf
-  name: 1|🇺🇸64 |  5.8MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8519
-  protocol: origin
-  protocol-param: ''
-  server: cn18.closeai.one
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: b4f9b7ab-4bef-4965-a9e9-bdc9545254d8
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- allowInsecure: ''
+  name: 2|🇺🇸6 |  2.3MB/s
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 172.67.210.210
+  skip-cert-verify: false
+  sni: sanjose02.852224.ggff.net
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸10 |  5.7MB/s
+  port: 5229
+  server: e7d11ca5-surog0-t26vr3-1likw.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

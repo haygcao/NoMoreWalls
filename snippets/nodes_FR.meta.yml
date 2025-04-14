@@ -1,99 +1,21 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|🇫🇷2 |  5.6MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.220.10
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: linja05.hwcar.sbs
-    id: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🇺🇸 US_318
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.220.10
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇫🇷3 |  1.5MB/s
-  network: ws
-  port: 2053
-  server: www.speedtest.net
-  servername: app25.appdatanewh.lat
+  delay: 2730
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0031
+  network: tcp
+  port: 40072
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: false
-  uuid: c2f690dc-6187-48a8-aa8b-b75d43d11df4
-  ws-opts:
-    headers:
-      Host: app25.appdatanewh.lat
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇫🇷4 |  3.0MB/s
-  network: ws
-  port: 8443
-  server: 172.67.204.84
-  servername: vip.hvitrin.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: fc33adbb-43c6-449a-aa46-c2fa7a50e2bd
-  ws-opts:
-    headers:
-      Host: vip.hvitrin.ir
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-- alterId: 0
-  cipher: auto
-  name: 1|🇫🇷6 |  3.4MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.220.83
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: linja05.hwcar.sbs
-    id: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-    net: ws
-    path: /linkws
-    port: 443
-    ps: 🇺🇸 US_288
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.220.83
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - auth: dongtaiwang.com
-  name: 1|🇫🇷7 |  4.4MB/s
+  name: 2|🇫🇷2 |  4.0MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
