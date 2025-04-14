@@ -1,36 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
+  password: 5f225e99-6e76-401d-94f0-7e372156691d
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪3 |  4.6MB/s
-  network: ws
-  port: 20051
-  raw:
-    add: 91.149.233.178
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: a8ca1114-9792-4c23-8c92-629e9e3b2d3a
-    net: ws
-    path: /
-    port: '20051'
-    ps: 🇩🇪 --001-1E
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 91.149.233.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8ca1114-9792-4c23-8c92-629e9e3b2d3a
-  ws-opts:
-    path: /
+- allowInsecure: '1'
+  name: 2|🇩🇪1 |  5.0MB/s
+  network: tcp
+  password: 4467ae8518abf1ef321618c0bfb5549ccc
+  port: 60800
+  server: 130.61.173.105
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: true
+  type: trojan

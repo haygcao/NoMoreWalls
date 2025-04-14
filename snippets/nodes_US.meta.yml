@@ -1,316 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: a53a9ea3-d56a-4656-8ff3-2c8bd065d4e9
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
+  password: 5f225e99-6e76-401d-94f0-7e372156691d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
+  password: 5f225e99-6e76-401d-94f0-7e372156691d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 050fd80b-c55b-4dcd-9874-0a30094a0f10
+  password: 5f225e99-6e76-401d-94f0-7e372156691d
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- flow: ''
-  mode: ''
-  name: 2|🇺🇸1 |  2.7MB/s
-  network: tcp
-  port: 443
-  server: 51.81.18.62
-  servername: 147135011033.sec21org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸2 |  4.9MB/s
-  network: ws
-  port: 80
-  server: 45.131.211.0
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: Join_Bade_Channel@JOKERRVPN /?ed=2560
-- flow: ''
-  mode: ''
-  name: 2|🇺🇸4 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 172.67.204.75
-  servername: sanjose-dy.818185.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  ws-opts:
-    headers:
-      Host: sanjose-dy.818185.xyz
-    path: /oLdow5owANhO1cThJQeJb
-- name: 2|🇺🇸5 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.140
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- allowInsecure: ''
-  name: 2|🇺🇸6 |  2.3MB/s
-  network: ws
-  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  port: 443
-  server: 172.67.210.210
-  skip-cert-verify: false
-  sni: sanjose02.852224.ggff.net
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sanjose02.852224.ggff.net
-    path: /T5yZBrY2Qkg2cThJQeJb
-- name: 2|🇺🇸7 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: 141.147.147.28
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0043
-  network: tcp
-  port: 64654
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇺🇸9 |  4.8MB/s
-  network: tcp
-  port: 40430
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸10 |  5.7MB/s
-  port: 5229
-  server: e7d11ca5-surog0-t26vr3-1likw.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0035
-  network: tcp
-  port: 50200
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇺🇸12 |  4.4MB/s
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 2|🇺🇸13 |  5.1MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.193
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vb.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇺🇸14 |  5.4MB/s
-  network: tcp
-  port: 46372
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇺🇸15 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.43
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  delay: 2540
-  name: 2|🇺🇸16 |  2.0MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  delay: 2121
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0026
-  network: tcp
-  port: 57926
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇺🇸18 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 135.84.76.110
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 2|🇺🇸19 |  5.5MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.163
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /ss.vs2024.us.kg
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 2|🇺🇸20 |  6.2MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇺🇸21 |  5.0MB/s
-  network: tcp
-  port: 27932
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇺🇸22 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.102
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇺🇸23 |  5.1MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- name: 2|🇺🇸24 |  1.2MB/s
+- name: 2|🇺🇸1 |  5.2MB/s
   network: ws
   port: 443
   server: 63.141.128.209
@@ -324,24 +55,10 @@ proxies:
     headers:
       host: vb.bgm2024.dpdns.org
     path: /ss.vs2024.us.kg
-- name: 2|🇺🇸25 |  2.7MB/s
+- name: 2|🇺🇸2 |  5.6MB/s
   network: ws
   port: 443
-  server: 141.147.185.63
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 2|🇺🇸26 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 45.67.215.117
+  server: 63.141.128.163
   servername: vb.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -352,6 +69,154 @@ proxies:
     headers:
       host: vb.bgm2024.dpdns.org
     path: /ss.vs2024.us.kg
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸3 |  4.7MB/s
+  network: tcp
+  port: 29023
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 2|🇺🇸4 |  4.5MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- name: 2|🇺🇸5 |  4.9MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.0
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 2|🇺🇸6 |  4.2MB/s
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 2|🇺🇸18 |  5.3MB/s
+  network: tcp
+  port: '5228'
+  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+- name: 2|🇺🇸8 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 135.84.76.110
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 2|🇺🇸9 |  5.6MB/s
+  network: ws
+  port: 8443
+  server: 141.147.147.28
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸10 |  4.7MB/s
+  port: 5229
+  server: e7d11ca5-surog0-t26vr3-1likw.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸11 |  5.4MB/s
+  network: tcp
+  port: 22054
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇺🇸12 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 63.141.128.102
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 2|🇺🇸13 |  5.9MB/s
+  network: ws
+  port: 30012
+  server: 220.118.248.123
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸14 |  5.8MB/s
+  network: tcp
+  port: 21578
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2,14|CN_speednode_0045
@@ -366,10 +231,10 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇺🇸28 |  1.5MB/s
+- name: 2|🇺🇸16 |  5.6MB/s
   network: ws
-  port: 30012
-  server: 220.118.248.123
+  port: 443
+  server: 212.183.88.193
   servername: vb.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -378,35 +243,33 @@ proxies:
   uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
+      Host: vb.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 2|🇺🇸17 |  5.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- flow: ''
   mode: ''
-  name: 2|🇺🇸29 |  1.7MB/s
-  network: ''
+  name: 2|🇺🇸19 |  4.8MB/s
+  network: tcp
   port: 443
-  server: 144.24.243.207
-  servername: 147135004002.sec20org.com
+  server: 51.81.18.62
+  servername: 147135011033.sec21org.com
   tls: true
   type: vless
   udp: false
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 2|🇺🇸30 |  5.2MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.0
-  servername: vb.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: vb.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 2|🇺🇸31 |  5.8MB/s
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- name: 2|🇺🇸20 |  5.7MB/s
   network: ws
   port: 443
   server: 63.141.128.193
@@ -420,7 +283,59 @@ proxies:
     headers:
       host: vb.bgm2024.dpdns.org
     path: /ss.vs2024.us.kg
-- name: 2|🇺🇸32 |  3.3MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸21 |  1.3MB/s
+  network: tcp
+  port: 46372
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇺🇸22 |  2.1MB/s
+  network: ws
+  port: 443
+  server: 63.141.128.140
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇺🇸23 |  1.0MB/s
+  network: tcp
+  port: 27932
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇺🇸24 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 212.183.88.43
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 2|🇺🇸25 |  4.1MB/s
   network: ws
   port: 443
   server: 212.183.88.136
@@ -434,6 +349,44 @@ proxies:
     headers:
       host: vb.bgm2024.dpdns.org
     path: /?ed=2560
+- fast-open: true
+  name: 2|🇺🇸26 |  4.5MB/s
+  password: dongtaiwang.com
+  port: 15544
+  server: 108.181.5.133
+  skip-cert-verify: true
+  sni: apple.com
+  tls: true
+  type: hysteria2
+  udp: true
+- name: 2|🇺🇸27 |  1.1MB/s
+  network: ws
+  port: 30012
+  server: 211.218.223.130
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: vb.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: 2|🇺🇸28 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 45.67.215.117
+  servername: vb.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: vb.bgm2024.dpdns.org
+    path: /ss.vs2024.us.kg
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
