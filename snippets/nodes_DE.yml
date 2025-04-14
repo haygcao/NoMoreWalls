@@ -1,21 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: fa7d51ac-2f10-4bb0-ba7c-b1e560ae100d
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 4e6943c0-de19-493b-bf7e-6cb56e6e7530
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 0d5981b6-f24d-4a09-9d68-7dfbf09f73d4
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 2|🇩🇪6 |  5.3MB/s
+  name: 1|🇩🇪9 |  5.1MB/s
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 193.108.119.230
   type: ss
+- allowInsecure: ''
+  name: 1|🇩🇪19 |  1.6MB/s
+  network: tcp
+  password: I46LpSIM1f
+  port: 1935
+  server: x4ger-ionos.devefun.net
+  skip-cert-verify: false
+  sni: x4ger-ionos.devefun.net
+  tls: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 82747a32-0e0f-4296-be53-00a6fd66bded
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
