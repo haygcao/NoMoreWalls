@@ -1,4 +1,30 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: b77de874-b287-49a2-9ece-cabc7fb56d66
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇨🇦1 |  1.6MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2,14|CA_speednode_0001
@@ -14,30 +40,3 @@ proxies:
   type: vless
   udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇨🇦2 |  3.0MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇨🇦3 |  1.6MB/s
-  network: tcp
-  port: 25169
-  reality-opts:
-    public-key: dsENmRfflPd-rO7ECg0AMZb3g0WjE8EevwZVbIEfdzM
-    short-id: ab507240
-  server: 158.69.121.75
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 7fdb3160-0840-4823-fae5-f39ead148300

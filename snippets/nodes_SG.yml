@@ -1,29 +1,48 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 2|🇸🇬1 |  1.7MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8215
-  protocol: origin
-  protocol-param: ''
-  server: cn09.closeai.one
-  type: ssr
-- name: 2|🇸🇬2 |  1.6MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: hk39.work.gd
-  type: trojan
-- cipher: aes-256-gcm
-  name: 2|🇸🇬5 |  5.5MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: fff38f40-4d13-45f4-b9f5-150b3486253c
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: b77de874-b287-49a2-9ece-cabc7fb56d66
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: b77de874-b287-49a2-9ece-cabc7fb56d66
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: b77de874-b287-49a2-9ece-cabc7fb56d66
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: chacha20-ietf
-  name: 2|🇸🇬6 |  4.6MB/s
+  name: 2|🇸🇬1 |  6.2MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
@@ -33,14 +52,14 @@ proxies:
   server: cn08.closeai.one
   type: ssr
 - cipher: chacha20-ietf
-  name: 2|🇸🇬7 |  6.3MB/s
+  name: 2|🇸🇬3 |  6.1MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
-  port: 8207
+  port: 8215
   protocol: origin
   protocol-param: ''
-  server: cn07.closeai.one
+  server: cn09.closeai.one
   type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
