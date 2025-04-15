@@ -1,18 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 3522b247-c55e-4033-b3d2-1414e08153f6
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 3522b247-c55e-4033-b3d2-1414e08153f6
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1,12|韩国|@ripaojiedian
+  network: tcp
+  port: '17232'
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -32,26 +46,16 @@ proxies:
   server: 54.249.151.205
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|韩国|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

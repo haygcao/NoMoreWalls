@@ -1,42 +1,53 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 3522b247-c55e-4033-b3d2-1414e08153f6
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 3522b247-c55e-4033-b3d2-1414e08153f6
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇰🇷1 |  1.9MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+- alterId: 0
+  cipher: auto
+  name: 1,12|韩国|@ripaojiedian
+  network: tcp
+  port: '17232'
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
 - country: 🇰🇷KR
-  name: 0|🇰🇷1 |  3.6MB/s
+  name: 1|🇰🇷4 |  5.2MB/s
   password: 867f512f-93d2-4344-853c-50965de9b103
   port: 55215
   server: shy23.zqjc.cloud
   skip-cert-verify: false
   sni: shy23.zqjc.cloud
   type: hysteria2
-  udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷2 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.161
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -57,26 +68,16 @@ proxies:
   server: 54.249.151.205
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|韩国|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
