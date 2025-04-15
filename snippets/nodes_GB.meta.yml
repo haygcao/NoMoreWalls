@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36271
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -27,48 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧2 |  2.5MB/s
-  network: ws
-  port: 443
-  server: 172.66.47.15
-  servername: GgGgr.PaGES.dEV
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
-  ws-opts:
-    headers:
-      Host: ggggr.pages.dev
-    path: /Telegram@proxy_mtm/?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧3 |  1.2MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 1|🇬🇧4 |  1.1MB/s
-  network: ws
-  port: 30836
-  server: v36.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
 - client-fingerprint: chrome
   delay: 2307
   flow: xtls-rprx-vision
@@ -85,17 +43,17 @@ proxies:
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf

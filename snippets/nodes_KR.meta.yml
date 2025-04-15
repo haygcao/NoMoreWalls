@@ -1,115 +1,114 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇰🇷1 |  6.0MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.109
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷2 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 185.16.110.111
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- flow: ''
-  mode: ''
-  name: 1|🇰🇷3 |  3.3MB/s
-  network: ws
-  port: 443
-  server: 104.21.48.1
-  servername: pSYcho.sUeX12.IR
-  tls: true
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: psycho.suex12.ir
-    path: /v9KENu5FqbFAtPFq?ed=2560
-- name: 1|🇰🇷4 |  1.9MB/s
-  network: ws
-  port: 443
-  server: www.udemy.com
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷5 |  5.6MB/s
-  network: ws
-  port: 443
-  server: huxley.ns.cloudflare.com
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷6 |  1.3MB/s
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
   port: 31313
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇰🇷1 |  2.1MB/s
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷2 |  1.5MB/s
+  network: ws
+  port: 443
+  server: kyree.ns.cloudflare.com
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷3 |  3.8MB/s
+  network: ws
+  port: 443
+  server: ipinfo.in
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷4 |  4.1MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.156
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷5 |  3.7MB/s
+  network: ws
+  port: 4010
+  server: 45.154.98.100
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 1,13|韩国|@ripaojiedian
+  network: tcp
+  port: '17232'
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -131,13 +130,3 @@ proxies:
   server: 54.249.151.205
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|韩国|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d

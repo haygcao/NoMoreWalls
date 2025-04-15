@@ -1,25 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36171
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36173
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
-  port: 36175
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 0f2343d4-a9b6-456d-98f9-2b63c88dbf0b
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬1 |  5.5MB/s
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: db33e70b-3769-474a-8d44-193159b64756
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,14|CN_speednode_0011
@@ -34,56 +50,41 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  delay: 2679
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0013
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 1,13|新加坡|@ripaojiedian
-  network: tcp
-  port: '23910'
-  server: hzz9.fgmcx.top
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬3 |  3.4MB/s
+  network: ws
+  port: 8080
+  server: 170.114.45.6
   servername: ''
   tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+  type: vless
+  udp: false
+  uuid: db33e70b-3769-474a-8d44-193159b64756
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬4 |  6.0MB/s
-  password: wUIFQcMM2K2VYdVz8GKyeE
-  port: 443
-  server: 13.212.90.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 691bb251-77a1-4135-a689-3805654a67ee
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
@@ -137,3 +138,13 @@ proxies:
   server: 57.180.253.62
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡|@ripaojiedian
+  network: tcp
+  port: '23910'
+  server: hzz9.fgmcx.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
