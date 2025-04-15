@@ -1,8 +1,29 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 93bd20cc-fb2a-4701-89b7-5834e6b963da
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡|@ripaojiedian
   port: 23910
   server: hzz9.fgmcx.top
   skip-cert-verify: false
@@ -12,7 +33,7 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 10|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
@@ -20,7 +41,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 10|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 57.180.253.62
@@ -28,7 +49,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|新加坡|@ripaojiedian
+  name: 12|新加坡|@ripaojiedian
   network: tcp
   port: '23910'
   server: hzz9.fgmcx.top
@@ -36,3 +57,24 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 49d53ea8-fb0e-4be5-8865-1e578d6b0a31
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
