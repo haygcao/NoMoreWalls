@@ -1,22 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 4fabaabf-4fdb-48b2-8f8e-f044a511b6be
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 4fabaabf-4fdb-48b2-8f8e-f044a511b6be
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇰🇷1 |  4.8MB/s
+- name: 0|🇰🇷1 |  3.0MB/s
   network: ws
   port: 443
-  server: comicabc.com
+  server: 185.133.35.242
   servername: vb.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -27,21 +13,7 @@ proxies:
     headers:
       host: vb.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷2 |  5.4MB/s
-  network: ws
-  port: 443
-  server: iplocation.io
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷3 |  4.7MB/s
+- name: 0|🇰🇷2 |  1.2MB/s
   network: ws
   port: 443
   server: 198.62.62.156
@@ -55,24 +27,39 @@ proxies:
     headers:
       host: vb.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷4 |  6.1MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 0|🇰🇷3 |  5.0MB/s
   network: ws
-  port: 443
-  server: ip.sb
-  servername: vb.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 45.131.4.161
+  servername: ''
+  tls: false
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      host: vb.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷5 |  1.3MB/s
+      Host: redfree8.pooriashop.ir
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇰🇷4 |  1.2MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+- name: 0|🇰🇷5 |  4.8MB/s
   network: ws
   port: 443
-  server: benedict.ns.cloudflare.com
+  server: craig.ns.cloudflare.com
   servername: vb.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -86,7 +73,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 10|🇰🇷 韩国|@ripaojiedian
   port: 17232
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   skip-cert-verify: false
@@ -96,7 +83,7 @@ proxies:
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 10|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.249.151.205
@@ -104,7 +91,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|韩国|@ripaojiedian
+  name: 11|韩国|@ripaojiedian
   network: tcp
   port: '17232'
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
@@ -112,17 +99,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 3de7142f-f691-4224-ae3e-1a7145596592
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 3de7142f-f691-4224-ae3e-1a7145596592
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
