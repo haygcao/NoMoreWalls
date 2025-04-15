@@ -1,79 +1,75 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 0b0f85cf-73f4-420b-bc1b-e3fa5a917af0
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 7e82b136-b853-43a5-bd54-635b574bd0da
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: ''
+- client-fingerprint: chrome
   flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  5.8MB/s
-  network: ws
-  port: 2053
-  server: 172.67.204.84
-  servername: all18.kikforwindows.com
+  grpc-opts:
+    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
+  mode: gun
+  name: 0|🇩🇪1 |  3.9MB/s
+  network: grpc
+  port: 8443
+  server: crm.iranigamepars.ir
+  servername: Vpnmizban.iranigamepars.ir
   tls: true
   type: vless
   udp: false
-  uuid: 99333609-167f-4750-ab63-34cfa27c723a
-  ws-opts:
-    headers:
-      Host: all18.kikforwindows.com
-    path: /containers/de
+  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.5MB/s
+  name: 0|🇩🇪2 |  3.0MB/s
   network: ws
-  port: 22222
-  server: 3.121.65.203
-  servername: telegram-channel-vlessconfig.sohala.uk
-  tls: true
-  type: vless
-  udp: false
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    headers:
-      Host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  1.9MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 27a778d4-543e-43f5-85a2-6acf18821ccb
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.6MB/s
-  network: ws
-  port: 2082
-  server: 104.17.148.22
+  port: 8880
+  server: website.amin-app.ir
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 84854813-6a9c-43c4-e941-4700f7cd9e2e
+  uuid: 1e4ccb23-7360-4842-b85c-5207e1add36d
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 0|🇩🇪3 |  3.7MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e092af45-5038-39e5-a446-2d3362a6980b
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
+- client-fingerprint: chrome
+  delay: 2415
+  flow: xtls-rprx-vision
+  name: 0,13|CN_speednode_0033
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: d535ac39-116c-499c-aa85-0d1f484f66a6
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 525db518-5cd6-49e5-9a79-f850368f2010
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
