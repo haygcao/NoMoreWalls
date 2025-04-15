@@ -1,14 +1,68 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 82abe71f-189c-401f-ab44-04b117ce3554
+  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 1|🇨🇦1 |  2.6MB/s
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦3 |  3.3MB/s
+  network: ws
+  port: 4010
+  server: 45.154.98.100
+  servername: vb.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vb.ylks0033.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇨🇦4 |  3.5MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 2137d650-e424-4d1a-a610-135b485b914b
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

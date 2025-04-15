@@ -1,28 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 82abe71f-189c-401f-ab44-04b117ce3554
+  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 82abe71f-189c-401f-ab44-04b117ce3554
+  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 1|🇬🇧4 |  1.1MB/s
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 2137d650-e424-4d1a-a610-135b485b914b
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 2137d650-e424-4d1a-a610-135b485b914b
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
   port: 31271
   server: free.2apzhfa.xyz
   type: ss

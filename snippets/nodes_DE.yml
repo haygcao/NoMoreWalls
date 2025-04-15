@@ -1,45 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 82abe71f-189c-401f-ab44-04b117ce3554
+  password: 0ea695c0-ed91-4393-ad57-e6c8cef57fc9
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 2137d650-e424-4d1a-a610-135b485b914b
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 2c612590-69f0-4d27-a7fc-58d1af39d4cf
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪1 |  5.8MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 172.67.71.217
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: 1t3chx0.zed23.web1337.net
-    id: 9072d339-3885-4fe1-b0bc-29fa7505410e
-    net: ws
-    path: /fixedfloati.cfd/linkwsd
-    port: 443
-    ps: 🇺🇸 US_302
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
-  server: 172.67.71.217
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
-  ws-opts:
-    headers:
-      Host: 1t3chx0.zed23.web1337.net
-    path: /fixedfloati.cfd/linkwsd
