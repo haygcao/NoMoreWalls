@@ -1,45 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|🇫🇷8 |  3.0MB/s
-  network: tcp
-  port: 17235
-  server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-  ws-headers:
-    Host: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
-  ws-path: /
-- auth: dongtaiwang.com
-  name: 1|🇫🇷2 |  5.2MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
   grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  mode: gun
-  name: 1|🇫🇷3 |  1.7MB/s
+    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
+  mode: ''
+  name: 2|🇫🇷1 |  3.0MB/s
   network: grpc
-  port: 2030
+  port: 1210
   reality-opts:
     public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
     short-id: 7fe29733
-  server: ns6.esfahansiman.com
-  servername: refersion.com
+  server: 141.227.140.216
+  servername: ubuntu.com
   tls: true
   type: vless
   udp: false
   uuid: 3b0ab43c-0e04-4891-931c-165cdf2be9c8
 - alterId: '0'
   cipher: auto
-  name: 1|🇫🇷7 |  2.9MB/s
+  name: 2|🇫🇷6 |  1.6MB/s
   network: tcp
   port: '17235'
   server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
@@ -51,24 +30,38 @@ proxies:
     Host: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
   ws-path: /
 - client-fingerprint: chrome
-  delay: 1514
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0031
-  network: tcp
-  port: 40072
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
+  flow: ''
+  mode: ''
+  name: 2|🇫🇷3 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 190.93.245.137
+  servername: WWW.EsfahAnsimaN.infO.
   tls: true
   type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 3b0ab43c-0e04-4891-931c-165cdf2be9c8
+  ws-opts:
+    headers:
+      Host: WWW.EsfahAnsimaN.infO.
+    path: TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
+- alterId: 0
+  cipher: auto
+  name: 2|🇫🇷4 |  2.6MB/s
+  network: tcp
+  port: 17235
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  ws-headers:
+    Host: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
+  ws-path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇫🇷6 |  1.4MB/s
+  name: 2|🇫🇷5 |  6.0MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
@@ -81,25 +74,44 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s28.elitemizban.ir
     path: ''
+- alterId: '0'
+  cipher: auto
+  name: 2|🇫🇷8 |  2.1MB/s
+  network: tcp
+  port: '17235'
+  server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  ws-headers:
+    Host: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
+  ws-path: /
 - client-fingerprint: ''
   flow: ''
+  grpc-opts:
+    grpc-service-name: DarkTeam_VPN
   mode: ''
-  name: 1|🇫🇷9 |  1.8MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir
-  tls: true
+  name: 2|🇫🇷9 |  2.3MB/s
+  network: grpc
+  port: 19356
+  server: darkteam.vipt-t.info
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: 27a778d4-543e-43f5-85a2-6acf18821ccb
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s26.elitemizban.ir
-    path: ''
+  uuid: df681322-6cfb-4ed1-9571-de0e88d7c888
+- auth: dongtaiwang.com
+  name: 2|🇫🇷10 |  4.7MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇫🇷 法国|@ripaojiedian
+  name: 12|🇫🇷 法国|@ripaojiedian
   password: be443689-bc64-49ff-85a5-8eecaa2235d3
   port: 41068
   server: zz5.fgmcx.top

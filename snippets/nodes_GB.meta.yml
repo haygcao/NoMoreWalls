@@ -1,29 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 15e6a4ed-3c41-4844-abe9-96a97b32c68e
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 3522b247-c55e-4033-b3d2-1414e08153f6
+  password: 15e6a4ed-3c41-4844-abe9-96a97b32c68e
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  delay: 2687
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0030
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 2444224f-3c75-444f-a421-1d706ae187a6
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 2444224f-3c75-444f-a421-1d706ae187a6
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧1 |  1.8MB/s
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8.pooriashop.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /join---MTMVPN---join?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0044
+  name: 2,14|CN_speednode_0044
   network: tcp
   port: 49699
   reality-opts:
@@ -40,43 +62,31 @@ proxies:
   grpc-opts:
     grpc-service-name: DarkTeam_VPN
   mode: ''
-  name: 1|🇬🇧3 |  4.5MB/s
+  name: 2|🇬🇧3 |  5.1MB/s
   network: grpc
   port: 13039
-  server: 198.244.193.109
+  server: uk.darkteam.vipt-t.info
   servername: ''
   tls: false
   type: vless
   udp: false
   uuid: 9db9cb88-d722-459d-8241-fd1d6d8f9688
 - client-fingerprint: chrome
+  delay: 2687
   flow: xtls-rprx-vision
-  name: 1|🇬🇧4 |  2.0MB/s
+  name: 2,14|CN_speednode_0030
   network: tcp
-  port: 35311
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  delay: 1679
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0028
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -84,17 +94,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 49349a6c-15d6-4fc9-bb2c-745bb03c709f
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
