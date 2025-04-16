@@ -1,6 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 2|🇨🇭1 |  5.1MB/s
+  client-fingerprint: chrome
+  name: 2|🇨🇭2 |  2.8MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 178.209.50.206

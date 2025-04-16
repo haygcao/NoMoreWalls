@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -44,23 +44,7 @@ proxies:
 - client-fingerprint: ''
   flow: none
   mode: ''
-  name: 2|🇸🇬1 |  5.6MB/s
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
-  ws-opts:
-    headers:
-      Host: free.server.techsonicpremium.shop
-    path: '%2Ffree.server.techsonicpremium.shop'
-- client-fingerprint: ''
-  flow: none
-  mode: ''
-  name: 2|🇸🇬2 |  6.0MB/s
+  name: 2|🇸🇬1 |  5.4MB/s
   network: ws
   port: 80
   server: support.zoom.us

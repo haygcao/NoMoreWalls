@@ -1,38 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰6 |  2.4MB/s
-  password: 75471eea-5435-4255-b6c3-ea97cbd5682a
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

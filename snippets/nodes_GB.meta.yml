@@ -1,80 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  1.8MB/s
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: redfree8.pooriashop.ir
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: /join---MTMVPN---join?ed=2560
 - client-fingerprint: chrome
+  delay: 1679
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0044
+  name: 2,14|CN_speednode_0028
   network: tcp
-  port: 49699
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: beiyong.dynuddns.net
   servername: www.amazon.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: DarkTeam_VPN
-  mode: ''
-  name: 2|🇬🇧3 |  5.1MB/s
-  network: grpc
-  port: 13039
-  server: uk.darkteam.vipt-t.info
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 9db9cb88-d722-459d-8241-fd1d6d8f9688
 - client-fingerprint: chrome
-  delay: 2687
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0030
+  name: 2|🇬🇧2 |  4.5MB/s
   network: tcp
-  port: 14659
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0034
+  network: tcp
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
+  servername: www.amazon.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

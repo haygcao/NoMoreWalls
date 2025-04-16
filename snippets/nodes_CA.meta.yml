@@ -1,32 +1,142 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
+  password: 781d9351-648c-4590-9058-9a29c873cb12
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 6e470d24-4a6e-484d-85eb-e786a0939460
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: ''
-  name: 2|🇨🇦1 |  1.4MB/s
+- name: 2|🇨🇦1 |  5.4MB/s
   network: ws
-  password: '!!str 123456'
-  port: 8443
-  server: 192.65.217.53
-  skip-cert-verify: false
-  sni: top-azx.pages.dev
+  port: 443
+  server: huxley.ns.cloudflare.com
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: top-azx.pages.dev
-    path: /Az1.vpn.33.TOP/?ed=2560
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦3 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.162
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦4 |  4.6MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.77
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦5 |  1.2MB/s
+  network: ws
+  port: 443
+  server: braden.ns.cloudflare.com
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇨🇦6 |  4.9MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇨🇦7 |  6.2MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.142
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦8 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 192.9.139.160
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇨🇦9 |  4.2MB/s
+  network: ws
+  port: 50000
+  server: 59.2.75.64
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0001
