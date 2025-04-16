@@ -1,62 +1,75 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: none
-  mode: ''
-  name: 2|🇸🇬1 |  5.5MB/s
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: ''
-  tls: false
+- client-fingerprint: chrome
+  delay: 1241
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0013
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
   type: vless
-  udp: false
-  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
-  ws-opts:
-    headers:
-      Host: free.server.techsonicpremium.shop
-    path: '%2Ffree.server.techsonicpremium.shop'
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0011
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

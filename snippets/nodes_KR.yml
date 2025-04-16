@@ -1,32 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 02 | 1x KR
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇰🇷1 |  1.7MB/s
+  network: tcp
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

@@ -1,48 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
+  password: 5c883803-c468-4905-a895-9fc798c3eebe
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
+  password: fe454500-867f-4be0-a0c8-446b64067866
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  5.5MB/s
-  network: tcp
-  port: 2078
-  server: 116.203.136.232
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 5528489a-c548-481f-b558-8c7a8a0b6448
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: 17783vless
-  mode: ''
-  name: 2|🇩🇪2 |  2.0MB/s
-  network: grpc
-  port: 1773
-  server: 206.189.63.23
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  4.8MB/s
+  name: 2|🇩🇪1 |  5.5MB/s
   network: tcp
   port: 59231
   reality-opts:
@@ -57,18 +31,46 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  5.5MB/s
-  network: tcp
-  port: 56214
-  reality-opts:
-    public-key: PMSTWGkG5GBwCojgR5r-W0rV76SbgTHFzz47x_IuFgI
-    short-id: 1d66b8787c09bf57
-  server: 188.245.83.227
-  servername: stackoverflow.com
+  name: 2|🇩🇪2 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 172.67.204.84
+  servername: cr777.medicaldream.ir
   tls: true
   type: vless
   udp: false
-  uuid: dbfde921-73a9-4475-94c0-f99c6c1cc2b9
+  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
+  ws-opts:
+    headers:
+      Host: cr777.medicaldream.ir
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪3 |  3.5MB/s
+  network: tcp
+  port: 59231
+  reality-opts:
+    public-key: 5EjR9Rf2goHc61gMX_quGy54tGSgHAbBfPBJIImCCCI
+    short-id: ''
+  server: 91.107.167.61
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: b8bfb94d-1452-4710-81ea-688be73fbf23
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  4.3MB/s
+  network: tcp
+  port: 2078
+  server: 116.203.136.232
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 5528489a-c548-481f-b558-8c7a8a0b6448
 - client-fingerprint: chrome
   delay: 1744
   flow: xtls-rprx-vision
@@ -84,50 +86,3 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  5.7MB/s
-  network: ws
-  port: 8443
-  server: 5.75.200.153
-  servername: zhra.filmekade.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
-  ws-opts:
-    headers:
-      Host: zhra.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪7 |  3.2MB/s
-  network: tcp
-  port: 59231
-  reality-opts:
-    public-key: 5EjR9Rf2goHc61gMX_quGy54tGSgHAbBfPBJIImCCCI
-    short-id: ''
-  server: 91.107.167.61
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b8bfb94d-1452-4710-81ea-688be73fbf23
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  5.6MB/s
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1577aa3c-3665-4dc4-8e1c-9d87f7aace81
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
