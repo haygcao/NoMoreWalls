@@ -1,31 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 02 | 1x KR
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
   port: 36313
   server: free.2weradf.xyz
   type: ss
+  udp: true
+- name: 2|🇰🇷1 |  6.4MB/s
+  password: e3b30d36-6036-3473-8a1b-453a21eaf7b5
+  port: 50355
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z264.hongkongnode.top
+  tfo: true
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto

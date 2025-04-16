@@ -1,67 +1,77 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0031
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  skip-cert-verify: false
+- flow: ''
+  mode: ''
+  name: 2|🇬🇧1 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 108.162.196.159
+  servername: cr7777.rayan.dpdns.org
   tls: true
   type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
+  ws-opts:
+    headers:
+      Host: cr7777.rayan.dpdns.org
+    path: /?ed=2560flow=-udp443flow=-udp443
 - client-fingerprint: chrome
-  delay: 2687
+  delay: 1679
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0027
+  name: 2,14|CN_speednode_0025
   network: tcp
-  port: 14659
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧3 |  2.8MB/s
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.varzesh360.co
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇬🇧3 |  1.1MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2,14|CN_speednode_0039
@@ -76,22 +86,6 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧5 |  5.7MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.161
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: ''
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
