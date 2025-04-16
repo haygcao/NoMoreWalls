@@ -1,33 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
+  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇨🇦1 |  3.1MB/s
+  name: 2|🇨🇦1 |  5.3MB/s
   network: tcp
-  port: 26113
+  port: 16011
   reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  server: 132.145.108.102
-  servername: www.yahoo.com
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
   tls: true
   type: vless
-  udp: false
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0001

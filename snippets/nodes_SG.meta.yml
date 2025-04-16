@@ -1,108 +1,62 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
+  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
+  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
+  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  5.7MB/s
-  password: e3b30d36-6036-3473-8a1b-453a21eaf7b5
-  port: 17806
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x65.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇸🇬2 |  6.2MB/s
+- client-fingerprint: ''
+  flow: none
+  mode: ''
+  name: 2|🇸🇬1 |  5.5MB/s
   network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
+  port: 80
+  server: 170.114.45.6
+  servername: ''
   tls: false
-  type: vmess
-  udp: true
-  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
+  type: vless
+  udp: false
+  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬3 |  3.6MB/s
-  network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-gcm
-  name: 2|🇸🇬4 |  6.1MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  type: ss
-- cipher: aes-256-gcm
-  name: 2|🇸🇬5 |  6.2MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0011
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+      Host: free.server.techsonicpremium.shop
+    path: '%2Ffree.server.techsonicpremium.shop'
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

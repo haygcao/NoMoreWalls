@@ -1,138 +1,74 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 554c7347-ee53-410e-afbb-2cfd90a0b075
+  password: 351a9a70-4c68-4740-8f2d-dc44ff5c842a
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: 1b1b95bb-43b4-46b8-aadd-9b453144d4f3
+  password: f5e2adf2-2cac-4c28-b5fd-7ad0236e340a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
-  grpc-opts:
-    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
-  mode: gun
-  name: 2|🇩🇪1 |  3.9MB/s
-  network: grpc
-  port: 8443
-  server: crm.iranigamepars.ir
-  servername: Vpnmizban.iranigamepars.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
-- flow: ''
-  grpc-opts:
-    grpc-service-name: V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban----V2RayMizban
   mode: ''
-  name: 2|🇩🇪2 |  5.5MB/s
-  network: grpc
-  port: 8443
-  server: 91.107.181.10
-  servername: Vpnmizban.iranigamepars.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 3e509f62-56ef-479f-a884-e74aea5b89e1
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪3 |  5.3MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.8MB/s
-  network: ws
-  port: 443
-  server: mw12.asalemaraghe.ir
-  servername: mw12.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
-  ws-opts:
-    headers:
-      Host: mw12.asalemaraghe.ir
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  3.8MB/s
+  name: 2|🇩🇪1 |  5.5MB/s
   network: tcp
-  port: 59574
+  port: 2078
+  server: 116.203.136.232
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 5528489a-c548-481f-b558-8c7a8a0b6448
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: 17783vless
+  mode: ''
+  name: 2|🇩🇪2 |  2.0MB/s
+  network: grpc
+  port: 1773
+  server: 206.189.63.23
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪3 |  4.8MB/s
+  network: tcp
+  port: 59231
   reality-opts:
-    public-key: EuBpQwRTkwQTX1-Aty_DvdUg6PJnpvhbRENuBbUgHBQ
+    public-key: 5EjR9Rf2goHc61gMX_quGy54tGSgHAbBfPBJIImCCCI
     short-id: ''
-  server: 91.107.167.61
+  server: falk.headsetabad.ir
   servername: refersion.com
   tls: true
   type: vless
   udp: false
-  uuid: f626e2f0-eea1-411c-9f06-cae4a056d26b
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪6 |  2.8MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- client-fingerprint: ''
+  uuid: b8bfb94d-1452-4710-81ea-688be73fbf23
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  5.8MB/s
-  network: ws
-  port: 8880
-  server: 46.254.93.124
-  servername: ''
-  tls: false
+  name: 2|🇩🇪4 |  5.5MB/s
+  network: tcp
+  port: 56214
+  reality-opts:
+    public-key: PMSTWGkG5GBwCojgR5r-W0rV76SbgTHFzz47x_IuFgI
+    short-id: 1d66b8787c09bf57
+  server: 188.245.83.227
+  servername: stackoverflow.com
+  tls: true
   type: vless
   udp: false
-  uuid: 379a7f53-fddf-460f-8a62-52330c0d9cf5
-  ws-opts:
-    headers:
-      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
-    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  5.4MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: cfd68b2f-f4cd-4534-83b3-3ecd607705cc
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  uuid: dbfde921-73a9-4475-94c0-f99c6c1cc2b9
 - client-fingerprint: chrome
   delay: 1744
   flow: xtls-rprx-vision
@@ -148,3 +84,50 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪6 |  5.7MB/s
+  network: ws
+  port: 8443
+  server: 5.75.200.153
+  servername: zhra.filmekade.ru
+  tls: true
+  type: vless
+  udp: false
+  uuid: 81a015fd-c9b2-4953-81d8-9cdbf58a1b28
+  ws-opts:
+    headers:
+      Host: zhra.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪7 |  3.2MB/s
+  network: tcp
+  port: 59231
+  reality-opts:
+    public-key: 5EjR9Rf2goHc61gMX_quGy54tGSgHAbBfPBJIImCCCI
+    short-id: ''
+  server: 91.107.167.61
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: b8bfb94d-1452-4710-81ea-688be73fbf23
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  5.6MB/s
+  network: ws
+  port: 2082
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 1577aa3c-3665-4dc4-8e1c-9d87f7aace81
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
