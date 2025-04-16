@@ -1,56 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇨🇭1 |  5.2MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 178.209.50.206
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇨🇭2 |  4.8MB/s
+  name: 2,14|CH_speednode_0004
   network: tcp
-  port: 6718
-  reality-opts:
-    public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
-    short-id: d6d54c08fbbf895f
-  server: 37.156.46.65
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇨🇭3 |  3.4MB/s
-  network: tcp
-  port: 6718
-  reality-opts:
-    public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
-    short-id: d6d54c08fbbf895f
-  server: mehamboz.darkping.net
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: ce9e7012-01c3-b64b-3d4c-02bb237ae098
-- allowInsecure: ''
-  name: 2|🇨🇭4 |  3.6MB/s
-  network: tcp
-  password: 20bc0771-1fde-45ee-8052-3c26249c43dc
-  port: 34865
-  server: 141.148.158.215
-  skip-cert-verify: false
-  sni: zurich.678789.xyz
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|CH_speednode_0002
   port: 443
-  server: yapc-1.afshin.ir
+  server: 152.67.68.116
   servername: yapc-1.afshin.ir
   skip-cert-verify: false
   tls: true
@@ -59,9 +13,9 @@ proxies:
   uuid: 7c317161-5cf8-4cbc-811a-d1297c41bb23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CH_speednode_0004
+  name: 14|CH_speednode_0002
   port: 443
-  server: 152.67.68.116
+  server: yapc-1.afshin.ir
   servername: yapc-1.afshin.ir
   skip-cert-verify: false
   tls: true
