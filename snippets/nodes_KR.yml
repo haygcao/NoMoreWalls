@@ -1,45 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
+  password: c8445d05-f8eb-4753-a2d2-67eba7061480
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
+  password: c8445d05-f8eb-4753-a2d2-67eba7061480
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
+- name: 1|🇰🇷6 |  1.6MB/s
+  network: ws
+  password: amclubs
+  port: 2096
+  server: 156.238.19.69
+  skip-cert-verify: true
+  sni: tran.amclubstest.nyc.mn
+  tfo: false
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇰🇷2 |  3.8MB/s
-  port: 17232
-  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: tran.amclubstest.nyc.mn
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.182.9.120
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 5437bdf1-ac8c-445e-b8c2-2a20044ebc85
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: 5437bdf1-ac8c-445e-b8c2-2a20044ebc85
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
