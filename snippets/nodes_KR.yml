@@ -1,51 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: c8445d05-f8eb-4753-a2d2-67eba7061480
+  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: c8445d05-f8eb-4753-a2d2-67eba7061480
+  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷6 |  1.6MB/s
-  network: ws
-  password: amclubs
-  port: 2096
-  server: 156.238.19.69
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷1 |  1.3MB/s
+  network: tcp
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   skip-cert-verify: true
-  sni: tran.amclubstest.nyc.mn
-  tfo: false
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
+- name: 1|🇰🇷2 |  6.2MB/s
+  password: 28f6cde4-a129-3a08-997e-dbfee628adf0
+  port: 50355
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z264.hongkongnode.top
+  tfo: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tran.amclubstest.nyc.mn
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.182.9.120
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷3 |  1.1MB/s
+  port: 17232
+  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 5437bdf1-ac8c-445e-b8c2-2a20044ebc85
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 5437bdf1-ac8c-445e-b8c2-2a20044ebc85
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.9.120
+  tfo: false
+  type: ss
