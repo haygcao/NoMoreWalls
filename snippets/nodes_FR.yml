@@ -1,30 +1,9 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 2|🇫🇷2 |  4.1MB/s
-  network: tcp
-  port: '17235'
-  server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
-  ws-headers:
-    Host: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 2|🇫🇷3 |  1.6MB/s
+  name: 2|🇫🇷3 |  2.8MB/s
   port: 17235
   server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇫🇷 法国|@ripaojiedian
-  password: be443689-bc64-49ff-85a5-8eecaa2235d3
-  port: 41068
-  server: zz5.fgmcx.top
-  tfo: false
-  type: ss

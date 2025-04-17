@@ -1,73 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 02 | 1x KR
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇰🇷1 |  1.7MB/s
-  network: tcp
+  name: 2|🇰🇷2 |  3.8MB/s
   port: 17232
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  skip-cert-verify: true
+  server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-headers:
-    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
-  port: 17232
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.34.192.249
+  server: 18.182.9.120
   tfo: false
   type: ss
-- name: 13|韩国|@ripaojiedian
-  network: ws
-  password: ji0612uenfs
-  port: 50004
-  server: 110.9.4.54
-  skip-cert-verify: true
-  sni: ji0612e.nfjunka.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ji0612e.nfjunka.xyz
-    path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'

@@ -1,49 +1,99 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0007
+  name: 2,14|CN_speednode_0015
+  network: tcp
+  port: 13263
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇹🇼2 |  6.3MB/s
+  password: 654a1226-9f17-350a-914a-14328af25e2f
+  port: 21247
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x91.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼3 |  6.1MB/s
+  network: tcp
+  port: 12477
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇹🇼4 |  6.1MB/s
+  network: ws
+  port: 443
+  server: 162.247.5.91
+  servername: tw.qhahd.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06a323c7-bf9f-4fc4-a230-f2eab27fa1ae
+  ws-opts:
+    headers:
+      Host: tw.qhahd.shop
+    path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0006
   network: tcp
   port: 47531
   reality-opts:
@@ -57,33 +107,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼2 |  6.1MB/s
+  name: 2|🇹🇼6 |  6.2MB/s
   network: tcp
-  port: 12477
+  port: 15700
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: zhee01.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0017
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇹🇼4 |  5.4MB/s
+  name: 2|🇹🇼7 |  6.1MB/s
   network: tcp
   port: 15823
   reality-opts:
@@ -93,10 +129,18 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: OP8PXXDOW0GFSBO2
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 46005
   server: fadawtawd.zhangwei.li
@@ -111,7 +155,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 13|台湾2|@ripaojiedian
   network: ws
   port: '46005'
   server: fadawtawd.zhangwei.li

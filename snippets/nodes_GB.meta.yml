@@ -1,103 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: a75f1fd0-f802-4bfa-b891-22b6723819e3
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: 01840c4c-105c-4cce-8a14-db9efeaf034c
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  1.6MB/s
-  network: ws
-  port: 443
-  server: 104.16.189.41
-  servername: cr7.traneh.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-  ws-opts:
-    headers:
-      Host: cr7.traneh.dpdns.org
-    path: sinavm-sinavm/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0039
+  name: 2|🇬🇧1 |  4.9MB/s
   network: tcp
-  port: 49699
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  skip-cert-verify: false
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: '2'
-  cipher: auto
-  name: 2|🇬🇧3 |  1.1MB/s
-  network: ws
-  port: '30836'
-  server: v36.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
-- client-fingerprint: chrome
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧4 |  2.7MB/s
-  network: tcp
-  port: 50156
-  reality-opts:
-    public-key: mXoYA71X3faWTOW2FF0-oCrvLcfP1VHo9T44awgiKBk
-    short-id: f8d21b62b1
-  server: 54.37.7.94
-  servername: snapp.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: bc1e59fd-08c4-4662-89a8-21bc5554ecec
-- flow: ''
-  mode: ''
-  name: 2|🇬🇧5 |  5.5MB/s
+  name: 2|🇬🇧2 |  5.0MB/s
   network: ws
   port: 443
-  server: 104.16.186.41
-  servername: cr7.traneh.dpdns.org
+  server: 104.19.77.118
+  servername: cr777.rayan.dpdns.org
   tls: true
   type: vless
   udp: false
-  uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
+  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
   ws-opts:
     headers:
-      Host: cr7.traneh.dpdns.org
-    path: sinavm-sinavm/?ed=2560
+      Host: cr777.rayan.dpdns.org
+    path: sinavm-sinavm/?ed=2560flow=-udp443
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
