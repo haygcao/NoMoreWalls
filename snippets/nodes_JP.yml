@@ -1,70 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: e20c20cc-933b-406c-90f6-af017666b986
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: e20c20cc-933b-406c-90f6-af017666b986
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: e20c20cc-933b-406c-90f6-af017666b986
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵1 |  2.4MB/s
-  port: 17233
-  server: db99765c-suvds0-svgpxu-y2gs.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 1,13|日本4|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵7 |  1.6MB/s
-  port: 17233
-  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: 2c927d37-f01f-4c05-8603-ce9387b9f3bf
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: 2c927d37-f01f-4c05-8603-ce9387b9f3bf
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: 2c927d37-f01f-4c05-8603-ce9387b9f3bf
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
   port: 36115
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -73,7 +47,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504161119105-ZoJ7RWX63r.download.microsoft.com
+    host: 202504161119105-iVU0NhGmal.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -133,3 +107,13 @@ proxies:
   port: 443
   server: robust-redfish.shiner427.skin
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|日本4|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
