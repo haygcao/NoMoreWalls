@@ -1,143 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: daaacaf2-ce3e-4851-94f0-7c03a01629df
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: b3ad6719-2a79-43ec-a8ec-e55a844eb9e6
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: b3ad6719-2a79-43ec-a8ec-e55a844eb9e6
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: fc24a368-ba1a-4db5-bca8-aec9432db18e
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: b3ad6719-2a79-43ec-a8ec-e55a844eb9e6
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸4 |  2.1MB/s
-  network: tcp
-  port: 5228
-  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-  ws-headers:
-    Host: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸7 |  1.2MB/s
-  network: tcp
-  port: 5229
-  server: 0ecc8d37-sux8g0-swbudg-1mzwj.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
-  ws-headers:
-    Host: 0ecc8d37-sux8g0-swbudg-1mzwj.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸11 |  2.6MB/s
-  network: tcp
-  port: 5228
-  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸13 |  2.8MB/s
-  network: tcp
-  port: 5228
-  server: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2b634c80-fd7e-11ef-9f25-f23c9164ca5d
-  ws-headers:
-    Host: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 2|🇺🇸17 |  2.1MB/s
-  network: tcp
-  port: '5229'
-  server: f5f98477-sutj40-tdcdb7-1k27l.cu.plebai.net
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 2|🇺🇸21 |  3.0MB/s
-  network: tcp
-  port: '5228'
-  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  ws-headers:
-    Host: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸23 |  2.3MB/s
-  network: tcp
-  port: 5228
-  server: 157.148.96.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-  ws-headers:
-    Host: 157.148.96.92
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸24 |  1.8MB/s
-  port: 5228
-  server: 7daa6f3a-sux8g0-tavf3m-18imv.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 9a846cd4-7a86-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸26 |  1.5MB/s
+  name: 1|🇺🇸20 |  2.8MB/s
   network: tcp
   port: 5228
   server: 76328141-sv2sg0-t98e4q-1m2as.cu.plebai.net
@@ -148,10 +33,110 @@ proxies:
   ws-headers:
     Host: 76328141-sv2sg0-t98e4q-1m2as.cu.plebai.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸40 |  3.4MB/s
+  network: tcp
+  port: 5228
+  server: 157.148.96.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+  ws-headers:
+    Host: 157.148.96.92
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸8 |  3.5MB/s
+  network: tcp
+  port: '5229'
+  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸13 |  1.0MB/s
+  port: 5228
+  server: 7daa6f3a-sux8g0-tavf3m-18imv.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 9a846cd4-7a86-11ed-a8bf-f23c91cfbbc9
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸42 |  3.9MB/s
+  network: tcp
+  port: '5228'
+  server: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+  ws-headers:
+    Host: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸15 |  2.6MB/s
+  network: tcp
+  port: '5229'
+  server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸37 |  3.7MB/s
+  network: tcp
+  port: '5228'
+  server: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b634c80-fd7e-11ef-9f25-f23c9164ca5d
+  ws-headers:
+    Host: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸24 |  3.5MB/s
+  port: 5229
+  server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸26 |  4.8MB/s
+  port: 5229
+  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸27 |  5.2MB/s
+  network: tcp
+  port: '5228'
+  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸30 |  2.8MB/s
+  network: tcp
+  port: 5228
+  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  ws-headers:
+    Host: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -168,7 +153,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   port: 23903
   server: usz1.fgmcx.top
   skip-cert-verify: false
@@ -179,7 +164,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -195,7 +180,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -207,7 +192,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|美国2|@ripaojiedian
+  name: 12|美国2|@ripaojiedian
   network: tcp
   port: '23903'
   server: usz1.fgmcx.top
@@ -215,3 +200,24 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 022dd8ac-f131-4ac3-8ccf-75142f364ea4
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 022dd8ac-f131-4ac3-8ccf-75142f364ea4
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 022dd8ac-f131-4ac3-8ccf-75142f364ea4
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
