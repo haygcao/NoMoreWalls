@@ -1,43 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷1 |  1.3MB/s
-  network: tcp
-  port: 17232
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-headers:
-    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  ws-path: /
-- name: 1|🇰🇷2 |  6.2MB/s
-  password: 28f6cde4-a129-3a08-997e-dbfee628adf0
-  port: 50355
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z264.hongkongnode.top
-  tfo: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇰🇷3 |  1.1MB/s
+  name: 1|🇰🇷2 |  1.6MB/s
   port: 17232
   server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
   tls: false
@@ -45,14 +23,14 @@ proxies:
   uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 01 | 1x KR
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 02 | 1x KR
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36313
   server: free.2weradf.xyz
   type: ss

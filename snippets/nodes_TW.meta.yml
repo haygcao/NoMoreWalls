@@ -1,66 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: f3fd9490-c1e0-47a7-9a86-bee573dd659c
+  password: 6ab5ef44-95a0-4272-8ca4-92c0b2822140
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0015
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
+  flow: ''
+  mode: ''
+  name: 1|🇹🇼1 |  4.2MB/s
+  network: ws
+  port: 443
+  server: 162.247.5.91
+  servername: tw.qhahd.shop
   tls: true
   type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 1|🇹🇼2 |  2.3MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d0d003b8-ad44-37a7-82bf-ad911a23b4df
+  udp: false
+  uuid: 06a323c7-bf9f-4fc4-a230-f2eab27fa1ae
   ws-opts:
     headers:
-      Host: 19.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇹🇼3 |  6.1MB/s
-  network: tcp
-  port: 15823
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+      Host: tw.qhahd.shop
+    path: /bing
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,14|CN_speednode_0006
@@ -75,35 +50,23 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇹🇼5 |  5.9MB/s
-  network: tcp
-  port: 15700
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
   name: 2|🇹🇼 台湾 01 | 1x TW
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇹🇼 台湾 02 | 1x TW
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇹🇼 台湾 03 | 1x TW
-  password: b47435fd-cd6f-4bea-a27a-f65bd5a3da7f
+  password: 63e3e03e-b146-446f-8795-326cd6383e3e
   port: 36245
   server: free.2weradf.xyz
   type: ss
