@@ -1,16 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: df64ff41-2595-4501-bf42-69162d81d9aa
+  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 1|🇨🇦1 |  1.1MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
+- name: 1|🇨🇦1 |  4.4MB/s
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: vx.ylka.dpdns.org
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇨🇦2 |  4.7MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.67
+  servername: vx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylka.dpdns.org
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
