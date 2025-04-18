@@ -1,138 +1,67 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 4d9a8776-25c3-4160-813a-2409f1a08523
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 00bdcfea-dd01-460c-b890-34fd47de5dc9
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: ''
-  grpc-opts:
-    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
   mode: ''
-  name: 1|🇩🇪1 |  3.0MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
-    short-id: ''
-  server: 178.63.228.220
-  servername: fauxid.com
+  name: 2|🇩🇪1 |  5.7MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: wi.filmekade.site
   tls: true
   type: vless
   udp: false
-  uuid: 2e2dab56-7216-40f5-b0b3-28be60d4145b
-- client-fingerprint: chrome
-  mode: ''
-  name: 1|🇩🇪2 |  6.0MB/s
-  network: ws
-  port: 443
-  server: 91.107.131.31
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  uuid: dca00ac0-050b-42f8-ad56-ededaeaef2e7
   ws-opts:
     headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.6MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 1ff875a2-2876-47be-cbc7-6cc45b1d89c4
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪4 |  5.1MB/s
-  network: ws
-  port: 8880
-  server: 104.22.32.78
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 8dc5b94a-382f-4d34-b44e-d78ba12aee1a
-  ws-opts:
-    headers:
-      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪5 |  5.8MB/s
-  network: ws
-  port: 8880
-  server: 172.67.24.121
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 8dc5b94a-382f-4d34-b44e-d78ba12aee1a
-  ws-opts:
-    headers:
-      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
-- client-fingerprint: chrome
-  mode: ''
-  name: 1|🇩🇪6 |  4.7MB/s
-  network: ws
-  port: 443
-  server: mw5.asalemaraghe.ir
-  servername: mw5.asalemaraghe.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
-  ws-opts:
-    headers:
-      Host: mw5.asalemaraghe.ir
-    path: /
-- name: 1|🇩🇪7 |  1.0MB/s
-  network: ws
-  port: 443
-  server: 108.162.196.159
-  servername: cr7777.rayan.dpdns.org
-  tls: true
-  type: vless
-  uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
-  ws-opts:
-    headers:
-      Host: cr7777.rayan.dpdns.org
-    path: /?ed=2560flow=-udp443flow=-udp443
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪8 |  5.1MB/s
-  network: ws
-  port: 2083
-  server: 104.17.147.22
-  servername: mahdipok.filmekade.site
-  tls: true
-  type: vless
-  udp: false
-  uuid: c0512a6c-e10b-4f18-85c3-3d22a8cfbcfd
-  ws-opts:
-    headers:
-      Host: mahdipok.filmekade.site
+      Host: wi.filmekade.site
     path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - client-fingerprint: chrome
+  delay: 1744
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪2 |  5.2MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  5.6MB/s
+  name: 2|🇩🇪3 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 154.92.9.151
+  servername: rakhsh.4972616e.xyz
+  tls: true
+  type: vless
+  udp: false
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  ws-opts:
+    headers:
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  5.1MB/s
   network: ws
   port: 443
   server: 91.107.131.31
@@ -148,19 +77,91 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪10 |  4.9MB/s
+  name: 2|🇩🇪5 |  3.9MB/s
+  network: ws
+  port: 443
+  server: 154.92.9.30
+  servername: rakhsh.4972616e.xyz
+  tls: true
+  type: vless
+  udp: false
+  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  ws-opts:
+    headers:
+      Host: rakhsh.4972616e.xyz
+    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443flow=-udp443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 2|🇩🇪6 |  5.0MB/s
   network: tcp
-  port: 24917
-  server: 144.76.231.24
+  port: 51688
+  reality-opts:
+    public-key: KZ8OnDaJyDfaF9iwzXYuFdo796yoIy6fIh5JmdJ5fAs
+    short-id: 12ea6200
+  server: 93.177.65.104
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: c5f665de-e820-44d0-abf4-d23aa2d6f977
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪7 |  5.7MB/s
+  network: ws
+  port: 2083
+  server: www.speedtest.net
+  servername: mahdipok.filmekade.site
+  tls: true
+  type: vless
+  udp: false
+  uuid: c0512a6c-e10b-4f18-85c3-3d22a8cfbcfd
+  ws-opts:
+    headers:
+      Host: mahdipok.filmekade.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  mode: ''
+  name: 2|🇩🇪8 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 91.107.131.31
+  servername: mw5.asalemaraghe.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 944d8b74-7a64-4b07-a278-9f968e9ef99c
+  ws-opts:
+    headers:
+      Host: mw5.asalemaraghe.ir
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪9 |  5.4MB/s
+  network: ws
+  port: 15379
+  server: V2RAXX-channel.cataba.ir
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 31d1b5d7-67ad-4416-9656-eefe69d679aa
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪10 |  5.4MB/s
+  network: ws
+  port: 2083
+  server: 104.17.147.22
+  servername: mahdipok.filmekade.site
+  tls: true
+  type: vless
+  udp: false
+  uuid: c0512a6c-e10b-4f18-85c3-3d22a8cfbcfd
+  ws-opts:
+    headers:
+      Host: mahdipok.filmekade.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048

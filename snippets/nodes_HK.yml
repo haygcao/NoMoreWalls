@@ -1,67 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 4d9a8776-25c3-4160-813a-2409f1a08523
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 4d9a8776-25c3-4160-813a-2409f1a08523
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 00bdcfea-dd01-460c-b890-34fd47de5dc9
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 68d30ce7-5bd4-4266-bfe1-344373e1764f
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 00bdcfea-dd01-460c-b890-34fd47de5dc9
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰7 |  2.9MB/s
-  network: tcp
-  port: 30251
-  raw:
-    add: 35.220.230.251
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 86c9c119-c46d-45a9-82a6-75a886e5e795
-    net: tcp
-    path: ''
-    port: '30251'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 35.220.230.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇭🇰8 |  1.7MB/s
+  name: 2|🇭🇰9 |  1.4MB/s
   port: 15229
-  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: c06c73a3-5567-46d0-a000-6cb01f625ae3
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
