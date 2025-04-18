@@ -1,59 +1,30 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇰🇷1 |  2.2MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.253
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇰🇷2 |  2.3MB/s
-  network: tcp
-  port: 21082
-  reality-opts:
-    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
-    short-id: 758719a6080f2767
-  server: tw-ty-line1-2-2.sudatech.store
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  uuid: e7adaa99-8363-3ec4-b849-307c99005405
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
   port: 31313
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb

@@ -2,39 +2,39 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪1 |  4.5MB/s
+  name: 0|🇩🇪1 |  5.8MB/s
   network: ws
-  port: 443
-  server: 154.92.9.30
-  servername: rakhsh.4972616e.xyz
-  tls: true
+  port: 2082
+  server: 104.17.147.22
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  uuid: 598054a0-0105-40f9-f383-40922776d12a
   ws-opts:
     headers:
-      Host: rakhsh.4972616e.xyz
-    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443flow=-udp443
-- client-fingerprint: ''
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪2 |  5.4MB/s
+  name: 0|🇩🇪2 |  5.6MB/s
   network: ws
-  port: 443
-  server: 154.92.9.176
-  servername: rakhsh.4972616e.xyz
+  port: 8443
+  server: www.speedtest.net
+  servername: mahdii.mihanfilmdownload.site
   tls: true
   type: vless
   udp: false
-  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
+  uuid: d57cd02e-8eba-4b0c-cca8-cccc4d192db6
   ws-opts:
     headers:
-      Host: rakhsh.4972616e.xyz
-    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443
+      Host: mahdii.mihanfilmdownload.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - client-fingerprint: chrome
   delay: 1744
   flow: xtls-rprx-vision
-  name: 0|🇩🇪3 |  4.9MB/s
+  name: 0|🇩🇪3 |  4.4MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -45,28 +45,13 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  5.7MB/s
+  name: 0|🇩🇪4 |  4.5MB/s
   network: ws
   port: 443
-  server: jnir-addr.cybsecguru.com
-  servername: rakhsh.4972616e.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: ec8a65ad-aafc-4095-9b8c-ea10890ca629
-  ws-opts:
-    headers:
-      Host: rakhsh.4972616e.xyz
-    path: /Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443flow=-udp443flow=-udp443flow=-udp443
-- flow: ''
-  mode: ''
-  name: 0|🇩🇪5 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 91.107.131.31
+  server: 91.107.175.204
   servername: mw12.asalemaraghe.ir
   tls: true
   type: vless
@@ -75,18 +60,18 @@ proxies:
   ws-opts:
     headers:
       Host: mw12.asalemaraghe.ir
-    path: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36471
-  server: free.2weradf.xyz
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true

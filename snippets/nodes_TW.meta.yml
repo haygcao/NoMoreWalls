@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇹🇼1 |  2.1MB/s
+  name: 0|🇹🇼1 |  7.9MB/s
   network: tcp
   port: 47531
   reality-opts:
@@ -27,58 +27,58 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,14|CN_speednode_0008
+  name: 0,14|CN_speednode_0019
   network: tcp
-  port: 12477
+  port: 13263
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: ea9cf1e9-3baf-4699-8f25-f3d398e7222f
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: 1df249ce-3819-4990-b5c4-da0417c9e6d1
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 9c2340de-1770-48a3-b7d6-dac776eb074d
   port: 31245
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: 319399bd-4167-41ac-91be-7566584192ea
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
