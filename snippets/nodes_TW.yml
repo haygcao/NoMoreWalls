@@ -1,54 +1,57 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 1c23f26e-a30a-41d1-afc9-9d95b12743d0
+  password: 2b093022-8134-44ad-a7bb-8291cffbe00f
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 1c23f26e-a30a-41d1-afc9-9d95b12743d0
+  password: 2b093022-8134-44ad-a7bb-8291cffbe00f
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 1c23f26e-a30a-41d1-afc9-9d95b12743d0
+  password: 2b093022-8134-44ad-a7bb-8291cffbe00f
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: e9c65027-36ad-4908-ae56-9f43719466ee
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: 888dda67-550c-46bf-9b91-3ef4c83f20fb
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: e9c65027-36ad-4908-ae56-9f43719466ee
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: 888dda67-550c-46bf-9b91-3ef4c83f20fb
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: e9c65027-36ad-4908-ae56-9f43719466ee
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: 888dda67-550c-46bf-9b91-3ef4c83f20fb
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  password: OP8PXXDOW0GFSBO2
-  port: 21005
-  server: 150.116.11.9
+  port: 45078
+  server: haa.dashuai.cyou
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -65,6 +68,16 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|台湾|@ripaojiedian
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
 - alterId: 0
   cipher: auto
   name: 13|台湾2|@ripaojiedian
