@@ -1,43 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 17588e42-debc-4ee0-bef2-f6ffa05286bc
+  password: 4c4a36a2-7fcc-4002-949c-ffb1265cbe40
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: a5e0b2f6-ef2f-440b-9775-3dd4a81df721
+  password: 5b950f0a-d872-4928-8320-51cd90de0635
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇷🇺1 |  4.9MB/s
-  network: ws
-  port: 22016
-  raw:
-    add: 195.58.49.84
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: c7995a27-15d7-4b62-ae7d-9f15f7fdf6ee
-    net: ws
-    path: /
-    port: '22016'
-    ps: 🇷🇺 --001-1J
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 195.58.49.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c7995a27-15d7-4b62-ae7d-9f15f7fdf6ee
-  ws-opts:
-    path: /
+- client-fingerprint: chrome
+  name: 2|🇷🇺4 |  5.2MB/s
+  password: b5ed5203-8eb4-4fd2-ada4-a7b6bdbf1d1c
+  port: 46925
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 2|🇷🇺5 |  3.2MB/s
+  password: RlXx45ZGy1Q12wFyEUBQNQ
+  port: 64300
+  server: 81.94.158.148
+  type: ss
