@@ -1,61 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 4b5ea284-1bd7-47fa-8afd-8587f860651d
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 17588e42-debc-4ee0-bef2-f6ffa05286bc
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: a5e0b2f6-ef2f-440b-9775-3dd4a81df721
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  delay: 1744
-  flow: xtls-rprx-vision
-  name: 1|🇩🇪1 |  5.1MB/s
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪1 |  5.8MB/s
   network: tcp
-  port: 58031
+  port: 44
   reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪2 |  5.6MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 598054a0-0105-40f9-f383-40922776d12a
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  4.7MB/s
-  network: ws
-  port: 443
-  server: mw12.asalemaraghe.ir
-  servername: mw12.asalemaraghe.ir
+    public-key: R43U2y9vbOzBleKGsApbGCufsiRTTeVIKA7LRpGMrVA
+    short-id: f289871208
+  server: 5.75.215.22
+  servername: refersion.com
   tls: true
   type: vless
   udp: false
-  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
-  ws-opts:
-    headers:
-      Host: mw12.asalemaraghe.ir
-    path: /
+  uuid: 6a2206ac-208b-49f5-95e0-6f3656f9072a
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪4 |  5.7MB/s
+  name: 2|🇩🇪2 |  4.4MB/s
   network: tcp
   port: 44
   reality-opts:
@@ -74,23 +50,166 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪5 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 91.107.175.204
-  servername: mw12.asalemaraghe.ir
+  name: 2|🇩🇪3 |  5.8MB/s
+  network: tcp
+  port: 3033
+  reality-opts:
+    public-key: 9GYwmAKTskGpQ7sKrds-aa14vW-6yYzs-yE8Y7HBcTQ
+    short-id: ''
+  server: 91.107.254.145
+  servername: refersion.com
   tls: true
   type: vless
   udp: false
-  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
+  uuid: c9915df4-48e4-4084-810b-438b8548c615
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  5.6MB/s
+  network: ws
+  port: 2096
+  server: 104.17.147.22
+  servername: mahdii.mihanfilmdownload.site
+  tls: true
+  type: vless
+  udp: false
+  uuid: d57cd02e-8eba-4b0c-cca8-cccc4d192db6
   ws-opts:
     headers:
-      Host: mw12.asalemaraghe.ir
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: bc08c690-da65-42aa-a973-8a9efdc47561
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
+      Host: mahdii.mihanfilmdownload.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: 17783vless
+  mode: gun
+  name: 2|🇩🇪5 |  5.5MB/s
+  network: grpc
+  port: 1773
+  server: germany.khoreshtsabzi.ir
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 93489dc6-47a3-4532-b050-6fb193b855e9
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪6 |  5.9MB/s
+  network: tcp
+  port: 2010
+  reality-opts:
+    public-key: I-8Bbc2mVVLerJteUDBgmZOIn6LUWV-_cQ0nwr75axM
+    short-id: e7e2ae6c52556455
+  server: 167.235.246.4
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 81769a76-2640-49f2-8dd2-9d5f6ae55e03
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
+  mode: ''
+  name: 2|🇩🇪7 |  2.8MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
+    short-id: ''
+  server: 178.63.228.220
+  servername: fauxid.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: dc4244fe-767d-4f58-8d58-7a7957e0702a
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  5.9MB/s
+  network: tcp
+  port: 2010
+  reality-opts:
+    public-key: I-8Bbc2mVVLerJteUDBgmZOIn6LUWV-_cQ0nwr75axM
+    short-id: e7e2ae6c52556455
+  server: germany.unknownserver.top
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 81769a76-2640-49f2-8dd2-9d5f6ae55e03
+- client-fingerprint: chrome
+  delay: 1744
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪9 |  4.7MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪10 |  3.6MB/s
+  network: tcp
+  port: 24917
+  server: 144.76.231.24
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 31d1b5d7-67ad-4416-9656-eefe69d679aa
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪11 |  5.7MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: mahdii.mihanfilmdownload.site
+  tls: true
+  type: vless
+  udp: false
+  uuid: d57cd02e-8eba-4b0c-cca8-cccc4d192db6
+  ws-opts:
+    headers:
+      Host: mahdii.mihanfilmdownload.site
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪12 |  4.5MB/s
+  network: ws
+  port: 80
+  server: 104.17.147.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: d13d85cd-a9aa-45e3-aee2-5f2979447f72
+  ws-opts:
+    headers:
+      Host: Www.speedtest.net.developsp.ir.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪13 |  5.4MB/s
+  network: ws
+  port: 8880
+  server: parspack.com
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 927adeca-fd26-4024-8762-e6116165af76
+  ws-opts:
+    headers:
+      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
