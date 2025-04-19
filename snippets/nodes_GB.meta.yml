@@ -1,59 +1,64 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: a7d0557b-82f1-45bd-9fd4-900e6383419b
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: a7d0557b-82f1-45bd-9fd4-900e6383419b
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧1 |  1.9MB/s
+  name: 2|🇬🇧1 |  3.7MB/s
   network: ws
   port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s31.sabzmaghz.ir
+  server: 104.19.223.79
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir
   tls: true
   type: vless
   udp: false
   uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s31.sabzmaghz.ir
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir
     path: ''
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧2 |  5.4MB/s
+  name: 2|🇬🇧2 |  2.2MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
   tls: true
   type: vless
   udp: false
   uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
     path: ''
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧3 |  4.8MB/s
+  name: 2|🇬🇧3 |  1.6MB/s
   network: ws
   port: 2096
-  server: 104.19.222.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s31.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s31.sabzmaghz.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧4 |  4.6MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
+  server: 104.19.223.79
   servername: wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir
   tls: true
   type: vless
@@ -63,110 +68,24 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s27.sabzmaghz.ir
     path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧5 |  1.1MB/s
-  network: tcp
-  port: 47151
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
-  mode: ''
-  name: 0|🇬🇧6 |  4.9MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-  tls: true
+  grpc-opts:
+    grpc-service-name: DarkTeam_VPN
+  mode: gun
+  name: 2|🇬🇧4 |  2.6MB/s
+  network: grpc
+  port: 13039
+  server: uk.darkteam.vipt-t.info
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-    path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧7 |  5.0MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇬🇧8 |  3.2MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: 5efbe592-3027-417d-8807-47fcddb40549
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇬🇧9 |  5.0MB/s
-  network: ws
-  port: 2096
-  server: 104.19.223.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧10 |  1.1MB/s
-  network: ws
-  port: 2096
-  server: 104.19.222.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧11 |  5.2MB/s
-  network: ws
-  port: 2096
-  server: 104.19.223.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s29.sabzmaghz.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧12 |  4.9MB/s
+  name: 2|🇬🇧5 |  5.9MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
@@ -179,53 +98,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s30.sabzmaghz.ir
     path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧13 |  5.6MB/s
-  network: ws
-  port: 2096
-  server: 104.19.222.79
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 0|🇬🇧14 |  3.9MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s33.sabzmaghz.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s33.sabzmaghz.ir
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 87133d8d-a107-4982-b858-221e8b5db235
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 87133d8d-a107-4982-b858-221e8b5db235
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -235,7 +108,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|GB_speednode_0034
+  name: 14|GB_speednode_0034
   port: 8989
   reality-opts:
     public-key: TfbgQiZ2DOhCTDVLjx5Gwc5WHFSlQ_LXhyzKUEGR6mc
@@ -246,17 +119,3 @@ proxies:
   type: vless
   udp: true
   uuid: 409ef7ff-6449-4b9a-9db9-775927a1a925
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: 2db6ece5-1b7e-4d5b-80a0-2909f84f2e93
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 2db6ece5-1b7e-4d5b-80a0-2909f84f2e93
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

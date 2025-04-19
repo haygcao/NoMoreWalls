@@ -1,67 +1,64 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼1 |  5.5MB/s
-  network: tcp
-  port: 47531
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼2 |  5.2MB/s
-  network: tcp
-  port: 15700
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,13|CN_speednode_0019
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 87133d8d-a107-4982-b858-221e8b5db235
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: a7d0557b-82f1-45bd-9fd4-900e6383419b
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 87133d8d-a107-4982-b858-221e8b5db235
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: a7d0557b-82f1-45bd-9fd4-900e6383419b
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 87133d8d-a107-4982-b858-221e8b5db235
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: a7d0557b-82f1-45bd-9fd4-900e6383419b
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0008
+  network: tcp
+  port: 12477
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   port: 45078
   server: haa.dashuai.cyou
   skip-cert-verify: false
@@ -70,7 +67,7 @@ proxies:
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
 - client-fingerprint: chrome
-  name: 11,12|台湾2|@ripaojiedian
+  name: 12,13|台湾2|@ripaojiedian
   network: tcp
   password: d5826953-96a0-4e2e-ad04-638668222256
   port: 27201
@@ -80,7 +77,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|台湾|@ripaojiedian
+  name: 13|台湾|@ripaojiedian
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
@@ -88,24 +85,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 01 | 1x TW
-  password: 2db6ece5-1b7e-4d5b-80a0-2909f84f2e93
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 02 | 1x TW
-  password: 2db6ece5-1b7e-4d5b-80a0-2909f84f2e93
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 03 | 1x TW
-  password: 2db6ece5-1b7e-4d5b-80a0-2909f84f2e93
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
