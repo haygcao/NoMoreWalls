@@ -1,75 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 5ba53c2c-e132-4bf9-95cf-7e34f144efc0
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 5ba53c2c-e132-4bf9-95cf-7e34f144efc0
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: f83f70da-559f-48eb-a511-1f31261f81a0
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: f83f70da-559f-48eb-a511-1f31261f81a0
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰1 |  6.3MB/s
-  password: 9c77d3b4-6780-3458-ab99-a11bb247da98
-  port: 20279
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z279.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- name: 2|🇭🇰2 |  3.8MB/s
-  password: 9c77d3b4-6780-3458-ab99-a11bb247da98
-  port: 20307
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z307.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,13|香港2|@ripaojiedian
-  network: tcp
-  port: '15228'
-  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
-- client-fingerprint: chrome
-  name: 2,12,13|香港8|@ripaojiedian
-  network: tcp
-  password: f4c09d3e-1143-4b97-af3d-6b8220ed930a
-  port: 27103
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰8 |  1.9MB/s
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
@@ -141,6 +98,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 12,13|香港8|@ripaojiedian
+  network: tcp
+  password: f4c09d3e-1143-4b97-af3d-6b8220ed930a
+  port: 27103
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港2|@ripaojiedian
+  network: tcp
+  port: '15228'
+  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 13|香港4|@ripaojiedian

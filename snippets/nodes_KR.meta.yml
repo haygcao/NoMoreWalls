@@ -1,36 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 5ba53c2c-e132-4bf9-95cf-7e34f144efc0
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 5ba53c2c-e132-4bf9-95cf-7e34f144efc0
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: f83f70da-559f-48eb-a511-1f31261f81a0
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: f83f70da-559f-48eb-a511-1f31261f81a0
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  3.8MB/s
+- name: 1|🇰🇷1 |  1.8MB/s
   network: ws
   port: 443
-  server: 160.79.105.134
+  server: 63.141.128.193
   servername: bn.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -39,79 +25,63 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: bn.ylks0033.dpdns.org
+      Host: bn.ylks0033.dpdns.org
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇰🇷2 |  1.1MB/s
+- name: 1|🇰🇷2 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 63.141.128.92
+  servername: bn.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: bn.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷3 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.188
+  servername: bn.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: bn.ylks0033.dpdns.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 1|🇰🇷4 |  1.4MB/s
   network: tcp
-  port: 21082
-  reality-opts:
-    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
-    short-id: 758719a6080f2767
-  server: tw-ty-line1-2-2.sudatech.store
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  uuid: e7adaa99-8363-3ec4-b849-307c99005405
-- name: 2|🇰🇷3 |  2.5MB/s
-  network: ws
-  port: 2053
-  server: 129.159.129.107
-  servername: bn.ylks0033.dpdns.org
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷4 |  4.0MB/s
-  network: ws
-  port: 443
-  server: 140.238.158.238
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷5 |  4.2MB/s
-  network: ws
-  port: 5002
-  server: 45.154.98.210
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇰🇷6 |  1.6MB/s
-  network: ws
-  port: 8880
-  server: 104.16.1.35
-  servername: ''
   tls: false
-  type: vless
-  udp: false
-  uuid: 96494ca5-6dcf-4d33-b94f-5c3485586095
-  ws-opts:
-    headers:
-      Host: hamedan.hiven33959.workers.dev
-    path: /
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-headers:
+    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

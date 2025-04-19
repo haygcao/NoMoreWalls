@@ -1,22 +1,31 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 5ba53c2c-e132-4bf9-95cf-7e34f144efc0
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: f83f70da-559f-48eb-a511-1f31261f81a0
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪1 |  6.0MB/s
+  network: ws
+  port: 2082
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 08dd3277-6d36-4ada-ba7e-7443dd933390
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.9MB/s
+  name: 1|🇩🇪2 |  5.8MB/s
   network: tcp
   port: 3033
   reality-opts:
@@ -30,25 +39,8 @@ proxies:
   uuid: c9915df4-48e4-4084-810b-438b8548c615
 - client-fingerprint: chrome
   flow: ''
-  grpc-opts:
-    grpc-service-name: '@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy'
   mode: ''
-  name: 2|🇩🇪2 |  5.8MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: Aa3FogZ9ohTiRHsdnoyiMg7TFARWEeZs_m290juxEzs
-    short-id: ''
-  server: 178.63.228.220
-  servername: fauxid.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: dc4244fe-767d-4f58-8d58-7a7957e0702a
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  6.3MB/s
+  name: 1|🇩🇪3 |  5.7MB/s
   network: tcp
   port: 44
   reality-opts:
@@ -64,77 +56,25 @@ proxies:
     headers:
       Host: Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN
     path: ''
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.8MB/s
-  network: tcp
-  port: 2010
-  reality-opts:
-    public-key: I-8Bbc2mVVLerJteUDBgmZOIn6LUWV-_cQ0nwr75axM
-    short-id: e7e2ae6c52556455
-  server: germany.unknownserver.top
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 81769a76-2640-49f2-8dd2-9d5f6ae55e03
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  5.8MB/s
-  network: tcp
-  port: 2010
-  reality-opts:
-    public-key: I-8Bbc2mVVLerJteUDBgmZOIn6LUWV-_cQ0nwr75axM
-    short-id: e7e2ae6c52556455
-  server: 167.235.246.4
-  servername: stackoverflow.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 81769a76-2640-49f2-8dd2-9d5f6ae55e03
-- client-fingerprint: chrome
-  delay: 1744
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪6 |  5.3MB/s
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪7 |  5.2MB/s
-  port: 33157
-  server: 88.198.175.207
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 26cf5624-fff0-4a66-9848-d2a0725297b2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪8 |  5.8MB/s
-  network: ws
-  port: 80
-  server: 104.17.147.22
+  name: 1|🇩🇪4 |  3.1MB/s
+  network: raw
+  port: 2052
+  server: 94.159.96.160
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: d13d85cd-a9aa-45e3-aee2-5f2979447f72
-  ws-opts:
-    headers:
-      Host: Www.speedtest.net.developsp.ir.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+  uuid: 52171f0d-7b05-4494-aebf-d56de3475661
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
