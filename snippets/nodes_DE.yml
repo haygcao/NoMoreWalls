@@ -1,15 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: d7c130c3-b592-4afd-b74c-1148f7e1fa25
+  password: 8058c25a-786a-432b-aab0-a0f4c0b70377
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 8be1ca1d-0c12-48ba-848a-2000e2f98b04
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: dddc9495-b65e-46cf-9185-2eba07717214
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪3 |  1.1MB/s
+  network: tcp
+  port: 16151
+  raw:
+    add: 85.215.233.179
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 44ba7053-733f-4d35-9ba4-3457ee608f64
+    net: tcp
+    path: ''
+    port: 16151
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: none
+    type: none
+    v: '2'
+  server: 85.215.233.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 44ba7053-733f-4d35-9ba4-3457ee608f64
+- client-fingerprint: chrome
+  name: 2|🇩🇪8 |  5.5MB/s
+  password: ec9daa7c-22a6-4fac-9ccb-59984321d2f1
+  port: 43583
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
