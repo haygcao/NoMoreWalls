@@ -1,41 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36171
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36173
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36175
-  server: free.2weradf.xyz
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 1|🇸🇬1 |  1.1MB/s
-  network: original
-  password: 4a8cb218-0b68-4967-8a0c-b0440bc5cb81
-  port: 42881
-  server: 45.146.232.171
-  skip-cert-verify: true
-  type: trojan
-- name: 1,13|SG_speednode_0100
-  port: 43664
-  server: 47.129.186.64
+- name: 1,13|SG_speednode_0099
+  port: 33496
+  server: 3.0.202.40
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 567eb2e2-42f9-4d42-f032-899ee9e2bce3
+  uuid: 13ac0987-35a5-403f-df31-84a2ee5824a5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,13|CN_speednode_0036
@@ -102,6 +94,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 34.217.76.113
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|新加坡2|@ripaojiedian
@@ -112,14 +112,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|SG_speednode_0099
-  port: 33496
-  server: 3.0.202.40
+- name: 13|SG_speednode_0100
+  port: 43664
+  server: 47.129.186.64
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 13ac0987-35a5-403f-df31-84a2ee5824a5
+  uuid: 567eb2e2-42f9-4d42-f032-899ee9e2bce3
 - name: 13|SG_speednode_0101
   network: ws
   port: 443
@@ -135,23 +135,23 @@ proxies:
       Host: sgp.cayuo.me
     path: /bing
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 14|🇸🇬 新加坡 03 | 1x SG
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true

@@ -1,46 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36311
-  server: free.2weradf.xyz
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36313
-  server: free.2weradf.xyz
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31313
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1,11|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.124.153.152
-  tfo: false
-  type: ss
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1,13|NL_speednode_0088
-  network: ws
-  port: 80
-  server: 45.131.4.194
-  servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇰🇷3 |  2.7MB/s
+  name: 1|🇰🇷1 |  1.1MB/s
   network: tcp
   port: 21082
   reality-opts:
@@ -81,16 +56,16 @@ proxies:
   type: vmess
   uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true

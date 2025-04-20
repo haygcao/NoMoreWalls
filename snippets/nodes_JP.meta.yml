@@ -1,41 +1,83 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36111
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36113
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 5b7c5dc1-f486-4536-b556-7f6689139049
-  port: 36115
-  server: free.2weradf.xyz
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 0d3f0227-1ec1-44fb-b527-bf4a96a8e530
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,13|JP_speednode_0076
-  port: 49566
-  server: 57.180.46.180
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1,13|DE_speednode_0070
+  network: ws
+  port: 8880
+  server: 185.135.9.83
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM-@AZARBAYJAB1/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇯🇵2 |  3.4MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇯🇵3 |  1.9MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1,13|NL_speednode_0086
+  network: ws
+  port: 80
+  server: 45.131.4.25
+  servername: digitalscientificresearchgroup.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 1e1605b7-49e1-4928-ce1a-48796b3aec04
-- name: 1,13|JP_speednode_0080
-  port: 36962
-  server: 35.77.105.79
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba843d26-f159-4f4a-ae33-65b026e76e74
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /
 - name: 1,13|JP_speednode_0081
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
@@ -48,15 +90,31 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵4 |  6.3MB/s
+  name: 1,13|CN_speednode_0045
   network: tcp
-  port: 11839
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,13|CN_speednode_0046
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 1,13|JP_speednode_0078
   port: 58844
@@ -66,43 +124,41 @@ proxies:
   type: vless
   udp: true
   uuid: 8abb8754-4efa-406f-9ca4-b5a256321021
-- client-fingerprint: randomized
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇯🇵6 |  5.0MB/s
+  name: 1|🇯🇵9 |  5.9MB/s
   network: ws
-  port: 443
-  server: 172.66.44.68
-  servername: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
-  tls: true
+  port: 80
+  server: 45.131.5.233
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: 87ced8c4-b4d4-4c7b-ba67-11b78833a1b6
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: 37c60f8d.albangurakuqi.pages.dev
-    path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2560
-- name: 1,13|JP_speednode_0077
-  port: 16725
-  server: 54.168.120.254
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram@V2ray_Alpha
+- name: 1,13|JP_speednode_0080
+  port: 36962
+  server: 35.77.105.79
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
+  uuid: ba843d26-f159-4f4a-ae33-65b026e76e74
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0030
+  name: 1|🇯🇵11 |  4.1MB/s
   network: tcp
-  port: 48121
+  port: 16497
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: zhee01.dynu.net
   servername: www.nvidia.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 1,13|JP_speednode_0079
   port: 52787
@@ -152,6 +208,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.124.153.152
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 12|日本3|@ripaojiedian
@@ -162,24 +226,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13|JP_speednode_0076
+  port: 49566
+  server: 57.180.46.180
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1e1605b7-49e1-4928-ce1a-48796b3aec04
+- name: 13|JP_speednode_0077
+  port: 16725
+  server: 54.168.120.254
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 01 | 1x JP
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31111
-  server: free.2apzhfa.xyz
+  name: 14|🇯🇵 日本 01 | 1x JP
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36111
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 02 | 1x JP
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31113
-  server: free.2apzhfa.xyz
+  name: 14|🇯🇵 日本 02 | 1x JP
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 03 | 1x JP
-  password: 15233927-1c80-4083-bee1-65eafc93b1b6
-  port: 31115
-  server: free.2apzhfa.xyz
+  name: 14|🇯🇵 日本 03 | 1x JP
+  password: 557119aa-0de9-403f-9acc-1eff3a3651d4
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
   udp: true

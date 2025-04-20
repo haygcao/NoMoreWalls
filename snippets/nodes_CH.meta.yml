@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1,13|NL_speednode_0086
-  network: ws
-  port: 80
-  server: 45.131.4.25
-  servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,13|CH_speednode_0007
