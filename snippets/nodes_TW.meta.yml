@@ -1,60 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 295612f0-072a-42cd-be02-722f4f9389cf
+  password: caa69384-4357-43ab-8aef-0373a3c2d4a9
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 295612f0-072a-42cd-be02-722f4f9389cf
+  password: caa69384-4357-43ab-8aef-0373a3c2d4a9
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 295612f0-072a-42cd-be02-722f4f9389cf
+  password: caa69384-4357-43ab-8aef-0373a3c2d4a9
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+  password: 3e1511b1-f7b6-40d3-b907-97ad7637d417
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+  password: 3e1511b1-f7b6-40d3-b907-97ad7637d417
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+  password: 3e1511b1-f7b6-40d3-b907-97ad7637d417
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0012
-  network: tcp
-  port: 47531
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 2,14|HK_speednode_0032
   network: ws
   port: 443
@@ -69,9 +55,55 @@ proxies:
     headers:
       Host: tw.qhahd.shop
     path: /bing
+- allowInsecure: ''
+  name: 2|🇹🇼2 |  1.6MB/s
+  network: tcp
+  password: 30665d14-4a0a-4e41-960e-db36f1603b1c
+  port: 27202
+  server: 45.146.232.171
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
+- allowInsecure: ''
+  name: 2|🇹🇼3 |  4.2MB/s
+  network: tcp
+  password: c3f13957-9155-4a0d-b5db-e318dff63b1f
+  port: 27201
+  server: 45.146.232.171
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tls: true
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼3 |  6.2MB/s
+  name: 2|🇹🇼4 |  6.0MB/s
+  network: tcp
+  port: 15700
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0012
+  network: tcp
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇹🇼6 |  4.4MB/s
   network: tcp
   port: 12477
   reality-opts:

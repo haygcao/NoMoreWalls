@@ -1,34 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 295612f0-072a-42cd-be02-722f4f9389cf
+  password: caa69384-4357-43ab-8aef-0373a3c2d4a9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: 88000da0-9138-45e6-aeba-b3aee84e3809
+  password: 3e1511b1-f7b6-40d3-b907-97ad7637d417
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  3.9MB/s
-  network: ws
-  port: 2083
-  server: 104.17.148.22
-  servername: TKN.filmekade.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: 61a86474-7ab7-4fe1-f56a-09b41223781e
-  ws-opts:
-    headers:
-      Host: TKN.filmekade.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
 - client-fingerprint: ''
   flow: ''
   mode: ''
@@ -46,26 +30,50 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /TM-@AZARBAYJAB1/?ed=2560
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  5.7MB/s
+  name: 2|🇩🇪2 |  5.8MB/s
   network: ws
-  port: 443
-  server: 104.18.22.235
-  servername: nl1.yfjc.sbs
-  tls: true
+  port: 8880
+  server: 104.17.147.22
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: cfc83feb-3bce-468c-b157-e1cdb9786283
+  uuid: b2e2a1f6-8b9e-4598-af60-d3ec2b7d40a2
   ws-opts:
     headers:
-      Host: nl1.yfjc.sbs
-    path: /yfjc/knl1
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
+- name: 2,14|DE_speednode_0031
+  port: 48160
+  server: 3.68.116.86
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 09e17c97-7f45-4600-a8a8-c3fa76743fa6
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  3.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.194
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@Selinc
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  5.1MB/s
+  name: 2|🇩🇪5 |  3.4MB/s
   network: ws
   port: 2083
   server: www.speedtest.net
@@ -78,6 +86,51 @@ proxies:
     headers:
       Host: TKN.filmekade.ru
     path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- delay: 1695
+  name: 2|🇩🇪6 |  4.1MB/s
+  network: ws
+  port: 80
+  server: 104.21.56.44
+  servername: REEdfREe8MahSaNg2.rEDOrG.IR
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: REEdfREe8MahSaNg2.rEDOrG.IR
+    path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪7 |  5.8MB/s
+  network: ws
+  port: 2082
+  server: 104.17.147.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: e68f617e-79b5-4a8c-9455-d674eccceb6b
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 104.18.22.235
+  servername: nl1.yfjc.sbs
+  tls: true
+  type: vless
+  udp: false
+  uuid: cfc83feb-3bce-468c-b157-e1cdb9786283
+  ws-opts:
+    headers:
+      Host: nl1.yfjc.sbs
+    path: /yfjc/knl1
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
@@ -87,11 +140,3 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0031
-  port: 48160
-  server: 3.68.116.86
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 09e17c97-7f45-4600-a8a8-c3fa76743fa6
