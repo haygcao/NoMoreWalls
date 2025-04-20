@@ -1,15 +1,79 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 3504589c-e6b1-47e9-8443-00f98ab4606b
+  password: 4430cc10-aa2d-44f4-afec-29d9da1f79f7
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 1,14|NL_speednode_0087
+  network: ws
+  port: 80
+  server: 45.131.5.233
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  2.6MB/s
+  name: 1|🇩🇪2 |  5.6MB/s
+  network: tcp
+  port: 44
+  reality-opts:
+    public-key: R43U2y9vbOzBleKGsApbGCufsiRTTeVIKA7LRpGMrVA
+    short-id: f289871208
+  server: 5.75.215.22
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6a2206ac-208b-49f5-95e0-6f3656f9072a
+  ws-opts:
+    headers:
+      Host: Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN
+    path: ''
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪3 |  5.5MB/s
+  network: tcp
+  port: 44
+  reality-opts:
+    public-key: R43U2y9vbOzBleKGsApbGCufsiRTTeVIKA7LRpGMrVA
+    short-id: f289871208
+  server: customers.tele-shop-too.studio
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6a2206ac-208b-49f5-95e0-6f3656f9072a
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪4 |  1.9MB/s
+  network: ws
+  port: 443
+  server: 172.66.44.68
+  servername: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
+  tls: true
+  type: vless
+  udp: false
+  uuid: 87ced8c4-b4d4-4c7b-ba67-11b78833a1b6
+  ws-opts:
+    headers:
+      Host: 37c60f8d.albangurakuqi.pages.dev
+    path: /telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪5 |  3.3MB/s
   network: tcp
   port: 3033
   reality-opts:
@@ -21,9 +85,64 @@ proxies:
   type: vless
   udp: false
   uuid: c9915df4-48e4-4084-810b-438b8548c615
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  1.1MB/s
+  network: ws
+  port: 2052
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Www.speedtest.net.a.2.mashti.link.
+    path: /-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry
+- name: 1,14|NL_speednode_0086
+  network: ws
+  port: 80
+  server: 45.131.4.25
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /
 - client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 172.66.47.92
+  servername: Work-YUU00.pageS.dEv
+  tls: true
+  type: vless
+  udp: false
+  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
+  ws-opts:
+    headers:
+      Host: work-yuu00.pages.dev
+    path: ''
+- name: 1,14|DE_speednode_0069
+  port: 48160
+  server: 3.68.116.86
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 09e17c97-7f45-4600-a8a8-c3fa76743fa6
+- client-fingerprint: chrome
+  delay: 1744
   flow: xtls-rprx-vision
-  name: 1|🇩🇪2 |  1.0MB/s
+  name: 1|🇩🇪10 |  5.0MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -32,52 +151,11 @@ proxies:
   servername: www.yahoo.com
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 104.18.22.235
-  servername: nl1.yfjc.sbs
-  tls: true
-  type: vless
-  udp: false
-  uuid: cfc83feb-3bce-468c-b157-e1cdb9786283
-  ws-opts:
-    headers:
-      Host: nl1.yfjc.sbs
-    path: /yfjc/knl1
-- alterId: 0
-  cipher: auto
-  name: 1|🇩🇪4 |  4.2MB/s
-  network: tcp
-  port: 8877
-  raw:
-    add: de.ajiaxi.cyou
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: de.ajiaxi.cyou
-    id: 654285e6-23fb-4073-b8de-eba90f562fe6
-    net: tcp
-    path: ''
-    port: 8877
-    ps: V2CROSS.COM
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: de.ajiaxi.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
 - cipher: chacha20-ietf-poly1305
   name: 2|🇩🇪 德国 01 | 1x DE
-  password: f7f835a1-6c37-404b-81ea-b001ef0fc5e6
+  password: 10bda4c0-ffb3-4099-b779-241a58499ab1
   port: 36471
   server: free.2weradf.xyz
   type: ss
