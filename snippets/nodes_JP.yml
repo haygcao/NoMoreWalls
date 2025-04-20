@@ -1,10 +1,25 @@
 proxies:
-- name: 1|🇯🇵10 |  3.1MB/s
-  password: b9c316f7-ab52-44db-944c-c56a60b9d2b5
-  port: 22269
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 01 | 1x JP
+  password: 5b7c5dc1-f486-4536-b556-7f6689139049
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 02 | 1x JP
+  password: 5b7c5dc1-f486-4536-b556-7f6689139049
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 03 | 1x JP
+  password: 5b7c5dc1-f486-4536-b556-7f6689139049
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -45,14 +60,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.124.153.152
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 12|日本3|@ripaojiedian
@@ -63,3 +70,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 15233927-1c80-4083-bee1-65eafc93b1b6
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 15233927-1c80-4083-bee1-65eafc93b1b6
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 15233927-1c80-4083-bee1-65eafc93b1b6
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

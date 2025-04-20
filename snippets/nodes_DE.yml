@@ -1,40 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|🇩🇪1 |  4.4MB/s
-  network: tcp
-  port: 8877
-  raw:
-    add: 94.159.106.248
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: de.ajiaxi.cyou
-    id: 654285e6-23fb-4073-b8de-eba90f562fe6
-    net: tcp
-    path: /
-    port: '8877'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 94.159.106.248
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
-- alterId: 0
-  cipher: auto
-  name: 1|🇩🇪8 |  2.1MB/s
-  network: tcp
-  port: 8877
-  server: de.ajiaxi.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
-  ws-headers:
-    Host: de.ajiaxi.cyou
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 5b7c5dc1-f486-4536-b556-7f6689139049
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 15233927-1c80-4083-bee1-65eafc93b1b6
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
