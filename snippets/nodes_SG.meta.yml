@@ -1,29 +1,94 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 5f201d97-e73b-488b-a033-a42d4a71c21c
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 5f201d97-e73b-488b-a033-a42d4a71c21c
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 5f201d97-e73b-488b-a033-a42d4a71c21c
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: ca446972-1dff-4803-b6e7-e6c5f62ed357
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: ca446972-1dff-4803-b6e7-e6c5f62ed357
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: ca446972-1dff-4803-b6e7-e6c5f62ed357
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
+  flow: none
+  mode: ''
+  name: 2|🇸🇬1 |  2.7MB/s
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
+  ws-opts:
+    headers:
+      Host: free.server.techsonicpremium.shop
+    path: '%2Ffree.server.techsonicpremium.shop'
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 2|🇸🇬2 |  5.6MB/s
+  network: ws
+  port: 8443
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇸🇬3 |  3.9MB/s
+  network: tcp
+  port: 10649
+  reality-opts:
+    public-key: N3OhMYHjw0MGH7X93-6lec9iOMQHRUr-Uz-cGzQ32jQ
+  server: 92.112.22.115
+  servername: www.iij.ad.jp
+  tls: true
+  type: vless
+  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇸🇬1 |  5.8MB/s
+  name: 2|🇸🇬4 |  5.5MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -38,33 +103,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2|🇸🇬2 |  2.1MB/s
-  network: tcp
+  name: 2|🇸🇬5 |  1.2MB/s
   port: 17231
   server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
-  ws-headers:
-    Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  ws-path: /
-- client-fingerprint: ''
+- client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 2|🇸🇬3 |  5.8MB/s
+  name: 2|🇸🇬6 |  5.4MB/s
   network: ws
-  port: 80
-  server: support.zoom.us
-  servername: ''
-  tls: false
+  port: 8443
+  server: 141.193.213.20
+  servername: premium.vkehi.shop
+  tls: true
   type: vless
   udp: false
-  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
   ws-opts:
     headers:
-      Host: free.server.techsonicpremium.shop
-    path: '%2Ffree.server.techsonicpremium.shop'
+      Host: premium.vkehi.shop
+    path: '%2F'
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
