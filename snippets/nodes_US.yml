@@ -1,68 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 2|🇺🇸12 |  2.2MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.215
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸14 |  2.5MB/s
-  network: ws
-  port: 23077
-  server: 45.147.201.231
+- name: 1|🇺🇸1 |  5.7MB/s
+  password: f6f0c004-26a0-3ea0-a824-2addb0455c31
+  port: 20305
+  server: gy.58n.net
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f90b800d-2b37-424e-afc8-4ecb2a64b64f
-  ws-headers:
-    Host: 45.147.201.231
-  ws-path: /
+  sni: z305.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 1,11|🇺🇸 美国3|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
+  tfo: false
+  type: ss
+- allowInsecure: ''
+  name: 1|🇺🇸9 |  1.0MB/s
+  network: ws
+  password: auto
+  port: 443
+  server: 172.66.46.254
+  skip-cert-verify: false
+  sni: dcf741e8.epeius-2gy.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dcf741e8.epeius-2gy.pages.dev
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸43 |  5.8MB/s
+  name: 1|🇺🇸27 |  5.2MB/s
   network: ws
   port: 80
   server: www.wn03.cc
@@ -79,7 +70,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -89,7 +80,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -99,18 +90,10 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 97.107.140.236
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   port: 45251
   server: 112.65.92.20
   skip-cert-verify: false
@@ -120,7 +103,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: 13|美国|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -130,7 +113,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 12|美国4|@ripaojiedian
   network: tcp
   port: '45251'
   server: 112.65.92.20
@@ -138,3 +121,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

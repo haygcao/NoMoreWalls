@@ -1,43 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 1|🇬🇧2 |  4.9MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 26bc8681-0318-3097-bc64-64ab051eb81a
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: ''
-  name: 2|🇬🇧4 |  1.6MB/s
-  network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560

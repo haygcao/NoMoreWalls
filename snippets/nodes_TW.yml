@@ -1,56 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
+  password: 753f8d6f-6b5b-4177-bf62-ce6da7a45efa
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇹🇼1 |  4.1MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 2|🇹🇼2 |  2.7MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
+  uuid: 26bc8681-0318-3097-bc64-64ab051eb81a
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 10546
   server: xwogpb.cjjvmm.xyz
   skip-cert-verify: false
@@ -61,7 +49,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   port: 45285
   server: 36.150.232.128
   skip-cert-verify: false
@@ -71,7 +59,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '10546'
   server: xwogpb.cjjvmm.xyz
@@ -81,7 +69,7 @@ proxies:
   uuid: daa4d73e-aca3-3ef7-a9dd-3a2487fcb38d
 - alterId: 0
   cipher: auto
-  name: 13|台湾2|@ripaojiedian
+  name: 12|台湾2|@ripaojiedian
   network: tcp
   port: '45285'
   server: 36.150.232.128
@@ -89,3 +77,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: a8cb2eaa-cad6-4e8a-8ce3-088253cc57eb
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
