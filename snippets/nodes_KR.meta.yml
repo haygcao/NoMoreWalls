@@ -1,58 +1,106 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇰🇷1 |  5.9MB/s
+  network: ws
+  port: 80
+  server: 141.193.213.0
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: psycho.suex12.ir
+    path: Telegram@V2ray_Alpha
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇰🇷2 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 104.25.140.153
+  servername: BPB-pANEL-En-1O0.pAges.DEV
+  tls: true
+  type: vless
+  udp: false
+  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+  ws-opts:
+    headers:
+      Host: BPB-pANEL-En-1O0.pAges.DEV
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 3.36.57.145
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国2|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 13.125.129.4
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国3|@ripaojiedian
   port: 45075
   server: xdd.dashuai.cyou
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
+  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.212.117.64
+  server: 54.250.244.203
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|韩国|@ripaojiedian
+  name: 13|韩国3|@ripaojiedian
   network: tcp
   port: '45075'
   server: xdd.dashuai.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
+  uuid: 1e4b5958-8f5b-4a7e-9045-66120ce7614e

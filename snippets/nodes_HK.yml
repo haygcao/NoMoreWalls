@@ -1,120 +1,121 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港 02 | 1x HK
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰3 |  4.4MB/s
-  network: tcp
-  port: '15229'
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰4 |  1.0MB/s
-  port: 15229
-  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰6 |  1.1MB/s
+  name: 2|🇭🇰21 |  1.1MB/s
   network: tcp
-  port: '15228'
-  server: 67f33583-sv8cg0-sve1ir-zfm.cm.plebai.net
-  type: vmess
-  uuid: 88711fa6-2958-11ef-abff-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰9 |  1.0MB/s
-  network: tcp
-  port: '15228'
+  port: 15228
   server: f44c5fff-sv4n40-t9c951-1t1s5.cm.plebai.net
-  type: vmess
-  uuid: 4cee4858-bb77-11ef-a46e-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰11 |  1.8MB/s
-  network: tcp
-  port: '15229'
-  server: 19c5d8c7-sva740-t4cl3u-1mpen.cm.plebai.net
-  type: vmess
-  uuid: da1c411e-479f-11ee-9749-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰12 |  2.2MB/s
-  network: tcp
-  port: 15229
-  server: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  uuid: 4cee4858-bb77-11ef-a46e-f23c913c8d2b
   ws-headers:
-    Host: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
+    Host: f44c5fff-sv4n40-t9c951-1t1s5.cm.plebai.net
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰13 |  2.3MB/s
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: '0'
   cipher: auto
-  name: 2|🇭🇰14 |  1.4MB/s
+  name: 2|🇭🇰16 |  3.3MB/s
   network: tcp
   port: '15229'
-  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  server: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
+  ws-headers:
+    Host: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
+  ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 2|🇭🇰16 |  6.4MB/s
+  name: 2|🇭🇰7 |  1.2MB/s
   network: tcp
   port: '15228'
   server: cc7b2bd9-sv8cg0-tbhsus-1tgfe.cm.plebai.net
   type: vmess
   uuid: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰18 |  2.2MB/s
-  network: tcp
-  port: '15229'
-  server: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
-  type: vmess
-  uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰26 |  1.9MB/s
+  name: 2|🇭🇰9 |  1.6MB/s
+  network: tcp
+  port: 15229
+  server: 19c5d8c7-sva740-t4cl3u-1mpen.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: da1c411e-479f-11ee-9749-f23c9164ca5d
+  ws-headers:
+    Host: 19c5d8c7-sva740-t4cl3u-1mpen.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰11 |  1.4MB/s
+  network: tcp
+  port: 15228
+  server: 1e223a1b-sva740-tbcu1p-1qlnk.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4d77fb5e-f68f-11ef-80e5-f23c9164ca5d
+  ws-headers:
+    Host: 1e223a1b-sva740-tbcu1p-1qlnk.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰13 |  2.6MB/s
+  network: tcp
+  port: 15229
+  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  ws-headers:
+    Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰15 |  1.0MB/s
+  network: tcp
+  port: 15229
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  ws-headers:
+    Host: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰18 |  1.1MB/s
   network: tcp
   port: 15229
   server: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net
@@ -127,51 +128,33 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰23 |  2.7MB/s
+  name: 2|🇭🇰25 |  1.5MB/s
   network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  port: 15228
+  server: 1e843891-sva740-t6k7h7-1rcxl.cm.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
   ws-headers:
-    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+    Host: 1e843891-sva740-t6k7h7-1rcxl.cm.plebai.net
   ws-path: /
-- allowInsecure: ''
-  name: 2|🇭🇰25 |  4.7MB/s
-  network: tcp
-  password: 325cb5aa-ce37-457c-b6b8-edd323691aca
-  port: 27101
-  server: 45.146.232.171
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tls: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰27 |  3.1MB/s
+  name: 2|🇭🇰24 |  1.9MB/s
   network: tcp
-  port: 15229
-  server: 067f183f-sv8cg0-t48iy7-gydh.cm.plebai.net
+  port: 15228
+  server: 67f33583-sv8cg0-sve1ir-zfm.cm.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
+  uuid: 88711fa6-2958-11ef-abff-f23c913c8d2b
   ws-headers:
-    Host: 067f183f-sv8cg0-t48iy7-gydh.cm.plebai.net
+    Host: 67f33583-sv8cg0-sve1ir-zfm.cm.plebai.net
   ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 2|🇭🇰29 |  1.4MB/s
-  network: tcp
-  port: '15229'
-  server: 4f895d15-sva740-syx1ku-1o8ak.cm.plebai.net
-  type: vmess
-  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰30 |  1.4MB/s
+  name: 2|🇭🇰26 |  4.3MB/s
   network: tcp
   port: 15228
   server: 840493a3-sva740-tbhsus-1tgfe.cm.plebai.net
@@ -182,6 +165,35 @@ proxies:
   ws-headers:
     Host: 840493a3-sva740-tbhsus-1tgfe.cm.plebai.net
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 2|🇭🇰28 |  3.2MB/s
+  network: tcp
+  port: '15229'
+  server: 067f183f-sv8cg0-t48iy7-gydh.cm.plebai.net
+  type: vmess
+  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰29 |  2.1MB/s
+  network: tcp
+  port: 15229
+  server: 3e7c7177-sv8cg0-sveyey-44k4.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  ws-headers:
+    Host: 3e7c7177-sv8cg0-sveyey-44k4.cm.plebai.net
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 2|🇭🇰31 |  2.6MB/s
+  network: tcp
+  port: '15229'
+  server: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
+  type: vmess
+  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
@@ -193,7 +205,7 @@ proxies:
 - client-fingerprint: chrome
   name: 12,13|香港2|@ripaojiedian
   network: tcp
-  password: 22b34bca-5208-4eb1-94c8-53e77077a32e
+  password: 0a26a19e-4d87-4b2e-9b5b-a3f2b3d81fcf
   port: 27102
   server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
@@ -207,17 +219,15 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港4|@ripaojiedian
-  port: 15228
-  server: eeb0da71-sv8cg0-t2l8w3-d32g.cm.plebai.net
+- client-fingerprint: chrome
+  name: 12,13|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 72bda932-979f-a008-de58-0dcb3b424cfe
+  sni: hk-13-568.flztjc.net
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -265,28 +275,28 @@ proxies:
 - client-fingerprint: chrome
   name: 12,13|香港9|@ripaojiedian
   network: tcp
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
+  password: 8da4c3ad-463c-4546-a841-3355024f8656
+  port: 27103
+  server: sla.cn.964e995b760.gogodns.xin
   skip-cert-verify: false
-  sni: hk06.run.place
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|香港4|@ripaojiedian
-  network: tcp
-  port: '15228'
-  server: eeb0da71-sv8cg0-t2l8w3-d32g.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 72bda932-979f-a008-de58-0dcb3b424cfe
 - alterId: 0
   cipher: auto
   name: 13|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|香港6|@ripaojiedian
+  network: tcp
+  port: '43674'
+  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess

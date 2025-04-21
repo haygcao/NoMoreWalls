@@ -1,86 +1,81 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 64e09812-08bf-4c21-a9a0-86857cff7b03
+  password: ef8879b1-f60f-4bc4-af2a-e45673ca1792
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: c0db3e01-36e3-4c51-898e-9d3dc9f048b7
+  password: e7042b5f-4987-47c6-972d-c0b212a4ee16
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 2,13|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- alterId: '2'
-  cipher: auto
-  name: 2|🇺🇸13 |  3.5MB/s
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v29.heduian.link
-    path: /oooo
 - cipher: chacha20-ietf
-  name: 2|🇺🇸15 |  2.2MB/s
+  name: 2|🇺🇸12 |  2.2MB/s
   password: asd123456
   port: 8388
   server: 137.175.113.215
   type: ss
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 2|🇺🇸22 |  1.4MB/s
-  network: tcp
-  port: '50082'
-  server: 120.198.71.216
+  name: 2|🇺🇸14 |  2.5MB/s
+  network: ws
+  port: 23077
+  server: 45.147.201.231
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f90b800d-2b37-424e-afc8-4ecb2a64b64f
+  ws-headers:
+    Host: 45.147.201.231
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸43 |  5.8MB/s
+  network: ws
+  port: 80
+  server: www.wn03.cc
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -104,25 +99,25 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇺🇸 美国3|@ripaojiedian
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.107.226.14
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 5229
-  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
+  port: 45251
+  server: 112.65.92.20
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
   name: 13|美国|@ripaojiedian
@@ -137,9 +132,9 @@ proxies:
   cipher: auto
   name: 13|美国4|@ripaojiedian
   network: tcp
-  port: '5229'
-  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
+  port: '45251'
+  server: 112.65.92.20
   servername: ''
   tls: false
   type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
