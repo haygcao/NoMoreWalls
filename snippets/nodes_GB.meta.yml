@@ -1,23 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 5f201d97-e73b-488b-a033-a42d4a71c21c
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: ba253851-c33f-4ce4-90ec-b9eb3594b60f
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 5f201d97-e73b-488b-a033-a42d4a71c21c
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: ca446972-1dff-4803-b6e7-e6c5f62ed357
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: ba253851-c33f-4ce4-90ec-b9eb3594b60f
   port: 31271
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇬🇧1 |  5.4MB/s
+  network: tcp
+  port: 21367
+  reality-opts:
+    public-key: bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI
+    short-id: 866c9d6a17a0ae44
+  server: 64.227.45.240
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 422899ac-7bfb-441a-89c2-5b9eee312790
+  ws-opts:
+    headers:
+      Host: /JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇬🇧2 |  5.2MB/s
+  network: tcp
+  port: 21367
+  reality-opts:
+    public-key: bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI
+    short-id: 866c9d6a17a0ae44
+  server: infoo298102.novintec99.ir
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 422899ac-7bfb-441a-89c2-5b9eee312790
+  ws-opts:
+    headers:
+      Host: /JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 76af8d95-045f-4070-b799-d9c568b1af36
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
