@@ -1,44 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: be815d3d-0512-40b7-b2a4-49b93269b561
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: be815d3d-0512-40b7-b2a4-49b93269b561
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  delay: 1739
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0026
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧2 |  5.6MB/s
+  name: 2|🇬🇧1 |  5.0MB/s
+  network: ws
+  port: 2096
+  server: whatismyipaddress.com
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧2 |  4.3MB/s
+  network: ws
+  port: 2096
+  server: 104.19.222.79
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
+  ws-opts:
+    headers:
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s32.sabzmaghz.ir
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧3 |  5.1MB/s
   network: ws
   port: 2096
   server: whatismyipaddress.com
@@ -51,72 +54,22 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s33.sabzmaghz.ir
     path: ''
-- name: 2|🇬🇧3 |  1.5MB/s
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
-  ws-opts:
-    headers:
-      host: wwwspeedtestnetwhiteberinsistomd6625996s26.sabzmaghz.ir
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  3.9MB/s
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧5 |  5.1MB/s
-  network: tcp
-  port: 32055
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧6 |  4.4MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧7 |  1.6MB/s
+  name: 2|🇬🇧4 |  5.2MB/s
   network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s28.sabzmaghz.ir
-  tls: true
+  port: 2086
+  server: 162.159.138.232
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: e88187f8-62a3-4de1-a8f6-3b704ebd1865
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s28.sabzmaghz.ir
-    path: ''
+      Host: digitalscientificresearchgroup.ir
+    path: /TM@Azarbayjab1?ed=2560
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443

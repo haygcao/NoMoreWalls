@@ -1,74 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: be815d3d-0512-40b7-b2a4-49b93269b561
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: be815d3d-0512-40b7-b2a4-49b93269b561
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: be815d3d-0512-40b7-b2a4-49b93269b561
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: f4f6cda8-c9b1-4969-a9e0-6d5b6e0553a0
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬1 |  2.4MB/s
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬2 |  6.5MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇸🇬3 |  5.7MB/s
+  name: 2|🇸🇬1 |  5.8MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -81,20 +36,35 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0012
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬2 |  2.1MB/s
   network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
+  port: 17231
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+  ws-headers:
+    Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: ''
+  flow: none
+  mode: ''
+  name: 2|🇸🇬3 |  5.8MB/s
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: ''
+  tls: false
   type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: 1cf1e1b6-fc44-4000-8aa9-ffeee3b1aae8
+  ws-opts:
+    headers:
+      Host: free.server.techsonicpremium.shop
+    path: '%2Ffree.server.techsonicpremium.shop'
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
