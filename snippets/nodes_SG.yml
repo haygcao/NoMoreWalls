@@ -1,63 +1,35 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31171
-  server: free.2apzhfa.xyz
+- cipher: aes-256-gcm
+  name: 1|🇸🇬1 |  6.0MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬1 |  6.3MB/s
-  port: 17231
-  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬2 |  3.5MB/s
-  network: tcp
+  name: 1|🇸🇬5 |  1.8MB/s
   port: 17231
   server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
-  ws-headers:
-    Host: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36175
   server: free.2weradf.xyz
   type: ss

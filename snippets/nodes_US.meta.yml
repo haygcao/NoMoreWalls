@@ -1,72 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸1 |  5.6MB/s
-  network: tcp
-  port: 29023
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 1,12|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 97.107.140.236
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 1,14|US_speednode_0047
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us7.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us7.globals-download.com
-    path: /pq/us7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸4 |  4.2MB/s
-  network: tcp
-  port: 50200
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   name: 1,14|US_speednode_0045
   network: ws
@@ -82,276 +14,14 @@ proxies:
     headers:
       Host: us5.globals-download.com
     path: /pq/us5
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇺🇸6 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 104.18.21.135
-  servername: 25700.lanpinguo.cloud-ip.biz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 30a082ad-3ebb-43d8-813c-f25072205c6d
-  ws-opts:
-    headers:
-      Host: 25700.lanpinguo.cloud-ip.biz
-    path: ''
-- client-fingerprint: chrome
-  delay: 1187
-  name: 1,14|US_speednode_0050
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us6.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us6.globals-download.com
-    path: /pq/us6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸8 |  4.5MB/s
-  network: tcp
-  port: 21578
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  name: 1,14|US_speednode_0046
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us4.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us4.globals-download.com
-    path: /pq/us4
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸10 |  1.7MB/s
-  network: ws
-  port: 80
-  server: www.wn03.cc
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  ws-opts:
-    headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸11 |  3.8MB/s
-  network: tcp
-  port: 29023
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸12 |  2.7MB/s
-  network: tcp
-  port: 38302
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 1|🇺🇸13 |  2.2MB/s
-  network: ws
-  port: 443
-  server: 172.66.44.241
-  servername: GgGgr.PaGES.dEV
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
-  ws-opts:
-    headers:
-      Host: ggggr.pages.dev
-    path: /gLHWGBXwDuMKHx2C?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇺🇸14 |  2.8MB/s
-  network: tcp
-  port: 38311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸15 |  5.3MB/s
-  network: tcp
-  port: 5228
-  server: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e39687a8-3350-11ed-8110-f23c91cfbbc9
-  ws-headers:
-    Host: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
-  ws-path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0014
-  network: tcp
-  port: 64654
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  delay: 1628
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0028
-  network: tcp
-  port: 40430
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: '1,10|کانفیگ پرسرعت رایگان🌋@vmesc #1'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.204.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0019
-  network: tcp
-  port: 27932
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  name: 1,14|US_speednode_0049
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us2.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us2.globals-download.com
-    path: /pq/us2
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸21 |  5.5MB/s
-  network: ws
-  port: '2053'
-  server: 141.101.121.127
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      host: 1744007578.speed.mamha.cccp.freefly.pp.ua
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 1|🇺🇸22 |  5.7MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- name: '1,10|کانفیگ پرسرعت رایگان🌋@vmesc #2'
-  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+- auth: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  name: 1|🇺🇸2 |  3.0MB/s
+  password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
   port: 8443
-  server: b2c00bcd-sv4n40-t9uin7-19ord.hy2.gotochinatown.net
+  server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
   skip-cert-verify: false
-  tls: false
+  sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
   type: hysteria2
-- name: 1,10|سرور رایگان پرسرعت @vmess_ir
-  password: 54cef7fa-90ad-11eb-a8bf-f23c91cfbbc9
-  port: 8443
-  server: 05e4b25c-sv8cg0-sxxt3o-15z76.hy2.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 1|🇺🇸25 |  5.3MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸26 |  5.3MB/s
-  network: ws
-  port: 2053
-  server: 141.101.121.127
-  servername: 1744007578.speed.mamha.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1744007578.speed.mamha.cccp.freefly.pp.ua
-    path: /
 - client-fingerprint: chrome
   name: 1,14|US_speednode_0048
   network: ws
@@ -367,35 +37,224 @@ proxies:
     headers:
       Host: us3.globals-download.com
     path: /pq/us3
+- auth: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+  name: 1|🇺🇸4 |  1.6MB/s
+  password: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+  port: 8443
+  server: bec3dd81-suk9s0-sxv16d-1k09w.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: bec3dd81-suk9s0-sxv16d-1k09w.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 1,14|US_speednode_0047
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us7.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us7.globals-download.com
+    path: /pq/us7
+- name: 1,10| ر ریگان@vmesc
+  password: 262e7386-f8a9-11ef-ba82-f23c913c8d2b
+  port: 8443
+  server: 3b58370e-sv8cg0-tbhsus-1tgfe.hy2.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 1,14|US_speednode_0046
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us4.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us4.globals-download.com
+    path: /pq/us4
+- client-fingerprint: chrome
+  name: 1,14|US_speednode_0049
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us2.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us2.globals-download.com
+    path: /pq/us2
+- auth: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+  name: 1|🇺🇸9 |  1.5MB/s
+  password: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+  port: 8443
+  server: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇺🇸28 |  5.5MB/s
+  name: 1|🇺🇸10 |  1.7MB/s
   network: tcp
-  port: 22054
+  port: 50452
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0014
+  network: tcp
+  port: 64654
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸12 |  3.2MB/s
+  network: tcp
+  port: 38302
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  name: 1|🇺🇸13 |  2.3MB/s
+  password: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  port: 8443
+  server: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸14 |  5.5MB/s
+  network: tcp
+  port: 30206
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  name: 1|🇺🇸15 |  1.8MB/s
+  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  port: 8443
+  server: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
+  type: hysteria2
+- name: '1,10|کانفیگ پرسرعت رایگان🌋@vmesc #1'
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸17 |  1.9MB/s
+  network: tcp
+  port: 50200
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 1|🇺🇸18 |  6.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸19 |  3.9MB/s
+  network: tcp
+  port: 29023
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇺🇸20 |  2.6MB/s
+  network: tcp
+  port: 57926
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 1|🇺🇸21 |  5.8MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -421,6 +280,14 @@ proxies:
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
   tfo: false
   type: ss
 - alterId: 0
@@ -468,31 +335,18 @@ proxies:
     headers:
       Host: v2riran.com
     path: /telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN?ed=2056
-- name: 14|US_speednode_0044
+- client-fingerprint: chrome
+  name: 14|US_speednode_0050
   network: ws
-  port: 8080
-  server: tgju.org
-  servername: 4j.QBAo1g5z6k.ZulaIR.org.
+  port: 443
+  server: 104.18.20.20
+  servername: us6.globals-download.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
   ws-opts:
     headers:
-      Host: 4j.QBAo1g5z6k.ZulaIR.org.
-    path: /?ed=2048
-- name: 14|US_speednode_0051
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: 06.GDyA7g7K11.ZuLair.ORG.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9322430d-84fd-4fdf-808d-5c146fcde700
-  ws-opts:
-    headers:
-      Host: 06.GDyA7g7K11.ZuLair.ORG.
-    path: /?ed=2048
+      Host: us6.globals-download.com
+    path: /pq/us6
