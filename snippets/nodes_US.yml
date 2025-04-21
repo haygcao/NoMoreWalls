@@ -1,25 +1,136 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: be815d3d-0512-40b7-b2a4-49b93269b561
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: be815d3d-0512-40b7-b2a4-49b93269b561
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: be815d3d-0512-40b7-b2a4-49b93269b561
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 5470f4ea-acf8-4c69-ad84-ee1fe8ff138b
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- allowInsecure: ''
+  name: 2|🇺🇸10 |  1.9MB/s
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 104.21.86.44
+  skip-cert-verify: false
+  sni: 10xcvb.he2022.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10xcvb.he2022.filegear-sg.me
+    path: /VEP415T5mby2DulPWRIwOavJd
+- cipher: aes-128-cfb
+  name: 2|🇺🇸11 |  2.3MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- allowInsecure: ''
+  name: 2|🇺🇸15 |  4.0MB/s
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 172.67.215.15
+  skip-cert-verify: false
+  sni: 10xcvb.he2022.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10xcvb.he2022.filegear-sg.me
+    path: /VEP415T5mby2DulPWRIwOavJd
+- allowInsecure: ''
+  name: 2|🇺🇸16 |  5.7MB/s
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 104.21.57.88
+  skip-cert-verify: false
+  sni: 10tyu.iran.pp.ua
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10tyu.iran.pp.ua
+    path: /VEP415T5mby2DulPWRIwOavJd
+- allowInsecure: ''
+  name: 2|🇺🇸18 |  5.9MB/s
+  network: ws
+  password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
+  port: 443
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: 8fg.191268.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 8fg.191268.xyz
+    path: /tvowuLtlha3zxRV9PS
+- allowInsecure: ''
+  name: 2|🇺🇸25 |  5.9MB/s
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 172.67.162.74
+  skip-cert-verify: false
+  sni: 10tyu.iran.pp.ua
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10tyu.iran.pp.ua
+    path: /VEP415T5mby2DulPWRIwOavJd
+- allowInsecure: ''
+  name: 2|🇺🇸28 |  5.8MB/s
+  network: ws
+  password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
+  port: 443
+  server: 104.21.42.250
+  skip-cert-verify: false
+  sni: 8fg.191268.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 8fg.191268.xyz
+    path: /tvowuLtlha3zxRV9PS
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
