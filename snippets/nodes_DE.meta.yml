@@ -1,123 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
-  port: 36471
-  server: free.2weradf.xyz
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪1 |  3.2MB/s
+  name: 1|🇩🇪1 |  1.3MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
-    short-id: f203719d3ff9a5f5
-  server: 45.150.174.84
-  servername: maviks.eu
+    public-key: UqOnYKBtVUADBnjVw1rS2ZYcMa0vsCFFe6c1OkFXzGM
+    short-id: 49471179d2a8c88a
+  server: 5.75.198.69
+  servername: tgju.org
   tls: true
   type: vless
   udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
-- name: 1|🇩🇪2 |  2.2MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: sharp-bear.dolphin109.quest
-  skip-cert-verify: true
-  sni: sharp-bear.dolphin109.quest
-  type: trojan
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  4.3MB/s
-  network: ws
-  port: 50000
-  server: 49.175.158.24
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: ''
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪4 |  1.9MB/s
-  network: ws
-  port: 50000
-  server: 106.244.68.249
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪5 |  4.3MB/s
-  network: ws
-  port: 30066
-  server: 61.76.198.73
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  6.0MB/s
-  network: ws
-  port: 12534
-  server: 49.171.120.159
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪7 |  5.5MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 9759c1c7-1498-4c31-9f2a-49ae42a12699
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+  uuid: 63454ccd-5acd-4997-b43b-097b5c27000b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪8 |  2.1MB/s
+  name: 1|🇩🇪2 |  5.4MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
     short-id: f203719d3ff9a5f5
-  server: nodes.maviks.eu
+  server: 45.150.174.85
   servername: maviks.eu
   tls: true
   type: vless
@@ -126,55 +39,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  1.1MB/s
-  network: ws
-  port: 80
-  server: 45.131.210.16
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪10 |  5.5MB/s
-  network: ws
-  port: 2082
-  server: 173.245.59.109
-  servername: digitalscientificresearchgroup.ir
-  tls: false
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /TM@Azarbayjab1?ed
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪11 |  1.4MB/s
-  network: ws
-  port: 14041
-  server: 123.143.9.5
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪12 |  2.1MB/s
+  name: 1|🇩🇪3 |  1.8MB/s
   network: ws
   port: 443
   server: 43.156.153.48
@@ -187,7 +52,96 @@ proxies:
     headers:
       Host: photosair.ir
     path: telegramtw_@wangcai2/?ed
-- name: 1|🇩🇪13 |  5.4MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪4 |  4.8MB/s
+  network: ws
+  port: 2082
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 0a39cfb1-9c89-41f5-f560-904b3aad4827
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪5 |  5.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.86
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  5.8MB/s
+  network: tcp
+  port: 59248
+  reality-opts:
+    public-key: 8Kv7EfgfL25rSlPhosakuzPleZ4wWXN90dlh4Ti6FhA
+    short-id: ''
+  server: 3233985.headsetabad.ir
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: def6e08c-b9ec-4257-86ef-475efaddd366
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪7 |  3.1MB/s
+  network: ws
+  port: 27000
+  server: 182.213.59.227
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  5.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HT5DfZtmmFSHXy__XWc1ukf2zJHRtCWJSc2mhcpptXc
+    short-id: b6c6a4369cb8
+  server: mw3.baradshops.ir
+  servername: eset.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: acb9dedd-fa08-476f-b21a-06f6b7ddde97
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇩🇪9 |  5.1MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 1|🇩🇪10 |  3.9MB/s
   password: '!!str 3828095943467868160'
   port: 443
   server: immense-goose.dolphin109.quest
@@ -197,11 +151,11 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪14 |  5.4MB/s
+  name: 1|🇩🇪11 |  1.0MB/s
   network: ws
   port: 80
-  server: 45.131.4.108
-  servername: digitalscientificresearchgroup.ir
+  server: 45.159.218.180
+  servername: ''
   tls: false
   type: vless
   udp: false
@@ -209,46 +163,145 @@ proxies:
   ws-opts:
     headers:
       Host: digitalscientificresearchgroup.ir
-    path: /
-- delay: 863
-  name: 1,14|NL_speednode_0039
+    path: /TM@Azarbayjab1?ed=2560
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪12 |  6.0MB/s
   network: ws
-  port: 80
-  server: 45.131.5.233
-  servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
+  port: 8880
+  server: 172.67.24.121
+  servername: ''
   tls: false
   type: vless
-  udp: true
+  udp: false
+  uuid: a7e0cb26-4d5e-454c-90f8-439c988b8aaa
+  ws-opts:
+    headers:
+      Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪13 |  2.3MB/s
+  network: ws
+  port: 11325
+  server: 49.246.39.46
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
   uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /Telegram🇨🇳@WangCai2
-- allowInsecure: ''
-  name: 1|🇩🇪16 |  5.6MB/s
-  network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
+      Host: photosair.ir
+    path: ''
+- name: 1|🇩🇪14 |  5.3MB/s
+  network: tcp
+  port: 38853
+  server: ps3.isp-rebellion.com
+  servername: ea.com
+  skip-cert-verify: true
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: cb4bc081-0670-471c-a264-30e9e726ea46
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪15 |  1.3MB/s
+  network: ws
+  port: 30569
+  server: 221.161.58.134
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇩🇪16 |  3.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 91.238.82.243
+  servername: maviks.eu
+  tls: true
+  type: vless
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪17 |  1.9MB/s
+  network: ws
+  port: 30069
+  server: 14.39.172.147
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bingflow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪18 |  1.5MB/s
+  network: ws
+  port: 8880
+  server: website.amin-app.ir
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 0a6f34c4-39a7-4a27-914c-9d9ec9b57a89
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪19 |  2.6MB/s
+  network: ws
+  port: 443
+  server: 104.21.63.240
+  servername: cdn-nodes.maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+  ws-opts:
+    headers:
+      Host: cdn-nodes.maviks.eu
+    path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪20 |  5.6MB/s
+  network: ws
+  port: 80
+  server: 141.193.213.0
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: psycho.suex12.ir
+    path: /
 - alpn:
   - h3
-  name: 10|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
+  name: 9|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
   obfs: salamander
   obfs-password: SiNAVM-SiNAVM-SiNAVM-@SiNAVM-@SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
@@ -256,7 +309,7 @@ proxies:
   server: sinavm.soft10.ir
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -265,3 +318,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

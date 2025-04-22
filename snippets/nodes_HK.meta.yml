@@ -1,306 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 1|🇭🇰1 |  1.7MB/s
-  password: 292f149a-33cb-4ecd-b432-5447764ea339
-  port: 27103
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰2 |  1.2MB/s
-  network: ws
-  port: 80
-  server: 92b1e00e-sv0xs0-tb224g-1h0r9.hk.p5pv.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰3 |  2.4MB/s
-  network: ws
-  port: 80
-  server: fd10dcb4-sv2sg0-tcjq63-18xa0.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1789a3ae-f017-11ef-8eaf-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: fd10dcb4-sv2sg0-tcjq63-18xa0.hgc1.tcpbbr.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 1|🇭🇰4 |  1.9MB/s
-  network: ws
-  port: 80
-  server: 060d35f2-sv4n40-sypd5t-m7yx.hgc1.tcpbbr.net
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d57803f0-47e4-fc72-e44b-8a62ddedecd9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- name: 1|🇭🇰5 |  5.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰6 |  2.0MB/s
-  network: tcp
-  port: 15229
-  server: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
-  ws-headers:
-    Host: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
-  ws-path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇭🇰7 |  4.4MB/s
-  network: tcp
-  port: 12597
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰8 |  1.3MB/s
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 1|🇭🇰9 |  3.2MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
-- name: 1|🇭🇰10 |  1.7MB/s
-  password: 0b86a011-142f-4de9-b925-5c8222ab3a62
-  port: 27101
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 11|香港🇭🇰 HY2
-  password: e20abb22a245edb0
-  port: 8443
-  server: fast.yxmm.xyz
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰1 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 3c8fbafa-sv2sg0-t1a26b-1dn6p.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f30891a2-7d0e-11ed-bb05-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 3c8fbafa-sv2sg0-t1a26b-1dn6p.hk.p5pv.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰2 |  1.6MB/s
+  network: tcp
+  port: 45883
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenyang001.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰3 |  2.2MB/s
+  network: ws
+  port: 80
+  server: a9b5ab57-sv2sg0-sv75lj-1swf9.hk.p5pv.com
   skip-cert-verify: true
-  sni: TG频道@zqnb122100
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
-  network: ws
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  port: 40021
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  skip-cert-verify: false
-  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-    path: /dl_media
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  password: a77288b8-3a1b-4f1a-af4e-d721ccb92297
-  port: 18988
-  server: tencent.vpne.one
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
-  port: 41291
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  port: 43674
-  server: 120.234.102.229
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港7|@ripaojiedian
-  port: 36609
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港8|@ripaojiedian
-  port: 42375
-  server: 120.198.71.214
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港9|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 31402
-  server: hkkh11v1.xpmc.cc
-  tfo: false
-  type: ss
-- name: 13|香港|@ripaojiedian
-  network: ws
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  port: 40021
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-    path: '%2Fdl_media'
-- alterId: 0
-  cipher: auto
-  name: 13|香港3|@ripaojiedian
-  network: kcp
-  port: '52059'
-  server: 8.218.228.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
-- alterId: 0
-  cipher: auto
-  name: 13|香港5|@ripaojiedian
-  network: tcp
-  port: '41291'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13|香港7|@ripaojiedian
-  network: tcp
-  port: '36609'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 13|香港8|@ripaojiedian
-  network: tcp
-  port: '42375'
-  server: 120.198.71.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|HK_speednode_0029
+  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+  ws-headers:
+    Host: a9b5ab57-sv2sg0-sv75lj-1swf9.hk.p5pv.com
+  ws-path: /
+- name: 1,13|HK_speednode_0029
   network: ws
   port: 443
   server: 162.247.5.96
@@ -314,9 +67,24 @@ proxies:
     headers:
       Host: hk.qhahd.shop
     path: /bing
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰7 |  2.1MB/s
+  network: tcp
+  port: 15229
+  server: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  ws-headers:
+    Host: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net
+  ws-path: /
 - client-fingerprint: chrome
+  delay: 2996
   flow: xtls-rprx-vision
-  name: 14|HK_speednode_0031
+  name: 1,13|HK_speednode_0031
+  network: tcp
   port: 20550
   reality-opts:
     public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
@@ -327,3 +95,429 @@ proxies:
   type: vless
   udp: true
   uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,13|CN_speednode_0006
+  network: tcp
+  port: 11555
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰9 |  5.4MB/s
+  network: tcp
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: '0'
+  cipher: auto
+  name: 1|🇭🇰10 |  1.4MB/s
+  network: tcp
+  port: '15229'
+  server: 3e7c7177-sv8cg0-sveyey-44k4.cm.plebai.net
+  type: vmess
+  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+- name: 1|🇭🇰11 |  1.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰12 |  6.1MB/s
+  network: tcp
+  port: 33782
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰13 |  1.2MB/s
+  network: tcp
+  port: 15229
+  server: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
+  ws-headers:
+    Host: d9e7fec2-sva740-svo46i-1tmhw.cm.plebai.net
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰14 |  4.3MB/s
+  network: tcp
+  port: 31800
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇭🇰15 |  1.8MB/s
+  network: ws
+  port: 50000
+  server: 106.244.68.249
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bingflow=-udp443
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰16 |  3.7MB/s
+  network: ws
+  port: 80
+  server: 53c6690b-sv2sg0-sz3ckv-19esv.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 86735fe4-967a-11eb-86a4-f23c913c8d2b
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰17 |  4.0MB/s
+  network: ws
+  port: 80
+  server: c3ae31b3-sv0xs0-syxyhi-12kzu.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7b72cc10-0b3f-11ee-a91f-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: c3ae31b3-sv0xs0-syxyhi-12kzu.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰18 |  2.8MB/s
+  network: ws
+  port: 80
+  server: 1b984fce-sv2sg0-t9lb8r-ptn8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ca76ebf2-7312-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 1b984fce-sv2sg0-t9lb8r-ptn8.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰19 |  1.2MB/s
+  network: tcp
+  port: 15229
+  server: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  ws-headers:
+    Host: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 1|🇭🇰20 |  3.4MB/s
+  network: ws
+  port: 80
+  server: 6bcba1b3-sv2sg0-sywkhi-1o4kv.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+  ws-headers:
+    HOST: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰21 |  1.1MB/s
+  network: ws
+  port: 80
+  server: 76ddc0b1-sv2sg0-szeqpq-sbt2.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b88ebf3a-b6b7-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 76ddc0b1-sv2sg0-szeqpq-sbt2.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰22 |  1.1MB/s
+  network: ws
+  port: 80
+  server: 183cb398-sv6hs0-tdzlqm-1h1y5.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ef332c4a-a21b-11ed-9765-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 183cb398-sv6hs0-tdzlqm-1h1y5.hk.p5pv.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰23 |  3.6MB/s
+  network: tcp
+  port: 61178
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 1|🇭🇰24 |  4.0MB/s
+  network: ws
+  port: 80
+  server: 681f042c-sv2sg0-t15duc-1nsdp.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 70e061f6-796a-11ee-8f26-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 681f042c-sv2sg0-t15duc-1nsdp.hk.p5pv.com
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇭🇰25 |  4.0MB/s
+  network: ws
+  port: 50000
+  server: 221.158.170.74
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bingflow=-udp443
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰26 |  4.3MB/s
+  port: 15229
+  server: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
+- client-fingerprint: chrome
+  name: 1,11,12|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇭🇰28 |  3.6MB/s
+  network: tcp
+  port: 46716
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  skip-cert-verify: false
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: a77288b8-3a1b-4f1a-af4e-d721ccb92297
+  port: 18988
+  server: tencent.vpne.one
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港5|@ripaojiedian
+  port: 41291
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港6|@ripaojiedian
+  port: 43674
+  server: 120.234.102.229
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港7|@ripaojiedian
+  port: 36609
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港8|@ripaojiedian
+  port: 42375
+  server: 120.198.71.214
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港9|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 31402
+  server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- name: 12|香港|@ripaojiedian
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: '%2Fdl_media'
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: kcp
+  port: '52059'
+  server: 8.218.228.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
+- alterId: 0
+  cipher: auto
+  name: 12|香港5|@ripaojiedian
+  network: tcp
+  port: '41291'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|香港6|@ripaojiedian
+  network: tcp
+  port: '43674'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|香港7|@ripaojiedian
+  network: tcp
+  port: '36609'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|香港8|@ripaojiedian
+  network: tcp
+  port: '42375'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 02 | 1x HK
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

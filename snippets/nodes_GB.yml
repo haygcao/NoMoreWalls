@@ -1,25 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
-  port: 36271
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 51537489-7dd8-4578-9660-d1e33e2e5837
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧1 |  1.0MB/s
-  password: W7fIo8Gp6TLb1YHZNH1fu5
-  port: 39008
-  server: 62.60.231.81
-  type: ss
-- name: 1|🇬🇧2 |  1.7MB/s
+- name: 1|🇬🇧4 |  5.5MB/s
   password: '!!str 3828095943467868160'
   port: 443
   server: grateful-mako.dolphin109.quest
@@ -27,16 +21,16 @@ proxies:
   sni: grateful-mako.dolphin109.quest
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
