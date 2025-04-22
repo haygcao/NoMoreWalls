@@ -1,114 +1,392 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: 84515930-6274-4739-b9ff-1cd25f42ef71
-  client-fingerprint: chrome
-  down: 500
-  name: 2|🇺🇸1 |  6.2MB/s
-  password: 84515930-6274-4739-b9ff-1cd25f42ef71
-  port: 1086
-  server: us2.yunxing.lat
+- delay: 805
+  name: 1,13|SE_speednode_0041
+  network: ws
+  port: 8880
+  server: 185.146.173.167
+  servername: digitalscientificresearchgroup.ir
   skip-cert-verify: true
-  sni: us1.yunxing.lat
-  type: hysteria2
+  tls: false
+  type: vless
   udp: true
-  up: 2500
-- client-fingerprint: ''
-  flow: ''
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM-@AZARBAYJAB1/?ed=2560
+- auth: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  name: 1|🇺🇸2 |  5.4MB/s
+  password: fb8812ae-dcb5-11ef-a57d-f23c9313b177
+  port: 443
+  server: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  skip-cert-verify: false
+  sni: 90f6eaa0-sudhc0-syoixd-bm0y.la.shifen.uk
+  type: hysteria2
+- name: '1,8,10|Channel id: @ShadowProxy66🇺🇸 #1'
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 1|🇺🇸4 |  2.8MB/s
+  network: ws
+  password: 00a9a559-8bb0-425e-bc97-c9885a575455
+  port: 443
+  server: time.is
+  skip-cert-verify: true
+  sni: usargo.lzj520hxw.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-tr?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸5 |  5.8MB/s
+  network: ws
+  port: 2053
+  raw:
+    add: 104.21.96.1
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: mass3.890601.xyz
+    id: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+    net: ws
+    path: /
+    port: '2053'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: mass3.890601.xyz
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.96.1
+  servername: mass3.890601.xyz
+  tls: true
+  type: vmess
+  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+  ws-opts:
+    headers:
+      Host: mass3.890601.xyz
+    path: /
+- flow: ''
   mode: ''
-  name: 2|🇺🇸2 |  1.1MB/s
+  name: 1|🇺🇸6 |  5.8MB/s
   network: ws
   port: 443
-  server: 104.25.140.153
-  servername: BPB-pANEL-En-1O0.pAges.DEV
+  server: 104.21.79.79
+  servername: 9yuhj.938.pp.ua
   tls: true
   type: vless
   udp: false
-  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
   ws-opts:
     headers:
-      Host: BPB-pANEL-En-1O0.pAges.DEV
-    path: /
+      Host: 9yuhj.938.pp.ua
+    path: /K8X1ocJD1r0dTd5pVam9w
 - alpn:
   - h3
   auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 2|🇺🇸3 |  5.5MB/s
-  port: 11512
-  server: 108.181.24.77
+  down: 55 Mbps
+  name: 1|🇺🇸7 |  3.8MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
+  sni: www.bing.com
   type: hysteria
-  udp: true
-  up: 1000 Mbps
-- cipher: aes-128-cfb
-  name: 2|🇺🇸4 |  5.1MB/s
-  password: shadowsocks
+  up: 11 Mbps
+- name: 1|🇺🇸8 |  4.2MB/s
+  network: ws
   port: 443
-  server: 184.170.241.194
-  type: ss
+  server: 5.10.244.44
+  servername: usargo.lzj520hxw.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vl?ed=2048
+- auth: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  name: 1|🇺🇸9 |  2.1MB/s
+  password: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  port: 443
+  server: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+  skip-cert-verify: false
+  sni: f6f7c702-submo0-suc86w-7yd9.la.shifen.uk
+  type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: ''
   mode: ''
-  name: 2|🇺🇸5 |  5.4MB/s
-  network: tcp
+  name: 1|🇺🇸10 |  4.4MB/s
+  network: ws
   port: 443
-  reality-opts:
-    public-key: K5yIsBzq366C1NKBdPvjAysQ0A5ruxdqRu67HKSnWyQ
-    short-id: ''
-  server: AMwybc11f2C7oIS6HvZivt.pROTOniX.IR
-  servername: client3.google.com
+  server: 104.21.30.167
+  servername: d3332856-cd74.2032.pp.ua
   tls: true
   type: vless
   udp: false
-  uuid: 61435a04-0e16-436f-b81d-552d70145fd9
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  ws-opts:
+    headers:
+      Host: d3332856-cd74.2032.pp.ua
+    path: /ok1UBnf7txQ8YJFJxz
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇺🇸6 |  2.1MB/s
+  name: 1|🇺🇸11 |  4.5MB/s
   network: ws
-  port: 11413
-  server: 121.158.194.32
+  port: 8880
+  server: 104.21.96.1
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: ''
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸12 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 104.21.46.81
+  servername: hoZori.Ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: hozori.ir
+    path: /WR5A7Ug0BgqU4kju?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸13 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 45.131.210.16
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /
+- client-fingerprint: ''
+  delay: 863
+  flow: ''
+  mode: ''
+  name: 1,13|NL_speednode_0039
+  network: ws
+  port: 80
+  server: 45.131.5.233
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2
+- allowInsecure: ''
+  name: 1|🇺🇸15 |  2.2MB/s
+  network: ws
+  password: 0212fab5-e93c-4904-b7a8-187fd535f354
+  port: 443
+  server: 172.67.159.56
+  skip-cert-verify: false
+  sni: 3wsxcvbn.890617.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 3wsxcvbn.890617.xyz
+    path: /rFt8MpX4JNWO67qEaMINZ1
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸16 |  1.4MB/s
+  network: ws
+  port: 30569
+  server: 221.161.58.134
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸17 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 66.179.48.117
+  servername: usargo.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vm?ed=2048
+- name: '1,8,10|Channel id: @ShadowProxy66🇺🇸 #2'
+  password: dongtaiwang.com
+  port: 65232
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸19 |  3.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.208.7
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: Telegram🇨🇳@WangCai2/?ed
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸20 |  2.8MB/s
+  network: ws
+  port: 443
+  server: 104.21.49.59
+  servername: 3qws.890617.xyz
+  tls: true
+  type: vless
+  udp: false
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3qws.890617.xyz
+    path: /Icc2cX4ThvubEYxWO67qEaMINZ1
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸21 |  3.2MB/s
+  network: ws
+  port: 443
+  server: 172.67.173.64
+  servername: d3332856-cd74.2032.pp.ua
+  tls: true
+  type: vless
+  udp: false
+  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  ws-opts:
+    headers:
+      Host: d3332856-cd74.2032.pp.ua
+    path: /ok1UBnf7txQ8YJFJxz
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸22 |  5.4MB/s
+  network: ws
+  port: 8880
+  server: 185.146.173.167
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: ''
+- auth: 82efba2c-f420-11ef-9529-f23c93141fad
+  name: 1|🇺🇸23 |  5.5MB/s
+  password: 82efba2c-f420-11ef-9529-f23c93141fad
+  port: 443
+  server: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
+  skip-cert-verify: false
+  sni: d7babeae-sudhc0-svm3vt-czv5.la.shifen.uk
+  type: hysteria2
+- cipher: chacha20-ietf
+  name: 1|🇺🇸24 |  5.5MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
+  type: ss
+- allowInsecure: ''
+  name: 1|🇺🇸25 |  5.8MB/s
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 104.21.69.41
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- delay: 471
+  name: 1,13|NL_speednode_0034
+  network: ws
+  port: 80
+  server: 45.131.4.158
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸27 |  2.3MB/s
+  network: ws
+  port: 10850
+  server: 14.33.77.185
   servername: photosair.ir
   tls: true
   type: vless
@@ -118,10 +396,73 @@ proxies:
     headers:
       Host: photosair.ir
     path: /bingflow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸28 |  5.2MB/s
+  network: ws
+  port: 2082
+  server: 173.245.59.109
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM@Azarbayjab1?ed
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸29 |  1.6MB/s
+  network: ws
+  port: 50000
+  server: 116.47.199.34
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- delay: 1527
+  name: 1,13|NL_speednode_0036
+  network: ws
+  port: 80
+  server: 45.131.4.194
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /Lizard VPN🦎
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸31 |  4.4MB/s
+  network: ws
+  port: 23349
+  server: 59.5.53.119
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇺🇸7 |  3.7MB/s
+  name: 1|🇺🇸32 |  4.8MB/s
   network: ws
   port: 443
   server: 172.67.159.56
@@ -136,128 +477,168 @@ proxies:
     path: /Icc2cX4ThvubEYxWO67qEaMINZ1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇺🇸8 |  5.6MB/s
+  name: 1|🇺🇸33 |  1.7MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: 5k8-foZtxfQNmrAVZJPaFlSKTWZ3kSKwwlO8lke9jwE
-    short-id: ''
-  server: 64.225.32.206
-  servername: refersion.com
+    public-key: qM1XlrSeyJsPBUvrGWi46okbeljt0ksMuMFPraXrmFg
+    short-id: 4b61d108
+  server: 107.172.132.248
+  servername: iyfglobal.org
+  tls: true
+  type: vless
+  uuid: fefba36d-5142-42f1-b14d-db5249511d93
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸34 |  3.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.211.175
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸35 |  4.3MB/s
+  network: ws
+  port: 443
+  server: 172.67.212.82
+  servername: D05f4AA7-92B1-a659-E3B9-695dd2870b3c.131.pp.UA
   tls: true
   type: vless
   udp: false
-  uuid: 61435a04-0e16-436f-b81d-552d70145fd9
-- allowInsecure: ''
-  name: 2|🇺🇸9 |  5.2MB/s
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      Host: d05f4aa7-92b1-a659-e3b9-695dd2870b3c.131.pp.ua
+    path: /XcQF058rNJ3gc4aj
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸36 |  5.7MB/s
   network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
   port: 443
-  server: 104.21.86.44
+  server: 104.21.23.162
+  servername: D05f4AA7-92B1-a659-E3B9-695dd2870b3c.131.pp.UA
+  tls: true
+  type: vless
+  udp: false
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      Host: d05f4aa7-92b1-a659-e3b9-695dd2870b3c.131.pp.ua
+    path: /XcQF058rNJ3gc4aj
+- allowInsecure: ''
+  name: 1|🇺🇸37 |  5.0MB/s
+  network: ws
+  password: 0212fab5-e93c-4904-b7a8-187fd535f354
+  port: 443
+  server: 104.21.49.59
   skip-cert-verify: false
-  sni: 10xcvb.he2022.filegear-sg.me
+  sni: 3wsxcvbn.890617.xyz
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: 10xcvb.he2022.filegear-sg.me
-    path: /VEP415T5mby2DulPWRIwOavJd
+      Host: 3wsxcvbn.890617.xyz
+    path: /rFt8MpX4JNWO67qEaMINZ1
 - alpn:
   - h3
   auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 2|🇺🇸10 |  6.0MB/s
-  port: 17549
-  server: 208.87.243.151
+  down: 1000 Mbps
+  name: 1|🇺🇸38 |  5.9MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: apple.com
   type: hysteria
-  up: 11 Mbps
-- auth: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  name: 2|🇺🇸11 |  1.0MB/s
-  password: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  port: 8443
-  server: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸12 |  5.1MB/s
-  network: ''
+  udp: true
+  up: 1000 Mbps
+- auth: 564b440a-700f-11ee-a90c-f23c9313b177
+  name: 1|🇺🇸39 |  5.4MB/s
+  password: 564b440a-700f-11ee-a90c-f23c9313b177
   port: 443
-  server: 47.251.95.178
+  server: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  skip-cert-verify: false
+  sni: 71845bc5-submo0-t0t1z3-1qgn.la.shifen.uk
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 1|🇺🇸40 |  4.5MB/s
+  network: tcp
+  port: 443
+  server: 135.148.152.97
   servername: 147135001195.sec22org.com
   tls: true
   type: vless
-  udp: false
   uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: 2|🇺🇸13 |  4.0MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-- auth: ae403676-1f72-11ef-98df-f23c91cfbbc9
-  name: 2|🇺🇸14 |  1.0MB/s
-  password: ae403676-1f72-11ef-98df-f23c91cfbbc9
-  port: 8443
-  server: 996b0aed-suz340-t21ryz-1rk0u.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 996b0aed-suz340-t21ryz-1rk0u.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇺🇸15 |  5.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: K5yIsBzq366C1NKBdPvjAysQ0A5ruxdqRu67HKSnWyQ
-    short-id: ''
-  server: 104.236.207.60
-  servername: client3.google.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 61435a04-0e16-436f-b81d-552d70145fd9
-- client-fingerprint: chrome
-  name: 2,14|US_speednode_0045
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us5.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us5.globals-download.com
-    path: /pq/us5
-- client-fingerprint: chrome
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇺🇸17 |  2.7MB/s
+  name: 1|🇺🇸41 |  4.3MB/s
   network: ws
-  port: 443
-  server: 172.67.169.91
-  servername: 3ws.938.pp.ua
+  port: 24251
+  server: 121.155.154.142
+  servername: photosair.ir
   tls: true
   type: vless
   udp: false
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: 3ws.938.pp.ua
-    path: /Icc2cX4ThvubEYxWO67qEaMINZ1
+      Host: photosair.ir
+    path: /bingflow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇺🇸42 |  3.8MB/s
+  network: ws
+  port: 50000
+  server: 27.100.229.147
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- allowInsecure: ''
+  name: 1|🇺🇸43 |  5.1MB/s
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 172.67.204.22
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- name: 1|🇺🇸44 |  1.5MB/s
+  network: ws
+  port: 443
+  server: 45.202.113.50
+  servername: hy10.lzj520hxw.dpdns.org
+  tls: true
+  type: vless
+  uuid: a3c075ab-51cd-4947-e8a4-aad55e19bec2
+  ws-opts:
+    headers:
+      Host: hy10.lzj520hxw.dpdns.org
+    path: /lzjjj
 - client-fingerprint: chrome
-  name: 2,14|US_speednode_0049
+  name: 1,13|US_speednode_0049
   network: ws
   port: 443
   server: 104.18.20.20
@@ -271,302 +652,10 @@ proxies:
     headers:
       Host: us2.globals-download.com
     path: /pq/us2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇺🇸19 |  2.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qM1XlrSeyJsPBUvrGWi46okbeljt0ksMuMFPraXrmFg
-    short-id: 4b61d108
-  server: 107.172.132.248
-  servername: iyfglobal.org
-  tls: true
-  type: vless
-  uuid: fefba36d-5142-42f1-b14d-db5249511d93
-- auth: cf4a1644-5847-11ef-bc74-f23c91cfbbc9
-  name: 2|🇺🇸20 |  1.2MB/s
-  password: cf4a1644-5847-11ef-bc74-f23c91cfbbc9
-  port: 8443
-  server: c6d7d2f2-suz340-t5tz5s-1onbp.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: c6d7d2f2-suz340-t5tz5s-1onbp.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸21 |  5.4MB/s
-  network: ws
-  port: 443
-  server: 104.21.79.79
-  servername: 9yuhj.938.pp.ua
-  tls: true
-  type: vless
-  udp: false
-  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-  ws-opts:
-    headers:
-      Host: 9yuhj.938.pp.ua
-    path: /K8X1ocJD1r0dTd5pVam9w
-- client-fingerprint: chrome
-  name: 2,14|US_speednode_0046
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us4.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us4.globals-download.com
-    path: /pq/us4
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸23 |  1.2MB/s
-  network: ws
-  port: 2095
-  server: 162.159.153.2
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: fuckingxijinping.xijinpingbigsb.workers.dev
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸24 |  4.7MB/s
-  network: ws
-  port: 443
-  server: 18.183.158.211
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: chrome
-  name: 2,14|US_speednode_0048
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us3.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us3.globals-download.com
-    path: /pq/us3
-- name: '2,9,11|Channel id: @ShadowProxy66🇺🇸 #2'
-  password: dongtaiwang.com
-  port: 65232
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  delay: 1187
-  name: 2,14|US_speednode_0050
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us6.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us6.globals-download.com
-    path: /pq/us6
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸28 |  1.5MB/s
-  network: ws
-  port: 50000
-  server: 27.100.229.147
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- delay: 984
-  name: 2,14|NL_speednode_0037
-  network: ws
-  port: 80
-  server: 45.131.4.25
-  servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: digitalscientificresearchgroup.ir
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸30 |  1.9MB/s
-  network: ws
-  port: 12534
-  server: 49.171.120.159
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- name: '2,9,11|Channel id: @ShadowProxy66🇺🇸 #1'
-  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-  port: 47262
-  server: 64.181.204.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸32 |  4.6MB/s
-  network: ws
-  port: 443
-  server: 104.21.49.59
-  servername: 3qws.890617.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
-  ws-opts:
-    headers:
-      Host: 3qws.890617.xyz
-    path: /Icc2cX4ThvubEYxWO67qEaMINZ1
-- allowInsecure: ''
-  name: 2|🇺🇸33 |  5.0MB/s
-  network: ws
-  password: 0212fab5-e93c-4904-b7a8-187fd535f354
-  port: 443
-  server: 172.67.159.56
-  skip-cert-verify: false
-  sni: 3wsxcvbn.890617.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3wsxcvbn.890617.xyz
-    path: /rFt8MpX4JNWO67qEaMINZ1
-- client-fingerprint: chrome
-  name: 2,14|US_speednode_0047
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us7.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
-  ws-opts:
-    headers:
-      Host: us7.globals-download.com
-    path: /pq/us7
-- client-fingerprint: ''
-  flow: -udp443
-  mode: ''
-  name: 2|🇺🇸35 |  4.8MB/s
-  network: ''
-  port: 443
-  server: 51.81.18.62
-  servername: 147135011033.sec21org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇺🇸36 |  3.0MB/s
-  network: ws
-  port: 30052
-  server: 118.46.29.202
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443
-- name: 2|🇺🇸37 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 5.10.244.44
-  servername: usargo.lzj520hxw.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
-  ws-opts:
-    headers:
-      Host: usargo.lzj520hxw.dpdns.org
-    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vl?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇺🇸38 |  5.7MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -RAXxRIJwQWrX2sx-N3XvLbj3GgebhYF4XfU9h9Wsm0
-    short-id: ''
-  server: aSD7953fotD6b2Mktnyo.GUiLDedtoP.ir
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 61435a04-0e16-436f-b81d-552d70145fd9
-- allowInsecure: ''
-  name: 2|🇺🇸39 |  5.9MB/s
-  network: ws
-  password: 0212fab5-e93c-4904-b7a8-187fd535f354
-  port: 443
-  server: 104.21.49.59
-  skip-cert-verify: false
-  sni: 3wsxcvbn.890617.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3wsxcvbn.890617.xyz
-    path: /rFt8MpX4JNWO67qEaMINZ1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -576,7 +665,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -589,7 +678,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -605,7 +694,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 13|美国|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -613,7 +702,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0043
+- name: 13|US_speednode_0043
   network: ws
   port: 80
   server: 151.101.2.228
@@ -627,7 +716,7 @@ proxies:
     headers:
       Host: v2riran.com
     path: /telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN,telegram-@V2RIRAN?ed=2056
-- name: 14|US_speednode_0044
+- name: 13|US_speednode_0044
   network: ws
   port: 8080
   server: tgju.org
@@ -641,3 +730,113 @@ proxies:
     headers:
       Host: 4j.QBAo1g5z6k.ZulaIR.org.
     path: /?ed=2048
+- client-fingerprint: chrome
+  name: 13|US_speednode_0045
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us5.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us5.globals-download.com
+    path: /pq/us5
+- client-fingerprint: chrome
+  name: 13|US_speednode_0046
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us4.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us4.globals-download.com
+    path: /pq/us4
+- client-fingerprint: chrome
+  name: 13|US_speednode_0047
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us7.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us7.globals-download.com
+    path: /pq/us7
+- client-fingerprint: chrome
+  name: 13|US_speednode_0048
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us3.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us3.globals-download.com
+    path: /pq/us3
+- client-fingerprint: chrome
+  name: 13|US_speednode_0050
+  network: ws
+  port: 443
+  server: 104.18.20.20
+  servername: us6.globals-download.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af8e7760-4993-4393-9db7-e84f05a06d21
+  ws-opts:
+    headers:
+      Host: us6.globals-download.com
+    path: /pq/us6
+- name: 13|US_speednode_0051
+  network: ws
+  port: 8080
+  server: tgju.org
+  servername: 06.GDyA7g7K11.ZuLair.ORG.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9322430d-84fd-4fdf-808d-5c146fcde700
+  ws-opts:
+    headers:
+      Host: 06.GDyA7g7K11.ZuLair.ORG.
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

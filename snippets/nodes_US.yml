@@ -1,68 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-128-cfb
-  name: 2|🇺🇸4 |  5.1MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- allowInsecure: ''
-  name: 2|🇺🇸9 |  5.2MB/s
+- name: 1|🇺🇸4 |  2.8MB/s
   network: ws
-  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  password: 00a9a559-8bb0-425e-bc97-c9885a575455
   port: 443
-  server: 104.21.86.44
-  skip-cert-verify: false
-  sni: 10xcvb.he2022.filegear-sg.me
-  tls: true
+  server: time.is
+  skip-cert-verify: true
+  sni: usargo.lzj520hxw.dpdns.org
   type: trojan
   ws-opts:
     headers:
-      Host: 10xcvb.he2022.filegear-sg.me
-    path: /VEP415T5mby2DulPWRIwOavJd
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-tr?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸5 |  5.8MB/s
+  network: ws
+  port: 2053
+  raw:
+    add: 104.21.96.1
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: mass3.890601.xyz
+    id: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+    net: ws
+    path: /
+    port: '2053'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: mass3.890601.xyz
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.96.1
+  servername: mass3.890601.xyz
+  tls: true
+  type: vmess
+  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+  ws-opts:
+    headers:
+      Host: mass3.890601.xyz
+    path: /
 - allowInsecure: ''
-  name: 2|🇺🇸33 |  5.0MB/s
+  name: 1|🇺🇸15 |  2.2MB/s
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -75,8 +76,42 @@ proxies:
     headers:
       Host: 3wsxcvbn.890617.xyz
     path: /rFt8MpX4JNWO67qEaMINZ1
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸17 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 66.179.48.117
+  servername: usargo.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
+  ws-opts:
+    headers:
+      Host: usargo.lzj520hxw.dpdns.org
+    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vm?ed=2048
+- cipher: chacha20-ietf
+  name: 1|🇺🇸24 |  5.5MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
+  type: ss
 - allowInsecure: ''
-  name: 2|🇺🇸39 |  5.9MB/s
+  name: 1|🇺🇸25 |  5.8MB/s
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 104.21.69.41
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- allowInsecure: ''
+  name: 1|🇺🇸37 |  5.0MB/s
   network: ws
   password: 0212fab5-e93c-4904-b7a8-187fd535f354
   port: 443
@@ -89,10 +124,24 @@ proxies:
     headers:
       Host: 3wsxcvbn.890617.xyz
     path: /rFt8MpX4JNWO67qEaMINZ1
+- allowInsecure: ''
+  name: 1|🇺🇸43 |  5.1MB/s
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 172.67.204.22
+  skip-cert-verify: false
+  sni: 1SdfghJk.890602.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1sdfghjk.890602.xyz
+    path: /OYzPAeaZdXUq2d6J3gc4aj
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -102,7 +151,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -115,7 +164,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -131,7 +180,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 13|美国|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -139,3 +188,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 92186e4b-d532-4e48-9148-c17725948d25
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
