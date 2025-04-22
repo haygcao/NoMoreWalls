@@ -1,38 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 176bfee2-15d2-4a99-a865-830ca20b0803
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 176bfee2-15d2-4a99-a865-830ca20b0803
+  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧1 |  1.1MB/s
-  network: ws
-  port: 50027
-  server: 49.171.243.145
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇬🇧2 |  3.1MB/s
+  name: 2|🇬🇧1 |  3.4MB/s
   network: ws
   port: 443
   server: 104.18.8.74
@@ -45,13 +29,11 @@ proxies:
     headers:
       Host: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
     path: /admin
-- allowInsecure: ''
-  name: 2|🇬🇧3 |  4.9MB/s
-  network: tcp
-  password: telegram-id-vlessconfig
-  port: 22222
-  server: 18.132.108.242
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
+- name: 11|Hysteria 🇬🇧 @v2meowcf
+  password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
+  port: 443
+  server: 178.236.237.84
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2

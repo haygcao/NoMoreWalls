@@ -1,25 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 176bfee2-15d2-4a99-a865-830ca20b0803
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 4e9f474e-2d4a-426c-acba-c51844a5f86e
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 176bfee2-15d2-4a99-a865-830ca20b0803
+  password: d83f231d-fe37-4cdb-bb70-88149f8ca57f
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- allowInsecure: ''
-  name: 2|🇬🇧3 |  4.9MB/s
-  network: tcp
-  password: telegram-id-vlessconfig
-  port: 22222
-  server: 18.132.108.242
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
