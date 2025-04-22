@@ -1,15 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 92186e4b-d532-4e48-9148-c17725948d25
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇩🇪12 |  5.2MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: loving-orca.dolphin109.quest
+  skip-cert-verify: true
+  sni: loving-orca.dolphin109.quest
+  type: trojan
+- name: 2|🇩🇪14 |  5.4MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: sharp-bear.dolphin109.quest
+  skip-cert-verify: true
+  sni: sharp-bear.dolphin109.quest
+  type: trojan

@@ -1,46 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧1 |  2.9MB/s
+  name: 2|🇬🇧1 |  2.2MB/s
   password: W7fIo8Gp6TLb1YHZNH1fu5
   port: 39008
   server: 62.60.231.81
   type: ss
-- flow: ''
-  mode: ''
-  name: 1|🇬🇧2 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 104.18.8.74
-  servername: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-  tls: true
-  type: vless
-  udp: false
-  uuid: ca416683-b48c-4ae2-bcd6-d00316bfdef9
-  ws-opts:
-    headers:
-      Host: en.kljasdfiaosdf92-asdjlkfhasdf-asdfa.li
-    path: /admin
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇬🇧3 |  5.9MB/s
+  name: 2|🇬🇧2 |  1.9MB/s
   network: ws
-  port: 443
-  server: 13.228.155.72
+  port: 30058
+  server: 14.39.172.147
   servername: photosair.ir
   tls: true
   type: vless
@@ -49,8 +41,21 @@ proxies:
   ws-opts:
     headers:
       Host: photosair.ir
-    path: /bing
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+    path: ''
+- name: 2|🇬🇧3 |  1.5MB/s
+  password: 8ebcd7aa-c640-4cd1-941f-91c0989f3813
+  port: 44397
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 2|🇬🇧4 |  5.4MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: grateful-mako.dolphin109.quest
+  skip-cert-verify: true
+  sni: grateful-mako.dolphin109.quest
+  type: trojan
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -58,17 +63,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

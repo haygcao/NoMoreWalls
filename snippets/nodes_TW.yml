@@ -1,51 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: a77288b8-3a1b-4f1a-af4e-d721ccb92297
   port: 41681
   server: sx.75886993.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

@@ -1,57 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 8e4d4fbf-204d-45c5-9f67-a897110be4e3
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 1|🇸🇬1 |  2.0MB/s
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇸🇬2 |  1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬1 |  1.2MB/s
   network: tcp
-  port: 10649
-  reality-opts:
-    public-key: N3OhMYHjw0MGH7X93-6lec9iOMQHRUr-Uz-cGzQ32jQ
-  server: 92.112.22.115
-  servername: www.iij.ad.jp
-  tls: true
-  type: vless
-  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
+  port: 54652
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- name: 2|🇸🇬2 |  1.4MB/s
+  password: 003fcf00-48d4-4d29-a8a4-252dc7f288b9
+  port: 27401
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇸🇬3 |  4.2MB/s
+  name: 2|🇸🇬3 |  2.7MB/s
   network: ws
   port: 8443
   server: 141.193.213.20
@@ -64,33 +76,62 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: ''
-- client-fingerprint: ''
-  flow: ''
+- alterId: 0
+  cipher: auto
+  name: 2,13|新加坡|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+  ws-headers:
+    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: chrome
+  flow: none
   mode: ''
-  name: 1|🇸🇬4 |  2.3MB/s
+  name: 2|🇸🇬5 |  5.9MB/s
   network: ws
-  port: 30065
-  server: 49.166.202.100
-  servername: photosair.ir
+  port: 8443
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
   tls: true
   type: vless
   udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
   ws-opts:
     headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬5 |  6.3MB/s
-  port: 17231
-  server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
+      Host: premium.vkehi.shop
+    path: '%2F'
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇸🇬6 |  1.8MB/s
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  servername: ''
   tls: false
-  type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
+  type: vless
+  udp: false
+  uuid: b5540249-9ac4-4037-aacd-79c71052864f
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
+- name: 2|🇸🇬7 |  3.0MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: secure-hookworm.dolphin109.quest
+  skip-cert-verify: true
+  sni: secure-hookworm.dolphin109.quest
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬6 |  6.0MB/s
+  name: 2|🇸🇬8 |  3.8MB/s
   network: ws
   port: 40000
   raw:
@@ -116,23 +157,14 @@ proxies:
   uuid: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
   ws-opts:
     path: /bby
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇸🇬7 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: b5540249-9ac4-4037-aacd-79c71052864f
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.cfd
-    path: /
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- name: 2|🇸🇬9 |  4.7MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: stable-labrador.dolphin109.quest
+  skip-cert-verify: true
+  sni: stable-labrador.dolphin109.quest
+  type: trojan
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -140,7 +172,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -148,7 +180,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -159,7 +191,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   port: 17231
   server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
   skip-cert-verify: false
@@ -170,7 +202,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 41902
   server: 183.236.51.38
   skip-cert-verify: false
@@ -180,7 +212,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 47.129.221.216
@@ -188,17 +220,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '41902'
   server: 183.236.51.38
@@ -206,7 +228,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|SG_speednode_0042
+- name: 14|SG_speednode_0042
   network: ws
   port: 443
   server: 172.236.150.194
@@ -220,24 +242,3 @@ proxies:
     headers:
       Host: sgp.cayuo.me
     path: /bing
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 92186e4b-d532-4e48-9148-c17725948d25
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
