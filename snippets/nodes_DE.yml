@@ -1,21 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 51537489-7dd8-4578-9660-d1e33e2e5837
+  password: 19b3ce06-1141-4e53-b7c6-5d90bc4b8356
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇩🇪10 |  3.9MB/s
+- alterId: 2
+  cipher: auto
+  name: 1|🇩🇪3 |  4.9MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9a871ebd-b399-36ab-8ab9-875c2db5158a
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇩🇪5 |  1.6MB/s
+  network: ws
+  port: 24570
+  raw:
+    add: azadbashid.azad.sdcd5ssf.site
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: azadbashid.azad.sdcd5ssf.site
+    id: e8090103-9d77-4fa4-b4de-a00859f13074
+    net: ws
+    path: /
+    port: 24570
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: none
+    type: ''
+    v: 2
+  server: azadbashid.azad.sdcd5ssf.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8090103-9d77-4fa4-b4de-a00859f13074
+  ws-opts:
+    headers:
+      Host: azadbashid.azad.sdcd5ssf.site
+    path: /
+- name: 1|🇩🇪11 |  2.7MB/s
   password: '!!str 3828095943467868160'
   port: 443
-  server: immense-goose.dolphin109.quest
+  server: sharp-bear.dolphin109.quest
   skip-cert-verify: true
-  sni: immense-goose.dolphin109.quest
+  sni: sharp-bear.dolphin109.quest
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 123c83e7-9b53-4597-942a-b3f3f2969fb4
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 80b6b8e0-9a21-407c-ae1b-c1830759e752
   port: 36471
   server: free.2weradf.xyz
   type: ss
