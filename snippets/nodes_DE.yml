@@ -1,19 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: ba253851-c33f-4ce4-90ec-b9eb3594b60f
+  password: 0748ee69-165a-4d36-a1b3-9f3612914b28
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇩🇪1 |  4.7MB/s
+- name: 1|🇩🇪20 |  1.6MB/s
   password: 005779df-f6d6-4436-9784-2f94756d60f4
   port: 43583
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - cipher: rc4-md5
-  name: 1|🇩🇪7 |  4.6MB/s
+  name: 1|🇩🇪26 |  4.1MB/s
   obfs: plain
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
@@ -21,8 +21,8 @@ proxies:
   server: 193.108.119.230
   type: ssr
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 76af8d95-045f-4070-b799-d9c568b1af36
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: f2a428bc-890d-4af8-b368-b7c13ac53830
   port: 36471
   server: free.2weradf.xyz
   type: ss
