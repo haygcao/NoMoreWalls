@@ -1,38 +1,68 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d228d7ed-3840-4f01-92dc-139cd55d6889
+  password: 6fd84f00-5ceb-4739-98f8-8bbaa06c9714
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 57ba8f40-eaa3-4645-a802-56a9f6697415
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧1 |  2.2MB/s
+  name: 1|🇬🇧1 |  1.0MB/s
   password: W7fIo8Gp6TLb1YHZNH1fu5
   port: 39008
   server: 62.60.231.81
   type: ss
+- name: 1|🇬🇧2 |  1.7MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: grateful-mako.dolphin109.quest
+  skip-cert-verify: true
+  sni: grateful-mako.dolphin109.quest
+  type: trojan
+- client-fingerprint: chrome
+  delay: 1739
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0026
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  delay: 1670
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0023
+  network: tcp
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇬🇧2 |  1.9MB/s
+  name: 1|🇬🇧5 |  4.6MB/s
   network: ws
-  port: 30058
-  server: 14.39.172.147
+  port: 23349
+  server: 59.5.53.119
   servername: photosair.ir
   tls: true
   type: vless
@@ -41,20 +71,21 @@ proxies:
   ws-opts:
     headers:
       Host: photosair.ir
-    path: ''
-- name: 2|🇬🇧3 |  1.5MB/s
-  password: 8ebcd7aa-c640-4cd1-941f-91c0989f3813
-  port: 44397
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- name: 2|🇬🇧4 |  5.4MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: grateful-mako.dolphin109.quest
-  skip-cert-verify: true
-  sni: grateful-mako.dolphin109.quest
-  type: trojan
+    path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 6457adfe-fefb-4c38-8fd7-02f50d64ae83
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
