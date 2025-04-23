@@ -1,38 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 11b47b9a-77fc-43cd-87ea-9dfa003fa00e
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- country: 🇮🇳IN
-  delay: 1307
-  name: 2|🇩🇪7 |  2.3MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: immense-goose.dolphin109.quest
-  skip-cert-verify: true
-  sni: immense-goose.dolphin109.quest
-  type: trojan
-  udp: true
-- name: 2|🇩🇪8 |  3.7MB/s
+- name: 0|🇩🇪1 |  1.3MB/s
   password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
   port: 43583
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪9 |  5.2MB/s
-  network: ws
-  port: 45625
-  server: 74.48.145.79
-  servername: lapde.lzj520hxw.dpdns.org
-  tls: true
-  type: vmess
-  uuid: f017dc53-6050-42b9-a399-fa5fb0e9ac85
-  ws-opts:
-    headers:
-      Host: lapde.lzj520hxw.dpdns.org
-    path: /vmess-argo?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 2ceb56cd-c0de-4beb-8ab0-6123b5bb8db8
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 6e74da1c-0ec8-4db3-ab25-11f815e9477d
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
