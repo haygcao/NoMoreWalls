@@ -1,15 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 19b3ce06-1141-4e53-b7c6-5d90bc4b8356
+  password: 57bb1ca6-6c8f-466d-8439-8326599df423
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: f5f64a6d-e0a6-4d93-97c5-69248b7db1dc
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: Tok
+  mode: ''
+  name: 2|🇩🇪1 |  5.9MB/s
+  network: grpc
+  port: 22000
+  reality-opts:
+    public-key: WcjPU1iR-woM10JNMkMmv-c1Dl37z6PRsqmciMAitlg
+    short-id: cb45d5eb4577c376
+  server: 188.245.186.187
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6e23c30c-a248-4dbe-9239-8412f8a8834b
 - client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  4.7MB/s
+  name: 2|🇩🇪2 |  2.0MB/s
   network: ws
   port: 8880
   server: 172.67.24.121
@@ -22,61 +46,29 @@ proxies:
     headers:
       Host: join.vPncustomize.iran.ir.arvancloud.ir.nett.ddns-ip.net.
     path: /Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY----Channel-@ELiV2RAY?ed=2048
-- client-fingerprint: chrome
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  2.2MB/s
+  name: 2|🇩🇪3 |  2.3MB/s
   network: ws
-  port: 443
-  server: 104.21.63.240
-  servername: cdn-nodes.maviks.eu
-  tls: true
-  type: vless
-  udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
-  ws-opts:
-    headers:
-      Host: cdn-nodes.maviks.eu
-    path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪3 |  4.9MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
+  port: 2082
+  server: 104.17.147.22
+  servername: ''
   tls: false
-  type: vmess
-  udp: true
-  uuid: 9a871ebd-b399-36ab-8ab9-875c2db5158a
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: Tok
-  mode: ''
-  name: 1|🇩🇪4 |  4.9MB/s
-  network: grpc
-  port: 22000
-  reality-opts:
-    public-key: WcjPU1iR-woM10JNMkMmv-c1Dl37z6PRsqmciMAitlg
-    short-id: cb45d5eb4577c376
-  server: 188.245.186.187
-  servername: refersion.com
-  tls: true
   type: vless
   udp: false
-  uuid: 6e23c30c-a248-4dbe-9239-8412f8a8834b
+  uuid: 2594d63e-571c-4738-8118-a4ae5a39695a
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - alterId: 0
   cipher: auto
-  name: 1|🇩🇪5 |  1.6MB/s
+  name: 2|🇩🇪4 |  4.5MB/s
   network: ws
   port: 24570
   raw:
-    add: azadbashid.azad.sdcd5ssf.site
+    add: 178.239.144.107
     aid: 0
     alpn: ''
     fp: ''
@@ -85,13 +77,13 @@ proxies:
     net: ws
     path: /
     port: 24570
-    ps: 🔥Join+Telegram:@FarahVPN🟣
+    ps: V2CROSS.COM
     scy: ''
     sni: ''
     tls: none
     type: ''
     v: 2
-  server: azadbashid.azad.sdcd5ssf.site
+  server: 178.239.144.107
   servername: ''
   tls: false
   type: vmess
@@ -102,57 +94,76 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪6 |  3.6MB/s
+  mode: ''
+  name: 2|🇩🇪5 |  3.3MB/s
   network: tcp
-  port: 443
+  port: 37222
   reality-opts:
-    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
-    short-id: f203719d3ff9a5f5
-  server: 91.238.82.243
-  servername: maviks.eu
+    public-key: IIYFuwBndFXQRPNTslqnMw5tM_Tem7JnoNoO320oPGw
+    short-id: a21fd878db21a498
+  server: 185.85.241.196
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+  udp: false
+  uuid: 64fc5976-ee5a-4ba7-8f2e-c1e72330be20
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  2.4MB/s
+  name: 2|🇩🇪6 |  5.6MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: HT5DfZtmmFSHXy__XWc1ukf2zJHRtCWJSc2mhcpptXc
     short-id: b6c6a4369cb8
-  server: mw3.baradshops.ir
+  server: 91.107.148.31
   servername: eset.com
   tls: true
   type: vless
   udp: false
   uuid: acb9dedd-fa08-476f-b21a-06f6b7ddde97
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: ''
   mode: ''
-  name: 1|🇩🇪8 |  5.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UqOnYKBtVUADBnjVw1rS2ZYcMa0vsCFFe6c1OkFXzGM
-    short-id: 49471179d2a8c88a
-  server: 5.75.198.69
-  servername: tgju.org
+  name: 2|🇩🇪7 |  5.9MB/s
+  network: ws
+  port: 2087
+  server: 104.17.147.22
+  servername: TKN.filmekade.ru
   tls: true
   type: vless
   udp: false
-  uuid: 63454ccd-5acd-4997-b43b-097b5c27000b
+  uuid: 61a86474-7ab7-4fe1-f56a-09b41223781e
+  ws-opts:
+    headers:
+      Host: TKN.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  5.9MB/s
+  network: ws
+  port: 8880
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: a7e0cb26-4d5e-454c-90f8-439c988b8aaa
+  ws-opts:
+    headers:
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪9 |  4.8MB/s
+  name: 2|🇩🇪9 |  4.5MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
     short-id: f203719d3ff9a5f5
-  server: 45.150.174.86
+  server: 91.238.82.240
   servername: maviks.eu
   tls: true
   type: vless
@@ -160,48 +171,64 @@ proxies:
   uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 1|🇩🇪10 |  3.7MB/s
+  name: 2,14|US_speednode_0089
   network: tcp
   port: 443
   reality-opts:
     public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
     short-id: f203719d3ff9a5f5
-  server: 91.238.82.242
+  server: 45.150.174.84
   servername: maviks.eu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪11 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 104.18.22.235
+  servername: nl1.yfjc.sbs
   tls: true
   type: vless
   udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
-- name: 1|🇩🇪11 |  2.7MB/s
+  uuid: cfc83feb-3bce-468c-b157-e1cdb9786283
+  ws-opts:
+    headers:
+      Host: nl1.yfjc.sbs
+    path: /yfjc/knl1
+- name: 2|🇩🇪12 |  5.3MB/s
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: immense-goose.dolphin109.quest
+  skip-cert-verify: true
+  sni: immense-goose.dolphin109.quest
+  type: trojan
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2,14|DE_speednode_0054
+  network: tcp
+  port: 59248
+  reality-opts:
+    public-key: 8Kv7EfgfL25rSlPhosakuzPleZ4wWXN90dlh4Ti6FhA
+  server: 91.107.167.61
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: def6e08c-b9ec-4257-86ef-475efaddd366
+- name: 2,14|GB_speednode_0058
   password: '!!str 3828095943467868160'
   port: 443
   server: sharp-bear.dolphin109.quest
   skip-cert-verify: true
   sni: sharp-bear.dolphin109.quest
   type: trojan
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪12 |  2.3MB/s
-  network: ws
-  port: 443
-  server: 172.67.173.29
-  servername: cdn-nodes.maviks.eu
-  tls: true
-  type: vless
-  udp: false
-  uuid: c8898cfd-9927-4f36-b7bc-40de76076b80
-  ws-opts:
-    headers:
-      Host: cdn-nodes.maviks.eu
-    path: /pLmdwS3fSrE9WwdgE3LdG2?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 80b6b8e0-9a21-407c-ae1b-c1830759e752
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
   udp: true
 - alpn:
   - h3
@@ -222,3 +249,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0055
+  port: 33117
+  reality-opts:
+    public-key: Uu1ZW6SsALHqdsTBDaSB0EyLfG4jXxJhPWnu9A1VqiE
+    short-id: 86e10730d0e5a3
+  server: mass4.459.pp.ua
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2e7b1501-74a0-4f74-be84-559625aa3100
