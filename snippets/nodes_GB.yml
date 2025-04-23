@@ -1,26 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 57bb1ca6-6c8f-466d-8439-8326599df423
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 334e7422-5b13-423b-b3cf-852ca03723bd
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 57bb1ca6-6c8f-466d-8439-8326599df423
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: f5f64a6d-e0a6-4d93-97c5-69248b7db1dc
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 334e7422-5b13-423b-b3cf-852ca03723bd
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇬🇧3 |  2.6MB/s
+- name: 1,14|RO_speednode_0076
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: grateful-mako.dolphin109.quest
+  skip-cert-verify: true
+  sni: grateful-mako.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 1|🇬🇧6 |  5.8MB/s
   network: ws
   password: 2faaf996-d2b0-440d-8258-81f2b05dd0e4
   port: 443
@@ -32,12 +33,34 @@ proxies:
     headers:
       Host: architects-optimize-rest-dow.trycloudflare.com
     path: /trojan-argo?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 52769e83-bd16-4cf2-a720-c631997b06ea
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 52769e83-bd16-4cf2-a720-c631997b06ea
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 14|GB_speednode_0059
   password: '!!str 3828095943467868160'
   port: 443
   server: 202.78.163.141
   skip-cert-verify: true
   sni: sharp-bear.dolphin109.quest
+  type: trojan
+  udp: true
+- name: 14|GB_speednode_0061
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: mutual-gannet.dolphin109.quest
+  skip-cert-verify: true
+  sni: mutual-gannet.dolphin109.quest
   type: trojan
   udp: true
 - name: 14|GB_speednode_0062
