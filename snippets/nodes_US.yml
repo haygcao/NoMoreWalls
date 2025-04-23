@@ -1,42 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 87fddbbe-f135-4916-b66f-036bb780def5
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 87fddbbe-f135-4916-b66f-036bb780def5
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 87fddbbe-f135-4916-b66f-036bb780def5
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 110754cb-e3e3-4628-b594-7e788fa4dbf9
+  password: 11b47b9a-77fc-43cd-87ea-9dfa003fa00e
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 110754cb-e3e3-4628-b594-7e788fa4dbf9
+  password: 11b47b9a-77fc-43cd-87ea-9dfa003fa00e
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 110754cb-e3e3-4628-b594-7e788fa4dbf9
+  password: 11b47b9a-77fc-43cd-87ea-9dfa003fa00e
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -44,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇺🇸10 |  4.8MB/s
+  name: 2|🇺🇸37 |  2.4MB/s
   network: ws
   port: 2083
   server: 205.233.181.174
@@ -59,51 +38,19 @@ proxies:
     headers:
       Host: mass3.890602.xyz
     path: /
-- name: 2|🇺🇸7 |  5.3MB/s
-  password: 115988df-9c10-3453-8acf-fc8bdb4da95d
-  port: 25238
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z267.hongkongnode.top
+- name: 2|🇺🇸7 |  1.0MB/s
+  password: 2b961336-1eae-431a-b766-50576ccff88c
+  port: 33506
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸11 |  5.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4fcd5cfc-fad0-3db2-8c56-fe121890bb39
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- name: 2|🇺🇸14 |  5.8MB/s
-  password: 115988df-9c10-3453-8acf-fc8bdb4da95d
-  port: 20288
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z288.hongkongnode.top
+- client-fingerprint: chrome
+  name: 2|🇺🇸28 |  4.0MB/s
+  password: 9672247e-c003-4464-8bd9-4f16b0e7d032
+  port: 33505
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  udp: true
-- name: 2|🇺🇸16 |  5.4MB/s
-  password: 115988df-9c10-3453-8acf-fc8bdb4da95d
-  port: 20304
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z304.hongkongnode.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  name: 2|🇺🇸22 |  5.0MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
