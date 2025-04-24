@@ -1,118 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: fafdb19f-ff88-4f71-804a-bac425d8e2d2
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 4c30818d-d6a1-4ceb-9866-d0e40631f23e
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 10689456-5d51-411b-8af4-ccab36e13daf
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.6MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: Qv67Y1u5An.AaAzZzAaA-8129.cOm
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: Qv67Y1u5An.AaAzZzAaA-8129.cOm
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪2 |  4.9MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: D6rVkPfEgS.aAaZzZaAa-8129.CoM
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: D6rVkPfEgS.aAaZzZaAa-8129.CoM
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪3 |  4.2MB/s
-  network: ws
-  port: 2096
-  server: 104.17.147.22
-  servername: 0I1yE95cNq.AaAzZzAaA-8129.cOm
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: 0I1yE95cNq.AaAzZzAaA-8129.cOm
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  6.0MB/s
-  network: ws
-  port: 2087
-  server: 104.17.147.22
-  servername: Tp177HfBaV.nEwReTr432As.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp177HfBaV.nEwReTr432As.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  4.8MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: RmLeQgB10q.AaAzZzAaA-8129.cOm
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: RmLeQgB10q.AaAzZzAaA-8129.cOm
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  5.9MB/s
-  network: ws
-  port: 8443
-  server: 185.146.173.37
-  servername: Ny8Cc85CxF.aAaZzZaAa-89.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: Ny8Cc85CxF.aAaZzZaAa-89.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪7 |  5.8MB/s
+  name: 2|🇩🇪1 |  5.4MB/s
   network: ws
   port: 2087
   server: 104.17.148.22
@@ -125,64 +29,6 @@ proxies:
     headers:
       Host: Tp177HfBaV.nEwReTr432As.InFo
     path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  3.3MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 43300459-c172-4f5e-cf9c-2f92a5194cdd
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪9 |  5.4MB/s
-  network: ws
-  port: 2087
-  server: www.speedtest.net
-  servername: Tp177HfBaV.nEwReTr432As.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp177HfBaV.nEwReTr432As.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪10 |  5.8MB/s
-  network: ws
-  port: 2087
-  server: 185.146.173.63
-  servername: Tp006A9aAs.GoLaBkAsHaNiZ.iNfO
-  tls: true
-  type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp006A9aAs.GoLaBkAsHaNiZ.iNfO
-    path: /
-- alpn:
-  - h3
-  name: 10|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
-  obfs: salamander
-  obfs-password: SiNAVM-SiNAVM-SiNAVM-@SiNAVM-@SiNAVM
-  password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
-  port: 443
-  server: sinavm.soft10.ir
-  tls: false
-  type: hysteria2
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

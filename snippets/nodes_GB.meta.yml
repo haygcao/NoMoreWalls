@@ -1,53 +1,53 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: fafdb19f-ff88-4f71-804a-bac425d8e2d2
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: fafdb19f-ff88-4f71-804a-bac425d8e2d2
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: 4c30818d-d6a1-4ceb-9866-d0e40631f23e
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 10689456-5d51-411b-8af4-ccab36e13daf
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 4c30818d-d6a1-4ceb-9866-d0e40631f23e
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 10689456-5d51-411b-8af4-ccab36e13daf
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧1 |  1.4MB/s
+  name: 2|🇬🇧1 |  1.9MB/s
   network: tcp
-  port: 47151
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
+  server: csuzhou01.1cooldns.com
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧2 |  5.6MB/s
+  name: 2|🇬🇧2 |  1.8MB/s
   network: tcp
-  port: 49699
+  port: 14659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.amazon.com
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -59,3 +59,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|GB_speednode_0058
+  port: 55799
+  reality-opts:
+    public-key: LBvEFKpH7REwityPTJqYPhEJ7MaIqcuIRL01VPzcpAs
+    short-id: a82b
+  server: 194.147.35.138
+  servername: iranhost.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43589def-fa09-47e3-b44e-7f6e069f470d
