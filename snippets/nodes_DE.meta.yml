@@ -1,38 +1,24 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: c753b316-7724-40e9-b835-741723fcce52
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 090bd7a9-8cbe-433b-87b7-daeb90391c14
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  2.5MB/s
+  name: 2|🇩🇪1 |  5.9MB/s
   network: ws
-  port: 8880
-  server: parspack.com
-  servername: ''
-  tls: false
+  port: 2087
+  server: www.speedtest.net
+  servername: Tp195GgFzF.sRvDoM-cOnF-dEl3.InFo
+  tls: true
   type: vless
   udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
   ws-opts:
     headers:
-      Host: mosiv2.eliii.mosiv2.mosiv2.Www.speedtest.net.mosiv2.mosic7.info.
-    path: /MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560
+      Host: Tp195GgFzF.sRvDoM-cOnF-dEl3.InFo
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.8MB/s
+  name: 2|🇩🇪2 |  5.4MB/s
   network: ws
   port: 2087
   server: 104.17.148.22
@@ -47,89 +33,34 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: ''
-  grpc-opts:
-    grpc-service-name: Go4HFJDtQYDNh5HQII31
   mode: ''
-  name: 2|🇩🇪3 |  2.2MB/s
-  network: grpc
-  port: 110
-  reality-opts:
-    public-key: gjpZdZmvqNvzY9cgnc0tTF9XXAvvq5Hmp37jJl2lvWY
-    short-id: ce9fa5
-  server: 91.107.161.47
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 38b4dd8c-e4f9-4b13-8124-b7092c2e6045
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.5MB/s
-  network: ws
-  port: 80
-  server: 104.18.31.5
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: psycho.suex12.ir
-    path: 'Telegram: @ihomeii /?ed=2560'
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  5.8MB/s
+  name: 2|🇩🇪3 |  5.5MB/s
   network: ws
   port: 8443
-  server: 185.146.173.37
-  servername: Ny8Cc85CxF.aAaZzZaAa-89.InFo
+  server: v2.lunarmc.ir
+  servername: v2.lunarmc.ir
   tls: true
   type: vless
   udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  uuid: 0ec588ee-71df-435e-b480-10ad6f00731c
   ws-opts:
-    headers:
-      Host: Ny8Cc85CxF.aAaZzZaAa-89.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  5.6MB/s
-  network: ws
-  port: 2087
-  server: 185.146.173.37
-  servername: Tp179IrLzQ.mYsErVeR-fAsT22.iNfO
+    path: /tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com.tp-freevpn.com?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪4 |  5.3MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
-  ws-opts:
-    headers:
-      Host: Tp179IrLzQ.mYsErVeR-fAsT22.iNfO
-    path: /
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  5.7MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: D6rVkPfEgS.aAaZzZaAa-8129.CoM
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: D6rVkPfEgS.aAaZzZaAa-8129.CoM
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  5.8MB/s
+  name: 2|🇩🇪5 |  3.9MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -141,22 +72,6 @@ proxies:
   ws-opts:
     headers:
       Host: 0I1yE95cNq.AaAzZzAaA-8129.cOm
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪9 |  5.7MB/s
-  network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: Qv67Y1u5An.AaAzZzAaA-8129.cOm
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: Qv67Y1u5An.AaAzZzAaA-8129.cOm
     path: /
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
