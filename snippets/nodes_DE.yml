@@ -1,21 +1,22 @@
 proxies:
-- name: 0|🇩🇪1 |  1.3MB/s
-  password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
-  port: 43583
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 2ceb56cd-c0de-4beb-8ab0-6123b5bb8db8
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 8e91a54e-d32d-4ec8-98ee-5192b15a020d
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 6e74da1c-0ec8-4db3-ab25-11f815e9477d
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: fa2258bd-1ef5-41db-baa4-396f04f06bfc
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 2|🇩🇪9 |  3.7MB/s
+  password: 0412a30a-bc16-4815-a3aa-3265d5037b6e
+  port: 43583
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
