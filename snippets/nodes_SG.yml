@@ -1,52 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 10689456-5d51-411b-8af4-ccab36e13daf
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 10689456-5d51-411b-8af4-ccab36e13daf
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 10689456-5d51-411b-8af4-ccab36e13daf
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 3007bc2f-d471-48d2-b2b5-5bf942a4c252
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: a233bbe8-92a6-42f3-a94a-ea2911d4f4bb
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇸🇬2 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.246.96
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 2070d2b2-398b-4d31-92fd-c48ea8199699
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 2070d2b2-398b-4d31-92fd-c48ea8199699
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 2070d2b2-398b-4d31-92fd-c48ea8199699
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
