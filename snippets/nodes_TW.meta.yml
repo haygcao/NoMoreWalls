@@ -1,53 +1,118 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31241
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  port: 36241
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31243
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  port: 36243
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
-  port: 31245
-  server: free.2apzhfa.xyz
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇹🇼1 |  4.3MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.36
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼2 |  2.7MB/s
+  network: ws
+  password: Aimer
+  port: 3306
+  server: 107.172.180.73
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼3 |  5.8MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 161.145.150.29
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇹🇼1 |  2.0MB/s
+  name: 2|🇹🇼4 |  6.2MB/s
   network: tcp
-  port: 13263
+  port: 41572
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
+  server: vip.jddns0202.top
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0010
-  network: tcp
-  port: 47531
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: false
+- name: 2|🇹🇼5 |  5.3MB/s
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 154.211.8.227
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼6 |  1.3MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 154.197.64.219
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼7 |  5.7MB/s
+  network: ws
+  port: 2083
+  server: 103.116.7.103
+  servername: edccs.aimercc.filegear-sg.me
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edccs.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - allowInsecure: ''
-  name: 1|🇹🇼3 |  4.8MB/s
+  name: 2|🇹🇼8 |  3.1MB/s
   network: ws
   password: Aimer
   port: 8443
@@ -60,8 +125,49 @@ proxies:
     headers:
       Host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼9 |  1.7MB/s
+  network: ws
+  port: 443
+  server: arvind.ns.cloudflare.com
+  servername: edccs.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edccs.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼10 |  5.6MB/s
+  network: ws
+  port: 8443
+  server: 92.243.74.239
+  servername: edccs.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edccs.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 2|🇹🇼11 |  5.9MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 45.67.214.41
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 1|🇹🇼4 |  1.8MB/s
+  name: 2|🇹🇼12 |  1.7MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -71,35 +177,7 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0013
-  network: tcp
-  port: 12477
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇹🇼6 |  4.7MB/s
-  network: ws
-  port: 12350
-  server: 112.184.56.73
-  servername: edccs.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccs.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- client-fingerprint: chrome
-  name: 11,12|台湾|@ripaojiedian
+  name: 12,13|台湾|@ripaojiedian
   network: tcp
   password: ff832dd3-18a9-441f-bae0-24e8b98dc96b
   port: 27201
@@ -107,24 +185,3 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
