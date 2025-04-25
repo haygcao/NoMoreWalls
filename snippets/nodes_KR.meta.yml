@@ -1,118 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 01 | 1x KR
-  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  password: 70b965e5-236e-41d9-96dd-0ce01279c9bd
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷韩国 02 | 1x KR
-  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  password: 70b965e5-236e-41d9-96dd-0ce01279c9bd
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  5.9MB/s
+  client-fingerprint: chrome
+  name: 2|🇰🇷1 |  1.3MB/s
   password: qwerREWQ@@
   port: 15098
-  server: 125.141.31.72
-  type: ss
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 2|🇰🇷2 |  4.9MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 146.56.164.36
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  delay: 824
-  name: 2|🇰🇷3 |  4.6MB/s
-  password: qwerREWQ@@
-  port: 16417
-  server: p220.panda001.net
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2|🇰🇷4 |  4.6MB/s
-  password: gJg1TyUQ
-  port: 30976
-  server: 13.209.23.121
+  server: p222.panda001.net
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷5 |  4.7MB/s
-  password: qwerREWQ@@
-  port: 8772
-  server: p235.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷6 |  2.6MB/s
-  password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
-  type: ss
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 2|🇰🇷7 |  5.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8nT5x5OM-97ibWMfu5y0mrvWdmuwVeg_f_RE5Ycl_yw
-    short-id: c5835b1f
-  server: 193.123.226.5
-  servername: buylite.music.apple.com
-  tls: true
-  type: vless
-  uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
-- alterId: 0
-  cipher: auto
-  name: 2|🇰🇷8 |  2.0MB/s
-  network: tcp
-  port: 17232
-  server: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- cipher: aes-256-cfb
-  delay: 772
-  name: 2|🇰🇷9 |  1.6MB/s
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
-  type: ss
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  client-fingerprint: chrome
-  name: 2|🇰🇷10 |  4.8MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 193.122.98.107
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 2|🇰🇷11 |  5.7MB/s
+  name: 2|🇰🇷2 |  5.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -123,6 +35,52 @@ proxies:
   tls: true
   type: vless
   uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  client-fingerprint: chrome
+  name: 2|🇰🇷3 |  5.5MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 193.122.98.107
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  name: 2|🇰🇷4 |  5.1MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 146.56.164.36
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  name: 2|🇰🇷5 |  5.0MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 193.123.246.244
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  delay: 824
+  name: 2|🇰🇷6 |  5.1MB/s
+  password: qwerREWQ@@
+  port: 16417
+  server: p220.panda001.net
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇰🇷7 |  1.5MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
