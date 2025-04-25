@@ -1,27 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: ce05674a-aaa8-4043-935d-63490cf56be9
+  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 4c1f8b34-3a91-4edd-a8ab-d16ab617956a
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  2.1MB/s
-  network: ws
-  password: amclubs
-  port: 8443
-  server: 162.159.129.67
-  skip-cert-verify: false
-  sni: tran.amclubs.rr.nu
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tran.amclubs.rr.nu
-    path: /?ed=2560
