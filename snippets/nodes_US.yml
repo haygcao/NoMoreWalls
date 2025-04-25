@@ -1,37 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸5 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.88.231.199
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸7 |  5.2MB/s
+  name: 1|🇺🇸6 |  5.7MB/s
   network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  ws-path: /
 - alterId: '2'
   cipher: auto
-  name: 1|🇺🇸11 |  1.4MB/s
+  name: 1|🇺🇸16 |  1.3MB/s
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -41,15 +52,19 @@ proxies:
     headers:
       host: baidu.com
     path: /oooo
-- cipher: aes-256-cfb
-  name: 1|🇺🇸12 |  4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.188.119.78
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1|🇺🇸17 |  5.5MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸14 |  4.0MB/s
+  name: 1|🇺🇸21 |  5.9MB/s
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -60,50 +75,113 @@ proxies:
   ws-headers:
     Host: zxjp-b.tkong.cc
   ws-path: /
-- ip-version: dual
-  name: 1|🇺🇸19 |  2.1MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 172.67.204.22
-  skip-cert-verify: false
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 1sdfghjk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- alterId: 2
-  cipher: auto
-  name: 1|🇺🇸20 |  5.5MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-a.tkong.cc
-  ws-path: /
-- name: 1|🇺🇸38 |  1.8MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
 - cipher: aes-256-cfb
-  name: 1|🇺🇸40 |  4.9MB/s
+  name: 1|🇺🇸27 |  5.1MB/s
   password: amazonskr05
   port: 443
   server: 34.213.33.205
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇺🇸29 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.162.248.36
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸30 |  3.1MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v8.heduian.link
+    path: /oooo
+- cipher: aes-256-gcm
+  name: 1|🇺🇸36 |  3.2MB/s
+  password: amazongreatvpn
+  port: 443
+  server: 34.219.82.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|🇺🇸40 |  5.2MB/s
+  password: amazongreatvpn
+  port: 443
+  server: 44.204.173.8
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸44 |  5.9MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸46 |  3.9MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 45.194.53.81
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 3sdfgvcxxx.938.pp.ua
+    id: 0212fab5-e93c-4904-b7a8-187fd535f354
+    net: ws
+    path: /P879mtCoHQqaWO67qEaMINZ1
+    port: 443
+    ps: V2CROSS.COM
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 45.194.53.81
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
+- cipher: aes-256-cfb
+  name: 1|🇺🇸51 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.86.242
+  type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1|🇺🇸52 |  5.8MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -156,21 +234,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36215
   server: free.2weradf.xyz
   type: ss

@@ -1,106 +1,54 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 0bb67d3d-d269-4b53-8b38-0c28c5ccfb19
+  password: bb9e74db-6b23-4b29-9a8d-1e9e039f24fa
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇸🇬1 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 104.18.13.149
-  servername: d1.medicaldream.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: ccff34b1-44fd-478d-bc0e-5111cb11f5be
-  ws-opts:
-    headers:
-      Host: d1.medicaldream.ir
-    path: Join_Bade_Channel@JOKERRVPN/?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0034
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 1|🇸🇬3 |  5.2MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.37.170
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 1|🇸🇬4 |  4.8MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.35.78
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 1|🇸🇬5 |  4.9MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 152.69.220.212
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇸🇬6 |  6.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
-    short-id: 79fd451e
-  server: pq.aws51.yydjc.top
-  servername: buylite.tv.apple.com
-  tls: true
-  type: vless
-  uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
 - cipher: aes-256-cfb
-  name: 1|🇸🇬7 |  6.1MB/s
+  name: 1|🇸🇬1 |  5.9MB/s
   password: amazonskr05
   port: 443
-  server: 54.251.144.227
+  server: 54.151.174.99
   type: ss
-- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 1|🇸🇬8 |  5.0MB/s
-  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  port: 35000
-  server: 140.245.36.207
+- alterId: 0
+  cipher: auto
+  name: 1,12|新加坡3|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- cipher: aes-256-gcm
+  name: 1|🇸🇬3 |  5.9MB/s
+  password: amazonskr05
+  port: 80
+  server: 54.151.141.90
+  type: ss
+- name: 1|🇸🇬4 |  5.2MB/s
+  password: 616F5C28-A1B2-D7C7-2F5D-46AC56436130
+  port: 8306
+  server: bldgz.linkcubecloud.dev
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  sni: cos.ap-guangzhou.myqcloud.com
+  type: trojan
 - name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -191,16 +139,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡3|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-- alterId: 0
-  cipher: auto
   name: 12|新加坡4|@ripaojiedian
   network: tcp
   port: '4135'
@@ -211,21 +149,21 @@ proxies:
   uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 6a9ea7ed-dee7-4e07-8cee-73b9d0da27d5
+  password: 26c6c26d-3968-47cf-a0da-11c2f9a01461
   port: 36175
   server: free.2weradf.xyz
   type: ss
