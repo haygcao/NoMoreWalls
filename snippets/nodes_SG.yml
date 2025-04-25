@@ -1,32 +1,77 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 63cb2c28-e66d-4823-b270-d2f22dc695c0
+  password: ce05674a-aaa8-4043-935d-63490cf56be9
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 63cb2c28-e66d-4823-b270-d2f22dc695c0
+  password: ce05674a-aaa8-4043-935d-63490cf56be9
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 63cb2c28-e66d-4823-b270-d2f22dc695c0
+  password: ce05674a-aaa8-4043-935d-63490cf56be9
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 4c1f8b34-3a91-4edd-a8ab-d16ab617956a
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 4c1f8b34-3a91-4edd-a8ab-d16ab617956a
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 4c1f8b34-3a91-4edd-a8ab-d16ab617956a
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬2 |  3.2MB/s
+  password: 0ba0883f-2c06-3cb2-a951-d2b71138d5d0
+  port: 20130
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x130.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 2|🇸🇬3 |  6.0MB/s
+  password: amazonskr05
+  port: 80
+  server: 54.151.136.43
+  type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
+  name: 2|🇸🇬4 |  6.3MB/s
   password: amazonskr05
   port: 443
-  server: 13.229.212.103
-  tfo: false
+  server: 54.251.144.227
+  type: ss
+- cipher: aes-256-gcm
+  name: 2|🇸🇬5 |  3.9MB/s
+  password: amazonskr05
+  port: 80
+  server: 52.77.243.195
+  type: ss
+- cipher: aes-256-gcm
+  name: 2|🇸🇬8 |  3.5MB/s
+  password: amazonskr05
+  port: 80
+  server: 3.0.139.112
   type: ss
 - alterId: 2
   cipher: auto
