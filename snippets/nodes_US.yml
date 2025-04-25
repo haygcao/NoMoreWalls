@@ -1,66 +1,65 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇺🇸5 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.175.56
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
-- cipher: aes-256-gcm
-  name: 2|🇺🇸6 |  5.5MB/s
-  password: amazonskr05
-  port: 80
-  server: 54.213.250.116
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
-- alterId: 2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇺🇸7 |  4.5MB/s
+  name: 2|🇺🇸1 |  5.4MB/s
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+  port: 443
+  server: codepen.io
   skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
   udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: f0991217-66ce-418d-8040-3e07af1e3eca
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇺🇸14 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.162.248.36
-  type: ss
+      Host: admin.kasrax.ir
+    path: /shs111.kejixiaoqi666.store/
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸17 |  5.6MB/s
+  name: 2|🇺🇸7 |  2.4MB/s
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -71,21 +70,91 @@ proxies:
   ws-headers:
     Host: zxjp-c.tkong.cc
   ws-path: /
-- cipher: aes-256-cfb
-  name: 2|🇺🇸19 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.188.119.78
-  type: ss
 - cipher: aes-256-gcm
-  name: 2|🇺🇸23 |  4.0MB/s
+  client-fingerprint: chrome
+  name: 2|🇺🇸13 |  4.8MB/s
+  password: Dv4gU61r
+  port: 13384
+  server: 54.235.183.175
+  tfo: true
+  type: ss
+  udp: true
+- name: 2|🇺🇸18 |  5.5MB/s
+  password: 7e81330a-c233-3a68-a94b-c8f4f8c29749
+  port: 20303
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z303.hongkongnode.top
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇺🇸19 |  3.3MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇺🇸42 |  5.3MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇺🇸28 |  3.1MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇺🇸30 |  5.4MB/s
+  password: ymU5aLxZ
+  port: 31841
+  server: 172.245.232.170
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 2|🇺🇸31 |  4.8MB/s
   password: amazongreatvpn
   port: 443
-  server: 44.204.173.8
+  server: 34.219.82.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 2|🇺🇸40 |  5.8MB/s
+  password: amazongreatvpn
+  port: 443
+  server: 13.52.214.17
   type: ss
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸26 |  3.0MB/s
+  name: 2|🇺🇸44 |  5.7MB/s
   network: tcp
   port: 5229
   server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
@@ -96,34 +165,6 @@ proxies:
   ws-headers:
     Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
   ws-path: /
-- cipher: aes-256-gcm
-  name: 2|🇺🇸28 |  5.2MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 34.219.82.5
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇺🇸33 |  3.7MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- cipher: aes-256-cfb
-  name: 2|🇺🇸34 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.208.211.153
-  type: ss
-- cipher: aes-256-gcm
-  name: 2|🇺🇸39 |  4.9MB/s
-  password: amazonskr05
-  port: 80
-  server: 52.12.84.118
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

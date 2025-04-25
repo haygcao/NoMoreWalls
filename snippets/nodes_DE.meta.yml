@@ -1,62 +1,103 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 1d61e31b-4047-4dd8-8782-86df735e5f7f
+  password: 0e1eb25f-c43a-4370-b8be-7cb2faad8b8f
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 17fe1f2e-b72b-439a-be8d-f42eeffad3a0
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.3MB/s
+  name: 2|🇩🇪1 |  4.8MB/s
   network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: Qv67Y1u5An.AaAzZzAaA-8129.cOm
+  port: 2087
+  server: 104.17.148.22
+  servername: mahdiwi.filmekade.ru
   tls: true
   type: vless
   udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  uuid: bb14debb-3dd1-4700-a9f5-f02a0498d1df
   ws-opts:
     headers:
-      Host: Qv67Y1u5An.AaAzZzAaA-8129.cOm
-    path: /
-- flow: ''
+      Host: mahdiwi.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.9MB/s
+  name: 2|🇩🇪2 |  6.1MB/s
   network: ws
-  port: 2096
-  server: www.speedtest.net
-  servername: RmLeQgB10q.AaAzZzAaA-8129.cOm
+  port: 443
+  server: mw12.asalemaraghe.ir
+  servername: mw12.asalemaraghe.ir
   tls: true
   type: vless
   udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
   ws-opts:
     headers:
-      Host: RmLeQgB10q.AaAzZzAaA-8129.cOm
+      Host: mw12.asalemaraghe.ir
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 2|🇩🇪3 |  4.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.80
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6
+  ws-opts:
+    headers:
+      Host: JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+    path: ''
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 172.67.202.125
+  servername: cdnfast.lunarmc.ir.
+  tls: true
+  type: vless
+  udp: false
+  uuid: 70c56492-f24e-4d26-a6ed-2c9f2328f397
+  ws-opts:
+    headers:
+      Host: cdnfast.lunarmc.ir.
+    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
+- name: 2|🇩🇪5 |  5.5MB/s
+  network: ws
+  port: 2087
+  server: 185.146.173.63
+  servername: Tp006QvT2l.GoLaBkAsHaNiZ.iNfO
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
+  ws-opts:
+    headers:
+      Host: Tp006QvT2l.GoLaBkAsHaNiZ.iNfO
     path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  5.6MB/s
-  network: ws
-  port: 8443
-  server: 185.146.173.37
-  servername: Ny8Cc85CxF.aAaZzZaAa-89.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-  ws-opts:
-    headers:
-      Host: Ny8Cc85CxF.aAaZzZaAa-89.InFo
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.5MB/s
+  name: 2|🇩🇪6 |  5.8MB/s
   network: ws
   port: 2087
   server: www.speedtest.net
@@ -72,21 +113,112 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  5.6MB/s
+  name: 2|🇩🇪7 |  4.4MB/s
   network: ws
   port: 8443
-  server: www.speedtest.net
-  servername: Qq31UsKhFg.AaAzZzAaA-8129.cOm
+  server: 185.146.173.37
+  servername: Ny8Cc85CxF.aAaZzZaAa-89.InFo
   tls: true
   type: vless
   udp: false
   uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
   ws-opts:
     headers:
-      Host: Qq31UsKhFg.AaAzZzAaA-8129.cOm
+      Host: Ny8Cc85CxF.aAaZzZaAa-89.InFo
     path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 91.107.131.168
+  servername: mw12.asalemaraghe.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
+  ws-opts:
+    headers:
+      Host: mw12.asalemaraghe.ir
+    path: /
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪9 |  5.5MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: RmLeQgB10q.AaAzZzAaA-8129.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  ws-opts:
+    headers:
+      Host: RmLeQgB10q.AaAzZzAaA-8129.cOm
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪10 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 104.21.69.44
+  servername: HOZorI.iR
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071643
+  ws-opts:
+    headers:
+      Host: hozori.ir
+    path: /xVzTiAjXOMalQIj4?ed=8080
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇩🇪11 |  5.3MB/s
+  password: oFkz1Dpk
+  port: 30770
+  server: 202.78.163.141
+  tfo: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪12 |  5.7MB/s
+  network: ws
+  port: 443
+  server: cdnfast.lunarmc.ir
+  servername: cdnfast.lunarmc.ir.
+  tls: true
+  type: vless
+  udp: false
+  uuid: 70c56492-f24e-4d26-a6ed-2c9f2328f397
+  ws-opts:
+    headers:
+      Host: cdnfast.lunarmc.ir.
+    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 2|🇩🇪13 |  5.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo
+    short-id: f203719d3ff9a5f5
+  server: 45.150.174.82
+  servername: maviks.eu
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6
+  ws-opts:
+    headers:
+      Host: JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+    path: ''
 - auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 2|🇩🇪6 |  2.6MB/s
+  name: 2|🇩🇪14 |  2.3MB/s
   password: b543c066-2189-4aa4-8afb-445ac8ee28d4
   port: 35000
   server: 141.147.19.58
