@@ -1,22 +1,20 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 0|🇩🇪2 |  2.3MB/s
+  password: oFkz1Dpk
+  port: 30770
+  server: 202.78.163.141
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 90a52443-b0fe-442a-81af-5e126d3bc8a1
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: e8dabc76-349b-4a96-a7f6-14dcf04259dd
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇩🇪11 |  5.0MB/s
-  password: telegram-id-vlessconfig
-  port: 22222
-  server: 18.198.158.85
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇩🇪德国 01 | 1x DE
-  password: f09bab59-c023-4526-b141-335dd39b7dc4
+  password: 74eb1c97-3ed9-4786-9b9b-6b09f72c8951
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
