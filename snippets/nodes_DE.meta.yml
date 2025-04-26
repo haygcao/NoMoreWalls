@@ -1,103 +1,199 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 70b965e5-236e-41d9-96dd-0ce01279c9bd
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 35ef2504-fcd8-45bf-b6f4-555b74324c29
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪1 |  3.8MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 81fffd30-ac24-31c1-a163-6a499aa21a22
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 2|🇩🇪2 |  1.6MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 81fffd30-ac24-31c1-a163-6a499aa21a22
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2|🇩🇪3 |  3.3MB/s
-  password: oFkz1Dpk
-  port: 30770
-  server: 202.78.163.141
-  tfo: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: 7594vless
-  mode: ''
-  name: 2|🇩🇪4 |  5.2MB/s
-  network: grpc
-  port: 7594
-  reality-opts:
-    public-key: AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw
-    short-id: 765e8e700426816c
-  server: germanmel.mehrdadsadaf.com
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2a219df1-a04b-4424-bfd2-cb37aeb10b2c
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  6.5MB/s
+  name: 1|🇩🇪1 |  5.1MB/s
   network: ws
-  port: 2087
+  port: 2082
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 96bc8fba-9e8e-46a0-a10f-a35ced5361d6
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪2 |  5.4MB/s
+  network: ws
+  port: 2096
   server: www.speedtest.net
-  servername: Tp177Y9lEp.NeWrEtR432aS.iNfO
+  servername: D6rVkPfEgS.aAaZzZaAa-8129.CoM
   tls: true
   type: vless
   udp: false
-  uuid: 31a27ed1-2ec6-4ab5-95b6-3e213e59e0a9
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
   ws-opts:
     headers:
-      Host: Tp177Y9lEp.NeWrEtR432aS.iNfO
+      Host: D6rVkPfEgS.aAaZzZaAa-8129.CoM
     path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪3 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 91.107.187.129
+  servername: mw12.asalemaraghe.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6b6e7ff7-02e8-4800-981b-4a61acaa46b2
+  ws-opts:
+    headers:
+      Host: mw12.asalemaraghe.ir
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪4 |  5.8MB/s
+  network: ws
+  port: 443
+  server: cdnfast.lunarmc.ir
+  servername: cdnfast.lunarmc.ir.
+  tls: true
+  type: vless
+  udp: false
+  uuid: 70c56492-f24e-4d26-a6ed-2c9f2328f397
+  ws-opts:
+    headers:
+      Host: cdnfast.lunarmc.ir.
+    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048flow=-udp443
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪5 |  1.1MB/s
+  network: ws
+  port: 443
+  server: 104.21.82.137
+  servername: cdnfast.lunarmc.ir.
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3c2868f5-3b97-4a15-88c7-1972a9ea8aee
+  ws-opts:
+    headers:
+      Host: cdnfast.lunarmc.ir.
+    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  5.7MB/s
+  network: ws
+  port: 2096
+  server: 104.17.148.22
+  servername: RmLeQgB10q.AaAzZzAaA-8129.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  ws-opts:
+    headers:
+      Host: RmLeQgB10q.AaAzZzAaA-8129.cOm
+    path: /
+- allowInsecure: ''
+  name: 1|🇩🇪7 |  3.9MB/s
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.147.22
+  skip-cert-verify: false
+  sni: ipsychO.SUEx12.Ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /trre5IzbZ9IZZMddtw?ed=2560
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  4.1MB/s
+  network: ws
+  port: 8443
+  server: 5.75.192.24
+  servername: mahdiwi.filmekade.ru
+  tls: true
+  type: vless
+  udp: false
+  uuid: bb14debb-3dd1-4700-a9f5-f02a0498d1df
+  ws-opts:
+    headers:
+      Host: mahdiwi.filmekade.ru
+    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇩🇪9 |  4.5MB/s
+  network: tcp
+  port: 37051
+  reality-opts:
+    public-key: 4HV8B6aiVjtQHJ6wEtGtMilz62FS8jnI68xNZrt56z0
+    short-id: 48e98e27
+  server: 164.92.172.116
+  servername: Referson.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00f061fc-5083-4f2f-8408-67990e4cbfaa
 - auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 2|🇩🇪6 |  3.7MB/s
+  name: 1|🇩🇪10 |  4.5MB/s
   password: b543c066-2189-4aa4-8afb-445ac8ee28d4
   port: 35000
   server: 141.147.19.58
   skip-cert-verify: true
   sni: api.push.apple.com
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇩🇪7 |  5.4MB/s
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪11 |  5.3MB/s
+  network: ws
+  port: 443
+  server: 104.25.140.153
+  servername: BPB-pANEL-En-1O0.pAges.DEV
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: false
+  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+  ws-opts:
+    headers:
+      Host: BPB-pANEL-En-1O0.pAges.DEV
+    path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪12 |  1.4MB/s
+  network: ws
+  port: 443
+  server: zula.ir
+  servername: HOZorI.iR
+  tls: true
+  type: vless
+  udp: false
+  uuid: 3058e698-61fd-4d12-95bc-f1fe4c071643
+  ws-opts:
+    headers:
+      Host: hozori.ir
+    path: /xVzTiAjXOMalQIj4?ed=8080
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 1586d73e-55ac-4326-9ca2-33ccb1969c35
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
