@@ -1,46 +1,85 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 1a4b64d4-8255-4400-9366-35389dbea054
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 1a4b64d4-8255-4400-9366-35389dbea054
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 2a818953-c4d3-4149-8596-b7a4f7733913
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 2a818953-c4d3-4149-8596-b7a4f7733913
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 7c172437-c68f-4e3b-93a1-5ab8c536dd1e
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7c172437-c68f-4e3b-93a1-5ab8c536dd1e
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇬🇧1 |  1.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P0BqE64A26ZHmz8_agVmz9ybugHauMcWRfNSD1HAex0
+    short-id: b6a810
+  server: 89.208.97.26
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 2bd7ee4d-b1c8-4ea8-ab79-f7ca74cfceca
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧1 |  5.5MB/s
+  name: 2|🇬🇧2 |  3.7MB/s
   network: tcp
-  port: 49699
+  port: 32055
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
+  server: csuzhou01.1cooldns.com
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧3 |  5.1MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇬🇧4 |  5.9MB/s
+  network: tcp
+  port: 35311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - allowInsecure: ''
-  name: 2|🇬🇧2 |  5.4MB/s
+  name: 2|🇬🇧5 |  5.4MB/s
   network: tcp
   password: klZqKyxq0H
   port: 1935
@@ -51,33 +90,19 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0048
+  name: 2|🇬🇧6 |  1.7MB/s
   network: tcp
-  port: 65053
+  port: 49699
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: vip.jddns0202.top
   servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  4.7MB/s
-  network: tcp
-  port: 35311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 2|🇬🇧5 |  5.4MB/s
+  name: 2|🇬🇧7 |  5.4MB/s
   password: idd8ND5E
   port: 31321
   server: 13.41.208.251

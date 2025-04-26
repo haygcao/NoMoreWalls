@@ -1,43 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 1a4b64d4-8255-4400-9366-35389dbea054
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 1a4b64d4-8255-4400-9366-35389dbea054
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 2a818953-c4d3-4149-8596-b7a4f7733913
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 2a818953-c4d3-4149-8596-b7a4f7733913
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇭🇰1 |  6.1MB/s
-  password: ec6b43e1-a9a9-30af-a54e-274df6c5080b
-  port: 20294
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 7c172437-c68f-4e3b-93a1-5ab8c536dd1e
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 7c172437-c68f-4e3b-93a1-5ab8c536dd1e
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰6 |  2.4MB/s
+  name: 2|🇭🇰1 |  1.7MB/s
   network: ws
   port: 80
   server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
@@ -52,18 +44,109 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 2|🇭🇰9 |  1.0MB/s
+  name: 2|🇭🇰2 |  2.3MB/s
   network: ws
   port: 80
-  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  raw:
+    add: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+    net: ws
+    path: /
+    port: 80
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰3 |  2.2MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰5 |  1.6MB/s
+  network: ws
+  port: 80
+  server: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
   ws-opts:
     headers:
-      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+      Host: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰7 |  1.1MB/s
+  network: ws
+  port: 80
+  server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 2|🇭🇰10 |  4.8MB/s
+  password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
+  port: 30018
+  server: 114.132.40.118
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰12 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 2df30408-sv2sg0-sv3jcr-1itli.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰13 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
     path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
