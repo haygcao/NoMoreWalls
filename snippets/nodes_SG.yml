@@ -1,123 +1,128 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: a4507e16-aa1c-43a4-b9ed-ef917015ca89
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: a4507e16-aa1c-43a4-b9ed-ef917015ca89
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: a4507e16-aa1c-43a4-b9ed-ef917015ca89
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 0254a7bd-39dc-4d98-bd6c-6ba373008610
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 0254a7bd-39dc-4d98-bd6c-6ba373008610
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 0254a7bd-39dc-4d98-bd6c-6ba373008610
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: '0'
+- name: 0|🇸🇬1 |  4.2MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
+- alterId: 0
   cipher: auto
-  name: 2|🇸🇬8 |  4.7MB/s
+  name: 0|🇸🇬4 |  2.6MB/s
   network: ws
-  port: 21369
-  server: a.886968.xyz
-  servername: a.886968.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
-  ws-opts:
-    headers:
-      Host: a.886968.xyz
-    path: /wfdef
-- alterId: '0'
-  cipher: auto
-  name: 2|🇸🇬2 |  4.5MB/s
-  network: ws
-  port: '43050'
-  server: a.ziqiu1060.ggff.net
+  port: 43050
+  raw:
+    add: 152.69.220.94
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: a.ziqiu1060.ggff.net
+    id: 28ca0567-754e-46fc-e774-b19c787975f7
+    net: ws
+    path: /dsfsdf
+    port: '43050'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: a.ziqiu1060.ggff.net
+    tls: tls
+    type: none
+    v: '2'
+  server: 152.69.220.94
+  servername: a.ziqiu1060.ggff.net
   tls: true
   type: vmess
   uuid: 28ca0567-754e-46fc-e774-b19c787975f7
   ws-opts:
     headers:
-      host: a.ziqiu1060.ggff.net
+      Host: a.ziqiu1060.ggff.net
     path: /dsfsdf
-- cipher: aes-256-gcm
-  name: 2|🇸🇬3 |  2.7MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 18.141.233.166
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬4 |  5.3MB/s
-  network: ws
-  port: 443
-  raw:
-    add: 104.21.42.243
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: sgfqkqmltcy.site
-    id: d13fc2f5-3e05-4795-81eb-44143a09e552
-    net: ws
-    path: /rbqqvws
-    port: 443
-    ps: 2|🇸🇬3 |  2.4MB/s
-    scy: auto
-    sni: sgfqkqmltcy.site
-    tls: tls
-    type: none
-    v: '2'
-  server: 104.21.42.243
-  servername: sgfqkqmltcy.site
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: sgfqkqmltcy.site
-    path: /rbqqvws
-- name: 2|🇸🇬5 |  2.9MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: gysz0000.dynu.net
-  type: trojan
 - cipher: aes-256-cfb
-  name: 2|🇸🇬9 |  3.2MB/s
+  name: 0|🇸🇬5 |  2.1MB/s
   password: amazonskr05
   port: 443
   server: 52.221.252.207
   type: ss
+- alterId: '0'
+  cipher: auto
+  name: 0|🇸🇬6 |  1.5MB/s
+  network: ws
+  port: '21369'
+  server: a.886968.xyz
+  tls: true
+  type: vmess
+  uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
+  ws-opts:
+    headers:
+      host: a.886968.xyz
+    path: /wfdef
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬8 |  3.5MB/s
+  network: tcp
+  port: 17231
+  raw:
+    add: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+    id: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+    net: tcp
+    path: /
+    port: '17231'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: ecdc09a3-3878-4873-9436-00e09740dfaf
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: ecdc09a3-3878-4873-9436-00e09740dfaf
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: ecdc09a3-3878-4873-9436-00e09740dfaf
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: b2677da4-f456-4bb4-a06a-7730c5c82d6d
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: b2677da4-f456-4bb4-a06a-7730c5c82d6d
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: b2677da4-f456-4bb4-a06a-7730c5c82d6d
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -138,29 +143,34 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  port: 3030
-  server: 47.237.84.79
+  name: 12,13|新加坡2|@ripaojiedian
+  network: ws
+  port: '43050'
+  server: a.ziqiu1060.ggff.net
+  servername: a.ziqiu1060.ggff.net
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
+  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
+  ws-opts:
+    headers:
+      Host: a.ziqiu1060.ggff.net
+    path: /dsfsdf
+- client-fingerprint: chrome
+  name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
+  password: 1b97e412-8bf8-4521-b9d6-8ca529f8cbc9
+  port: 27401
+  server: 183.2.150.98
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.249.95.208
+  server: 13.125.152.108
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡2|@ripaojiedian
-  network: tcp
-  port: '3030'
-  server: 47.237.84.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
