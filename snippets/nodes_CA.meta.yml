@@ -1,15 +1,29 @@
 proxies:
+- name: 0|🇨🇦1 |  3.9MB/s
+  network: ws
+  port: 443
+  server: 192.9.227.116
+  servername: s0.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: s0.ylka.dpdns.org
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: e7fcc401-28c2-497d-a326-286d7421ceb0
-  port: 31441
-  server: free.2apzhfa.xyz
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36441
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36441
-  server: free.2weradf.xyz
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: 4341ea9c-d2a9-46eb-8791-90c428d4c5a4
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

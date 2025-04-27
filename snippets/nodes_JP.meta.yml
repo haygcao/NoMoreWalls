@@ -1,78 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 01 | 1x JP
-  password: e7fcc401-28c2-497d-a326-286d7421ceb0
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 02 | 1x JP
-  password: e7fcc401-28c2-497d-a326-286d7421ceb0
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 03 | 1x JP
-  password: e7fcc401-28c2-497d-a326-286d7421ceb0
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵1 |  6.1MB/s
-  network: tcp
-  port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵2 |  6.1MB/s
-  network: tcp
-  port: 35659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵3 |  1.1MB/s
-  network: tcp
-  port: 14548
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: '0'
-  cipher: auto
-  name: 1|🇯🇵4 |  5.8MB/s
-  network: ws
-  port: '35213'
-  server: jp3.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      host: web.xcjs.info
-    path: /home
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵5 |  4.1MB/s
+  name: 0|🇯🇵1 |  3.2MB/s
   network: tcp
   port: 48121
   reality-opts:
@@ -82,27 +11,85 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,13|CN_speednode_0033
+  network: tcp
+  port: 16497
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 1|🇯🇵6 |  6.2MB/s
+  name: 0|🇯🇵3 |  2.7MB/s
   password: amazonskr05
   port: 443
-  server: 35.72.13.151
+  server: 3.112.189.202
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵7 |  6.2MB/s
+  name: 0|🇯🇵4 |  3.7MB/s
   network: tcp
-  port: 31735
+  port: 13989
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
+  server: cos90-new2.dynu.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  name: 0|🇯🇵5 |  5.5MB/s
+  password: amazonskr05
+  port: 80
+  server: 52.193.159.252
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵6 |  4.5MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- delay: 2053
+  name: 0|🇯🇵7 |  4.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 0|🇯🇵8 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.103.11
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵9 |  2.9MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0016
+  name: 0,13|CN_speednode_0016
   network: tcp
   port: 13989
   reality-opts:
@@ -114,34 +101,34 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 1|🇯🇵9 |  4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.103.11
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵11 |  1.6MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 1|🇯🇵10 |  6.8MB/s
+  name: 0|🇯🇵12 |  1.4MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   ws-headers:
-    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
-- cipher: aes-256-cfb
-  name: 1|🇯🇵11 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.173.99
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵12 |  5.9MB/s
+  name: 0|🇯🇵13 |  22.2MB/s
   network: tcp
   port: 31735
   reality-opts:
@@ -151,45 +138,39 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵13 |  2.2MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵14 |  5.3MB/s
   network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵14 |  5.7MB/s
-  network: ws
-  port: 35244
-  server: jp4.vip2.g2.moonbase.life
-  servername: jp4.vip2.g2.moonbase.life
-  skip-cert-verify: true
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
   tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: jp4.vip2.g2.moonbase.life
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵15 |  6.5MB/s
-  network: ws
-  port: 35243
-  server: jp3.vip2.g2.moonbase.life
-  servername: jp3.vip2.g2.moonbase.life
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: jp3.vip2.g2.moonbase.life
-    path: /home
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -270,23 +251,23 @@ proxies:
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 01 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36111
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 4341ea9c-d2a9-46eb-8791-90c428d4c5a4
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 02 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36113
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 4341ea9c-d2a9-46eb-8791-90c428d4c5a4
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 03 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36115
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 4341ea9c-d2a9-46eb-8791-90c428d4c5a4
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
