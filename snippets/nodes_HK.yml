@@ -1,34 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: d38c722c-59c3-4605-870d-b9172e4870ee
-  port: 36143
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: e7fcc401-28c2-497d-a326-286d7421ceb0
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: d38c722c-59c3-4605-870d-b9172e4870ee
-  port: 36145
-  server: free.2weradf.xyz
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: e7fcc401-28c2-497d-a326-286d7421ceb0
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇭🇰1 |  3.7MB/s
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
+- name: 1|🇭🇰1 |  4.4MB/s
+  password: aeb444c2-be1e-3bfb-9e09-3a04a8957620
+  port: 22741
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
+  sni: dufu.hongkongnode.top
   type: trojan
-- name: 1|🇭🇰3 |  4.6MB/s
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 121.14.61.174
+  udp: true
+- name: 1|🇭🇰2 |  1.2MB/s
+  password: aeb444c2-be1e-3bfb-9e09-3a04a8957620
+  port: 20307
+  server: gy.58n.net
   skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
+  sni: z307.hongkongnode.top
   type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 1|🇭🇰5 |  1.6MB/s
+  name: 1|🇭🇰10 |  3.8MB/s
   password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
   port: 30018
   server: 114.132.40.118
@@ -144,16 +146,16 @@ proxies:
   type: vmess
   uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 02 | 1x HK
-  password: 11153ec3-a22b-4180-88a9-2745d9699387
-  port: 31143
-  server: free.2apzhfa.xyz
+  name: 14|🇭🇰 香港 02 | 1x HK
+  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
+  port: 36143
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港家宽 03 | 1x HK
-  password: 11153ec3-a22b-4180-88a9-2745d9699387
-  port: 31145
-  server: free.2apzhfa.xyz
+  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
