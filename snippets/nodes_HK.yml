@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 4b3a6ffc-7cac-46be-a891-b321cfbde6a9
+  password: 717ce5b1-81f7-4eb2-a836-e1cbffde9896
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4b3a6ffc-7cac-46be-a891-b321cfbde6a9
+  password: 717ce5b1-81f7-4eb2-a836-e1cbffde9896
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 1|🇭🇰1 |  1.9MB/s
+  name: 1|🇭🇰1 |  1.6MB/s
   network: ws
   port: 80
-  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  server: daf66faf-sub0g0-svavf6-ugw2.hk.p5pv.com
   skip-cert-verify: true
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
-  ws-headers:
-    HOST: broadcastlv.chat.bilibili.com
-  ws-path: /
+  udp: true
+  uuid: 41d69b1e-cbf3-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 02 | 1x HK
-  password: ff1220c7-ec99-43a6-b7a6-9fcaa0bc4404
+  password: 93ed7cb7-9f3a-46b8-a7ef-28bb911fe742
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: ff1220c7-ec99-43a6-b7a6-9fcaa0bc4404
+  password: 93ed7cb7-9f3a-46b8-a7ef-28bb911fe742
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
