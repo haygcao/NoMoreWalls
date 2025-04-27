@@ -1,47 +1,38 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 717ce5b1-81f7-4eb2-a836-e1cbffde9896
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
+- name: 0|🇸🇬1 |  1.0MB/s
+  network: tcp
+  password: fd693f7c-4160-41cc-9065-cbf9df5a12d4
+  port: 27401
+  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 717ce5b1-81f7-4eb2-a836-e1cbffde9896
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
+- client-fingerprint: chrome
+  delay: 1924
+  flow: xtls-rprx-vision
+  name: 0,12|CN_speednode_0015
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 717ce5b1-81f7-4eb2-a836-e1cbffde9896
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 0|🇸🇬3 |  5.1MB/s
+  network: tcp
+  password: 2b03629a-0eab-41f4-bd1c-2558cdc03e2b
+  port: 27401
+  server: sla.cn.964e995b760.gogodns.xin
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 93ed7cb7-9f3a-46b8-a7ef-28bb911fe742
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 93ed7cb7-9f3a-46b8-a7ef-28bb911fe742
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 93ed7cb7-9f3a-46b8-a7ef-28bb911fe742
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- name: 9|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -49,7 +40,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|新加坡
+- name: 9|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -57,7 +48,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '9|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -68,7 +59,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -85,7 +76,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 10,11|新加坡2|@ripaojiedian
   network: ws
   port: '43050'
   server: a.ziqiu1060.ggff.net
@@ -100,7 +91,7 @@ proxies:
       Host: a.ziqiu1060.ggff.net
     path: /dsfsdf
 - client-fingerprint: chrome
-  name: 12,13|新加坡3|@ripaojiedian
+  name: 10,11|新加坡3|@ripaojiedian
   network: tcp
   password: 1b97e412-8bf8-4521-b9d6-8ca529f8cbc9
   port: 27401
@@ -110,17 +101,59 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.125.152.108
   tfo: false
   type: ss
-- name: 14|SG_speednode_0050
+- name: 12|SG_speednode_0050
   password: '!!str 74260678056890000'
   port: 443
   server: grown-doberman.shiner427.skin
   skip-cert-verify: false
   sni: grown-doberman.shiner427.skin
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬 新加坡 01 | 1x SG
+  password: d3ce16a4-6dd5-4f7e-a818-a649c7ad83d9
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬 新加坡 02 | 1x SG
+  password: d3ce16a4-6dd5-4f7e-a818-a649c7ad83d9
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬 新加坡 03 | 1x SG
+  password: d3ce16a4-6dd5-4f7e-a818-a649c7ad83d9
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 30a815d9-feeb-4c0d-b87c-63ddc7d55b2e
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 30a815d9-feeb-4c0d-b87c-63ddc7d55b2e
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 30a815d9-feeb-4c0d-b87c-63ddc7d55b2e
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
