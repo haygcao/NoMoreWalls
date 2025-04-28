@@ -1,90 +1,81 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 09b4fa72-dc36-40be-bfd6-8eb1f1edfcc6
+  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 09b4fa72-dc36-40be-bfd6-8eb1f1edfcc6
+  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2|🇰🇷1 |  4.8MB/s
+  network: tcp
+  port: 17232
+  server: 20986f4b-svfr40-t28b6o-ef48.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 2|🇰🇷2 |  3.8MB/s
+  network: tcp
+  port: 17232
+  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
+  ws-path: /
 - cipher: aes-256-cfb
-  delay: 772
-  name: 1|🇰🇷1 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 4857
-  server: 125.141.26.12
+  name: 2|🇰🇷3 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.86.22
   type: ss
 - cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  6.1MB/s
+  name: 2|🇰🇷4 |  6.0MB/s
   password: qwerREWQ@@
   port: 11389
   server: p231.panda004.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷3 |  5.8MB/s
-  network: ws
-  port: 80
-  raw:
-    add: 141.101.121.177
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: kr.anycast.dpdns.org
-    id: b5c516c0-80cf-4ecf-9f57-283deb8c247f
-    net: ws
-    path: /rongseven?ed=2048
-    port: '80'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: auto
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 141.101.121.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5c516c0-80cf-4ecf-9f57-283deb8c247f
-  ws-opts:
-    headers:
-      Host: kr.anycast.dpdns.org
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1|🇰🇷4 |  1.5MB/s
+  client-fingerprint: chrome
+  name: 2|🇰🇷5 |  3.4MB/s
   network: tcp
   port: 17232
-  server: 79c77016-svhls0-t28b6o-ef48.cm5.p5pv.com
+  server: 3c409c82-svjgg0-t28b6o-ef48.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇰🇷5 |  5.1MB/s
-  network: ws
-  port: 80
-  server: 104.21.56.44
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: REEdfREe8MahSaNg2.rEDOrG.IR
-    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   port: 11213
   server: 13.wogg1.top
   skip-cert-verify: false
@@ -94,7 +85,7 @@ proxies:
   uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 35.94.146.58
@@ -102,7 +93,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|韩国|@ripaojiedian
+  name: 13|韩国|@ripaojiedian
   network: tcp
   port: '11213'
   server: 13.wogg1.top
@@ -110,17 +101,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 48af369b-07f9-30f3-9210-354bd85eea27
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: c648ec16-2465-4342-9fee-85fd49e53ad2
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: c648ec16-2465-4342-9fee-85fd49e53ad2
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
