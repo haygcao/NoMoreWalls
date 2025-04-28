@@ -1,67 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬1 |  2.6MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 1|🇸🇬1 |  4.7MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 2|🇸🇬5 |  5.4MB/s
+  name: 1|🇸🇬2 |  5.1MB/s
   network: ws
   port: 443
   server: 172.67.213.110
   servername: sgfqkqmltcy.site
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -69,33 +43,27 @@ proxies:
     headers:
       Host: sgfqkqmltcy.site
     path: /rbqqvws
-- client-fingerprint: chrome
-  delay: 1924
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0015
-  network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 13977014-ca29-44aa-8bfe-3e728a549fb7
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬4 |  5.3MB/s
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 13977014-ca29-44aa-8bfe-3e728a549fb7
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 13977014-ca29-44aa-8bfe-3e728a549fb7
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

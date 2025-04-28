@@ -1,65 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇷🇺1 |  6.0MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- client-fingerprint: chrome
+  name: 1|🇷🇺1 |  1.3MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   port: 443
-  server: a44c12ad-svjgg0-t1bnjq-1krtb.ru.gotochinatown.net
+  server: 8d2aa056-svhls0-t28b6o-ef48.ru.gotochinatown.net
+  sni: 8d2aa056-svhls0-t28b6o-ef48.ru.gotochinatown.net
   tls: true
   type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 2|🇷🇺2 |  2.9MB/s
-  network: ws
-  port: 22028
-  raw:
-    add: 195.58.49.84
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: b8071fcf-659c-4f02-a43b-3fe1c421b252
-    net: ws
-    path: /
-    port: '22028'
-    ps: 🇷🇺 --001-1B
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 195.58.49.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8071fcf-659c-4f02-a43b-3fe1c421b252
-  ws-opts:
-    path: /
-- name: 2|🇷🇺3 |  5.6MB/s
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- client-fingerprint: chrome
+  name: 1|🇷🇺2 |  6.0MB/s
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
-  server: af5dc240-svhls0-swy6li-tni2.ru.gotochinatown.net
+  server: 7faf4e48-svjgg0-swy6li-tni2.ru.gotochinatown.net
+  sni: 7faf4e48-svjgg0-swy6li-tni2.ru.gotochinatown.net
   tls: true
   type: http
   username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- client-fingerprint: chrome
+  name: 1|🇷🇺3 |  5.4MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: 6b600dbc-svfr40-t28b6o-ef48.ru.gotochinatown.net
+  sni: 6b600dbc-svfr40-t28b6o-ef48.ru.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 2|🇷🇺4 |  5.7MB/s
+  name: 1|🇷🇺4 |  1.1MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
@@ -67,26 +45,7 @@ proxies:
   type: hysteria
   up: 1000 Mbps
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇷🇺5 |  4.5MB/s
-  network: tcp
-  port: 20216
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇷🇺6 |  3.3MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: 299db35c-svhls0-t1bnjq-1krtb.ru.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- client-fingerprint: chrome
-  name: 2|🇷🇺7 |  4.9MB/s
+  name: 1|🇷🇺5 |  4.7MB/s
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: 4c62a1ff-svfr40-t1bnjq-1krtb.ru.gotochinatown.net
@@ -94,6 +53,46 @@ proxies:
   tls: true
   type: http
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 1|🇷🇺6 |  5.5MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: 299db35c-svhls0-t1bnjq-1krtb.ru.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 1|🇷🇺7 |  6.0MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: af5dc240-svhls0-swy6li-tni2.ru.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- client-fingerprint: chrome
+  name: 1|🇷🇺8 |  2.0MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: ba6285d8-svfr40-swy6li-tni2.ru.gotochinatown.net
+  sni: ba6285d8-svfr40-swy6li-tni2.ru.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- auth: dongtaiwang.com
+  delay: 993
+  name: 1|🇷🇺9 |  3.5MB/s
+  password: dongtaiwang.com
+  port: 10011
+  server: hy2.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: 13977014-ca29-44aa-8bfe-3e728a549fb7
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

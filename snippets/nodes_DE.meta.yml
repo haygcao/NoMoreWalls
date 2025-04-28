@@ -1,21 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 9b41c1c1-ec90-4e06-a3d5-a41a8d7218d6
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 5d588893-e011-4c0b-a47d-a98977235d47
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 5627b749-255a-4f6e-b289-0ecb67e4f941
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇩🇪1 |  3.0MB/s
+  name: 1|🇩🇪1 |  1.2MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -26,84 +19,42 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.3MB/s
-  network: tcp
+  name: 1|🇩🇪2 |  2.2MB/s
+  network: ws
+  port: 8443
+  server: zula.ir
+  servername: vip.donghi.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 50e1e38a-0eee-4e91-8205-3475265a09bd
+  ws-opts:
+    headers:
+      Host: vip.donghi.ir
+    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
+- client-fingerprint: chrome
+  flow: ''
+  grpc-opts:
+    grpc-service-name: yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP
+  mode: ''
+  name: 1|🇩🇪3 |  5.5MB/s
+  network: grpc
   port: 443
   reality-opts:
-    public-key: 15VSj5bGCGemmifDA6IfLCz8deqBcvaI7SRZFd2bUBQ
-    short-id: ec7d25
-  server: 138.199.232.232
-  servername: direct.psnapptapsi.ir
+    public-key: Hng90MObJ5OBtIrfrf6U02WIx36R9srHLBwRsj1r7Dw
+    short-id: 05a6d4aa5e314637
+  server: 88.198.101.66
+  servername: stackoverflow.com
   tls: true
   type: vless
   udp: false
-  uuid: ac5ef6ff-4df5-4615-8e8b-3819497f5776
-- name: 2|🇩🇪3 |  5.4MB/s
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  uuid: 48554df0-1993-4395-8900-478be9a88ff0
   ws-opts:
-    headers:
-      Host: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
-    path: /
+    path: yZ1aB2cC3dD4eE5f6gH7iJ8kL9mNOoP
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  4.5MB/s
-  network: ws
-  port: 443
-  server: 104.21.82.137
-  servername: cdnfast.lunarmc.ir.
-  tls: true
-  type: vless
-  udp: false
-  uuid: dacd0cf4-b543-4833-a5e0-4d67c5e31315
-  ws-opts:
-    headers:
-      Host: cdnfast.lunarmc.ir.
-    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  5.8MB/s
-  network: ws
-  port: 443
-  server: cdnfast.lunarmc.ir
-  servername: cdnfast.lunarmc.ir.
-  tls: true
-  type: vless
-  udp: false
-  uuid: dacd0cf4-b543-4833-a5e0-4d67c5e31315
-  ws-opts:
-    headers:
-      Host: cdnfast.lunarmc.ir.
-    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪6 |  2.5MB/s
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: CiR346yL3b.DeRaKhT.iNfO
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: CiR346yL3b.DeRaKhT.iNfO
-    path: /
-- client-fingerprint: chrome
-  name: 2,14|DE_speednode_0037
+  name: 1,14|DE_speednode_0037
   network: tcp
   port: 443
   server: 49.12.185.64
@@ -112,41 +63,58 @@ proxies:
   type: vless
   udp: true
   uuid: a6e8515c-4e54-435a-9a47-2365beb40164
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  5.1MB/s
-  network: ws
-  port: 443
-  server: 172.67.202.125
-  servername: cdnfast.lunarmc.ir.
-  tls: true
-  type: vless
-  udp: false
-  uuid: dacd0cf4-b543-4833-a5e0-4d67c5e31315
-  ws-opts:
-    headers:
-      Host: cdnfast.lunarmc.ir.
-    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048flow=-udp443
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪9 |  5.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 15VSj5bGCGemmifDA6IfLCz8deqBcvaI7SRZFd2bUBQ
-    short-id: ec7d25
-  server: direct.psnapptapsi.ir
-  servername: direct.psnapptapsi.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: ac5ef6ff-4df5-4615-8e8b-3819497f5776
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪10 |  4.2MB/s
+  name: 1|🇩🇪5 |  5.6MB/s
+  network: ws
+  port: 8443
+  server: 104.17.148.22
+  servername: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪6 |  5.4MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪7 |  5.4MB/s
+  network: ws
+  port: 80
+  server: 104.21.56.44
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: REEdfREe8MahSaNg2.rEDOrG.IR
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  4.5MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -159,6 +127,29 @@ proxies:
     headers:
       Host: GxTm08YfEm.SaKhRe.InFo
     path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪9 |  2.1MB/s
+  network: ws
+  port: 8880
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: a9718c02-7177-4100-a133-3c74ada7ce63
+  ws-opts:
+    headers:
+      Host: vihypercloud.academigroup.ir.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 13977014-ca29-44aa-8bfe-3e728a549fb7
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 14|DE_speednode_0035
   port: 51212
   server: 194.55.13.118
