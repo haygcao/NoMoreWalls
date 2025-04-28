@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 70d11656-db93-46ed-ac33-17113b1ffc6a
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 2847913e-7cbc-4dd5-933e-37dc2600f481
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 70d11656-db93-46ed-ac33-17113b1ffc6a
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 2847913e-7cbc-4dd5-933e-37dc2600f481
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷1 |  5.5MB/s
+  name: 2|🇰🇷1 |  5.8MB/s
   network: tcp
   port: 17232
   server: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
@@ -27,29 +27,15 @@ proxies:
     Host: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
   ws-path: /
 - cipher: aes-256-cfb
-  delay: 1190
-  name: 1|🇰🇷2 |  1.3MB/s
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 772
-  name: 1|🇰🇷3 |  5.6MB/s
+  delay: 1665
+  name: 2|🇰🇷2 |  2.4MB/s
   password: qwerREWQ@@
   port: 4857
-  server: 125.141.26.12
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇰🇷4 |  4.1MB/s
-  password: qwerREWQ@@
-  port: 58487
-  server: 221.150.109.90
+  server: p227.panda004.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇰🇷5 |  5.6MB/s
+  name: 2|🇰🇷3 |  6.2MB/s
   network: tcp
   port: 17232
   server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
@@ -60,33 +46,44 @@ proxies:
   ws-headers:
     Host: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: 94d59703-eb71-4aed-888a-645531c38019
-  port: 36311
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  name: 2|🇰🇷4 |  3.8MB/s
+  password: qwerREWQ@@
+  port: 11389
+  server: 221.150.109.89
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: 94d59703-eb71-4aed-888a-645531c38019
-  port: 36313
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  name: 2|🇰🇷5 |  2.0MB/s
+  password: qwerREWQ@@
+  port: 11389
+  server: p231.panda004.net
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian
-  password: 82401cca-92d1-4220-9367-1cb52832bf59
-  port: 16115
-  server: 183.240.116.150
+  port: 11213
+  server: 13.wogg1.top
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.213.242.191
+  server: 35.94.146.58
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 13|韩国|@ripaojiedian
+  network: tcp
+  port: '11213'
+  server: 13.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48af369b-07f9-30f3-9210-354bd85eea27

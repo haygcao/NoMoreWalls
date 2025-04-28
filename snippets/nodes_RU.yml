@@ -1,15 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 70d11656-db93-46ed-ac33-17113b1ffc6a
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺 俄罗斯 01 | 1x RU
-  password: 94d59703-eb71-4aed-888a-645531c38019
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: 2847913e-7cbc-4dd5-933e-37dc2600f481
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|俄罗斯|@ripaojiedian
+  network: ws
+  port: '1053'
+  server: 199.247.1.99
+  servername: just-moscow-01.vnode.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
+  ws-opts:
+    headers:
+      Host: just-moscow-01.vnode.info
+    path: /
