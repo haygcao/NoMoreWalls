@@ -1,37 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 2847913e-7cbc-4dd5-933e-37dc2600f481
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: c26f105c-023e-4cb7-8594-8236fb70e4af
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: c26f105c-023e-4cb7-8594-8236fb70e4af
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: 32defc51-459f-40b8-b7d8-1031aa1f5894
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 2847913e-7cbc-4dd5-933e-37dc2600f481
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 32defc51-459f-40b8-b7d8-1031aa1f5894
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- ip-version: dual
-  name: 2|🇭🇰4 |  6.0MB/s
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 121.14.61.174
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 2,12,13|香港4|@ripaojiedian
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
-- name: 2|🇭🇰13 |  6.0MB/s
+- name: 2|🇭🇰2 |  1.0MB/s
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -40,13 +36,32 @@ proxies:
   sni: hk-13-568.flztjc.net
   type: trojan
   udp: true
-- name: 2|🇭🇰17 |  4.8MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
+- ip-version: dual
+  name: 2|🇭🇰3 |  4.1MB/s
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 121.14.61.174
   skip-cert-verify: true
-  sni: hk06.run.place
+  sni: hk-13-568.flztjc.net
+  tls: true
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 2,12,13|香港3|@ripaojiedian
+  network: ws
+  port: '8102'
+  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -76,23 +91,15 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
-  network: ws
-  port: '8102'
-  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
-  servername: ''
+- client-fingerprint: chrome
+  name: 12,13|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  sni: hk-13-568.flztjc.net
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
