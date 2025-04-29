@@ -1,29 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 241e6b27-59f6-49e8-9204-f84593b7804b
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: bb0a7803-b5ed-4d1e-abcd-326a2e093537
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: bb0a7803-b5ed-4d1e-abcd-326a2e093537
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 58142858-d970-42f6-95e3-6f469bda8823
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 58142858-d970-42f6-95e3-6f469bda8823
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  mode: ''
-  name: 1|🇬🇧1 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 188.42.88.45
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  4.2MB/s
+  name: 2|🇬🇧1 |  2.1MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -33,37 +39,9 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧3 |  4.1MB/s
-  network: ws
-  port: 443
-  server: 45.142.120.97
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧4 |  5.3MB/s
-  network: tcp
-  port: 65053
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - flow: ''
   mode: ''
-  name: 1|🇬🇧5 |  2.2MB/s
+  name: 2|🇬🇧2 |  1.5MB/s
   network: ws
   port: 443
   server: 45.131.6.160
@@ -76,15 +54,7 @@ proxies:
     headers:
       Host: CxNiMjJz.cAfUnEaR.InFo
     path: /
-- auth: a41ae488-aaeb-4738-8ffb-66589ae4b492
-  name: 1|🇬🇧6 |  5.1MB/s
-  password: a41ae488-aaeb-4738-8ffb-66589ae4b492
-  port: 20352
-  server: gb.1e6af9be69cbae59cba.tech
-  skip-cert-verify: false
-  sni: gb.1e6af9be69cbae59cba.tech
-  type: hysteria2
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -92,10 +62,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 30f2b8ea-7c74-4c27-bb16-bd093fa11aac
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

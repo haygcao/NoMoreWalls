@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 241e6b27-59f6-49e8-9204-f84593b7804b
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: bb0a7803-b5ed-4d1e-abcd-326a2e093537
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 58142858-d970-42f6-95e3-6f469bda8823
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -9,126 +16,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  5.6MB/s
-  network: ws
-  port: 80
-  server: 172.66.47.63
-  servername: masaleini.mahsaamini.dpdns.org
-  tls: false
-  type: vless
-  udp: false
-  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-  ws-opts:
-    headers:
-      Host: masaleini.mahsaamini.dpdns.org
-    path: /TM@AZAFBAYJAB1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 1|🇩🇪2 |  5.0MB/s
-  network: tcp
-  port: 1300
-  reality-opts:
-    public-key: FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA
-    short-id: ''
-  server: 49.12.243.80
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b8243b8a-dece-432f-8b4d-88696594cbf8
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.4MB/s
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: GxTm08YfEm.SaKhRe.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: GxTm08YfEm.SaKhRe.InFo
-    path: /
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: Go4HFJDtQYDNh5HQII31
-  mode: gun
-  name: 1|🇩🇪4 |  3.7MB/s
-  network: grpc
-  port: 110
-  reality-opts:
-    public-key: gjpZdZmvqNvzY9cgnc0tTF9XXAvvq5Hmp37jJl2lvWY
-    short-id: ce9fa5
-  server: 91.107.161.47
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 38b4dd8c-e4f9-4b13-8124-b7092c2e6045
-- cipher: rc4-md5
-  name: 1|🇩🇪5 |  4.8MB/s
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 193.108.119.230
-  type: ssr
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  5.3MB/s
-  network: ws
-  port: 443
-  server: 172.67.202.125
-  servername: cdnfast.lunarmc.ir.
-  tls: true
-  type: vless
-  udp: false
-  uuid: 1d5e1a16-607a-45d5-a27a-2d4e764addb6
-  ws-opts:
-    headers:
-      Host: cdnfast.lunarmc.ir.
-    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048flow=-udp443
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪7 |  4.4MB/s
-  network: ws
-  port: 443
-  server: 104.21.82.137
-  servername: cdnfast.lunarmc.ir.
-  tls: true
-  type: vless
-  udp: false
-  uuid: 1d5e1a16-607a-45d5-a27a-2d4e764addb6
-  ws-opts:
-    headers:
-      Host: cdnfast.lunarmc.ir.
-    path: /@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_@one_shop_official_?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 1|🇩🇪8 |  5.6MB/s
-  network: tcp
-  port: 1300
-  reality-opts:
-    public-key: FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA
-    short-id: ''
-  server: vip.panelmarzban.com
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b8243b8a-dece-432f-8b4d-88696594cbf8
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪9 |  5.7MB/s
+  name: 2|🇩🇪1 |  3.0MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -141,10 +29,75 @@ proxies:
     headers:
       Host: CiR346yL3b.DeRaKhT.iNfO
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 30f2b8ea-7c74-4c27-bb16-bd093fa11aac
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪2 |  3.6MB/s
+  network: ws
+  port: 2096
+  server: 104.17.148.22
+  servername: Y2aZ6f5747.HoMeEaSeStOrEs.CoM
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: Y2aZ6f5747.HoMeEaSeStOrEs.CoM
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪3 |  5.3MB/s
+  network: ws
+  port: 443
+  server: Nuremberg1-h.FaraSorat.net
+  servername: gift-4101664.FaraSorat.Net
+  tls: true
+  type: vless
+  udp: false
+  uuid: 8e944e35-e17b-4ecb-8879-f62a2c4cf546
+  ws-opts:
+    headers:
+      Host: Nuremberg1.FaraSorat.net
+    path: /pV67LRFs428xHke56mDQ
+- cipher: rc4-md5
+  name: 2|🇩🇪4 |  3.0MB/s
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 193.108.119.230
+  type: ssr
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪5 |  1.4MB/s
+  network: ws
+  port: 2096
+  server: 209.208.227.61
+  servername: D6rVkPfEgS.aAaZzZaAa-8129.CoM
+  tls: true
+  type: vless
+  udp: false
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  ws-opts:
+    headers:
+      Host: D6rVkPfEgS.aAaZzZaAa-8129.CoM
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪6 |  1.8MB/s
+  network: ws
+  port: 8443
+  server: 104.17.148.22
+  servername: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: 4RyYrCk5V2.hOmEeAsEsToReS.cOm
+    path: /
