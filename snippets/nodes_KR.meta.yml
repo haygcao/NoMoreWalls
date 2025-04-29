@@ -1,102 +1,52 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷1 |  5.2MB/s
-  password: qwerREWQ@@
-  port: 30454
-  server: p229.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|🇰🇷2 |  2.4MB/s
-  password: gJg1TyUQ
-  port: 30976
-  server: 13.125.168.176
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇰🇷3 |  2.6MB/s
-  network: tcp
-  port: 21082
-  reality-opts:
-    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
-    short-id: 758719a6080f2767
-  server: tw-ty-line1-2-2.sudatech.store
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  uuid: e7adaa99-8363-3ec4-b849-307c99005405
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷4 |  5.2MB/s
-  network: tcp
-  port: 17232
-  server: 79c77016-svhls0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇰🇷5 |  2.8MB/s
-  password: qwerREWQ@@
-  port: 63648
-  server: p228.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷6 |  5.8MB/s
-  network: tcp
-  port: 17232
-  server: 3c409c82-svjgg0-t28b6o-ef48.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-headers:
-    Host: 3c409c82-svjgg0-t28b6o-ef48.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷7 |  6.6MB/s
-  network: tcp
-  port: 17232
-  server: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- cipher: aes-256-cfb
-  name: 0|🇰🇷8 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 11389
-  server: 221.150.109.89
-  type: ss
-- cipher: aes-256-cfb
-  name: 0|🇰🇷9 |  4.4MB/s
-  password: qwerREWQ@@
-  port: 11389
-  server: p231.panda004.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 254bae84-775e-4971-b40b-1301fef0227f
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 254bae84-775e-4971-b40b-1301fef0227f
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 1|🇰🇷1 |  1.8MB/s
+  password: gJg1TyUQ
+  port: 30976
+  server: 13.125.168.176
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇰🇷2 |  5.8MB/s
+  password: qwerREWQ@@
+  port: 60125
+  server: p225.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇰🇷3 |  1.6MB/s
+  password: qwerREWQ@@
+  port: 3886
+  server: p241.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇰🇷4 |  3.0MB/s
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 1,11,12|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: cg1c16.waimaoglobaldirect.cc
@@ -112,6 +62,15 @@ proxies:
     path: /api/v1/graphql
 - cipher: aes-256-cfb
   client-fingerprint: chrome
+  name: 1|🇰🇷6 |  5.4MB/s
+  password: qwerREWQ@@
+  port: 30454
+  server: p229.panda004.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 11|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 4857
@@ -120,14 +79,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

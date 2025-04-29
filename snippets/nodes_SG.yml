@@ -1,14 +1,28 @@
 proxies:
-- name: 0|🇸🇬1 |  2.8MB/s
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21170
-  server: 125.94.40.162
-  skip-cert-verify: true
-  sni: k39.tudou211.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇸🇬3 |  4.6MB/s
+  name: 1|🇸🇬4 |  4.9MB/s
   network: tcp
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
@@ -19,27 +33,42 @@ proxies:
   ws-headers:
     Host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 254bae84-775e-4971-b40b-1301fef0227f
-  port: 36171
-  server: free.2weradf.xyz
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬5 |  5.6MB/s
+  network: ws
+  port: 443
+  server: 172.67.213.110
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 1|🇸🇬7 |  2.1MB/s
+  password: xj3xTQaW
+  port: 13058
+  server: 103.3.62.110
+  tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 254bae84-775e-4971-b40b-1301fef0227f
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 254bae84-775e-4971-b40b-1301fef0227f
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- name: 1|🇸🇬8 |  4.8MB/s
+  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
+  port: 21170
+  server: 125.94.40.162
+  skip-cert-verify: true
+  sni: k39.tudou211.com
+  type: trojan
+- name: 1|🇸🇬9 |  2.7MB/s
+  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
+  port: 32702
+  server: xd-sh.timiwc.com
+  sni: k36.tudou211.com
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -84,21 +113,21 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31175
   server: free.2apzhfa.xyz
   type: ss

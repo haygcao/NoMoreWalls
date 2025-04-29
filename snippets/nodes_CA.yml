@@ -1,37 +1,36 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0|🇨🇦1 |  1.4MB/s
+  name: 1|🇨🇦1 |  1.7MB/s
   password: pHvYevSM
   port: 24119
   server: 15.156.196.38
   tfo: true
   type: ss
   udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 0|🇨🇦2 |  5.5MB/s
+  name: 1|🇨🇦2 |  3.0MB/s
   network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: false
+  port: 16641
+  server: t.cnmjcn.cyou
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 46dce50f-cb9a-45d0-99f8-0107ea567bf2
   ws-opts:
     headers:
-      Host: v25.heduian.link
-    path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 254bae84-775e-4971-b40b-1301fef0227f
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+      Host: bba63bf2557b0311d6adf64bf4d56c8b.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 254bae84-775e-4971-b40b-1301fef0227f
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇩🇪德国 01 | 1x DE
-  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  password: 896e3623-abce-4e3a-ac8e-918a6a103420
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
