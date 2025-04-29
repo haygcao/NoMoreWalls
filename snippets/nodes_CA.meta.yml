@@ -1,46 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 7367e483-ca8f-4dc4-93a6-ebce9dcfdd79
+  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 1|🇨🇦1 |  1.7MB/s
-  password: pHvYevSM
-  port: 24119
-  server: 15.156.196.38
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇨🇦2 |  3.0MB/s
-  network: ws
-  port: 16641
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 46dce50f-cb9a-45d0-99f8-0107ea567bf2
-  ws-opts:
-    headers:
-      Host: bba63bf2557b0311d6adf64bf4d56c8b.mobgslb.tbcache.com
-    path: /
-- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  delay: 1674
-  name: 1|🇨🇦3 |  1.1MB/s
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 155.248.219.28
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 896e3623-abce-4e3a-ac8e-918a6a103420
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
