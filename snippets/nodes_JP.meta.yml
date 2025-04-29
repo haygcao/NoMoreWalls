@@ -1,61 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: 1f158741-7dcf-452f-b870-db1d4faf357e
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: 1f158741-7dcf-452f-b870-db1d4faf357e
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: 1f158741-7dcf-452f-b870-db1d4faf357e
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 2110780f-3917-4185-9c0a-1ff997a20502
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 2110780f-3917-4185-9c0a-1ff997a20502
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 2110780f-3917-4185-9c0a-1ff997a20502
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵1 |  6.1MB/s
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  name: 0|🇯🇵1 |  5.4MB/s
+  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
+  port: 28507
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: 0|🇯🇵2 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.151.136
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵2 |  2.5MB/s
+  name: 0|🇯🇵3 |  1.7MB/s
   network: tcp
   port: 17233
   server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
@@ -66,25 +26,9 @@ proxies:
   ws-headers:
     Host: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
-- name: 2|🇯🇵3 |  6.1MB/s
-  password: 51607a4f-74cc-3b37-a54f-5d4a61a40bb3
-  port: 20141
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z141.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 2|🇯🇵4 |  6.0MB/s
-  password: 51607a4f-74cc-3b37-a54f-5d4a61a40bb3
-  port: 20140
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z140.hongkongnode.top
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 2|🇯🇵5 |  5.8MB/s
+  name: 0|🇯🇵4 |  4.5MB/s
   password: nHUXPsJ6
   port: 30323
   server: 13.113.80.125
@@ -93,68 +37,71 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵6 |  3.7MB/s
+  name: 0,13|CN_speednode_0032
   network: tcp
-  port: 48121
+  port: 31735
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: shenyang001.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵7 |  4.0MB/s
-  network: ws
-  port: 35243
-  server: jp3.vip2.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      host: web.xcjs.info
-    path: /home
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵8 |  5.5MB/s
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵9 |  6.0MB/s
+  name: 0|🇯🇵6 |  1.6MB/s
   network: tcp
-  port: 35659
+  port: 13989
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
+  server: cos90-new2.dynu.net
   servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵10 |  6.0MB/s
+  name: 0,11,12|日本4|@ripaojiedian
   network: tcp
-  port: 31735
+  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
+  port: 21125
+  server: 125.94.40.162
+  skip-cert-verify: false
+  sni: k12.tudou211.com
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵8 |  6.3MB/s
+  network: tcp
+  port: 35659
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
+  server: shenzhou05.mysynology.net
+  servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- delay: 2053
+  name: 0,13|JP_speednode_0043
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- allowInsecure: '1'
+  name: 0|🇯🇵10 |  2.5MB/s
+  network: original
+  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
+  port: 28507
+  server: 220.130.58.136
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵11 |  1.3MB/s
+  name: 0|🇯🇵11 |  6.0MB/s
   network: tcp
   port: 13989
   reality-opts:
@@ -165,38 +112,33 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  name: 2,12,13|日本4|@ripaojiedian
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵12 |  5.9MB/s
   network: tcp
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21125
-  server: 125.94.40.162
-  skip-cert-verify: false
-  sni: k12.tudou211.com
-  type: trojan
+  port: 16497
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵13 |  2.2MB/s
+  name: 0|🇯🇵13 |  4.2MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   ws-headers:
-    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
 - client-fingerprint: chrome
-  name: 2|🇯🇵14 |  5.8MB/s
-  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
-  port: 28507
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵15 |  2.6MB/s
+  name: 0|🇯🇵14 |  3.2MB/s
   network: tcp
   port: 11839
   reality-opts:
@@ -206,21 +148,9 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵16 |  1.7MB/s
-  network: tcp
-  port: 17278
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵17 |  2.0MB/s
+  name: 0|🇯🇵15 |  5.8MB/s
   network: tcp
   port: 17233
   server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
@@ -233,49 +163,66 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵18 |  2.0MB/s
+  name: 0|🇯🇵16 |  5.9MB/s
   network: tcp
   port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
   ws-headers:
-    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+    Host: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
   ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵17 |  2.3MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 254bae84-775e-4971-b40b-1301fef0227f
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 254bae84-775e-4971-b40b-1301fef0227f
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 254bae84-775e-4971-b40b-1301fef0227f
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504271541968-w4fkyyqQBp.download.microsoft.com
+    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: f6e49310f2ad
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ydyhcmiv1.kvote.cn
-    mode: websocket
-    mux: true
-    path: /ypazzviwr
-    skip-cert-verify: false
-    tls: true
-  port: 33747
-  server: 103.103.245.90
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 11,12|日本3|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
@@ -289,34 +236,33 @@ proxies:
     headers:
       Host: www.bing.com
     path: /nmkj
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12,13|日本5|@ripaojiedian
-  network: ws
-  port: '1053'
-  server: 198.13.44.24
-  servername: vu-tokyo-01.vnode.info
-  skip-cert-verify: false
+  name: 11|🇯🇵 日本2|@ripaojiedian
+  password: 59224ed0f0e4
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp06v1.3ci.xyz
+    mode: websocket
+    mux: true
+    path: /zwqdkxwkk
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.140.136.242
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
-  ws-opts:
-    headers:
-      Host: vu-tokyo-01.vnode.info
-    path: /
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.247.149
+  server: 54.95.213.25
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本6|@ripaojiedian
+  name: 12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -324,11 +270,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 14|JP_speednode_0043
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 37c35968-47e2-4963-90fc-7b261c1e780a
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
