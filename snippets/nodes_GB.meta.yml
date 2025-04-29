@@ -1,92 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36141
-  server: free.2weradf.xyz
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧1 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 45.142.120.97
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
-- flow: ''
-  mode: ''
-  name: 1|🇬🇧2 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 45.131.6.160
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧3 |  4.3MB/s
+  name: 1|🇬🇧1 |  1.8MB/s
   network: tcp
-  port: 32055
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: beiyong.dynuddns.net
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧4 |  5.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MU_w-1GJgJnJOTH6V8RTct92ar9doPeHcJm58FGAqhM
-    short-id: ea
-  server: v2raymizban.iranigamepars.ir
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 71075f29-256c-430e-93c7-42f432bc8abe
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧5 |  2.3MB/s
-  network: ws
-  port: 443
-  server: 47.79.92.16
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,14|CN_speednode_0026
@@ -101,18 +32,132 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇬🇧3 |  4.9MB/s
+  network: tcp
+  port: 49699
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧4 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 45.142.120.97
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- flow: ''
+  mode: ''
+  name: 1|🇬🇧5 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 45.8.211.230
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇬🇧6 |  5.2MB/s
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- flow: ''
+  mode: ''
+  name: 1|🇬🇧7 |  5.0MB/s
+  network: ws
+  port: 443
+  server: 45.131.6.160
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- auth: a41ae488-aaeb-4738-8ffb-66589ae4b492
+  name: 1|🇬🇧8 |  2.0MB/s
+  password: a41ae488-aaeb-4738-8ffb-66589ae4b492
+  port: 20352
+  server: gb.1e6af9be69cbae59cba.tech
+  skip-cert-verify: false
+  sni: gb.1e6af9be69cbae59cba.tech
+  type: hysteria2
+- client-fingerprint: chrome
+  mode: ''
+  name: 1|🇬🇧9 |  2.1MB/s
+  network: ws
+  port: 443
+  server: 188.42.88.45
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- cipher: aes-256-gcm
+  name: 1|🇬🇧10 |  1.1MB/s
+  password: Y09Etfs6
+  port: 6110
+  server: 51.24.5.76
+  type: ss
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧11 |  4.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MU_w-1GJgJnJOTH6V8RTct92ar9doPeHcJm58FGAqhM
+    short-id: ea
+  server: V2RayMizban.iranigamepars.ir
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 71075f29-256c-430e-93c7-42f432bc8abe
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
-  port: 31271
-  server: free.2apzhfa.xyz
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36271
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 11|Hysteria 🇬🇧 @v2meowcf

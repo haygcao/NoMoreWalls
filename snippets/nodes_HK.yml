@@ -1,30 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 | 1x HK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31145
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 1|🇭🇰2 |  1.1MB/s
+  password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
+  port: 30018
+  server: 114.132.40.118
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  name: 1,12,13|香港4|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 02 | 1x HK
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港住宅IP 03 | 1x HK
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36145
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -64,15 +83,6 @@ proxies:
   server: 175.178.13.108
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

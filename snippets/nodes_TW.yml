@@ -1,44 +1,70 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 01 | 1x TW
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 02 | 1x TW
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 03 | 1x TW
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31245
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇹🇼1 |  5.4MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 213.241.198.56
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 1|🇹🇼3 |  2.8MB/s
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 161.145.150.26
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 01 | 1x TW
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 02 | 1x TW
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼 台湾 03 | 1x TW
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36245
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome

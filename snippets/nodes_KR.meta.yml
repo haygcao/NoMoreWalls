@@ -1,75 +1,71 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇰🇷1 |  3.9MB/s
-  password: qwerREWQ@@
-  port: 63648
-  server: p228.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  2.1MB/s
-  password: qwerREWQ@@
-  port: 63648
-  server: 125.141.26.15
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇰🇷3 |  3.4MB/s
-  password: qwerREWQ@@
-  port: 3886
-  server: p241.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇰🇷4 |  2.4MB/s
-  password: qwerREWQ@@
-  port: 30454
-  server: p229.panda004.net
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|🇰🇷5 |  5.1MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|🇰🇷6 |  3.0MB/s
-  password: qwerREWQ@@
-  port: 60125
-  server: p225.panda004.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: bf0a50e0-5889-4262-b5a9-6b91071148e3
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 61a8018d-afbb-4569-8561-75b0d558c29d
   port: 31313
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|🇰🇷1 |  5.7MB/s
+  password: qwerREWQ@@
+  port: 60125
+  server: p225.panda004.net
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇰🇷2 |  1.8MB/s
+  network: tcp
+  port: 13483
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 1|🇰🇷3 |  5.6MB/s
+  password: qwerREWQ@@
+  port: 30454
+  server: 125.141.26.14
+  type: ss
+- auth: 4f9d453e-28ae-4877-ad0b-f25e929fa44f
+  name: 1|🇰🇷4 |  4.3MB/s
+  password: 4f9d453e-28ae-4877-ad0b-f25e929fa44f
+  port: 50000
+  server: 144.24.75.201
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 1|🇰🇷5 |  6.0MB/s
+  password: qwerREWQ@@
+  port: 34669
+  server: p221.panda001.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: f031384e-bd7f-4dc5-9fe3-aa1380dec75d
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
