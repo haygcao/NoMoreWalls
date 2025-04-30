@@ -1,23 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 2|🇨🇦1 |  1.2MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
+- name: 2|🇨🇦1 |  5.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.141
+  servername: hj.ylka.dpdns.org
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇨🇦2 |  1.3MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45

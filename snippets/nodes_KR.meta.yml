@@ -1,56 +1,89 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36311
-  server: free.2weradf.xyz
+- name: 2|🇰🇷1 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.60
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 160.79.104.55
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷3 |  5.8MB/s
+  network: ws
+  port: 5006
+  server: 45.154.98.99
+  servername: hj.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: hj.ylka.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  delay: 772
+  name: 2|🇰🇷4 |  5.7MB/s
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇰🇷5 |  1.7MB/s
+  network: tcp
+  port: 21082
+  reality-opts:
+    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
+    short-id: 758719a6080f2767
+  server: tw-ty-line1-2-2.sudatech.store
+  servername: learn.microsoft.com
+  tls: true
+  type: vless
+  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇰🇷6 |  5.8MB/s
+  password: qwerREWQ@@
+  port: 63648
+  server: p228.panda004.net
+  tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  1.6MB/s
-  password: qwerREWQ@@
-  port: 34669
-  server: p221.panda001.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  5.6MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  5.8MB/s
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
-- name: 2|🇰🇷4 |  1.1MB/s
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 21017
-  server: 125.94.40.162
-  sni: k16.tudou211.com
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian

@@ -1,89 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: ea06ad94-daa9-4d15-81c9-9b9581e64b12
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 4fab7ba2-ea09-4e2d-b9ca-921519e3f5a1
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 4a1df482-334f-425f-8b73-0914c690798a
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬1 |  2.3MB/s
+  name: 2|🇸🇬1 |  5.0MB/s
   network: tcp
-  port: 56127
+  port: 10778
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇸🇬2 |  1.5MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 38340
-  server: gysz0000.dynu.net
-  skip-cert-verify: true
-  sni: gysz0000.dynu.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬3 |  1.1MB/s
-  port: 43121
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬4 |  6.4MB/s
-  network: tcp
-  port: 17231
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-  ws-headers:
-    Host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2,14|CN_speednode_0011
@@ -100,12 +48,12 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇸🇬6 |  1.7MB/s
+  name: 2|🇸🇬3 |  4.2MB/s
   network: tcp
-  port: 10778
+  port: 44003
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
+  server: shenyang001.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
