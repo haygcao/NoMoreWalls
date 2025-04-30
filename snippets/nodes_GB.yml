@@ -1,23 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 29ef4555-f4df-491e-b770-735514f8aa4c
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 29ef4555-f4df-491e-b770-735514f8aa4c
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
   port: 31271
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1247
-  name: 2|🇬🇧3 |  5.3MB/s
-  password: ee72abce-19c9-49c8-aa55-76ae40d71e71
-  port: 41667
-  server: xm.miloli.cc
   type: ss
   udp: true
