@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 72ea8a50-2f65-4fa4-af73-ed43c1035e76
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: bf1eea92-ff34-498c-b8e4-34512b2e6d1e
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: e4d94632-7d2e-43b5-92eb-b47b276bb7e3
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇩🇪12 |  1.2MB/s
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21185
-  server: 125.94.40.162
-  sni: k27.tudou211.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 749527c0-2332-4095-9ea2-fcbe41bfe1b2
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 2|🇩🇪10 |  2.3MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss

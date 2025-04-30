@@ -1,38 +1,167 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 72ea8a50-2f65-4fa4-af73-ed43c1035e76
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: bf1eea92-ff34-498c-b8e4-34512b2e6d1e
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: e4d94632-7d2e-43b5-92eb-b47b276bb7e3
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ''
-  flow: ''
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 749527c0-2332-4095-9ea2-fcbe41bfe1b2
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇩🇪1 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 116.202.177.63
-  servername: gift-4101664.FaraSorat.Net
+  name: 2|🇩🇪1 |  1.4MB/s
+  network: tcp
+  port: 1300
+  reality-opts:
+    public-key: FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA
+    short-id: ''
+  server: 49.12.243.80
+  servername: refersion.com
   tls: true
   type: vless
   udp: false
-  uuid: 8e944e35-e17b-4ecb-8879-f62a2c4cf546
+  uuid: b8243b8a-dece-432f-8b4d-88696594cbf8
+- flow: ''
+  mode: ''
+  name: 2|🇩🇪2 |  1.9MB/s
+  network: ws
+  port: 2096
+  server: cpuhot.boshrachoice.ir
+  servername: cpuhot.boshrachoice.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 83701157-c5e7-4204-9beb-4f240b295ebc
   ws-opts:
-    headers:
-      Host: Nuremberg1.FaraSorat.net
-    path: /pV67LRFs428xHke56mDQ
+    path: /JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___?ed=2048
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.8MB/s
+  name: 2|🇩🇪3 |  5.8MB/s
+  network: ws
+  port: 2096
+  server: www.speedtest.net
+  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+    path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪4 |  5.9MB/s
+  network: ws
+  port: 2082
+  server: 104.17.147.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: ed756916-3161-47af-997b-324f0f47b607
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪5 |  5.4MB/s
+  network: ws
+  port: 8880
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 9279a169-0e59-44ad-8575-b869dc9cb14d
+  ws-opts:
+    headers:
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+    path: /Channel----V2ray_Gl----V2ray_Gl----V2ray_Gl---V2ray_Gl---V2ray_Gl---V2ray_Gl?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪6 |  5.2MB/s
+  network: ws
+  port: 8443
+  server: 104.17.147.22
+  servername: CiR346yL3b.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: CiR346yL3b.DeRaKhT.iNfO
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 2|🇩🇪7 |  4.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 83kO-C72OoPSqNzGDHRwRwl2bAHlI6DCzDs2KR0spnI
+    short-id: 10de3e76c515259b
+  server: germany-15.ptu.ink
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 27c11f2c-85f4-44ef-ac28-670e987f5788
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪8 |  3.0MB/s
+  network: ws
+  port: 8880
+  server: 104.21.23.63
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: e4d0c041-facf-42e8-bd0b-5260161e07f0
+  ws-opts:
+    headers:
+      Host: vIhYpErClOuD.aCaDeMiGrOuP.iR.
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪9 |  2.1MB/s
+  network: ws
+  port: 443
+  server: 104.25.140.153
+  servername: BPB-pANEL-En-1O0.pAges.DEV
+  tls: true
+  type: vless
+  udp: false
+  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+  ws-opts:
+    headers:
+      Host: BPB-pANEL-En-1O0.pAges.DEV
+    path: /
+- cipher: rc4-md5
+  name: 2|🇩🇪10 |  2.3MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪11 |  2.9MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -48,186 +177,23 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  1.8MB/s
-  network: ws
-  port: 2082
-  server: 104.17.148.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 035ce39d-dbf6-4053-abb3-d64c890371bb
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪4 |  5.6MB/s
-  network: ws
-  port: 8080
-  server: 104.19.54.50
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: d60a88a3-9bda-4a8f-9a93-f184e36c1705
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
-    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪5 |  2.1MB/s
+  name: 2|🇩🇪12 |  5.7MB/s
   network: ws
   port: 2096
-  server: 199.34.228.65
-  servername: D6rVkPfEgS.aAaZzZaAa-8129.CoM
+  server: 199.34.228.191
+  servername: DrOt0Ai1Oq.DeRaKhT.iNfO
   tls: true
   type: vless
   udp: false
-  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
   ws-opts:
     headers:
-      Host: D6rVkPfEgS.aAaZzZaAa-8129.CoM
-    path: ''
+      Host: DrOt0Ai1Oq.DeRaKhT.iNfO
+    path: /
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪6 |  2.7MB/s
-  network: ws
-  port: 80
-  server: tabrizm137.owner.pages.dev
-  servername: masaleini.mahsaamini.dpdns.org
-  tls: false
-  type: vless
-  udp: false
-  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-  ws-opts:
-    headers:
-      Host: masaleini.mahsaamini.dpdns.org
-    path: /TM@AZAFBAYJAB1
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪7 |  5.0MB/s
-  network: ws
-  port: 2096
-  server: cpuhot.boshrachoice.ir
-  servername: cpuhot.boshrachoice.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 83701157-c5e7-4204-9beb-4f240b295ebc
-  ws-opts:
-    path: /JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___JOIN___TEL___@One_Shop_Official___?ed=2048
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪8 |  4.3MB/s
-  network: ws
-  port: 8443
-  server: zula.ir
-  servername: vip.donghi.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 3de5ae0c-451c-4c75-8ec8-84dd4beb8fd7
-  ws-opts:
-    headers:
-      Host: vip.donghi.ir
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪9 |  1.2MB/s
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 9279a169-0e59-44ad-8575-b869dc9cb14d
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-    path: /Channel----V2ray_Gl----V2ray_Gl----V2ray_Gl---V2ray_Gl---V2ray_Gl---V2ray_Gl?ed=2048
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪10 |  2.5MB/s
-  network: ws
-  port: 443
-  server: 116.203.77.123
-  servername: gift-4101664.FaraSorat.Net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 8e944e35-e17b-4ecb-8879-f62a2c4cf546
-  ws-opts:
-    headers:
-      Host: Nuremberg1.FaraSorat.net
-    path: /pV67LRFs428xHke56mDQ
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪11 |  3.6MB/s
-  network: ws
-  port: 443
-  server: 195.201.251.196
-  servername: gift-4101664.FaraSorat.Net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 8e944e35-e17b-4ecb-8879-f62a2c4cf546
-  ws-opts:
-    headers:
-      Host: Nuremberg1.FaraSorat.net
-    path: /pV67LRFs428xHke56mDQ
-- name: 2|🇩🇪12 |  1.2MB/s
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
-  port: 21185
-  server: 125.94.40.162
-  sni: k27.tudou211.com
-  type: trojan
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪13 |  1.7MB/s
-  network: ws
-  port: 443
-  server: Nuremberg1-h.FaraSorat.net
-  servername: gift-4101664.FaraSorat.Net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 8e944e35-e17b-4ecb-8879-f62a2c4cf546
-  ws-opts:
-    headers:
-      Host: Nuremberg1.FaraSorat.net
-    path: /pV67LRFs428xHke56mDQ
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪14 |  5.5MB/s
-  network: tcp
-  port: 1300
-  reality-opts:
-    public-key: FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA
-    short-id: ''
-  server: vip.panelmarzban.com
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b8243b8a-dece-432f-8b4d-88696594cbf8
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪15 |  4.3MB/s
+  name: 2|🇩🇪13 |  3.6MB/s
   network: ws
   port: 2096
   server: 104.17.148.22
@@ -240,3 +206,18 @@ proxies:
     headers:
       Host: Y2aZ6f5747.HoMeEaSeStOrEs.CoM
     path: /
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 2|🇩🇪14 |  5.3MB/s
+  network: tcp
+  port: 15110
+  reality-opts:
+    public-key: y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk
+    short-id: defb484210e5
+  server: vip1.proxystore11.news
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: cf3ec89e-f531-4122-a2f2-7d0fd4ba980c
