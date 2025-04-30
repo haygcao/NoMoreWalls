@@ -1,47 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 | 1x TW
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 | 1x TW
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 | 1x TW
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇹🇼1 |  4.3MB/s
+- name: 2|🇹🇼1 |  1.7MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -50,15 +29,20 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 2|🇹🇼2 |  5.9MB/s
-  network: tcp
-  port: 41572
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  password: 29d10bfd-fce9-47f8-9d14-71e0de63ffbb
+  port: 16944
+  server: hm.huamao888.top
+  type: ss
+  udp: true
+- delay: 1207
+  name: 2|🇹🇼3 |  5.8MB/s
+  password: de86132b-111e-4f48-acfc-08365b03b442
+  port: 48004
+  server: 4e9cd08262afaeb4b08b20b4840de5cf.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: tw1.bilibili.com
+  type: trojan
+  udp: true

@@ -1,70 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: 05f00d6f-acdc-4d8b-8416-9125feb55dd3
-  name: 2|🇸🇬1 |  2.3MB/s
-  password: 05f00d6f-acdc-4d8b-8416-9125feb55dd3
-  port: 32000
-  server: sg1.interld123456789.com
-  skip-cert-verify: true
-  sni: 234224.1234567890spcloud.com
-  type: hysteria2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 2|🇸🇬2 |  2.5MB/s
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  servername: ''
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇸🇬1 |  1.9MB/s
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenyang001.dynu.net
+  servername: www.nvidia.com
+  tls: true
   type: vless
-  udp: false
-  uuid: b5540249-9ac4-4037-aacd-79c71052864f
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.cfd
-    path: /
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

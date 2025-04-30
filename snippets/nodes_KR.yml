@@ -1,45 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: ad3a8883-be07-4681-8cd9-f567c66c5bf6
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 21c85832-5930-4d9d-8eec-4d880bb50c45
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 29ef4555-f4df-491e-b770-735514f8aa4c
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  5.4MB/s
+  name: 2|🇰🇷1 |  4.6MB/s
   password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
+  port: 63648
+  server: p228.panda004.net
   type: ss
-- name: 2|🇰🇷2 |  5.0MB/s
-  password: 6f1d5be0-4ed9-4706-99e2-36a2b658ae1b
-  port: 21017
-  server: 125.94.40.162
+- delay: 921
+  name: 2|🇰🇷3 |  6.4MB/s
+  password: c94c5bad-2456-479b-9b58-c332f150319f
+  port: 36049
+  server: zz1.jckumao.cc
   skip-cert-verify: true
-  sni: k16.tudou211.com
+  sni: zz1.jckumao.cc
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 881
+  name: 2|🇰🇷9 |  5.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.124.130.158
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian
