@@ -1,39 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: f4547361-9092-4fa6-b431-aee85ba7c413
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  delay: 1679
-  name: 2|🇨🇦1 |  1.1MB/s
-  password: 9FP85F7Q33RRWZ0J
-  port: 20011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  type: ss
-  udp: true
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 2|🇨🇦2 |  1.1MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇨🇦3 |  2.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
-    short-id: 7a2b
-  server: 3.99.33.27
-  servername: zula.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db

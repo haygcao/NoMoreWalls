@@ -1,14 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- allowInsecure: ''
+  name: 1|🇩🇪2 |  4.7MB/s
+  network: ws
+  password: tXsBdKfoe9
+  port: 2083
+  server: 104.25.145.188
+  skip-cert-verify: false
+  sni: cpuhot.boshrachoice.ir.
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cpuhot.boshrachoice.ir.
+    path: /VPNTV20@_TOP.COM.VPNTV20@_TOP.COM.VPNTV20@_TOP.COM?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: f4547361-9092-4fa6-b431-aee85ba7c413
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 2|🇩🇪5 |  1.4MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss

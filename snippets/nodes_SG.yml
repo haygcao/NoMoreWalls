@@ -1,50 +1,161 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: ee29682a-254e-4ae0-90ab-4e7559567dd1
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: b9a7b7af-2588-432a-b89e-4d3aeab6928b
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇸🇬1 |  4.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.213.110
-  servername: sgfqkqmltcy.site
-  skip-cert-verify: true
-  tls: true
+  name: 1|🇸🇬1 |  1.4MB/s
+  port: 17231
+  server: b6b6a529-suk9s0-sxv16d-1k09w.cm5.p5pv.com
+  tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      HOST: sgfqkqmltcy.site
-    path: /rbqqvws
-- name: 2|🇸🇬3 |  2.9MB/s
+  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1|🇸🇬2 |  1.6MB/s
+  port: 17231
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- cipher: aes-128-gcm
+  name: 1|🇸🇬4 |  4.6MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 25006
+  server: singapore.cnix.asia
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|🇸🇬6 |  5.7MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 25011
+  server: singapore.cnix.asia
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬7 |  1.4MB/s
+  port: 17231
+  server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
+- name: 1|🇸🇬8 |  3.2MB/s
   password: VMhGp5wEIyCDf90T
   port: 38340
   server: gysz0000.dynu.net
   skip-cert-verify: true
   sni: gysz0000.dynu.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬10 |  1.1MB/s
+  port: 17231
+  server: 9e083647-sv2sg0-t35mzx-1pp0x.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬12 |  1.3MB/s
+  port: 17231
+  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 1|🇸🇬13 |  2.4MB/s
+  network: tcp
+  port: 17231
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬14 |  2.1MB/s
+  network: tcp
+  port: 17231
+  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬15 |  1.8MB/s
+  port: 17231
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- cipher: aes-128-gcm
+  name: 1|🇸🇬16 |  1.3MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 25013
+  server: singapore.cnix.asia
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|🇸🇬17 |  6.1MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 25004
+  server: gdcm-sg.cnix.asia
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬18 |  1.1MB/s
+  port: 17231
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+- cipher: aes-128-gcm
+  name: 1|🇸🇬19 |  4.2MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 25012
+  server: singapore.cnix.asia
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: f4547361-9092-4fa6-b431-aee85ba7c413
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: f4547361-9092-4fa6-b431-aee85ba7c413
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: f4547361-9092-4fa6-b431-aee85ba7c413
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -62,20 +173,27 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
-  password: a74ec813-6683-47ea-996e-d81447db44df
-  port: 27401
-  server: 183.240.116.224
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡|@ripaojiedian 2
+  password: 21e251c3-139c-4b81-b352-3b60734029e9
+  port: 35501
+  server: gw.liangyuandianwan.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: 04a3ce12-5889-477f-a0b6-dbdee2ae198b
+  port: 5021
+  server: blog.andnsqd.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.212.82.255
+  server: 18.141.239.83
   tfo: false
   type: ss

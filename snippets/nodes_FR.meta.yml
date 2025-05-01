@@ -1,37 +1,8 @@
 proxies:
-- name: 2,10|Mtn-@V2ray_Raha-2
-  obfs: salamander
-  obfs-password: Parsaparsa
-  password: tE3xb4S6LJ
-  port: 443
-  server: p6.punchline.ir
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇫🇷2 |  5.2MB/s
-  network: tcp
-  port: 40072
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2,10|کانفیگ پرسرعت رایگان🌋@vmesc
-  password: dongtaiwang.com
-  port: 4489
-  server: hy2-1.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇫🇷4 |  4.0MB/s
+  name: 1|🇫🇷1 |  3.3MB/s
   network: ws
   port: 8880
   server: zula.ir
@@ -44,3 +15,34 @@ proxies:
     headers:
       Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|🇫🇷2 |  5.3MB/s
+  network: ws
+  port: 2095
+  server: 185.174.138.209
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
+- name: 1,10|کانفیگ پرسرعت رایگان🌋@vmesc
+  password: dongtaiwang.com
+  port: 4489
+  server: hy2-1.694463.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- auth: dongtaiwang.com
+  delay: 1178
+  name: 1|🇫🇷4 |  5.4MB/s
+  password: dongtaiwang.com
+  port: 43496
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

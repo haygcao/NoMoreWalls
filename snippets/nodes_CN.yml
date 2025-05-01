@@ -39,6 +39,14 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+- name: 14|CN_speednode_0013
+  password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
+  port: 19574
+  server: nc.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  sni: nc.cm.xiaomi-api.xyz
+  type: trojan
+  udp: true
 - name: 14|CN_speednode_0018
   password: 3f0d1127-28d5-42b3-bcb7-e8767f033a2b
   port: 27002
