@@ -1,59 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 7d0b1f82-919f-454b-8633-f20b24866c75
+  password: 98694540-482a-47f0-802f-661157f549fa
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 7d0b1f82-919f-454b-8633-f20b24866c75
+  password: 98694540-482a-47f0-802f-661157f549fa
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 7d0b1f82-919f-454b-8633-f20b24866c75
+  password: 98694540-482a-47f0-802f-661157f549fa
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: cb22308a-693f-4c79-a5ad-87abd7bc4d02
+  password: 79ac225a-d935-4c60-af82-fe50533d1480
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: cb22308a-693f-4c79-a5ad-87abd7bc4d02
+  password: 79ac225a-d935-4c60-af82-fe50533d1480
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: cb22308a-693f-4c79-a5ad-87abd7bc4d02
+  password: 79ac225a-d935-4c60-af82-fe50533d1480
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬2 |  1.3MB/s
-  network: tcp
-  port: 17231
-  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
-  ws-headers:
-    Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
