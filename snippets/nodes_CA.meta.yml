@@ -1,37 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 98694540-482a-47f0-802f-661157f549fa
+  password: b43dcb63-4d2f-46e7-a1e4-ab35d0231fbe
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: 1|🇨🇦1 |  1.5MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.46
+  servername: cz.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: cz.ylks0033.dpdns.org
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 79ac225a-d935-4c60-af82-fe50533d1480
+  name: 14|🇨🇦 加拿大 01 | 1x CA
+  password: 070b18c0-6f76-43bb-ad42-81573612a85e
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇨🇦1 |  4.2MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 2|🇨🇦2 |  1.5MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
