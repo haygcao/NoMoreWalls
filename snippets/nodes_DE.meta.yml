@@ -1,135 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 610ee75c-76bc-41a3-bedf-42ffd52e8eb5
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 6fca8e42-3d63-4086-bc66-f2c4d554c9f3
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 38335947-2f1e-466a-8ab1-93fbc9fb63ed
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇩🇪1 |  5.2MB/s
+  network: tcp
+  port: 58031
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  3.2MB/s
+  name: 2|🇩🇪2 |  5.1MB/s
   network: ws
   port: 443
-  server: 172.66.44.68
-  servername: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
-  tls: true
-  type: vless
-  udp: false
-  uuid: 87ced8c4-b4d4-4c7b-ba67-11b78833a1b6
-  ws-opts:
-    headers:
-      Host: 37c60f8d.ALBAnGURaKUqi.paGEs.dEv
-    path: /telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420?ed=2560security=tls
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪2 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: zula.ir
-  servername: vip.donghi.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 91f2a6e0-87df-44e6-8e3a-eeb3955c95d2
-  ws-opts:
-    headers:
-      Host: vip.donghi.ir
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪3 |  5.5MB/s
-  network: ws
-  port: 8443
-  server: 205.233.181.186
-  servername: CiR346yL3b.DeRaKhT.iNfO
+  server: www.speedtest.net
+  servername: 5G9043aJwE.sAkHrE.iNfO
   tls: true
   type: vless
   udp: false
   uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
   ws-opts:
     headers:
-      Host: CiR346yL3b.DeRaKhT.iNfO
+      Host: 5G9043aJwE.sAkHrE.iNfO
     path: /
-- client-fingerprint: ''
-  flow: xtls-rprx-vision-udp443
-  mode: ''
-  name: 1|🇩🇪4 |  5.4MB/s
-  network: ''
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 1|🇩🇪5 |  4.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 15VSj5bGCGemmifDA6IfLCz8deqBcvaI7SRZFd2bUBQ
-    short-id: ec7d25
-  server: 138.199.232.232
-  servername: direct.psnapptapsi.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: ac5ef6ff-4df5-4615-8e8b-3819497f5776
-  ws-opts:
-    headers:
-      Host: '---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net'
-    path: ''
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  4.4MB/s
-  network: ws
-  port: 8880
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 3a9b0631-07be-4d49-8acc-f1ff84a70c05
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-    path: /Channel----V2ray_Gl----V2ray_Gl----V2ray_Gl---V2ray_Gl---V2ray_Gl---V2ray_Gl?ed=2048
-- cipher: rc4-md5
-  name: 1|🇩🇪7 |  5.3MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪8 |  1.2MB/s
-  network: ws
-  port: 8443
-  server: www.speedtest.net
-  servername: mahdi.musics-fa.ru
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2d82d08d-9075-4c45-a91f-8a1a2039373e
-  ws-opts:
-    headers:
-      Host: mahdi.musics-fa.ru
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 212b3dff-280a-42d9-8c0d-42e6bdedc57b
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

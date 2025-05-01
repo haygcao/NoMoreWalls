@@ -1,29 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 610ee75c-76bc-41a3-bedf-42ffd52e8eb5
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 610ee75c-76bc-41a3-bedf-42ffd52e8eb5
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 212b3dff-280a-42d9-8c0d-42e6bdedc57b
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 6fca8e42-3d63-4086-bc66-f2c4d554c9f3
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 212b3dff-280a-42d9-8c0d-42e6bdedc57b
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 6fca8e42-3d63-4086-bc66-f2c4d554c9f3
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 38335947-2f1e-466a-8ab1-93fbc9fb63ed
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 38335947-2f1e-466a-8ab1-93fbc9fb63ed
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- country: 🇬🇧GB
+  delay: 756
+  name: 2|🇬🇧3 |  2.9MB/s
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.179.189.29
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
