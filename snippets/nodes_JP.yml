@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: 88fe6c63-d5f4-488b-bf50-aad12abf8811
+  password: 19b49c2a-a93f-47ab-8873-13222798566b
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: 88fe6c63-d5f4-488b-bf50-aad12abf8811
+  password: 19b49c2a-a93f-47ab-8873-13222798566b
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: 88fe6c63-d5f4-488b-bf50-aad12abf8811
+  password: 19b49c2a-a93f-47ab-8873-13222798566b
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
@@ -197,21 +197,21 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本 01 | 1x JP
-  password: 10101810-89a2-44e9-b480-3351cc42e358
+  password: 244612b0-049d-498d-a3fd-6290fbcb122e
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本 02 | 1x JP
-  password: 10101810-89a2-44e9-b480-3351cc42e358
+  password: 244612b0-049d-498d-a3fd-6290fbcb122e
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本 03 | 1x JP
-  password: 10101810-89a2-44e9-b480-3351cc42e358
+  password: 244612b0-049d-498d-a3fd-6290fbcb122e
   port: 36115
   server: free.2weradf.xyz
   type: ss
