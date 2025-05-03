@@ -1,49 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5b380a9f-401a-4847-a7b2-588b372451a5
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5b380a9f-401a-4847-a7b2-588b372451a5
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5b380a9f-401a-4847-a7b2-588b372451a5
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 79b96b4f-316f-4b61-abfd-6f4ed57327c7
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 79b96b4f-316f-4b61-abfd-6f4ed57327c7
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 79b96b4f-316f-4b61-abfd-6f4ed57327c7
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇸🇬2 |  2.7MB/s
+  name: 1|🇸🇬2 |  2.7MB/s
   network: tcp
   port: 17231
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
@@ -53,7 +11,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -70,7 +28,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   port: 11060
   server: 43.156.102.65
   skip-cert-verify: false
@@ -80,7 +38,7 @@ proxies:
   uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 52.195.211.35
@@ -88,7 +46,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 12|新加坡2|@ripaojiedian
   network: tcp
   port: '11060'
   server: 43.156.102.65
@@ -96,3 +54,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 710c043c-84f0-4f87-9891-d18d5c4b82dd
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 710c043c-84f0-4f87-9891-d18d5c4b82dd
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 710c043c-84f0-4f87-9891-d18d5c4b82dd
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
