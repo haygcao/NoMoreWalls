@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: b3c49208-dc61-480a-99f4-90305252d45f
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 1|🇷🇺1 |  5.4MB/s
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
@@ -81,9 +88,9 @@ proxies:
       Host: ru01.abvpn.ru
     path: /websocket
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 710c043c-84f0-4f87-9891-d18d5c4b82dd
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
