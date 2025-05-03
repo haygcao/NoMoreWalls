@@ -105,7 +105,7 @@ proxies:
   ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|FR_speednode_0028
+  name: 13|FR_speednode_0028
   port: 25481
   reality-opts:
     public-key: uF7Fv79MbpkF2x_bDeXezdkMrI-vGS3UDNAwLzIKZTo

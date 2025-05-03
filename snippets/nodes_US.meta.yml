@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 1d8e5975-0e6c-45fd-8f0e-1e485ac7e5b8
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 1d8e5975-0e6c-45fd-8f0e-1e485ac7e5b8
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 1d8e5975-0e6c-45fd-8f0e-1e485ac7e5b8
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 1|🇺🇸1 |  4.2MB/s
   password: dongtaiwang.com
   port: 65232
@@ -219,7 +240,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: random
   delay: 762
-  name: 1,14|US_speednode_0071
+  name: 1,13|US_speednode_0071
   network: ws
   port: 2096
   server: 104.16.143.139
@@ -738,7 +759,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1,14|US_speednode_0127
+  name: 1,13|US_speednode_0127
   network: ws
   port: 443
   server: 104.16.90.246
@@ -1172,7 +1193,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -1182,7 +1203,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1195,7 +1216,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -1211,7 +1232,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 13|美国|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -1219,7 +1240,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0059
+- name: 13|US_speednode_0059
   network: ws
   port: 80
   server: www.speedtest.net
@@ -1233,7 +1254,7 @@ proxies:
     headers:
       Host: redfree8mahsang6.redfree8.ir
     path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- name: 14|US_speednode_0060
+- name: 13|US_speednode_0060
   network: ws
   port: 80
   server: 104.17.147.22
@@ -1247,7 +1268,7 @@ proxies:
     headers:
       Host: redfree8mahsang6.redfree8.ir
     path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- name: 14|US_speednode_0061
+- name: 13|US_speednode_0061
   network: ws
   port: 443
   server: 192.9.139.160
@@ -1262,7 +1283,7 @@ proxies:
       Host: hn.ylka.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|US_speednode_0064
+  name: 13|US_speednode_0064
   network: ws
   port: 443
   server: 162.159.152.11
@@ -1276,7 +1297,7 @@ proxies:
     headers:
       Host: v2-150.pages.dev
     path: /?ed=2560
-- name: 14|US_speednode_0065
+- name: 13|US_speednode_0065
   network: ws
   port: 80
   server: 151.101.64.155
@@ -1290,7 +1311,7 @@ proxies:
     headers:
       Host: Bpalanenok.ir
     path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-- name: 14|US_speednode_0066
+- name: 13|US_speednode_0066
   network: ws
   port: 443
   server: 162.159.152.80
@@ -1304,7 +1325,7 @@ proxies:
     headers:
       Host: 6606.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0067
+- name: 13|US_speednode_0067
   network: ws
   port: 2083
   server: 162.159.153.28
@@ -1318,7 +1339,7 @@ proxies:
     headers:
       Host: 1.659118019.uk
     path: /?ed=2560
-- name: 14|US_speednode_0068
+- name: 13|US_speednode_0068
   network: ws
   port: 443
   server: dnschecker.org
@@ -1332,7 +1353,7 @@ proxies:
     headers:
       Host: hn.ylka.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0069
+- name: 13|US_speednode_0069
   network: ws
   port: 2087
   server: 162.159.153.245
@@ -1346,7 +1367,7 @@ proxies:
     headers:
       Host: lyxahh316.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0070
+- name: 13|US_speednode_0070
   network: ws
   port: 2083
   server: 162.159.152.48
@@ -1360,7 +1381,7 @@ proxies:
     headers:
       Host: lyxahh316.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0072
+- name: 13|US_speednode_0072
   network: ws
   port: 8443
   server: 162.159.152.81
@@ -1374,7 +1395,7 @@ proxies:
     headers:
       Host: txmt.conetcdata.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0073
+- name: 13|US_speednode_0073
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1388,7 +1409,7 @@ proxies:
     headers:
       Host: joinxvproxybedeeeeee.ir
     path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- name: 14|US_speednode_0074
+- name: 13|US_speednode_0074
   network: ws
   port: 8443
   server: 104.24.38.60
@@ -1402,7 +1423,7 @@ proxies:
     headers:
       Host: ball.757718.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0075
+- name: 13|US_speednode_0075
   network: ws
   port: 2087
   server: 104.24.73.254
@@ -1416,7 +1437,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0076
+- name: 13|US_speednode_0076
   network: ws
   port: 443
   server: 104.24.179.72
@@ -1430,7 +1451,7 @@ proxies:
     headers:
       Host: merlink.merakiqing.top
     path: /?ed=2560
-- name: 14|US_speednode_0077
+- name: 13|US_speednode_0077
   network: ws
   port: 2083
   server: 104.16.117.254
@@ -1444,7 +1465,7 @@ proxies:
     headers:
       Host: fantin.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0078
+- name: 13|US_speednode_0078
   network: ws
   port: 443
   server: a0.nttkk.com
@@ -1459,7 +1480,7 @@ proxies:
       Host: ss-c6o.pages.dev
     path: /tg@myFreeNodeChat/?ed=2048
 - client-fingerprint: random
-  name: 14|US_speednode_0079
+  name: 13|US_speednode_0079
   network: ws
   port: 443
   server: 104.19.194.8
@@ -1473,7 +1494,7 @@ proxies:
     headers:
       Host: 123456789-1xt.pages.dev
     path: /?ed=2560
-- name: 14|US_speednode_0080
+- name: 13|US_speednode_0080
   network: ws
   port: 443
   server: 104.24.83.107
@@ -1489,7 +1510,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0081
+  name: 13|US_speednode_0081
   port: 21104
   reality-opts:
     public-key: _DA9cy2VCQjFH7C3c3IjQgNu_6Wx14FR186V50vz4RI
@@ -1501,7 +1522,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4afee6c0-a9b7-4de1-a7e8-d3e45b1a86de
-- name: 14|US_speednode_0082
+- name: 13|US_speednode_0082
   network: ws
   port: 2053
   server: 104.16.12.247
@@ -1516,7 +1537,7 @@ proxies:
       Host: txmt.conetcdata.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|US_speednode_0083
+  name: 13|US_speednode_0083
   network: ws
   port: 8443
   server: www.visa.com.mt
@@ -1530,7 +1551,7 @@ proxies:
     headers:
       Host: testvless2-ah2.pages.dev
     path: /?ed=2560
-- name: 14|US_speednode_0085
+- name: 13|US_speednode_0085
   network: ws
   port: 443
   server: 104.24.159.174
@@ -1544,7 +1565,7 @@ proxies:
     headers:
       Host: vmess.yxxc.cn
     path: /?ed=2560
-- name: 14|US_speednode_0086
+- name: 13|US_speednode_0086
   network: ws
   port: 443
   server: 104.16.175.164
@@ -1558,7 +1579,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0087
+- name: 13|US_speednode_0087
   network: ws
   port: 2053
   server: 104.24.240.115
@@ -1572,7 +1593,7 @@ proxies:
     headers:
       Host: xpvip168.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0088
+- name: 13|US_speednode_0088
   network: ws
   port: 443
   server: 104.24.231.66
@@ -1587,7 +1608,7 @@ proxies:
       Host: cf.501508.xyz
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|US_speednode_0089
+  name: 13|US_speednode_0089
   network: ws
   port: 443
   server: 103.21.244.216
@@ -1602,7 +1623,7 @@ proxies:
       Host: 66.sgfc.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|US_speednode_0090
+  name: 13|US_speednode_0090
   network: ws
   port: 443
   server: 104.24.163.64
@@ -1616,7 +1637,7 @@ proxies:
     headers:
       Host: 66.sgfc.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0091
+- name: 13|US_speednode_0091
   network: ws
   port: 2087
   server: 104.24.171.212
@@ -1634,7 +1655,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0092
+  name: 13|US_speednode_0092
   port: 443
   reality-opts:
     public-key: qM1XlrSeyJsPBUvrGWi46okbeljt0ksMuMFPraXrmFg
@@ -1646,7 +1667,7 @@ proxies:
   type: vless
   udp: true
   uuid: fefba36d-5142-42f1-b14d-db5249511d93
-- name: 14|US_speednode_0093
+- name: 13|US_speednode_0093
   network: ws
   port: 2083
   server: 104.16.203.184
@@ -1661,7 +1682,7 @@ proxies:
       Host: lyxahh316.dpdns.org
     path: /?ed=2560
 - client-fingerprint: random
-  name: 14|US_speednode_0094
+  name: 13|US_speednode_0094
   network: ws
   port: 443
   server: 172.64.80.228
@@ -1675,7 +1696,7 @@ proxies:
     headers:
       Host: bantony199.top
     path: /?ed=2560
-- name: 14|US_speednode_0095
+- name: 13|US_speednode_0095
   network: ws
   port: 2053
   server: 104.16.190.87
@@ -1689,7 +1710,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 14|US_speednode_0096
+- name: 13|US_speednode_0096
   network: ws
   port: 2083
   server: 104.16.183.186
@@ -1703,7 +1724,7 @@ proxies:
     headers:
       Host: ball.757718.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0097
+- name: 13|US_speednode_0097
   network: ws
   port: 443
   server: 104.24.236.108
@@ -1717,7 +1738,7 @@ proxies:
     headers:
       Host: 520588.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0098
+- name: 13|US_speednode_0098
   network: ws
   port: 443
   server: 103.21.244.17
@@ -1731,7 +1752,7 @@ proxies:
     headers:
       Host: what.zhonghuoxing.top
     path: /?ed=2560
-- name: 14|US_speednode_0099
+- name: 13|US_speednode_0099
   network: ws
   port: 8443
   server: 104.24.40.146
@@ -1745,7 +1766,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 14|US_speednode_0100
+- name: 13|US_speednode_0100
   network: ws
   port: 8443
   server: 172.64.88.180
@@ -1759,7 +1780,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0101
+- name: 13|US_speednode_0101
   network: ws
   port: 443
   server: 104.16.95.143
@@ -1773,7 +1794,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 14|US_speednode_0102
+- name: 13|US_speednode_0102
   network: ws
   port: 443
   server: 104.24.188.214
@@ -1787,7 +1808,7 @@ proxies:
     headers:
       Host: planetzh.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0103
+- name: 13|US_speednode_0103
   network: ws
   port: 2053
   server: 103.21.244.147
@@ -1801,7 +1822,7 @@ proxies:
     headers:
       Host: ball.757718.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0104
+- name: 13|US_speednode_0104
   network: ws
   port: 443
   server: 104.16.19.20
@@ -1815,7 +1836,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0105
+- name: 13|US_speednode_0105
   network: ws
   port: 2087
   server: 108.165.152.98
@@ -1829,7 +1850,7 @@ proxies:
     headers:
       Host: ed.sosocn.filegear-sg.me
     path: /?ed=2560
-- name: 14|US_speednode_0106
+- name: 13|US_speednode_0106
   network: ws
   port: 443
   server: 103.21.244.49
@@ -1843,7 +1864,7 @@ proxies:
     headers:
       Host: qifei.876566.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0107
+- name: 13|US_speednode_0107
   network: ws
   port: 443
   server: 104.24.199.72
@@ -1857,7 +1878,7 @@ proxies:
     headers:
       Host: welean.top
     path: /?ed=2560
-- name: 14|US_speednode_0108
+- name: 13|US_speednode_0108
   network: ws
   port: 443
   server: 104.16.83.224
@@ -1871,7 +1892,7 @@ proxies:
     headers:
       Host: taoj.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0109
+- name: 13|US_speednode_0109
   network: ws
   port: 443
   server: 172.64.89.90
@@ -1885,7 +1906,7 @@ proxies:
     headers:
       Host: 520588.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0110
+- name: 13|US_speednode_0110
   network: ws
   port: 443
   server: 104.19.160.0
@@ -1899,7 +1920,7 @@ proxies:
     headers:
       Host: lrnz.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0111
+- name: 13|US_speednode_0111
   network: ws
   port: 8443
   server: 172.64.157.123
@@ -1913,7 +1934,7 @@ proxies:
     headers:
       Host: 1.659118019.uk
     path: /?ed=2560
-- name: 14|US_speednode_0112
+- name: 13|US_speednode_0112
   network: ws
   port: 443
   server: 104.24.251.4
@@ -1927,7 +1948,7 @@ proxies:
     headers:
       Host: 66.sgfc.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0113
+- name: 13|US_speednode_0113
   network: ws
   port: 2087
   server: 103.21.244.5
@@ -1941,7 +1962,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0114
+- name: 13|US_speednode_0114
   network: ws
   port: 2053
   server: 104.16.0.21
@@ -1955,7 +1976,7 @@ proxies:
     headers:
       Host: ghh.wsthh.site
     path: /?ed=2560
-- name: 14|US_speednode_0115
+- name: 13|US_speednode_0115
   network: ws
   port: 443
   server: kyle.ns.cloudflare.com
@@ -1969,7 +1990,7 @@ proxies:
     headers:
       Host: vless.trevely.us.kg
     path: /?ed=2560
-- name: 14|US_speednode_0116
+- name: 13|US_speednode_0116
   network: ws
   port: 443
   server: 129.146.46.164
@@ -1983,7 +2004,7 @@ proxies:
     headers:
       Host: hn.ylka.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0117
+- name: 13|US_speednode_0117
   network: ws
   port: 443
   server: 104.16.88.167
@@ -1997,7 +2018,7 @@ proxies:
     headers:
       Host: fei.989618.xyz
     path: /?ed=2560
-- name: 14|US_speednode_0119
+- name: 13|US_speednode_0119
   network: ws
   port: 443
   server: 160.79.104.113
@@ -2011,7 +2032,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /
-- name: 14|US_speednode_0120
+- name: 13|US_speednode_0120
   network: ws
   port: 2087
   server: 162.159.153.245
@@ -2027,7 +2048,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0121
+  name: 13|US_speednode_0121
   port: 35058
   reality-opts:
     public-key: NqiGk0_J8wvSs2I4JqaZ39e5V515oMg2FSARu-dOukY
@@ -2040,7 +2061,7 @@ proxies:
   udp: true
   uuid: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
 - client-fingerprint: random
-  name: 14|US_speednode_0122
+  name: 13|US_speednode_0122
   network: ws
   port: 443
   server: 172.64.78.129
@@ -2056,7 +2077,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0123
+  name: 13|US_speednode_0123
   port: 30158
   reality-opts:
     public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc
@@ -2068,7 +2089,7 @@ proxies:
   type: vless
   udp: true
   uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-- name: 14|US_speednode_0124
+- name: 13|US_speednode_0124
   network: ws
   password: Ng35283528
   port: 443
@@ -2081,7 +2102,7 @@ proxies:
     headers:
       Host: c2.validbv3528.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0125
+- name: 13|US_speednode_0125
   network: ws
   port: 2096
   server: 104.16.143.139
@@ -2096,7 +2117,7 @@ proxies:
       Host: ghh.wsthh.site
     path: /
 - client-fingerprint: chrome
-  name: 14|US_speednode_0126
+  name: 13|US_speednode_0126
   network: ws
   port: 443
   server: rncatlsclyx.codesofun.pp.ua
@@ -2110,7 +2131,7 @@ proxies:
     headers:
       Host: rnca.majiang.pp.ua
     path: /rn2
-- name: 14|US_speednode_0128
+- name: 13|US_speednode_0128
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: 98cac2fa-svp0g0-t1bnjq-1krtb.los.gotochinatown.net
@@ -2118,7 +2139,7 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 14|US_speednode_0129
+- name: 13|US_speednode_0129
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: d24ab7c0-svp0g0-t1bnjq-1krtb.sj.gotochinatown.net
@@ -2126,7 +2147,7 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 14|US_speednode_0130
+- name: 13|US_speednode_0130
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: 21da44f3-svqv40-t1bnjq-1krtb.sj.gotochinatown.net
@@ -2134,7 +2155,7 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 14|US_speednode_0131
+- name: 13|US_speednode_0131
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: d529d80b-svqv40-t1bnjq-1krtb.los.gotochinatown.net
@@ -2142,7 +2163,7 @@ proxies:
   type: http
   udp: true
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 14|US_speednode_0132
+- name: 13|US_speednode_0132
   password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   port: 443
   server: f1fdb272-svqv40-t28b6o-ef48.sj.gotochinatown.net
@@ -2150,7 +2171,7 @@ proxies:
   type: http
   udp: true
   username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- name: 14|US_speednode_0133
+- name: 13|US_speednode_0133
   network: ws
   port: 443
   server: wow.quicky.dpdns.org
@@ -2164,7 +2185,7 @@ proxies:
     headers:
       Host: us.quicky.dpdns.org
     path: /fastus
-- name: 14|US_speednode_0134
+- name: 13|US_speednode_0134
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
   server: 61ff9eec-svp0g0-swy6li-tni2.sj.gotochinatown.net
@@ -2172,7 +2193,7 @@ proxies:
   type: http
   udp: true
   username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 14|US_speednode_0135
+- name: 13|US_speednode_0135
   network: ws
   port: 443
   server: 104.24.236.108
@@ -2186,7 +2207,7 @@ proxies:
     headers:
       Host: 520588.xyz
     path: /
-- name: 14|US_speednode_0136
+- name: 13|US_speednode_0136
   network: ws
   port: 80
   server: 170.114.46.6
@@ -2200,7 +2221,7 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
-- name: 14|US_speednode_0137
+- name: 13|US_speednode_0137
   network: ws
   port: 2087
   server: digitalocean.com
@@ -2214,7 +2235,7 @@ proxies:
     headers:
       Host: ca-1-cbt.rayan-dns.dpdns.org
     path: /vless
-- name: 14|US_speednode_0138
+- name: 13|US_speednode_0138
   network: ws
   password: 8aa7e179-739d-4195-bceb-d3e3fddf3df9
   port: 443
@@ -2227,3 +2248,24 @@ proxies:
     headers:
       Host: digitaloceanusargo.lzj520hxw.dpdns.org
     path: /lzjjjjjjj666-tr?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8460fc61-342f-4e0e-a079-6d33e20a6617
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8460fc61-342f-4e0e-a079-6d33e20a6617
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 8460fc61-342f-4e0e-a079-6d33e20a6617
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
