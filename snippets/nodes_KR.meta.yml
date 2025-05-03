@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: b3c49208-dc61-480a-99f4-90305252d45f
+  password: 19da9ec4-92ca-4c95-b33b-27a5367f960d
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: b3c49208-dc61-480a-99f4-90305252d45f
+  password: 19da9ec4-92ca-4c95-b33b-27a5367f960d
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
@@ -152,16 +152,87 @@ proxies:
   server: 52.199.191.145
   tfo: false
   type: ss
+- name: 13|KR_speednode_0083
+  network: ws
+  port: 14896
+  server: 222.117.231.32
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 13|KR_speednode_0084
+  network: ws
+  port: 10943
+  server: 14.39.43.121
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 13|KR_speednode_0085
+  network: ws
+  port: 50000
+  server: 210.99.119.3
+  servername: ed.sosocn.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 699f6733-5766-42f0-a05b-da23c5ee3817
+  ws-opts:
+    headers:
+      Host: ed.sosocn.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 13|KR_speednode_0086
+  network: ws
+  port: 50008
+  server: 59.25.160.141
+  servername: mot.luyuju.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /?ed=2560
+- name: 13|KR_speednode_0088
+  network: ws
+  port: 12416
+  server: 121.174.200.92
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷 韩国 01 | 1x KR
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  password: ede68a28-ffee-4d06-b558-536bae3510f4
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷 韩国 02 | 1x KR
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  password: ede68a28-ffee-4d06-b558-536bae3510f4
   port: 36313
   server: free.2weradf.xyz
   type: ss

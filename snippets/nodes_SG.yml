@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b3c49208-dc61-480a-99f4-90305252d45f
+  password: 19da9ec4-92ca-4c95-b33b-27a5367f960d
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b3c49208-dc61-480a-99f4-90305252d45f
+  password: 19da9ec4-92ca-4c95-b33b-27a5367f960d
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b3c49208-dc61-480a-99f4-90305252d45f
+  password: 19da9ec4-92ca-4c95-b33b-27a5367f960d
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -75,23 +75,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
+- name: 13|SG_speednode_0106
+  password: '!!str 74260671232757400'
+  port: 443
+  server: game-seagull.shiner427.skin
+  skip-cert-verify: false
+  sni: game-seagull.shiner427.skin
+  type: trojan
+  udp: true
+- name: 13|SG_speednode_0110
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 27.50.49.224
+  skip-cert-verify: false
+  sni: tyep.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tyep.esslh.filegear-sg.me
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  password: ede68a28-ffee-4d06-b558-536bae3510f4
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  password: ede68a28-ffee-4d06-b558-536bae3510f4
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: c85e8b6e-4eac-4cf7-a6ec-89ed098a2daa
+  password: ede68a28-ffee-4d06-b558-536bae3510f4
   port: 36175
   server: free.2weradf.xyz
   type: ss
