@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 624d5b5e-9213-4ee2-821f-0ed0b745e0fb
+  password: eb2b4c16-657a-45cb-9c24-a6a49dd3b98d
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 624d5b5e-9213-4ee2-821f-0ed0b745e0fb
+  password: eb2b4c16-657a-45cb-9c24-a6a49dd3b98d
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 484a270d-db71-4b88-a06e-92db82cc1b54
+  password: de4a9fc8-c4b5-46d7-876d-14e4837cd635
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 484a270d-db71-4b88-a06e-92db82cc1b54
+  password: de4a9fc8-c4b5-46d7-876d-14e4837cd635
   port: 36145
   server: free.2weradf.xyz
   type: ss
@@ -106,13 +106,12 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - delay: 1408
-  name: 2,14|BD_speednode_0001
+  name: 2|🇭🇰8 |  1.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
-  udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 2|🇭🇰9 |  6.2MB/s
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
@@ -386,31 +385,23 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 35716
-  server: hkkh11v1.xpmc.cc
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
+  name: 12,13|香港2|@ripaojiedian
   network: tcp
-  password: 7d2e5374-809e-4a9e-b7c3-7b24842695e1
-  port: 27101
+  password: f161873e-2a28-4c97-a99d-4ea61e9c2d85
+  port: 10465
   server: 183.2.150.90
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  password: W7fIo8Gp6TLb1YHZNH1fu5
+  port: 39008
+  server: 62.60.231.81
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

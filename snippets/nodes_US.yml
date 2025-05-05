@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 624d5b5e-9213-4ee2-821f-0ed0b745e0fb
+  password: eb2b4c16-657a-45cb-9c24-a6a49dd3b98d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 624d5b5e-9213-4ee2-821f-0ed0b745e0fb
+  password: eb2b4c16-657a-45cb-9c24-a6a49dd3b98d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 624d5b5e-9213-4ee2-821f-0ed0b745e0fb
+  password: eb2b4c16-657a-45cb-9c24-a6a49dd3b98d
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 484a270d-db71-4b88-a06e-92db82cc1b54
+  password: de4a9fc8-c4b5-46d7-876d-14e4837cd635
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 484a270d-db71-4b88-a06e-92db82cc1b54
+  password: de4a9fc8-c4b5-46d7-876d-14e4837cd635
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 484a270d-db71-4b88-a06e-92db82cc1b54
+  password: de4a9fc8-c4b5-46d7-876d-14e4837cd635
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -529,7 +529,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505031478387-JTJCh1T1ju.download.microsoft.com
+    host: 202505041454917-UsWiINM30i.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -552,3 +552,20 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|美国4|@ripaojiedian
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
