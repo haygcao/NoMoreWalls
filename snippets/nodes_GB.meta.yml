@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: fe8cec4b-3a63-4caa-accc-96ea8946c2a1
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 0b75a6f0-7db5-4df0-9efe-6808d6734245
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: fe8cec4b-3a63-4caa-accc-96ea8946c2a1
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 0b75a6f0-7db5-4df0-9efe-6808d6734245
   port: 36271
   server: free.2weradf.xyz
   type: ss
@@ -16,7 +23,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇬🇧1 |  3.4MB/s
+  name: 2|🇬🇧1 |  3.4MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -28,7 +35,7 @@ proxies:
   type: vless
   udp: false
   uuid: 4c41dd88-6632-4c7a-8dbb-e276bf78b357
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -36,10 +43,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 7f4c4ca2-c863-4c46-a660-be36a203f2bb
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
