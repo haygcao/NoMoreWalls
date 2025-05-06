@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  password: 5bb96fcb-a4c2-416d-98e2-daf0092c5eaf
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  password: 5bb96fcb-a4c2-416d-98e2-daf0092c5eaf
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 6c33f3d9-0ab2-4dc2-b40c-9404c2eb742c
+  password: 5bb96fcb-a4c2-416d-98e2-daf0092c5eaf
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -67,7 +67,21 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: f1194353-3313-451e-870d-4d1b7a8b0fbd
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: f1194353-3313-451e-870d-4d1b7a8b0fbd
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -75,7 +89,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -83,7 +97,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -94,7 +108,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -111,7 +125,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: ws
   port: '35146'
   server: sg6.vip2.g2.moonbase.life
@@ -127,31 +141,15 @@ proxies:
     path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 44.243.100.122
   tfo: false
   type: ss
-- name: 13|SG_speednode_0036
-  password: '!!str 74260667533381300'
-  port: 443
-  server: just-buck.shiner427.skin
-  skip-cert-verify: true
-  sni: just-buck.shiner427.skin
-  type: trojan
-  udp: true
-- name: 13|SG_speednode_0037
-  password: '!!str 74260667533381300'
-  port: 443
-  server: loving-piranha.shiner427.skin
-  skip-cert-verify: false
-  sni: loving-piranha.shiner427.skin
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|SG_speednode_0038
+  name: 14|SG_speednode_0023
   port: 443
   reality-opts:
     public-key: USd1Iznfu9nwnvIfz5CPcrnhXoQX1e1C1fCPNB9mbAk
@@ -163,40 +161,3 @@ proxies:
   type: vless
   udp: true
   uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 13|SG_speednode_0039
-  password: '!!str 74260667533381300'
-  port: 443
-  server: live-serval.shiner427.skin
-  skip-cert-verify: false
-  sni: live-serval.shiner427.skin
-  type: trojan
-  udp: true
-- name: 13|SG_speednode_0040
-  password: '!!str 74260667533381300'
-  port: 443
-  server: crucial-mustang.shiner427.skin
-  skip-cert-verify: true
-  sni: crucial-mustang.shiner427.skin
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 3fb667d9-d711-4972-867a-da6cddbcd261
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 3fb667d9-d711-4972-867a-da6cddbcd261
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 3fb667d9-d711-4972-867a-da6cddbcd261
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
