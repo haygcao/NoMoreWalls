@@ -1,8 +1,29 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: 8369b9c0-f87f-45fd-8eb8-8bcd293580e0
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: 8369b9c0-f87f-45fd-8eb8-8bcd293580e0
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 428ad397-a0a0-4487-962c-25db9db2435c
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇬🇧1 |  3.4MB/s
+  name: 2|🇬🇧1 |  3.4MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +35,7 @@ proxies:
   type: vless
   udp: false
   uuid: 4c41dd88-6632-4c7a-8dbb-e276bf78b357
-- name: 9|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -24,7 +45,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 12|GB_speednode_0029
+  name: 14|GB_speednode_0021
   port: 443
   reality-opts:
     public-key: b5WuWodd3tB9cHWUJuoEFNvgYVOcLuDyjaxHy70umU4
@@ -38,7 +59,7 @@ proxies:
   uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|GB_speednode_0030
+  name: 14|GB_speednode_0022
   port: 8440
   reality-opts:
     public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
@@ -49,30 +70,7 @@ proxies:
   type: vless
   udp: true
   uuid: 97dda572-7ff0-4609-8388-c82be57bc6a9
-- name: 12|GB_speednode_0031
-  network: ws
-  port: 443
-  server: 35.178.235.225
-  servername: uk.rtot.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00651706-0d2d-448b-80f2-7678f3e5187c
-  ws-opts:
-    headers:
-      Host: uk.rtot.me
-    path: /bing
-- name: 12|GB_speednode_0032
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: london01.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- name: 12|GB_speednode_0033
+- name: 14|GB_speednode_0023
   network: ws
   port: 81
   server: 95.164.18.132
@@ -86,24 +84,26 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇭🇰 香港 01 | 1x HK
-  password: 9f8b327d-51d7-45d5-a644-ea81d4ed8d48
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
+- name: 14|GB_speednode_0024
+  network: ws
+  port: 443
+  server: 35.178.235.225
+  servername: uk.rtot.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 9f8b327d-51d7-45d5-a644-ea81d4ed8d48
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
+  uuid: 00651706-0d2d-448b-80f2-7678f3e5187c
+  ws-opts:
+    headers:
+      Host: uk.rtot.me
+    path: /bing
+- name: 14|GB_speednode_0025
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: london01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 7b9a18a9-2b2d-4a6c-87e1-7101ee1e4cdc
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+  username: dmpyoary@mayorlogistic.com
