@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: c1a3bfec-ba92-4cd6-9b41-46825857b914
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: c1a3bfec-ba92-4cd6-9b41-46825857b914
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: c1a3bfec-ba92-4cd6-9b41-46825857b914
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 6bd94710-b167-48fb-9ec3-a1e0e690e0ba
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: bd8e2f56-90fa-440d-992f-1f65434834e5
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 6bd94710-b167-48fb-9ec3-a1e0e690e0ba
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: bd8e2f56-90fa-440d-992f-1f65434834e5
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 6bd94710-b167-48fb-9ec3-a1e0e690e0ba
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: bd8e2f56-90fa-440d-992f-1f65434834e5
   port: 36215
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8ba940e4-670f-4831-b52e-3226260c1dfe
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8ba940e4-670f-4831-b52e-3226260c1dfe
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: 8ba940e4-670f-4831-b52e-3226260c1dfe
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
