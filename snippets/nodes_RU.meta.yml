@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: c1a3bfec-ba92-4cd6-9b41-46825857b914
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺 俄罗斯 01 | 1x RU
+  password: 6bd94710-b167-48fb-9ec3-a1e0e690e0ba
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: '11|Channel id: @ShadowProxy66🇷🇺'
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
