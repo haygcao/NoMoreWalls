@@ -1,48 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 1c5ef867-0c6c-4661-9019-12971998421a
+  password: f984faf0-2b81-41c0-a660-45956e4f9d29
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 1c5ef867-0c6c-4661-9019-12971998421a
+  password: f984faf0-2b81-41c0-a660-45956e4f9d29
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 1c5ef867-0c6c-4661-9019-12971998421a
+  password: f984faf0-2b81-41c0-a660-45956e4f9d29
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: tcp
   password: b685610e-f160-4cee-9ee8-b3bd18e644ca
   port: 33506
@@ -52,7 +31,7 @@ proxies:
   type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -65,7 +44,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 11,12|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -79,7 +58,7 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- name: 14|US_speednode_0091
+- name: 13|US_speednode_0091
   network: ws
   password: redfree8
   port: 443
@@ -92,3 +71,24 @@ proxies:
     headers:
       Host: ipsychO.SUEx12.Ir
     path: /trre5IzbZ9IZZMddtw?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8ac86821-fdd8-4a06-a4a7-72afc03fc2fe
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8ac86821-fdd8-4a06-a4a7-72afc03fc2fe
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 8ac86821-fdd8-4a06-a4a7-72afc03fc2fe
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
