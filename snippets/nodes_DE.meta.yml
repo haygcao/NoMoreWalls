@@ -1,20 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
+  password: 1c5ef867-0c6c-4661-9019-12971998421a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 2|🇩🇪1 |  4.2MB/s
-  network: ''
-  port: 443
-  server: 204.10.194.78
-  servername: yfnl1.xn--4gq62f52gppi29k.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7

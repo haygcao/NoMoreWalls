@@ -1,112 +1,32 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
+  password: 1c5ef867-0c6c-4661-9019-12971998421a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
+  password: 1c5ef867-0c6c-4661-9019-12971998421a
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰1 |  1.9MB/s
-  port: 4136
-  server: a6cef6a2-sudhc0-svtnto-ckzn.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: cbb15894-f6ad-11ef-afd8-f23c9313b177
-- name: 2|🇭🇰5 |  6.4MB/s
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  type: trojan
-- name: 2|🇭🇰9 |  6.2MB/s
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
-  skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰14 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.6.201
-  servername: hknbyivfffj.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰15 |  2.8MB/s
-  network: tcp
-  port: 15229
-  server: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰18 |  1.5MB/s
-  port: 15228
-  server: 92d4ab34-sv0xs0-tcmtfl-1qudp.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰19 |  3.9MB/s
-  port: 15229
-  server: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
-- name: 2|🇭🇰23 |  4.6MB/s
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰25 |  2.3MB/s
-  port: 15228
-  server: 34cabfa3-surog0-tc9wl2-py5w.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-- alterId: 0
-  cipher: auto
-  name: 2|🇭🇰30 |  1.3MB/s
-  network: tcp
-  port: 15228
-  server: f641bba8-supts0-svp9t7-1oijm.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
-  ws-headers:
-    Host: f641bba8-supts0-svp9t7-1oijm.cm.plebai.net
-  ws-path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws

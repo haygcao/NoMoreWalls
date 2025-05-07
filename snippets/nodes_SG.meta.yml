@@ -1,65 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: d581a20e-2c53-4dc1-83ab-d4eb3d818da4
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
+  password: 1c5ef867-0c6c-4661-9019-12971998421a
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
+  password: 1c5ef867-0c6c-4661-9019-12971998421a
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  delay: 660
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬1 |  2.3MB/s
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenyang001.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬2 |  2.7MB/s
-  network: tcp
-  port: 17231
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬3 |  4.6MB/s
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  delay: 2336
-  flow: xtls-rprx-vision
-  name: 2|🇸🇬4 |  2.2MB/s
-  network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
