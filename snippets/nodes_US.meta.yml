@@ -1,44 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 86bb8836-501a-41a1-8db1-228a42ac8e9d
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 86bb8836-501a-41a1-8db1-228a42ac8e9d
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 86bb8836-501a-41a1-8db1-228a42ac8e9d
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 17fecd51-6ba5-45ea-9866-8374d4035a34
   port: 36215
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: dba22b2a-53b1-47fe-9fa6-90d3370d1703
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: dba22b2a-53b1-47fe-9fa6-90d3370d1703
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: dba22b2a-53b1-47fe-9fa6-90d3370d1703
-  port: 31215
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 2,10|سرور راگن رر @vmess_ir
@@ -1209,52 +1188,27 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 12,13|美国|@ripaojiedian
-  network: ws
-  port: '10501'
-  server: ssm.pimax.com
-  servername: ssm.pimax.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
-  ws-opts:
-    headers:
-      Host: ssm.pimax.com
-    path: /fkgevws
+  network: tcp
+  password: b685610e-f160-4cee-9ee8-b3bd18e644ca
+  port: 33506
+  server: 183.2.150.98
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505051364196-DdoXJ0PjId.download.microsoft.com
+    host: 202505061413967-7UVJRqcDLy.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
-  network: ws
-  port: '30807'
-  server: v7.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
