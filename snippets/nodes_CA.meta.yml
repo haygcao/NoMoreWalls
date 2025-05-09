@@ -1,46 +1,14 @@
 proxies:
-- name: 1|🇨🇦1 |  5.6MB/s|63%|Disney
-  network: ws
-  port: 12001
-  server: 45.154.98.124
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|🇨🇦2 |  1.4MB/s|64%|Netflix|Dis...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: toronto1.sqx001.com
-  skip-cert-verify: true
-  sni: toronto1.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1|🇨🇦3 |  5.6MB/s|Youtube|Openai|...
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 52526c2f-6548-4cdc-87bc-72735896f023
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 85b1084f-82c1-4fe2-84b8-d69ddb71c0f0
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: d8ad44b3-6f28-4d48-9948-10201603f488
   port: 36441
   server: free.2weradf.xyz
   type: ss
