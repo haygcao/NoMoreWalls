@@ -1,23 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: dfd9f803-c60d-40d8-9567-e825a1e56d03
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 52526c2f-6548-4cdc-87bc-72735896f023
   port: 36471
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- delay: 2144
-  name: 1|🇩🇪3 |  1.3MB/s|64%|Openai
-  password: RlzoEILU
-  port: 7789
-  server: 36.151.251.61
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪德国 01 | 1x DE
-  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
-  port: 31471
-  server: free.2apzhfa.xyz
   type: ss
   udp: true
