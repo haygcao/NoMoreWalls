@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: b9ac8097-abac-4dfe-8806-1d61e5025d06
+  password: dfd9f803-c60d-40d8-9567-e825a1e56d03
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  1.1MB/s|62%|Disney
+- name: 1|🇰🇷1 |  1.6MB/s|62%|Disney|Gemi...
   network: ws
   port: 443
   server: 160.123.255.58
@@ -20,10 +20,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷2 |  4.6MB/s|Netflix|Disney|...
+- name: 1|🇰🇷2 |  5.7MB/s|Disney|Gemini
   network: ws
   port: 443
-  server: www.whatismyip.com
+  server: kyree.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -34,10 +34,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷3 |  5.0MB/s|62%|Disney|Yout...
+- name: 1|🇰🇷3 |  2.3MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: iplocation.io
+  server: icook.hk
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -48,10 +48,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷4 |  1.8MB/s|62%|Disney|Open...
+- name: 1|🇰🇷4 |  1.1MB/s|62%|Disney|Gemi...
   network: ws
   port: 443
-  server: pranab.ns.cloudflare.com
+  server: rustam.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -62,10 +62,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷5 |  5.1MB/s|62%|Disney
+- name: 1|🇰🇷5 |  1.2MB/s|62%|Disney|Gemi...
   network: ws
   port: 443
-  server: 160.79.105.142
+  server: 160.79.104.240
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -76,10 +76,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷6 |  4.5MB/s|Disney
+- name: 1|🇰🇷6 |  5.6MB/s|Netflix|Disney|...
   network: ws
-  port: 443
-  server: nikon.ns.cloudflare.com
+  port: 55555
+  server: 128.14.140.2
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -90,10 +90,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷7 |  5.1MB/s|62%|Disney
+- name: 1|🇰🇷7 |  1.5MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: huxley.ns.cloudflare.com
+  server: 212.183.88.249
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -104,10 +104,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷8 |  5.1MB/s|62%|Disney|Open...
+- name: 1|🇰🇷8 |  5.0MB/s|62%|Disney|Gemi...
   network: ws
   port: 443
-  server: icook.tw
+  server: lewis.ns.cloudflare.com
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -118,10 +118,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷9 |  1.7MB/s|Disney
+- name: 1|🇰🇷9 |  2.3MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
-  server: ashton.ns.cloudflare.com
+  server: ip.sb
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -132,10 +132,10 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷10 |  1.1MB/s|Disney
+- name: 1|🇰🇷10 |  2.0MB/s|62%|Disney|You...
   network: ws
-  port: 443
-  server: julio.ns.cloudflare.com
+  port: 1010
+  server: 45.154.98.99
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -146,6 +146,39 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
+- name: 1|🇰🇷11 |  1.7MB/s|62%|Disney|Gem...
+  network: ws
+  port: 443
+  server: otto.ns.cloudflare.com
+  servername: hl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: hl.ylka.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 772
+  name: 1|🇰🇷12 |  5.7MB/s|44%|Disney
+  password: qwerREWQ@@
+  port: 4857
+  server: 125.141.26.12
+  type: ss
+- client-fingerprint: chrome
+  name: 1|🇰🇷13 |  1.6MB/s|0%|Netflix|Dis...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: kr01.sqx001.com
+  skip-cert-verify: true
+  sni: kr01.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
@@ -162,6 +195,21 @@ proxies:
   server: 13.212.202.199
   tfo: false
   type: ss
+- client-fingerprint: random
+  name: 13|KR_speednode_0022
+  network: ws
+  port: 10187
+  server: 121.189.106.45
+  servername: mot.luyuju.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /?ed=2560
 - name: 13|KR_speednode_0023
   network: ws
   port: 50000
@@ -207,14 +255,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 3bac8c9d-fc3a-427a-8941-9d28ec826af8
+  password: 50b25ab3-e066-4e0f-b93f-0e86db42d759
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
