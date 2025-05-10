@@ -1,63 +1,64 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: c93236ba-acc4-4ca5-8ea4-c65c09137f41
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: c93236ba-acc4-4ca5-8ea4-c65c09137f41
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: c93236ba-acc4-4ca5-8ea4-c65c09137f41
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 23103682-0658-497b-8671-3afcaff32c47
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 843007b6-b74b-44fc-a7f6-cb04f7fa71e9
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 23103682-0658-497b-8671-3afcaff32c47
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 843007b6-b74b-44fc-a7f6-cb04f7fa71e9
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇸🇬1 |  2.3MB/s|Openai
+- name: 1|🇸🇬1 |  5.6MB/s|Youtube|Openai
   network: ws
   port: '80'
-  server: 141.193.213.20
+  server: 141.193.213.21
   type: vless
   udp: true
   uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
   ws-opts:
     headers:
       Host: lk.sahanwickramasinghe.shop
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: 2|🇸🇬2 |  2.8MB/s|Youtube|Openai
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 8444
-  server: singapore02.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-cfb
+  name: 1|🇸🇬2 |  5.8MB/s|54%|Youtube|Ope...
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
   udp: true
-  username: dmpyoary@mayorlogistic.com
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 2a7a1cd4-99de-426c-9d0c-465e0bff0bf4
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 2a7a1cd4-99de-426c-9d0c-465e0bff0bf4
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 2a7a1cd4-99de-426c-9d0c-465e0bff0bf4
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

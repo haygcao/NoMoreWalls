@@ -1,53 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: c93236ba-acc4-4ca5-8ea4-c65c09137f41
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: c93236ba-acc4-4ca5-8ea4-c65c09137f41
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 23103682-0658-497b-8671-3afcaff32c47
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 843007b6-b74b-44fc-a7f6-cb04f7fa71e9
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 23103682-0658-497b-8671-3afcaff32c47
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 843007b6-b74b-44fc-a7f6-cb04f7fa71e9
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 1|🇭🇰1 |  2.0MB/s|6%|Youtube
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 8443
+  server: hk04.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰1 |  2.0MB/s|0%|Netflix|Yout...
-  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
-  port: 54016
-  server: chiyu.myfczy169.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰2 |  1.1MB/s|0%|Netflix|Yout...
-  password: OHJHa1cyZ0RnNlFxWHZQdGdrUGdqNXVo
-  port: '48019'
-  server: 45.196.235.33
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: 2a7a1cd4-99de-426c-9d0c-465e0bff0bf4
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: 2|🇭🇰3 |  1.3MB/s|0%|Netflix|Disn...
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 24591
-  server: hk1.shiyuandian.shop
-  skip-cert-verify: true
-  sni: hk1.shiyuandian.shop
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: 2a7a1cd4-99de-426c-9d0c-465e0bff0bf4
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
