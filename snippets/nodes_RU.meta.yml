@@ -1,14 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 733b9054-256c-4533-b2bc-f73005b6b525
+  password: eeda1d89-549e-4cf4-958c-0136e935e773
   port: 36511
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 1|🇷🇺1 |  4.4MB/s|50%
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- delay: 713
+  down: ''
+  fingerprint: ''
+  name: 1|🇷🇺2 |  5.7MB/s|0%
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.29.163.171
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- delay: 699
+  down: ''
+  fingerprint: ''
+  name: 1|🇷🇺3 |  4.0MB/s|50%|Youtube
+  obfs: ''
+  obfs-password: ''
+  password: dongtaiwang.com
+  port: 10011
+  server: 46.17.41.217
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 352d5b5c-2df6-4341-b6ea-dc8ea575c643
+  name: 2|🇷🇺俄罗斯 01 | 1x RU
+  password: dde120f7-eee8-4665-8797-dbdf786cef37
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
