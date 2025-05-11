@@ -1,19 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  5.4MB/s|Youtube|Openai
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬1 |  5.4MB/s|Youtube|Openai
   network: ws
   port: '80'
   server: 141.193.213.21
@@ -29,7 +50,7 @@ proxies:
   xudp: true
 - alterId: '64'
   cipher: auto
-  name: 1|🇸🇬2 |  3.2MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬2 |  3.2MB/s|0%|Netflix|Disn...
   network: tcp
   port: '46121'
   server: 183.236.51.38
@@ -39,7 +60,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
-- name: 1|🇸🇬3 |  5.6MB/s|Youtube|Openai
+- name: 2|🇸🇬3 |  5.6MB/s|Youtube|Openai
   network: ws
   port: '80'
   server: 141.193.213.20
@@ -54,7 +75,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇸🇬4 |  2.2MB/s|57%|Youtube|Ope...
+  name: 2|🇸🇬4 |  2.2MB/s|57%|Youtube|Ope...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 8444
   server: singapore02.sqx001.com
@@ -63,27 +84,6 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 93656afe-c968-4c3f-b052-25af54a2b09d
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 93656afe-c968-4c3f-b052-25af54a2b09d
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 93656afe-c968-4c3f-b052-25af54a2b09d
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443

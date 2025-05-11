@@ -1,14 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 7073a02a-8cd0-418d-909b-d639b1f736a1
+  password: 9bc12592-5b68-4913-a85a-b2c0c33829a7
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: a5350a24-c867-4655-a25d-567199d5a27e
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: '0'
   cipher: auto
-  name: 1|🇨🇦1 |  5.8MB/s|29%|Youtube|Ope...
+  name: 2|🇨🇦1 |  5.8MB/s|29%|Youtube|Ope...
   network: ws
   port: 2083
   server: cloudgetservice.mcloudservice.site
@@ -23,7 +30,7 @@ proxies:
     path: /linkvkws
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇨🇦3 |  1.2MB/s|63%|Disney|Open...
+  name: 2|🇨🇦3 |  1.2MB/s|63%|Disney|Open...
   network: ws
   password: '!!str 123456'
   port: '8443'
@@ -37,10 +44,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /Az1.vpn.33.TOP/?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 01 | 1x CA
-  password: 93656afe-c968-4c3f-b052-25af54a2b09d
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
