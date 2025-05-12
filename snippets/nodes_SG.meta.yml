@@ -1,41 +1,55 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 6b279f9f-cf8c-4d78-8cfc-a078f749cbde
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 6b279f9f-cf8c-4d78-8cfc-a078f749cbde
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 1|🇸🇬1 |  4.0MB/s|13%|Netflix|Dis...
+  name: 2|🇸🇬1 |  4.0MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11536'
   server: ieplqz.youku-dns.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1|🇸🇬2 |  4.6MB/s|13%|Netflix|Dis...
+  name: 2|🇸🇬2 |  4.6MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: 11535
   server: ieplqz.youku-dns.com
   type: ss
 - delay: 1952
   flow: none
-  name: 1|🇸🇬3 |  5.4MB/s|Youtube|Openai|...
+  name: 2|🇸🇬3 |  5.4MB/s|Youtube|Openai|...
   network: ws
   port: 8080
   server: support.zoom.us
@@ -50,7 +64,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇸🇬4 |  5.5MB/s|12%|Youtube|Ope...
+  name: 2|🇸🇬4 |  5.5MB/s|12%|Youtube|Ope...
   network: ws
   port: '443'
   server: 13.67.9.5
@@ -67,27 +81,13 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇸🇬5 |  5.4MB/s|0%|Netflix|Open...
+  name: 2|🇸🇬5 |  5.4MB/s|0%|Netflix|Open...
   password: 05f1368b-1743-48a3-b2a5-56343e64e7be
   port: '443'
   server: 18.142.30.208
   skip-cert-verify: false
   sni: sg.lyyyds.club
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
   udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
@@ -138,59 +138,3 @@ proxies:
   server: 43.203.235.15
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|SG_speednode_0069
-  port: 443
-  reality-opts:
-    public-key: IPno1w9GUxhRN2JY_yIka2DNlnuJHQeb3_0yOCM4pQg
-    short-id: 3ae54db4833c
-  server: 213.35.108.22
-  servername: buylite.music.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 14|SG_speednode_0070
-  port: 443
-  reality-opts:
-    public-key: kR-_5J2EPiB9nrdgyXjgzfJQnxQodkGeV_jgKOEnlEM
-    short-id: fc814374abba
-  server: 168.138.165.109
-  servername: buylite.music.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|SG_speednode_0071
-  port: 443
-  reality-opts:
-    public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
-    short-id: a86103965ac913f2
-  server: 140.245.58.56
-  servername: tv.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|SG_speednode_0072
-  port: 443
-  reality-opts:
-    public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
-    short-id: a86103965ac913f2
-  server: 140.245.43.199
-  servername: tv.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1

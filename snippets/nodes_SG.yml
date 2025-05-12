@@ -1,60 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 6b279f9f-cf8c-4d78-8cfc-a078f749cbde
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 6b279f9f-cf8c-4d78-8cfc-a078f749cbde
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 1|🇸🇬1 |  4.0MB/s|13%|Netflix|Dis...
+  name: 2|🇸🇬1 |  4.0MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: '11536'
   server: ieplqz.youku-dns.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1|🇸🇬2 |  4.6MB/s|13%|Netflix|Dis...
+  name: 2|🇸🇬2 |  4.6MB/s|13%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
   port: 11535
   server: ieplqz.youku-dns.com
   type: ss
 - client-fingerprint: chrome
-  name: 1|🇸🇬5 |  5.4MB/s|0%|Netflix|Open...
+  name: 2|🇸🇬5 |  5.4MB/s|0%|Netflix|Open...
   password: 05f1368b-1743-48a3-b2a5-56343e64e7be
   port: '443'
   server: 18.142.30.208
   skip-cert-verify: false
   sni: sg.lyyyds.club
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
   udp: true
 - alterId: 2
   cipher: auto

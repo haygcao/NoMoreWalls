@@ -1,19 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  password: c16fd384-83ce-408e-85c9-13db91baeff7
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|KR_speednode_0048
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 6b279f9f-cf8c-4d78-8cfc-a078f749cbde
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2|🇰🇷1 |  1.5MB/s|0%|Disney|Opena...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: kr01.sqx001.com
@@ -22,7 +29,7 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- name: 1,14|US_speednode_0084
+- name: 2,14|US_speednode_0044
   network: ws
   port: 80
   server: 135.84.64.80
@@ -37,7 +44,7 @@ proxies:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /TelegramU0001F1E8U0001F1F3@@pgkj666/?ed=2560
   xudp: true
-- name: 1,14|US_speednode_0108
+- name: 2,14|US_speednode_0060
   network: ws
   port: 80
   server: 66.81.247.175
@@ -52,14 +59,14 @@ proxies:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
 - cipher: aes-256-cfb
-  name: 1|🇰🇷4 |  2.7MB/s|44%|Netflix|Dis...
+  name: 2|🇰🇷4 |  2.7MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
   type: ss
 - client-fingerprint: random
   delay: 1310
-  name: 1|🇰🇷5 |  4.8MB/s|62%|Disney|Open...
+  name: 2|🇰🇷5 |  4.8MB/s|62%|Disney|Open...
   network: ws
   port: 443
   server: 103.21.244.174
@@ -72,7 +79,7 @@ proxies:
     headers:
       Host: hi.univermap.site
     path: /?ed=2560
-- name: 1|🇰🇷6 |  1.2MB/s|62%|Disney
+- name: 2|🇰🇷6 |  1.2MB/s|62%|Disney
   network: ws
   password: amclubs
   port: 2083
@@ -85,7 +92,7 @@ proxies:
       Host: tran.amclubs.rr.nu
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 1|🇰🇷7 |  1.6MB/s|62%|Disney
+  name: 2|🇰🇷7 |  1.6MB/s|62%|Disney
   network: ws
   password: '!!str 123456'
   port: '8443'
@@ -99,7 +106,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /Az1.vpn.33.TOP/?ed=2560
-- name: 1|🇰🇷8 |  1.1MB/s|63%|Disney|Open...
+- name: 2|🇰🇷8 |  1.1MB/s|63%|Disney|Open...
   network: ws
   port: '80'
   server: 135.84.64.10
@@ -114,7 +121,7 @@ proxies:
     path: /Telegram🇨🇳@@pgkj666/?ed=2560
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇰🇷9 |  1.1MB/s|62%|Netflix|Dis...
+  name: 2|🇰🇷9 |  1.1MB/s|62%|Netflix|Dis...
   network: ws
   password: '!!str 123456'
   port: '8443'
@@ -129,7 +136,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /Az1.vpn.33.TOP/?ed=2560
 - client-fingerprint: chrome
-  name: 1|🇰🇷10 |  1.1MB/s|Netflix|Disney
+  name: 2|🇰🇷10 |  1.1MB/s|Netflix|Disney
   network: ws
   password: '!!str 123456'
   port: '8443'
@@ -147,7 +154,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  name: 1|🇰🇷11 |  5.7MB/s|62%|Netflix|Di...
+  name: 2|🇰🇷11 |  5.7MB/s|62%|Netflix|Di...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '8443'
@@ -161,13 +168,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /tro8sFW1S91B6sZrM1?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian
@@ -192,20 +192,7 @@ proxies:
   server: 18.182.62.232
   tfo: false
   type: ss
-- name: 14|KR_speednode_0045
-  network: ws
-  password: '!!str 0588'
-  port: 50000
-  server: 175.203.30.93
-  skip-cert-verify: true
-  sni: 888.uskm.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 888.uskm.dpdns.org
-    path: /?ed=2560
-- name: 14|KR_speednode_0046
+- name: 14|KR_speednode_0025
   network: ws
   password: Aimer
   port: 50000
@@ -218,21 +205,20 @@ proxies:
     headers:
       Host: epccj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 14|KR_speednode_0047
+- name: 14|KR_speednode_0026
   network: ws
-  port: 11223
-  server: 218.38.33.77
-  servername: mikuyo.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: '!!str 0588'
+  port: 50000
+  server: 175.203.30.93
+  skip-cert-verify: true
+  sni: 888.uskm.dpdns.org
+  type: trojan
   udp: true
-  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
   ws-opts:
     headers:
-      Host: mikuyo.bpd67081tsq.ddns-ip.net
-    path: /
-- name: 14|KR_speednode_0049
+      Host: 888.uskm.dpdns.org
+    path: /?ed=2560
+- name: 14|KR_speednode_0027
   network: ws
   port: 50000
   server: 112.164.234.135
@@ -246,17 +232,17 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|KR_speednode_0050
-  port: 443
-  reality-opts:
-    public-key: P--AseuV7sGvgy7YJ8iX58GxeP5-M2oq0Mq2YxPAXRs
-    short-id: f00d40f38482
-  server: 131.186.22.238
-  servername: buylite.music.apple.com
+- name: 14|KR_speednode_0028
+  network: ws
+  port: 11223
+  server: 218.38.33.77
+  servername: mikuyo.bpd67081tsq.ddns-ip.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
+  ws-opts:
+    headers:
+      Host: mikuyo.bpd67081tsq.ddns-ip.net
+    path: /
