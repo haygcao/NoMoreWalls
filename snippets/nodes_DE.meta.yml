@@ -1,25 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 4ec1835f-520a-4f67-8a09-34dc968842e9
-  port: 36471
-  server: free.2weradf.xyz
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: ca72cd15-1f4a-4879-a6d8-38af4b22982e
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|RU_speednode_0057
-  network: ws
-  port: 80
-  server: 185.174.138.206
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: ipsycho.suex12.ir
-    path: /re5IzbZ9IZZMddtw?ed=2560
 - name: 1,14|AU_speednode_0003
   network: ws
   port: 80
@@ -34,27 +20,13 @@ proxies:
     headers:
       Host: ipsycho.suex12.ir
     path: /re5IzbZ9IZZMddtw?ed=2560
-- name: 1,14|NL_speednode_0053
-  network: ws
-  port: 443
-  server: 5.10.245.75
-  servername: hax-eu.lzj520hxw.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f2b9193-ab76-401f-a254-10982ac2881a
-  ws-opts:
-    headers:
-      Host: hax-eu.lzj520hxw.dpdns.org
-    path: /lzjjjjj
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 1|🇩🇪4 |  5.7MB/s|21%|Youtube|Ope...
+  name: 1|🇩🇪2 |  3.5MB/s|21%|Openai
   network: tcp
   port: '443'
   reality-opts:
@@ -67,65 +39,145 @@ proxies:
   udp: true
   uuid: 826a1df1-a893-48c1-9891-3d9f947b5f53
   xudp: true
-- name: 1|🇩🇪5 |  1.9MB/s|24%|Netflix|Dis...
+- name: 1,14|US_speednode_0102
   network: ws
-  port: '8880'
-  server: 104.21.69.44
-  type: vless
-  udp: true
-  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-  xudp: true
-- name: 1|🇩🇪6 |  1.0MB/s|24%|Netflix|Dis...
-  network: ws
-  port: '8880'
-  server: 172.67.24.121
-  type: vless
-  udp: true
-  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
-  xudp: true
-- name: 1|🇩🇪7 |  6.1MB/s|24%|Netflix|Ope...
-  network: ws
-  port: '8880'
-  server: 104.22.32.78
-  type: vless
-  udp: true
-  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
-  ws-opts:
-    headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
-  xudp: true
-- name: 1|🇩🇪8 |  4.2MB/s|21%|Disney|Open...
-  network: ws
-  port: '8880'
-  server: 103.245.228.0
+  port: 80
+  server: 185.148.106.32
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: Telegram🇨🇳 @WangCai2 /?ed=2560
-  xudp: true
-- name: 1|🇩🇪9 |  2.0MB/s|24%|Netflix|Dis...
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: 1|🇩🇪4 |  2.7MB/s|34%|Openai
   network: ws
-  port: '80'
+  port: '8080'
+  server: 104.19.54.50
+  type: vless
+  udp: true
+  uuid: 719e6007-e7a9-45d7-9fc2-97584819d628
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 1|🇩🇪5 |  2.4MB/s|24%|Openai
+  network: tcp
+  port: '28495'
+  reality-opts:
+    public-key: wIoY1J6RAbUkFMLu9mENmgOSerWCd7oucJ-_kfCfbHw
+    short-id: 4365d0c5ae1b
+  server: 5.75.205.247
+  servername: www.fra-shop.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: e12c6b99-f242-4c43-8411-edb7b333c79a
+  xudp: true
+- client-fingerprint: chrome
+  name: 1|🇩🇪6 |  5.5MB/s|24%|Openai
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: kPhGi7d7Tjk1Qcq1ShOmeEFLwRI-p4tMHt3s7PTJCn4
+    short-id: 6f9a31
+  server: 91.107.180.49
+  servername: www.cdn77.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4ee35122-2e2d-4013-a1ba-e2d333d191fc
+  xudp: true
+- name: 1|🇩🇪7 |  2.1MB/s|24%|Openai
+  network: ws
+  port: '8880'
+  server: 104.22.33.78
+  type: vless
+  udp: true
+  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
+  ws-opts:
+    headers:
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
+  xudp: true
+- name: 1,14|BG_speednode_0004
+  network: ws
+  port: 80
+  server: 147.78.140.85
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: 1,14|GB_speednode_0036
+  network: ws
+  port: 80
+  server: 194.36.55.181
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: 1,14|RU_speednode_0055
+  network: ws
+  port: 80
+  server: 45.8.211.61
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- cipher: aes-256-gcm
+  name: 1|🇩🇪11 |  4.8MB/s|39%|Youtube|Op...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: 11518
+  server: cdn-p1-lm.youku-dns.com
+  type: ss
+- client-fingerprint: chrome
+  name: 1|🇩🇪12 |  1.6MB/s|46%|Openai
+  network: ws
+  port: 8443
+  server: 205.233.181.186
+  servername: CiR346yL3b.DeRaKhT.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
+  ws-opts:
+    headers:
+      Host: CiR346yL3b.DeRaKhT.iNfO
+    path: /
+- name: 1|🇩🇪13 |  1.2MB/s|46%|Netflix|Di...
+  network: ws
+  port: 80
   server: 95.217.151.107
   type: vless
   udp: true
@@ -133,12 +185,69 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  name: 1|🇩🇪10 |  1.2MB/s|34%|Youtube|Op...
+- delay: 551
+  name: 1|🇩🇪14 |  1.8MB/s|Netflix|Disney...
+  network: ws
+  port: 8880
+  server: 104.22.32.78
+  type: vless
+  udp: true
+  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
+  ws-opts:
+    headers:
+      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
+  xudp: true
+- delay: 1185
+  name: 1|🇩🇪15 |  1.9MB/s|0%|Youtube|Ope...
+  network: ws
+  port: 8880
+  server: 104.17.147.22
+  type: vless
+  udp: true
+  uuid: 050c0819-d893-44da-b654-e806c0ecbff2
+  ws-opts:
+    headers:
+      Host: de-snapp.academigroup.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+  xudp: true
+- delay: 1345
+  name: 1|🇩🇪16 |  2.9MB/s|0%|Youtube|Ope...
+  network: ws
+  port: 8880
+  server: www.zula.ir
+  type: vless
+  udp: true
+  uuid: 050c0819-d893-44da-b654-e806c0ecbff2
+  ws-opts:
+    headers:
+      Host: de-snapp.academigroup.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
+  xudp: true
+- delay: 404
+  name: 1|🇩🇪17 |  2.6MB/s|21%|Disney|Ope...
+  network: ws
+  port: 8880
+  server: 156.238.18.118
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 1|🇩🇪18 |  1.3MB/s|34%|Youtube|Op...
   password: telegram-id-privatevpns
   port: '22222'
   server: 18.199.43.148
@@ -146,151 +255,190 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- delay: 637
-  name: 1|🇩🇪11 |  1.9MB/s|24%|Netflix|Di...
+- name: 1|🇩🇪19 |  5.7MB/s|0%|Netflix|You...
   network: ws
-  port: 8880
-  server: 172.67.204.84
+  port: '8080'
+  server: www.speedtest.net
   type: vless
   udp: true
-  uuid: d3ea9097-bec8-4bb1-a662-a851794249bf
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: join.VPNCUSTOMIZE.iran.ir.arvancloud.ir.nett.ddns-ip.net.
+      Host: Www.speedtest.net.e.5.salatinmaccv.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /-ArV2ry@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL-@ArV2ry-TEL--@ArV2ry-JOIN-@ArV2ry-TEL--@ArV2ry
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 1|🇩🇪20 |  5.2MB/s|24%|Openai
+  network: tcp
+  port: '577'
+  reality-opts:
+    public-key: AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8
+    short-id: 9b28132c703433
+  server: 162.55.36.107
+  servername: stackoverflow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf4631cc-27eb-4b8e-ab85-5db1ddab6125
+  xudp: true
+- client-fingerprint: chrome
+  name: 1|🇩🇪21 |  1.2MB/s|24%|Netflix|Di...
+  network: ws
+  port: '443'
+  server: 172.66.46.236
+  servername: M2-1CM.paGes.DeV
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ef0630e-544c-4ed0-a4de-861f14695f37
+  ws-opts:
+    headers:
+      Host: M2-1CM.paGes.DeV
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: ''
+  xudp: true
+- name: 1|🇩🇪22 |  4.5MB/s|0%|Disney|Open...
+  network: ws
+  port: '8880'
+  server: 172.67.122.73
+  type: vless
+  udp: true
+  uuid: 2737560d-1867-47fa-aa80-351c36d771c7
+  ws-opts:
+    headers:
+      Host: 0118.kznyoum2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /?ed=2560
+  xudp: true
+- name: 1|🇩🇪23 |  4.0MB/s|0%|Netflix|Ope...
+  network: ws
+  port: '2095'
+  server: 195.85.59.161
+  type: vless
+  udp: true
+  uuid: dbf403f4-b871-4446-8712-675562dbbb7b
+  ws-opts:
+    headers:
+      Host: 0221.enedrehd.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /?ed=2560
   xudp: true
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 1|🇩🇪12 |  5.8MB/s|21%|Openai
+  name: 1|🇩🇪24 |  5.5MB/s|45%|Openai
   network: ws
   port: '8443'
-  server: www.zula.ir
-  servername: wimahdi.musics-fa.ru
+  server: zula.ir
+  servername: vip.donghi.ir
   tls: true
   type: vless
   udp: true
-  uuid: 260bab25-db69-4b2f-94c9-99472732c3d1
+  uuid: d186164a-e18c-4a52-9871-2c74a48e5704
   ws-opts:
     headers:
-      Host: wimahdi.musics-fa.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
+      Host: vip.donghi.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
   xudp: true
-- client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 1|🇩🇪13 |  5.8MB/s|24%|Openai
-  network: tcp
-  port: '7022'
-  reality-opts:
-    public-key: Sm0gGVH8qJHECOVhNaN2j52ayfqYcrZggyQMxiQP2Fo
-    short-id: ''
-  server: 188.245.250.75
-  servername: refersion.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce462cc3-9983-45da-b030-728fb7b5684e
-  xudp: true
-- name: 1|🇩🇪14 |  5.4MB/s|34%|Disney|Ope...
+- name: 1|🇩🇪25 |  5.2MB/s|21%|Netflix|Di...
   network: ws
   port: '80'
-  server: 104.21.56.44
+  server: 37.1.203.41
   type: vless
   udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: REEdfREe8MahSaNg2.rEDOrG.IR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /ShadowProxy66?ed=2560
+      Host: reedfree8mahsang2.redorg.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
-- name: 1|🇩🇪15 |  5.7MB/s|21%|Openai
+- name: 1|🇩🇪26 |  2.5MB/s|0%|Youtube|Ope...
   network: ws
-  port: '2082'
-  server: 104.17.147.22
+  port: '8880'
+  server: www.speedtest.net
   type: vless
   udp: true
-  uuid: d2bcab58-7182-49fa-ef37-11f7f5bcd5bf
+  uuid: 050c0819-d893-44da-b654-e806c0ecbff2
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: de-snapp.academigroup.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 1|🇩🇪27 |  4.8MB/s|21%|Disney|Ope...
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: '2053'
+  server: 172.66.44.214
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: 8899vless
-  name: 1|🇩🇪16 |  2.3MB/s|64%|Netflix|Yo...
-  network: grpc
-  port: '8899'
-  reality-opts:
-    public-key: E0lG_4RGoely0EhawUyTjR68gnQgGyOSz5Drei5ilTQ
-    short-id: 06b7f893cbc024ff
-  server: marz.fastbest.ir
-  servername: www.bluenetworks.it
+  name: 1|🇩🇪28 |  5.6MB/s|21%|Openai
+  network: ws
+  port: '8443'
+  server: www.speedtest.net
+  servername: www.fardares.ir
   tls: true
   type: vless
   udp: true
-  uuid: 8968addd-997f-4ecc-aaa1-99329ca3fb53
-  xudp: true
-- name: 1|🇩🇪17 |  5.8MB/s|21%|Openai
-  network: ws
-  port: '2082'
-  server: 104.17.148.22
-  type: vless
-  udp: true
-  uuid: d2bcab58-7182-49fa-ef37-11f7f5bcd5bf
+  uuid: 42890216-1d90-489d-a231-e0f5df231fb2
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: www.fardares.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /video
   xudp: true
-- name: 1|🇩🇪18 |  5.7MB/s|21%|Youtube|Op...
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 1|🇩🇪29 |  1.4MB/s|0%|Disney
   network: ws
-  port: '14569'
-  server: 91.107.182.145
-  type: vless
+  password: Aimer
+  port: '2087'
+  server: 162.120.94.23
+  skip-cert-verify: false
+  sni: epccj.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: d5eb3cb4-a9d5-453b-a826-58d970c616b6
   ws-opts:
     headers:
-      Host: 91.107.182.145
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /www.fastvpn.com.live.skornorth.com.zula.ir?ed=2048/?JOKERRVPN/Join_Bade_Channel@JOKERRVPN
-  xudp: true
-- name: 1|🇩🇪19 |  1.1MB/s|21%|Openai
-  network: ws
-  port: '2010'
-  server: 78.39.47.216
-  type: vless
-  udp: true
-  uuid: 3c08b806-2885-4233-9bc1-7ba89bd3fb7f
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
-  port: 31471
-  server: free.2apzhfa.xyz
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: d720f2f1-f68f-4dde-ac4c-80c1e999ff28
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 14|DE_speednode_0028
