@@ -1,31 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0,13|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 947eaa09-0f98-4a9b-ba7f-324729c67609
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 947eaa09-0f98-4a9b-ba7f-324729c67609
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 10,11|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -41,30 +18,44 @@ proxies:
     path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 10|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
   server: 3.36.122.17
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 264e7c2d-fdda-42b7-9018-d1ea6b3d628a
+  name: 13|🇸🇬新加坡 01 | 1x SG
+  password: 43bac27a-26de-464e-b8eb-c3c622f04f80
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 264e7c2d-fdda-42b7-9018-d1ea6b3d628a
+  name: 13|🇸🇬新加坡 02 | 1x SG
+  password: 43bac27a-26de-464e-b8eb-c3c622f04f80
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 264e7c2d-fdda-42b7-9018-d1ea6b3d628a
+  name: 13|🇸🇬新加坡 03 | 1x SG
+  password: 43bac27a-26de-464e-b8eb-c3c622f04f80
   port: 31175
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 7ae34e2f-d8ab-4903-bdfd-61f0f35fe711
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 7ae34e2f-d8ab-4903-bdfd-61f0f35fe711
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
