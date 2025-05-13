@@ -1,24 +1,14 @@
 proxies:
-- cipher: aes-128-cfb
-  name: 0|🇨🇦1 |  5.4MB/s|33%|Openai
-  obfs: http_post
-  obfs-param: ''
-  password: $$Turb0VPN$$
-  port: 443
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: ssca.irundns.net
-  type: ssr
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: f4032a0d-04ba-4886-9c0f-603075e08e74
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 3e12b66b-b0bd-492b-92ec-41da3db9b137
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 5c3f2de3-4ba3-4618-90df-4e36e5695328
+  password: 30e78d61-2763-4b43-9828-6825e949ecb6
   port: 36441
   server: free.2weradf.xyz
   type: ss
