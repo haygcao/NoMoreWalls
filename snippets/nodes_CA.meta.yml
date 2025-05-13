@@ -1,75 +1,68 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 8b009979-f43a-40c1-988b-c50870633a68
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 0|🇨🇦1 |  5.2MB/s|62%|Disney|Open...
+  network: ws
+  port: 443
+  server: 192.0.63.116
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 0|🇨🇦2 |  2.7MB/s|62%|Disney|Yout...
+  network: ws
+  port: 10099
+  server: 146.56.136.39
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 0|🇨🇦3 |  4.7MB/s|Netflix|Disney|...
+  network: ws
+  port: 443
+  server: kyree.ns.cloudflare.com
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 0|🇨🇦4 |  5.2MB/s|Youtube|Openai
+  network: ws
+  port: 443
+  server: time.is
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
+  password: 947eaa09-0f98-4a9b-ba7f-324729c67609
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  4.8MB/s|62%|Disney|Open...
-  network: ws
-  port: 443
-  server: iplocation.io
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇨🇦2 |  5.7MB/s|62%|Netflix|Dis...
-  network: ws
-  port: 443
-  server: 135.84.76.94
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇨🇦3 |  1.4MB/s|62%|Disney|Open...
-  network: ws
-  port: 443
-  server: 192.0.63.200
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 2|🇨🇦4 |  1.7MB/s|62%|Disney|Open...
-  network: ws
-  port: 443
-  server: 160.123.255.76
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 14|CA_speednode_0007
+- name: 13|CA_speednode_0007
   network: ws
   port: 80
   server: 44.31.62.3
@@ -83,7 +76,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|CA_speednode_0008
+- name: 13|CA_speednode_0008
   network: ws
   port: 80
   server: 44.31.62.3
@@ -97,3 +90,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: 264e7c2d-fdda-42b7-9018-d1ea6b3d628a
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
