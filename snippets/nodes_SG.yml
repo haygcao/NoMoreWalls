@@ -1,47 +1,47 @@
 proxies:
-- client-fingerprint: chrome
-  name: 0,14|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
+- client-fingerprint: chrome
+  name: 2,14|CN_speednode_0074
+  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
+  port: 35000
+  server: gzyd.cg.xxality.cn
+  skip-cert-verify: true
+  sni: cgsg2.hysality.com
+  type: trojan
   udp: true
 - alterId: 2
   cipher: auto

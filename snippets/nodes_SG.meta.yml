@@ -1,6 +1,41 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 0,14|CN_speednode_0074
+  name: 2,14|CN_speednode_0074
   password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
   port: 35000
   server: gzyd.cg.xxality.cn
@@ -8,41 +43,30 @@ proxies:
   sni: cgsg2.hysality.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
+- name: 11|Hysteria 🇸🇬 @v2meowcf
+  password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
+  port: 443
+  server: 146.19.100.138
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 11|新加坡
+  password: a914681a-8dda-4c98-8468-c313f5539b14
+  port: 2056
+  server: sg3.eyucdn.xyz
+  skip-cert-verify: true
+  sni: sg3.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+  password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
+  port: 443
+  server: 103.195.189.54
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

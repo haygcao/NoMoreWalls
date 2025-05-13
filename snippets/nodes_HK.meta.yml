@@ -1,32 +1,154 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 8b009979-f43a-40c1-988b-c50870633a68
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 4570a0a3-9186-4b39-b8e6-6284eeaad0cd
+  password: ade2e644-96ab-4a1a-8b85-efc469c0c9bb
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 02 | 1x HK
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 2|🇭🇰1 |  2.0MB/s|15%|Openai
+  network: ws
+  port: '8080'
+  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: 49c96167-3ed7-40e4-8703-80bad40c3b51
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
+  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 2,14|RU_speednode_0165
+  network: ws
+  port: 80
+  server: 185.174.138.206
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰3 |  1.5MB/s|15%|Youtube
+  network: ws
+  port: 80
+  server: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰4 |  1.7MB/s|15%|Youtube|Ope...
+  network: ws
+  port: 80
+  server: a0ae8f27-sv4n40-sw5wi7-ufc0.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰5 |  2.3MB/s|15%|Youtube|Ope...
+  network: ws
+  port: 80
+  server: 9e6fe842-sv4n40-t6ctgc-1s3hd.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰6 |  2.7MB/s|15%|Youtube|Ope...
+  network: ws
+  port: 80
+  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰7 |  1.1MB/s|15%|Youtube|Ope...
+  network: ws
+  port: 80
+  server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰8 |  1.1MB/s|15%|Youtube
+  network: ws
+  port: 80
+  server: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 2|🇭🇰9 |  2.0MB/s|Youtube
+  network: ws
+  port: 80
+  server: 87a8ce25-sv2sg0-tbicd9-1go3q.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
