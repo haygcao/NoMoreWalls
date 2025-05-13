@@ -1,43 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5ad1565d-3c3a-4aa1-ac65-1558d3f20030
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: f4032a0d-04ba-4886-9c0f-603075e08e74
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5ad1565d-3c3a-4aa1-ac65-1558d3f20030
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: f4032a0d-04ba-4886-9c0f-603075e08e74
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5ad1565d-3c3a-4aa1-ac65-1558d3f20030
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: f4032a0d-04ba-4886-9c0f-603075e08e74
   port: 31175
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: defa1a25-452f-40ff-bab5-e4b85d93297e
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: defa1a25-452f-40ff-bab5-e4b85d93297e
-  port: 36173
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -53,9 +39,23 @@ proxies:
     path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
   server: 3.36.122.17
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 5c3f2de3-4ba3-4618-90df-4e36e5695328
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 5c3f2de3-4ba3-4618-90df-4e36e5695328
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
