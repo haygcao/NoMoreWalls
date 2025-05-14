@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: 7929af2e-785a-42e8-bde5-84b09fa6c826
+  password: f900c828-ef12-4b21-8339-f51010da0bc8
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: 7929af2e-785a-42e8-bde5-84b09fa6c826
+  password: f900c828-ef12-4b21-8339-f51010da0bc8
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: 7929af2e-785a-42e8-bde5-84b09fa6c826
+  password: f900c828-ef12-4b21-8339-f51010da0bc8
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -29,24 +29,3 @@ proxies:
   skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 5292fecb-9058-4934-85cc-3271d3cdb2d2
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 5292fecb-9058-4934-85cc-3271d3cdb2d2
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 5292fecb-9058-4934-85cc-3271d3cdb2d2
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
