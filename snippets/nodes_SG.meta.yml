@@ -1,86 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: da4f74b4-2a27-408f-b3ac-7aa540eb174f
+  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: da4f74b4-2a27-408f-b3ac-7aa540eb174f
+  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: da4f74b4-2a27-408f-b3ac-7aa540eb174f
+  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 2b78404d-454a-42a8-8a6f-887b4eb926eb
-  port: 36171
-  server: free.2weradf.xyz
+- cipher: chacha20-ietf
+  name: 2|🇸🇬1 |  5.1MB/s|0%|Netflix|Disn...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 2b78404d-454a-42a8-8a6f-887b4eb926eb
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2|🇸🇬1 |  2.6MB/s|0%|Openai
-  port: 41554
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2,14|CN_speednode_0074
-  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
-  port: 35000
-  server: gzyd.cg.xxality.cn
-  skip-cert-verify: true
-  sni: cgsg2.hysality.com
-  type: trojan
-  udp: true
-- name: 2|🇸🇬3 |  1.8MB/s|Youtube|Openai
+- name: 2|🇸🇬2 |  5.7MB/s|Youtube|Openai
   network: ws
   port: '80'
-  server: 141.193.213.20
+  server: 141.193.213.21
   type: vless
   udp: true
   uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
   ws-opts:
     headers:
       Host: lk.sahanwickramasinghe.shop
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
-- delay: 1788
-  name: 2|🇸🇬4 |  2.2MB/s|Youtube|Openai
+- name: 2|🇸🇬3 |  5.8MB/s|30%|Disney|Open...
   network: ws
-  port: 80
-  server: 170.114.46.6
+  port: '80'
+  server: 141.193.213.1
   type: vless
   udp: true
-  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: lk.sahanwickramasinghe.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /
+      Host: ipsycho.suex12.ir.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
   xudp: true
+- auth: d711d15c-adf6-4d98-991e-93172cc5eff0
+  client-fingerprint: chrome
+  name: 2|🇸🇬4 |  4.8MB/s|Youtube|Openai|...
+  password: d711d15c-adf6-4d98-991e-93172cc5eff0
+  port: 30003
+  server: qyxjp.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp.qy1357.top
+  type: hysteria2
+  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
@@ -122,11 +105,28 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 3.36.122.17
+  server: 47.128.78.62
   tfo: false
   type: ss
