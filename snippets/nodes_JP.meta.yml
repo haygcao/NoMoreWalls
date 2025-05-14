@@ -1,72 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: f900c828-ef12-4b21-8339-f51010da0bc8
+  password: 49656a49-5c70-423b-8918-6e1258fcccd4
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: f900c828-ef12-4b21-8339-f51010da0bc8
+  password: 49656a49-5c70-423b-8918-6e1258fcccd4
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: f900c828-ef12-4b21-8339-f51010da0bc8
+  password: 49656a49-5c70-423b-8918-6e1258fcccd4
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 1|🇯🇵2 |  2.1MB/s|54%|Youtube|Ope...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
-  servername: centos7
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 01 | 1x JP
+  password: 0ca138e3-82be-4314-86d0-7ae81065c563
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 1|🇯🇵3 |  5.9MB/s|0%|Netflix|Disn...
-  network: http
-  port: 13883
-  server: 45.159.50.57
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 02 | 1x JP
+  password: 0ca138e3-82be-4314-86d0-7ae81065c563
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
-- down: ''
-  fingerprint: ''
-  name: 1|🇯🇵4 |  1.1MB/s|0%|Disney|Youtu...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  port: '13301'
-  server: baipiaoyun-japan.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 03 | 1x JP
+  password: 0ca138e3-82be-4314-86d0-7ae81065c563
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -78,7 +55,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 130961f0a8a6
   plugin: v2ray-plugin
   plugin-opts:
@@ -95,7 +72,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   port: 55002
   server: 183.237.84.53
   skip-cert-verify: false
@@ -106,7 +83,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|日本4|@ripaojiedian
+  name: 12,13|日本4|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
@@ -123,7 +100,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本6|@ripaojiedian
+  name: 12|🇯🇵 日本6|@ripaojiedian
   port: 13883
   server: 45.159.50.57
   skip-cert-verify: false
@@ -133,7 +110,7 @@ proxies:
   uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: yijian0503
   port: 443
   server: 47.129.101.96
@@ -141,7 +118,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 12|日本3|@ripaojiedian
+  name: 13|日本3|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -151,7 +128,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|日本5|@ripaojiedian
+  name: 13|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -161,7 +138,7 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - alterId: 0
   cipher: auto
-  name: 12|日本6|@ripaojiedian
+  name: 13|日本6|@ripaojiedian
   network: tcp
   port: '13883'
   server: 45.159.50.57
@@ -169,31 +146,3 @@ proxies:
   tls: false
   type: vmess
   uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|JP_speednode_0064
-  port: 56702
-  reality-opts:
-    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-    short-id: 792147b8
-  server: jp3.interld123456789.com
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c8a1f63-8658-4458-b997-17ad1dea1054
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|JP_speednode_0065
-  port: 56702
-  reality-opts:
-    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-    short-id: 792147b8
-  server: jp1.interld123456789.com
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1676447-0825-4b60-be37-735c9586735e
