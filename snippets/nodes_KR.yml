@@ -1,41 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
+  password: f2e3ed9f-ba50-4596-af64-b1544c3d1f82
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
+  password: f2e3ed9f-ba50-4596-af64-b1544c3d1f82
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  5.5MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  4.6MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: '4857'
-  server: 125.141.26.12
-  type: ss
+- client-fingerprint: chrome
+  name: 1|🇰🇷1 |  4.9MB/s|61%|Disney|Open...
+  network: ws
+  password: bpb-trojan
+  port: '443'
+  server: bg.madison.eu.org
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  5.0MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: '15098'
-  server: 125.141.31.72
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /tr?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 36379
   server: p080.panda001.net
@@ -43,22 +38,16 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: yijian0503
   port: 443
   server: 13.250.27.89
   tfo: false
   type: ss
-- name: 14|KR_speednode_0163
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: hr.madison.eu.org
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 2babb856-4375-4930-b6c3-4cc955ebcf71
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560

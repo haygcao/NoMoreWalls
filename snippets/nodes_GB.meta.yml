@@ -1,35 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
+  password: f2e3ed9f-ba50-4596-af64-b1544c3d1f82
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8cc1aada-4ed1-4e3f-9f1c-7912fe81ed22
+  password: f2e3ed9f-ba50-4596-af64-b1544c3d1f82
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-  name: 2|🇬🇧1 |  5.2MB/s|0%|Netflix|Disn...
-  network: grpc
-  port: '2030'
-  reality-opts:
-    public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-    short-id: 7fe29733
-  server: 74.220.23.227
-  servername: refersion.com
-  tls: true
-  type: vless
+  name: 1|🇬🇧1 |  1.5MB/s|59%|Youtube|Ope...
+  password: RlzoEILU
+  port: '8513'
+  server: 36.151.251.61
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 98e5553e-abcc-4c9a-941a-8f0e9741d541
-  xudp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- auth: nfsn666
+  name: 1|🇬🇧2 |  2.5MB/s|61%|Youtube|Ope...
+  password: nfsn666
+  port: 8888
+  server: ld-arm.nfsn666.gq
+  skip-cert-verify: true
+  sni: ld-arm.nfsn666.gq
+  type: hysteria2
+  udp: true
+- auth: d711d15c-adf6-4d98-991e-93172cc5eff0
+  client-fingerprint: chrome
+  name: 1|🇬🇧3 |  5.2MB/s|59%|Youtube|Ope...
+  password: d711d15c-adf6-4d98-991e-93172cc5eff0
+  port: 30003
+  server: qyyg.qy1357.top
+  skip-cert-verify: true
+  sni: qyyg.qy1357.top
+  type: hysteria2
+  udp: true
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -37,3 +48,31 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 13|GB_speednode_0016
+  network: ws
+  port: 80
+  server: 194.36.55.181
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: 2babb856-4375-4930-b6c3-4cc955ebcf71
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 2babb856-4375-4930-b6c3-4cc955ebcf71
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
