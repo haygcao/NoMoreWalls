@@ -1,28 +1,48 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: 70ca08b9-d454-4bd5-86cf-2ed3a8bb6148
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 70ca08b9-d454-4bd5-86cf-2ed3a8bb6148
+  password: 37e9a936-e160-4986-a8e2-0ca46bf9d184
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇭🇰1 |  4.6MB/s|Youtube|Openai
+  network: ws
+  port: 8080
+  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+    path: /
+- cipher: chacha20-ietf
+  name: 1|🇭🇰2 |  1.1MB/s|0%
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港 02 | 1x HK
-  password: a15c730b-a2a1-4ef2-a99a-e31266ed444b
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰 香港住宅IP 03 | 1x HK
-  password: a15c730b-a2a1-4ef2-a99a-e31266ed444b
+  password: ba61b6bf-1e45-4af7-9868-6cbd094af55a
   port: 36145
   server: free.2weradf.xyz
   type: ss
