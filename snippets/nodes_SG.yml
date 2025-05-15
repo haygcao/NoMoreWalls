@@ -1,35 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 1236c324-ebed-4cba-9367-4546d31fb9b2
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 1236c324-ebed-4cba-9367-4546d31fb9b2
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 1236c324-ebed-4cba-9367-4546d31fb9b2
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: cc7f81cf-848f-4177-80a5-fe3c9686e730
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: bfb40fde-b944-4893-a67f-802ca8aeabb8
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: cc7f81cf-848f-4177-80a5-fe3c9686e730
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: bfb40fde-b944-4893-a67f-802ca8aeabb8
   port: 36173
   server: free.2weradf.xyz
   type: ss
@@ -68,6 +68,14 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
+  skip-cert-verify: false
+  sni: mortify.koreanbbq.link
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇸🇬 狮城特殊|@ripaojiedian

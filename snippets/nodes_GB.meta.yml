@@ -1,70 +1,20 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: 1236c324-ebed-4cba-9367-4546d31fb9b2
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 1236c324-ebed-4cba-9367-4546d31fb9b2
+  password: 9bb5d685-bcbd-4c5b-90f6-b69c6a0eff9f
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: cc7f81cf-848f-4177-80a5-fe3c9686e730
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: cc7f81cf-848f-4177-80a5-fe3c9686e730
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alpn:
-  - h2http/1.1
-  client-fingerprint: chrome
-  name: 2|🇬🇧1 |  1.4MB/s|44%|Openai
-  network: ws
-  port: '443'
-  server: www.speedtest.net
-  servername: BmUcKcNq2.ZuKaRiO.InFo
-  tls: true
-  type: vless
-  udp: true
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: BmUcKcNq2.ZuKaRiO.InFo
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
-  xudp: true
-- auth: nfsn666
-  name: 2|🇬🇧2 |  5.2MB/s|Youtube|Openai
-  password: nfsn666
-  port: 8888
-  server: ld-arm.nfsn666.gq
-  skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  type: hysteria2
-  udp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
-  password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
-  port: 443
-  server: 178.236.237.84
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 14|GB_speednode_0163
+  name: 1,14|GB_speednode_0163
   port: 55311
   reality-opts:
     public-key: YUcUHdfvj0h3EbIe2kLT9IM4J3Q1O3Cpb29gKxE2fwM
@@ -76,6 +26,28 @@ proxies:
   type: vless
   udp: true
   uuid: 52a0b1c0-0b8d-4e08-a2ae-89f6f13852b4
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰 香港 01 | 1x HK
+  password: bfb40fde-b944-4893-a67f-802ca8aeabb8
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
+  password: bfb40fde-b944-4893-a67f-802ca8aeabb8
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇬🇧 @v2meowcf
+  password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
+  port: 443
+  server: 178.236.237.84
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 14|GB_speednode_0164
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
