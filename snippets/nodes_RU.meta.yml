@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 049a264f-25af-4cdf-b5a8-9cc7120c910d
+  password: 5aa95c20-1e1c-4abe-8670-d0cb72abfc99
   port: 36511
   server: free.2weradf.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 1|🇷🇺1 |  5.6MB/s|50%
+  name: 1|🇷🇺1 |  4.9MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -20,19 +20,11 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
-- fast-open: true
-  name: 1|🇷🇺2 |  5.9MB/s|50%
-  password: dongtaiwang.com
-  port: 10011
-  server: hy2.694463.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇷🇺3 |  4.4MB/s
+  name: 1|🇷🇺2 |  1.2MB/s|50%
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
@@ -40,16 +32,16 @@ proxies:
   type: hysteria
   up: 1000 Mbps
 - auth: dongtaiwang.com
-  name: 1|🇷🇺4 |  2.0MB/s|0%
+  name: 1|🇷🇺3 |  4.0MB/s|50%
   password: dongtaiwang.com
   port: 10011
-  server: 46.29.163.171
+  server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 2|🇷🇺俄罗斯 01 | 1x RU
-  password: a6e51868-1d7a-4636-b16f-3a1da92f4ac2
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
   port: 31511
   server: free.2apzhfa.xyz
   type: ss

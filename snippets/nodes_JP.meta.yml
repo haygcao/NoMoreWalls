@@ -1,66 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 049a264f-25af-4cdf-b5a8-9cc7120c910d
+  password: 5aa95c20-1e1c-4abe-8670-d0cb72abfc99
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 049a264f-25af-4cdf-b5a8-9cc7120c910d
+  password: 5aa95c20-1e1c-4abe-8670-d0cb72abfc99
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 049a264f-25af-4cdf-b5a8-9cc7120c910d
+  password: 5aa95c20-1e1c-4abe-8670-d0cb72abfc99
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵1 |  2.9MB/s|12%|Youtube|Ope...
-  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 1|🇯🇵2 |  3.5MB/s|12%|Youtube|Ope...
-  network: ws
-  port: '443'
-  server: 20.210.64.11
-  servername: vsdfee.azurewebsites.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: vsdfee.azurewebsites.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: ''
-  xudp: true
-- cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 01 | 1x JP
-  password: a6e51868-1d7a-4636-b16f-3a1da92f4ac2
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 02 | 1x JP
-  password: a6e51868-1d7a-4636-b16f-3a1da92f4ac2
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇯🇵日本 03 | 1x JP
-  password: a6e51868-1d7a-4636-b16f-3a1da92f4ac2
+  password: 49b43e88-8b20-4c46-ab8f-af384223b1e0
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
