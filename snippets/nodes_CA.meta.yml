@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
-  password: 7e326876-176f-474d-b35b-e95eedd52451
+  password: 69f7ab13-1075-4588-b1c4-f32fc42de276
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: dee4c2ed-cf7f-4b01-b87a-9786bb074d9c
+  password: 01fb71a6-7155-4335-844d-08ac7baba95b
   port: 36441
   server: free.2weradf.xyz
   type: ss
@@ -27,20 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-- alterId: 2
-  cipher: auto
-  name: 2|🇨🇦2 |  5.8MB/s|Youtube|Openai
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /oooo
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0023
