@@ -1,20 +1,9 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 1|🇹🇼1 |  2.0MB/s|0%|Disney|Youtu...
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: records.godeove.xyz
-  type: ssr
 - client-fingerprint: chrome
-  name: 12,13|台湾|@ripaojiedian
-  network: tcp
+  name: 10|🇹🇼 台湾|@ripaojiedian
   password: 9f19a22d-60d0-4cf8-935d-ebcff8546054
   port: 42765
   server: wb.kaiqsz.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: mmbiz1.redapricotcloud.com
   type: trojan

@@ -1,7 +1,7 @@
 proxies:
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 10|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -13,7 +13,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 10|🇯🇵 日本2|@ripaojiedian
   password: af77ad2f906d
   plugin: v2ray-plugin
   plugin-opts:
@@ -30,7 +30,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 10|🇯🇵 日本3|@ripaojiedian
   port: 55002
   server: 183.237.84.53
   skip-cert-verify: false
@@ -41,7 +41,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 10|🇯🇵 日本4|@ripaojiedian
   port: 33184
   server: gzhmbkqt.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
@@ -49,33 +49,3 @@ proxies:
   tls: false
   type: vmess
   uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
-- alterId: 64
-  cipher: auto
-  name: 13|日本3|@ripaojiedian
-  network: tcp
-  port: '55002'
-  server: 183.237.84.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|日本4|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
-- alterId: 0
-  cipher: auto
-  name: 13|日本5|@ripaojiedian
-  network: kcp
-  port: '53893'
-  server: 47.74.41.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a

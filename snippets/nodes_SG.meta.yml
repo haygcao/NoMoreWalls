@@ -1,41 +1,11 @@
 proxies:
-- name: 1,14|US_speednode_0127
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  servername: xrr.rtxconfigz.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-    path: /
-- name: 1|🇸🇬2 |  3.3MB/s|Youtube|Openai
-  network: ws
-  port: '8080'
-  server: 170.114.45.6
-  servername: xrr.rtxconfigz.xyz
-  type: vless
-  udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
-  ws-opts:
-    headers:
-      Host: xrr.rtxconfigz.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 10|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '30812'
+  port: 30812
   server: v12.heduian.link
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -48,7 +18,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 10|🇸🇬 新加坡2|@ripaojiedian
   port: 54652
   server: 183.236.51.38
   skip-cert-verify: false
@@ -56,17 +26,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡2|@ripaojiedian
-  network: tcp
-  port: '54652'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|SG_speednode_0082
+- name: 12|SG_speednode_0082
   network: ws
   port: 8880
   server: 92.243.74.20
@@ -80,7 +40,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0083
+- name: 12|SG_speednode_0083
   network: ws
   port: 2087
   server: 27.50.48.18

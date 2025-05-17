@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0022
+  name: 12|CA_speednode_0022
   port: 56565
   reality-opts:
     public-key: 59iI-5g0yQ3r6ZaoBOQSWOCnMw6_t_q0oS4gXngXhW0
@@ -15,7 +15,7 @@ proxies:
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0023
+  name: 12|CA_speednode_0023
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg

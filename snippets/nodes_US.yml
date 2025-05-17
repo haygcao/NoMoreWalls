@@ -1,20 +1,5 @@
 proxies:
-- name: 1|🇺🇸19 |  1.6MB/s|46%|Openai|Gem...
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 15229
-  server: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
-  skip-cert-verify: true
-  sni: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
-  tfo: false
-  type: trojan
-  udp: true
-- name: 1|🇺🇸48 |  4.3MB/s|46%|Openai|Gem...
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 15229
-  server: 8941bc90-swexs0-t1bnjq-1krtb.cu.plebai.net
-  sni: 8941bc90-swexs0-t1bnjq-1krtb.cu.plebai.net
-  type: trojan
-- name: 1|🇺🇸49 |  1.8MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸17 |  1.2MB/s|46%|Openai|Gem...
   password: 8f55b5d6-f98f-11ef-ba82-f23c913c8d2b
   port: 15229
   server: 301b8cf2-swexs0-sxgzej-1teze.cu.plebai.net
@@ -23,7 +8,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸52 |  5.0MB/s|32%|Netflix|Di...
+  name: 0|🇺🇸18 |  4.9MB/s|32%|Netflix|Di...
   network: ws
   port: 2096
   server: 141.101.120.253
@@ -38,28 +23,81 @@ proxies:
       Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: 1|🇺🇸66 |  4.0MB/s|46%|Openai|Gem...
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 15229
-  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  sni: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 1|🇺🇸71 |  2.1MB/s|59%|Openai|Gem...
-  password: RlzoEILU
-  port: 55860
-  server: 36.151.251.59
-  skip-cert-verify: true
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 0,10|🇺🇸 美国5|@ripaojiedian
   network: ws
-  port: '30832'
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸43 |  1.2MB/s|29%|Openai
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸46 |  1.7MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸48 |  2.5MB/s|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: zxjp-c.tkong.cc
+  ws-path: /
+- client-fingerprint: chrome
+  name: 0|🇺🇸52 |  2.8MB/s|46%|Openai|Gem...
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: '15229'
+  server: 5abd5e38-swgsg0-swy6li-tni2.cu.plebai.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国|@ripaojiedian
+  network: ws
+  port: 30832
   server: v32.heduian.link
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -71,7 +109,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -84,9 +122,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 10|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: '22642'
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
   skip-cert-verify: false
@@ -98,24 +136,7 @@ proxies:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
-  network: ws
-  port: '22641'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- name: 14|US_speednode_0104
+- name: 12|US_speednode_0104
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -128,7 +149,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=162.159.153.217:443&proxyIP=null
-- name: 14|US_speednode_0109
+- name: 12|US_speednode_0109
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -141,7 +162,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=162.159.152.205:443&proxyIP=null
-- name: 14|US_speednode_0110
+- name: 12|US_speednode_0110
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -154,7 +175,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.194:443&proxyIP=null
-- name: 14|US_speednode_0111
+- name: 12|US_speednode_0111
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -167,7 +188,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.81:443&proxyIP=null
-- name: 14|US_speednode_0112
+- name: 12|US_speednode_0112
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -180,7 +201,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.81:443
-- name: 14|US_speednode_0114
+- name: 12|US_speednode_0114
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -193,7 +214,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=162.159.153.209:443&proxyIP=null
-- name: 14|US_speednode_0119
+- name: 12|US_speednode_0119
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -206,7 +227,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.184:443&proxyIP=null
-- name: 14|US_speednode_0120
+- name: 12|US_speednode_0120
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
