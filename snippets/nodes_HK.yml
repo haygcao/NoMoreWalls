@@ -1,31 +1,116 @@
 proxies:
-- cipher: chacha20-ietf
-  delay: 763
-  name: 0|🇭🇰1 |  2.7MB/s|16%|Disney
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: csilicovolcanoconiosis.godeove.xyz
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 537fc50f-22bf-4e39-9a95-02124f479c53
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
   udp: true
-- name: 0|🇭🇰2 |  5.1MB/s|16%|Netflix|Dis...
-  password: RlzoEILU
-  port: 15624
-  server: 36.156.102.124
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 537fc50f-22bf-4e39-9a95-02124f479c53
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 05c8626c-494c-4d53-8f8d-24e6597984e3
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 05c8626c-494c-4d53-8f8d-24e6597984e3
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2,14|CN_speednode_0025
+  password: b6200af42ccadea353f5b5856dd20d70
+  port: 39001
+  server: 120.233.128.68
   skip-cert-verify: true
+  sni: 120.233.128.68
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 2,12,13|香港5|@ripaojiedian
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰3 |  3.5MB/s|Disney
+  name: 2|🇭🇰3 |  1.9MB/s
   password: a2a1677c-0799-487e-8827-6cf0d4b5b86a
   port: 49709
   server: jg647hf446ghvw.gym0boy.com
   type: ss
+- client-fingerprint: chrome
+  name: 2|🇭🇰4 |  1.4MB/s|0%|Youtube
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  skip-cert-verify: false
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰5 |  3.0MB/s|43%|Youtube
+  network: ws
+  port: 443
+  server: 104.21.6.201
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰6 |  4.4MB/s|43%|Youtube
+  network: ws
+  port: 443
+  server: 172.67.135.62
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 2|🇭🇰7 |  4.3MB/s|43%|Youtube
+  network: ws
+  port: 443
+  server: hknbyivfffj.site
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   password: ENYGONDU94UW1G6X
   port: 15010
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -33,7 +118,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -50,7 +135,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 35921
   server: 120.198.71.216
   skip-cert-verify: false
@@ -61,7 +146,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   port: 43302
   server: 183.236.51.38
   skip-cert-verify: false
@@ -69,18 +154,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 10|🇭🇰 香港5|@ripaojiedian
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   port: 45939
   server: 103.30.76.218
   skip-cert-verify: false
@@ -91,7 +168,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港7|@ripaojiedian
+  name: 12|🇭🇰 香港7|@ripaojiedian
   port: 41554
   server: 183.236.51.38
   skip-cert-verify: false
@@ -99,7 +176,47 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12|HK_speednode_0060
+- alterId: 64
+  cipher: auto
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '35921'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|香港4|@ripaojiedian
+  network: tcp
+  port: '43302'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港6|@ripaojiedian
+  network: tcp
+  port: '45939'
+  server: 103.30.76.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
+- alterId: 64
+  cipher: auto
+  name: 13|香港7|@ripaojiedian
+  network: tcp
+  port: '41554'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|HK_speednode_0060
   network: ws
   password: bpb-trojan
   port: 443
@@ -112,7 +229,7 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr?ed=2560
-- name: 12|HK_speednode_0061
+- name: 14|HK_speednode_0061
   network: ws
   password: bpb-trojan
   port: 443

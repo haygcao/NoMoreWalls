@@ -1,9 +1,52 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 537fc50f-22bf-4e39-9a95-02124f479c53
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 537fc50f-22bf-4e39-9a95-02124f479c53
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 537fc50f-22bf-4e39-9a95-02124f479c53
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 05c8626c-494c-4d53-8f8d-24e6597984e3
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 05c8626c-494c-4d53-8f8d-24e6597984e3
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 05c8626c-494c-4d53-8f8d-24e6597984e3
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
+  name: 12,13|台湾|@ripaojiedian
+  network: tcp
   password: 9f19a22d-60d0-4cf8-935d-ebcff8546054
   port: 42765
   server: wb.kaiqsz.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: mmbiz1.redapricotcloud.com
   type: trojan
