@@ -1,33 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 2|🇭🇰1 |  4.5MB/s|37%|Youtube
-  network: http
-  port: 3000
-  server: 18.162.203.189
+  client-fingerprint: chrome
+  name: 1,12,13|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  servername: ''
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
@@ -111,23 +127,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 64
   cipher: auto
   name: 13|香港3|@ripaojiedian

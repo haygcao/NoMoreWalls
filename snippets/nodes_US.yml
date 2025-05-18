@@ -1,55 +1,82 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2,14|CN_speednode_0028
-  password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+- name: 1,14|CN_speednode_0029
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
-  server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
+  server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
   skip-cert-verify: false
-  sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
   type: trojan
   udp: true
-- name: 2,14|CN_speednode_0027
-  password: d30d2718-91d5-11ef-b635-f23c9164ca5d
-  port: 15229
-  server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  network: ws
+  port: 30829
+  server: v29.heduian.link
   skip-cert-verify: false
-  sni: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 2|🇺🇸72 |  4.3MB/s|Openai
-  password: RlzoEILU
-  port: 7815
-  server: 36.151.251.59
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 2|🇺🇸73 |  1.8MB/s|46%|Openai|Gem...
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
-  server: 5abd5e38-swgsg0-swy6li-tni2.cu.plebai.net
+  server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
+  sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
+- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+  password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+  port: 15229
+  server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  skip-cert-verify: true
+  sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian

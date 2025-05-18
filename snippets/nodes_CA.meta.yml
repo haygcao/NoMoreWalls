@@ -1,22 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: aafbd8bc-a6b7-4d76-8f99-9c5d527f60d2
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 2|🇨🇦1 |  1.8MB/s|28%|Youtube|Ope...
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 84c1aca2-d9d4-4f6d-8f31-f38ba5df12e6
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
-    path: /
