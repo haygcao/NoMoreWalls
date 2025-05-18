@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 98cd475e-8f0a-48b6-be1a-06240f721f7d
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 1,14|CN_speednode_0029
@@ -57,24 +57,24 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: a3566fc5-f77d-4c3b-a7a5-a85becb26850
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
