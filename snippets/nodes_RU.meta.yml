@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: d8e83f25-5cda-4cde-8987-af20df9c20f4
+  password: 471e1569-2814-47c4-b7dc-93df9517f761
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
@@ -22,7 +22,7 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: 13|RU_speednode_0136
+- name: 13|RU_speednode_0099
   network: ws
   port: 8880
   server: 194.53.53.20
@@ -36,21 +36,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 13|RU_speednode_0137
-  network: ws
-  port: 8880
-  server: 31.12.75.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 13|RU_speednode_0138
+- name: 13|RU_speednode_0100
   network: ws
   port: 443
   server: 45.67.215.168
@@ -64,85 +50,21 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 13|RU_speednode_0140
+- name: 13|RU_speednode_0101
   network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.234
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.234:443&proxyIP=null
-- name: 13|RU_speednode_0141
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.196
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.196:443&proxyIP=null
-- name: 13|RU_speednode_0142
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.234
+  port: 8880
+  server: 31.12.75.20
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
-  sni: icecream.955850.xyz
-  type: trojan
+  tls: false
+  type: vless
   udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.234:443
-- name: 13|RU_speednode_0143
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.153
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.153:443&proxyIP=null
-- name: 13|RU_speednode_0144
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 45.67.215.218
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=45.67.215.218:443&proxyIP=null
-- name: 13|RU_speednode_0145
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 13|RU_speednode_0146
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 13|RU_speednode_0102
   network: ws
   port: 443
   server: 45.67.215.117
@@ -156,3 +78,36 @@ proxies:
     headers:
       Host: cl.bgm2024.dpdns.org
     path: /ss.vs2024.us.kg
+- name: 13|RU_speednode_0103
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.196
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.196:443&proxyIP=null
+- name: 13|RU_speednode_0104
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 45.67.215.234
+  skip-cert-verify: false
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=45.67.215.234:443
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: b709f72b-3cf3-4986-b7b3-8499f0370487
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

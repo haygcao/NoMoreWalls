@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: d8e83f25-5cda-4cde-8987-af20df9c20f4
+  password: 471e1569-2814-47c4-b7dc-93df9517f761
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -19,19 +19,10 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- name: 13|DE_speednode_0036
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.120.242.252
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 13|DE_speednode_0037
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.120.242.252
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: b709f72b-3cf3-4986-b7b3-8499f0370487
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
   udp: true
