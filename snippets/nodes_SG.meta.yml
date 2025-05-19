@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 917c2abf-fe4f-4abe-8983-4e3c8f94add7
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 917c2abf-fe4f-4abe-8983-4e3c8f94add7
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -23,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+- name: 0|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
   server: 64.176.38.232
@@ -37,7 +23,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 1,13|SC_speednode_0105
+- name: 0,13|SC_speednode_0105
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -51,6 +37,27 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: f5bad4a6-9737-4f54-9251-ef329c795c0f
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: f5bad4a6-9737-4f54-9251-ef329c795c0f
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: f5bad4a6-9737-4f54-9251-ef329c795c0f
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -87,23 +94,16 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: c9a39d38-8676-4f29-a443-d73264533ae3
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 14|🇸🇬 新加坡 01 | 1x SG
+  password: 2f91c165-15f6-40be-ae9e-5f7754feb350
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: c9a39d38-8676-4f29-a443-d73264533ae3
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: c9a39d38-8676-4f29-a443-d73264533ae3
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 14|🇸🇬 新加坡 02 | 1x SG
+  password: 2f91c165-15f6-40be-ae9e-5f7754feb350
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true

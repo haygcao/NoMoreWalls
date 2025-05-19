@@ -1,16 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: 917c2abf-fe4f-4abe-8983-4e3c8f94add7
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 1|🇷🇺1 |  2.5MB/s|50%
+  name: 0|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -22,6 +15,13 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: f5bad4a6-9737-4f54-9251-ef329c795c0f
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 13|RU_speednode_0099
   network: ws
   port: 8880
@@ -105,9 +105,9 @@ proxies:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.234:443
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: c9a39d38-8676-4f29-a443-d73264533ae3
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: 2f91c165-15f6-40be-ae9e-5f7754feb350
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
