@@ -1,35 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -58,7 +58,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 2,14|SC_speednode_0105
+- name: 2|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
   network: ws
   port: 8880
   server: 154.197.108.20

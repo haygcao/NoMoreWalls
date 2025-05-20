@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: b8cd1baa-9d2c-4da7-990b-db4386a73161
+  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪德国 01 | 1x DE
-  password: 64af3823-a7ea-4dd9-8cf7-4322f2f90d3f
+  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -99,7 +99,7 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 14|DE_speednode_0022
+- name: 14|DE_speednode_0008
   network: ws
   port: 8880
   server: 89.116.46.20
@@ -113,17 +113,3 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|DE_speednode_0023
-  network: ws
-  port: 8443
-  server: 5.104.75.130
-  servername: CiR346yL3b.DeRaKhT.iNfO
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e769ce1-34be-4e3f-b0a6-823f30eb8f69
-  ws-opts:
-    headers:
-      Host: CiR346yL3b.DeRaKhT.iNfO
-    path: /
