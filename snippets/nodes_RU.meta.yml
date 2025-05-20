@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 | 1x RU
-  password: bbff4ab2-cece-4b5e-beb8-d277b5a5fa75
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 38471dd5-1c5f-4448-ba9e-0c4a1a1782b2
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: ff1e9f3d-d5e0-4cfd-a72a-4da316d564b2
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
@@ -17,7 +10,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 2|🇷🇺1 |  2.5MB/s|50%
+  name: 1|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -31,13 +24,13 @@ proxies:
   version: 5
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇷🇺 俄罗斯|@ripaojiedian
+  name: 11|🇷🇺 俄罗斯|@ripaojiedian
   password: 4194ce5b1f36f660
   port: 4018
   server: 176.32.35.68
   tfo: false
   type: ss
-- name: 14|RU_speednode_0018
+- name: 13|RU_speednode_0018
   network: ws
   port: 8880
   server: 31.12.75.20
@@ -51,7 +44,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|RU_speednode_0019
+- name: 13|RU_speednode_0019
   network: ws
   port: 8880
   server: 194.53.53.20
@@ -65,3 +58,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: e26ef0d3-a065-4a30-a3c0-88fd5dccfd21
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
