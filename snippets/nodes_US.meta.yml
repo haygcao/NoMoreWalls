@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 91a212fa-f1ec-4389-aad1-a88ca7693746
+  password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 91a212fa-f1ec-4389-aad1-a88ca7693746
+  password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 91a212fa-f1ec-4389-aad1-a88ca7693746
+  password: d0a655f4-35e0-4a17-bdcd-a1ce6f7cce91
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -561,7 +561,7 @@ proxies:
     headers:
       Host: cl.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 1,14|US_speednode_0023
+- name: 1,13|US_speednode_0023
   network: ws
   port: 8880
   server: 108.162.198.20
@@ -1334,28 +1334,7 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: eaed3534-80de-4e20-96fc-b80f31f12574
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: eaed3534-80de-4e20-96fc-b80f31f12574
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: eaed3534-80de-4e20-96fc-b80f31f12574
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: '11|Channel id: @ShadowProxy66🇺🇸'
+- name: '10|Channel id: @ShadowProxy66🇺🇸'
   password: 238c7704-944d-40cd-a1cf-fb775d51ac54
   port: 21042
   server: 164.152.33.5
@@ -1363,7 +1342,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #1'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #1'
   password: 87f055ba
   port: 60000
   server: 141.11.89.172
@@ -1371,7 +1350,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #2'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #2'
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.207.162
@@ -1379,7 +1358,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #3'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #3'
   password: dongtaiwang.com
   port: 65232
   server: 108.181.5.130
@@ -1387,7 +1366,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇺🇸 #4'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #4'
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -1397,7 +1376,7 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1410,7 +1389,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -1427,7 +1406,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 11,12|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -1444,7 +1423,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: ws
   port: '22641'
   server: tk.hzlt.tkddns.xyz
@@ -1458,7 +1437,7 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: 14|US_speednode_0022
+- name: 13|US_speednode_0022
   network: ws
   port: 8880
   server: 198.41.219.20
@@ -1472,7 +1451,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0024
+- name: 13|US_speednode_0024
   network: ws
   port: 8880
   server: 14.102.229.20
@@ -1486,7 +1465,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0025
+- name: 13|US_speednode_0025
   network: ws
   port: 8880
   server: 198.41.192.20
@@ -1500,7 +1479,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0026
+- name: 13|US_speednode_0026
   network: ws
   port: 8880
   server: 162.159.7.20
@@ -1514,7 +1493,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0027
+- name: 13|US_speednode_0027
   network: ws
   port: 8880
   server: 141.101.120.20
@@ -1528,7 +1507,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0028
+- name: 13|US_speednode_0028
   network: ws
   port: 8880
   server: 172.66.44.20
@@ -1542,7 +1521,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0029
+- name: 13|US_speednode_0029
   network: ws
   port: 8880
   server: 198.41.199.20
@@ -1556,7 +1535,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0031
+- name: 13|US_speednode_0031
   network: ws
   port: 8880
   server: 162.159.136.20
@@ -1570,7 +1549,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0032
+- name: 13|US_speednode_0032
   network: ws
   port: 8880
   server: 198.41.217.20
@@ -1584,7 +1563,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0033
+- name: 13|US_speednode_0033
   network: ws
   port: 8880
   server: 14.102.228.20
@@ -1598,7 +1577,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0035
+- name: 13|US_speednode_0035
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1612,7 +1591,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v02.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0036
+- name: 13|US_speednode_0036
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1626,7 +1605,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0037
+- name: 13|US_speednode_0037
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1640,7 +1619,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v11.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0038
+- name: 13|US_speednode_0038
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1654,7 +1633,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v04.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0039
+- name: 13|US_speednode_0039
   network: ws
   port: 8880
   server: 104.129.165.20
@@ -1668,7 +1647,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0040
+- name: 13|US_speednode_0040
   network: ws
   port: 80
   server: 151.101.2.228
@@ -1682,7 +1661,7 @@ proxies:
     headers:
       Host: foffmelo.com
     path: /olem/ws?ed=1024
-- name: 14|US_speednode_0042
+- name: 13|US_speednode_0042
   network: ws
   port: 8880
   server: 198.41.223.20
@@ -1696,7 +1675,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0043
+- name: 13|US_speednode_0043
   network: ws
   port: 8880
   server: 172.66.2.20
@@ -1710,7 +1689,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0044
+- name: 13|US_speednode_0044
   network: ws
   port: 8880
   server: 162.159.61.20
@@ -1724,7 +1703,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0045
+- name: 13|US_speednode_0045
   network: ws
   port: 80
   server: 151.101.2.219
@@ -1738,7 +1717,7 @@ proxies:
     headers:
       Host: foffmelo.com
     path: /olem/ws?ed=1024
-- name: 14|US_speednode_0046
+- name: 13|US_speednode_0046
   network: ws
   port: 8880
   server: 198.41.214.20
@@ -1752,7 +1731,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0047
+- name: 13|US_speednode_0047
   network: ws
   port: 8880
   server: 167.68.11.20
@@ -1766,7 +1745,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|US_speednode_0048
+- name: 13|US_speednode_0048
   network: ws
   port: 80
   server: speedtest.net
@@ -1783,7 +1762,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: randomized
-  name: 14|US_speednode_0049
+  name: 13|US_speednode_0049
   network: ws
   port: 443
   server: 188.114.97.3
@@ -1798,7 +1777,7 @@ proxies:
       Host: paS-kaLE-AGhA.pageS.deV
     path: /Telegram@V2ray_Alpha/?ed=2560
 - client-fingerprint: chrome
-  name: 14|US_speednode_0050
+  name: 13|US_speednode_0050
   network: ws
   port: 443
   server: 104.18.26.39
@@ -1812,7 +1791,7 @@ proxies:
     headers:
       Host: 25707.lanpinguo.cloud-ip.biz
     path: /?ed=2560
-- name: 14|US_speednode_0051
+- name: 13|US_speednode_0051
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1826,7 +1805,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v06.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0052
+- name: 13|US_speednode_0052
   network: ws
   port: 80
   server: hajlab.ucdavis.edu
@@ -1840,7 +1819,7 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v01.networkpro.net
     path: /?ed=2048
-- name: 14|US_speednode_0053
+- name: 13|US_speednode_0053
   network: ws
   port: 443
   server: 172.66.44.156
@@ -1854,7 +1833,7 @@ proxies:
     headers:
       Host: besTiIvPn-6t8.PAGes.DEV
     path: /FmuwAIEMEYaRjcUE?ed=2560
-- name: 14|US_speednode_0054
+- name: 13|US_speednode_0054
   network: ws
   port: 80
   server: partner.zoom.us
@@ -1868,3 +1847,24 @@ proxies:
     headers:
       Host: 14.sahanwickramasinghe.shop
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: db4da550-16db-4e90-9fc6-a66d5e9ac567
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: db4da550-16db-4e90-9fc6-a66d5e9ac567
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: db4da550-16db-4e90-9fc6-a66d5e9ac567
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
