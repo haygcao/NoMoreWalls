@@ -105,7 +105,15 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 13|FR_speednode_0009
+- name: '11|Channel id: @ShadowProxy66🇫🇷'
+  password: dongtaiwang.com
+  port: 23587
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 14|FR_speednode_0009
   network: ws
   port: 8880
   server: 185.16.110.20
