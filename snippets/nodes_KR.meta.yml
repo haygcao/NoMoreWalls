@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 469562e5-3413-476d-a3a3-027be1995dc4
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - name: 1,14|US_speednode_0180
   network: ws
   port: 8880
@@ -41,17 +34,10 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: 0139bef7-834e-43ce-9d9a-5f817475c15f
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: 0139bef7-834e-43ce-9d9a-5f817475c15f
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 78e34996-7ed8-4d99-9c25-c6d523e2fe3d
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 11|🇰🇷韩国11 | ⬇️ 13.6MB/s|62%|Disne...
