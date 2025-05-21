@@ -1,28 +1,161 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 8a9de591-0766-46eb-9e46-cd4035795abd
+  password: 65d65d4d-0561-4969-b618-ec704a487788
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 8a9de591-0766-46eb-9e46-cd4035795abd
+  password: 65d65d4d-0561-4969-b618-ec704a487788
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 63714f01-8d6f-4883-bd56-4f78f493d3a9
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
+- name: 13|GB_speednode_0068
+  network: ws
+  port: 8880
+  server: 109.176.239.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0069
+  network: ws
+  port: 8880
+  server: 25.129.196.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0070
+  network: ws
+  port: 8880
+  server: 80.93.202.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0071
+  network: ws
+  port: 8880
+  server: 25.26.27.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0072
+  network: ws
+  port: 8880
+  server: 25.129.197.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0073
+  network: ws
+  port: 8880
+  server: 25.129.198.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0074
+  network: ws
+  port: 8880
+  server: 94.247.142.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0075
+  network: ws
+  port: 8880
+  server: 194.36.55.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0076
+  network: ws
+  port: 8880
+  server: 25.25.25.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0077
+  network: ws
+  port: 8880
+  server: 25.129.199.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 63714f01-8d6f-4883-bd56-4f78f493d3a9
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 3eb2bc9d-bb8c-4081-bfcc-7eaaffc25a83
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
