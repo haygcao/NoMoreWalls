@@ -1,6 +1,27 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 1b5a6123-859c-403f-96dc-bbdb398cd365
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 1b5a6123-859c-403f-96dc-bbdb398cd365
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 1b5a6123-859c-403f-96dc-bbdb398cd365
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 0|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -10,7 +31,7 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   password: bbe100f7-3b61-4602-8dc6-795239682ade
   port: 42765
   server: wb.kaiqsz.com
@@ -18,43 +39,22 @@ proxies:
   sni: mmbiz1.redapricotcloud.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 01 | 1x TW
-  password: eccb24c1-bdc4-4aaf-8ae9-92553667c0d1
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 02 | 1x TW
-  password: eccb24c1-bdc4-4aaf-8ae9-92553667c0d1
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 03 | 1x TW
-  password: eccb24c1-bdc4-4aaf-8ae9-92553667c0d1
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 01 | 1x TW
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 02 | 1x TW
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 03 | 1x TW
-  password: 4e1ef53e-e130-47ca-8bd7-345cd65895c2
+  password: 0cb026d1-9567-48d9-86cf-c10516f4cdee
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
