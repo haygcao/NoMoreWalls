@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: e928b5e5-c82c-4c7a-b5e3-22d0963dd34f
+  password: 8afa18c6-97e5-4676-99ad-fd607f8a9bef
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: e928b5e5-c82c-4c7a-b5e3-22d0963dd34f
+  password: 8afa18c6-97e5-4676-99ad-fd607f8a9bef
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: e928b5e5-c82c-4c7a-b5e3-22d0963dd34f
+  password: 8afa18c6-97e5-4676-99ad-fd607f8a9bef
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 01 | 1x JP
+  password: 888c7c92-e2a2-432b-b101-03b03a4cca41
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 02 | 1x JP
+  password: 888c7c92-e2a2-432b-b101-03b03a4cca41
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 03 | 1x JP
+  password: 888c7c92-e2a2-432b-b101-03b03a4cca41
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -36,27 +57,6 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 01 | 1x JP
-  password: 9c51aff1-426f-4a60-ae7f-982247aacecd
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 02 | 1x JP
-  password: 9c51aff1-426f-4a60-ae7f-982247aacecd
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵日本 03 | 1x JP
-  password: 9c51aff1-426f-4a60-ae7f-982247aacecd
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: '11|Channel id: @ShadowProxy66🇯🇵'
   password: 50a88b3f
   port: 2308
