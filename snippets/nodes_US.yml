@@ -35,30 +35,9 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: fdfa237a-d7f8-4d7f-8872-036ecd5e1f03
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: fdfa237a-d7f8-4d7f-8872-036ecd5e1f03
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: fdfa237a-d7f8-4d7f-8872-036ecd5e1f03
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 10|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -71,7 +50,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 10,11|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -88,7 +67,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国4|@ripaojiedian
+  name: 10,11|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -105,7 +84,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国5|@ripaojiedian
+  name: 10,11|美国5|@ripaojiedian
   network: ws
   port: '22641'
   server: tk.hzlt.tkddns.xyz
@@ -119,7 +98,7 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: 13|US_speednode_0186
+- name: 12|US_speednode_0186
   network: ws
   password: Ng35283528
   port: 443
@@ -133,22 +112,43 @@ proxies:
       Host: c2.validbv3528.eu.org
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
+  name: 13|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 62921c01-b1fd-41c3-9d5c-b43d6dc64507
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 62921c01-b1fd-41c3-9d5c-b43d6dc64507
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇺🇸 美国 03 | 1x US Washington
+  password: 62921c01-b1fd-41c3-9d5c-b43d6dc64507
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 6339ad63-eebe-4ecb-a5bd-f4620633542c
+  password: 0dd35583-5cf3-4858-b9da-b0a8d1281d7f
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 6339ad63-eebe-4ecb-a5bd-f4620633542c
+  password: 0dd35583-5cf3-4858-b9da-b0a8d1281d7f
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 6339ad63-eebe-4ecb-a5bd-f4620633542c
+  password: 0dd35583-5cf3-4858-b9da-b0a8d1281d7f
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
