@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 45599056-d894-4147-9bd1-478a51f6779b
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 2d96dc84-0c77-49a4-aac4-55c280e886d4
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 45599056-d894-4147-9bd1-478a51f6779b
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 2d96dc84-0c77-49a4-aac4-55c280e886d4
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 45599056-d894-4147-9bd1-478a51f6779b
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 2d96dc84-0c77-49a4-aac4-55c280e886d4
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
@@ -56,30 +56,9 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 3f29721e-a2d4-48a2-a9d7-7ab973390daa
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 3f29721e-a2d4-48a2-a9d7-7ab973390daa
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 3f29721e-a2d4-48a2-a9d7-7ab973390daa
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -92,7 +71,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -109,7 +88,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 11,12|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -126,7 +105,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: ws
   port: '22641'
   server: tk.hzlt.tkddns.xyz
@@ -140,7 +119,7 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: 14|US_speednode_0186
+- name: 13|US_speednode_0186
   network: ws
   password: Ng35283528
   port: 443
