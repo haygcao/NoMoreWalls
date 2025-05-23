@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: e928b5e5-c82c-4c7a-b5e3-22d0963dd34f
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: e928b5e5-c82c-4c7a-b5e3-22d0963dd34f
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
@@ -15,14 +29,14 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港 02 | 1x HK
-  password: d7d0b30f-cde5-476f-8b96-89b084e6152f
+  password: 9c51aff1-426f-4a60-ae7f-982247aacecd
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇭🇰香港家宽 03 | 1x HK
-  password: d7d0b30f-cde5-476f-8b96-89b084e6152f
+  password: 9c51aff1-426f-4a60-ae7f-982247aacecd
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
@@ -62,7 +76,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 36463
+  port: 57530
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -92,18 +106,13 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 12|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 8080
-  server: f1643d53-swo740-sy5642-1mish.hgc1.tcpbbr.net
+  port: 3000
+  server: 43.199.24.247
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -121,22 +130,31 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港8|@ripaojiedian
-  password: f87772ed-cef9-444a-a8e8-bcf299c850ec
-  port: 23331
-  server: link.karleynetwork.xyz
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港9|@ripaojiedian
+  name: 12|🇭🇰 香港8|@ripaojiedian
   password: asd123456
   port: 8388
   server: 154.197.26.237
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|香港9|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 0986fcca-swq1s0-swsmkh-1s0a7.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 13|香港3|@ripaojiedian
@@ -157,13 +175,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-- name: 13|香港5|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 13|香港5|@ripaojiedian
   network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  sni: hk-13-568.flztjc.net
-  type: trojan
+  port: '3000'
+  server: 43.199.24.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
 - name: 14|HK_speednode_0064
   network: ws
   port: 8880
