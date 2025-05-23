@@ -1,29 +1,29 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 45599056-d894-4147-9bd1-478a51f6779b
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0,10|🇰🇷 韩国|@ripaojiedian
+  name: 1,12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇰🇷 韩国 01 | 1x KR
-  password: 62921c01-b1fd-41c3-9d5c-b43d6dc64507
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 01 | 1x KR
-  password: 0dd35583-5cf3-4858-b9da-b0a8d1281d7f
+  name: 2|🇰🇷韩国 01 | 1x KR
+  password: 3f29721e-a2d4-48a2-a9d7-7ab973390daa
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷韩国 02 | 1x KR
-  password: 0dd35583-5cf3-4858-b9da-b0a8d1281d7f
+  name: 2|🇰🇷韩国 02 | 1x KR
+  password: 3f29721e-a2d4-48a2-a9d7-7ab973390daa
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
