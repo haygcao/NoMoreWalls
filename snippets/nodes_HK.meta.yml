@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 02 | 1x HK
-  password: 7feb9806-5148-43e2-89d3-93c5d556fcc0
+  password: f8e0a748-0d74-476a-bc25-e475d5a71f7f
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 7feb9806-5148-43e2-89d3-93c5d556fcc0
+  password: f8e0a748-0d74-476a-bc25-e475d5a71f7f
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -41,6 +27,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港 02 | 1x HK
+  password: b34b77d2-d7fe-4155-8c81-9a5935d3c0ac
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇭🇰香港家宽 03 | 1x HK
+  password: b34b77d2-d7fe-4155-8c81-9a5935d3c0ac
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇭🇰'
   password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
   port: 3074
@@ -76,7 +76,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 50197
+  port: 22934
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -130,22 +130,47 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港8|@ripaojiedian
+  password: 43972f42-db63-4694-bb72-c480b5c905b7
+  port: 49868
+  server: xz.fanhua.art
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港8|@ripaojiedian
+  name: 12,13|香港9|@ripaojiedian
   network: ws
   port: '443'
-  server: n1735525473.afjian.cn
-  servername: n1735525473.afjian.cn
+  server: n1735606087.ryjml.cn
+  servername: n1735606087.ryjml.cn
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: e99a79a4-88d3-4e31-bc1f-ec7caba3531b
+  uuid: f047f92c-cb20-4ccb-872f-bc484d848448
   ws-opts:
     headers:
-      Host: n1735525473.afjian.cn
+      Host: n1735606087.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|香港10|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1735783644.ryjml.cn
+  servername: n1735783644.ryjml.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 015e56c9-36d7-4f9a-9162-d8b1b7fa6f7a
+  ws-opts:
+    headers:
+      Host: n1735783644.ryjml.cn
     path: /
 - alterId: 64
   cipher: auto
