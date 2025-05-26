@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 101 | 1x JP
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇯🇵日本 101 官网：https://ynbfue.mik...
+  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 102 | 1x JP
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇯🇵日本 102 官网：https://y2ugmq.mik...
+  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 103 | 1x JP
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇯🇵日本 103 官网：https://198m99.mik...
+  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
   port: 31115
   server: freem.vidalith.com
   type: ss
@@ -37,22 +37,22 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 官网：pu8qz8.allbluess.p...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇯🇵 日本 101 官网：https://蓝色海洋.xyz
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 官网：k17wb8.abclouds1.p...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇯🇵 日本 102 官网：https://28urj8.a5...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 官网：nli8ip.abclouds1.p...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇯🇵 日本 103 官网：https://hlkpte.a5...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36115
   server: freea.glyphara.com
   type: ss
@@ -116,35 +116,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 14|JP_speednode_0167
-  network: ws
-  port: 8880
-  server: 103.116.7.19
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0168
-  network: ws
-  port: 8880
-  server: 103.116.7.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|JP_speednode_0169
+- name: 14|JP_speednode_0148
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -158,3 +130,31 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 14|JP_speednode_0149
+  network: ws
+  port: 8880
+  server: 103.116.7.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|JP_speednode_0150
+  network: ws
+  port: 8880
+  server: 103.116.7.19
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560

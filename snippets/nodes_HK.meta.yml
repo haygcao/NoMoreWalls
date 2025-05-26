@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 102 | 1x HK
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇭🇰香港 102 官网：https://0l5xru.m5c...
+  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 103 | 1x HK
-  password: 80870e3d-9a0b-4a30-87f4-fbc5e98982d2
+  name: 0|🇭🇰香港家宽 103 官网：https://米卡莎.xyz
+  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
   port: 31145
   server: freem.vidalith.com
   type: ss
@@ -28,15 +28,15 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 02 官网：xqecjz.allbluess.p...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇭🇰 香港 102 官网：https://zc9ofb.a5...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港住宅IP 03 官网：gdxnkn.abcloud...
-  password: 0808e4e5-82c6-4122-a6a4-146564ea71c9
+  name: 2|🇭🇰 香港住宅IP 103 官网：https://5znif...
+  password: 8881a500-d3b0-439b-907a-aa9412271a47
   port: 36145
   server: freea.glyphara.com
   type: ss
@@ -139,7 +139,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-- name: 14|HK_speednode_0162
+- name: 14|HK_speednode_0145
   network: ws
   port: 8880
   server: 154.218.15.29
@@ -153,7 +153,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|HK_speednode_0163
+- name: 14|HK_speednode_0146
   network: ws
   port: 8880
   server: 154.211.8.20
