@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 101 官网：https://i9xbzb.mik...
-  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
+  name: 0|🇩🇪 德国 101 官网：kpg8f9.abluecloud...
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 101 官网：fg8de6.m5c3cloud.p...
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
   port: 31471
   server: freem.vidalith.com
   type: ss
@@ -10,7 +17,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -19,10 +26,3 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 101 官网：https://蓝色海洋.xyz
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true

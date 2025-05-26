@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 101 官网：https://ynbfue.mik...
-  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
+  name: 0|🇯🇵 日本 101 官网：xjgoe8.abluecloud...
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 102 官网：7152sd.a5b3cloud....
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵 日本 103 官网：syx3z3.abluecloud...
+  password: e7b2cf7b-bec3-4265-86b2-580cac51c3bd
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 101 官网：fdau27.m5c3cloud.p...
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 102 官网：https://y2ugmq.mik...
-  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
+  name: 1|🇯🇵日本 102 官网：qyliyu.m5c3cloud.p...
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 103 官网：https://198m99.mik...
-  password: ee468540-a0e6-422d-82b0-f1d2ba4ea171
+  name: 1|🇯🇵日本 103 官网：irctll.mikasacloud...
+  password: aeaf80f6-1859-4a53-951d-bdb03459e162
   port: 31115
   server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -36,27 +57,6 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 101 官网：https://蓝色海洋.xyz
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 102 官网：https://28urj8.a5...
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 103 官网：https://hlkpte.a5...
-  password: 8881a500-d3b0-439b-907a-aa9412271a47
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
