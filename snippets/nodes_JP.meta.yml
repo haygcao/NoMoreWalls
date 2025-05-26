@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: aa3e6e61-3e3d-45bb-a9b8-b69c1dcf4850
+  password: 23be8c0d-8147-4da6-b35c-eea9b5881d82
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: aa3e6e61-3e3d-45bb-a9b8-b69c1dcf4850
+  password: 23be8c0d-8147-4da6-b35c-eea9b5881d82
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: aa3e6e61-3e3d-45bb-a9b8-b69c1dcf4850
+  password: 23be8c0d-8147-4da6-b35c-eea9b5881d82
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
@@ -36,51 +36,38 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 01 | 1x JP
-  password: dac43b27-ed57-4638-9847-35de0f233730
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 02 | 1x JP
-  password: dac43b27-ed57-4638-9847-35de0f233730
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇯🇵 日本 03 | 1x JP
-  password: dac43b27-ed57-4638-9847-35de0f233730
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-Xs0YNCRtNb.download.microsoft.com
+    host: 202505251086349-rPj9lOAxlj.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: CYYGNOZ0U11H5D2J
-  port: 18016
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 11|🇯🇵 日本2|@ripaojiedian
+  password: 04e28ee6e6b0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp1v9.8vote.cn
+    mode: websocket
+    mux: true
+    path: /qfrjtumkddnc
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.140.136.76
   tfo: false
   type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   port: 55002
   server: 183.237.84.53
   skip-cert-verify: false
@@ -90,7 +77,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 13|日本3|@ripaojiedian
+  name: 12|日本3|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -100,7 +87,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本5|@ripaojiedian
+  name: 12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -108,7 +95,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 14|JP_speednode_0167
+- name: 13|JP_speednode_0167
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -122,7 +109,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0168
+- name: 13|JP_speednode_0168
   network: ws
   port: 8880
   server: 103.116.7.29
@@ -136,7 +123,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|JP_speednode_0169
+- name: 13|JP_speednode_0169
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -150,3 +137,24 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 01 | 1x JP
+  password: ad5848da-3b6c-40b3-8094-10d79d6f8ae1
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 02 | 1x JP
+  password: ad5848da-3b6c-40b3-8094-10d79d6f8ae1
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 03 | 1x JP
+  password: ad5848da-3b6c-40b3-8094-10d79d6f8ae1
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
