@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
-  password: 585ed4db-d0a1-441a-bb85-8bc65d3623e5
+  name: 0|11🇯🇵日本|官网：a5b3cloud.pro
+  password: 577a10bc-cc23-4cd0-a088-ee7f57ceeadc
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|12🇯🇵日本|官网：a5b3cloud.pro
-  password: 585ed4db-d0a1-441a-bb85-8bc65d3623e5
+  password: 577a10bc-cc23-4cd0-a088-ee7f57ceeadc
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|13🇯🇵日本|官网：a5b3cloud.pro
-  password: 585ed4db-d0a1-441a-bb85-8bc65d3623e5
+  password: 577a10bc-cc23-4cd0-a088-ee7f57ceeadc
   port: 36115
   server: freea.glyphara.com
   type: ss
@@ -90,35 +90,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: 13|JP_speednode_0137
-  network: ws
-  port: 8880
-  server: 103.116.7.19
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 13|JP_speednode_0138
-  network: ws
-  port: 8880
-  server: 103.116.7.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|JP_speednode_0139
+- name: 13|JP_speednode_0112
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -132,23 +104,37 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
+- name: 13|JP_speednode_0113
+  network: ws
+  port: 8880
+  server: 103.116.7.19
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|13🇯🇵日本|官网：m5c3cloud.pro
-  password: 7c263f6f-1381-4991-9ddd-e2f32fe290d2
+  password: 432a3b48-277f-4e05-9569-617e624cb8f8
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|14🇯🇵日本|官网：m5c3cloud.pro
-  password: 7c263f6f-1381-4991-9ddd-e2f32fe290d2
+  name: 14|14🇯🇵日本|官网：米卡莎.xyz
+  password: 432a3b48-277f-4e05-9569-617e624cb8f8
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|15🇯🇵日本|官网：米卡莎.xyz
-  password: 7c263f6f-1381-4991-9ddd-e2f32fe290d2
+  name: 14|15🇯🇵日本|官网：mikasacloud.site
+  password: 432a3b48-277f-4e05-9569-617e624cb8f8
   port: 31115
   server: freem.vidalith.com
   type: ss
