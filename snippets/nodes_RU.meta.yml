@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|31🇷🇺俄罗斯|官网：mikasacloud.site
-  password: 7e6606cd-39f6-40d8-abe8-cf730e517366
-  port: 31511
-  server: freem.vidalith.com
+  name: 0|30🇷🇺俄罗斯|官网：a5b3cloud.pro
+  password: 40093c85-dbeb-4f07-b827-7686a3c2dccd
+  port: 36511
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|30🇷🇺俄罗斯|官网：a5b3cloud.pro
-  password: 8290457b-cd08-4e3a-8d60-317f57efb351
-  port: 36511
-  server: freea.glyphara.com
+  name: 1|31🇷🇺俄罗斯|官网：m5c3cloud.pro
+  password: f8830198-0633-42b1-9cd4-5a734799956f
+  port: 31511
+  server: freem.vidalith.com
   type: ss
   udp: true
 - alpn:
@@ -45,7 +45,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: 14|RU_speednode_0172
+- name: 14|RU_speednode_0146
   network: ws
   port: 8880
   server: 46.254.92.29
@@ -59,7 +59,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0173
+- name: 14|RU_speednode_0147
   network: ws
   port: 8880
   server: 5.182.84.20
@@ -73,21 +73,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0174
-  network: ws
-  port: 8880
-  server: 185.176.24.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0175
+- name: 14|RU_speednode_0148
   network: ws
   port: 8880
   server: 185.221.160.29
@@ -101,63 +87,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0176
-  network: ws
-  port: 8880
-  server: 45.8.211.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0177
-  network: ws
-  port: 8880
-  server: 45.67.215.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0178
-  network: ws
-  port: 8880
-  server: 77.232.140.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0179
-  network: ws
-  port: 8880
-  server: 5.182.85.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0180
+- name: 14|RU_speednode_0149
   network: ws
   port: 8880
   server: 185.59.218.29
@@ -171,7 +101,63 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0181
+- name: 14|RU_speednode_0150
+  network: ws
+  port: 8880
+  server: 77.232.140.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|RU_speednode_0151
+  network: ws
+  port: 8880
+  server: 45.8.211.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|RU_speednode_0152
+  network: ws
+  port: 8880
+  server: 185.174.138.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|RU_speednode_0153
+  network: ws
+  port: 8880
+  server: 45.67.215.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|RU_speednode_0154
   network: ws
   port: 8880
   server: 5.182.85.29
@@ -185,10 +171,10 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0182
+- name: 14|RU_speednode_0155
   network: ws
   port: 8880
-  server: 185.174.138.29
+  server: 5.182.85.29
   servername: hk.laoyoutiao.link
   skip-cert-verify: false
   tls: false
