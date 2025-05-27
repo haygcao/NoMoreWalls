@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|33🇩🇪德国|官网：mikasacloud.site
-  password: 288b3541-3a23-49a8-b1eb-5b91362c7a24
-  port: 31471
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|29🇩🇪德国|官网：abluecloud.xyz
-  password: 7634b06f-d7a7-4b8d-aa42-558c49ae8adb
+  name: 0|29🇩🇪德国|官网：abluecloud.xyz
+  password: 585ed4db-d0a1-441a-bb85-8bc65d3623e5
   port: 36471
   server: freea.glyphara.com
   type: ss
@@ -17,7 +10,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -26,3 +19,10 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- cipher: chacha20-ietf-poly1305
+  name: 14|33🇩🇪德国|官网：米卡莎.xyz
+  password: 7c263f6f-1381-4991-9ddd-e2f32fe290d2
+  port: 31471
+  server: freem.vidalith.com
+  type: ss
+  udp: true
