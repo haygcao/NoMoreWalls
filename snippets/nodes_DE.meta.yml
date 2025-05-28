@@ -1,16 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36471
-  server: freea.glyphara.com
+  name: 0|33🇩🇪德国|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
+  port: 31471
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|33🇩🇪德国|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
-  port: 31471
-  server: freem.vidalith.com
+  name: 1|29🇩🇪德国|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36471
+  server: freea.glyphara.com
   type: ss
   udp: true
 - name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
@@ -116,21 +116,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0006
-  network: ws
-  port: 8880
-  server: 5.10.214.11
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0007
+- name: 14|DE_speednode_0005
   network: ws
   port: 8880
   server: 5.10.214.5
@@ -144,6 +130,34 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0006
+  network: ws
+  port: 8880
+  server: 5.10.215.125
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0007
+  network: ws
+  port: 80
+  server: 45.80.111.219
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
 - name: 14|DE_speednode_0008
   network: ws
   port: 8880
@@ -161,7 +175,7 @@ proxies:
 - name: 14|DE_speednode_0009
   network: ws
   port: 8880
-  server: 5.10.214.56
+  server: 5.10.214.163
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -175,7 +189,7 @@ proxies:
 - name: 14|DE_speednode_0010
   network: ws
   port: 8880
-  server: 5.10.214.236
+  server: 5.10.214.235
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -189,7 +203,7 @@ proxies:
 - name: 14|DE_speednode_0011
   network: ws
   port: 8880
-  server: 5.10.214.45
+  server: 5.10.215.197
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -203,7 +217,7 @@ proxies:
 - name: 14|DE_speednode_0012
   network: ws
   port: 8880
-  server: 5.10.215.134
+  server: 5.10.215.203
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -217,7 +231,7 @@ proxies:
 - name: 14|DE_speednode_0013
   network: ws
   port: 8880
-  server: 5.10.214.166
+  server: 5.10.214.92
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -231,7 +245,7 @@ proxies:
 - name: 14|DE_speednode_0014
   network: ws
   port: 8880
-  server: 5.10.214.164
+  server: 5.10.214.102
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -244,8 +258,8 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0015
   network: ws
-  port: 8880
-  server: 5.10.214.229
+  port: 80
+  server: 45.80.111.166
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -255,11 +269,11 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
 - name: 14|DE_speednode_0016
   network: ws
   port: 8880
-  server: 5.10.215.203
+  server: 5.10.215.47
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -273,7 +287,7 @@ proxies:
 - name: 14|DE_speednode_0017
   network: ws
   port: 8880
-  server: 5.10.215.111
+  server: 5.10.214.110
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -287,7 +301,7 @@ proxies:
 - name: 14|DE_speednode_0018
   network: ws
   port: 8880
-  server: 5.10.214.39
+  server: 5.10.214.96
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -301,7 +315,7 @@ proxies:
 - name: 14|DE_speednode_0019
   network: ws
   port: 8880
-  server: 5.10.214.114
+  server: 5.10.215.67
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -315,7 +329,7 @@ proxies:
 - name: 14|DE_speednode_0020
   network: ws
   port: 8880
-  server: 5.10.215.125
+  server: 5.10.215.134
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -329,7 +343,7 @@ proxies:
 - name: 14|DE_speednode_0021
   network: ws
   port: 8880
-  server: 5.10.214.102
+  server: 5.10.215.51
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -343,7 +357,7 @@ proxies:
 - name: 14|DE_speednode_0022
   network: ws
   port: 8880
-  server: 5.10.214.16
+  server: 5.10.214.114
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -357,7 +371,7 @@ proxies:
 - name: 14|DE_speednode_0023
   network: ws
   port: 8880
-  server: 5.10.214.84
+  server: 5.10.214.15
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -371,7 +385,7 @@ proxies:
 - name: 14|DE_speednode_0024
   network: ws
   port: 8880
-  server: 5.10.214.15
+  server: 5.10.214.81
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -399,7 +413,7 @@ proxies:
 - name: 14|DE_speednode_0026
   network: ws
   port: 8880
-  server: 5.10.214.146
+  server: 5.10.214.39
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -413,7 +427,7 @@ proxies:
 - name: 14|DE_speednode_0027
   network: ws
   port: 8880
-  server: 5.10.214.247
+  server: 5.10.214.25
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -427,7 +441,7 @@ proxies:
 - name: 14|DE_speednode_0028
   network: ws
   port: 8880
-  server: 5.10.215.51
+  server: 5.10.214.247
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -441,7 +455,7 @@ proxies:
 - name: 14|DE_speednode_0029
   network: ws
   port: 8880
-  server: 5.10.214.235
+  server: 5.10.214.45
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -455,7 +469,7 @@ proxies:
 - name: 14|DE_speednode_0030
   network: ws
   port: 8880
-  server: 5.10.214.163
+  server: 5.10.214.11
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -469,7 +483,7 @@ proxies:
 - name: 14|DE_speednode_0031
   network: ws
   port: 8880
-  server: 5.10.214.182
+  server: 5.10.214.166
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -483,7 +497,7 @@ proxies:
 - name: 14|DE_speednode_0032
   network: ws
   port: 8880
-  server: 89.116.46.20
+  server: 5.10.215.110
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -493,11 +507,11 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0033
   network: ws
   port: 8880
-  server: 5.10.215.67
+  server: 5.10.214.112
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -511,7 +525,7 @@ proxies:
 - name: 14|DE_speednode_0034
   network: ws
   port: 8880
-  server: 5.10.214.112
+  server: 5.10.214.56
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -539,7 +553,7 @@ proxies:
 - name: 14|DE_speednode_0036
   network: ws
   port: 8880
-  server: 5.10.214.110
+  server: 5.10.214.164
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -551,216 +565,6 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0037
-  network: ws
-  port: 80
-  server: 45.80.111.219
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
-- name: 14|DE_speednode_0038
-  network: ws
-  port: 8880
-  server: 5.10.214.96
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0039
-  network: ws
-  port: 8880
-  server: 5.10.214.144
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0040
-  network: ws
-  port: 8880
-  server: 5.10.215.197
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0041
-  network: ws
-  port: 80
-  server: 45.80.111.166
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
-- name: 14|DE_speednode_0042
-  network: ws
-  port: 8880
-  server: 45.80.111.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|DE_speednode_0043
-  network: ws
-  port: 8880
-  server: 5.10.215.47
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0044
-  network: ws
-  port: 8880
-  server: 5.10.214.25
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0045
-  network: ws
-  port: 8880
-  server: 5.10.214.81
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0046
-  network: ws
-  port: 8880
-  server: 5.10.214.24
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0047
-  network: ws
-  port: 8880
-  server: 5.10.214.92
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0048
-  network: ws
-  port: 8880
-  server: 5.10.214.49
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0049
-  network: ws
-  port: 8880
-  server: 5.10.214.143
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0050
-  network: ws
-  port: 8880
-  server: 5.10.215.110
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0051
-  network: ws
-  port: 8880
-  server: 5.10.214.3
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0052
   network: ws
   port: 8880
   server: 5.10.215.222
@@ -774,91 +578,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0053
-  network: ws
-  port: 8880
-  server: 5.10.214.30
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0054
-  network: ws
-  port: 8880
-  server: 5.10.214.99
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0055
-  network: ws
-  port: 8880
-  server: 5.10.214.111
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0056
-  network: ws
-  port: 8880
-  server: 5.10.214.73
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0057
-  network: ws
-  port: 8880
-  server: 5.10.214.59
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0058
-  network: ws
-  port: 8880
-  server: 5.10.214.145
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0059
+- name: 14|DE_speednode_0038
   network: ws
   port: 8880
   server: 5.10.214.18
@@ -871,50 +591,8 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0060
-  network: ws
-  port: 8880
-  server: 5.10.214.4
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0061
-  network: ws
-  port: 8880
-  server: 5.10.214.58
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0062
-  network: ws
-  port: 8880
-  server: 5.10.214.88
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0063
+- name: 14|DE_speednode_0039
   network: ws
   port: 8880
   server: 5.10.214.17
@@ -928,189 +606,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0064
-  network: ws
-  port: 8880
-  server: 5.10.214.166
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0065
-  network: ws
-  port: 8880
-  server: 5.10.214.246
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0066
-  network: ws
-  port: 8880
-  server: 5.10.215.143
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0067
-  network: ws
-  port: 8880
-  server: 5.10.214.18
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0068
-  network: ws
-  port: 8880
-  server: 5.10.214.103
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0069
-  network: ws
-  port: 8880
-  server: 5.10.215.123
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0070
-  network: ws
-  port: 8880
-  server: 5.10.215.132
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0071
-  network: ws
-  port: 8880
-  server: 5.10.214.118
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0072
-  network: ws
-  port: 8880
-  server: 5.10.214.64
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0073
-  network: ws
-  port: 8880
-  server: 5.10.214.15
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0074
-  network: ws
-  port: 8880
-  server: 5.10.215.118
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0075
-  network: ws
-  port: 8880
-  server: 5.10.214.106
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0076
-  network: ws
-  port: 8880
-  server: 5.10.214.119
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0077
+- name: 14|DE_speednode_0040
   network: ws
   port: 8880
   server: 5.10.215.110
@@ -1124,7 +620,119 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0078
+- name: 14|DE_speednode_0041
+  network: ws
+  port: 8880
+  server: 5.10.214.88
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0042
+  network: ws
+  port: 8880
+  server: 5.10.214.166
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0043
+  network: ws
+  port: 8880
+  server: 5.10.214.111
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0044
+  network: ws
+  port: 8880
+  server: 5.10.214.59
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0045
+  network: ws
+  port: 8880
+  server: 5.10.215.123
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0046
+  network: ws
+  port: 8880
+  server: 5.10.215.143
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0047
+  network: ws
+  port: 8880
+  server: 5.10.214.145
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0048
+  network: ws
+  port: 8880
+  server: 5.10.214.15
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0049
   network: ws
   port: 8880
   server: 5.10.215.254
@@ -1138,10 +746,150 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0079
+- name: 14|DE_speednode_0050
   network: ws
   port: 8880
-  server: 5.10.214.157
+  server: 5.10.215.118
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0051
+  network: ws
+  port: 8880
+  server: 5.10.214.99
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0052
+  network: ws
+  port: 8880
+  server: 5.10.214.18
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0053
+  network: ws
+  port: 8880
+  server: 5.10.215.132
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0054
+  network: ws
+  port: 8880
+  server: 5.10.214.246
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0055
+  network: ws
+  port: 8880
+  server: 5.10.214.64
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0056
+  network: ws
+  port: 8880
+  server: 5.10.214.4
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0057
+  network: ws
+  port: 8880
+  server: 5.10.214.73
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0058
+  network: ws
+  port: 8880
+  server: 5.10.214.103
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0059
+  network: ws
+  port: 8880
+  server: 5.10.214.3
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0060
+  network: ws
+  port: 8880
+  server: 5.10.214.118
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false

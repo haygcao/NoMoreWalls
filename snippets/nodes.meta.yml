@@ -1,223 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|8🇹🇼台湾|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36241
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|9🇹🇼台湾|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36243
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|10🇹🇼台湾|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36245
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36171
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36173
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36311
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|17🇵🇭菲律宾|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36341
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|18🇺🇸美国|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36211
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国住宅IP|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36213
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36215
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|21🇬🇧英国住宅IP|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36271
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|22🇲🇾马来西亚|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36721
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|23🇲🇾马来西亚|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36722
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|24🇮🇳西班牙|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36741
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|25🇹🇭泰国|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36731
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|26🇮🇳印度|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36371
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|27🇦🇺澳大利亚|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36411
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|28🇨🇦加拿大|官网：a5b3cloud.pro
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36441
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|30🇷🇺俄罗斯|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|31🇹🇷土耳其|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36571
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|32🇺🇦乌克兰|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36611
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|33🇻🇳越南|官网：abluecloud.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36641
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|34🇧🇷巴西|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36671
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|35🇮🇩印度尼西亚|官网：蓝色海洋.xyz
-  password: 97e2012b-27ed-4196-87ea-ddff30ccbdaa
-  port: 36677
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - flow: xtls-rprx-vision
-  name: 1|4🇭🇰香港01|官网：mikasacloud.site
+  name: 0|4🇭🇰香港01|官网：米卡莎.xyz
   port: 21141
   reality-opts:
     public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
@@ -228,9 +11,9 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  uuid: 220a39e4-7b11-408d-9aeb-436766795ff8
 - flow: xtls-rprx-vision
-  name: 1|5🇭🇰香港02|官网：mikasacloud.site
+  name: 0|5🇭🇰香港02|官网：m5c3cloud.pro
   port: 21143
   reality-opts:
     public-key: Aefu3IA6fk1vUQio476AwY4NSshxmjjEpeWrvaqAtWg
@@ -241,10 +24,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  uuid: 220a39e4-7b11-408d-9aeb-436766795ff8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 1|6🇭🇰香港03|官网：mikasacloud.site
+  name: 0|6🇭🇰香港03|官网：mikasacloud.site
   port: 21145
   reality-opts:
     public-key: _5oMsSEfgBhN4ZMasEwrUqss5GQkKdAtgoH2MzEVRA0
@@ -255,229 +38,446 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  uuid: 220a39e4-7b11-408d-9aeb-436766795ff8
 - cipher: chacha20-ietf-poly1305
-  name: 1|7🇭🇰香港|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|7🇭🇰香港|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|8🇭🇰香港|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|8🇭🇰香港|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|9🇭🇰香港家宽|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|9🇭🇰香港家宽|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|10🇹🇼台湾|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|10🇹🇼台湾|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31241
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|11🇹🇼台湾|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|11🇹🇼台湾|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31243
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|12🇹🇼台湾|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|12🇹🇼台湾|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31245
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|13🇯🇵日本|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|13🇯🇵日本|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|14🇯🇵日本|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|14🇯🇵日本|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|15🇯🇵日本|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|15🇯🇵日本|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31115
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|16🇸🇬新加坡|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|16🇸🇬新加坡|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31171
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|17🇸🇬新加坡|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|17🇸🇬新加坡|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31173
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|18🇸🇬新加坡|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|18🇸🇬新加坡|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31175
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|19🇰🇷韩国|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|19🇰🇷韩国|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|20🇰🇷韩国|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|20🇰🇷韩国|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31313
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|21🇵🇭菲律宾|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|21🇵🇭菲律宾|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31341
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|22🇺🇸美国|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|22🇺🇸美国|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31211
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|23🇺🇸美国家宽|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|23🇺🇸美国家宽|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31213
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|24🇺🇸美国|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|24🇺🇸美国|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31215
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|25🇬🇧英国家宽|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|25🇬🇧英国家宽|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31271
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|29🇹🇭泰国 |官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|29🇹🇭泰国 |官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31741
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|27🇲🇾马来西亚|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|27🇲🇾马来西亚|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31721
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|28🇲🇾马来西亚|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|28🇲🇾马来西亚|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31722
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|30🇮🇳印度|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|30🇮🇳印度|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31371
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|31🇦🇺澳大利亚|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|31🇦🇺澳大利亚|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31411
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|32🇨🇦加拿大|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|32🇨🇦加拿大|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31441
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|33🇩🇪德国|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|33🇩🇪德国|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31471
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|34🇷🇺俄罗斯|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|34🇷🇺俄罗斯|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31511
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|35🇹🇷土耳其|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|35🇹🇷土耳其|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31571
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|36🇺🇦乌克兰|官网：m5c3cloud.pro
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|36🇺🇦乌克兰|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31611
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|37🇻🇳越南|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|37🇻🇳越南|官网：m5c3cloud.pro
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31641
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|38🇧🇷巴西|官网：mikasacloud.site
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|38🇧🇷巴西|官网：mikasacloud.site
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31671
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|39🇮🇩印度尼西亚|官网：米卡莎.xyz
-  password: f42d7494-16e4-4277-b971-b3f7b50cc9cb
+  name: 0|39🇮🇩印度尼西亚|官网：米卡莎.xyz
+  password: 220a39e4-7b11-408d-9aeb-436766795ff8
   port: 31677
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|5🇭🇰香港|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|6🇭🇰香港|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36241
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇹🇼台湾|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36243
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|10🇹🇼台湾|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36245
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|11🇯🇵日本|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|12🇯🇵日本|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|13🇯🇵日本|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|14🇸🇬新加坡|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|15🇸🇬新加坡|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36173
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|17🇵🇭菲律宾|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36341
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|18🇺🇸美国|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36211
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|19🇺🇸美国住宅IP|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36213
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|20🇺🇸美国|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36215
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|21🇬🇧英国住宅IP|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36271
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|22🇲🇾马来西亚|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36721
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|23🇲🇾马来西亚|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36722
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|24🇮🇳西班牙|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36741
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|25🇹🇭泰国|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36731
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|26🇮🇳印度|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36371
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|27🇦🇺澳大利亚|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36411
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|28🇨🇦加拿大|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36441
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|29🇩🇪德国|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|30🇷🇺俄罗斯|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36511
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|31🇹🇷土耳其|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36571
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|32🇺🇦乌克兰|官网：a5b3cloud.pro
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36611
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|33🇻🇳越南|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36641
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|34🇧🇷巴西|官网：蓝色海洋.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36671
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|35🇮🇩印度尼西亚|官网：abluecloud.xyz
+  password: d320a07c-ea34-426b-9d42-463c618f968d
+  port: 36677
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alpn:
@@ -634,7 +634,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 2,14|TR_speednode_0118
+  name: 2,14|TR_speednode_0093
   network: http
   port: 39948
   server: 176.223.66.8
@@ -2770,20 +2770,6 @@ proxies:
 - name: 14|AE_speednode_0001
   network: ws
   port: 8880
-  server: 94.140.0.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|AE_speednode_0002
-  network: ws
-  port: 8880
   server: 103.245.228.0
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
@@ -2795,10 +2781,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram@WangCai2/?ed=2560
-- name: 14|AU_speednode_0003
+- name: 14|AE_speednode_0002
   network: ws
   port: 8880
-  server: 103.169.142.20
+  server: 94.140.0.20
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2809,7 +2795,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|AU_speednode_0004
+- name: 14|AU_speednode_0003
   network: ws
   port: 8880
   server: 192.65.217.20
@@ -2823,7 +2809,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|BG_speednode_0005
+- name: 14|BG_speednode_0004
   network: ws
   port: 8880
   server: 147.78.140.20
@@ -2837,21 +2823,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0006
-  network: ws
-  port: 8880
-  server: 5.10.214.11
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0007
+- name: 14|DE_speednode_0005
   network: ws
   port: 8880
   server: 5.10.214.5
@@ -2865,6 +2837,34 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0006
+  network: ws
+  port: 8880
+  server: 5.10.215.125
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0007
+  network: ws
+  port: 80
+  server: 45.80.111.219
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
 - name: 14|DE_speednode_0008
   network: ws
   port: 8880
@@ -2882,7 +2882,7 @@ proxies:
 - name: 14|DE_speednode_0009
   network: ws
   port: 8880
-  server: 5.10.214.56
+  server: 5.10.214.163
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2896,7 +2896,7 @@ proxies:
 - name: 14|DE_speednode_0010
   network: ws
   port: 8880
-  server: 5.10.214.236
+  server: 5.10.214.235
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2910,7 +2910,7 @@ proxies:
 - name: 14|DE_speednode_0011
   network: ws
   port: 8880
-  server: 5.10.214.45
+  server: 5.10.215.197
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2924,7 +2924,7 @@ proxies:
 - name: 14|DE_speednode_0012
   network: ws
   port: 8880
-  server: 5.10.215.134
+  server: 5.10.215.203
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2938,7 +2938,7 @@ proxies:
 - name: 14|DE_speednode_0013
   network: ws
   port: 8880
-  server: 5.10.214.166
+  server: 5.10.214.92
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2952,7 +2952,7 @@ proxies:
 - name: 14|DE_speednode_0014
   network: ws
   port: 8880
-  server: 5.10.214.164
+  server: 5.10.214.102
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2965,8 +2965,8 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0015
   network: ws
-  port: 8880
-  server: 5.10.214.229
+  port: 80
+  server: 45.80.111.166
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2976,11 +2976,11 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
 - name: 14|DE_speednode_0016
   network: ws
   port: 8880
-  server: 5.10.215.203
+  server: 5.10.215.47
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -2994,7 +2994,7 @@ proxies:
 - name: 14|DE_speednode_0017
   network: ws
   port: 8880
-  server: 5.10.215.111
+  server: 5.10.214.110
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3008,7 +3008,7 @@ proxies:
 - name: 14|DE_speednode_0018
   network: ws
   port: 8880
-  server: 5.10.214.39
+  server: 5.10.214.96
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3022,7 +3022,7 @@ proxies:
 - name: 14|DE_speednode_0019
   network: ws
   port: 8880
-  server: 5.10.214.114
+  server: 5.10.215.67
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3036,7 +3036,7 @@ proxies:
 - name: 14|DE_speednode_0020
   network: ws
   port: 8880
-  server: 5.10.215.125
+  server: 5.10.215.134
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3050,7 +3050,7 @@ proxies:
 - name: 14|DE_speednode_0021
   network: ws
   port: 8880
-  server: 5.10.214.102
+  server: 5.10.215.51
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3064,7 +3064,7 @@ proxies:
 - name: 14|DE_speednode_0022
   network: ws
   port: 8880
-  server: 5.10.214.16
+  server: 5.10.214.114
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3078,7 +3078,7 @@ proxies:
 - name: 14|DE_speednode_0023
   network: ws
   port: 8880
-  server: 5.10.214.84
+  server: 5.10.214.15
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3092,7 +3092,7 @@ proxies:
 - name: 14|DE_speednode_0024
   network: ws
   port: 8880
-  server: 5.10.214.15
+  server: 5.10.214.81
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3120,7 +3120,7 @@ proxies:
 - name: 14|DE_speednode_0026
   network: ws
   port: 8880
-  server: 5.10.214.146
+  server: 5.10.214.39
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3134,7 +3134,7 @@ proxies:
 - name: 14|DE_speednode_0027
   network: ws
   port: 8880
-  server: 5.10.214.247
+  server: 5.10.214.25
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3148,7 +3148,7 @@ proxies:
 - name: 14|DE_speednode_0028
   network: ws
   port: 8880
-  server: 5.10.215.51
+  server: 5.10.214.247
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3162,7 +3162,7 @@ proxies:
 - name: 14|DE_speednode_0029
   network: ws
   port: 8880
-  server: 5.10.214.235
+  server: 5.10.214.45
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3176,7 +3176,7 @@ proxies:
 - name: 14|DE_speednode_0030
   network: ws
   port: 8880
-  server: 5.10.214.163
+  server: 5.10.214.11
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3190,7 +3190,7 @@ proxies:
 - name: 14|DE_speednode_0031
   network: ws
   port: 8880
-  server: 5.10.214.182
+  server: 5.10.214.166
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3204,7 +3204,7 @@ proxies:
 - name: 14|DE_speednode_0032
   network: ws
   port: 8880
-  server: 89.116.46.20
+  server: 5.10.215.110
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3214,11 +3214,11 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0033
   network: ws
   port: 8880
-  server: 5.10.215.67
+  server: 5.10.214.112
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3232,7 +3232,7 @@ proxies:
 - name: 14|DE_speednode_0034
   network: ws
   port: 8880
-  server: 5.10.214.112
+  server: 5.10.214.56
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3260,7 +3260,7 @@ proxies:
 - name: 14|DE_speednode_0036
   network: ws
   port: 8880
-  server: 5.10.214.110
+  server: 5.10.214.164
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3272,216 +3272,6 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0037
-  network: ws
-  port: 80
-  server: 45.80.111.219
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
-- name: 14|DE_speednode_0038
-  network: ws
-  port: 8880
-  server: 5.10.214.96
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0039
-  network: ws
-  port: 8880
-  server: 5.10.214.144
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0040
-  network: ws
-  port: 8880
-  server: 5.10.215.197
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0041
-  network: ws
-  port: 80
-  server: 45.80.111.166
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: '/Telegram🇮🇷Channel id: @ShadowProxy66 /?ed=2560'
-- name: 14|DE_speednode_0042
-  network: ws
-  port: 8880
-  server: 45.80.111.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|DE_speednode_0043
-  network: ws
-  port: 8880
-  server: 5.10.215.47
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0044
-  network: ws
-  port: 8880
-  server: 5.10.214.25
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0045
-  network: ws
-  port: 8880
-  server: 5.10.214.81
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0046
-  network: ws
-  port: 8880
-  server: 5.10.214.24
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0047
-  network: ws
-  port: 8880
-  server: 5.10.214.92
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0048
-  network: ws
-  port: 8880
-  server: 5.10.214.49
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0049
-  network: ws
-  port: 8880
-  server: 5.10.214.143
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0050
-  network: ws
-  port: 8880
-  server: 5.10.215.110
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0051
-  network: ws
-  port: 8880
-  server: 5.10.214.3
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0052
   network: ws
   port: 8880
   server: 5.10.215.222
@@ -3495,91 +3285,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0053
-  network: ws
-  port: 8880
-  server: 5.10.214.30
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0054
-  network: ws
-  port: 8880
-  server: 5.10.214.99
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0055
-  network: ws
-  port: 8880
-  server: 5.10.214.111
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0056
-  network: ws
-  port: 8880
-  server: 5.10.214.73
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0057
-  network: ws
-  port: 8880
-  server: 5.10.214.59
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0058
-  network: ws
-  port: 8880
-  server: 5.10.214.145
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0059
+- name: 14|DE_speednode_0038
   network: ws
   port: 8880
   server: 5.10.214.18
@@ -3592,50 +3298,8 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0060
-  network: ws
-  port: 8880
-  server: 5.10.214.4
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0061
-  network: ws
-  port: 8880
-  server: 5.10.214.58
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0062
-  network: ws
-  port: 8880
-  server: 5.10.214.88
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0063
+- name: 14|DE_speednode_0039
   network: ws
   port: 8880
   server: 5.10.214.17
@@ -3649,189 +3313,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0064
-  network: ws
-  port: 8880
-  server: 5.10.214.166
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0065
-  network: ws
-  port: 8880
-  server: 5.10.214.246
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0066
-  network: ws
-  port: 8880
-  server: 5.10.215.143
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0067
-  network: ws
-  port: 8880
-  server: 5.10.214.18
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0068
-  network: ws
-  port: 8880
-  server: 5.10.214.103
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0069
-  network: ws
-  port: 8880
-  server: 5.10.215.123
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0070
-  network: ws
-  port: 8880
-  server: 5.10.215.132
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0071
-  network: ws
-  port: 8880
-  server: 5.10.214.118
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0072
-  network: ws
-  port: 8880
-  server: 5.10.214.64
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0073
-  network: ws
-  port: 8880
-  server: 5.10.214.15
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0074
-  network: ws
-  port: 8880
-  server: 5.10.215.118
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0075
-  network: ws
-  port: 8880
-  server: 5.10.214.106
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0076
-  network: ws
-  port: 8880
-  server: 5.10.214.119
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0077
+- name: 14|DE_speednode_0040
   network: ws
   port: 8880
   server: 5.10.215.110
@@ -3845,7 +3327,119 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0078
+- name: 14|DE_speednode_0041
+  network: ws
+  port: 8880
+  server: 5.10.214.88
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0042
+  network: ws
+  port: 8880
+  server: 5.10.214.166
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0043
+  network: ws
+  port: 8880
+  server: 5.10.214.111
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0044
+  network: ws
+  port: 8880
+  server: 5.10.214.59
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0045
+  network: ws
+  port: 8880
+  server: 5.10.215.123
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0046
+  network: ws
+  port: 8880
+  server: 5.10.215.143
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0047
+  network: ws
+  port: 8880
+  server: 5.10.214.145
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0048
+  network: ws
+  port: 8880
+  server: 5.10.214.15
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0049
   network: ws
   port: 8880
   server: 5.10.215.254
@@ -3859,10 +3453,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0079
+- name: 14|DE_speednode_0050
   network: ws
   port: 8880
-  server: 5.10.214.157
+  server: 5.10.215.118
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -3873,7 +3467,147 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|ES_speednode_0080
+- name: 14|DE_speednode_0051
+  network: ws
+  port: 8880
+  server: 5.10.214.99
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0052
+  network: ws
+  port: 8880
+  server: 5.10.214.18
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0053
+  network: ws
+  port: 8880
+  server: 5.10.215.132
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0054
+  network: ws
+  port: 8880
+  server: 5.10.214.246
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0055
+  network: ws
+  port: 8880
+  server: 5.10.214.64
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0056
+  network: ws
+  port: 8880
+  server: 5.10.214.4
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0057
+  network: ws
+  port: 8880
+  server: 5.10.214.73
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0058
+  network: ws
+  port: 8880
+  server: 5.10.214.103
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0059
+  network: ws
+  port: 8880
+  server: 5.10.214.3
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0060
+  network: ws
+  port: 8880
+  server: 5.10.214.118
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|ES_speednode_0061
   network: ws
   port: 8880
   server: 185.251.82.20
@@ -3887,10 +3621,276 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|ES_speednode_0081
+- name: 14|GB_speednode_0062
   network: ws
   port: 8880
-  server: 185.238.228.20
+  server: 91.193.58.108
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0063
+  network: ws
+  port: 8880
+  server: 91.193.58.85
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0064
+  network: ws
+  port: 8880
+  server: 91.193.58.79
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0065
+  network: ws
+  port: 8880
+  server: 91.193.58.104
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0066
+  network: ws
+  port: 8880
+  server: 91.193.58.113
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0067
+  network: ws
+  port: 8880
+  server: 91.193.58.64
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0068
+  network: ws
+  port: 8880
+  server: 91.193.58.150
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0069
+  network: ws
+  port: 8880
+  server: 91.193.58.43
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0070
+  network: ws
+  port: 8880
+  server: 91.193.58.236
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0071
+  network: ws
+  port: 8880
+  server: 91.193.58.63
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0072
+  network: ws
+  port: 8880
+  server: 91.193.58.61
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0073
+  network: ws
+  port: 8880
+  server: 91.193.58.69
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0074
+  network: ws
+  port: 8880
+  server: 91.193.58.81
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0075
+  network: ws
+  port: 8880
+  server: 91.193.58.134
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0076
+  network: ws
+  port: 8880
+  server: 91.193.58.71
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0077
+  network: ws
+  port: 8880
+  server: 91.193.58.191
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0078
+  network: ws
+  port: 8880
+  server: 91.193.58.184
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0079
+  network: ws
+  port: 8880
+  server: 91.193.58.149
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0080
+  network: ws
+  port: 8880
+  server: 91.193.58.187
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0081
+  network: ws
+  port: 8880
+  server: 91.193.58.175
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -3918,7 +3918,7 @@ proxies:
 - name: 14|GB_speednode_0083
   network: ws
   port: 8880
-  server: 91.193.58.236
+  server: 91.193.58.225
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -3932,7 +3932,7 @@ proxies:
 - name: 14|GB_speednode_0084
   network: ws
   port: 8880
-  server: 91.193.58.61
+  server: 91.193.58.101
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -3946,7 +3946,7 @@ proxies:
 - name: 14|GB_speednode_0085
   network: ws
   port: 8880
-  server: 91.193.58.108
+  server: 91.193.58.181
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -3960,314 +3960,6 @@ proxies:
 - name: 14|GB_speednode_0086
   network: ws
   port: 8880
-  server: 91.193.58.113
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0087
-  network: ws
-  port: 8880
-  server: 91.193.58.64
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0088
-  network: ws
-  port: 8880
-  server: 91.193.58.150
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0089
-  network: ws
-  port: 8880
-  server: 91.193.58.69
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0090
-  network: ws
-  port: 8880
-  server: 91.193.58.112
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0091
-  network: ws
-  port: 8880
-  server: 91.193.58.79
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0092
-  network: ws
-  port: 8880
-  server: 91.193.58.104
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0093
-  network: ws
-  port: 8880
-  server: 91.193.58.85
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0094
-  network: ws
-  port: 8880
-  server: 91.193.58.200
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0095
-  network: ws
-  port: 8880
-  server: 91.193.58.43
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0096
-  network: ws
-  port: 8880
-  server: 91.193.58.63
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0097
-  network: ws
-  port: 8880
-  server: 91.193.58.81
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0098
-  network: ws
-  port: 8880
-  server: 91.193.58.187
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0099
-  network: ws
-  port: 8880
-  server: 91.193.58.134
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0100
-  network: ws
-  port: 8880
-  server: 91.193.58.191
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0101
-  network: ws
-  port: 8880
-  server: 91.193.58.71
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0102
-  network: ws
-  port: 8880
-  server: 91.193.58.184
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0103
-  network: ws
-  port: 8880
-  server: 91.193.58.181
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0104
-  network: ws
-  port: 8880
-  server: 91.193.58.175
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0105
-  network: ws
-  port: 8880
-  server: 91.193.58.149
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0106
-  network: ws
-  port: 8880
-  server: 91.193.58.4
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0107
-  network: ws
-  port: 8880
-  server: 91.193.58.57
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0108
-  network: ws
-  port: 8880
   server: 91.193.58.18
   servername: us.laoyoutiao.link
   skip-cert-verify: false
@@ -4279,49 +3971,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0109
-  network: ws
-  port: 8880
-  server: 91.193.58.101
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0110
-  network: ws
-  port: 8880
-  server: 91.193.58.172
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|GB_speednode_0111
-  network: ws
-  port: 8880
-  server: 91.193.58.225
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|JP_speednode_0112
+- name: 14|JP_speednode_0087
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -4335,7 +3985,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0113
+- name: 14|JP_speednode_0088
   network: ws
   port: 8880
   server: 103.116.7.19
@@ -4349,7 +3999,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|KZ_speednode_0114
+- name: 14|KZ_speednode_0089
   network: ws
   port: 8880
   server: 194.76.18.20
@@ -4363,7 +4013,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|LT_speednode_0115
+- name: 14|LT_speednode_0090
   network: ws
   port: 8880
   server: 86.38.214.20
@@ -4377,7 +4027,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0116
+- name: 14|RU_speednode_0091
   network: ws
   port: 8880
   server: 5.182.84.20
@@ -4391,7 +4041,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|SI_speednode_0117
+- name: 14|SI_speednode_0092
   network: ws
   port: 8880
   server: 92.60.74.20
@@ -4405,21 +4055,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|US_speednode_0120
-  network: ws
-  port: 8880
-  server: 147.185.161.20
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|US_speednode_0121
+- name: 14|US_speednode_0094
   network: ws
   port: 8880
   server: 155.46.213.20
@@ -4433,7 +4069,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|US_speednode_0122
+- name: 14|US_speednode_0095
   network: ws
   port: 80
   server: 34.160.118.77
@@ -4447,3 +4083,17 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /Telegram
+- name: 14|US_speednode_0096
+  network: ws
+  port: 8880
+  server: 147.185.161.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
