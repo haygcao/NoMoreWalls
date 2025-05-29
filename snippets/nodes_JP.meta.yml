@@ -1,42 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|11🇯🇵日本|官网：a5b3cloud.pro
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  name: 0|12🇯🇵日本|官网：蓝色海洋.xyz
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：a5b3cloud.pro
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  name: 0|13🇯🇵日本|官网：蓝色海洋.xyz
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36115
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|12🇯🇵日本|官网：mikasacloud.site
-  password: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  password: 3e467c02-7182-4371-9004-7dc8acdba083
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|13🇯🇵日本|官网：米卡莎.xyz
-  password: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  name: 1|13🇯🇵日本|官网：m5c3cloud.pro
+  password: 3e467c02-7182-4371-9004-7dc8acdba083
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|14🇯🇵日本|官网：mikasacloud.site
-  password: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  name: 1|14🇯🇵日本|官网：m5c3cloud.pro
+  password: 3e467c02-7182-4371-9004-7dc8acdba083
   port: 31115
   server: freem.vidalith.com
   type: ss
@@ -63,7 +63,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-WBHKQamx7o.download.microsoft.com
+    host: 202505250813455-9i84PIbLBb.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -81,15 +81,15 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 21755
+  port: 20091
   server: 43.226.17.8
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本3|@ripaojiedian
-  password: FOCNS0YH4YSOUJTO
-  port: 18001
+  password: JAI3U4Q8S82OR7ZY
+  port: 18012
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss

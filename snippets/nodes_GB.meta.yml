@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：abluecloud.xyz
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  name: 0|5🇭🇰香港|官网：a5b3cloud.pro
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|21🇬🇧英国住宅IP|官网：蓝色海洋.xyz
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  name: 0|21🇬🇧英国住宅IP|官网：a5b3cloud.pro
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36271
   server: freea.glyphara.com
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|3🇭🇰香港01|官网：mikasacloud.site
+  name: 1|3🇭🇰香港01|官网：m5c3cloud.pro
   port: 21141
   reality-opts:
     public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
@@ -26,10 +26,10 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  uuid: 3e467c02-7182-4371-9004-7dc8acdba083
 - cipher: chacha20-ietf-poly1305
   name: 1|24🇬🇧英国家宽|官网：米卡莎.xyz
-  password: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  password: 3e467c02-7182-4371-9004-7dc8acdba083
   port: 31271
   server: freem.vidalith.com
   type: ss

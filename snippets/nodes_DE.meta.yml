@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：abluecloud.xyz
-  password: cf01249f-533f-473e-b68f-ee36fbf3464a
+  name: 0|29🇩🇪德国|官网：蓝色海洋.xyz
+  password: c808b424-1f21-49c7-9420-86528dac5194
   port: 36471
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|32🇩🇪德国|官网：m5c3cloud.pro
-  password: 8151a1c5-a7a9-48b4-b8a3-e6fca01bcd6f
+  password: 3e467c02-7182-4371-9004-7dc8acdba083
   port: 31471
   server: freem.vidalith.com
   type: ss
