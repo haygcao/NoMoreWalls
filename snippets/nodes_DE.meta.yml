@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|33🇩🇪德国|官网：mikasacloud.site
-  password: 6b49221a-027d-4ca9-9320-a5ba42bbd251
+  name: 0|33🇩🇪德国|官网：米卡莎.xyz
+  password: 7f8e46e2-b619-4f32-a1d2-fa9d02f4a19c
   port: 31471
   server: freem.vidalith.com
   type: ss
@@ -92,14 +92,7 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|29🇩🇪德国|官网：a5b3cloud.pro
-  password: 03a29271-62b7-4253-8eb6-c75e1028b97f
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- name: '11|Channel id: @ShadowProxy66🇩🇪'
+- name: '10|Channel id: @ShadowProxy66🇩🇪'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25560
   server: 152.53.225.161
@@ -107,7 +100,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇩🇪 #1'
+- name: '10|Channel id: @ShadowProxy66🇩🇪 #1'
   obfs: salamander
   obfs-password: PassWord1
   password: PassWord2
@@ -116,7 +109,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0015
+- name: 13|DE_speednode_0015
   network: ws
   port: 8880
   server: 140.99.233.20
@@ -130,7 +123,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|DE_speednode_0016
+- name: 13|DE_speednode_0016
   network: ws
   port: 8880
   server: 89.116.46.20
@@ -144,7 +137,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|DE_speednode_0017
+- name: 13|DE_speednode_0017
   network: ws
   port: 8880
   server: 5.10.214.114
@@ -158,7 +151,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|DE_speednode_0018
+- name: 13|DE_speednode_0018
   network: ws
   port: 8880
   server: 5.10.215.20
@@ -172,7 +165,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|DE_speednode_0019
+- name: 13|DE_speednode_0019
   network: ws
   port: 8880
   server: 5.10.214.64
@@ -186,3 +179,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|29🇩🇪德国|官网：abluecloud.xyz
+  password: 219a37b2-3d72-4838-81d5-b136db1a850c
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
