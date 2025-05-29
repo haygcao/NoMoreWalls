@@ -1,8 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|24🇬🇧英国家宽|官网：米卡莎.xyz
-  password: 13d41d7c-7922-4e0b-82f9-f58f54b19f26
+  name: 0|25🇬🇧英国家宽|官网：米卡莎.xyz
+  password: f6a975a4-b38d-4930-bc76-8872a0566610
   port: 31271
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|5🇭🇰香港|官网：蓝色海洋.xyz
+  password: d0e379cd-05a4-493d-8894-7870eaa3b714
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|21🇬🇧英国住宅IP|官网：蓝色海洋.xyz
+  password: d0e379cd-05a4-493d-8894-7870eaa3b714
+  port: 36271
+  server: freea.glyphara.com
   type: ss
   udp: true
