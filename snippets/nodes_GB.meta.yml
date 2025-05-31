@@ -1,15 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
+  name: 1|5🇭🇰香港|官网：abluecloud.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
-- name: 13|GB_speednode_0055
+- name: 13|GB_speednode_0037
   network: ws
   port: 8880
-  server: 91.193.58.69
+  server: 91.193.58.97
   servername: cs.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -19,11 +19,11 @@ proxies:
   ws-opts:
     headers:
       Host: cs.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 13|GB_speednode_0056
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0038
   network: ws
   port: 8880
-  server: 91.193.58.78
+  server: 91.193.58.94
   servername: cs.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -33,8 +33,50 @@ proxies:
   ws-opts:
     headers:
       Host: cs.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 13|GB_speednode_0057
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 13|GB_speednode_0039
+  network: ws
+  port: 8880
+  server: 91.193.58.222
+  servername: cs.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: cs.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0040
+  network: ws
+  port: 8880
+  server: 185.193.29.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 13|GB_speednode_0041
+  network: ws
+  port: 8880
+  server: 94.247.142.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /?ed=2560
+- name: 13|GB_speednode_0042
   network: ws
   port: 8880
   server: 91.193.58.229
@@ -48,24 +90,10 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 13|GB_speednode_0058
+- name: 13|GB_speednode_0043
   network: ws
   port: 8880
-  server: 91.193.58.196
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram@WangCai2
-- name: 13|GB_speednode_0059
-  network: ws
-  port: 8880
-  server: 91.193.58.196
+  server: 91.193.58.131
   servername: cs.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -75,8 +103,22 @@ proxies:
   ws-opts:
     headers:
       Host: cs.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 13|GB_speednode_0060
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- name: 13|GB_speednode_0044
+  network: ws
+  port: 8880
+  server: 91.193.58.245
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 13|GB_speednode_0045
   network: ws
   port: 8880
   server: 91.193.58.64
@@ -90,10 +132,10 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0061
+- name: 13|GB_speednode_0046
   network: ws
   port: 8880
-  server: 91.193.58.65
+  server: 91.193.58.79
   servername: us.laoyoutiao.link
   skip-cert-verify: true
   tls: false
@@ -104,9 +146,23 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
+- name: 13|GB_speednode_0047
+  network: ws
+  port: 8880
+  server: 91.193.58.134
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|GB_speednode_0062
+  name: 13|GB_speednode_0048
   port: 443
   reality-opts:
     public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
@@ -117,10 +173,3 @@ proxies:
   type: vless
   udp: true
   uuid: a0de1607-5b63-fab8-a759-9f98706b6125
-- cipher: chacha20-ietf-poly1305
-  name: 14|4🇭🇰香港|官网：mikasacloud.site
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true

@@ -1,27 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|8🇹🇼台湾|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36241
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|9🇹🇼台湾|官网：蓝色海洋.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36243
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|10🇹🇼台湾|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36245
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 0|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -31,22 +10,43 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
+  name: 1|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36241
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇹🇼台湾|官网：abluecloud.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36243
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|10🇹🇼台湾|官网：abluecloud.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36245
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 14|7🇹🇼台湾|官网：mikasacloud.site
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31241
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|8🇹🇼台湾|官网：米卡莎.xyz
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|8🇹🇼台湾|官网：m5c3cloud.pro
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31243
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|9🇹🇼台湾|官网：m5c3cloud.pro
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|9🇹🇼台湾|官网：mikasacloud.site
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31245
   server: freem.vidalith.com
   type: ss

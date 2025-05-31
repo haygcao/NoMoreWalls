@@ -1,28 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|13🇯🇵日本|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -36,6 +15,27 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 1|11🇯🇵日本|官网：a5b3cloud.pro
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|12🇯🇵日本|官网：蓝色海洋.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|13🇯🇵日本|官网：蓝色海洋.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -74,10 +74,10 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 13|JP_speednode_0067
+- name: 13|JP_speednode_0056
   network: ws
-  port: 29192
-  server: 202.60.191.6
+  port: 8080
+  server: 103.232.213.117
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
@@ -88,10 +88,10 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 13|JP_speednode_0068
+- name: 13|JP_speednode_0057
   network: ws
-  port: 57005
-  server: 152.69.192.40
+  port: 11588
+  server: 121.87.0.21
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
@@ -102,23 +102,36 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|JP_speednode_0058
+  network: ws
+  password: Aimer
+  port: 443
+  server: 103.116.7.248
+  skip-cert-verify: false
+  sni: epme.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epme.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|10🇯🇵日本|官网：mikasacloud.site
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|11🇯🇵日本|官网：米卡莎.xyz
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|11🇯🇵日本|官网：m5c3cloud.pro
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|12🇯🇵日本|官网：米卡莎.xyz
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|12🇯🇵日本|官网：m5c3cloud.pro
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31115
   server: freem.vidalith.com
   type: ss

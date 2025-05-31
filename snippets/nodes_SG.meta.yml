@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36171
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：abluecloud.xyz
-  password: e571770a-03ce-41cf-ba89-395c9d187841
-  port: 36173
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -23,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+- name: 0|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
   server: 64.176.38.232
@@ -37,7 +23,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 1|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+- name: 0|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -51,6 +37,20 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|14🇸🇬新加坡|官网：abluecloud.xyz
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|15🇸🇬新加坡|官网：a5b3cloud.pro
+  password: 2b0602ec-bb29-495d-bb18-82c75804e63c
+  port: 36173
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '10|Channel id: @ShadowProxy66🇸🇬'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25022
@@ -84,7 +84,35 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: 13|SG_speednode_0090
+- name: 13|SG_speednode_0091
+  network: ws
+  port: 48964
+  server: 8.219.59.132
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|SG_speednode_0092
+  network: ws
+  port: 45137
+  server: 146.235.18.248
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|SG_speednode_0093
   network: ws
   port: 8880
   server: 92.243.74.20
@@ -98,27 +126,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|SG_speednode_0091
-  port: 45582
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 158.178.242.195
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab9167d1-ffe8-4dfc-e512-2c4b78b52bae
-- name: 13|SG_speednode_0092
-  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
-  port: 18334
-  server: diagram.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 13|SG_speednode_0093
+- name: 13|SG_speednode_0094
   network: ws
   port: 443
   server: 160.22.79.155
@@ -134,21 +142,21 @@ proxies:
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 14|13🇸🇬新加坡|官网：米卡莎.xyz
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31171
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|14🇸🇬新加坡|官网：mikasacloud.site
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|14🇸🇬新加坡|官网：m5c3cloud.pro
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31173
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|15🇸🇬新加坡|官网：mikasacloud.site
-  password: 6611b467-93b2-4af2-8743-c1a1fe708b03
+  name: 14|15🇸🇬新加坡|官网：m5c3cloud.pro
+  password: 5ae0a049-c832-4116-a7cb-8ae481d1d8d5
   port: 31175
   server: freem.vidalith.com
   type: ss
