@@ -1,19 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|29🇩🇪德国|官网：米卡莎.xyz
-  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+  password: 1e86f964-04ff-4dd4-be07-6a6e4f230f17
   port: 31471
   server: freem.vidalith.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|28🇩🇪德国|官网：abluecloud.xyz
-  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
+- name: 1|🇩🇪1 |  1.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.148.22
@@ -27,7 +20,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪2 |  1.3MB/s|0%|Openai
+- name: 1|🇩🇪2 |  1.3MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -41,7 +34,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪3 |  2.6MB/s|20%|Openai
+- name: 1|🇩🇪3 |  2.6MB/s|20%|Openai
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -55,7 +48,7 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 2|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+- name: 1|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -73,7 +66,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -89,7 +82,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  name: 1|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -99,6 +92,13 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|28🇩🇪德国|官网：蓝色海洋.xyz
+  password: 5e362b88-fa62-4af6-aec2-a415b76e0af4
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇩🇪'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 25560
@@ -116,12 +116,20 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0021
+- name: 14|DE_speednode_0053
+  port: 19000
+  server: farsidutch.nl
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1e547e90-9c6c-4695-9537-15aab4e14aa0
+- name: 14|DE_speednode_0054
   network: ws
   port: 8880
   server: 45.80.111.20
   servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -129,36 +137,8 @@ proxies:
   ws-opts:
     headers:
       Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|DE_speednode_0022
-  network: ws
-  port: 8880
-  server: 140.99.233.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|DE_speednode_0023
-  network: ws
-  port: 8880
-  server: 89.116.46.20
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /?ed=2560
-- name: 14|DE_speednode_0024
+    path: /
+- name: 14|DE_speednode_0055
   network: ws
   port: 8880
   server: 45.80.111.20
@@ -172,21 +152,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 14|DE_speednode_0025
-  network: ws
-  port: 8880
-  server: 45.80.111.124
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /
-- name: 14|DE_speednode_0026
+- name: 14|DE_speednode_0056
   network: ws
   port: 8880
   server: 5.10.214.157
@@ -200,10 +166,10 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|DE_speednode_0027
+- name: 14|DE_speednode_0057
   network: ws
   port: 8880
-  server: 5.10.215.143
+  server: 5.10.214.59
   servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
   tls: false
@@ -214,7 +180,49 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|DE_speednode_0028
+- name: 14|DE_speednode_0058
+  network: ws
+  port: 8880
+  server: 5.10.214.166
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 14|DE_speednode_0059
+  network: ws
+  port: 8880
+  server: 5.10.214.11
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 14|DE_speednode_0060
+  network: ws
+  port: 8880
+  server: 89.116.46.20
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 14|DE_speednode_0061
   network: ws
   port: 80
   server: 45.80.111.166
@@ -228,17 +236,31 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /
-- name: 14|DE_speednode_0029
+- name: 14|DE_speednode_0062
   network: ws
-  port: 2052
-  server: 188.245.145.207
-  servername: steep.skyfigure.top
+  port: 8880
+  server: 45.80.111.124
+  servername: reedfree8mahsang2.redorg.ir
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: steep.skyfigure.top
-    path: /TelegramU0001F1EEU0001F1F7 @ShadowProxy66 /?ed=2560
+      Host: reedfree8mahsang2.redorg.ir
+    path: /
+- name: 14|DE_speednode_0063
+  network: ws
+  port: 8880
+  server: 5.10.215.143
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /

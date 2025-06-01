@@ -1,49 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：米卡莎.xyz
-  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
+  password: 1e86f964-04ff-4dd4-be07-6a6e4f230f17
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+  name: 0|11🇯🇵日本|官网：米卡莎.xyz
+  password: 1e86f964-04ff-4dd4-be07-6a6e4f230f17
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|12🇯🇵日本|官网：米卡莎.xyz
-  password: 7f3c83a3-d8dc-40af-8bb2-7d5bb3987772
+  password: 1e86f964-04ff-4dd4-be07-6a6e4f230f17
   port: 31115
   server: freem.vidalith.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：a5b3cloud.pro
-  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：蓝色海洋.xyz
-  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|13🇯🇵日本|官网：a5b3cloud.pro
-  password: 995b4a67-3df8-4806-bd8b-fc7ec38a699b
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -57,6 +36,27 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|11🇯🇵日本|官网：a5b3cloud.pro
+  password: 5e362b88-fa62-4af6-aec2-a415b76e0af4
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|12🇯🇵日本|官网：a5b3cloud.pro
+  password: 5e362b88-fa62-4af6-aec2-a415b76e0af4
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|13🇯🇵日本|官网：abluecloud.xyz
+  password: 5e362b88-fa62-4af6-aec2-a415b76e0af4
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇯🇵'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
@@ -132,7 +132,87 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 14|JP_speednode_0056
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0087
+  port: 443
+  server: 3bd9.55dca.e048.f3-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0088
+  port: 443
+  server: 3bd9.55dca.e048.f4-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0089
+  port: 443
+  server: 3bd9.55dca.e048.f1-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0090
+  port: 443
+  server: 3bd9.55dca.e048.f5-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0091
+  port: 443
+  server: 3bd9.55dca.e048.f2-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0092
+  port: 443
+  server: 3bd9.55dca.e048.f6-fef1f.yfjcs.com
+  servername: yfjp.xn--4gq62f52gppi29k.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6bc29783-3ff6-4379-8650-611a7095307b
+- name: 14|JP_speednode_0093
+  network: ws
+  port: 443
+  server: 35.75.160.251
+  servername: jd.chenchuanjin.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb
+  ws-opts:
+    headers:
+      Host: jd.chenchuanjin.sbs
+    path: /?ed=2560
+- name: 14|JP_speednode_0094
   network: ws
   port: 8080
   server: 103.232.213.117
@@ -146,25 +226,24 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0057
-  network: ws
-  port: 11588
-  server: 121.87.0.21
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: 14|JP_speednode_0095
+  port: 443
+  reality-opts:
+    public-key: SUP3nblQDtku381iK83Nl0YXGXJw15sZYH-ilRRssAM
+    short-id: c166594b
+  server: 85.208.110.203
+  servername: www.samsung.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0058
+  uuid: 9835fbea-cfb1-402a-bdc6-16ca140c6788
+- name: 14|JP_speednode_0096
   network: ws
   password: Aimer
-  port: 443
-  server: 103.116.7.248
+  port: 2083
+  server: 103.116.7.103
   skip-cert-verify: false
   sni: epme.ambercc.filegear-sg.me
   type: trojan
