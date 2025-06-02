@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|27🇨🇦加拿大|官网：a5b3cloud.pro
-  password: 00689801-acd4-4cf3-b15d-2660b2dc9203
+  name: 0|27🇨🇦加拿大|官网：abluecloud.xyz
+  password: 16633d17-b54f-446e-9d21-83de0b635cfc
   port: 36441
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|28🇨🇦加拿大|官网：m5c3cloud.pro
-  password: 51bbaa29-023b-43ba-bf0d-c89f74b08997
+  name: 1|28🇨🇦加拿大|官网：米卡莎.xyz
+  password: 2c5a8d51-5b46-45ca-9a1d-bed9f0c107ed
   port: 31441
   server: freem.vidalith.com
   type: ss
