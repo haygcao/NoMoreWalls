@@ -1,12 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 2|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
-  password: 89a6f320-821c-413d-bc44-49ef744023df
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- name: 14|RU_speednode_0064
+- name: 13|RU_speednode_0064
   network: ws
   password: Aimer
   port: 443
@@ -19,3 +12,10 @@ proxies:
     headers:
       Host: epme.ambercc.filegear-sg.me
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|30🇷🇺俄罗斯|官网：m5c3cloud.pro
+  password: 91121fc7-c487-4094-9e4e-492fb179a207
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
