@@ -1,7 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 1|7🇹🇼台湾|官网：米卡莎.xyz
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|8🇹🇼台湾|官网：米卡莎.xyz
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  port: 31243
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇹🇼台湾|官网：mikasacloud.site
+  password: bd207293-72c9-41d6-bbe1-0c192bf6e7f5
+  port: 31245
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -11,24 +32,3 @@ proxies:
   server: 60.249.28.136
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|7🇹🇼台湾|官网：米卡莎.xyz
-  password: 91121fc7-c487-4094-9e4e-492fb179a207
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|8🇹🇼台湾|官网：m5c3cloud.pro
-  password: 91121fc7-c487-4094-9e4e-492fb179a207
-  port: 31243
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|9🇹🇼台湾|官网：m5c3cloud.pro
-  password: 91121fc7-c487-4094-9e4e-492fb179a207
-  port: 31245
-  server: freem.vidalith.com
-  type: ss
-  udp: true
