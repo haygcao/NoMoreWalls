@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：abluecloud.xyz
-  password: 29ddc06a-49ab-42e8-b2a0-d27ead35b0b7
+  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
+  password: 68d13e62-4a74-468c-9f19-e81bee30dc1f
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
-- name: '10|Channel id: @ShadowProxy66🇬🇧'
+- cipher: chacha20-ietf-poly1305
+  name: 1|4🇭🇰香港|官网：米卡莎.xyz
+  password: d6b81f1f-ef88-44e8-bb32-dc96d2183c1b
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- name: '11|Channel id: @ShadowProxy66🇬🇧'
   password: nfsn666
   port: 8888
   server: 130.162.182.250
@@ -14,35 +21,7 @@ proxies:
   sni: ld-arm.nfsn666.gq
   tls: false
   type: hysteria2
-- name: 13|GB_speednode_0024
-  network: ws
-  port: 8880
-  server: 91.193.58.229
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 13|GB_speednode_0025
-  network: ws
-  port: 8880
-  server: 91.193.58.222
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0026
+- name: 14|GB_speednode_0023
   network: ws
   port: 8880
   server: 91.193.58.172
@@ -56,77 +35,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0027
-  network: ws
-  port: 8880
-  server: 91.193.58.245
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0028
-  network: ws
-  port: 8880
-  server: 91.193.58.134
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0029
-  network: ws
-  port: 8880
-  server: 91.193.58.102
-  servername: sk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sk.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0030
-  network: ws
-  port: 8880
-  server: 91.193.58.63
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0031
-  network: ws
-  port: 8880
-  server: 91.193.58.65
-  servername: us.laoyoutiao.link
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0032
+- name: 14|GB_speednode_0024
   network: ws
   port: 8880
   server: 91.193.58.184
@@ -140,10 +49,24 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0033
+- name: 14|GB_speednode_0025
   network: ws
   port: 8880
-  server: 91.193.58.4
+  server: 91.193.58.65
+  servername: us.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|GB_speednode_0026
+  network: ws
+  port: 8880
+  server: 91.193.58.245
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -154,7 +77,35 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0034
+- name: 14|GB_speednode_0027
+  network: ws
+  port: 8880
+  server: 91.193.58.64
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|GB_speednode_0028
+  network: ws
+  port: 8880
+  server: 91.193.58.134
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|GB_speednode_0029
   network: ws
   port: 8880
   server: 91.193.58.79
@@ -168,10 +119,38 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0035
+- name: 14|GB_speednode_0030
   network: ws
   port: 8880
-  server: 91.193.58.64
+  server: 91.193.58.4
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|GB_speednode_0031
+  network: ws
+  port: 8880
+  server: 91.193.58.102
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /
+- name: 14|GB_speednode_0032
+  network: ws
+  port: 8880
+  server: 91.193.58.63
   servername: us.laoyoutiao.link
   skip-cert-verify: false
   tls: false
