@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：米卡莎.xyz
-  password: 2cbc98c3-6074-41cf-9c42-a202162ca02b
+  name: 0|10🇯🇵日本|官网：mikasacloud.site
+  password: 623d5fec-d2ef-4b75-91d9-ae738ef50466
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|11🇯🇵日本|官网：m5c3cloud.pro
-  password: 2cbc98c3-6074-41cf-9c42-a202162ca02b
+  password: 623d5fec-d2ef-4b75-91d9-ae738ef50466
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|12🇯🇵日本|官网：m5c3cloud.pro
-  password: 2cbc98c3-6074-41cf-9c42-a202162ca02b
+  password: 623d5fec-d2ef-4b75-91d9-ae738ef50466
   port: 31115
   server: freem.vidalith.com
   type: ss
@@ -36,9 +36,30 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: 78da1544-bad4-4b16-bc39-1b9ab648f23c
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|12🇯🇵日本|官网：a5b3cloud.pro
+  password: 78da1544-bad4-4b16-bc39-1b9ab648f23c
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|13🇯🇵日本|官网：a5b3cloud.pro
+  password: 78da1544-bad4-4b16-bc39-1b9ab648f23c
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -50,7 +71,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 60a930c17ff0
   plugin: v2ray-plugin
   plugin-opts:
@@ -66,7 +87,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: 4VWFR9NJLC1NGM7Q
   port: 18006
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -74,7 +95,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -86,7 +107,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本V2|@ripaojiedian
+  name: 13|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
   server: 8.211.154.107
@@ -94,24 +115,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- cipher: chacha20-ietf-poly1305
-  name: 14|11🇯🇵日本|官网：蓝色海洋.xyz
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|12🇯🇵日本|官网：abluecloud.xyz
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|13🇯🇵日本|官网：abluecloud.xyz
-  password: 1589af6a-6def-46c6-a9cc-9436441a53e2
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
