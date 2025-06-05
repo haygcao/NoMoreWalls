@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：m5c3cloud.pro
-  password: fd2371a3-6e72-469f-942c-49393c78be5c
+  name: 0|5🇭🇰香港|官网：mikasacloud.site
+  password: 176c4c00-3193-4309-8822-497028ef4581
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港家宽|官网：mikasacloud.site
-  password: fd2371a3-6e72-469f-942c-49393c78be5c
+  name: 0|6🇭🇰香港家宽|官网：米卡莎.xyz
+  password: 176c4c00-3193-4309-8822-497028ef4581
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 04f7cfde-4005-476c-a13f-b16fe874b85b
+  password: ed310210-d227-4ad9-8310-7cea29cde690
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: 04f7cfde-4005-476c-a13f-b16fe874b85b
+  name: 1|7🇭🇰香港住宅IP|官网：abluecloud.xyz
+  password: ed310210-d227-4ad9-8310-7cea29cde690
   port: 36145
   server: freea.glyphara.com
   type: ss
@@ -41,30 +41,39 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- client-fingerprint: chrome
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
-  password: '!!str 63099'
-  port: 18000
-  server: vhs.88443.cf
-  skip-cert-verify: false
-  sni: vhs.88443.cf
-  type: trojan
+  password: 4KGHWKCKQAJOVPHO
+  port: 15003
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
+  password: 1450cecfb93f
   plugin: v2ray-plugin
   plugin-opts:
-    host: hkkh11v1.xpmc.cc
+    host: kh36v1.pmxiaonan.xyz
     mode: websocket
     mux: true
-    path: /utvbnrzejpmt
+    path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 56804
-  server: hkkh11v1.xpmc.cc
+  port: 17161
+  server: 121.127.231.217
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 12,13|香港4|@ripaojiedian
+  network: tcp
+  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+  port: 443
+  server: usla.mjt000.com
+  skip-cert-verify: false
+  sni: usla.mjt000.com
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -76,15 +85,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
-  skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -96,14 +96,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  password: GUSA917ZCX1WAKMT
-  port: 15016
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -132,12 +124,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|香港|@ripaojiedian
-  network: tcp
-  password: '!!str 63099'
-  port: 18000
-  server: vhs.88443.cf
-  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港6|@ripaojiedian
+  port: 49131
+  server: 38.147.188.236
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
 - alterId: 64
   cipher: auto
   name: 13|新加坡2|@ripaojiedian
@@ -168,3 +165,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港6|@ripaojiedian
+  network: tcp
+  port: '49131'
+  server: 38.147.188.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
