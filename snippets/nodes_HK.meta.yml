@@ -1,35 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 012721b7-ae78-41ac-b2fd-bd877f334e3f
+  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: 012721b7-ae78-41ac-b2fd-bd877f334e3f
+  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
   port: 36145
   server: freea.glyphara.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：米卡莎.xyz
-  password: 7c9ad0a3-2bab-423e-914a-bb2d9cdf350e
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: 7c9ad0a3-2bab-423e-914a-bb2d9cdf350e
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -41,7 +27,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '11|Channel id: @ShadowProxy66🇭🇰'
+- name: '10|Channel id: @ShadowProxy66🇭🇰'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 89.185.27.133
@@ -49,14 +35,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇭🇰 #1'
+- name: '10|Channel id: @ShadowProxy66🇭🇰 #1'
   password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
   port: 3074
   server: 47.76.232.205
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇭🇰 #2'
+- name: '10|Channel id: @ShadowProxy66🇭🇰 #2'
   password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
   port: 22106
   server: 160.22.156.7
@@ -64,17 +50,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
-  password: 4KGHWKCKQAJOVPHO
-  port: 15003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  name: 11|🇭🇰 香港|@ripaojiedian
+  port: 49554
+  server: 183.236.51.38
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   password: 1450cecfb93f
   plugin: v2ray-plugin
   plugin-opts:
@@ -84,12 +73,23 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 17161
+  port: 11400
   server: 121.127.231.217
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港3|@ripaojiedian
+  port: 49302
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
+  name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   port: 443
@@ -100,20 +100,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
-  port: 49302
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港5|@ripaojiedian
-  port: 33919
-  server: 183.236.51.38
+  name: 11|🇭🇰 香港5|@ripaojiedian
+  port: 31209
+  server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -122,7 +111,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港7|@ripaojiedian
+  name: 11,12|香港6|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -138,29 +127,17 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港8|@ripaojiedian
-  port: 31209
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
+  name: 12|香港|@ripaojiedian
+  network: tcp
+  port: '49554'
+  server: 183.236.51.38
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇭🇰 香港6|@ripaojiedian
-  port: 49131
-  server: 38.147.188.236
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
 - alterId: 64
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 12|香港3|@ripaojiedian
   network: tcp
   port: '49302'
   server: 183.236.51.38
@@ -168,19 +145,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港5|@ripaojiedian
-  network: tcp
-  port: '33919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 13|香港8|@ripaojiedian
+  name: 12|香港5|@ripaojiedian
   network: tcp
   port: '31209'
   server: 120.232.153.40
@@ -188,17 +155,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港6|@ripaojiedian
-  network: tcp
-  port: '49131'
-  server: 38.147.188.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
-- name: 14|HK_speednode_0034
+- name: 13|HK_speednode_0034
   network: ws
   port: 7656
   server: 46.149.203.202
@@ -212,7 +169,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 14|HK_speednode_0035
+- name: 13|HK_speednode_0035
   network: ws
   port: 7656
   server: 46.149.203.202
@@ -226,3 +183,17 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|5🇭🇰香港|官网：mikasacloud.site
+  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|6🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
