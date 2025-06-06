@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|27🇨🇦加拿大|官网：a5b3cloud.pro
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
+  name: 1|27🇨🇦加拿大|官网：abluecloud.xyz
+  password: 94e74bf4-f0b5-4304-add8-fe77b4525523
   port: 36441
   server: freea.glyphara.com
   type: ss
@@ -40,8 +40,8 @@ proxies:
   udp: true
   username: tqqlqvxj@mayorlogistic.com
 - cipher: chacha20-ietf-poly1305
-  name: 14|28🇨🇦加拿大|官网：m5c3cloud.pro
-  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  name: 14|28🇨🇦加拿大|官网：米卡莎.xyz
+  password: 8dc64d58-0def-4ef2-b18f-2b0550bb8971
   port: 31441
   server: freem.vidalith.com
   type: ss

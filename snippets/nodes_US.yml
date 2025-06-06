@@ -1,26 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|18🇺🇸美国|官网：蓝色海洋.xyz
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
-  port: 36211
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国住宅IP|官网：abluecloud.xyz
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
-  port: 36213
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国|官网：abluecloud.xyz
-  password: ae10b0ca-bd8b-4bdd-b24c-284533d303a6
-  port: 36215
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -29,7 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 0|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -41,20 +20,41 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   skip-cert-verify: true
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|18🇺🇸美国|官网：a5b3cloud.pro
+  password: 94e74bf4-f0b5-4304-add8-fe77b4525523
+  port: 36211
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|19🇺🇸美国住宅IP|官网：蓝色海洋.xyz
+  password: 94e74bf4-f0b5-4304-add8-fe77b4525523
+  port: 36213
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|20🇺🇸美国|官网：abluecloud.xyz
+  password: 94e74bf4-f0b5-4304-add8-fe77b4525523
+  port: 36215
+  server: freea.glyphara.com
+  type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -129,21 +129,21 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|19🇺🇸美国|官网：米卡莎.xyz
-  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  password: 8dc64d58-0def-4ef2-b18f-2b0550bb8971
   port: 31211
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|20🇺🇸美国家宽|官网：m5c3cloud.pro
-  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  name: 14|20🇺🇸美国家宽|官网：米卡莎.xyz
+  password: 8dc64d58-0def-4ef2-b18f-2b0550bb8971
   port: 31213
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|21🇺🇸美国|官网：m5c3cloud.pro
-  password: 9a23cc01-598c-4b3d-9012-cb2ea061ba66
+  name: 14|21🇺🇸美国|官网：米卡莎.xyz
+  password: 8dc64d58-0def-4ef2-b18f-2b0550bb8971
   port: 31215
   server: freem.vidalith.com
   type: ss
