@@ -1,16 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|30🇷🇺俄罗斯|官网：米卡莎.xyz
-  password: b6ea849d-d230-4a87-b1e7-25dbdc8187af
-  port: 31511
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 1|🇷🇺1 |  2.5MB/s|50%
+  name: 0|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -22,7 +15,21 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: '10|Channel id: @ShadowProxy66🇷🇺'
+- cipher: chacha20-ietf-poly1305
+  name: 1|30🇷🇺俄罗斯|官网：m5c3cloud.pro
+  password: e4aae079-0e20-46c3-b8fc-ec8954b97017
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|29🇷🇺俄罗斯|官网：abluecloud.xyz
+  password: c6e97678-aefd-4d0a-add0-51a44db83110
+  port: 36511
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- name: '11|Channel id: @ShadowProxy66🇷🇺'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108
@@ -30,7 +37,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇷🇺 #1'
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56410
   server: 85.235.205.212
@@ -38,10 +45,26 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
-  password: 91e6920d-f19c-4c53-a7df-3bb7386a47a6
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
+- name: 14|RU_speednode_0055
+  network: ws
+  port: 8880
+  server: 5.182.84.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|RU_speednode_0056
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 443
+  server: 194.87.197.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
