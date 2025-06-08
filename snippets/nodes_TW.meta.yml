@@ -1,6 +1,27 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|7🇹🇼台湾|官网：mikasacloud.site
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|8🇹🇼台湾|官网：米卡莎.xyz
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  port: 31243
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇹🇼台湾|官网：m5c3cloud.pro
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  port: 31245
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 0,13|TW_speednode_0062
+  name: 2,14|TW_speednode_0062
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -10,29 +31,8 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 1|7🇹🇼台湾|官网：mikasacloud.site
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|8🇹🇼台湾|官网：mikasacloud.site
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
-  port: 31243
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|9🇹🇼台湾|官网：mikasacloud.site
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
-  port: 31245
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 11,12|台湾|@ripaojiedian
+  name: 12,13|台湾|@ripaojiedian
   network: tcp
   password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
   port: 443
@@ -41,7 +41,7 @@ proxies:
   sni: hinet.mjt000.com
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|台湾2|@ripaojiedian
+  name: 12,13|台湾2|@ripaojiedian
   network: tcp
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
   port: 443

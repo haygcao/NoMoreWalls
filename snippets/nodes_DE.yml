@@ -1,9 +1,16 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|29🇩🇪德国|官网：m5c3cloud.pro
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  port: 31471
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 0|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -12,14 +19,7 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- cipher: chacha20-ietf-poly1305
-  name: 1|29🇩🇪德国|官网：mikasacloud.site
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
-  port: 31471
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- name: 13|DE_speednode_0017
+- name: 14|DE_speednode_0017
   password: telegram-id-directvpn
   port: 22223
   server: 63.178.80.159
@@ -27,7 +27,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 13|DE_speednode_0019
+- name: 14|DE_speednode_0019
   password: telegram-id-privatevpns
   port: 22222
   server: 63.178.80.159

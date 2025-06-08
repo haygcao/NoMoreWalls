@@ -1,12 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|28🇨🇦加拿大|官网：米卡莎.xyz
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
   port: 31441
   server: freem.vidalith.com
   type: ss
   udp: true
-- name: '10|Channel id: @ShadowProxy66🇨🇦'
+- name: '11|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 40.233.70.163
@@ -14,7 +14,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇨🇦 #1'
+- name: '11|Channel id: @ShadowProxy66🇨🇦 #1'
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 54530
   server: 129.153.59.124
@@ -24,7 +24,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|CA_speednode_0003
+  name: 14|CA_speednode_0003
   port: 443
   reality-opts:
     public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg

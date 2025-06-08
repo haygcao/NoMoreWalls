@@ -1,9 +1,16 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|30🇷🇺俄罗斯|官网：米卡莎.xyz
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 0|🇷🇺1 |  2.5MB/s|50%
+  name: 2|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,14 +22,7 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- cipher: chacha20-ietf-poly1305
-  name: 1|30🇷🇺俄罗斯|官网：mikasacloud.site
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
-  port: 31511
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- name: '10|Channel id: @ShadowProxy66🇷🇺 #1'
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56410
   server: 85.235.205.212
@@ -30,7 +30,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: 13|RU_speednode_0055
+- name: 14|RU_speednode_0055
   network: ws
   port: 8880
   server: 5.182.84.20
@@ -44,7 +44,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|RU_speednode_0056
+- name: 14|RU_speednode_0056
   password: 25d55ad283aa400af464c76d713c07ad
   port: 443
   server: 194.87.197.196

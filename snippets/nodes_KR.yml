@@ -1,26 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  1.5MB/s|44%|Openai
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|16🇰🇷韩国|官网：米卡莎.xyz
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
+  name: 1|16🇰🇷韩国|官网：mikasacloud.site
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
+  name: 1|17🇰🇷韩国|官网：mikasacloud.site
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
   port: 31313
   server: freem.vidalith.com
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
 - client-fingerprint: chrome
-  name: 11,12,13|CN_speednode_0006
+  name: 12,13,14|CN_speednode_0006
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -31,7 +31,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 12|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 36379
   server: p080.panda001.net

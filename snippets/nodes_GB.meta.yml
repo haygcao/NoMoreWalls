@@ -1,12 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|4🇭🇰香港|官网：米卡莎.xyz
-  password: cb1251b5-bb4e-462f-b495-d66724b6f69e
+  name: 1|4🇭🇰香港|官网：m5c3cloud.pro
+  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
-- name: '10|Channel id: @ShadowProxy66🇬🇧'
+- name: '11|Channel id: @ShadowProxy66🇬🇧'
+  password: e48d6377dda26840
+  port: 42353
+  server: 185.184.70.120
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇬🇧 #1'
   password: nfsn666
   port: 8888
   server: 130.162.182.250
@@ -14,7 +21,7 @@ proxies:
   sni: ld-arm.nfsn666.gq
   tls: false
   type: hysteria2
-- name: 13|GB_speednode_0023
+- name: 14|GB_speednode_0023
   network: ws
   port: 8880
   server: 25.129.197.19
@@ -28,7 +35,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 13|GB_speednode_0024
+- name: 14|GB_speednode_0024
   network: ws
   port: 8880
   server: 91.193.58.247
@@ -42,7 +49,7 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0026
+- name: 14|GB_speednode_0026
   network: ws
   port: 8880
   server: 91.193.58.79
@@ -56,7 +63,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0027
+- name: 14|GB_speednode_0027
   network: ws
   port: 8880
   server: 91.193.58.4
@@ -70,7 +77,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0028
+- name: 14|GB_speednode_0028
   network: ws
   port: 8880
   server: 91.193.58.63
@@ -84,7 +91,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0029
+- name: 14|GB_speednode_0029
   network: ws
   port: 8880
   server: 91.193.58.245
@@ -98,7 +105,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0030
+- name: 14|GB_speednode_0030
   network: ws
   port: 8880
   server: 91.193.58.108
@@ -112,7 +119,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0031
+- name: 14|GB_speednode_0031
   network: ws
   port: 8880
   server: 91.193.58.78
@@ -126,7 +133,7 @@ proxies:
     headers:
       Host: cs.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0032
+- name: 14|GB_speednode_0032
   network: ws
   port: 8880
   server: 91.193.58.184
@@ -140,7 +147,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0033
+- name: 14|GB_speednode_0033
   network: ws
   port: 8880
   server: 91.193.58.65
@@ -154,7 +161,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0034
+- name: 14|GB_speednode_0034
   network: ws
   port: 8880
   server: 91.193.58.64
@@ -168,7 +175,7 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /
-- name: 13|GB_speednode_0035
+- name: 14|GB_speednode_0035
   network: ws
   port: 8880
   server: 91.193.58.172
@@ -183,7 +190,7 @@ proxies:
       Host: us.laoyoutiao.link
     path: /
 - client-fingerprint: firefox
-  name: 13|GB_speednode_0036
+  name: 14|GB_speednode_0036
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
