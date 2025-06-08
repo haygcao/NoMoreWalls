@@ -1,49 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 80660dc1-b962-4144-80ad-30fab2724324
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 80660dc1-b962-4144-80ad-30fab2724324
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：米卡莎.xyz
-  password: 80660dc1-b962-4144-80ad-30fab2724324
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：蓝色海洋.xyz
-  password: ab3b50eb-0588-4f36-9c65-150e70602eba
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: bb838d5f-edfb-4733-8388-68970489c592
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|12🇯🇵日本|官网：abluecloud.xyz
-  password: ab3b50eb-0588-4f36-9c65-150e70602eba
+  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
+  password: bb838d5f-edfb-4733-8388-68970489c592
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|13🇯🇵日本|官网：abluecloud.xyz
-  password: ab3b50eb-0588-4f36-9c65-150e70602eba
+  name: 0|13🇯🇵日本|官网：a5b3cloud.pro
+  password: bb838d5f-edfb-4733-8388-68970489c592
   port: 36115
   server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -57,6 +36,27 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|10🇯🇵日本|官网：米卡莎.xyz
+  password: 65f8c164-74de-43bb-bc86-4a5d5823b25d
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|11🇯🇵日本|官网：mikasacloud.site
+  password: 65f8c164-74de-43bb-bc86-4a5d5823b25d
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|12🇯🇵日本|官网：米卡莎.xyz
+  password: 65f8c164-74de-43bb-bc86-4a5d5823b25d
+  port: 31115
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
