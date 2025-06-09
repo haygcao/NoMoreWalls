@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：m5c3cloud.pro
-  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  name: 0|5🇭🇰香港|官网：米卡莎.xyz
+  password: c0b4df8c-c18e-4072-a1ee-e4013337bc8d
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: 769d5a84-66e3-4aee-b803-0fcfe3a177e8
+  name: 0|6🇭🇰香港家宽|官网：m5c3cloud.pro
+  password: c0b4df8c-c18e-4072-a1ee-e4013337bc8d
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: 9037f0ec-eb4a-4f59-a9a4-f7fc96067914
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 9037f0ec-eb4a-4f59-a9a4-f7fc96067914
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -50,7 +64,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 54778
+  port: 29755
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -65,15 +79,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港4|@ripaojiedian
+  port: 27680
+  server: 38.147.189.7
   skip-cert-verify: false
-  sni: usla.mjt000.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -142,6 +158,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港4|@ripaojiedian
+  network: tcp
+  port: '27680'
+  server: 38.147.189.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
 - alterId: 64
   cipher: auto
   name: 13|香港5|@ripaojiedian
