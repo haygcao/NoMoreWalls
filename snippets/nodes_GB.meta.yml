@@ -1,21 +1,20 @@
 proxies:
-- name: '8,10|Channel id: @ShadowProxy66🇬🇧 #1'
+- cipher: chacha20-ietf-poly1305
+  name: 0|5🇭🇰香港|官网：蓝色海洋.xyz
+  password: fea74fe9-7521-4d9e-892f-137c0b6b4705
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- name: '9,11|Channel id: @ShadowProxy66🇬🇧 #1'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇬🇧 #2'
-  password: nfsn666
-  port: 8888
-  server: 130.162.182.250
-  skip-cert-verify: true
-  sni: ld-arm.nfsn666.gq
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: 13|GB_speednode_0015
+  name: 14|GB_speednode_0015
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -27,10 +26,3 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- cipher: chacha20-ietf-poly1305
-  name: 14|4🇭🇰香港|官网：m5c3cloud.pro
-  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true
