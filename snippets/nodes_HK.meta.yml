@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：mikasacloud.site
-  password: aa25eab8-bba6-41ed-bcaa-8074972f42f8
+  name: 0|5🇭🇰香港|官网：米卡莎.xyz
+  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港家宽|官网：米卡莎.xyz
-  password: aa25eab8-bba6-41ed-bcaa-8074972f42f8
+  name: 0|6🇭🇰香港家宽|官网：mikasacloud.site
+  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
   port: 31145
   server: freem.vidalith.com
   type: ss
@@ -184,15 +184,15 @@ proxies:
       Host: steep.skyfigure.top
     path: /Telegram @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|6🇭🇰香港|官网：abluecloud.xyz
-  password: 1da63688-aa06-4b07-bd6e-3e64fdb73894
+  name: 14|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
-  password: 1da63688-aa06-4b07-bd6e-3e64fdb73894
+  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
   port: 36145
   server: freea.glyphara.com
   type: ss

@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：mikasacloud.site
-  password: aa25eab8-bba6-41ed-bcaa-8074972f42f8
+  name: 0|16🇰🇷韩国|官网：米卡莎.xyz
+  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|17🇰🇷韩国|官网：米卡莎.xyz
-  password: aa25eab8-bba6-41ed-bcaa-8074972f42f8
+  name: 0|17🇰🇷韩国|官网：m5c3cloud.pro
+  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
   port: 31313
   server: freem.vidalith.com
   type: ss
@@ -77,8 +77,8 @@ proxies:
       Host: steep.skyfigure.top
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|16🇰🇷韩国|官网：abluecloud.xyz
-  password: 1da63688-aa06-4b07-bd6e-3e64fdb73894
+  name: 14|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
   port: 36311
   server: freea.glyphara.com
   type: ss
