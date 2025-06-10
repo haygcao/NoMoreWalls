@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  name: 1|10🇯🇵日本|官网：mikasacloud.site
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31111
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|11🇯🇵日本|官网：米卡莎.xyz
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  name: 1|11🇯🇵日本|官网：mikasacloud.site
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31113
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|12🇯🇵日本|官网：米卡莎.xyz
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31115
   server: freem.vidalith.com
   type: ss
@@ -50,7 +50,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-RCFIknio7m.download.microsoft.com
+    host: 202506070920094-JZCkrm5A71.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -68,7 +68,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 50058
+  port: 40990
   server: 43.226.17.11
   tfo: false
   type: ss

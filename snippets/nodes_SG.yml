@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|13🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31171
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|14🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  name: 1|14🇸🇬新加坡|官网：mikasacloud.site
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31173
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|15🇸🇬新加坡|官网：mikasacloud.site
-  password: 429fdb11-9655-4c71-8f47-f5708bad744a
+  name: 1|15🇸🇬新加坡|官网：米卡莎.xyz
+  password: 8e8c39b8-8483-47b7-bb48-c29c76f917d8
   port: 31175
   server: freem.vidalith.com
   type: ss
@@ -47,3 +47,24 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  port: 41024
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡2|@ripaojiedian
+  network: tcp
+  port: '41024'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
