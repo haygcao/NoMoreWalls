@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31111
-  server: freem.vidalith.com
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36111
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31113
-  server: freem.vidalith.com
+  name: 0|12🇯🇵日本|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36113
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31115
-  server: freem.vidalith.com
+  name: 0|13🇯🇵日本|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
@@ -82,33 +82,52 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 13|JP_speednode_0027
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 4990
-  server: 103.232.213.170
+- name: 13|JP_speednode_0021
+  network: ws
+  port: 443
+  server: 141.147.185.15
+  servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: tqqlqvxj@mayorlogistic.com
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|JP_speednode_0022
+  network: ws
+  port: 443
+  server: 150.66.0.85
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|11🇯🇵日本|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36111
-  server: freea.glyphara.com
+  name: 14|10🇯🇵日本|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31111
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|12🇯🇵日本|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36113
-  server: freea.glyphara.com
+  name: 14|11🇯🇵日本|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31113
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|13🇯🇵日本|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36115
-  server: freea.glyphara.com
+  name: 14|12🇯🇵日本|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31115
+  server: freem.vidalith.com
   type: ss
   udp: true

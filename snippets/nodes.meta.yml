@@ -1,226 +1,212 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|4🇭🇰香港|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31141
-  server: freem.vidalith.com
+  name: 0|5🇭🇰香港|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36141
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|5🇭🇰香港|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31143
-  server: freem.vidalith.com
+  name: 0|6🇭🇰香港|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36143
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港家宽|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31145
-  server: freem.vidalith.com
+  name: 0|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36145
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇹🇼台湾|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31241
-  server: freem.vidalith.com
+  name: 0|8🇹🇼台湾|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36241
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|8🇹🇼台湾|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31243
-  server: freem.vidalith.com
+  name: 0|9🇹🇼台湾|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36243
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|9🇹🇼台湾|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31245
-  server: freem.vidalith.com
+  name: 0|10🇹🇼台湾|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36245
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31111
-  server: freem.vidalith.com
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36111
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31113
-  server: freem.vidalith.com
+  name: 0|12🇯🇵日本|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36113
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31115
-  server: freem.vidalith.com
+  name: 0|13🇯🇵日本|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|13🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31171
-  server: freem.vidalith.com
+  name: 0|14🇸🇬新加坡|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36171
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31173
-  server: freem.vidalith.com
+  name: 0|15🇸🇬新加坡|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36173
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31175
-  server: freem.vidalith.com
+  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36311
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31311
-  server: freem.vidalith.com
+  name: 0|17🇵🇭菲律宾|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36341
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31313
-  server: freem.vidalith.com
+  name: 0|18🇺🇸美国|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36211
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|18🇵🇭菲律宾|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31341
-  server: freem.vidalith.com
+  name: 0|19🇺🇸美国住宅IP|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36213
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|19🇺🇸美国|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31211
-  server: freem.vidalith.com
+  name: 0|20🇺🇸美国|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36215
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|20🇺🇸美国家宽|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31213
-  server: freem.vidalith.com
+  name: 0|21🇲🇾马来西亚|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36721
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|21🇺🇸美国|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31215
-  server: freem.vidalith.com
+  name: 0|22🇲🇾马来西亚|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36722
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|25🇹🇭泰国 |官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31741
-  server: freem.vidalith.com
+  name: 0|23🇮🇳西班牙|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36741
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|23🇲🇾马来西亚|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31721
-  server: freem.vidalith.com
+  name: 0|24🇹🇭泰国|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36731
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|24🇲🇾马来西亚|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31722
-  server: freem.vidalith.com
+  name: 0|25🇮🇳印度|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36371
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|26🇮🇳印度|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31371
-  server: freem.vidalith.com
+  name: 0|26🇦🇺澳大利亚|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36411
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|27🇦🇺澳大利亚|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31411
-  server: freem.vidalith.com
+  name: 0|27🇨🇦加拿大|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36441
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|28🇨🇦加拿大|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31441
-  server: freem.vidalith.com
+  name: 0|28🇩🇪德国|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36471
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|29🇩🇪德国|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31471
-  server: freem.vidalith.com
+  name: 0|29🇷🇺俄罗斯|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36511
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|30🇷🇺俄罗斯|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31511
-  server: freem.vidalith.com
+  name: 0|30🇹🇷土耳其|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36571
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|31🇦🇷阿根廷|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31541
-  server: freem.vidalith.com
+  name: 0|31🇺🇦乌克兰|官网：a5b3cloud.pro
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36611
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|32🇹🇷土耳其|官网：m5c3cloud.pro
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31571
-  server: freem.vidalith.com
+  name: 0|32🇻🇳越南|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36641
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|33🇺🇦乌克兰|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31611
-  server: freem.vidalith.com
+  name: 0|33🇧🇷巴西|官网：蓝色海洋.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36671
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|34🇻🇳越南|官网：mikasacloud.site
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31641
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|35🇧🇷巴西|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31671
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|36🇮🇩印度尼西亚|官网：米卡莎.xyz
-  password: 0d61bdcc-8142-48ef-b872-48c3d3eea71d
-  port: 31677
-  server: freem.vidalith.com
+  name: 0|34🇮🇩印度尼西亚|官网：abluecloud.xyz
+  password: b8372952-b7da-48d1-abdd-0d7c2c6e1871
+  port: 36677
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alpn:
@@ -1585,7 +1571,7 @@ proxies:
   sni: fd6eeb0d-sw7j40-swy6li-tni2.sv.plebai.net
   tls: true
   type: socks5
-- name: 1,13|TW_speednode_0034
+- name: 1,13|TW_speednode_0033
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -2007,19 +1993,12 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #6'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #8'
   password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
   port: 3002
   server: 107.175.34.118
-  sni: us.10101251.xyz
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇫🇮'
-  password: bc97f674-c578-4940-3548-0a1da46041b9
-  port: 21160
-  server: 37.27.65.125
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: us.10101251.xyz
   tls: false
   type: hysteria2
 - name: '10|Channel id: @ShadowProxy66🇮🇹'
@@ -2038,19 +2017,12 @@ proxies:
   sni: tms.dingtalk.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #8'
-  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
-  port: 443
-  server: 104.168.34.109
+- name: '10|Channel id: @ShadowProxy66🇫🇮'
+  password: bc97f674-c578-4940-3548-0a1da46041b9
+  port: 21160
+  server: 37.27.65.125
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #9'
-  password: b6ffadff-b7ad-497e-87c4-a2b315db85ea
-  port: 43224
-  server: 107.172.99.78
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '10|Channel id: @ShadowProxy66🇬🇧 #2'
@@ -2085,6 +2057,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #9'
+  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
+  port: 443
+  server: 104.168.34.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #10'
+  password: b6ffadff-b7ad-497e-87c4-a2b315db85ea
+  port: 43224
+  server: 107.172.99.78
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '10|Channel id: @ShadowProxy66🇨🇴'
   password: b3429796-fd3b-488a-b137-8886a9717b32
   port: 25565
@@ -2115,7 +2102,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #10'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #11'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56381
   server: 107.172.235.75
@@ -2131,7 +2118,7 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #11'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #12'
   password: 41a11f83
   port: 60000
   server: 141.11.89.172
@@ -2139,7 +2126,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Channel id: @ShadowProxy66🇺🇸 #12'
+- name: '10|Channel id: @ShadowProxy66🇺🇸 #13'
   password: 93c16258-48e0-4c72-928c-06434e394540
   port: 40266
   server: 107.175.32.131
@@ -2252,6 +2239,14 @@ proxies:
   password: aa068abd-f858-4fdf-b7c2-101947f160cb
   port: 443
   server: us.xn--mes91t7ofgnw.com
+  tls: false
+  type: hysteria2
+- name: '10|未命名 #1'
+  password: 18463200c271aa6d
+  port: 443
+  server: 45.63.116.113
+  skip-cert-verify: true
+  sni: vkv…
   tls: false
   type: hysteria2
 - name: 10|sshocean VIP VPN ⭐
@@ -2584,35 +2579,54 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|BG_speednode_0001
-  network: ws
-  port: 8880
-  server: 147.78.140.20
-  servername: us.laoyoutiao.link
+- flow: xtls-rprx-vision
+  name: 13|CA_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 35.182.42.202
+  servername: zula.ir
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|DE_speednode_0007
-  network: ws
-  port: 8880
-  server: 45.80.111.20
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- name: 13|CA_speednode_0002
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 104.129.128.58
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|DE_speednode_0008
+  username: tqqlqvxj@mayorlogistic.com
+- name: 13|CN_speednode_0004
+  password: cf7331fa-bfeb-11ed-a807-f23c913c8d2b
+  port: 27233
+  server: 91d19d2d-sxp8g0-tc5odo-1mh85.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  sni: 91d19d2d-sxp8g0-tc5odo-1mh85.cm5.cnkuaishou.com
+  type: trojan
+  udp: true
+- name: 13|CN_speednode_0006
+  password: 6e313598-a088-11ea-a22e-f23c91cfbbc9
+  port: 27233
+  server: 3cb362d9-sxp8g0-t6g8gl-ch5c.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  sni: 3cb362d9-sxp8g0-t6g8gl-ch5c.cm5.cnkuaishou.com
+  type: trojan
+  udp: true
+- name: 13|CZ_speednode_0010
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 194.87.108.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- name: 13|DE_speednode_0011
   network: ws
   port: 443
   server: 5.39.249.146
@@ -2626,7 +2640,7 @@ proxies:
     headers:
       Host: 0926.qiang2000.link
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 13|FI_speednode_0009
+- name: 13|FI_speednode_0012
   network: ws
   port: 443
   server: 77.221.159.70
@@ -2639,234 +2653,59 @@ proxies:
   ws-opts:
     headers:
       Host: 0926.qiang2000.link
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 13|FI_speednode_0010
-  network: ws
-  port: 443
-  server: 77.221.159.70
-  servername: 0926.qiang2000.link
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2
+- client-fingerprint: firefox
+  name: 13|GB_speednode_0015
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 217.179.91.152
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳@WangCai2
-- name: 13|GB_speednode_0011
-  network: ws
-  port: 8880
-  server: 25.129.197.19
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 13|GB_speednode_0012
-  network: ws
-  port: 8880
-  server: 91.193.58.4
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0013
-  network: ws
-  port: 8880
-  server: 91.193.58.108
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0014
-  network: ws
-  port: 8880
-  server: 91.193.58.79
-  servername: us.laoyoutiao.link
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0015
-  network: ws
-  port: 8880
-  server: 91.193.58.64
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0016
-  network: ws
-  port: 8880
-  server: 91.193.58.63
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0017
-  network: ws
-  port: 8880
-  server: 91.193.58.245
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0018
-  network: ws
-  port: 8880
-  server: 91.193.58.65
-  servername: us.laoyoutiao.link
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0019
-  network: ws
-  port: 8880
-  server: 91.193.58.184
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0020
-  network: ws
-  port: 8880
-  server: 91.193.58.172
-  servername: us.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|GB_speednode_0021
-  network: ws
-  port: 8880
-  server: 91.193.58.78
-  servername: cs.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: cs.laoyoutiao.link
-    path: /
-- name: 13|GG_speednode_0022
-  network: ws
-  port: 443
-  server: 213.163.200.215
-  servername: pasindu.vpnhub.news
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 13|ID_speednode_0017
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: 165.154.150.51
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 12d6eb6c-7fe7-4d13-9587-3bb9fda1bd28
-  ws-opts:
-    headers:
-      Host: pasindu.vpnhub.news
-    path: /
-- name: 13|HK_speednode_0023
-  network: ws
-  port: 443
-  server: 47.76.218.163
-  servername: steep.skyfigure.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram @pgkj666 /?ed=2560
-- name: 13|IL_speednode_0025
+  username: tqqlqvxj@mayorlogistic.com
+- name: 13|IL_speednode_0018
   password: 25d55ad283aa400af464c76d713c07ad
   port: 8300
-  server: 185.162.124.132
+  server: 45.143.5.60
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: tqqlqvxj@mayorlogistic.com
-- name: 13|IT_speednode_0026
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 8200
-  server: 185.47.172.230
-  skip-cert-verify: true
-  tls: true
-  type: http
+- http-opts:
+    headers:
+      Host:
+      - speedtest.net
+    method: GET
+    path:
+    - /
+  name: 13|IR_speednode_0019
+  network: http
+  port: 443
+  server: 37.32.42.22
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-  username: tqqlqvxj@mayorlogistic.com
-- name: 13|JP_speednode_0027
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 4990
-  server: 103.232.213.170
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: tqqlqvxj@mayorlogistic.com
-- name: 13|KR_speednode_0029
+  uuid: eb1920ff-d816-4ca1-b832-4683cddebaa6
+- name: 13|JP_speednode_0021
   network: ws
-  port: 30060
-  server: 183.96.245.165
+  port: 443
+  server: 141.147.185.15
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
@@ -2876,13 +2715,119 @@ proxies:
   ws-opts:
     headers:
       Host: steep.skyfigure.top
-    path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 13|NL_speednode_0030
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|JP_speednode_0022
   network: ws
   port: 443
-  server: 91.201.113.193
-  servername: 0926.qiang2000.link
+  server: 150.66.0.85
+  servername: steep.skyfigure.top
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|KR_speednode_0023
+  network: ws
+  port: 21789
+  server: 183.100.144.36
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|KR_speednode_0024
+  network: ws
+  port: 443
+  server: 158.179.171.53
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- client-fingerprint: firefox
+  name: 13|NN_speednode_0026
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 160.250.65.132
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 13|SC_speednode_0028
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: 156.226.175.105
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- name: 13|SG_speednode_0029
+  network: ws
+  port: 28983
+  server: 146.235.19.79
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|SG_speednode_0030
+  network: ws
+  port: 443
+  server: 160.22.79.221
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|SG_speednode_0031
+  network: ws
+  port: 443
+  server: 160.22.79.120
+  servername: steep.skyfigure.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- name: 13|SG_speednode_0032
+  network: ws
+  port: 443
+  server: 164.52.2.99
+  servername: 0926.qiang2000.link
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -2890,91 +2835,91 @@ proxies:
   ws-opts:
     headers:
       Host: 0926.qiang2000.link
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 13|RU_speednode_0031
+    path: /Telegram@WangCai2/?ed=2560
+- name: 13|US_speednode_0035
   network: ws
   port: 8880
-  server: 5.182.84.20
-  servername: us.laoyoutiao.link
+  server: 108.162.195.20
+  servername: ip.langmanshanxi.top
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     headers:
-      Host: us.laoyoutiao.link
-    path: /
-- name: 13|RU_speednode_0032
-  password: 25d55ad283aa400af464c76d713c07ad
+      Host: ip.langmanshanxi.top
+    path: /Telegram@WangCai2/?ed=2560
+- client-fingerprint: firefox
+  name: 13|US_speednode_0037
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 23.27.123.64
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 13|US_speednode_0052
+  network: ws
+  port: 80
+  server: speedtest.net
+  servername: foffmelo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7cccefc2-6e9b-47bb-f30c-ea2d3cdc8593
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- name: 13|US_speednode_0059
+  network: ws
   port: 443
-  server: 194.87.197.196
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
   skip-cert-verify: true
   tls: true
-  type: http
-  udp: true
-  username: tqqlqvxj@mayorlogistic.com
-- name: 13|SE_speednode_0033
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 8300
-  server: 103.45.246.184
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: tqqlqvxj@mayorlogistic.com
-- name: 13|US_speednode_0043
-  network: ws
-  port: 80
-  server: 151.101.64.155
-  servername: Aparatay.com
-  skip-cert-verify: false
-  tls: false
   type: vless
   udp: true
-  uuid: 15face3d-979a-40e5-fcbe-62b82a46aed4
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: Aparatay.com
-    path: /tel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- name: 13|US_speednode_0044
+      Host: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+    path: /
+- name: 13|US_speednode_0060
   network: ws
   port: 8880
-  server: 69.84.182.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
+  server: 104.21.69.44
+  servername: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: da3fca59-74f6-43b8-87e1-7970587de887
   ws-opts:
     headers:
-      Host: hk.laoyoutiao.link
-    path: /
-- name: 13|US_speednode_0045
+      Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+    path: /?ed=2048
+- name: 13|US_speednode_0061
   network: ws
   port: 80
-  server: 141.193.213.190
-  servername: cs.laoyoutiao.link
+  server: 151.101.2.228
+  servername: foffmelo.com
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: 7cccefc2-6e9b-47bb-f30c-ea2d3cdc8593
   ws-opts:
     headers:
-      Host: cs.laoyoutiao.link
-    path: /
-- name: 13|US_speednode_0047
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 4999
-  server: 146.71.78.145
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: tqqlqvxj@mayorlogistic.com
-- name: 13|US_speednode_0048
+      Host: foffmelo.com
+    path: /olem/ws
+- name: 13|US_speednode_0062
   password: 25d55ad283aa400af464c76d713c07ad
   port: 8330
   server: 66.55.65.54
@@ -2983,227 +2928,341 @@ proxies:
   type: http
   udp: true
   username: tqqlqvxj@mayorlogistic.com
-- name: 13|US_speednode_0049
-  network: ws
-  port: 80
-  server: 162.251.82.187
-  servername: my-mail-management-pr0-git-land-manager.clients-github.com
+- name: 13|US_speednode_0063
+  port: 46430
+  reality-opts:
+    public-key: kQoMZ1G4jwT9yTlF-NtZwhG22j3NQhzlvGsiiLxrLzI
+    short-id: e27f3a
+  server: 143.14.220.136
+  servername: yahoo.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1
+  uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
+- name: 13|US_speednode_0064
+  network: ws
+  port: 443
+  server: 64.188.97.173
+  servername: europeless.duckdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 524ef193-d0ee-4f6b-bf0b-1ab15a76cc9a
   ws-opts:
     headers:
-      Host: my-mail-management-pr0-git-land-manager.clients-github.com
-    path: /58834/mail-template
+      Host: europeless.duckdns.org
+    path: /getupdates
+- name: 13|US_speednode_0065
+  network: ws
+  password: 0bf83a1d-f785-487a-a479-3c3de2566ba6
+  port: 443
+  server: 172.67.204.120
+  skip-cert-verify: false
+  sni: VV.890603.xyZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: VV.890603.xyZ
+    path: /xJXdWGMbbZovkcaL2SsGTGxE
+- name: 13|US_speednode_0066
+  network: ws
+  port: 443
+  server: hostone-sg.zdsa.me
+  servername: hostone-sg.zdsa.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43ef1f94-978f-4539-ba01-1e6005859950
+  ws-opts:
+    headers:
+      Host: hostone-sg.zdsa.me
+    path: /
+- client-fingerprint: firefox
+  name: 13|VN_speednode_0067
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 103.81.85.15
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- client-fingerprint: firefox
+  name: 13|VN_speednode_0068
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 59.153.217.57
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- client-fingerprint: firefox
+  name: 13|VN_speednode_0069
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 103.81.86.9
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 13|VN_speednode_0070
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8300
+  server: 42.119.60.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com
+- client-fingerprint: firefox
+  name: 13|VN_speednode_0071
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 103.12.77.78
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
 - cipher: chacha20-ietf-poly1305
-  name: 14|5🇭🇰香港|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36141
-  server: freea.glyphara.com
+  name: 14|4🇭🇰香港|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31141
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|6🇭🇰香港|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36143
-  server: freea.glyphara.com
+  name: 14|5🇭🇰香港|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31143
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36145
-  server: freea.glyphara.com
+  name: 14|6🇭🇰香港家宽|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31145
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|8🇹🇼台湾|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36241
-  server: freea.glyphara.com
+  name: 14|7🇹🇼台湾|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31241
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|9🇹🇼台湾|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36243
-  server: freea.glyphara.com
+  name: 14|8🇹🇼台湾|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31243
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|10🇹🇼台湾|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36245
-  server: freea.glyphara.com
+  name: 14|9🇹🇼台湾|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31245
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|11🇯🇵日本|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36111
-  server: freea.glyphara.com
+  name: 14|10🇯🇵日本|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31111
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|12🇯🇵日本|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36113
-  server: freea.glyphara.com
+  name: 14|11🇯🇵日本|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31113
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|13🇯🇵日本|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36115
-  server: freea.glyphara.com
+  name: 14|12🇯🇵日本|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31115
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|14🇸🇬新加坡|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36171
-  server: freea.glyphara.com
+  name: 14|13🇸🇬新加坡|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31171
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|15🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36173
-  server: freea.glyphara.com
+  name: 14|14🇸🇬新加坡|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31173
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36311
-  server: freea.glyphara.com
+  name: 14|15🇸🇬新加坡|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31175
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|17🇵🇭菲律宾|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36341
-  server: freea.glyphara.com
+  name: 14|16🇰🇷韩国|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31311
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|18🇺🇸美国|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36211
-  server: freea.glyphara.com
+  name: 14|17🇰🇷韩国|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31313
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|19🇺🇸美国住宅IP|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36213
-  server: freea.glyphara.com
+  name: 14|18🇵🇭菲律宾|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31341
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|20🇺🇸美国|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36215
-  server: freea.glyphara.com
+  name: 14|19🇺🇸美国|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31211
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|21🇲🇾马来西亚|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36721
-  server: freea.glyphara.com
+  name: 14|20🇺🇸美国家宽|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31213
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|22🇲🇾马来西亚|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36722
-  server: freea.glyphara.com
+  name: 14|21🇺🇸美国|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31215
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|23🇮🇳西班牙|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36741
-  server: freea.glyphara.com
+  name: 14|25🇹🇭泰国 |官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31741
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|24🇹🇭泰国|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36731
-  server: freea.glyphara.com
+  name: 14|23🇲🇾马来西亚|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31721
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|25🇮🇳印度|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36371
-  server: freea.glyphara.com
+  name: 14|24🇲🇾马来西亚|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31722
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|26🇦🇺澳大利亚|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36411
-  server: freea.glyphara.com
+  name: 14|26🇮🇳印度|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31371
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|27🇨🇦加拿大|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36441
-  server: freea.glyphara.com
+  name: 14|27🇦🇺澳大利亚|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31411
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|28🇩🇪德国|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36471
-  server: freea.glyphara.com
+  name: 14|28🇨🇦加拿大|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31441
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|29🇷🇺俄罗斯|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36511
-  server: freea.glyphara.com
+  name: 14|29🇩🇪德国|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31471
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|30🇹🇷土耳其|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36571
-  server: freea.glyphara.com
+  name: 14|30🇷🇺俄罗斯|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31511
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|31🇺🇦乌克兰|官网：a5b3cloud.pro
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36611
-  server: freea.glyphara.com
+  name: 14|31🇦🇷阿根廷|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31541
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|32🇻🇳越南|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36641
-  server: freea.glyphara.com
+  name: 14|32🇹🇷土耳其|官网：米卡莎.xyz
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31571
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|33🇧🇷巴西|官网：蓝色海洋.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36671
-  server: freea.glyphara.com
+  name: 14|33🇺🇦乌克兰|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31611
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|34🇮🇩印度尼西亚|官网：abluecloud.xyz
-  password: 2c815f9a-fc20-440d-b68d-f9194ae5e6c4
-  port: 36677
-  server: freea.glyphara.com
+  name: 14|34🇻🇳越南|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31641
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|35🇧🇷巴西|官网：mikasacloud.site
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31671
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|36🇮🇩印度尼西亚|官网：m5c3cloud.pro
+  password: 1fb82e39-361d-46f1-ad0b-e454498134b9
+  port: 31677
+  server: freem.vidalith.com
   type: ss
   udp: true
