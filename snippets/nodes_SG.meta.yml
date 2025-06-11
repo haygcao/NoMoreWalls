@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|14🇸🇬新加坡|官网：a5b3cloud.pro
-  password: 21a07818-4174-4277-8f95-ceee5cfae9d7
+  name: 0|14🇸🇬新加坡|官网：abluecloud.xyz
+  password: 6361a36f-3d07-4247-abf5-75e781f40904
   port: 36171
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|15🇸🇬新加坡|官网：abluecloud.xyz
-  password: 21a07818-4174-4277-8f95-ceee5cfae9d7
+  name: 0|15🇸🇬新加坡|官网：a5b3cloud.pro
+  password: 6361a36f-3d07-4247-abf5-75e781f40904
   port: 36173
   server: freea.glyphara.com
   type: ss
@@ -96,22 +96,65 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|SG_speednode_0016
+- name: 14|SG_speednode_0074
   network: ws
-  port: 28983
-  server: 146.235.19.79
-  servername: steep.skyfigure.top
+  port: 80
+  server: 199.232.13.32
+  servername: Apple-SIB.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 03517ec0-976e-4cac-b84b-146fc4c7b023
+  ws-opts:
+    headers:
+      Host: Apple-SIB.ir
+    path: /Telegram-ipV2Ry-Telegram-ipV2Ry-Telegram-ipV2Ry?ed=2048
+- name: 14|SG_speednode_0075
+  network: ws
+  port: 443
+  server: 138.2.107.107
+  servername: as.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+      Host: as.bgm2024.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 14|SG_speednode_0017
+  name: 14|SG_speednode_0076
+  network: ws
+  port: 443
+  server: 168.138.181.208
+  servername: sgp.rtot.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
+  ws-opts:
+    headers:
+      Host: sgp.rtot.me
+    path: /bing
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|SG_speednode_0077
+  port: 56702
+  reality-opts:
+    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+    short-id: 792147b8
+  server: sg3.interld123456789.com
+  servername: addons.mozilla.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7d2f6c70-68f8-4e81-9e51-7aef5af376d6
+- client-fingerprint: chrome
+  name: 14|SG_speednode_0078
   network: ws
   port: 443
   server: 164.52.2.99
@@ -125,3 +168,17 @@ proxies:
     headers:
       Host: 0926.qiang2000.link
     path: /Telegram@WangCai2/?ed=2560
+- name: 14|SG_speednode_0079
+  network: ws
+  port: 443
+  server: 164.52.2.99
+  servername: 0926.qiang2000.link
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  ws-opts:
+    headers:
+      Host: 0926.qiang2000.link
+    path: /

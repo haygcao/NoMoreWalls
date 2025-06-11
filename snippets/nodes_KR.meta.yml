@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
-  password: 21a07818-4174-4277-8f95-ceee5cfae9d7
+  name: 0|16🇰🇷韩国|官网：蓝色海洋.xyz
+  password: 6361a36f-3d07-4247-abf5-75e781f40904
   port: 36311
   server: freea.glyphara.com
   type: ss
@@ -47,17 +47,31 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-- name: 14|KR_speednode_0012
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|KR_speednode_0061
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 43.203.171.71
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
+- name: 14|KR_speednode_0062
   network: ws
-  port: 21789
-  server: 183.100.144.36
-  servername: steep.skyfigure.top
+  port: 443
+  server: 144.24.73.232
+  servername: as.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+      Host: as.bgm2024.dpdns.org
+    path: /?ed=2560
