@@ -1,7 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: aa089366-8824-458e-b0b8-74f2c7127f14
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|12🇯🇵日本|官网：abluecloud.xyz
+  password: aa089366-8824-458e-b0b8-74f2c7127f14
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|13🇯🇵日本|官网：abluecloud.xyz
+  password: aa089366-8824-458e-b0b8-74f2c7127f14
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
