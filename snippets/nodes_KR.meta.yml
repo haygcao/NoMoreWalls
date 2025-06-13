@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 101 | 1x KR
+  password: ac7b64fb-1b37-406f-af70-44c290d1b638
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷 韩国 102 | 1x KR
+  password: ac7b64fb-1b37-406f-af70-44c290d1b638
+  port: 36313
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
@@ -33,14 +47,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷韩国 101 | 1x KR
-  password: b0c621cf-8041-4029-ad31-b19173bb57e0
+  password: 0f0158be-78af-441c-91b3-15be47e24480
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷韩国 102 | 1x KR
-  password: b0c621cf-8041-4029-ad31-b19173bb57e0
+  password: 0f0158be-78af-441c-91b3-15be47e24480
   port: 31313
   server: freem.vidalith.com
   type: ss
