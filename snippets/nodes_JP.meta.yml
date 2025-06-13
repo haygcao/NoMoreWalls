@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 101 | 1x JP
-  password: 675f30fd-ab57-4a74-b5a3-04b4a3814f67
+  name: 0|🇯🇵 日本 101 | 1x JP
+  password: 73b60174-4d86-4be4-a759-4d87d3f813b9
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 102 | 1x JP
-  password: 675f30fd-ab57-4a74-b5a3-04b4a3814f67
+  name: 0|🇯🇵 日本 102 | 1x JP
+  password: 73b60174-4d86-4be4-a759-4d87d3f813b9
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 103 | 1x JP
-  password: 675f30fd-ab57-4a74-b5a3-04b4a3814f67
+  name: 0|🇯🇵 日本 103 | 1x JP
+  password: 73b60174-4d86-4be4-a759-4d87d3f813b9
   port: 36115
   server: freea.glyphara.com
   type: ss
@@ -108,45 +108,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 14|JP_speednode_0012
-  network: ws
-  port: 443
-  server: 150.66.0.85
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0013
-  network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0014
-  network: ws
-  port: 443
-  server: 160.16.76.226
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
