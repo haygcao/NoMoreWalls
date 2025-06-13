@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 101 | 1x CA
-  password: ac7b64fb-1b37-406f-af70-44c290d1b638
+  password: 8f3f4d3e-2821-494f-9679-b669b132ba0c
   port: 36441
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇨🇦加拿大 101 | 1x CA
-  password: 0f0158be-78af-441c-91b3-15be47e24480
+  name: 14|🇨🇦加拿大 101 | 1x CA
+  password: cdae28e8-70b8-418f-afa7-4f9e10271fa6
   port: 31441
   server: freem.vidalith.com
   type: ss
