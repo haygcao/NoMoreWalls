@@ -1,27 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 101 | 1x TW
-  password: f2c35c38-6b49-452e-b541-65078bea5fa5
+  password: 64d2e038-c2f1-40f2-9472-ecd6171fa3d3
   port: 36241
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 102 | 1x TW
-  password: f2c35c38-6b49-452e-b541-65078bea5fa5
+  password: 64d2e038-c2f1-40f2-9472-ecd6171fa3d3
   port: 36243
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 103 | 1x TW
-  password: f2c35c38-6b49-452e-b541-65078bea5fa5
+  password: 64d2e038-c2f1-40f2-9472-ecd6171fa3d3
   port: 36245
   server: freea.glyphara.com
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -30,10 +30,3 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼台湾 101 | 1x TW
-  password: c1d0a88a-5f9b-4b39-8f27-6c38019631de
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
