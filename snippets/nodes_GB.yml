@@ -1,22 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 101 | 1x HK
-  password: f015b2ae-5ca6-4a4f-8ff0-e7a742b62d96
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国 102 | 1x UK
-  password: f015b2ae-5ca6-4a4f-8ff0-e7a742b62d96
-  port: 36273
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 101 | 1x HK
-  password: 267e863a-95eb-4695-ad52-53da59ce8350
+  name: 1|🇭🇰香港 101 | 1x HK
+  password: 429c09af-c6ae-4e3f-b24e-79806ca2deaf
   port: 31141
   server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇬🇧 英国 102 | 1x UK
+  password: e673c385-6c33-4318-84d3-c56c29d060c6
+  port: 36273
+  server: freea.glyphara.com
   type: ss
   udp: true
