@@ -1,28 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 101 | 1x JP
-  password: aed4163f-542d-4c5b-9257-b71b9f92c1e0
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 102 | 1x JP
-  password: aed4163f-542d-4c5b-9257-b71b9f92c1e0
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 103 | 1x JP
-  password: aed4163f-542d-4c5b-9257-b71b9f92c1e0
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -36,45 +15,64 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 101 | 1x JP
+  password: 32ddac8a-6b3a-4070-b6aa-8a0894d8014a
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 102 | 1x JP
+  password: 32ddac8a-6b3a-4070-b6aa-8a0894d8014a
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 103 | 1x JP
+  password: 32ddac8a-6b3a-4070-b6aa-8a0894d8014a
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-yLzbxEkmoB.download.microsoft.com
+    host: 202506131022370-Bautep9ydo.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
-  port: 20452
-  server: 140.227.28.92
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 8360adcea0b1
+  password: 264727317ef6
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr6v1.dashengjs.net
+    host: kr9v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /bylnxldqaquw
+    path: /ylikhqxcjfeb
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 43.226.17.11
+  port: 30203
+  server: 121.0.97.29
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.11
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -86,25 +84,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 12,13|日本5|@ripaojiedian
-  network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.11
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|日本3|@ripaojiedian
-  network: tcp
-  port: '20452'
-  server: 140.227.28.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: 13|日本4|@ripaojiedian
@@ -117,11 +96,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本V2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
-  port: '50951'
-  server: 8.211.154.107
+  port: '36668'
+  server: 8.211.175.53
   servername: ''
   tls: false
   type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  uuid: b798372a-54c8-4597-969e-8b00d2f76c09
