@@ -1313,25 +1313,13 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202506131022370-Bautep9ydo.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 12,13|美国|@ripaojiedian
   network: ws
-  port: '30832'
-  server: v32.heduian.link
+  port: '30828'
+  server: v28.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -1340,8 +1328,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ocbc.com
     path: /oooo
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202506131022370-sV66FLy3Dk.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 12|🇺🇸 美国3|@ripaojiedian
   password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
