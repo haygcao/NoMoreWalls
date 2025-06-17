@@ -31,3 +31,263 @@ proxies:
   server: 3.36.114.140
   tfo: false
   type: ss
+- name: 14|KR_speednode_0137
+  network: ws
+  password: ttfang
+  port: 26782
+  server: 183.103.211.16
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0138
+  network: ws
+  password: ttfang
+  port: 14074
+  server: 211.248.229.186
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0139
+  network: ws
+  password: ttfang
+  port: 27094
+  server: 119.195.155.85
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0140
+  network: ws
+  password: ttfang
+  port: 31491
+  server: 220.71.245.141
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0141
+  network: ws
+  password: ttfang
+  port: 34689
+  server: 121.172.5.248
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0142
+  network: ws
+  password: ttfang
+  port: 31164
+  server: 220.72.134.44
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0143
+  network: ws
+  password: ttfang
+  port: 10126
+  server: 121.154.79.130
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0144
+  network: ws
+  password: ttfang
+  port: 24304
+  server: 220.87.243.193
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0145
+  network: ws
+  password: ttfang
+  port: 16913
+  server: 121.172.5.248
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0146
+  network: ws
+  password: ttfang
+  port: 28827
+  server: 118.37.105.12
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0147
+  network: ws
+  password: ttfang
+  port: 28568
+  server: 220.87.243.193
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0148
+  network: ws
+  password: ttfang
+  port: 14491
+  server: 61.83.219.114
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0149
+  network: ws
+  password: ttfang
+  port: 29340
+  server: 220.87.229.22
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0150
+  network: ws
+  password: ttfang
+  port: 37865
+  server: 220.87.229.22
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0151
+  network: ws
+  password: ttfang
+  port: 21789
+  server: 183.100.144.36
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0152
+  network: ws
+  password: ttfang
+  port: 29264
+  server: 221.161.58.134
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0153
+  network: ws
+  password: ttfang
+  port: 26120
+  server: 218.148.212.190
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0154
+  network: ws
+  password: ttfang
+  port: 10482
+  server: 183.100.144.36
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0156
+  network: ws
+  password: ttfang
+  port: 14982
+  server: 59.5.53.119
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- name: 14|KR_speednode_0157
+  network: ws
+  password: ttfang
+  port: 18548
+  server: 59.5.53.119
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /

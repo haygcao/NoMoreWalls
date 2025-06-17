@@ -84,10 +84,10 @@ proxies:
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0097
+  name: 14|JP_speednode_0136
   network: ws
   port: 8880
-  server: 103.116.7.213
+  server: 103.116.7.63
   servername: jp.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -97,19 +97,4 @@ proxies:
   ws-opts:
     headers:
       Host: jp.laoyoutiao.link
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 14|JP_speednode_0098
-  network: ws
-  port: 8880
-  server: 154.92.9.213
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /?ed=2560
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
