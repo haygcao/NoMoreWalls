@@ -1658,14 +1658,6 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '8,10|Channel id: @ShadowProxy66🇫🇷 #1'
-  password: dongtaiwang.com
-  port: 31180
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: 9|🇱@ا ا
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
@@ -1736,6 +1728,14 @@ proxies:
   port: 42353
   server: 185.184.70.120
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|Channel id: @ShadowProxy66🇫🇷'
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '10|Channel id: @ShadowProxy66🇺🇸 #3'
