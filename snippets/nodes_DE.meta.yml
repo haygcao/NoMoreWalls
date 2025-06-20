@@ -86,7 +86,7 @@ proxies:
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0037
+  name: 14|DE_speednode_0037
   network: ws
   port: 8880
   server: 5.182.34.247
@@ -101,7 +101,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0038
+  name: 14|DE_speednode_0038
   network: ws
   port: 8880
   server: 5.10.214.247
@@ -116,7 +116,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0039
+  name: 14|DE_speednode_0039
   network: ws
   port: 8880
   server: 5.175.141.247
@@ -131,7 +131,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0040
+  name: 14|DE_speednode_0040
   network: ws
   port: 8880
   server: 140.99.233.247
@@ -146,7 +146,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0041
+  name: 14|DE_speednode_0041
   network: ws
   port: 8880
   server: 89.116.46.247
@@ -161,7 +161,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0042
+  name: 14|DE_speednode_0042
   network: ws
   port: 8880
   server: 5.10.215.247
@@ -176,7 +176,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0043
+  name: 14|DE_speednode_0043
   network: ws
   port: 8880
   server: 185.135.9.247
@@ -191,7 +191,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0044
+  name: 14|DE_speednode_0044
   network: ws
   port: 8880
   server: 45.80.111.247
@@ -206,7 +206,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0045
+  name: 14|DE_speednode_0045
   network: ws
   port: 8880
   server: 188.244.122.247
@@ -221,7 +221,7 @@ proxies:
       Host: ex.sue.x10.mx
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0046
+  name: 14|DE_speednode_0046
   network: ws
   port: 8880
   server: 45.80.111.247

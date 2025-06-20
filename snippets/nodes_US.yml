@@ -38,7 +38,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '80'
   server: SssssssW.222560.XYz
@@ -54,7 +54,7 @@ proxies:
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -67,7 +67,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '80'
   server: iIiiI8.222560.xYZ
