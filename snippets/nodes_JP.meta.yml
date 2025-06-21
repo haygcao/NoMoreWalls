@@ -70,18 +70,3 @@ proxies:
   tls: false
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
-- client-fingerprint: chrome
-  name: 13|JP_speednode_0082
-  network: ws
-  port: 8880
-  server: 103.116.7.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
