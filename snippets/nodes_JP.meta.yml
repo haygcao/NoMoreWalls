@@ -70,25 +70,10 @@ proxies:
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0059
+  name: 14|JP_speednode_0045
   network: ws
   port: 8880
   server: 103.116.7.251
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 14|JP_speednode_0060
-  network: ws
-  port: 8880
-  server: 154.92.9.251
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
