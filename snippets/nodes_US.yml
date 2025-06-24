@@ -41,29 +41,12 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-k8hslBf1A0.download.microsoft.com
+    host: 202506212021989-EC8jlHdOoj.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - name: 14|US_speednode_0264
   network: ws
   password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
