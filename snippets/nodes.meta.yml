@@ -1666,14 +1666,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|  | @Filter_breaker
-  password: 998d8c6e-cbdb-4836-9fde-fe3eecb321d4
-  port: 22158
-  server: hsfg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsfg.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: 10| | @Filter_breaker
   password: 998d8c6e-cbdb-4836-9fde-fe3eecb321d4
   port: 22161
@@ -1682,7 +1674,7 @@ proxies:
   sni: hsrb.huasuan666.top
   tls: false
   type: hysteria2
-- name: 10|🇱@𝗩اا ا
+- name: 10|🇱@اا ا
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
   password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
