@@ -86,122 +86,137 @@ proxies:
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0051
+  name: 13|DE_speednode_0028
   network: ws
   port: 8880
-  server: 188.244.122.254
+  server: 77.37.33.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0052
+  name: 13|DE_speednode_0029
   network: ws
   port: 8880
-  server: 140.99.233.254
+  server: 5.10.214.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0053
+  name: 13|DE_speednode_0030
   network: ws
   port: 8880
-  server: 5.182.34.254
+  server: 5.10.215.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0031
+  network: ws
+  port: 8880
+  server: 45.80.111.3
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0054
+  name: 13|DE_speednode_0032
   network: ws
   port: 8880
-  server: 5.10.214.254
+  server: 140.99.233.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0055
+  name: 13|DE_speednode_0033
   network: ws
   port: 8880
-  server: 89.116.46.254
+  server: 5.10.215.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0056
+  name: 13|DE_speednode_0034
   network: ws
   port: 8880
-  server: 185.135.9.254
+  server: 5.175.141.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0057
+  name: 13|DE_speednode_0035
   network: ws
   port: 8880
-  server: 77.37.33.254
+  server: 188.244.122.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0058
+  name: 13|DE_speednode_0036
   network: ws
   port: 8880
-  server: 45.80.111.254
+  server: 89.116.46.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
