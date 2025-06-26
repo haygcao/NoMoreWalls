@@ -33,14 +33,14 @@ proxies:
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
+  name: 12|🇰🇷 韩国|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 9898
   server: 52.78.60.36
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11,12|韩国2|@ripaojiedian
+  name: 12,13|韩国2|@ripaojiedian
   network: tcp
   password: 2b1ed981-6547-4094-998b-06a3323d6f6c
   port: 21017
@@ -51,7 +51,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -65,7 +65,7 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 13|KR_speednode_0076
+- name: 14|KR_speednode_0076
   network: ws
   port: 14534
   server: 211.114.180.156
