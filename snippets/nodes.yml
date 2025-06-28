@@ -118,9 +118,9 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 54.169.93.111
+  server: 54.178.52.87
   tfo: false
   type: ss
 - alterId: 2
@@ -141,34 +141,47 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   name: 12|🇭🇰 香港2|@ripaojiedian
-  password: d2bcd45faee2
+  password: f917888c6f39
   plugin: v2ray-plugin
   plugin-opts:
     host: hkxwv1-5.dsjsapi.com
     mode: websocket
     mux: true
-    path: /mupbpzjvwhcm
+    path: /rxoasyex
     skip-cert-verify: false
     tls: true
-  port: 995
+  port: 636
   server: 121.127.231.200
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  password: DWRHI0W4F0RELXHP
+  port: 15012
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
-  port: 46210
-  server: 43.247.135.170
+  name: 12,13|香港4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 977fb705-symkg0-t02swp-fa3p.hgc1.tcpbbr.net
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
+  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-gcm
-  name: 12|🇹🇼 台湾|@ripaojiedian
-  password: dwz1GtF7
-  port: 30015
-  server: 120.233.128.98
+  name: 12|🇭🇰 香港5|@ripaojiedian
+  password: 1FE8UX5KHGYBLYMU
+  port: 15015
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -176,7 +189,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -184,24 +197,24 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: fbf9b0db0136
+  password: 1ad90a422096
   plugin: v2ray-plugin
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
     mux: true
-    path: /hvehrabivnnp
+    path: /jwuctcuhriiw
     skip-cert-verify: false
     tls: true
-  port: 995
-  server: 43.226.17.11
+  port: 636
+  server: 43.226.17.8
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 12|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.206.224.12
+  password: Y5YXP5V1312FYBX8
+  port: 18010
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - name: 12,13|韩国|@ripaojiedian
@@ -212,6 +225,20 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 12|🇯🇵 日本4|@ripaojiedian
+  password: KAB2P3693PNXGL0D
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 12|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 12,13|美国|@ripaojiedian
@@ -228,11 +255,18 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 12|🇸🇬 新加坡|@ripaojiedian
-  password: zcaarradsfasgfdcxx
-  port: 3551
-  server: nstku8v.ns.p36958.xyz
+  password: PTOLSTKKE7DWRV1I
+  port: 16002
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: LHYN1FM2G207U465
+  port: 16013
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -240,12 +274,28 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12,13|美国3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.21.57.206
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
+  ws-opts:
+    headers:
+      Host: sssssssssssdddfgt.4444926.xyz
+    path: /U2Z0FoBkgtZqfwAwY2SNm
 - cipher: aes-256-cfb
   name: 12|🇻🇳 越南|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
@@ -253,32 +303,6 @@ proxies:
   server: 103.163.218.2
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12,13|美国3|@ripaojiedian
-  network: ws
-  port: '38003'
-  server: 38.11.18.221
-  servername: www.47720602.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.47720602.xyz
-    path: /path/262029062315
-- alterId: 0
-  cipher: auto
-  name: 13|香港3|@ripaojiedian
-  network: tcp
-  port: '46210'
-  server: 43.247.135.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
