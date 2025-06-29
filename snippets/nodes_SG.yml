@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -12,16 +12,16 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
-  password: PTOLSTKKE7DWRV1I
-  port: 16002
+  password: 983UF5QK58NAQNHZ
+  port: 16011
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡2|@ripaojiedian
-  password: LHYN1FM2G207U465
-  port: 16013
+  password: RJ7MXLK2KHIN2B4U
+  port: 16009
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
