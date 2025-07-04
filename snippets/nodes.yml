@@ -148,11 +148,10 @@ proxies:
   tls: false
   type: vmess
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
-- name: 12,13|香港4|@ripaojiedian
-  network: tcp
+- name: 12|🇭🇰 香港4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 444
-  server: 36.151.192.61
+  port: 9141
+  server: 36.151.192.10
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -305,6 +304,14 @@ proxies:
   tls: false
   type: vmess
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+- name: 13|香港4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 444
+  server: 36.151.192.61
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
@@ -325,22 +332,7 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
-- name: 14|CN_speednode_0023
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0024
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  skip-cert-verify: false
-  sni: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  type: trojan
-  udp: true
-- name: 14|ES_speednode_0052
+- name: 14|ES_speednode_0049
   network: ws
   password: trojan
   port: 8443
