@@ -1692,16 +1692,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|All  @Cook_Vpn
-  obfs: salamander
-  obfs-password: nZ1fJMEpOR41WvXM4p98ryGE
-  password: 5f81e5a7-8362-4af4-b688-81241c3a4c51
-  port: 42820
-  server: pro.moon-night.ir
-  skip-cert-verify: true
-  sni: speedtest.net
-  tls: false
-  type: hysteria2
 - name: '10|@vpnv2rayNGv #2'
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
