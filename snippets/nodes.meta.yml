@@ -1658,7 +1658,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: 8|@NoForcedHeaven
+- name: 8|@NoForcedheaven
   obfs: salamander
   obfs-password: 9242a8bf
   password: a2678c97b8d79059
@@ -1726,6 +1726,15 @@ proxies:
   port: 501
   server: p1.3dfigures.ir
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9| @vistav2ray  👈ا '
+  obfs: salamander
+  obfs-password: The_Sefr-salamdash
+  password: Godwhat.PLMoknyourmain33446
+  port: 443
+  server: knock.zone1.center
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '9|@vpnv2rayNGv #3'
