@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -86,21 +86,7 @@ proxies:
     headers:
       Host: file.dingtalk.com
     path: /market?ed=512
-- name: 14|JP_speednode_0172
-  network: ws
-  port: 8880
-  server: 103.116.7.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 14|JP_speednode_0173
+- name: 14|JP_speednode_0113
   network: ws
   port: 8880
   server: 103.116.7.177
@@ -114,7 +100,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram@WangCai2/?ed=2560
-- name: 14|JP_speednode_0174
+- name: 14|JP_speednode_0114
   network: ws
   port: 8880
   server: 154.92.9.77
@@ -128,3 +114,17 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 14|JP_speednode_0115
+  network: ws
+  port: 8880
+  server: 103.116.7.168
+  servername: kjgx.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
