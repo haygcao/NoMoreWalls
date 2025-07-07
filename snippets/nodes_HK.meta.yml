@@ -13,18 +13,10 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 9,10|@v2ray_configs_pool️Hong Kong️...
+- name: '9|Channel id: @ShadowProxy66 🇭🇰'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
-  tls: false
-  type: hysteria2
-- name: 10|👉🆔@v2ray_configs_pool📡🇭🇰®️Hong...
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
   skip-cert-verify: true
   sni: hk.nfsn666.gq
   tls: false
