@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '9|Channel id: @ShadowProxy66 🇭🇰'
+- name: '9,10|@meli_proxyy #9'
   password: nfsn666
   port: 8888
   server: 45.207.222.138

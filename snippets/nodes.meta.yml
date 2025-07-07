@@ -1685,7 +1685,7 @@ proxies:
   sni: aus.pagate.top
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇭🇰'
+- name: '9,10|@meli_proxyy #9'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -1791,6 +1791,14 @@ proxies:
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@meli_proxyy #7'
+  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
+  port: 443
+  server: 104.168.34.109
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -1907,11 +1915,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|@Filter_breaker |  NA
-  password: c0d1e2f3-a4b5-6789-f012-6789012345op
-  port: 9445
-  server: 4n0nymou3.ir
-  sni: www.speedtest.net
+- name: '10|@meli_proxyy #8'
+  password: be81e21d-02d8-4a60-a07e-c2202a50a549
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhl.yunjijd.xyz
   tls: false
   type: hysteria2
 - name: 10|@Filter_breaker | United State...
@@ -1953,7 +1962,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|@Filter_breaker | 🏴‍☠️ NA
+- name: 10|@Filter_breaker |  NA
   password: e8f9a0b1-c2d3-4567-f012-6789012345wx
   port: 9446
   server: 4n0nymou3.ir
