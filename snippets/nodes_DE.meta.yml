@@ -94,7 +94,7 @@ proxies:
   type: hysteria2
 - name: '10|🇩🇪 @game_file2020 #1'
   password: 621187c3-859d-4682-aac1-cd4500f9690e
-  port: 17340
+  port: 17911
   server: de.saigonfly.com
   skip-cert-verify: false
   tls: false

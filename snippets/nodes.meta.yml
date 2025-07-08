@@ -1692,6 +1692,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '9|Channel id: @ShadowProxy66'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 443
+  server: uk.saigonfly.com
+  tls: false
+  type: hysteria2
 - name: '9,10|@meli_proxyy #5'
   password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
   port: 443
@@ -1729,6 +1735,15 @@ proxies:
   port: 29282
   server: 47.74.34.102
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9|Channel id: @ShadowProxy66🇬🇧'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: yapc-1.adamhayward.co.uk
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: 9|未命名
@@ -1776,6 +1791,14 @@ proxies:
   server: 45.129.2.108
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 9,10,11|@drakvpn🐉
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '9|Channel id: @ShadowProxy66 🇺🇸'
@@ -1890,6 +1913,34 @@ proxies:
   type: hysteria2
 - name: '10| @game_file2020 #1'
   password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17383
+  server: br.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇧🇷 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17510
+  server: br.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇧🇷 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17598
+  server: br.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇧🇷 @game_file2020 #2'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17703
+  server: br.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10| @game_file2020 #2'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17027
   server: de.saigonfly.com
   skip-cert-verify: false
@@ -1902,42 +1953,140 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇩🇪 @game_file2020 #1'
+- name: 10|🇪 @game_file2020
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17340
   server: de.saigonfly.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10| @game_file2020 #2'
+- name: '10|🇩🇪 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17911
+  server: de.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|@game_file2020500 GB
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17395
+  server: hk.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇷 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17064
+  server: tr.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇹🇷 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17192
+  server: tr.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇷 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17515
+  server: tr.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇹🇷 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17882
+  server: tr.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇧 @game_file2020
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17129
   server: uk.saigonfly.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇬🇧 @game_file2020
+- name: '10|🇧 @game_file2020 #1'
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17383
   server: uk.saigonfly.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇬🇧 @game_file2020 #1'
+- name: '10|🇧 @game_file2020 #2'
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17571
   server: uk.saigonfly.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇧 @game_file2020
+- name: '10|🇧 @game_file2020 #3'
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 17970
   server: uk.saigonfly.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|🇺USA-Hysteria2-@Filter_breaker
+- name: '10| @game_file2020 #3'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17109
+  server: us.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇸 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17278
+  server: us.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇸 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17340
+  server: us.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇸 @game_file2020 #2'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17627
+  server: us.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇦 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17132
+  server: za.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇦 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17297
+  server: za.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇦 @game_file2020 #2'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17365
+  server: za.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇿🇦 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17412
+  server: za.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇺🇸USA-Hysteria2-@Filter_breake...
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 108.181.23.241
@@ -1945,7 +2094,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇺🇸USA-Hysteria2-@Filter_breake...
+- name: '10|🇺🇸USA-Hysteria2-@Filter_breake... #1'
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 108.181.23.249
@@ -1953,7 +2102,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|🇺🇸USA-Hysteria2-@Filter_breake... #1'
+- name: '10|🇺🇸USA-Hysteria2-@Filter_breake... #2'
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 108.181.23.255
@@ -1993,7 +2142,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|🇺🇸USA-Hysteria2-@Filter_breake... #2'
+- name: '10|🇺🇸USA-Hysteria2-@Filter_breake... #3'
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 204.10.194.86
@@ -2251,14 +2400,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10,11|@drakvpn🐉
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: '10,11|Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 31180
@@ -2360,7 +2501,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇷🇺'
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #2'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108
@@ -2375,7 +2516,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇬🇧'
+- name: '11|Channel id: @ShadowProxy66🇬🇧 #1'
   password: e48d6377dda26840
   port: 42353
   server: 185.184.70.120
