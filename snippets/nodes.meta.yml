@@ -1668,15 +1668,7 @@ proxies:
   sni: zp1.eyujichang.xyz
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 '
-  password: 50a88b3f
-  port: 2308
-  server: 38.207.130.91
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 9|🇯🇵东京2
+- name: 9|东京2
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 154.85.18.233
@@ -1696,30 +1688,6 @@ proxies:
   password: 621187c3-859d-4682-aac1-cd4500f9690e
   port: 443
   server: uk.saigonfly.com
-  tls: false
-  type: hysteria2
-- name: '9,10|@meli_proxyy #6'
-  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
-  port: 443
-  server: 104.168.34.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @ShadowProxy66  #2'
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 47262
-  server: 40.233.73.221
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇭🇰'
-  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
-  port: 50000
-  server: 47.238.98.245
-  skip-cert-verify: true
-  sni: ali.xiao666666.site
   tls: false
   type: hysteria2
 - name: 9,10|18@V2aryng_vpn
@@ -1742,7 +1710,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸
+- name: 9|未命名
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
   server: 35.94.124.236
@@ -1766,7 +1734,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|未命名
+- name: '9|未命名 #1'
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -1797,14 +1765,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9,10|@meli_proxyy #7'
-  password: be81e21d-02d8-4a60-a07e-c2202a50a549
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
-  tls: false
-  type: hysteria2
 - name: '9,10|⚜️Telegram: @IP_CF #3'
   password: dongtaiwang.com
   port: 50850
@@ -1821,15 +1781,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇺🇸'
-  password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-  port: 10086
-  server: 129.146.241.150
-  skip-cert-verify: true
-  sni: aus.pagate.top
-  tls: false
-  type: hysteria2
-- name: '9|未命名 #1'
+- name: '9|未命名 #2'
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
@@ -1842,7 +1794,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9,10|@meli_proxyy #9'
+- name: '9,10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2130,34 +2082,10 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|⚜️@PewezaVPN (Hysteria)
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 138.2.2.120
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|⚜️@PewezaVPN (Hysteria) #1'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 152.70.234.101
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|⚜️@PewezaVPN (Hysteria) #2'
+- name: '10|@meli_proxyy #4'
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 192.9.176.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|⚜️@PewezaVPN (Hysteria) #3'
-  password: 627712cf-d0e1-4545-81fb-241e7fda0284
-  port: 443
-  server: 193.122.106.44
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -2185,6 +2113,22 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '10|Telegram:@config_proxy  #1'
+  password: 8394eaba-a2dc-4deb-8176-9f3bee5bc166
+  port: 30000
+  server: 132.226.117.48
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: 10|@vpnv2r4y️  یو️
+  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
+  port: 443
+  server: 104.168.34.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '10|⚜️Telegram: @IP_CF #1'
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 54530
@@ -2193,7 +2137,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10| @V2aryng_vpn  ان
+- name: 10| @V2aryng_vpn ی ان
   password: 924abf1e-375d-4918-8b20-1047ef3dbb57
   port: 10119
   server: kor.pddwdf.store
@@ -2346,6 +2290,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️
+  password: be81e21d-02d8-4a60-a07e-c2202a50a549
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhl.yunjijd.xyz
+  tls: false
+  type: hysteria2
 - name: 10|@Filter_breaker | United State...
   password: c7d8e9f0-1234-5bcd-6abc-7890abcdef12
   port: 443
@@ -2400,7 +2352,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|Telegram:@config_proxy '
+- name: '10|@meli_proxyy #8'
   password: dongtaiwang.com
   port: 30033
   server: 46.17.41.217
@@ -2414,14 +2366,6 @@ proxies:
   server: 51.159.111.32
   skip-cert-verify: true
   sni: apple.com
-  tls: false
-  type: hysteria2
-- name: 10|Telegram:@config_proxy 😍
-  password: dongtaiwang.com
-  port: 50066
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 10|@Filter_breaker | Germany
@@ -2501,7 +2445,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 10|@v2rayng_fars 🚀 Telegram
+- name: 10|Telegram:@config_proxy 😍
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user10.thisismeSUperkl19201
@@ -2528,7 +2472,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|@v2rayng_fars 🚀 Telegram #3'
+- name: '10|Telegram:@config_proxy 😍 #2'
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user15.SEFRlolpip192761
@@ -2553,7 +2497,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇷🇺 #2'
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108

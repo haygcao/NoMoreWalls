@@ -23,7 +23,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇷🇺 #2'
+- name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: dongtaiwang.com
   port: 30033
   server: 45.129.2.108
