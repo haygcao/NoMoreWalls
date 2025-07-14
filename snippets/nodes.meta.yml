@@ -1706,6 +1706,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '9| Telegram : @Viturey'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 206.71.158.40
+  sni: pichondan.com
+  tls: false
+  type: hysteria2
 - name: 9,10|ان 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
