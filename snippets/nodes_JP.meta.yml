@@ -95,7 +95,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 14|JP_speednode_0060
+- name: 14|JP_speednode_0080
   network: ws
   port: 8880
   server: 103.116.7.186
@@ -110,7 +110,7 @@ proxies:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0061
+  name: 14|JP_speednode_0081
   network: ws
   port: 8880
   server: 103.116.7.177

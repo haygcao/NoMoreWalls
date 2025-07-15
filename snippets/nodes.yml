@@ -327,37 +327,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 14|KZ_speednode_0063
+- name: 14|ES_speednode_0049
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: false
+  sni: store.timimi.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
+      Host: store.timimi.dpdns.org
     path: /
-- name: 14|US_speednode_0184
+- name: 14|US_speednode_0227
   network: ws
   password: tg-fq521free
   port: 443
   server: 198.62.62.67
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 14|US_speednode_0186
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
   skip-cert-verify: true
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
