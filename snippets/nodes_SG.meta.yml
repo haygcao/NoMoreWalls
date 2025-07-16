@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 9|新加坡
+- name: 8|新加坡
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22
@@ -45,7 +45,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇸🇬'
+- name: '10|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
   server: 92.112.23.216
@@ -53,25 +53,33 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 8117
-  server: 36.151.192.26
+  port: 44123
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
-  server: 36.151.192.26
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
+  port: 39856
+  server: 165.154.236.149
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: 14|SG_speednode_0109
+  name: 13|SG_speednode_0109
   network: ws
   port: 8880
   server: 92.243.74.177
@@ -85,7 +93,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0110
+- name: 13|SG_speednode_0110
   network: ws
   port: 8880
   server: 92.243.74.186
@@ -99,7 +107,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0111
+- name: 13|SG_speednode_0111
   network: ws
   port: 8880
   server: 92.243.75.186
