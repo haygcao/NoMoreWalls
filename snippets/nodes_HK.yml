@@ -47,11 +47,10 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|香港4|@ripaojiedian
-  network: tcp
+  name: 12|🇭🇰 香港4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 1122
-  server: 36.151.192.13
+  port: 8001
+  server: 36.151.251.7
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -65,11 +64,10 @@ proxies:
   sni: nkrpjj.cn
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|香港5|@ripaojiedian
-  network: tcp
+  name: 12|🇭🇰 香港5|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 9141
-  server: 36.151.192.13
+  port: 20783
+  server: 36.151.192.62
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -80,6 +78,22 @@ proxies:
   port: 26193
   server: 155.117.228.70
   skip-cert-verify: true
+  type: trojan
+- name: 13|香港4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 1122
+  server: 36.151.192.13
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 13|香港5|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 9141
+  server: 36.151.192.13
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
 - alterId: 0
   cipher: auto
