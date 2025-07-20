@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -49,20 +49,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 2112e4.7d79233c.shop
-  servername: ''
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 13584
+  server: 38.147.189.50
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
-  ws-opts:
-    headers:
-      Host: hk01s.7d79233c.shop
-    path: /
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - client-fingerprint: chrome
   name: 12,13|香港4|@ripaojiedian
   network: tcp
@@ -81,6 +75,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '13584'
+  server: 38.147.189.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian

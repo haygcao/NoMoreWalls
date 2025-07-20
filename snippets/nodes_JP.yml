@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -61,6 +61,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 13.158.56.180
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本v2|@ripaojiedian

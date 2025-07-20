@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -79,20 +79,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 2112e4.7d79233c.shop
-  servername: ''
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 13584
+  server: 38.147.189.50
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
-  ws-opts:
-    headers:
-      Host: hk01s.7d79233c.shop
-    path: /
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - client-fingerprint: chrome
   name: 12,13|香港4|@ripaojiedian
   network: tcp
@@ -113,6 +107,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '13584'
+  server: 38.147.189.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
+- alterId: 0
+  cipher: auto
   name: 13|香港v2|@ripaojiedian
   network: kcp
   port: '63101'
@@ -121,17 +125,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ba47c516-0c18-49d5-9548-6370c835e163
-- name: 14|HK_speednode_0114
-  network: ws
-  port: 21415
-  server: 43.132.244.52
-  servername: tw.laoyoutiao.link
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: tw.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
