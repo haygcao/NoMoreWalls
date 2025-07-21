@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -27,14 +27,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 54.169.45.155
-  tfo: false
-  type: ss
 - name: 14|SG_speednode_0256
   network: ws
   password: Aimer
