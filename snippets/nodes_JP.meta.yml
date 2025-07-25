@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -61,6 +61,14 @@ proxies:
   server: 154.85.19.63
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 10|🇯🇵 @Filter_breaker
+  password: bd3e3f61-242a-42ae-8598-fc0821f29104
+  port: 50000
+  server: 45.11.1.62
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: rc4-md5
