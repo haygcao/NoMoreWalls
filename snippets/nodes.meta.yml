@@ -1930,6 +1930,14 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- name: 9|@SaghiVpnX[]
+  password: 568b2070-e528-444e-9cc9-3ec3debe17bf
+  port: 443
+  server: jp03.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '9|未命名 #5'
   obfs: salamander&obfs-password
   password: 575d98a6-6b8f-4ee3-b682-b21efd5432cf
@@ -2065,7 +2073,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|@SaghiVpnX[]
+- name: '9|@SaghiVpnX[] #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2119,30 +2127,6 @@ proxies:
   port: 33331
   server: 206.71.158.40
   sni: jnir-1.pichondan.com
-  tls: false
-  type: hysteria2
-- name: 9| @Filter_breaker
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|🇯🇵 @Filter_breaker
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 45.11.1.62
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|🇸 @Filter_breaker
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 87.254.23.104
-  skip-cert-verify: true
-  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: '9|Telegram@vmessorg #1'
@@ -2229,7 +2213,7 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- name: 9|(@vmesskhodam)نم
+- name: 9|(@vmesskhodam)لم
   obfs: salamander
   obfs-password: mkv_SEfr-salamdash
   password: user10.thisismeSUperkl19201
