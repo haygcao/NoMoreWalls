@@ -1668,7 +1668,31 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: 9|日本
+- name: '9|Channel id: @ShadowProxy66 '
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '9|Channel id: @ShadowProxy66 🇯🇵'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 45.11.1.62
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '9|Channel id: @ShadowProxy66 🇸'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 87.254.23.104
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|🇯🇵日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -1779,6 +1803,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '9|Channel id: @ShadowProxy66 🇺🇸 #3'
+  password: dongtaiwang.com
+  port: 63015
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: 9,10|@V2ray1_Ng
   password: dongtaiwang.com
   port: 50850
@@ -1795,7 +1827,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '9,11|Channel id: @ShadowProxy66🇫🇷'
+- name: '9,10,11|Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
@@ -2331,14 +2363,6 @@ proxies:
   port: 37804
   server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy '
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
 - name: '10|v2raybluecrystal2 #4'
