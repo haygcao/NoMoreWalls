@@ -1795,7 +1795,7 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- name: '9,10,11|Channel id: @ShadowProxy66🇫🇷'
+- name: '9,11|Channel id: @ShadowProxy66🇫🇷'
   password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
@@ -1914,33 +1914,6 @@ proxies:
   password: 4VDmo53kWX
   port: 50757
   server: 185.219.81.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal2 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 19338
-  server: v2raybluecrystal.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 40408
-  server: v2raybluecrystal.3dfigures.ir
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal3 #1'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: 6E7ZX07Att
-  port: 47294
-  server: v2raybluecrystal.3dfigures.ir
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -2147,7 +2120,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal2 #2'
+- name: '10|v2raybluecrystal2 #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: Ys1Z1iA996
@@ -2156,7 +2129,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal3 #2'
+- name: '10|v2raybluecrystal3 #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: Ys1Z1iA996
@@ -2165,7 +2138,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal #2'
+- name: '10|v2raybluecrystal #1'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: Ys1Z1iA996
@@ -2306,12 +2279,39 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal2 #3'
+- name: '10|v2raybluecrystal2 #2'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: mItioklzVp
   port: 22527
   server: 78.138.118.228
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|v2raybluecrystal3 #2'
+  obfs: salamander
+  obfs-password: v2raybluecrystal
+  password: mItioklzVp
+  port: 33113
+  server: 78.138.118.228
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|v2raybluecrystal #2'
+  obfs: salamander
+  obfs-password: v2raybluecrystal
+  password: mItioklzVp
+  port: 37804
+  server: 78.138.118.228
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|v2raybluecrystal2 #3'
+  obfs: salamander
+  obfs-password: v2raybluecrystal
+  password: mItioklzVp
+  port: 22527
+  server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -2320,7 +2320,7 @@ proxies:
   obfs-password: v2raybluecrystal
   password: mItioklzVp
   port: 33113
-  server: 78.138.118.228
+  server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -2329,38 +2329,11 @@ proxies:
   obfs-password: v2raybluecrystal
   password: mItioklzVp
   port: 37804
-  server: 78.138.118.228
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal2 #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: mItioklzVp
-  port: 22527
   server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal3 #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: mItioklzVp
-  port: 33113
-  server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|v2raybluecrystal #4'
-  obfs: salamander
-  obfs-password: v2raybluecrystal
-  password: mItioklzVp
-  port: 37804
-  server: v2raybluecrystal-france.v2raybluecrystal2.dynv6.net
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|🔷🆔@v2ray_configs_pool🔷
+- name: '10|Telegram:@config_proxy '
   password: nfsn666
   port: 8888
   server: hk.nfsn666.gq
@@ -2368,7 +2341,7 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal2 #5'
+- name: '10|v2raybluecrystal2 #4'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: o753T2a9zD
@@ -2377,7 +2350,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal #5'
+- name: '10|v2raybluecrystal #4'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: o753T2a9zD
@@ -2386,7 +2359,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|v2raybluecrystal3 #5'
+- name: '10|v2raybluecrystal3 #4'
   obfs: salamander
   obfs-password: v2raybluecrystal
   password: o753T2a9zD
