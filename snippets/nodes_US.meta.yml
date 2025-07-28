@@ -784,7 +784,7 @@ proxies:
   type: socks5
 - auth: 5CBqBh6MeDq6GajcilBiDg==
   client-fingerprint: chrome
-  name: '2,9,11|Channel id: @ShadowProxy66🇺🇸 #2'
+  name: '2,9,10,11|Channel id: @ShadowProxy66🇺🇸 #2'
   password: 5CBqBh6MeDq6GajcilBiDg==
   port: 61001
   server: 192.227.152.86
@@ -1039,7 +1039,7 @@ proxies:
   type: socks5
 - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   client-fingerprint: chrome
-  name: 2,10|  Telegram @v2rayng_fars
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #7'
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
@@ -1089,11 +1089,13 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸104 |  2.1MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #9'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
@@ -1130,11 +1132,13 @@ proxies:
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   client-fingerprint: chrome
-  name: 2|🇺🇸109 |  3.2MB/s
+  name: '2,10|🔷🆔@v2ray_configs_pool🔷 #10'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: chrome
@@ -1331,7 +1335,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇺🇸 #3'
+- name: '9,10|🔷🆔@v2ray_configs_pool🔷 #30'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
