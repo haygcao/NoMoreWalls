@@ -1760,13 +1760,6 @@ proxies:
   sni: uuk1.tok8888.com
   tls: false
   type: hysteria2
-- name: '9,10,11|Channel id: @ShadowProxy66🇺🇸'
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|🇺🇸
   password: RKrGw4dSUwK3YAvqdQI8tcqNl0
   port: 34060
@@ -1817,22 +1810,6 @@ proxies:
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: 9,10|@V2ray_cartel
-  password: dongtaiwang.com
-  port: 50850
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 9,11|@drakvpn🐉
-  password: dongtaiwang.com
-  port: 12904
-  server: 46.17.41.5
   skip-cert-verify: true
   sni: apple.com
   tls: false
@@ -1989,6 +1966,13 @@ proxies:
   port: 21811
   server: gin.mxtn.net
   skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10,11|Channel id: @ShadowProxy66🇺🇸'
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '10|美国10 付费推荐：https://dafei.de #1'
@@ -2367,6 +2351,14 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
+- name: 10|@V2ray_cartel
+  password: dongtaiwang.com
+  port: 50850
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '10|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
@@ -2519,14 +2511,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: 10|@Filter_breaker | Germany
-  password: o9p0q1r2-9012-3bcd-4abc-5678abcdef12
-  port: 443
-  server: 185.146.173.2900
-  skip-cert-verify: false
-  sni: hysteria.de.vpnfree.org
-  tls: false
-  type: hysteria2
-- name: '10|@Filter_breaker | Germany #1'
   password: u5v6w7x8-9012-3bcd-4abc-5678abcdef34
   port: 443
   server: 185.146.173.3250
@@ -2552,7 +2536,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|@Filter_breaker | Germany #2'
+- name: '10|@Filter_breaker | Germany #1'
   password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90
   port: 443
   server: 185.146.173.3400
@@ -2566,6 +2550,14 @@ proxies:
   server: 18.136.211.127
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 11|@drakvpn🐉
+  password: dongtaiwang.com
+  port: 12904
+  server: 46.17.41.5
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇺🇸 #1'
