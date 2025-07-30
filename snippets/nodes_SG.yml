@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -22,8 +22,8 @@ proxies:
   name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 178.128.106.216
+  port: 145
+  server: 36.151.195.111
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
