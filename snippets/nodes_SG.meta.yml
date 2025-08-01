@@ -65,7 +65,7 @@ proxies:
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 443
-  server: 178.128.114.123
+  server: 128.199.125.102
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -73,8 +73,8 @@ proxies:
   name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 178.128.17.109
+  port: 1256
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -87,6 +87,23 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|新加坡4|@ripaojiedian
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - name: 14|SG_speednode_0248
   network: ws
   port: 8880
