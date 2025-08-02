@@ -1325,11 +1325,13 @@ proxies:
   tls: true
   type: socks5
 - auth: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  name: 2|🇺🇸96 |  2.4MB/s
+  name: '2,10|@v2ray_configs_pool #13'
   password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
   port: 8443
   server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸97 |  2.2MB/s|14%|Openai
@@ -1348,11 +1350,13 @@ proxies:
   ws-opts:
     path: /6603a779
 - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  name: 2|🇺🇸98 |  1.3MB/s
+  name: '2,10|@v2ray_configs_pool #6'
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 8443
   server: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 6150e203-svy9s0-sx4b2t-tng5.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸99 |  4.8MB/s|0%|Openai|Gemi...
@@ -1371,11 +1375,13 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - auth: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  name: 2|🇺🇸100 |  1.3MB/s
+  name: '2,10|@v2ray_configs_pool #26'
   password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
   port: 8443
   server: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ed8e1d3b-sw3ts0-szt6ky-1bonh.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸101 |  1.6MB/s|14%|Openai
@@ -1399,19 +1405,23 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  name: 2|🇺🇸104 |  2.1MB/s
+  name: '2,10|@v2ray_configs_pool #8'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 69ad0675-sw5og0-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
-  name: 2|🇺🇸105 |  2.9MB/s
+  name: '2,10|@v2ray_configs_pool #25'
   password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
   port: 8443
   server: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: d5d8af9a-svlb40-sxf56z-1f596.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸106 |  1.8MB/s|14%|Openai
@@ -1435,11 +1445,13 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  name: 2|🇺🇸109 |  3.2MB/s
+  name: '2,10|@v2ray_configs_pool #9'
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 8443
   server: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: ccb2a204-sw1z40-sx7hbg-1mmbp.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸110 |  3.1MB/s|46%|Openai
@@ -1551,11 +1563,13 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  name: 2|🇺🇸122 |  1.4MB/s
+  name: 2,10|@v2ray_configs_pool
   password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
   port: 8443
   server: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
+  skip-cert-verify: false
   sni: 2e7bc2e9-sw04g0-swsmkh-1s0a7.hy2.gotochinatown.net
+  tls: false
   type: hysteria2
   udp: true
 - name: 2|🇺🇸123 |  1.3MB/s|61%|Disney|Op...
@@ -1658,14 +1672,6 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '9|Channel id: @ShadowProxy66'
-  password: 0ru9pSW1LQuy1NHqFQFL0dZuxI
-  port: 14834
-  server: 13.231.128.194
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 9|Hy2-3
   password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
   port: 443
@@ -1674,14 +1680,15 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 #1'
+- name: '9,10|@v2ray_configs_pool #1'
   password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
   port: 8443
   server: 107.167.18.102
+  skip-cert-verify: false
   sni: 0e1462f1-sum4g0-t8ro7t-1ey07.hy2.gotochinatown.net
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇯🇵'
+- name: '9,10|@v2ray_configs_pool #3'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 153.121.42.218
@@ -1689,7 +1696,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇯🇵 #1'
+- name: '9,10|@v2ray_configs_pool #4'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -1697,7 +1704,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇸'
+- name: '9,10|@v2ray_configs_pool #5'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 87.254.23.104
@@ -1753,15 +1760,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 #2'
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: 6hDSryb2af
-  port: 11001
-  server: 185.45.193.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|🇭  @Filter_breaker
   obfs: salamander
   obfs-password: ee44WW2eesdxfcghoerrbU9dfghjh
@@ -1805,14 +1803,6 @@ proxies:
   port: 1423
   server: www.putin.kom.studentcp.ir
   sni: www.putin.kom.studentcp.ir
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇰'
-  password: AZrgUfcGknbd6Q6LHkzMT0ODVk
-  port: 32089
-  server: 43.199.72.130
-  skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
 - name: 9|🇺🇸
@@ -1861,7 +1851,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 #3'
+- name: '9|Channel id: @ShadowProxy66🇰'
+  password: cc83a02b-90ea-403b-9c76-27e4be95f637
+  port: 50256
+  server: 154.204.181.230
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '9,10|@v2ray_configs_pool #22'
   password: cf125f42-759d-4112-82c3-014d2ffcb1e7
   port: 1443
   server: 185.85.242.177
@@ -1869,12 +1867,20 @@ proxies:
   sni: gbr1.587458.xyz
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇺🇸 #1'
+- name: '9,10|@v2ray_configs_pool #23'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '9,10|@v2ray_configs_pool #24'
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 9|🇬新加坡
@@ -1885,150 +1891,18 @@ proxies:
   sni: www.teslaautomation.de
   tls: false
   type: hysteria2
-- name: 9|🇺 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-au-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇦🇺 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-au-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9| @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-ca-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇦 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-ca-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇪 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-de-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇪 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-de-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇷 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-fr-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇷 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-fr-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇧 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-gb-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇧 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-gb-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇪 @Filter_breaker #2'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-ie-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇪 @Filter_breaker #3'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-ie-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇮 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-in-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇮 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-in-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇵 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-jp-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇵 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-jp-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇪 @Filter_breaker #4'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-se-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇪 @Filter_breaker #5'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-se-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: 9|🇸 @Filter_breaker
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-sg-01.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
-- name: '9|🇸 @Filter_breaker #1'
-  password: e2f5ef3d-acf7-40ab-95d4-9ecf1c7f84c3
-  port: 30000
-  server: network-sg-02.ppldata.xyz
-  sni: network-lite.oss-cn-hongkong.aliyuncs.com
-  tls: false
-  type: hysteria2
 - name: '9|未命名 #3'
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
+  tls: false
+  type: hysteria2
+- name: '9,10|@v2ray_configs_pool #27'
+  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
+  port: 43057
+  server: 203.174.82.145
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 9|🇺🇸美国 加 拉 DIGITALOCEAN-ASN
@@ -2038,7 +1912,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇭🇰'
+- name: '9,10|@v2ray_configs_pool #29'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -2054,7 +1928,22 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '9,10|@v2ray_configs_pool #30'
+  password: wl4HYN9PPKs8d8IzGIt4yKqt0
+  port: 53348
+  server: 47.74.34.102
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 10|@V2rayNG3
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@V2rayNG3 #1'
   password: 15cca331-9e92-449d-93b0-25f82203595f
   port: 20309
   server: gb.gomeow.online
@@ -2062,7 +1951,15 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #1'
+- name: '10|@v2ray_configs_pool #2'
+  password: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
+  port: 52171
+  server: 107.172.190.228
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
   password: 22f2c759db51b3d0
@@ -2070,6 +1967,14 @@ proxies:
   server: 109.120.135.123
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #7'
+  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  port: 8443
+  server: 107.167.18.102
+  skip-cert-verify: true
+  sni: 3233ac27-swin40-sxh7iw-1ryup.hy2.gotochinatown.net
   tls: false
   type: hysteria2
 - name: 10|v2raybluecrystal2
@@ -2106,10 +2011,34 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #2'
+- name: '10|@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #10'
+  password: 7992f244-8c2c-4a1a-923f-2e116e90149b
+  port: 443
+  server: 198.23.130.211
+  skip-cert-verify: true
+  sni: file-oss-ccs-02.dafei.de
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #11'
+  password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
+  port: 443
+  server: 104.168.34.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #12'
+  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+  port: 54530
+  server: 129.153.59.124
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -2124,7 +2053,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 10|آم 🇩🇪 @V2xay
+- name: '10|  @V2xay #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -2134,7 +2063,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #3'
+- name: '10|@V2rayNG3 #4'
   obfs: salamander
   obfs-password: '@azadi_az_inja_migzare'
   password: '@azadi_az_inja_migzare'
@@ -2144,14 +2073,14 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: 10|🇱telegram  @v2rayNG_Matsuri
+- name: 10|telegram  @v2rayNG_Matsuri
   password: AZrgUfcGknbd6Q6LHkzMT0ODVk
   port: 32089
   server: 43.199.72.130
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #4'
+- name: '10|@V2rayNG3 #5'
   obfs: salamander
   obfs-password: bipbip
   password: AtTK3tiEA0
@@ -2160,7 +2089,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #5'
+- name: '10|@V2rayNG3 #6'
   obfs: salamander
   obfs-password: bleepbloop
   password: AtTK3tiEA0
@@ -2169,7 +2098,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #6'
+- name: '10|@V2rayNG3 #7'
   obfs: salamander
   obfs-password: bluhbluh
   password: AtTK3tiEA0
@@ -2240,7 +2169,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|آلمان 🇩🇪 @V2xay #1'
+- name: '10|@v2ray_configs_pool #14'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2277,11 +2206,51 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|@SaghiVpnX[🇳🇱]
+- name: '10|@v2ray_configs_pool #17'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35200
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #16'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #18'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #19'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|@v2ray_configs_pool #20'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -2322,14 +2291,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|🛡️ @FreakConfig #1'
-  password: dongtaiwang.com
-  port: 22222
-  server: 208.87.243.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 10|@V2ray_cartel
   password: dongtaiwang.com
   port: 50850
@@ -2338,7 +2299,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #7'
+- name: '10|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
@@ -2398,7 +2359,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #8'
+- name: '10|@V2rayNG3 #9'
   obfs: salamander
   obfs-password: dbc688df29e582d3
   password: f8e40931bbb827df
