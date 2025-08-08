@@ -2041,13 +2041,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|  @V2xay
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '10|美国10 付费推荐：https://dafei.de #1'
   password: 67828a6e-0144-4e57-8169-2447a3dd2e61
   port: 45000
@@ -2113,16 +2106,6 @@ proxies:
   port: 35000
   server: 206.71.158.40
   skip-cert-verify: false
-  sni: pichondan.com
-  tls: false
-  type: hysteria2
-- name: 10|آم 🇩🇪 @V2xay
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  port: 35000
-  server: 77.90.52.69
-  skip-cert-verify: true
   sni: pichondan.com
   tls: false
   type: hysteria2
@@ -2242,7 +2225,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|آلمان 🇩🇪 @V2xay #1'
+- name: 10| 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -2288,7 +2271,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|کاا  ا  و مل  prox@
+- name: 10|انا  ا  و مل  prox@
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -2365,14 +2348,6 @@ proxies:
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10| 🇺 @V2xay
-  password: dongtaiwang.com
-  port: 30033
-  server: 46.17.41.217
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -2524,15 +2499,6 @@ proxies:
   port: 7431
   server: 18.141.229.199
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|آلمان 🇩🇪 @V2xay #2'
-  obfs: salamander
-  obfs-password: The_Sefr-salamdash
-  password: user12.myserverSEFR097
-  port: 443
-  server: knock.zone1.center
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 10|@SaghiVpnXBOT 🇩🇪[🇩🇪]
