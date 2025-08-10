@@ -1,4 +1,14 @@
 proxies:
+- name: '10|剩余：1 '
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82
+  port: 22996
+  server: uuk1.tok8888.com
+  skip-cert-verify: true
+  sni: uuk1.tok8888.com
+  tls: false
+  type: hysteria2
 - name: 14|GB_speednode_0034
   network: ws
   port: 8880
