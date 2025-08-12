@@ -1903,7 +1903,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|Telegram:@config_proxy 😍 #1'
+- name: '8|Channel id: @ShadowProxy66🇷'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -2520,16 +2520,6 @@ proxies:
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36300
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '9|Telegram:@config_proxy 😍 #2'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
