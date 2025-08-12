@@ -255,17 +255,7 @@ proxies:
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
-- name: '9|剩余：1 '
-  obfs: salamander
-  obfs-password: LNAnPYDfFyesRAVn
-  password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82
-  port: 22996
-  server: uuk1.tok8888.com
-  skip-cert-verify: true
-  sni: uuk1.tok8888.com
-  tls: false
-  type: hysteria2
-- name: '9|RGB🚀 #2'
+- name: '9|ViP RGB🚀 #31'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -299,39 +289,39 @@ proxies:
   sni: gbr1.587458.xyz
   tls: false
   type: hysteria2
-- name: '9|ViP RGB🚀 #31'
+- name: '9|ViP RGB🚀 #32'
   password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
   port: 46502
   server: 172.252.236.213
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: '9|ViP RGB🚀 #32'
-  password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
-  port: 59494
-  server: 185.126.255.78
   skip-cert-verify: false
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '9|ViP RGB🚀 #33'
-  password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
-  port: 46502
-  server: 172.252.236.213
+  password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
+  port: 59494
+  server: 185.126.255.78
   skip-cert-verify: false
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: '9|ViP RGB🚀 #34'
   password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
+  port: 46502
+  server: 172.252.236.213
+  skip-cert-verify: false
+  sni: real.getafreenode.sbs
+  tls: false
+  type: hysteria2
+- name: '9|ViP RGB🚀 #35'
+  password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
   port: 59494
   server: 185.126.255.78
   skip-cert-verify: false
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
-- name: '9|ViP RGB🚀 #35'
+- name: '9|ViP RGB🚀 #36'
   password: f901861b-6491-450c-b500-606b2e921625
   port: 46502
   server: 172.252.236.213
@@ -339,7 +329,7 @@ proxies:
   sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
-- name: '9|ViP RGB🚀 #36'
+- name: '9|ViP RGB🚀 #37'
   password: f901861b-6491-450c-b500-606b2e921625
   port: 59494
   server: 185.126.255.78

@@ -1362,26 +1362,6 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 9|美国2
-  obfs: salamander
-  obfs-password: LNAnPYDfFyesRAVn
-  password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82
-  port: 25851
-  server: uuk2.tok8888.com
-  skip-cert-verify: true
-  sni: uuk2.tok8888.com
-  tls: false
-  type: hysteria2
-- name: 9|美国3
-  obfs: salamander
-  obfs-password: LNAnPYDfFyesRAVn
-  password: 9f2245e8-04fb-488d-80cf-ac8e8b53da82
-  port: 21523
-  server: uuk3.tok8888.com
-  skip-cert-verify: true
-  sni: uuk3.tok8888.com
-  tls: false
-  type: hysteria2
 - name: '9|美国10 付费推荐：https://dafei.de #3'
   password: dac2d4dd-9a4d-4eb0-92a6-028532caed52
   port: 45000
