@@ -46,15 +46,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @@singbox1'
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|🇵日本
+- name: 9|日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -230,14 +222,6 @@ proxies:
   sni: hsxg.huasuan666.top
   tls: false
   type: hysteria2
-- name: '9|Channel id: @@singbox1🇨🇦 #1'
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 192.18.150.167
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|2@oneclickvpnkeys
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
@@ -246,20 +230,6 @@ proxies:
   server: net2025.afsharidempire.uk
   skip-cert-verify: true
   sni: net2025.afsharidempire.uk
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @@singbox1 #1'
-  password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
-  port: 46502
-  server: 172.252.236.213
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @@singbox1🇦'
-  password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
-  port: 59494
-  server: 185.126.255.78
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 9|HK
@@ -425,14 +395,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @@singbox1🇰 #2'
-  password: cc83a02b-90ea-403b-9c76-27e4be95f637
-  port: 50256
-  server: 154.204.181.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '9|🇭🇰香港 #2'
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
@@ -511,7 +473,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇭🇰 #1'
+- name: '9|Channel id: @ShadowProxy66🇭🇰 #2'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -519,7 +481,7 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- name: 9|日本
+- name: '9|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150

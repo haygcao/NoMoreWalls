@@ -1,4 +1,12 @@
 proxies:
+- name: '9|SG #1'
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 54.255.144.66
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: '9|SG #2'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
@@ -23,14 +31,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🍰30@oneclickvpnkeys
-  password: Y5kSCRNcOSz5YQUkjehzVXeT2mk
-  port: 19298
-  server: 175.41.154.215
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 9|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
@@ -45,14 +45,6 @@ proxies:
   server: aws-linkhy10.liangxin1.xyz
   skip-cert-verify: true
   sni: www.teslaautomation.de
-  tls: false
-  type: hysteria2
-- name: '9,10|@Daily_Configs #3'
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '9|新加坡 #1'

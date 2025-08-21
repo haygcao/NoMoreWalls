@@ -1,5 +1,5 @@
 proxies:
-- name: 9|🇵日本
+- name: 9|日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -31,7 +31,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|日本
+- name: '9|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
