@@ -6,13 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🧁78@oneclickvpnkeys
-  password: 0076436c-9459-458b-8c6f-57c379acbbe3
-  port: 8080
-  server: zl.youxuan.wiki
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|37@oneclickvpnkeys
   obfs: salamander
   obfs-password: LNAnPYDfFyesRAVn
@@ -118,7 +111,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|FR
+- name: '9,10|Telegram:@config_proxy  #1'
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: de.eyucdn.xyz
@@ -247,6 +240,13 @@ proxies:
   server: 209.38.144.136
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|Telegram:@config_proxy '
+  password: JWLQunPJgg2xi8Edm304q9Vqw
+  port: 2050
+  server: 161.35.157.233
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 9|🇸🇬SG
@@ -449,14 +449,6 @@ proxies:
   server: asg.pagate.top
   tls: false
   type: hysteria2
-- name: '9,10|@Daily_Configs #5'
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '9|新加坡 #1'
   password: lPK6OZ9ouqyXrCghO6ohUbbN5g
   port: 33131
@@ -593,6 +585,14 @@ proxies:
   server: 109.120.135.123
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 10|@
+  password: 366dad01-dd99-47be-92fa-6beddd09fff9
+  port: 22157
+  server: hshl.huasuan666.top
+  skip-cert-verify: true
+  sni: hshl.huasuan666.top
   tls: false
   type: hysteria2
 - name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
@@ -755,6 +755,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 10|Telegram:@config_proxy 😍
+  password: a503efc7-b681-466f-be23-434483b2a07b
+  port: 22158
+  server: hsfg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsfg.huasuan666.top
+  tls: false
+  type: hysteria2
 - name: 10|🇪   - 𝐚𝐦𝐞
   obfs: salamander
   obfs-password: esdxfcghoewaahabvrrbU9dfghjh
@@ -777,6 +785,14 @@ proxies:
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '10|@Daily_Configs #5'
+  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
+  port: 43057
+  server: 203.174.82.145
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
