@@ -31,7 +31,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|日本 #1'
+- name: '9|日本 #2'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
