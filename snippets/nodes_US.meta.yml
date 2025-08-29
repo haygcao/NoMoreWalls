@@ -1,4 +1,12 @@
 proxies:
+- name: 8|美国 @vlees_v2rayng
+  password: 66975a45-dd40-4854-ba7b-80157a38dd64
+  port: 40001
+  server: mg.dimoyun.top
+  skip-cert-verify: true
+  sni: mg.dimoyun.top
+  tls: false
+  type: hysteria2
 - name: '8|Channel id: @proxy_kafee🇺🇸'
   password: 7992f244-8c2c-4a1a-923f-2e116e90149b
   port: 443

@@ -7,6 +7,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '8|香港 #1'
+  password: 66975a45-dd40-4854-ba7b-80157a38dd64
+  port: 40001
+  server: xg.dimoyun.top
+  skip-cert-verify: true
+  sni: xg.dimoyun.top
+  tls: false
+  type: hysteria2
 - name: 13|GB_speednode_0002
   network: ws
   port: 8880
