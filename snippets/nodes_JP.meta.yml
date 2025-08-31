@@ -23,14 +23,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #1'
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: rb.dimoyun.top
-  skip-cert-verify: true
-  sni: rb.dimoyun.top
-  tls: false
-  type: hysteria2
 - name: 8|🇯🇵日本东京
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
@@ -39,7 +31,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #2'
+- name: '8|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
@@ -86,17 +78,17 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
+  password: 8a6ca14c0936
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp7v1.lingjfjkm002.com
+    host: jpxw9v1.dashengjs.net
     mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
+    mux: false
+    path: /wrdfiatyd
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 137.220.191.40
+  port: 443
+  server: 137.220.142.150
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -117,6 +109,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  password: 940031a6-fd32-4d6b-901d-77b7f943698e
+  port: 50414
+  server: bl.sytes.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|日本v2|@ripaojiedian

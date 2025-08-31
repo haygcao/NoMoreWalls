@@ -6,14 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|Hy2-3
-  password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
-  port: 443
-  server: jp1.interld123456789.com
-  skip-cert-verify: true
-  sni: 1231231.1234567890spcloud.com
-  tls: false
-  type: hysteria2
 - name: 8|日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
@@ -142,70 +134,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|国
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: dg.dimoyun.top
-  skip-cert-verify: true
-  sni: dg.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: 8|1
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: els1.dimoyun.top
-  skip-cert-verify: true
-  sni: els1.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: 8|俄罗斯2
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: els2.dimoyun.top
-  skip-cert-verify: true
-  sni: els1.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: 8|美国 @vlees_v2rayng
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: mg.dimoyun.top
-  skip-cert-verify: true
-  sni: mg.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: '8|日本 #1'
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: rb.dimoyun.top
-  skip-cert-verify: true
-  sni: rb.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: '8|香港 #1'
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: xg.dimoyun.top
-  skip-cert-verify: true
-  sni: xg.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: 8|香港2@vlees_v2rayng
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: xg2.dimoyun.top
-  skip-cert-verify: true
-  sni: xg2.dimoyun.top
-  tls: false
-  type: hysteria2
-- name: 8|新加坡
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: xjp.dimoyun.top
-  skip-cert-verify: true
-  sni: xjp.dimoyun.top
-  tls: false
-  type: hysteria2
 - name: '8|Channel id: @singbox1🇺🇸'
   password: 7992f244-8c2c-4a1a-923f-2e116e90149b
   port: 443
@@ -308,7 +236,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '8|香港 #2'
+- name: '8|香港 #1'
   password: XK52yierGckONMJWbJnuskD3unI
   port: 12854
   server: 47.242.195.121
@@ -348,7 +276,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '8|新加坡 #1'
+- name: 8|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -433,7 +361,7 @@ proxies:
   server: asg.pagate.top
   tls: false
   type: hysteria2
-- name: '8|新加坡 #2'
+- name: '8|新加坡 #1'
   password: lPK6OZ9ouqyXrCghO6ohUbbN5g
   port: 33131
   server: 8.222.183.55
@@ -441,7 +369,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #2'
+- name: '8|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
@@ -473,7 +401,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|新加坡 #3'
+- name: '8|新加坡 #2'
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22
@@ -851,29 +779,29 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 9bfdde71b4c0
+  password: 9969db7a2f51
   plugin: v2ray-plugin
   plugin-opts:
-    host: newroot2v1.dsjsapp.com
+    host: hk6v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /cauejypbltqt
+    path: /fgsauuoqxwx
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 103.103.245.158
+  port: 443
+  server: 156.251.179.135
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 11|🇭🇰 香港3|@ripaojiedian
-  port: 27549
-  server: 103.224.80.26
+  port: 51571
+  server: 38.147.188.96
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 907a372b-b6b8-41df-9d56-a244b4e1a320
+  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -892,16 +820,16 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 11|🇹🇼 台湾|@ripaojiedian
-  password: c9fd29d2-3c04-42cf-b60b-bbf3115a4e7c
-  port: 10152
-  server: 1.170.17.164
+  password: 182a640c-ca1a-425e-8398-d5ac86bfb096
+  port: 10129
+  server: 114.35.114.182
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: 7fcfaa5c-5ce1-422a-bcb6-b96284aada90
-  port: 10130
-  server: 36.232.72.237
+  password: ce7149cd-ea77-4e46-af7d-d4f6930ea541
+  port: 10113
+  server: 125.228.31.10
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -917,17 +845,17 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
+  password: 8a6ca14c0936
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp7v1.lingjfjkm002.com
+    host: jpxw9v1.dashengjs.net
     mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
+    mux: false
+    path: /wrdfiatyd
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 137.220.191.40
+  port: 443
+  server: 137.220.142.150
   tfo: false
   type: ss
 - name: 11,12|日本3|@ripaojiedian
@@ -946,6 +874,13 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-128-gcm
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  password: 940031a6-fd32-4d6b-901d-77b7f943698e
+  port: 50414
+  server: bl.sytes.net
+  tfo: false
+  type: ss
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -978,6 +913,23 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: aes-128-gcm
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12020
+  server: awes35lesl.blhao0o.dpdns.org
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 美国|@ripaojiedian
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - cipher: rc4-md5
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
@@ -997,6 +949,13 @@ proxies:
   skip-cert-verify: true
   sni: 36.156.102.116
   type: trojan
+- cipher: aes-256-cfb
+  name: 11|🇮🇳 印度|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  tfo: false
+  type: ss
 - name: 11,12|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -1009,12 +968,12 @@ proxies:
   cipher: auto
   name: 12|香港3|@ripaojiedian
   network: tcp
-  port: '27549'
-  server: 103.224.80.26
+  port: '51571'
+  server: 38.147.188.96
   servername: ''
   tls: false
   type: vmess
-  uuid: 907a372b-b6b8-41df-9d56-a244b4e1a320
+  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
 - alterId: 0
   cipher: auto
   name: 12|香港v2|@ripaojiedian
@@ -1035,6 +994,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- alterId: 0
+  cipher: auto
+  name: 12|美国|@ripaojiedian
+  network: tcp
+  port: '443'
+  server: 165.140.216.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - flow: xtls-rprx-vision
   name: 13|CN_speednode_0001
   port: 35000
