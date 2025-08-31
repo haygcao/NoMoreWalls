@@ -425,14 +425,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|@Mr_Config_Group✌️
-  obfs: salamander
-  obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
-  password: 10822856-7452-43ec-b35b-6f24ea33530f
-  port: 29662
-  server: chervhill.hajalii.com
+- name: 9|Telegram:@config_proxy 💦
+  password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+  port: 43429
+  server: 185.126.255.78
   skip-cert-verify: false
-  sni: chervhill.hajalii.com
+  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 9|@V2rayNG3
@@ -457,6 +455,14 @@ proxies:
   server: 185.126.255.78
   skip-cert-verify: false
   sni: real.getafreenode.sbs
+  tls: false
+  type: hysteria2
+- name: '9|Telegram:@config_proxy '
+  password: 20d43425-938f-4163-9b4f-8fb7377f6885
+  port: 40001
+  server: xg.dimoyun.top
+  skip-cert-verify: true
+  sni: xg.dimoyun.top
   tls: false
   type: hysteria2
 - name: '9|@V2rayNG3 #2'
@@ -624,7 +630,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #4'
+- name: '9|@Daily_Configs #5'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -675,7 +681,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #5'
+- name: '9|@Daily_Configs #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -693,7 +699,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #6'
+- name: '9|@Daily_Configs #7'
   password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
   port: 43057
   server: 203.174.82.145
@@ -736,6 +742,15 @@ proxies:
   server: android.yas-nowin.ir
   skip-cert-verify: false
   sni: android.yas-nowin.ir
+  tls: false
+  type: hysteria2
+- name: '9|Telegram:@config_proxy 💦 #1'
+  obfs: salamander
+  obfs-password: 31khbqfou1njilgv2qoih
+  password: y0b0F707xv
+  port: 20971
+  server: p1.3dfigures.ir
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل... #3'
