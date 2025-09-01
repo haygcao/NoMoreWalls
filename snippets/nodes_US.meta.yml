@@ -93,31 +93,72 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13|US_speednode_0027
+- name: 13|US_speednode_0049
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 13|US_speednode_0050
   network: ws
   port: 80
-  server: 63.141.128.26
+  server: 63.141.128.14
+  servername: a.joIn.zEdMoDeOn.oNl.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 18494a96-f6a7-425d-ae82-dc00c4f3f819
+  ws-opts:
+    headers:
+      Host: a.joIn.zEdMoDeOn.oNl.
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 13|US_speednode_0051
+  network: ws
+  port: 8080
+  server: 63.141.128.28
   servername: f.jOin.zEdMoDeOn.oNl.
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: c032bdcd-bcd6-4d85-99ee-e12a9458ba62
+  uuid: 49e77ea9-62bd-44c4-8a52-0d7569c305c5
   ws-opts:
     headers:
       Host: f.jOin.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-- name: 13|US_speednode_0028
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 13|US_speednode_0052
   network: ws
-  port: 8080
+  port: 80
+  server: 63.141.128.23
+  servername: b.jOin.zEdMoDeOn.oNl.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d59d49d3-a392-403a-8480-59934008431d
+  ws-opts:
+    headers:
+      Host: b.jOin.zEdMoDeOn.oNl.
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 13|US_speednode_0053
+  network: ws
+  port: 80
   server: 63.141.128.13
   servername: c.jOin.zEdMoDeOn.oNl.
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff
+  uuid: fdf5ef4d-bf23-4bd1-b04e-39c80ba0c577
   ws-opts:
     headers:
       Host: c.jOin.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
