@@ -17,14 +17,6 @@ proxies:
   sni: chervhill.hajalii.com
   tls: false
   type: hysteria2
-- name: 9| @Hddify
-  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-  port: 43429
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها او ر...
   password: 3QlSMKyqLp
   port: 443
@@ -62,6 +54,14 @@ proxies:
   port: 20340
   server: 77.90.50.59
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9|@FreakConfig #1'
+  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
+  port: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
   tls: false
   type: hysteria2
 - name: 9|→ @Hddify
@@ -120,7 +120,7 @@ proxies:
   sni: anymath.ir
   tls: false
   type: hysteria2
-- name: '9|@FreakConfig #1'
+- name: '9|@FreakConfig #2'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -151,7 +151,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇳🇱@FreakConfig
+- name: '9|🇳🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -171,17 +171,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|کانفیگ های بیشتر در چنل تلگرام...
+- name: '9|𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
   server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9|@FreakConfig #2'
+- name: '9|@FreakConfig #3'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
