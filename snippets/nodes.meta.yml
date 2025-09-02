@@ -237,7 +237,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8,9|@FreakConfig #1'
+- name: '8,9|@Daily_Configs #5'
   password: RzQrEkAmnGs86IhmSVUk9Q5cn9M
   port: 30308
   server: 47.236.104.81
@@ -339,7 +339,7 @@ proxies:
   sni: us2.1010991.xyz
   tls: false
   type: hysteria2
-- name: '8,9|@FreakConfig #3'
+- name: '8,9|@FreakConfig #2'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -375,6 +375,14 @@ proxies:
   password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
   port: 10086
   server: asg.pagate.top
+  tls: false
+  type: hysteria2
+- name: '8|Channel id: @ShadowProxy66🇯🇵'
+  password: fabd2b79-693a-4a37-827c-6d299e8813b1
+  port: 443
+  server: 133.18.163.202
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 8|新加坡
@@ -522,16 +530,6 @@ proxies:
   server: s15.serv00.com
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|Telegram:@config_proxy '
-  obfs: salamander
-  obfs-password: U1wBrYQyFm
-  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
-  port: 20335
-  server: drhystuichdfy.samanidempire.org
-  skip-cert-verify: true
-  sni: drhystuichdfy.samanidempire.org
   tls: false
   type: hysteria2
 - name: '9|🇩🇪@FreakConfig #2'
