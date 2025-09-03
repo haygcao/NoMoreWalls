@@ -490,10 +490,18 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 13|HK_speednode_0003
+- name: 13|HK_speednode_0002
   password: <password>
   port: 8443
   server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 13|HK_speednode_0003
+  password: <password>
+  port: 8443
+  server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
   tls: true
   type: http
   udp: true
@@ -511,7 +519,19 @@ proxies:
   type: vless
   udp: true
   uuid: 6035325d-399a-5148-9126-29cedfd5966a
-- name: 13|NL_speednode_0006
+- flow: xtls-rprx-vision
+  name: 13|IQ_speednode_0006
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: deu246.bypassall.org
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
+- name: 13|NL_speednode_0007
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -523,7 +543,20 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 13|RU_speednode_0007
+- flow: xtls-rprx-vision
+  name: 13|RU_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: ru-nl01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee67c9fd-0dc1-4fca-ad59-4dfac221a9f2
+- name: 13|RU_speednode_0009
   network: ws
   password: slch2024
   port: 2096
@@ -536,7 +569,20 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /TelegramU0001F1E8U0001F1F3
-- name: 13|US_speednode_0009
+- name: 13|RU_speednode_0010
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.221.160.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 13|US_speednode_0011
   network: ws
   password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
   port: 443
@@ -576,3 +622,42 @@ proxies:
     headers:
       Host: b.jOin.zEdMoDeOn.oNl.
     path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: 0n_NS2q2bvgpgQt0-gNmGNXTH-B0aqaJdE1A40sjsyE
+  server: 64.81.117.172
+  servername: ts2.tc.mm.bing.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0cd07402-0edb-4890-808d-cd6f0e2625ee
+- name: 13|US_speednode_0015
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.105.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 13|US_speednode_0016
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
