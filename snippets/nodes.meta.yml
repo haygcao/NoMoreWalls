@@ -250,6 +250,16 @@ proxies:
 - name: 10|@Daily_Configs IPv4
   obfs: salamander
   obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN
+  password: channel_dailyconfigs
+  port: 443
+  server: 176.124.204.248
+  skip-cert-verify: true
+  sni: ubuntu com
+  tls: false
+  type: hysteria2
+- name: '10|@Daily_Configs IPv4 #1'
+  obfs: salamander
+  obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN
   password: daily_configs
   port: 443
   server: 176.124.204.248
