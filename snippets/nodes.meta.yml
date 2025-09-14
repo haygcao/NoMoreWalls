@@ -79,14 +79,6 @@ proxies:
   sni: de.youyacloud.me
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
-  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
-  port: 22156
-  server: hsyg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsyg.huasuan666.top
-  tls: false
-  type: hysteria2
 - name: 9|→ @Hddify
   password: 942b9cb8-92fa-46ac-ae91-f69c8234434b
   port: 43429
@@ -206,7 +198,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@FreakConfig #1'
+- name: 9|@FreakConfig
   password: miaoge110
   port: 12687
   server: 45.58.38.153
