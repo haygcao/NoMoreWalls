@@ -1,28 +1,12 @@
 proxies:
-- name: 10|🇩🇪@FreakConfig
-  password: 20050105zhu
-  port: 51541
-  server: 204.44.110.129
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪@EXPRESSVPN_420   '
-  password: 3QlSMKyqLp
-  port: 443
-  server: android.yas-nowin.ir
-  skip-cert-verify: false
-  sni: android.yas-nowin.ir
-  tls: false
-  type: hysteria2
-- name: '10|DE-telegram-@ISVvpn   :  '
+- name: 9|DE-telegram-@ISVvpn  рҹ ЩЩҲШЩ:...
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0002
+- name: 13|DE_speednode_0002
   network: ws
   port: 443
   server: 109.107.181.38
@@ -37,7 +21,7 @@ proxies:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
 - client-fingerprint: chrome
-  name: 14|DE_speednode_0003
+  name: 13|DE_speednode_0003
   network: ws
   port: 443
   server: net2026.zanddynastyofpersia.org
