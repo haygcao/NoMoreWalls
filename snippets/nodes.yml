@@ -128,7 +128,7 @@ proxies:
   server: 103.186.154.212
   tfo: false
   type: ss
-- name: 14|US_speednode_0031
+- name: 14|US_speednode_0028
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053

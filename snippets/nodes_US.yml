@@ -25,7 +25,7 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-- name: 14|US_speednode_0031
+- name: 14|US_speednode_0028
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
