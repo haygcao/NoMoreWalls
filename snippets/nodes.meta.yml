@@ -87,7 +87,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9,10|WI-FI--@IRAN_V2RAY1 #1'
+- name: 9,10|MCI--@V2rayAlpha--7
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
