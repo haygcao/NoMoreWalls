@@ -1,5 +1,13 @@
 proxies:
-- name: 14|TW_speednode_0032
+- client-fingerprint: chrome
+  name: 11,12|台湾|@ripaojiedian
+  network: tcp
+  password: 267a9510-4ff5-4ffb-afaa-52e15423dadb
+  port: 21874
+  server: 36.103.168.7
+  skip-cert-verify: true
+  type: trojan
+- name: 13|TW_speednode_0032
   network: ws
   port: 443
   server: 167.179.27.92
@@ -13,7 +21,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 14|TW_speednode_0033
+- name: 13|TW_speednode_0033
   network: ws
   port: 443
   server: 167.179.27.92
