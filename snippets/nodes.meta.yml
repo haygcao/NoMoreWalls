@@ -446,7 +446,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|@FreakConfig #1'
+- name: 10|🇬🇧 - GB - @freeOnlineVPN
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -510,7 +510,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: '10|@FreakConfig #2'
+- name: '10|@FreakConfig #1'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23899
   server: 193.142.59.41
@@ -876,11 +876,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- name: 14|TW_speednode_0008
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
+- name: 14|US_speednode_0018
+  port: 47387
+  server: 198.186.131.216
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
