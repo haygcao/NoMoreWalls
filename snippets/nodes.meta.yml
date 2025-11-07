@@ -9,15 +9,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|@NoForcedheaven
-  obfs: salamander
-  obfs-password: 9242a8bf
-  password: a2678c97b8d79059
-  port: 443
-  server: 46.62.152.236
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 10|@Mr_Config_Group✌️
   obfs: salamander
   obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
