@@ -70,11 +70,3 @@ proxies:
   port: 2000
   server: oshk02.mynode.me
   type: ss
-- name: 13|HK_speednode_0004
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
