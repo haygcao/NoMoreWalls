@@ -1,5 +1,5 @@
 proxies:
-- name: 12,13|新加坡|@ripaojiedian
+- name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 5552
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 127
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -23,3 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|SG_speednode_0019
+  port: 46920
+  reality-opts:
+    public-key: 26jcWQerQE3ryBAm1OCcC7MrgGlI5I-gpdel1xf2Hx8
+  server: 43.160.246.221
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33a0c07b-82c7-40c8-aac7-4ab2071bcc03
