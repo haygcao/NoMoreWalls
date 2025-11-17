@@ -1,5 +1,5 @@
 proxies:
-- name: '9|🇧 - GB - @freeOnlineVPN #1'
+- name: '10|🇧 - GB - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|🇬🇧 - GB - @freeOnlineVPN #1'
+- name: '10|🇬🇧 - GB - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -19,7 +19,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13|GB_speednode_0009
+  name: 14|GB_speednode_0009
   port: 40721
   reality-opts:
     public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
