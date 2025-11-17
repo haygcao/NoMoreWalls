@@ -1,12 +1,12 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   : کا '
+- name: '9|DE-telegram-@ISVvpn   : کا '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #2'
+- name: '9|🇪 - DE - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -16,7 +16,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #3'
+- name: '9|🇪 - DE - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -26,7 +26,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇱 - NL - @freeOnlineVPN #2'
+- name: '9|🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -36,3 +36,17 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|DE_speednode_0005
+  port: 22155
+  reality-opts:
+    public-key: DWplnF7h0HInlj88rSKUTwBti6hH_yFhxEtX3TKZn08
+    short-id: 9ec128
+  server: facelessvoid.fonixapp.org
+  servername: steampowered.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
