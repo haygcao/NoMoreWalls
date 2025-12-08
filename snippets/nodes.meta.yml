@@ -1757,84 +1757,41 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|GB_speednode_0007
+  network: ws
+  port: 700
+  server: 185.138.164.228
+  servername: zybs.worker.ddns-ip.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi
 - flow: xtls-rprx-vision
-  name: 14|AT_speednode_0001
-  port: 8443
+  name: 14|GB_speednode_0008
+  port: 443
   reality-opts:
-    public-key: Yxj9S7VH0OV7B6gT68Hsglo5_ctsn5Z89bhqjBps-0Y
-    short-id: 9593b1c3cf54836c
-  server: us.connect-opengate.ru
-  servername: deepl.com
+    public-key: 0_FWbcTe6tvBuSZ7_7PrMaNmg44a8VxYRXPKjZuERwQ
+    short-id: a150dff4
+  server: node.svoy.run
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2f88363e-497d-42fa-836c-ad3497f84913
-- flow: xtls-rprx-vision
-  name: 14|AT_speednode_0002
-  port: 8443
-  reality-opts:
-    public-key: Yxj9S7VH0OV7B6gT68Hsglo5_ctsn5Z89bhqjBps-0Y
-    short-id: 9593b1c3cf54836c
-  server: us.connect-opengate.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 14|CY_speednode_0004
-  port: 22599
-  reality-opts:
-    public-key: 3zQQrSVaYQJYJCRqPximrXbACRvTCBl6wQiTs2Q_3Qg
-    short-id: 2a134254db459494
-  server: 45.15.170.188
-  servername: steampowered.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 019aefe0-f33f-7000-be8d-9d35610b8f72
-- flow: xtls-rprx-vision
-  name: 14|ES_speednode_0007
-  port: 8443
-  reality-opts:
-    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-  server: nl.griffon-guard.com
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
-- name: 14|FR_speednode_0008
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.214.251
+  uuid: 7e281f58-63b0-4e9a-a3fe-537e33e374b9
+- name: 14|HK_speednode_0009
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 14|FR_speednode_0009
-  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  port: 8443
-  server: 7b3fb675-t5bb40-t6tn6w-jjv2.fr.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-- name: 14|FR_speednode_0010
-  password: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-  port: 8443
-  server: fd7388fc-t5bb40-tdvaex-1ixuf.fr.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
 - http-opts:
     headers:
       Host:
@@ -1866,7 +1823,7 @@ proxies:
   udp: true
   uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
 - flow: xtls-rprx-vision
-  name: 14|LB_speednode_0018
+  name: 14|LB_speednode_0015
   port: 443
   reality-opts:
     public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
@@ -1878,7 +1835,7 @@ proxies:
   type: vless
   udp: true
   uuid: c52e7342-2c31-4f0b-83e9-007ad8d1691a
-- name: 14|RU_speednode_0020
+- name: 14|RU_speednode_0016
   port: 52900
   reality-opts:
     public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
@@ -1890,7 +1847,7 @@ proxies:
   type: vless
   udp: true
   uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-- name: 14|RU_speednode_0021
+- name: 14|RU_speednode_0017
   port: 52900
   reality-opts:
     public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
@@ -1902,58 +1859,3 @@ proxies:
   type: vless
   udp: true
   uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-- flow: xtls-rprx-vision
-  name: 14|RU_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
-    short-id: f5b76860a3c9c3f5
-  server: bg.fasssst.ru
-  servername: bg.fasssst.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c1853115-eb6b-4592-b01f-05037d33505d
-- name: 14|US_speednode_0025
-  network: ws
-  port: 80
-  server: 104.18.109.147
-  servername: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-    path: /Telegram-XV2ry2?ed=2048
-- name: 14|US_speednode_0026
-  network: ws
-  port: 80
-  server: www.visa.com
-  servername: amita-b17wejf6-v2.amita.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: a7e84660-8f5c-43ba-b635-cc394c5be4b9
-  ws-opts:
-    headers:
-      Host: amita-b17wejf6-v2.amita.workers.dev
-    path: /?ed=2560
-- name: 14|US_speednode_0027
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 66df7543-ae34-467f-bee4-93cbe14592e2
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
