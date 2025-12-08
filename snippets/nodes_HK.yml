@@ -22,9 +22,9 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 12,13|美国|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
+  password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 443
   server: 58.152.110.154
   skip-cert-verify: false
