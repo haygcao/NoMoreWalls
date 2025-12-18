@@ -1449,7 +1449,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13,14|HK_speednode_0012
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -1457,7 +1457,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1571,109 +1570,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- name: 14|CN_speednode_0003
-  port: 8080
-  server: 36.110.143.55
-  skip-cert-verify: true
-  tls: false
-  type: http
-  udp: true
-- flow: xtls-rprx-vision
-  name: 14|IR_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-    short-id: ee6f3e8f44b1f0b6
-  server: 62.60.148.21
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-- http-opts:
-    headers:
-      Host:
-      - Telewebion.com
-    method: GET
-    path:
-    - /
-  name: 14|IR_speednode_0016
-  network: http
-  port: 20532
-  server: 94.182.137.12
-  servername: Telewebion.com
+- name: 14|NL_speednode_0013
+  port: 3001
+  server: 103.90.75.252
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
-- flow: xtls-rprx-vision
-  name: 14|NL_speednode_0024
-  port: 443
-  reality-opts:
-    public-key: XWP3eu958tmcTzF5TvelcQMxfKd632VaNlG6nrqHwRU
-    short-id: 4cd45277ddedbf1f
-  server: nl.vpnpplvpn.top
-  servername: vpnforppl.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16c0d635-5084-49fa-950a-0d6fc81cfc71
-- name: 14|US_speednode_0028
-  network: ws
-  port: 8080
-  server: 104.21.15.212
-  servername: 201.58vtg99l.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
-  ws-opts:
-    headers:
-      Host: 201.58vtg99l.workers.dev
-    path: /
-- name: 14|US_speednode_0029
-  network: ws
-  port: 8880
-  server: Www.speedtest.net
-  servername: mx.mmadvip8563.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6072c15c-99db-4880-99d0-1448a8d43da7
-  ws-opts:
-    headers:
-      Host: mx.mmadvip8563.ir
-    path: /?ed=2048
-- name: 14|US_speednode_0030
-  network: ws
-  port: 8880
-  server: Www.speedtest.net
-  servername: mx.mmadvip8563.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 49aefaed-ad06-4ce9-ad25-b75b6b489b0c
-  ws-opts:
-    headers:
-      Host: mx.mmadvip8563.ir
-    path: /?ed=2048
-- name: 14|US_speednode_0031
-  network: ws
-  port: 80
-  server: 172.67.176.159
-  servername: 3.azadteam.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 41398380-2073-4d85-878a-24194a6f04a3
-  ws-opts:
-    headers:
-      Host: 3.azadteam.workers.dev
-    path: /Sy0HOf5sZffep0QQ?ed=2560
+  uuid: 61757901-3818-46c7-8482-683fa7f6ba10
