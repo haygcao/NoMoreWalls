@@ -26,7 +26,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.79.214.159
+  server: 58.152.25.71
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -34,7 +34,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.31
+  server: 58.152.26.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -42,15 +42,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4012
-  server: 54.199.251.85
+  server: 13.115.156.232
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
-  port: 3169
-  server: 43.206.213.82
+  port: 3093
+  server: 52.194.215.22
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -58,30 +58,15 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 153.121.38.213
+  server: 153.121.73.102
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本4|@ripaojiedian
-  port: 59515
-  server: 183.236.97.42
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
-- cipher: rc4-md5
-  name: 12|🇯🇵 日本5|@ripaojiedian
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 172.105.199.111
-  type: ss
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2760
-  server: 160.16.124.55
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -89,15 +74,15 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 1507
-  server: 160.16.132.158
-  skip-cert-verify: false
+  server: 202.181.103.235
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1196
-  server: 54.46.49.15
+  server: 3.112.190.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -105,7 +90,7 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.124.55
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -113,36 +98,27 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.223.205
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.46.49.15
+  port: 968
+  server: 18.163.24.54
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.97
+  name: 12|🇲🇾 马来西亚|@ripaojiedian
+  port: 59517
+  server: 183.236.97.46
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 12|🇮🇳 印度|@ripaojiedian
-  port: 550
-  server: 103.97.203.220
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
@@ -155,31 +131,11 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13|日本4|@ripaojiedian
+  name: 13|马来西亚|@ripaojiedian
   network: tcp
-  port: '59515'
-  server: 183.236.97.42
+  port: '59517'
+  server: 183.236.97.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 13|印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab

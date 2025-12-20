@@ -9,6 +9,12 @@ proxies:
   sni: it1.miyazono-kaori.com
   tls: false
   type: hysteria2
+- name: 9|🎨2@oneclickvpnkeys
+  password: 693a3ce6-2188-4fe9-82c0-c5c289532534
+  port: 20000
+  server: hl.dabache.top
+  tls: false
+  type: hysteria2
 - name: 9,10|🇩🇪 | @HajmVPN_Config
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -175,7 +181,7 @@ proxies:
   sni: gy6.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--1
+- name: '10|All-@IRAN_V2RAY1 #2'
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: lundun1.nezhasu.com
@@ -183,7 +189,7 @@ proxies:
   sni: lundun1.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--2
+- name: '10|All-@IRAN_V2RAY1 #3'
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: lundun2.nezhasu.com
@@ -191,7 +197,7 @@ proxies:
   sni: lundun2.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--3
+- name: '10|All-@IRAN_V2RAY1 #4'
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: lundun3.nezhasu.com
@@ -199,20 +205,12 @@ proxies:
   sni: lundun3.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--4
+- name: 10|All-@V2rayAlpha--34
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: lundun4.nezhasu.com
   skip-cert-verify: true
   sni: lundun4.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: 10|All-@V2ray_Alpha--6
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: marseille-1.nezhasu.com
-  skip-cert-verify: true
-  sni: marseille-1.nezhasu.com
   tls: false
   type: hysteria2
 - name: 10|All-@V2rayAlpha--38
@@ -383,7 +381,7 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: '10|All-@V2ray_Alpha--3 #1'
+- name: 10|All-@V2ray_Alpha--3
   obfs: salamander
   obfs-password: jjQQP9Av2l6BRdP5
   password: 59f5893e-b85a-44f7-911f-bd0b3f92069b
@@ -446,7 +444,7 @@ proxies:
   sni: lsj3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '10|All-@V2ray_Alpha--4 #1'
+- name: 10|All-@V2ray_Alpha--4
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2060
   server: xjp2.mangshe.xyz
@@ -691,16 +689,6 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
-  obfs: salamander
-  obfs-password: MiracleV2RayyNGvpnfreeconf
-  password: UUa5hFByN9
-  port: 2053
-  server: 83.147.253.96
-  skip-cert-verify: true
-  sni: webservice-admin.tgju.org
-  tls: false
-  type: hysteria2
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
@@ -827,14 +815,14 @@ proxies:
   sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '10|All-@V2ray_Alpha--6 #1'
+- name: 10|All-@V2ray_Alpha--6
   password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
   port: 21325
   server: tr.xn--9kqx4sc0n.shop
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|MTN--@IRAN_V2RAY1
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -991,7 +979,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|All-@V2ray_Alpha--7 #1'
+- name: 10|All-@V2ray_Alpha--7
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 443
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -1065,7 +1053,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه... #1'
+- name: 10|🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
   obfs: salamander
   obfs-password: MiracleV2RayyNGvpnfreeconf
   password: p1zskFmlFN
@@ -1125,6 +1113,16 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #25'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: zdUcTseVJy
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1152,7 +1150,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.79.214.159
+  server: 58.152.25.71
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1160,7 +1158,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.30.31
+  server: 58.152.26.107
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1168,15 +1166,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4012
-  server: 54.199.251.85
+  server: 13.115.156.232
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
-  port: 3169
-  server: 43.206.213.82
+  port: 3093
+  server: 52.194.215.22
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1184,30 +1182,15 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 153.121.38.213
+  server: 153.121.73.102
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本4|@ripaojiedian
-  port: 59515
-  server: 183.236.97.42
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
-- cipher: rc4-md5
-  name: 12|🇯🇵 日本5|@ripaojiedian
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 172.105.199.111
-  type: ss
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2760
-  server: 160.16.124.55
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1215,15 +1198,15 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 1507
-  server: 160.16.132.158
-  skip-cert-verify: false
+  server: 202.181.103.235
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1196
-  server: 54.46.49.15
+  server: 3.112.190.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1231,7 +1214,7 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.124.55
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1239,36 +1222,27 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.223.205
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.46.49.15
+  port: 968
+  server: 18.163.24.54
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.97
+  name: 12|🇲🇾 马来西亚|@ripaojiedian
+  port: 59517
+  server: 183.236.97.46
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 12|🇮🇳 印度|@ripaojiedian
-  port: 550
-  server: 103.97.203.220
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
@@ -1281,34 +1255,14 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13|日本4|@ripaojiedian
+  name: 13|马来西亚|@ripaojiedian
   network: tcp
-  port: '59515'
-  server: 183.236.97.42
+  port: '59517'
+  server: 183.236.97.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 13|印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
 - name: 14|NL_speednode_0013
   port: 3001
   server: 103.90.75.252
