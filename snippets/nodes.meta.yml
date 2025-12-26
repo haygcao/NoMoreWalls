@@ -1,5 +1,5 @@
 proxies:
-- name: 9|⛄49@oneclickvpnkeys
+- name: 9,10|22@ConfigV2RayNG
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -29,7 +29,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9,10|All-@V2rayAlpha--7
+- name: 9,10|📟32@ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -49,7 +49,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|19@oneclickvpnkeys
+- name: 9,10|19@ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -85,7 +85,7 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 9,10|@V2rayNGVPN <= کانفیگ رایگان
+- name: 9,10|🇸🇪 ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: e20cc63dc06088fba56bf786860aadaf
@@ -169,7 +169,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|All-@V2rayAlpha--8
+- name: 10|All-@IRAN_V2RAY1
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: amsterdam.nezhasu.com
@@ -486,7 +486,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #5'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: EXFdk0goSh
+  password: BZt34XQ1vL
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -496,7 +496,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #6'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: GsM2gHXMdz
+  password: EXFdk0goSh
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -506,7 +506,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #7'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: I5RKPsSYiP
+  password: GsM2gHXMdz
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -516,7 +516,7 @@ proxies:
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #8'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
-  password: LGpqcECo3X
+  password: I5RKPsSYiP
   port: 443
   server: 91.99.225.11
   skip-cert-verify: true
@@ -524,6 +524,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #9'
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: LGpqcECo3X
+  port: 443
+  server: 91.99.225.11
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: SAOLvYVTTu
@@ -541,7 +551,7 @@ proxies:
   sni: megafon.ru
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #10'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: TA524PW3Hg
@@ -551,7 +561,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #11'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: UyGa9rn0Hk
@@ -601,11 +611,11 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|کانفیگ های بیشتر در چنل تلگرام...
+- name: '10|ConfigV2RayNG #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
-  port: 36300
+  port: 35200
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
@@ -615,13 +625,33 @@ proxies:
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
+  port: 36300
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|ConfigV2RayNG #3'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '10|💎کانفیگ های بیشتر در چنل تلگرا... #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
   port: 36600
   server: yapc-1.adamhayward.co.uk
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #12'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: YrOF8xfcUG
@@ -631,7 +661,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|All--@IRAN_V2RAY1 #4'
+- name: 10|All--@IRAN_V2RAY1🇧
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -664,7 +694,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|MTN--@IRAN_V2RAY1
+- name: 10|34@ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -757,7 +787,7 @@ proxies:
   sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #13'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: c58dvt7oE4
@@ -767,7 +797,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #14'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: cUY1UIE1ef
@@ -814,26 +844,11 @@ proxies:
   sni: us.xn--gmq00sc0nuve.shop
   tls: false
   type: hysteria2
-- name: 10|@TapsiVpn • JOIN 🇺🇸  @TapsiVpn...
-  password: dc4b63d4-5010-4b92-b0e8-adfa4c3292c4
-  port: 21738
-  server: us.xn--9kqy68chx3a.shop
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 10|All--@V2rayAlpha--18
   password: de629d50-1711-11ed-bd7c-f23c913c8d2b
   port: 443
   server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|@TapsiVpn. join
-  password: de63b3fa-fb7c-4ddd-8b09-5973a30168c6
-  port: 20501
-  server: fg.zhujue.us
-  skip-cert-verify: true
-  sni: fg.zhujue.us
   tls: false
   type: hysteria2
 - name: 10|All-@V2ray_Alpha--7
@@ -892,7 +907,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|28YB5qK!5t#U&insecure=1&sni=na... #1'
+- name: '10|28YB5qK!5t#U&insecure=1&sni=na... #2'
   obfs: salamander
   obfs-password: '&O'
   password: freehomesvpnchannel3
@@ -900,7 +915,15 @@ proxies:
   server: channel1.saghetalaie.homes
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #15'
+- name: 10|28YB5qK!5t#U&insecure=1&sni=ww...
+  obfs: salamander
+  obfs-password: '&O'
+  password: freehomesvpnmahsa3
+  port: 16396
+  server: donate1.mahsa.homes
+  tls: false
+  type: hysteria2
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: jk9cSiRPv7
@@ -910,7 +933,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #16'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: ltN6NLua9i
@@ -920,7 +943,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #17'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: oivSVs1Wgz
@@ -930,7 +953,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #18'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: rxwfFuEMrr
@@ -950,7 +973,7 @@ proxies:
   sni: ghasem.kotlet.org
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #19'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: uoGRSTIwX9
@@ -960,7 +983,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #20'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: wkAHoJxpH6
@@ -970,7 +993,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 10|28YB5qK!5t#U&insecure=1&sni=ww...
+- name: '10|28YB5qK!5t#U&insecure=1&sni=ww... #2'
   obfs: salamander
   obfs-password: '&O'
   password: yhqy5AHofQq
@@ -978,7 +1001,7 @@ proxies:
   server: channel3.saghetalaie.homes
   tls: false
   type: hysteria2
-- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #21'
+- name: '10|🇩🇪@V2RayyNGvpn🇩🇪همه اوپراتور ه... #22'
   obfs: salamander
   obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
   password: zdUcTseVJy
@@ -1134,69 +1157,8 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|CN_speednode_0001
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27043
-  server: lt-sin.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0002
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27033
-  server: lt-jpn.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0003
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27031
-  server: lt-jpn.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0004
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27044
-  server: lt-sin.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0005
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27041
-  server: lt-sin.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0006
-  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
-  port: 27045
-  server: lt-sin.ltdns.top
-  skip-cert-verify: true
-  sni: www.ithome.com
-  type: trojan
-  udp: true
 - flow: xtls-rprx-vision
-  name: 14|HK_speednode_0007
-  port: 10122
-  reality-opts:
-    public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
-    short-id: 8a6394aa28d6
-  server: 1.36.189.217
-  servername: music.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
-- flow: xtls-rprx-vision
-  name: 14|NN_speednode_0008
+  name: 14|NN_speednode_0003
   port: 26978
   reality-opts:
     public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
@@ -1208,7 +1170,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
-- name: 14|RU_speednode_0009
+- name: 14|RU_speednode_0004
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1221,7 +1183,211 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 14|RU_speednode_0010
+- flow: xtls-rprx-vision
+  name: 14|RU_speednode_0005
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: d1579a8745398e34
+  server: 89.169.137.193
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
+- name: 14|US_speednode_0007
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0008
+  network: ws
+  port: 443
+  server: 104.17.202.10
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0009
+  network: ws
+  port: 443
+  server: 108.162.198.185
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0010
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0011
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0012
+  network: ws
+  port: 443
+  server: 104.17.69.244
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0013
+  network: ws
+  port: 443
+  server: 104.19.220.22
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0014
+  network: ws
+  port: 443
+  server: 198.41.208.234
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0015
+  network: ws
+  port: 443
+  server: 104.16.65.1
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0016
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0017
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.246.188
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0018
+  network: ws
+  port: 2087
+  server: 172.64.148.110
+  servername: jp-9de.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp-9de.pages.dev
+    path: /?ed=2560
+- name: 14|US_speednode_0019
+  network: ws
+  port: 443
+  server: 104.19.212.207
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0020
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0021
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1230,6 +1396,100 @@ proxies:
   sni: snippets.kkii.eu.org
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0022
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.169
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0023
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0024
+  network: ws
+  port: 443
+  server: 172.64.53.226
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0025
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0026
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0027
+  network: ws
+  port: 443
+  server: nrtcfdns.zone.id
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 14|US_speednode_0028
+  network: ws
+  port: 443
+  server: cdn.204910.best
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
