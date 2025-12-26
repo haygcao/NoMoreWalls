@@ -1,47 +1,4 @@
 proxies:
-- name: 9|19@oneclickvpnkeys
-  password: 7424db1f-ba68-496d-9426-4018b6a3a23c
-  port: 443
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: web.max.ru
-  tls: false
-  type: hysteria2
-- name: 9|🎄14@oneclickvpnkeys
-  password: 7424db1f-ba68-496d-9426-4018b6a3a23c
-  port: 443
-  server: de3.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🎄1@oneclickvpnkeys
-  password: 7424db1f-ba68-496d-9426-4018b6a3a23c
-  port: 443
-  server: fr2.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🎄6@oneclickvpnkeys
-  password: 7424db1f-ba68-496d-9426-4018b6a3a23c
-  port: 443
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🎄85@oneclickvpnkeys
-  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-  port: 443
-  server: 41f54602-t6ngg0-t7m3jq-1rnrp.us.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🎄84@oneclickvpnkeys
-  password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  port: 443
-  server: 974e2823-t6ngg0-t7j1ub-g3b3.us.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|⛄49@oneclickvpnkeys
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -82,7 +39,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9,10|🇳🇱 - NL - @freeOnlineVPN #3'
+- name: '9,10|telegram » 𝗺𝗮𝗶𝗻𝘃𝟮𝗿𝗮𝘆 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -92,7 +49,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🎄19@oneclickvpnkeys
+- name: 9|19@oneclickvpnkeys
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -128,28 +85,14 @@ proxies:
   sni: www.lamer.com.hk
   tls: false
   type: hysteria2
-- name: 9|🎄80@oneclickvpnkeys
-  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  port: 443
-  server: a6a24529-t6ngg0-t7fz1r-8rja.us.hyhuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🇪 - SE - @freeOnlineVPN
+- name: 9,10|@V2rayNGVPN <= کانفیگ رایگان
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: e20cc63dc06088fba56bf786860aadaf
   port: 989
   server: dd.openaccessnode.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: dd.ircybersec.org
-  tls: false
-  type: hysteria2
-- name: 9|🎄81@oneclickvpnkeys
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 4859e911-t6ngg0-t7hsj2-1gevg.us.hyhuawei.com
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 9|28YB5qK!5t#U#⛄43@oneclickvpnke...
@@ -178,6 +121,14 @@ proxies:
   server: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
   skip-cert-verify: true
   sni: 9bc9db69-t6t0g0-tee612-2r82.hk1.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 10|All-#V2rayAlpha--19
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com
+  skip-cert-verify: true
+  sni: 1d4e3b3b-t6ngg0-tedirp-1fli7.us.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 10|All-@V2rayAlpha-25
@@ -723,7 +674,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|𝗝𝗼𝗶𝗻 ➠ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: @V2Gatee #2'
+- name: 10|🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1183,100 +1134,81 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|DE_speednode_0005
-  network: ws
-  port: 80
-  server: 77.37.33.169
-  servername: vless.hubp.de
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-  ws-opts:
-    headers:
-      Host: vless.hubp.de
-    path: /
-- flow: xtls-rprx-vision
-  name: 14|JP_speednode_0013
-  port: 34384
-  reality-opts:
-    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
-  server: 138.2.37.59
-  servername: icloud.cdn-apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cd0d0b7-43f3-476e-bb0f-b45e5bba7ffc
-- flow: xtls-rprx-vision
-  name: 14|LB_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: 77.110.113.219
-  servername: www.kinopoisk.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d44e93de-4a8c-464f-81f2-eb0d384b1ab2
-- name: 14|MD_speednode_0016
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 185.235.241.95
-  servername: web.max.ru
+- name: 14|CN_speednode_0001
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-  ws-opts:
-    headers:
-      Host: web.max.ru
-    path: /hormoz
-- flow: xtls-rprx-vision
-  name: 14|RU_speednode_0017
-  port: 443
-  reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 887c0d72e771a934
-  server: 158.160.201.80
-  servername: m.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
-- name: 14|RU_speednode_0018
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
+  sni: www.ithome.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
+- name: 14|CN_speednode_0002
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0003
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0004
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0005
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0006
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
-  name: 14|RU_speednode_0019
-  port: 8443
+  name: 14|HK_speednode_0007
+  port: 10122
   reality-opts:
-    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-    short-id: 8f222b3475800821
-  server: 158.160.201.80
-  servername: m.vk.com
+    public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
+    short-id: 8a6394aa28d6
+  server: 1.36.189.217
+  servername: music.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
-- name: 14|RU_speednode_0020
+  uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
+- flow: xtls-rprx-vision
+  name: 14|NN_speednode_0008
+  port: 26978
+  reality-opts:
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: 28bf
+  server: sakura.bunnywaffle.org
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+- name: 14|RU_speednode_0009
   network: ws
   password: 5a2c16f9
   port: 443
@@ -1289,52 +1221,16 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 14|SG_speednode_0021
+- name: 14|RU_speednode_0010
   network: ws
+  password: 5a2c16f9
   port: 443
-  server: 34.143.159.175
-  servername: qqq-3t8.pages.dev
+  server: cf.130519.xyz
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: snippets.kkii.eu.org
+  type: trojan
   udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
   ws-opts:
     headers:
-      Host: qqq-3t8.pages.dev
+      Host: snippets.kkii.eu.org
     path: /
-- flow: xtls-rprx-vision
-  name: 14|US_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
-  server: ru2.tunnely.ru
-  servername: vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c42e4667-ca09-4769-b544-89a8da730daf
-- name: 14|US_speednode_0023
-  network: ws
-  port: 443
-  server: 144.31.5.179
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 98cb33a8-d6f7-41f0-8796-e4b471d65df8
-- name: 14|US_speednode_0024
-  network: ws
-  port: 2053
-  server: oralb.com
-  servername: stall.saass.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6949ea89-4825-1b47-3b03-113cede87254
-  ws-opts:
-    headers:
-      Host: stall.saass.ccwu.cc
-    path: /proxyip=sjc.o00o.ooo
