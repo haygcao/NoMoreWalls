@@ -1,10 +1,22 @@
 proxies:
-- name: 8|67@oneclickvpnkeys
-  password: b770c444-aaff-45b1-9464-452abfa63e19
-  port: 443
-  server: fegedfewqresd.kaixincloud.top
+- name: 8,9|rya@V2rayBaaz
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 135.125.204.154
   skip-cert-verify: true
-  sni: fegedfewqresd.kaixincloud.top
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '8,9|r♡ya@V2rayBaaz #7'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 33500
+  server: updates.kermanshahi.org
+  skip-cert-verify: true
+  sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 8|22@oneclickvpnkeys
@@ -29,6 +41,14 @@ proxies:
   server: falankefu1.nezhasu.com
   skip-cert-verify: true
   sni: falankefu1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 8|🚩41@oneclickvpnkeys
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  port: 443
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: 9|All--@V2rayAlpha--17
@@ -191,6 +211,16 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
+- name: 9|🇺@V2RayyNGvpn🇺همه اوپراتور ها
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: 5x02AmyHdh
+  port: 2087
+  server: 134.209.206.135
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
 - name: 9|All--@IRAN_V2RAY1🇺🇸
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -249,6 +279,16 @@ proxies:
   server: uk2.oomz.ru
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 9|@V2RayyNGvpn🇫همه اوپراتور ها
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: 87q1ZjCf5K
+  port: 2087
+  server: 45.32.145.222
+  skip-cert-verify: true
+  sni: refersion.com
   tls: false
   type: hysteria2
 - name: 9|All--@V2rayAlpha--25
@@ -371,7 +411,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
+- name: 9|🇱@FreakConfig
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -401,7 +441,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇳🇱@FreakConfig
+- name: '9|🇳🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -421,7 +461,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇱@FreakConfig
+- name: '9|🇱@FreakConfig #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -431,7 +471,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9|🇳🇱@FreakConfig #1'
+- name: '9|🇳🇱@FreakConfig #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -487,16 +527,6 @@ proxies:
   sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|rya@V2rayBaaz
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 135.125.204.154
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: '9|🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -507,7 +537,7 @@ proxies:
   sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @freeOnlineVPN
+- name: 9|32@ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -517,7 +547,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇳🇱 - NL - @freeOnlineVPN #1'
+- name: 9|🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -527,7 +557,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇳🇱 - NL - @freeOnlineVPN #2'
+- name: 9|🇳🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -587,7 +617,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|@IRAN_V2RAY1💘 #1'
+- name: 9|@IRAN_V2RAY1💘
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -595,16 +625,6 @@ proxies:
   server: dir.cybsecguru.com
   skip-cert-verify: false
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: '9|r♡ya@V2rayBaaz #7'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 33500
-  server: updates.kermanshahi.org
-  skip-cert-verify: true
-  sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 9|All-#V2rayAlpha--16
@@ -622,7 +642,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|🔸@IRAN_V2RAY1💘 #8'
+- name: '9|🔸@IRAN_V2RAY1💘 #9'
   password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
   server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
@@ -720,14 +740,14 @@ proxies:
   sni: johannesburg-4.nezhasu.com
   tls: false
   type: hysteria2
-- name: '9|🔸@IRAN_V2RAY1💘 #9'
+- name: '9|🔸@IRAN_V2RAY1💘 #10'
   password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
   port: 21268
   server: hk.xn--gmq00sc0nuve.shop
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '9|🔸@IRAN_V2RAY1💘 #10'
+- name: '9|🔸@IRAN_V2RAY1💘 #11'
   password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
   port: 21812
   server: my.xn--gmq00sc0nuve.shop
@@ -848,7 +868,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 9|r♡ya@V2rayBaaz|ن می
+- name: 9|r♡ya@V2rayBaaz|ن ملی
   obfs: salamander
   obfs-password: 7suXl4gmts7Zkb2BTlJGcDr4NEF9mQGh
   password: infowild
