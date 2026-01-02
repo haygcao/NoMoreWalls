@@ -7,7 +7,7 @@ proxies:
   sni: fegedfewqresd.kaixincloud.top
   tls: false
   type: hysteria2
-- name: 8,9|🌨️22@ConfigV2RayNG
+- name: 8|22@oneclickvpnkeys
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 141.148.246.181
@@ -15,7 +15,7 @@ proxies:
   sni: amsterdam.nezhasu.com
   tls: false
   type: hysteria2
-- name: 8,9|️27@ConfigV2RayNG
+- name: 8,9|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 89.168.80.242
@@ -567,7 +567,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 - DE - @freeOnlineVPN #5'
+- name: 9|🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -577,7 +577,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 - DE - @freeOnlineVPN #6'
+- name: '9|🇩🇪 - DE - @freeOnlineVPN #5'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -680,7 +680,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 9|21@ConfigV2RayNG
+- name: 9|All--@V2rayAlpha-18
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 129.151.115.91
@@ -688,23 +688,7 @@ proxies:
   sni: glby1.nezhasu.com
   tls: false
   type: hysteria2
-- name: 9|🌨️23@ConfigV2RayNG
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 443
-  server: 137.131.149.26
-  skip-cert-verify: true
-  sni: bx1.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: 9|🌨️14@ConfigV2RayNG
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 443
-  server: 140.238.247.224
-  skip-cert-verify: true
-  sni: mumbai-2.nezhasu.com
-  tls: false
-  type: hysteria2
-- name: 9|🌨️18@ConfigV2RayNG
+- name: 9|All--@V2rayAlpha-15
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 145.241.187.70
@@ -712,7 +696,7 @@ proxies:
   sni: johannesburg-2.nezhasu.com
   tls: false
   type: hysteria2
-- name: 9|🌨️25@ConfigV2RayNG
+- name: 9|All--@V2rayAlpha-17
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 152.67.50.33
@@ -720,7 +704,7 @@ proxies:
   sni: gysbl-2.nezhasu.com
   tls: false
   type: hysteria2
-- name: 9|🌨️19@ConfigV2RayNG
+- name: 9|All--@V2rayAlpha-16
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 84.8.134.187
@@ -780,7 +764,7 @@ proxies:
   sni: fg.zhujue.us
   tls: false
   type: hysteria2
-- name: 9|All--@IRAN_V2RAY1🇸
+- name: '9|All--@IRAN_V2RAY1 #8'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 443
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -864,7 +848,7 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
-- name: 9|r♡ya@V2rayBaaz|نت ملی
+- name: 9|r♡ya@V2rayBaaz|ن می
   obfs: salamander
   obfs-password: 7suXl4gmts7Zkb2BTlJGcDr4NEF9mQGh
   password: infowild
