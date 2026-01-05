@@ -10,14 +10,6 @@ proxies:
 - name: 9|未命名
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
-  server: hk.eyucdn.xyz
-  skip-cert-verify: true
-  sni: hk.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '9|未命名 #1'
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
   server: sg2.eyucdn.xyz
   skip-cert-verify: true
   sni: sg2.eyucdn.xyz
@@ -31,7 +23,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '9|未命名 #2'
+- name: '9|未命名 #1'
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
   server: zp1.eyucdn.xyz
@@ -95,7 +87,7 @@ proxies:
   sni: cc1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '9|未命名 #3'
+- name: '9|未命名 #2'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: lsj3.mangshe.xyz
@@ -246,22 +238,12 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: '9|未命名 #4'
+- name: '9|未命名 #3'
   password: a52663f7-bd8e-4553-a5de-ff6403a0ccfc
   port: 443
   server: 192.9.165.40
   skip-cert-verify: true
   sni: cn.cremedelamer.com
-  tls: false
-  type: hysteria2
-- name: 9|36@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 135.125.204.154
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: '9,10|🇳🇱 - NL - @freeOnlineVPN #8'
@@ -284,16 +266,6 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 9|🚩53@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 33500
-  server: updates.kermanshahi.org
-  skip-cert-verify: true
-  sni: updates.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: 9|🇭🇰香港
   password: de8854c7-fa17-4266-ae18-50a9732a0c4e
   port: 3001
@@ -310,7 +282,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 9|16♾️@oneclickvpnkeys
+- name: 9,10|16♾️@ConfigV2RayNG
   password: e343471a-aad3-40da-9dea-72cc8c7dce5f
   port: 443
   server: 193.123.76.84
@@ -678,7 +650,15 @@ proxies:
   sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 10|[] ➠ @V2ray_official  رای بیشت...
+- name: '10|Channel : @AKLISvpn🇺'
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 24591
+  server: hk1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: hk1.shiyuandian.shop
+  tls: false
+  type: hysteria2
+- name: '10|🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: SjSQ10UvLYEztFdQKTJQFA8imEc4W
   password: asrnovin_ir
@@ -686,16 +666,6 @@ proxies:
   server: 89.208.104.13
   skip-cert-verify: true
   sni: bts.com
-  tls: false
-  type: hysteria2
-- name: 10|🇪 - DE - @freeOnlineVPN
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 33500
-  server: 181.214.231.121
-  skip-cert-verify: false
-  sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
 - name: '10|🇳🇱 - NL - @freeOnlineVPN #10'
@@ -708,16 +678,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|🇩🇪 - DE - @freeOnlineVPN
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 33500
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: updates.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: 10| - FR - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -728,7 +688,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|🇩🇪 - DE - @freeOnlineVPN #2'
+- name: 10|🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -738,7 +698,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|🇩🇪 - DE - @freeOnlineVPN #3'
+- name: '10|🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
