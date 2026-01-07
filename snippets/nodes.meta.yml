@@ -319,7 +319,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: 10|♂️71@oneclickvpnkeys
+- name: 10|♂️71@ConfigV2RayNG
   password: e343471a-aad3-40da-9dea-72cc8c7dce5f
   port: 443
   server: pq.us2.globals-download.com

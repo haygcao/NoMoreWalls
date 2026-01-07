@@ -33,7 +33,7 @@ hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@152.69.220.212:443?insecure=1&s
 hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@158.178.236.104:443?insecure=1&sni=api.push.apple.com#10%7C%E2%99%82%EF%B8%8F40%40ConfigV2RayNG
 hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@158.179.18.251:443?insecure=1&sni=api.push.apple.com#10%7C%E2%99%82%EF%B8%8F33%40ConfigV2RayNG
 hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@pq.us1.globals-download.com:443?insecure=1&sni=www.apple.com#10%7C%E2%99%82%EF%B8%8F39%40ConfigV2RayNG
-hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@pq.us2.globals-download.com:443?insecure=1&sni=www.apple.com#10%7C%E2%99%82%EF%B8%8F71%40oneclickvpnkeys
+hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@pq.us2.globals-download.com:443?insecure=1&sni=www.apple.com#10%7C%E2%99%82%EF%B8%8F71%40ConfigV2RayNG
 hysteria2://e343471a-aad3-40da-9dea-72cc8c7dce5f@pq.us7.globals-download.com:443?insecure=1&sni=www.apple.com#10%7C%E2%99%82%EF%B8%8F38%40ConfigV2RayNG
 hysteria2://freehomesvpnchannel3@channel1.saghetalaie.homes:46914?obfs=salamander&obfs-password=&O#10%7C28YB5qK%215t%23U%26insecure%3D1%26sni%3Dna...%20%231
 hysteria2://yhqy5AHofQq@channel3.saghetalaie.homes:46914?obfs=salamander&obfs-password=&O#10%7C28YB5qK%215t%23U%26insecure%3D1%26sni%3Dww...%20%231
