@@ -29,17 +29,3 @@ proxies:
   port: 18017
   server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
   type: ss
-- name: 14|SG_speednode_0012
-  network: ws
-  port: 443
-  server: 8.223.63.150
-  servername: gyhh2333.2288888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.2288888.xyz
-    path: /

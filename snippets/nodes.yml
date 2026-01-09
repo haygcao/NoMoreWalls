@@ -130,19 +130,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|DE_speednode_0002
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 14|DE_speednode_0003
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
