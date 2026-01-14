@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0004
+- name: 14|DE_speednode_0008
   network: ws
   port: 2087
   server: api.dark-coffe.com
