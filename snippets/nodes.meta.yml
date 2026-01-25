@@ -53,7 +53,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|@SimChin_iR  '
+- name: 10|⚡Telegram = @SOSkeyNET
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
