@@ -53,15 +53,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|Config 4 - @lebertad
-  password: 8d4159c9-d770-40aa-9af4-6a80360697f7
-  port: 8073
-  server: 107.148.225.121
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|rya@V2rayBaaz
+- name: 10|r♡ya@V2rayBaaz◇⃟💜
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -71,7 +63,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|r♡ya@V2rayBaaz◇⃟💜
+- name: '10|r♡ya@V2rayBaaz◇⃟💜 #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -81,7 +73,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #1'
+- name: '10|r♡ya@V2rayBaaz◇⃟💜 #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -91,7 +83,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|r♡ya@V2rayBaaz◇⃟💜 #2'
+- name: 10|47@ConfigV2RayNG
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
