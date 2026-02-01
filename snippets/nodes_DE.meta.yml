@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 9|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All³ | @AZARBAYJAB1
+- name: 10|🇩🇪All³ | @AZARBAYJAB1
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0005
+  name: 14|DE_speednode_0005
   port: 7008
   reality-opts:
     public-key: OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws
