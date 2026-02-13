@@ -26,8 +26,8 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 43.199.205.175
+  port: 1820
+  server: 43.207.171.246
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -35,7 +35,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2826
-  server: 13.231.159.122
+  server: 95.40.55.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
