@@ -109,7 +109,7 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- name: 10|elegram"@Filtering2020"
+- name: 10|🟢Ṭelegram"@Filtering2020"
   obfs: salamander
   obfs-password: Telegram-->@AliXTso
   password: Telegram-->@AliXTso
@@ -209,7 +209,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|Telegram = @prrofile_purple
+- name: 10|VayNora
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
