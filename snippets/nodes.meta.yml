@@ -7,14 +7,6 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '9|@Trick_mobil #1'
-  password: 41aec03d-4345-4bff-9bab-69d36d80033c
-  port: 2056
-  server: ru.eyucdn.xyz
-  skip-cert-verify: true
-  sni: ru.eyucdn.xyz
-  tls: false
-  type: hysteria2
 - name: 9|2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -36,6 +28,22 @@ proxies:
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9|@Trick_mobil #4'
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: true
+  sni: 🔒
+  tls: false
+  type: hysteria2
+- name: '9|@Trick_mobil #5'
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: 🔒
   tls: false
   type: hysteria2
 - name: 9|DE
@@ -69,7 +77,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|🟢Ṭelegram"@Filtering2020"
+- name: 10|Telegram:@config_proxy 😍
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: flkf3.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 10|elegram"@Filtering2020"
   obfs: salamander
   obfs-password: 'Telegram-->@AliXTso '
   password: Telegram-->@AliXTso
@@ -79,7 +95,17 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 10| Hysteria-TLS | @Express_alaki...
+- name: 10|🟢Ṭelegram"@Filtering2020"
+  obfs: salamander
+  obfs-password: Telegram-->@AliXTso
+  password: Telegram-->@AliXTso
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: 10|سرورایبیشتردر:prrofile_purple@...
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -99,14 +125,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10|IR-@V2rayAlpha--5
+- name: 10|@Selinc
   obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.40
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35200
+  server: 206.71.158.37
   skip-cert-verify: true
-  sni: api.kermanshahi.org
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: '10|@V2rayNG3 #1'
@@ -129,7 +155,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|Telegram : @V2ynpv'
+- name: 10|https://t.me/ConfigX2ray
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -147,6 +173,13 @@ proxies:
   server: 77.90.41.197
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 10|Telegram = @SOSkeyNET
+  password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
+  port: 8443
+  server: hkbgp.jjxcloud.xyz
+  sni: hkbgp.jjxcloud.xyz
   tls: false
   type: hysteria2
 - name: '10| Telegram: @wiki_tajrobe'
