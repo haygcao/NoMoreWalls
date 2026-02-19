@@ -15,7 +15,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 8| Hysteria-TLS | @Express_alaki...
+- name: 8|1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '8|@Trick_mobil #4'
+- name: '8|@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: gavazn.lnmarketplace.net
@@ -38,12 +38,14 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: 8|@V2rayBaaz
+- name: 8|HP71 (11)
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36400
   server: 206.71.158.37
   skip-cert-verify: true
-  sni: 🔒
+  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -59,6 +61,25 @@ proxies:
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 8|HP71 (5)
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.40
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '8,9|@V2rayNG3 #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 8|SG
@@ -77,27 +98,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🟢Ṭelegram"@Filtering2020"
-  obfs: salamander
-  obfs-password: 'Telegram-->@AliXTso '
-  password: Telegram-->@AliXTso
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: '9|🟢Ṭelegram"@Filtering2020" #1'
-  obfs: salamander
-  obfs-password: Telegram-->@AliXTso
-  password: Telegram-->@AliXTso
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: 9|سرورایبیشتردر:prrofile_purple@...
+- name: 9|ری:prrofile_purple@✅
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -127,16 +128,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9|@V2rayNG3 #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.41
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: '9|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -147,7 +138,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '9|Telegram : @V2ynpv'
+- name: 9|🇩🇪 - DE - @FreeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -167,17 +158,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9| Telegram: @wiki_tajrobe'
-  obfs: salamander
-  obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
-  password: flyzone
-  port: 443
-  server: 172.232.207.161
-  skip-cert-verify: true
-  sni: www.azki.com
-  tls: false
-  type: hysteria2
-- name: 9|Telegram = @SOSkeyNET
+- name: 9|telegram @mtmvpn
   obfs: salamander
   obfs-password: etXTC5FrUoTkMu2xlBradrUQrLDMgHJ
   password: freeflyzone1
@@ -195,6 +176,14 @@ proxies:
   server: 172.232.207.161
   skip-cert-verify: true
   sni: www.azki.com@freenettir
+  tls: false
+  type: hysteria2
+- name: '9|未命名 #1'
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
