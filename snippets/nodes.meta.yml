@@ -70,17 +70,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8| Hysteria-TLS | @Express_alaki...
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
-- name: '8,9|@WedBaZTel #1'
+- name: '8,9|@WedBaZTel #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -164,15 +154,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 9|@en_vpn/کانفیگ های بیشتر
-  password: 80cc3426-ba58-4679-9001-f38778b1d042
-  port: 2026
-  server: us-loc01.lada.mom
-  skip-cert-verify: false
-  sni: us-loc01.lada.mom
-  tls: false
-  type: hysteria2
-- name: 9|none
+- name: 9|EmKavpn5
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -192,7 +174,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|@WedBaZTel
+- name: '9|@WedBaZTel #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -200,6 +182,36 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: false
   sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 9|未命名
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir@freenettir
+  tls: false
+  type: hysteria2
+- name: '9|@WedBaZTel #3'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '9|未命名 #1'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36600
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir@freenettir
   tls: false
   type: hysteria2
 - name: 9|@Spartan_YT
@@ -220,7 +232,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 9|کانفیگ ایان = t.me/arisping
+- name: 9|کان رایگان = t.me/arisping
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -228,6 +240,16 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '9|未命名 #2'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
 - name: '9|@V2rayNG3 #3'
