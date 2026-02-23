@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 11|🇹🇼 台湾|@ripaojiedian
   port: 16811
-  server: ipv6-tw02.cnddns.com
+  server: ipv6-tw03.cnddns.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -13,7 +13,7 @@ proxies:
   name: 12|台湾|@ripaojiedian
   network: tcp
   port: '16811'
-  server: ipv6-tw02.cnddns.com
+  server: ipv6-tw03.cnddns.com
   servername: ''
   tls: false
   type: vmess
