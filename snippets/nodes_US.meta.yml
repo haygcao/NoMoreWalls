@@ -1,5 +1,5 @@
 proxies:
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 1281
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45285
@@ -23,35 +23,257 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14|US_speednode_0021
+- client-fingerprint: randomized
+  name: 13|US_speednode_0019
   network: ws
-  port: 443
-  server: 209.102.207.120
-  servername: sni.111000.v6.navy
+  port: 2095
+  server: www.fbi.gov
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0020
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0021
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0022
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0024
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0025
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0026
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0027
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0028
+  network: ws
+  port: 2095
+  server: openai.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0029
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0030
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 14|US_speednode_0023
-  port: 8443
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0031
+  port: 443
   reality-opts:
-    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-    short-id: 3ca620a7ed5f3196
-  server: 130.49.177.161
-  servername: sun6-21.userapi.com
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 143.20.236.51
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
-  name: 14|US_speednode_0024
+  name: 13|US_speednode_0032
+  port: 50000
+  reality-opts:
+    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
+    short-id: 1f7bfe
+  server: zf.sg1000.eu.cc
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
+- client-fingerprint: chrome
+  name: 13|US_speednode_0033
+  port: 50000
+  reality-opts:
+    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
+    short-id: 1f7bfe
+  server: zf.sg1000.eu.cc
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35249ead-311e-4cb9-ab36-17406ccf6b84
+- client-fingerprint: randomized
+  name: 13|US_speednode_0034
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0035
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxing-cnm.workers.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0036
+  port: 23335
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  server: 3.cdnconn.com
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+- client-fingerprint: chrome
+  name: 13|US_speednode_0037
   port: 443
   reality-opts:
     public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
@@ -63,3 +285,31 @@ proxies:
   type: vless
   udp: true
   uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+- client-fingerprint: chrome
+  name: 13|US_speednode_0038
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  name: 13|US_speednode_0039
+  port: 50000
+  reality-opts:
+    public-key: XcaJjk49Yof0-ZTuwFlFvBqd_QJC_uabiIWC1g6rvAk
+    short-id: 1f7bfe
+  server: zf.sg1000.eu.cc
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2273e4a-ae8f-4937-baa0-a68860e22e61
