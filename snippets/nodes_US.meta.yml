@@ -1,39 +1,31 @@
 proxies:
-- name: 10|🇺🇸/@en_vpn/کانفیگ های بیشتر
-  password: ad49d6ea-c453-4a2e-b36a-2b71a3e0ed12
-  port: 50000
-  server: 208.87.242.163
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 175.41.195.26
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.233.42
+  port: 4920
+  server: 54.65.39.157
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 18.162.142.234
+  port: 14636
+  server: 18.166.31.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0014
+  name: 13|US_speednode_0014
   port: 443
   reality-opts:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
@@ -47,7 +39,7 @@ proxies:
   uuid: e43dd231-7c75-4606-80ec-50fbb8335ce7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0015
+  name: 13|US_speednode_0015
   port: 30001
   reality-opts:
     public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
