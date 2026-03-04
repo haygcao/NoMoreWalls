@@ -1,40 +1,44 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|香港3|@ripaojiedian
+- name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 331
-  server: 18.183.167.108
+  server: 13.192.169.190
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 388
-  server: 18.183.175.225
+  port: 1359
+  server: 3.112.227.13
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: true
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 54.46.49.176
+  port: 1359
+  server: 43.206.218.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: true
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 12|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
