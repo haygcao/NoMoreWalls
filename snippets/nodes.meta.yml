@@ -176,43 +176,11 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|Telegram:@config_proxy '
-  password: germany_hysteria2_fastlane_m5o0jp14n
-  port: 443
-  server: 150.241.79.106
-  skip-cert-verify: false
-  sni: de2.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 10|Telegram:@config_proxy 😍
-  password: hysteria2_fastlane_62hxzxhw6
-  port: 443
-  server: 150.241.78.128
-  skip-cert-verify: false
-  sni: de3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
 - name: 10|67@oneclickvpnkeys
   password: hysteria2_fastlane_81uqqeagr
   port: 443
   server: 150.241.78.128
   skip-cert-verify: true
-  sni: de3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #1'
-  password: hysteria2_fastlane_dhz9td92a
-  port: 443
-  server: 141.98.190.52
-  skip-cert-verify: false
-  sni: ru6.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #2'
-  password: hysteria2_fastlane_dnq9o89yn
-  port: 443
-  server: 150.241.78.128
-  skip-cert-verify: false
   sni: de3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
@@ -222,14 +190,6 @@ proxies:
   server: 144.31.63.58
   skip-cert-verify: true
   sni: de4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #3'
-  password: hysteria2_fastlane_hrfva78cf
-  port: 443
-  server: 138.124.183.9
-  skip-cert-verify: false
-  sni: us1.h.smartaisupport.ru
   tls: false
   type: hysteria2
 - name: 10|🌼13@oneclickvpnkeys
