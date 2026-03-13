@@ -104,14 +104,26 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 10|⚡Telegram = @SOSkeyNET
-  obfs: salamander
-  obfs-password: pGBT2RES32Gr7S8DQx
-  password: 00a40f88-0900-4c29-9555-cf053a23071b
-  port: 11801
-  server: 167.86.100.40
+- name: 10|Telegram:@config_proxy 😍
+  password: 1ae9f3fa-46a3-4ccf-ac29-990ec9673022
+  port: 8080
+  server: svt1.fq.ito8.com
+  sni: svt1.fq.ito8.com
+  tls: false
+  type: hysteria2
+- name: '10|Telegram:@config_proxy 😍 #1'
+  password: 9cf5c4ba-6939-40b2-a78a-98a582e233bc
+  port: 21946
+  server: tr.xn--ehqa22b.site
+  sni: tr.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: '10|Telegram:@config_proxy 😍 #2'
+  password: 9f305c80-0134-4938-86a4-2674386add43
+  port: 20000
+  server: us02zl.poke-mon.xyz
   skip-cert-verify: true
-  sni: 167.86.100.40
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
