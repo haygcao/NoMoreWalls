@@ -1,12 +1,10 @@
 hysteria2://17cdeb6c-f046-11ee-bdac-f23c93141fad@c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk:1743?insecure=1&sni=🔒#9%7C%40Trick_mobil
-hysteria2://Telegram--%26gt%3B%40Ln2Ray@206.71.158.23:45000?insecure=1&sni=🔒#9%7C%40Trick_mobil%20%231
+hysteria2://5046SHWqk6@91.132.51.160:844?#9%7C%40Trick_mobil%20%231
 hysteria2://Telegram--%3E%40Ln2Ray@206.71.158.23:45000?insecure=1&sni=🔒#9%7C%40Trick_mobil%20%232
 hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:45000?insecure=1&sni=🔒#9%7C%40Trick_mobil%20%233
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:36400?insecure=1&sni=🔒#9%7C%40Trick_mobil%20%234
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?insecure=0&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#9%2C10%7C%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40
-hysteria2://00a40f88-0900-4c29-9555-cf053a23071b@167.86.100.40:11801?insecure=1&sni=167.86.100.40&obfs=salamander&obfs-password=pGBT2RES32Gr7S8DQx#10%7C%40harfbzaniiim
-hysteria2://43ddfbea-3378-4780-a01a-e8801a88b547@tr.xn--ehqa22b.site:21314?sni=tr.xn--ehqa22b.site#10%7CTelegram%3A%40config_proxy%20
-hysteria2://5046SHWqk6@91.132.51.160:844?insecure=1#10%7CTelegram%20%3D%20%40SOSkeyNET
+hysteria2://00a40f88-0900-4c29-9555-cf053a23071b@167.86.100.40:11801?insecure=1&sni=167.86.100.40&obfs=salamander&obfs-password=pGBT2RES32Gr7S8DQx#10%7C%40V2HUBIR
 hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#10%7C%2B%40Azarakhsh_Proxy%2B
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#10%7C%20-%20NL%20-%20%40FreeOnlineVPN
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@206.71.158.41:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%40V2rayNG3%20%231
@@ -16,6 +14,7 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?insecure=0&
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?insecure=0&sni=api.kermanshahi.org@freenettir&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20Free_VPN_CH%40%20%233
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@77.90.41.197:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#10%7C%40V2rayNG3%20%233
 hysteria2://bd470fb8-73fd-455b-b8ae-e0fc9f44258b@tr.xn--ehqa22b.site:21150?insecure=1&sni=tr.xn--ehqa22b.site#10%7C93%40oneclickvpnkeys
+hysteria2://tmplah31fth.PwbxNs7kIIYK@panel.appleragmcp.com:443?insecure=1&sni=hysteria.apple-rag.com&obfs=none#10%7CTelegram%3A%40config_proxy%20
 hysteria2://usa_hysteria2_fastlane_8f058mdni@138.124.183.9:443?insecure=1&sni=us1.h.smartaisupport.ru#10%7C%F0%9F%93%BB87%40oneclickvpnkeys
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@63.180.254.10:443#12%7Ctg%E9%A2%91%E9%81%93%3A%40ripaojiedian
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTJ88J+HrfCfh7Ag6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6IDMwODA3LCAiYWlkIjogMiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ0Y3AiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0In0=
@@ -57,4 +56,3 @@ vless://420a0e21-08c6-4e94-a965-41226b38b674@proxy.darknet.run:443?allowInsecure
 vless://7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd@144.31.234.7:4546?allowInsecure=0&sni=enterprise.api-maps.yandex.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#14%7CUS_speednode_0029
 vless://b52989b9-09dc-4ca0-b722-e6fe3e8a0313@144.31.234.7:4546?allowInsecure=0&sni=enterprise.api-maps.yandex.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#14%7CUS_speednode_0030
 vless://948fac3c-42bf-41a6-a5f9-704d36ff0d8d@192.0.63.91:443?allowInsecure=0&sni=snippet.fgfw.indevs.in&type=ws&host=snippet.fgfw.indevs.in&path=/danfengsecurity=tls#14%7CUS_speednode_0031
-hhy2://5046SHWqk6@91.132.51.160:844/#@Trick_mobil

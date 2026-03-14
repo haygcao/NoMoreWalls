@@ -8,11 +8,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '9|@Trick_mobil #1'
-  password: Telegram--&gt;@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: 🔒
+  password: 5046SHWqk6
+  port: 844
+  server: 91.132.51.160
   tls: false
   type: hysteria2
 - name: '9|@Trick_mobil #2'
@@ -49,7 +47,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|@harfbzaniiim
+- name: 10|@V2HUBIR
   obfs: salamander
   obfs-password: pGBT2RES32Gr7S8DQx
   password: 00a40f88-0900-4c29-9555-cf053a23071b
@@ -57,20 +55,6 @@ proxies:
   server: 167.86.100.40
   skip-cert-verify: true
   sni: 167.86.100.40
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy '
-  password: 43ddfbea-3378-4780-a01a-e8801a88b547
-  port: 21314
-  server: tr.xn--ehqa22b.site
-  sni: tr.xn--ehqa22b.site
-  tls: false
-  type: hysteria2
-- name: 10|Telegram = @SOSkeyNET
-  password: 5046SHWqk6
-  port: 844
-  server: 91.132.51.160
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
@@ -161,6 +145,15 @@ proxies:
   server: tr.xn--ehqa22b.site
   skip-cert-verify: true
   sni: tr.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: '10|Telegram:@config_proxy '
+  obfs: none
+  password: tmplah31fth.PwbxNs7kIIYK
+  port: 443
+  server: panel.appleragmcp.com
+  skip-cert-verify: true
+  sni: hysteria.apple-rag.com
   tls: false
   type: hysteria2
 - name: 10|📻87@oneclickvpnkeys
