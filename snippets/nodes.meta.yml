@@ -21,7 +21,7 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: '9|@Trick_mobil #2'
+- name: '9|@Trick_mobil #3'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: 206.71.158.23
@@ -29,7 +29,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '9|@Trick_mobil #3'
+- name: '9|@Trick_mobil #4'
   password: Telegram-->@Ln2Ray
   port: 45000
   server: gavazn.lnmarketplace.net
@@ -37,7 +37,7 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
-- name: '9|@Trick_mobil #4'
+- name: '9|@Trick_mobil #5'
   password: Yet-Another-Public-Config-1
   port: 36400
   server: 206.71.158.37
@@ -63,40 +63,6 @@ proxies:
   server: 167.86.100.40
   skip-cert-verify: true
   sni: 167.86.100.40
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy '
-  password: 17b026f4-faba-4206-ba4f-8f83fd1c26ef
-  port: 48801
-  server: in-loc01.lada.mom
-  skip-cert-verify: false
-  sni: in-loc01.lada.mom
-  tls: false
-  type: hysteria2
-- name: 10|⚡Telegram = @SOSkeyNET
-  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  port: 47974
-  server: 75.127.13.83
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|Telegram:@config_proxy 😍
-  password: 39002b0d-de73-48f6-b164-04d5784b0ecd
-  port: 443
-  server: nl-down1.lada.mom
-  skip-cert-verify: false
-  sni: nl-down1.lada.mom
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #1'
-  obfs: salamander
-  obfs-password: GRxFC3OtWF8F8f7M
-  password: 50ada071-4309-47ba-b316-8882efe79ea1
-  port: 443
-  server: us-loc03.lada.mom
-  skip-cert-verify: false
-  sni: us-loc03.lada.mom
   tls: false
   type: hysteria2
 - name: 10|19@oneclickvpnkeys
@@ -191,7 +157,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|⚡Telegram = @SOSkeyNET #1'
+- name: '10|@V2HUBIR #1'
   password: dongtaiwang.com
   port: 22000
   server: 62.210.124.146
@@ -199,21 +165,14 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #2'
-  password: f72fc7e7-f95c-4b67-9933-3d17af670102
-  port: 16666
-  server: los.zuomomo.top
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '10|Telegram:@config_proxy 😍 #3'
+- name: 10|Telegram:@config_proxy 😍
   obfs: salamander
-  obfs-password: EoX5pPxXQsxyYXJu
+  obfs-password: GRxFC3OtWF8F8f7M
   password: fa220328-e905-4b67-a4f0-7fec43eac048
-  port: 53251
-  server: in-loc02.lada.mom
+  port: 443
+  server: us-loc03.lada.mom
   skip-cert-verify: false
-  sni: in-loc02.lada.mom
+  sni: us-loc03.lada.mom
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
