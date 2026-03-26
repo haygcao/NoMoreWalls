@@ -29,16 +29,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 10|v2ray_freex
-  password: auth
-  port: 443
-  server: 49.12.142.89
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: '10|کانال تلگرام : Free_VPN_CH@ #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -83,6 +73,13 @@ proxies:
   port: 443
   server: 144.31.118.145
   sni: de8.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: 10|🧫69@oneclickvpnkeys
+  password: hysteria2_fastlane_bwyx9htpr
+  port: 443
+  server: 144.31.63.58
+  sni: de4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: 10|🧫1@oneclickvpnkeys
