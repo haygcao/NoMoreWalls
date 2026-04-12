@@ -37,16 +37,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 9|🪺28@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 45.120.179.89
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 9|🪺92@oneclickvpnkeys
   obfs: salamander
   obfs-password: cry_me_a_r1ver_2026
