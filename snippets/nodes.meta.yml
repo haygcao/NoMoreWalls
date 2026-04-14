@@ -1,12 +1,4 @@
 proxies:
-- name: 9|🚀22@oneclickvpnkeys
-  password: hysteria2_fastlane_qszb6rkh0
-  port: 443
-  server: 144.31.134.98
-  skip-cert-verify: true
-  sni: nl1.h.smartaisupport.ru
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
