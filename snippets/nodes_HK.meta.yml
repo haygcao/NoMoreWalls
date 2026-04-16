@@ -1,14 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 10|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
+- name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|香港4|@ripaojiedian
+- name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39507
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|香港5|@ripaojiedian
+- name: 10,11|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11097
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: 11|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,32 +42,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0004
+- name: 12|HK_speednode_0012
   network: ws
-  port: 3389
-  server: 203.168.131.105
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: _t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE
-    short-id: f37fb7531c60780d
-  server: polands.stardevs.top
-  servername: polands.stardevs.top
+  port: 7443
+  server: 222.167.202.2
+  servername: 2026.hhhhh.eu.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.2:7443
