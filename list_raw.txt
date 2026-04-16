@@ -30,4 +30,4 @@ trojan://trojan@154.12.53.125:54321?allowInsecure=0&sni=jflsjlaf.pages.dev&type=
 vless://26524cce-d514-4014-a426-365fb266a14d@74.120.174.180:443?allowInsecure=1&sni=q40ivxuck.danfeng.qzz.io&type=ws&host=q40ivxuck.danfeng.qzz.io&path=/danfengfp=chrome&security=tls#13%7CUS_speednode_0015
 vless://dcda262b-0d36-4032-edd9-da4fd2d53711@162.159.45.202:8443?allowInsecure=0&sni=zoro.jakesolo.eu.org&type=ws&host=zoro.jakesolo.eu.org&path=/wssecurity=tls#13%7CUS_speednode_0021
 vless://248d1886-8ae0-4079-a281-4d21bdb74ba4@144.31.122.171:7443?allowInsecure=0&sni=chat.deepseek.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0022
-hhysteria2://github.com/Alvin9999-newpac/fanqiang@83.243.86.103:12855/?insecure=1&sni=www.microsoft.com#🌻32@oneclickvpnkeys
+hhysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?security=tls&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=api.kermanshahi.org#Telegram : @V2ynpv
