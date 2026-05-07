@@ -25,7 +25,7 @@ proxies:
   sni: x.kishonline.online
   tls: false
   type: hysteria2
-- name: '9|@techbod #1'
+- name: 9|TEL;Father_vpn
   obfs: salamander
   obfs-password: kish-data-center
   password: Kz0JGcGICb
@@ -43,6 +43,16 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: false
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9|را+ال+امی+++prrofile_purple@
+  obfs: salamander
+  obfs-password: kish-data-center
+  password: tSVwuwRnNk
+  port: 443
+  server: srm.kishonline.online
+  skip-cert-verify: false
+  sni: srm.kishonline.online
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
