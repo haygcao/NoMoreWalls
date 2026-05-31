@@ -9,62 +9,62 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40734 | ⚡️Telegram = t.me/SO...
+- name: 9|41455 | Telegram = t.me/SOSkey...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 1040
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40735 | ⚡️Telegram = t.me/SO...
+- name: 9|🇩🇪41456 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 4040
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40737 | ⚡️Telegram = t.me/SO...
+- name: 9|🇩🇪41458 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 443
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40732 | ⚡️Telegram = t.me/SO...
+- name: 9|🇩🇪41453 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 444
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40736 | ⚡️Telegram = t.me/SO...
+- name: 9|🇩🇪41457 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 54040
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|🇩🇪40733 | ⚡️Telegram = t.me/SO...
+- name: 9|🇩🇪41454 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
   port: 8880
-  server: 18.153.46.206
+  server: 18.196.180.90
   skip-cert-verify: false
   sni: qus.masir-sefid.shop
   tls: false
@@ -103,6 +103,16 @@ proxies:
   server: 62.210.124.146
   skip-cert-verify: true
   sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|58@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw
+  password: rstnnl2705
+  port: 443
+  server: musicclips.videolinks.ru
+  skip-cert-verify: true
+  sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
