@@ -1,13 +1,33 @@
 proxies:
-- name: 8|🇩🇪49134 | ⚡️Telegram = t.me/SO...
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 185.228.139.247
+- name: 7,8|@KAFING_2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
   skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
+  sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 13|DE_speednode_0011
+- name: 8|🇩🇪49583 | ⚡️Telegram = t.me/SO...
+  password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  port: 11000
+  server: 185.227.108.195
+  skip-cert-verify: false
+  sni: de-node.farnet.top
+  tls: false
+  type: hysteria2
+- name: 8|@tootffarangi
+  obfs: salamander
+  obfs-password: masir_sefid
+  password: masir_sefid
+  port: 443
+  server: 18.194.63.255
+  skip-cert-verify: false
+  sni: content.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 12|DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
   server: de-1.hysteria.ltd
