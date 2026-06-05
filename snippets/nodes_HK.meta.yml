@@ -1,28 +1,4 @@
 proxies:
-- name: 9|🇭🇰49584 | ⚡️Telegram = t.me/SO...
-  password: 6yhPOr3f9o
-  port: 30236
-  server: 47.242.216.193
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰49585 | ⚡️Telegram = t.me/SO...
-  password: IG9Sundefinedvx6RJ
-  port: 58771
-  server: 47.76.94.197
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰49589 | ⚡️Telegram = t.me/SO...
-  password: e3a5bb40be52de65
-  port: 55555
-  server: 89.251.26.111
-  skip-cert-verify: true
-  sni: apps.apple.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 11|🇭🇰 香港|@ripaojiedian

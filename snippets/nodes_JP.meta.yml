@@ -1,12 +1,4 @@
 proxies:
-- name: 9|JP-@VPNine1
-  password: 9d0f6021-e1e3-47cd-a18e-722dd7f1c2ee
-  port: 443
-  server: 154.85.18.134
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
