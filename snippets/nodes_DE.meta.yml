@@ -27,6 +27,16 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
+- name: 9|🇩🇪53280 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: FxZylbqClUqVqAs2nezW9kPyFb2edZ2
+  password: rstnnl2705
+  port: 443
+  server: reddeadfan.rd-team.ru
+  skip-cert-verify: true
+  sni: reddeadfan.rd-team.ru
+  tls: false
+  type: hysteria2
 - name: 13|DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
