@@ -12,9 +12,17 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
-  server: 43.198.226.205
+  server: 43.199.71.149
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 10,11|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11031
+  server: 95.40.84.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
