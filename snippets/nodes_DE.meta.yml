@@ -17,11 +17,11 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|internet_azad_2026🇩🇪
+- name: '9|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 4040
+  password: '@Masir_Sefid'
+  port: 54040
   server: 18.157.222.169
   skip-cert-verify: false
   sni: free.masir-sefid.shop
