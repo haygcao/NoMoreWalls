@@ -73,7 +73,7 @@ proxies:
   sni: xuipanel.akgoldvip.shop
   tls: false
   type: hysteria2
-- name: '9|@meliproxyy #1'
+- name: 9|@meliproxyy
   obfs: salamander
   obfs-password: Masir_Sefid
   password: ''
@@ -83,7 +83,7 @@ proxies:
   sni: masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '9|@meliproxyy #2'
+- name: '9|@meliproxyy #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -113,7 +113,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '9|@meliproxyy #5'
+- name: '9|@meliproxyy #4'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -143,7 +143,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '9|@meliproxyy #7'
+- name: '9|@meliproxyy #6'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -323,12 +323,22 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|@meliproxyy #13'
+- name: '9|@meliproxyy #12'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
   port: 443
   server: 18.157.51.145
+  skip-cert-verify: false
+  sni: content.masir-sefid.shop
+  tls: false
+  type: hysteria2
+- name: 9|@NoxTunnel hmrah
+  obfs: salamander
+  obfs-password: masir_sefid
+  password: masir_sefid
+  port: 443
+  server: 18.194.63.255
   skip-cert-verify: false
   sni: content.masir-sefid.shop
   tls: false
