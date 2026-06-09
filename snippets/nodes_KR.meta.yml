@@ -1,5 +1,5 @@
 proxies:
-- name: 12|KR_speednode_0008
+- name: 13|KR_speednode_0008
   network: ws
   password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
   port: 443
