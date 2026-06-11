@@ -123,16 +123,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|@confiig_hub #2'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 8880
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: 9|kurdconfig
   obfs: salamander
   obfs-password: Masir_Sefid
@@ -213,6 +203,16 @@ proxies:
   sni: Api.masir-sefid-1.my
   tls: false
   type: hysteria2
+- name: '9|@internet_azad_2026 #5'
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 443
+  server: 84.234.28.207
+  skip-cert-verify: false
+  sni: Api.masir-sefid-1.my
+  tls: false
+  type: hysteria2
 - name: 9|@V2ray_official
   obfs: salamander
   obfs-password: ao5xmpi6qiedxrs2
@@ -241,16 +241,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪62695 | ️Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: ct7igvlhkkvuvyto
-  password: go6a426v10ckcl75
-  port: 37620
-  server: tb.zibayeman.com
-  skip-cert-verify: false
-  sni: tb.zibayeman.com
   tls: false
   type: hysteria2
 - name: 9|https://t.me/@FREE_VPN02
@@ -299,31 +289,31 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
-  server: 18.163.193.177
+  server: 43.198.151.48
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.120.29
+  port: 43747
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3515
-  server: 43.199.42.178
+  port: 50116
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16712
-  server: 43.199.207.202
+  port: 53307
+  server: 52.195.147.173
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -331,7 +321,7 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
-  server: 18.163.193.177
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -339,15 +329,15 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 3743
-  server: 18.162.187.222
+  server: 35.79.220.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 29642
-  server: 43.198.203.3
+  port: 6357
+  server: 35.79.220.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -355,39 +345,39 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
-  server: 18.162.124.37
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.163.120.29
+  port: 45744
+  server: 95.40.47.95
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 43.198.203.3
+  port: 17005
+  server: 43.199.62.44
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 18.166.223.23
+  port: 49277
+  server: 95.40.109.247
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.120.29
+  port: 54240
+  server: 16.162.220.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
