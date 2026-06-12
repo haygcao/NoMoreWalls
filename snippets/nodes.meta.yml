@@ -70,46 +70,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|@confiig_hub
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 44044
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: 9|https://t.me/FREE_VPN02
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 443
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: 9|https://t.me/AarazV2ray
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 444
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '9|@confiig_hub #1'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: '@Masir_Sefid'
-  port: 54040
-  server: 18.157.222.169
-  skip-cert-verify: false
-  sni: free.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -230,25 +190,6 @@ proxies:
   sni: Api.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: 9|65919 | ️Telegram = t.me/SOSke...
-  obfs: salamander
-  obfs-password: gxXGwphUe6APbFFsWA
-  password: Nrqyc1GkGr
-  port: 54236
-  server: panel.cobalttoolsgithub.online
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸65918 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: gxXGwphUe6APbFFsWA
-  password: Nrqyc1GkGr
-  port: 54236
-  server: panel.cobalttoolsgithub.online
-  skip-cert-verify: false
-  sni: panel.cobalttoolsgithub.online
-  tls: false
-  type: hysteria2
 - name: 9|@V2ray_official
   obfs: salamander
   obfs-password: ao5xmpi6qiedxrs2
@@ -277,16 +218,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|https://t.me/@FREE_VPN02
-  obfs: salamander
-  obfs-password: masir_sefid
-  password: masir_sefid
-  port: 443
-  server: 18.157.51.145
-  skip-cert-verify: false
-  sni: content.masir-sefid.shop
   tls: false
   type: hysteria2
 - name: 9|⚫ 12 • @spotfyhits ❤
