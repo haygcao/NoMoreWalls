@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 8| @rayhub_ir 0614-6
+- name: 8|  @vistav2ray  👈👈اا  ✅
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
   password: EsimHy2Game_7xK9mPq2
@@ -131,6 +131,16 @@ proxies:
   server: 207.154.242.160
   skip-cert-verify: false
   sni: Api.masir-sefid-1.my
+  tls: false
+  type: hysteria2
+- name: 8|🇪70493 | ️Telegram = t.me/SOSk...
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 8| - NL - @FreeOnlineVPN
