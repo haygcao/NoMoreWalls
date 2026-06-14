@@ -17,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪68978 | ⚡️Telegram = t.me/SO...
-  password: dfbxu5tmmnmf23u5
-  port: 4526
-  server: panel.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
 - name: 13|DE_speednode_0001
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
