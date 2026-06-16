@@ -103,16 +103,6 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '9| 19  @spotfyhits '
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 443
-  server: 206.189.58.246
-  skip-cert-verify: false
-  sni: Api1.masir-sefid-1.my
-  tls: false
-  type: hysteria2
 - name: '9|@prrofile_purple  ♥️👈 تلگرام #3'
   obfs: salamander
   obfs-password: Masir_Sefid
@@ -143,7 +133,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|AE-@VPNine1
+- name: 9|74504 | ️Telegram = t.me/SOSke...
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  skip-cert-verify: true
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
+- name: 9|telegram @mtmvpn
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -168,7 +166,7 @@ proxies:
   - h2
   - http/1.1
   fingerprint: chrome
-  name: '9|🇪  𝗻 🚀 '
+  name: '9|  𝗻  '
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
   password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
