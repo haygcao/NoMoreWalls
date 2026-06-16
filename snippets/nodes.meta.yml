@@ -63,16 +63,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪73619 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: hg26zdlxvw7bj6pd
-  password: 0djglvgv7lh45uz9
-  port: 32254
-  server: 91.107.137.0
-  skip-cert-verify: false
-  sni: saeed.saeedposivip.ir
-  tls: false
-  type: hysteria2
 - name: 9|  @vistav2ray  👈👈اا  ✅
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -93,7 +83,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple  ♥️👈 تلگرام
+- name: '9|@prrofile_purple  ♥️👈 تلگرام #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -103,7 +93,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ♥️👈 تلگرام #1'
+- name: '9|@prrofile_purple  ♥️👈 تلگرام #2'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -123,7 +113,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ♥️👈 تلگرام #2'
+- name: '9|@prrofile_purple  ♥️👈 تلگرام #3'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -131,16 +121,6 @@ proxies:
   server: 206.189.58.246
   skip-cert-verify: false
   sni: Api1.masir-sefid-1.my
-  tls: false
-  type: hysteria2
-- name: 9|⚫ 18 • @spotfyhits ❤
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: 4040
-  server: 207.154.242.160
-  skip-cert-verify: false
-  sni: Api.masir-sefid-1.my
   tls: false
   type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
@@ -163,6 +143,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|AE-@VPNine1
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: 130.49.161.70
+  skip-cert-verify: true
+  sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - name: 9|️️@ATLAS_V2VPN️️405️
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
@@ -178,7 +168,7 @@ proxies:
   - h2
   - http/1.1
   fingerprint: chrome
-  name: '9|🇩🇪  𝗻  '
+  name: '9|🇪  𝗻 🚀 '
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
   password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
