@@ -1,5 +1,5 @@
 proxies:
-- name: 8|美国2
+- name: 7|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 11,12|美国|@ripaojiedian
+- name: 10,11|美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 22057
@@ -31,59 +31,73 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|US_speednode_0049
+- name: 12|US_speednode_0069
   network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 154.17.28.152
   skip-cert-verify: false
-  tls: false
-  type: vless
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
   udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: hhcm.hhxaf.cc.cd
     path: /
-- name: 13|US_speednode_0050
+- name: 12|US_speednode_0070
   network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 69.63.223.42
   skip-cert-verify: false
-  tls: false
-  type: vless
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
   udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: tjsp.hhxaf.cc.cd
     path: /
-- name: 13|US_speednode_0051
+- client-fingerprint: chrome
+  name: 12|US_speednode_0071
   network: ws
-  port: 80
-  server: 151.101.2.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 13|US_speednode_0052
-  network: ws
-  port: 80
-  server: 151.101.0.1
-  servername: max-gb1.global.ssl.fastly.net
+  port: 443
+  server: 154.17.16.176
+  servername: s5.868001.xyz
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      Host: s5.868001.xyz
+    path: /proxyip=ProxyIP.CMLiussss.net
+- name: 12|US_speednode_0072
+  network: ws
+  port: 2053
+  server: 172.64.35.7
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /
+- client-fingerprint: chrome
+  name: 12|US_speednode_0073
+  network: ws
+  port: 443
+  server: 104.16.80.73
+  servername: amirsa.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1ebbd5e-ba89-4b05-8336-de7834d14164
+  ws-opts:
+    headers:
+      Host: amirsa.pages.dev
     path: /
