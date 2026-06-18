@@ -1,5 +1,5 @@
 proxies:
-- name: 8|TW
+- name: 7|TW
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: tw.oomz.ru
@@ -7,7 +7,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 13|TW_speednode_0067
+- name: 12|TW_speednode_0067
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -15,7 +15,7 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 13|TW_speednode_0068
+- name: 12|TW_speednode_0068
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
