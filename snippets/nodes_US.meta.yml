@@ -7,31 +7,11 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 9|🇺🇸75821 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: '@JynMarket'
-  password: odnvqb4ihg396e5z
-  port: 51554
-  server: 104.252.19.102
-  skip-cert-verify: false
-  sni: 104.252.19.102
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸75819 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: '@JynMarket'
-  password: odnvqb4ihg396e5z
-  port: 54040
-  server: 104.252.19.102
-  skip-cert-verify: false
-  sni: 104.252.19.102
-  tls: false
-  type: hysteria2
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 49277
-  server: 18.163.33.247
+  port: 17005
+  server: 52.195.226.220
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -39,7 +19,7 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 52.195.19.90
+  server: 18.163.80.1
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -47,7 +27,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22057
-  server: 54.46.123.9
+  server: 18.163.124.229
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
