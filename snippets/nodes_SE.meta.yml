@@ -1,4 +1,14 @@
 proxies:
+- name: 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
+  obfs: salamander
+  obfs-password: T.me$V2RayyNGvpn
+  password: T$me$V2RayyNGvpn
+  port: 443
+  server: 70.34.205.15
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 13|SE_speednode_0055
   port: 8443

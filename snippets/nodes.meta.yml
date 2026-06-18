@@ -63,16 +63,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🇹🇷@V2RayyNGvpn🇹🇷⚡
-  obfs: salamander
-  obfs-password: V2RayyNGvpn$miracle$krouky
-  password: '@V2RayyNGvpn'
-  port: 443
-  server: 213.156.152.76
-  skip-cert-verify: true
-  sni: www.wordreference.com
-  tls: false
-  type: hysteria2
 - name: 9|70@oneclickvpnkeys
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -82,7 +72,7 @@ proxies:
   sni: nl.esimpson.org
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ️ '
+- name: '9|@prrofile_purple   '
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
   password: EsimHy2Game_7xK9mPq2
@@ -132,7 +122,17 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
+  obfs: salamander
+  obfs-password: T.me$V2RayyNGvpn
+  password: T$me$V2RayyNGvpn
+  port: 443
+  server: 70.34.205.15
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -152,7 +152,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇳🇱@FreakConfig
+- name: 9|telegram @mtmvpn
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -170,16 +170,6 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
-  tls: false
-  type: hysteria2
-- name: 9|MiX--@V2rayAlpha--20
-  obfs: salamander
-  obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
-  password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
-  port: 30781
-  server: endpoint.neoservers.ir
-  skip-cert-verify: false
-  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
