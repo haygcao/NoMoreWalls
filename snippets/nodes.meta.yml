@@ -63,23 +63,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|70@oneclickvpnkeys
+- name: 9|🧢70@oneclickvpnkeys
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
   password: EsimHy2Game_7xK9mPq2
   port: 443
   server: 198.105.112.118
   sni: nl.esimpson.org
-  tls: false
-  type: hysteria2
-- name: '9|@prrofile_purple   '
-  obfs: salamander
-  obfs-password: EsimObfs_9mK2x7
-  password: EsimHy2Game_7xK9mPq2
-  port: 443
-  server: 31.22.91.243
-  skip-cert-verify: false
-  sni: se.esimpson.org
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -160,6 +150,20 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: true
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 9|️5@oneclickvpnkeys
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.66.236.81
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|✈️11@oneclickvpnkeys
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.79.47.137
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 9|  @vistav2ray  👈👈اا  ✅
