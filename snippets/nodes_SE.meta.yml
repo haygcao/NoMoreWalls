@@ -9,6 +9,16 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- name: 9|🇸🇪@V2RayyNGvpn🇸🇪
+  obfs: salamander
+  obfs-password: T$me$V2RayyNGVpn@V2RayyNGvpn
+  password: T$me$V2RayyNGvpn
+  port: 443
+  server: 70.34.206.217
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 13|SE_speednode_0055
   port: 8443
