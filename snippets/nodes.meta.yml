@@ -63,13 +63,38 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🧢70@oneclickvpnkeys
+- name: 9|🏟️46@NetFlowTools
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
+  sni: de1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 9|✈️30@oneclickvpnkeys
+  password: 940f51d6-e0a4-4add-b96b-328e4a84b642
+  port: 51000
+  server: 140.245.27.220
+  skip-cert-verify: true
+  sni: cn.cremedelamer.com
+  tls: false
+  type: hysteria2
+- name: 9|70@oneclickvpnkeys
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
   password: EsimHy2Game_7xK9mPq2
   port: 443
   server: 198.105.112.118
   sni: nl.esimpson.org
+  tls: false
+  type: hysteria2
+- name: '9|@prrofile_purple  ️ '
+  obfs: salamander
+  obfs-password: EsimObfs_9mK2x7
+  password: EsimHy2Game_7xK9mPq2
+  port: 443
+  server: 31.22.91.243
+  skip-cert-verify: false
+  sni: se.esimpson.org
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -142,6 +167,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|✈️17@oneclickvpnkeys
+  password: be7441a663ef465566e3a6e441a16357
+  port: 7443
+  server: 188.225.80.130
+  skip-cert-verify: true
+  sni: tw-vds.t1n2.com
+  tls: false
+  type: hysteria2
+- name: 9|✈️25@oneclickvpnkeys
+  password: c6b2924e-a913-4864-a910-b446b9841b4b
+  port: 443
+  server: connect-ger2.gadmap.online
+  sni: connect-ger2.gadmap.online
+  tls: false
+  type: hysteria2
 - name: 9|telegram @mtmvpn
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -152,7 +192,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|️5@oneclickvpnkeys
+- name: 9|✈️5@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.66.236.81
@@ -163,6 +203,13 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 3.79.47.137
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🏟️47@NetFlowTools
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
   skip-cert-verify: true
   tls: false
   type: hysteria2
