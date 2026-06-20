@@ -1,5 +1,5 @@
 proxies:
-- name: 9|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
+- name: 8|🇸🇪@V2RayyNGvpn🇸🇪 ام V2RayNG
   obfs: salamander
   obfs-password: T.me$V2RayyNGvpn
   password: T$me$V2RayyNGvpn
@@ -9,7 +9,7 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: 9|🇸🇪@V2RayyNGvpn🇸🇪
+- name: 8|🇸🇪@V2RayyNGvpn🇸🇪
   obfs: salamander
   obfs-password: T$me$V2RayyNGVpn@V2RayyNGvpn
   password: T$me$V2RayyNGvpn
@@ -20,7 +20,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0055
+  name: 12|SE_speednode_0055
   port: 8443
   server: 45.159.12.191
   servername: ams1.fromblancwithlove.com
@@ -30,7 +30,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0056
+  name: 12|SE_speednode_0056
   port: 8443
   server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
@@ -40,7 +40,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0057
+  name: 12|SE_speednode_0057
   port: 8443
   server: 45.159.12.9
   servername: ams1.fromblancwithlove.com
@@ -50,7 +50,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0058
+  name: 12|SE_speednode_0058
   port: 8443
   server: 45.159.12.3
   servername: ams1.fromblancwithlove.com
@@ -60,7 +60,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0059
+  name: 12|SE_speednode_0059
   port: 8443
   server: 45.159.12.34
   servername: ams1.fromblancwithlove.com
@@ -70,7 +70,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0060
+  name: 12|SE_speednode_0060
   port: 8443
   server: 79.127.249.197
   servername: ams1.fromblancwithlove.com
@@ -80,7 +80,7 @@ proxies:
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0061
+  name: 12|SE_speednode_0061
   port: 8443
   server: 45.159.12.134
   servername: ams1.fromblancwithlove.com
