@@ -17,32 +17,24 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 2008
-  server: 43.198.206.201
+  port: 53012
+  server: 35.77.34.38
   skip-cert-verify: true
   sni: www.nintendogames.net
-  type: trojan
-- name: 11,12|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 16.163.106.209
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 18.163.186.129
+  server: 18.162.50.252
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 43.207.206.41
+  port: 5408
+  server: 54.65.32.119
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -57,24 +49,24 @@ proxies:
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 37973
-  server: 18.163.200.170
+  port: 5701
+  server: 35.77.34.38
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 29642
-  server: 35.77.34.38
+  port: 48738
+  server: 43.198.206.201
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 29642
-  server: 18.163.200.170
+  port: 17005
+  server: 18.162.190.157
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -82,7 +74,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.50.252
+  server: 16.162.118.154
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -90,7 +82,7 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 35.77.34.38
+  server: 43.198.206.201
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -105,8 +97,8 @@ proxies:
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41889
-  server: 16.163.106.209
+  port: 17801
+  server: 18.163.80.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

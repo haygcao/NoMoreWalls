@@ -17,10 +17,19 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇪@V2RayyNGvpn 🇩🇪
+- name: 9|🇩🇪@V2RayyNGvpn 🇩🇪 ام V2RayNG ت...
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: a2d6ZPXIID
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: rQRuZ8nFbC
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
