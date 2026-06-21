@@ -1,5 +1,5 @@
 proxies:
-- name: 13|CH_speednode_0005
+- name: 12|CH_speednode_0005
   password: SoftNetConnect
   port: 42549
   server: 83.228.224.161
@@ -9,7 +9,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|CH_speednode_0006
+  name: 12|CH_speednode_0006
   port: 2083
   reality-opts:
     public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY

@@ -1,5 +1,5 @@
 proxies:
-- name: 9|@V2RayyNGvpn🇨🇦
+- name: 8|@V2RayyNGvpn🇨🇦
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: V2RayyNGvpn
@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇨🇦@V2RayyNGvpn🇨🇦
+- name: 8|🇨🇦@V2RayyNGvpn🇨🇦
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: kjMoXj9ZxP
