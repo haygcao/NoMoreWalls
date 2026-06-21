@@ -6,7 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 11,12|日本|@ripaojiedian
+- name: 11,12,13|JP_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 5408
@@ -14,6 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae

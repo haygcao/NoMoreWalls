@@ -10,69 +10,9 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0055
-  port: 8443
-  server: 45.159.12.191
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0056
+  name: 13|SE_speednode_0103
   port: 8443
   server: 79.127.249.221
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0057
-  port: 8443
-  server: 45.159.12.9
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0058
-  port: 8443
-  server: 45.159.12.3
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0059
-  port: 8443
-  server: 45.159.12.34
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0060
-  port: 8443
-  server: 79.127.249.197
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  name: 13|SE_speednode_0061
-  port: 8443
-  server: 45.159.12.134
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true

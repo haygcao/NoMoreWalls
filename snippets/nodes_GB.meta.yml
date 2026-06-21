@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 13|GB_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: 4HjtN0YBEbiECAB-A-arFQUHlozgxpSEZx5g4436fF4
+    short-id: 99cf4c707e103c1e
+  server: 87.121.105.33
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a9a91808-8e7a-4f8d-9658-ab1b94f199e8
