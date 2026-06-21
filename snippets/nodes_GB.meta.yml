@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 12|GB_speednode_0008
+  name: 13|GB_speednode_0008
   port: 443
   reality-opts:
     public-key: 4HjtN0YBEbiECAB-A-arFQUHlozgxpSEZx5g4436fF4
