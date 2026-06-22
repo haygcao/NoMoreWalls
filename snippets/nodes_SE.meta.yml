@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 13|SE_speednode_0103
+  name: 12|SE_speednode_0103
   port: 8443
   server: 79.127.249.221
   servername: ams1.fromblancwithlove.com

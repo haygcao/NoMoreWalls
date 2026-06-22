@@ -1,5 +1,5 @@
 proxies:
-- name: 11,12|美国|@ripaojiedian
+- name: 10,11|美国|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11993
