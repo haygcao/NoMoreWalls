@@ -63,13 +63,48 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|@bored_vpn
+- name: 9|@vmesskhodam
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  port: 443
+  server: 46.254.18.107
+  skip-cert-verify: false
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- name: 9|@mehrosaboran
   obfs: salamander
   obfs-password: lmzo7ebpr6m8theh
   password: 3xkqzhpnfhaahx0q
   port: 5426
   server: atts5vkx96ec.dxdx5.com
   skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 9|⛵62@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 8zzng75tz4tf82pj
+  password: 7roz68utnk7wgogj
+  port: 8443
+  server: musicclips.videolinks.ru
+  sni: musicclips.videolinks.ru
+  tls: false
+  type: hysteria2
+- name: 9|⛵63@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: lhfl2z9mjngb7csh
+  password: 7roz68utnk7wgogj
+  port: 1935
+  server: nrealistic.nn-foto.ru
+  sni: nrealistic.nn-foto.ru
+  tls: false
+  type: hysteria2
+- name: 9|⛵61@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: 7roz68utnk7wgogj
+  port: 443
+  server: social.klipp.su
+  sni: social.klipp.su
   tls: false
   type: hysteria2
 - name: 9|94@oneclickvpnkeys
@@ -101,6 +136,24 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: '9|@vmesskhodam #1'
+  password: MySecurePassword123
+  port: 8443
+  server: wuhantravel.duckdns.org
+  skip-cert-verify: false
+  sni: wuhantravel.duckdns.org
+  tls: false
+  type: hysteria2
+- name: '9|@vmesskhodam #2'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - name: 9|@FreakConfig
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -111,13 +164,23 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪 ام V2RayNG ت ...
+- name: 9|@V2RayyNGvpn🇩🇪 ام V2RayNG ت  ب...
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: V2RayyNGvpn
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - name: 9|🇳🇱 - NL - @FreeOnlineVPN
@@ -194,13 +257,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: true
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|53@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 3.70.127.37
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '9|telegram @mtmvpn #2'
