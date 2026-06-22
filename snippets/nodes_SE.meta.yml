@@ -1,10 +1,19 @@
 proxies:
 - client-fingerprint: chrome
-  name: 12|SE_speednode_0103
+  name: 13|SE_speednode_0079
   port: 8443
   server: 79.127.249.221
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 13|SE_speednode_0080
+  port: 8443
+  server: 45.159.12.15
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true

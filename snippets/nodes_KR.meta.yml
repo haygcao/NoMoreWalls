@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 13|KR_speednode_0011
+  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  port: 31433
+  server: b96d8f0d-t9zts0-tgzvop-hns7.kr.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
