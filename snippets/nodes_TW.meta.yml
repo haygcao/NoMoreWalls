@@ -7,31 +7,3 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|TW_speednode_0083
-  port: 8443
-  reality-opts:
-    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-    short-id: ea10cd5686751ec5
-  server: 45.206.0.35
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52faee73-e0fe-4661-992d-67259257170f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|TW_speednode_0084
-  port: 8443
-  reality-opts:
-    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
-    short-id: ea10cd5686751ec5
-  server: 45.206.0.34
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52faee73-e0fe-4661-992d-67259257170f

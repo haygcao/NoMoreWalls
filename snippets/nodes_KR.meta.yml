@@ -1,9 +1,15 @@
 proxies:
-- name: 13|KR_speednode_0011
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- name: 13|KR_speednode_0002
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- name: 13|KR_speednode_0003
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
   port: 31433
-  server: b96d8f0d-t9zts0-tgzvop-hns7.kr.oshuawei.com
+  server: 5399cdbf-t9zts0-tc4puo-m0b9.kr.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b

@@ -31,7 +31,172 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|US_speednode_0087
+- client-fingerprint: randomized
+  name: 13|US_speednode_0055
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0056
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0057
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0058
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0059
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0060
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0061
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0062
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0063
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0064
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0065
+  network: ws
+  port: 2095
+  server: docs.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- name: 13|US_speednode_0066
   network: ws
   port: 80
   server: 199.232.197.131
@@ -45,90 +210,83 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 13|US_speednode_0088
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+- client-fingerprint: randomized
+  name: 13|US_speednode_0067
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0068
   port: 443
-  server: 7a106425-t9zts0-tgzvop-hns7.sj.oshuawei.com
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+- name: 13|US_speednode_0069
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: 13|US_speednode_0089
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: 13|US_speednode_0070
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
-  server: a86296f0-ta1og0-tgzvop-hns7.sj.oshuawei.com
+  server: fssU65471415523990.u1.huawei-cacahe.net
   tls: true
   type: http
   udp: true
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: 13|US_speednode_0090
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 443
-  server: 8b8d8416-tegxs0-tgzvop-hns7.sj.hyhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-- name: 13|US_speednode_0091
-  network: ws
-  port: 80
-  server: 151.101.2.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 13|US_speednode_0092
-  network: ws
-  port: 80
-  server: 151.101.194.219
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 13|US_speednode_0093
-  network: ws
-  port: 80
-  server: 151.101.0.1
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 13|US_speednode_0094
-  network: ws
-  port: 80
-  server: 167.82.0.1
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 13|US_speednode_0095
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 13|US_speednode_0071
   network: ws
   port: 80
   server: speedtest.net
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 13|US_speednode_0072
+  network: ws
+  port: 80
+  server: 151.101.130.219
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 13|US_speednode_0073
+  network: ws
+  port: 80
+  server: 151.101.194.219
   servername: max-gb1.global.ssl.fastly.net
   skip-cert-verify: false
   tls: false
