@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 9|FR-@VPNine1
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2

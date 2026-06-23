@@ -9,17 +9,17 @@ proxies:
   type: hysteria2
 - name: 11,12|美国|@ripaojiedian
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 49277
-  server: 18.162.41.225
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 17005
-  server: 95.40.53.232
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
