@@ -93,7 +93,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 8,9|🇪AE-@VPNine1
+- name: '8,9|telegram @mtmvpn #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -213,6 +213,16 @@ proxies:
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: ockdTdb3vU
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - name: '9|telegram @mtmvpn #2'
