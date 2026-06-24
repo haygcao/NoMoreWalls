@@ -113,22 +113,6 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|@vmesskhodam
-  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
-  port: 443
-  server: 46.254.18.107
-  skip-cert-verify: false
-  sni: newlte.kihsuyhf8jkiugsxb.cfd
-  tls: false
-  type: hysteria2
-- name: 9|Tel-@NapsterNetvIrani 1
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: false
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: 9|@bored_vpn
   obfs: salamander
   obfs-password: lmzo7ebpr6m8theh
@@ -158,6 +142,22 @@ proxies:
   sni: se.esimpson.org
   tls: false
   type: hysteria2
+- name: 9|TW_@https://t.me/daily_free_vp...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy1.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/daily_free_vpn
+  tls: false
+  type: hysteria2
+- name: 9|HK_@https://t.me/daily_free_vp...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy2.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/daily_free_vpn
+  tls: false
+  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -166,24 +166,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: '9|@vmesskhodam #1'
-  password: MySecurePassword123
-  port: 8443
-  server: wuhantravel.duckdns.org
-  skip-cert-verify: false
-  sni: wuhantravel.duckdns.org
-  tls: false
-  type: hysteria2
-- name: '9|@vmesskhodam #2'
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
