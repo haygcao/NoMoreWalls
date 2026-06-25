@@ -11,7 +11,7 @@ proxies:
   port: 443
   server: 13.231.108.76
   skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
+  sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
 - name: 9|JP_@QiangLieTuiJian
