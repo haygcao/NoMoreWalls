@@ -30,6 +30,22 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
+- name: 8|JP_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.231.108.76
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 8|US_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.203.4.232
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -80,6 +96,23 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 9|28@oneclickvpnkeys
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 443
+  server: 31.76.28.28
+  sni: argg5.auragg.org
+  tls: false
+  type: hysteria2
+- name: 9|@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: CRzpXvIiyI
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - name: '9|@prrofile_purple   '
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -98,12 +131,20 @@ proxies:
   sni: https://t.me/daily_free_vpn
   tls: false
   type: hysteria2
-- name: 9|HK_@https://t.me/daily_free_vp...
+- name: 9|JP_@QiangLieTuiJian
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: hy2.466688.xyz
+  server: hy3.466688.xyz
   skip-cert-verify: true
-  sni: https://t.me/daily_free_vpn
+  sni: https://t.me/QiangLieTuiJian
+  tls: false
+  type: hysteria2
+- name: 9|US_@QiangLieTuiJian
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: hy4.466688.xyz
+  skip-cert-verify: true
+  sni: https://t.me/QiangLieTuiJian
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -123,6 +164,16 @@ proxies:
   sni: wuhantravel.duckdns.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: S0Mq06tf1I
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -133,7 +184,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: Z7MFGgpuzh
@@ -162,7 +213,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU
