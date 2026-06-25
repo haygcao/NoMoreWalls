@@ -1,5 +1,5 @@
 proxies:
-- name: 13|SE_speednode_0051
+- name: 12|SE_speednode_0051
   network: ws
   port: 80
   server: 151.101.84.151
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 13|SE_speednode_0052
+- name: 12|SE_speednode_0052
   network: ws
   port: 80
   server: 151.101.86.151
