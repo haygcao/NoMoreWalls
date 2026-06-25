@@ -1,5 +1,5 @@
 proxies:
-- name: 7|US_@WangCai_8
+- name: 8|US_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.144.118.75
@@ -7,7 +7,7 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 8|US_@QiangLieTuiJian
+- name: 9|US_@QiangLieTuiJian
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: hy4.466688.xyz
@@ -15,7 +15,7 @@ proxies:
   sni: https://t.me/QiangLieTuiJian
   tls: false
   type: hysteria2
-- name: 8|🇺🇸US_@QiangLieTuiJian
+- name: 9|🇺🇸US_@QiangLieTuiJian
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: hy5.466688.xyz
@@ -23,7 +23,7 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 10,11|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: a844e75e40134ee742e80ced8509b310
   port: 17005
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: a844e75e40134ee742e80ced8509b310
   port: 17005
@@ -39,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -49,7 +49,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|US_speednode_0053
+  name: 13|US_speednode_0053
   port: 443
   reality-opts:
     public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
@@ -61,7 +61,7 @@ proxies:
   type: vless
   udp: true
   uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
-- name: 12|US_speednode_0054
+- name: 13|US_speednode_0054
   network: ws
   port: 80
   server: 151.101.119.151
@@ -75,7 +75,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?ed=2560
-- name: 12|US_speednode_0055
+- name: 13|US_speednode_0055
   network: ws
   port: 80
   server: 151.101.101.151
@@ -89,7 +89,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?ed=2560
-- name: 12|US_speednode_0056
+- name: 13|US_speednode_0056
   network: ws
   port: 80
   server: 151.101.171.151
@@ -103,7 +103,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?ed=2560
-- name: 12|US_speednode_0057
+- name: 13|US_speednode_0057
   network: ws
   port: 80
   server: 199.232.197.131
@@ -117,7 +117,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0058
+- name: 13|US_speednode_0058
   network: ws
   port: 80
   server: 151.101.33.151
@@ -131,7 +131,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0059
+- name: 13|US_speednode_0059
   network: ws
   port: 80
   server: 151.101.194.151
@@ -145,7 +145,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0060
+- name: 13|US_speednode_0060
   network: ws
   port: 443
   server: fast.cd-tur4.ir
@@ -159,7 +159,7 @@ proxies:
     headers:
       Host: newip.global.ssl.fastly.neT.
     path: /
-- name: 12|US_speednode_0061
+- name: 13|US_speednode_0061
   network: ws
   port: 80
   server: 151.101.119.151
@@ -173,7 +173,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0062
+- name: 13|US_speednode_0062
   network: ws
   port: 80
   server: 151.101.117.151
@@ -187,7 +187,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0063
+- name: 13|US_speednode_0063
   network: ws
   port: 80
   server: 151.101.194.219
@@ -201,7 +201,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0064
+- name: 13|US_speednode_0064
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
   server: fssU65471415523990.u1.huawei-cacahe.net
@@ -209,7 +209,7 @@ proxies:
   type: http
   udp: true
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: 12|US_speednode_0065
+- name: 13|US_speednode_0065
   network: ws
   port: 80
   server: 151.101.161.151
@@ -223,7 +223,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0068
+- name: 13|US_speednode_0068
   network: ws
   port: 80
   server: 151.101.169.151
@@ -237,7 +237,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0069
+- name: 13|US_speednode_0069
   network: ws
   port: 80
   server: 151.101.170.151
@@ -251,7 +251,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0072
+- name: 13|US_speednode_0072
   network: ws
   packet-encoding: xudp
   port: 80
@@ -266,7 +266,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0073
+- name: 13|US_speednode_0073
   network: ws
   port: 80
   server: 151.101.12.151
@@ -280,7 +280,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0074
+- name: 13|US_speednode_0074
   network: ws
   port: 80
   server: 151.101.69.151
@@ -294,7 +294,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0075
+- name: 13|US_speednode_0075
   network: ws
   port: 80
   server: 151.101.25.151
@@ -308,7 +308,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0076
+- name: 13|US_speednode_0076
   network: ws
   port: 80
   server: 151.101.67.151
@@ -322,7 +322,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0077
+- name: 13|US_speednode_0077
   network: ws
   port: 80
   server: 151.101.64.151
@@ -336,7 +336,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0078
+- name: 13|US_speednode_0078
   network: ws
   port: 80
   server: 151.101.22.151
@@ -350,7 +350,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0079
+- name: 13|US_speednode_0079
   network: ws
   port: 80
   server: 151.101.200.151
@@ -364,7 +364,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0080
+- name: 13|US_speednode_0080
   network: ws
   port: 80
   server: 151.101.182.151
@@ -378,7 +378,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0081
+- name: 13|US_speednode_0081
   network: ws
   port: 80
   server: 151.101.23.151
@@ -392,7 +392,7 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- name: 12|US_speednode_0082
+- name: 13|US_speednode_0082
   network: ws
   port: 80
   server: 151.101.196.151
