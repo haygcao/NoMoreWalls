@@ -9,25 +9,25 @@ proxies:
   type: hysteria2
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 29642
-  server: 95.40.109.13
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 18.166.209.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 6357
-  server: 95.40.80.58
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 43.198.247.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.162.119.13
+  port: 9149
+  server: 54.46.14.161
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
