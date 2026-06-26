@@ -8,6 +8,14 @@ proxies:
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
+- name: 8|2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: 8|1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
@@ -31,20 +39,20 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
+- name: 8|SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.212.100.129
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2
+  tls: false
+  type: hysteria2
 - name: 8|🐙61@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
-  tls: false
-  type: hysteria2
-- name: 8|US_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.144.118.75
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
 - name: 8|🐙68@oneclickvpnkeys
@@ -154,30 +162,6 @@ proxies:
   sni: se.esimpson.org
   tls: false
   type: hysteria2
-- name: 9|JP_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy3.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: 9|US_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy4.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸US_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy5.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -198,6 +182,16 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: T-Me-V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -208,7 +202,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: Z7MFGgpuzh
@@ -237,7 +231,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: dJtElQSz4v
@@ -247,7 +241,7 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #2'
+- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #3'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: ockdTdb3vU

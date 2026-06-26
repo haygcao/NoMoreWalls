@@ -6,14 +6,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|JP_@QiangLieTuiJian
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy3.466688.xyz
-  skip-cert-verify: true
-  sni: https://t.me/QiangLieTuiJian
-  tls: false
-  type: hysteria2
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
