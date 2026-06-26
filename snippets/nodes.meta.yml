@@ -145,13 +145,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|28@oneclickvpnkeys
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 443
-  server: 31.76.28.28
-  sni: argg5.auragg.org
-  tls: false
-  type: hysteria2
 - name: '9|@prrofile_purple   '
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -241,6 +234,15 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
+- name: 9|49@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 2a7e8084206388f4
+  password: gdubbi2zb6gdp0c8
+  port: 443
+  server: 103.251.167.168
+  sni: gettestin.xxee.ru
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
@@ -253,16 +255,6 @@ proxies:
   port: 59182
   server: wt.easyiran.org
   sni: wt.easyiran.org
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #3'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: ockdTdb3vU
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - name: '9|telegram @mtmvpn #1'
