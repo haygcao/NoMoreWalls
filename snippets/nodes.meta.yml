@@ -98,16 +98,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple   '
-  obfs: salamander
-  obfs-password: EsimObfs_9mK2x7
-  password: EsimHy2Game_7xK9mPq2
-  port: 443
-  server: 31.22.91.243
-  skip-cert-verify: false
-  sni: se.esimpson.org
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -158,7 +148,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@FreakConfig
+- name: 9|🇩🇪@irconfiig
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: Z7MFGgpuzh
@@ -207,7 +197,7 @@ proxies:
   sni: gettestin.xxee.ru
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple  ♥️👈 تلگرام
+- name: '9|@prrofile_purple   '
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
