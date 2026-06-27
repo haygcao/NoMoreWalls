@@ -1,38 +1,11 @@
 proxies:
-- name: 8|@v2reya88 | @confinghub2
-  obfs: salamander
-  obfs-password: 8zzng75tz4tf82pj
-  password: 653m8mmiy7048p0f
-  port: 8443
-  server: musicclips.videolinks.ru
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 8|64@oneclickvpnkeys
+- name: 8|🏇64@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: 653m8mmiy7048p0f
   port: 8443
   server: musicclips.videolinks.ru
   sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: '8|@v2reya88 | @confinghub2 #1'
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: social.klipp.su
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 8|🏇68@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: social.klipp.su
-  sni: social.klipp.su
   tls: false
   type: hysteria2
 - name: 8|2

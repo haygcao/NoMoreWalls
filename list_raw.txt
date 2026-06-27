@@ -1,7 +1,4 @@
-hysteria2://653m8mmiy7048p0f@musicclips.videolinks.ru:8443?sni=&obfs=salamander&obfs-password=8zzng75tz4tf82pj#8%7C%40v2reya88%20%7C%20%40confinghub2
-hysteria2://653m8mmiy7048p0f@musicclips.videolinks.ru:8443?sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#8%7C64%40oneclickvpnkeys
-hysteria2://653m8mmiy7048p0f@social.klipp.su:443?sni=&obfs=salamander&obfs-password=3sv5vpdl9xr84lyb#8%7C%40v2reya88%20%7C%20%40confinghub2%20%231
-hysteria2://653m8mmiy7048p0f@social.klipp.su:443?sni=social.klipp.su&obfs=salamander&obfs-password=3sv5vpdl9xr84lyb#8%7C%F0%9F%8F%8768%40oneclickvpnkeys
+hysteria2://653m8mmiy7048p0f@musicclips.videolinks.ru:8443?sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#8%7C%F0%9F%8F%8764%40oneclickvpnkeys
 hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@mg2.mangshe.xyz:2056?insecure=1&sni=mg2.mangshe.xyz#8%7C2
 hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@xjp1.mangshe.xyz:2055?insecure=1&sni=xjp1.mangshe.xyz#8%7C1
 hysteria2://95D27EEF-B7AE-4076-BA39-40FDFA3D0F61@jp7.dexlos.com:13778?insecure=1#8%7CJP
@@ -55,4 +52,4 @@ vless://52faee73-e0fe-4661-992d-67259257170f@45.206.0.29:8443?allowInsecure=0&sn
 vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14005?allowInsecure=1&sni=apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0055
 vless://057f3c26-0fe7-4315-aabc-90c79d413d70@38.244.20.69:443?allowInsecure=1&sni=www.apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0056
 trojan://Mitivpn@iranpoems.ir:443?allowInsecure=0&sni=www.gamingdll.ir&type=ws&host=www.gamingdll.ir&path=/usa=mitivpn#13%7CUS_speednode_0063
-hhy2://653m8mmiy7048p0f@musicclips.videolinks.ru:8443/?sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#@v2reya88 | @confinghub2
+hhy2://653m8mmiy7048p0f@social.klipp.su:443/?sni=social.klipp.su&obfs=salamander&obfs-password=3sv5vpdl9xr84lyb#🏇68@oneclickvpnkeys
