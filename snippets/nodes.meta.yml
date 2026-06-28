@@ -8,6 +8,15 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
+- name: 8|🏇68@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: 653m8mmiy7048p0f
+  port: 443
+  server: social.klipp.su
+  sni: social.klipp.su
+  tls: false
+  type: hysteria2
 - name: 8|2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -31,27 +40,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|SG_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.212.34.63
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2
-  tls: false
-  type: hysteria2
 - name: 8|🏇63@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.231.108.76
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 8|🇸US_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.133.156.115
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -138,16 +131,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 9|+@Azarakhsh_Proxy+
-  obfs: salamander
-  obfs-password: KevinZakarian
-  password: KevinZakarian
-  port: 8443
-  server: 179.61.132.96
-  skip-cert-verify: true
-  sni: 179.61.132.96
-  tls: false
-  type: hysteria2
 - name: 9|@V2RayyNGvpn🇫🇮
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -207,7 +190,7 @@ proxies:
   sni: gettestin.xxee.ru
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple   تلگرام
+- name: 9|@prrofile_purple  ♥️👈 تلگرام
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -262,24 +245,24 @@ proxies:
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -311,7 +294,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -327,7 +310,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

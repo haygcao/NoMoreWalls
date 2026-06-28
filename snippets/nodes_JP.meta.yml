@@ -9,8 +9,8 @@ proxies:
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
