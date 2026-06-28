@@ -1,5 +1,5 @@
 proxies:
-- name: 8|🏇64@oneclickvpnkeys
+- name: 8|64@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: 653m8mmiy7048p0f
@@ -202,6 +202,16 @@ proxies:
   port: 443
   server: 185.250.41.245
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 9|@filembad
+  obfs: salamander
+  obfs-password: 2a7e8084206388f4
+  password: gdubbi2zb6gdp0c8
+  port: 443
+  server: 103.251.167.168
+  skip-cert-verify: false
+  sni: gettestin.xxee.ru
   tls: false
   type: hysteria2
 - name: 9|@prrofile_purple  ♥️👈 تلگرام
