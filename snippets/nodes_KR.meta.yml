@@ -1,4 +1,12 @@
 proxies:
+- name: 8|KR_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.202.60.234
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 13|KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433
