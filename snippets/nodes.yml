@@ -1,102 +1,118 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 10|tg频道:@ripaojiedian
+  name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 10|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 10,11|香港3|@ripaojiedian
+- name: 11,12|香港3|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 53012
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|香港4|@ripaojiedian
+- name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 18.166.29.105
+  port: 29449
+  server: 16.163.129.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 10,11|香港5|@ripaojiedian
+- name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 18.163.56.230
+  port: 27167
+  server: 16.163.145.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 10,11|日本|@ripaojiedian
+- name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 18021
-  server: 18.183.83.131
+  port: 10624
+  server: 13.115.183.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 10,11|日本2|@ripaojiedian
+- name: 11,12|日本2|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 3743
-  server: 54.46.30.217
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 10,11|日本3|@ripaojiedian
-  network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 5701
-  server: 54.46.30.217
+  server: 18.181.172.59
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|新加坡2|@ripaojiedian
+- name: 11,12|日本3|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 48738
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 5701
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|新加坡3|@ripaojiedian
+- name: 11,12|新加坡|@ripaojiedian
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 6357
+  server: 43.199.32.140
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|新加坡2|@ripaojiedian
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 48738
+  server: 43.199.32.140
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.29.105
+  port: 22459
+  server: 95.40.63.61
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 10,11|美国2|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 49277
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国3|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 17005
+  server: 13.230.33.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 16.163.142.40
+  port: 44265
+  server: 43.198.243.211
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 11|香港|@ripaojiedian
+  name: 12|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -104,7 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12|AE_speednode_0001
+- name: 13|AE_speednode_0001
   network: ws
   password: MITIVPN
   port: 443
@@ -117,7 +133,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 12|GB_speednode_0005
+- name: 13|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -130,7 +146,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 12|NL_speednode_0016
+- name: 13|NL_speednode_0016
   network: ws
   password: MiTiVPN
   port: 443
@@ -143,7 +159,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 12|US_speednode_0063
+- name: 13|US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443
