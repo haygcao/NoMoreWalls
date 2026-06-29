@@ -234,7 +234,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮ان 🇫🇮
+- name: 9|🇫🇮لان 🇫🇮
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpn
@@ -244,7 +244,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮@FreakConfig
+- name: 9|kurdconfig
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-v2rayyngvpn
