@@ -22,12 +22,28 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 8|KR_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.209.199
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2
+  tls: false
+  type: hysteria2
+- name: 8|🇰🇷KR_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.34.49.205
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 8|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 18.143.178.20
+  server: 56.10.11.159
   skip-cert-verify: true
-  sni: https://t.me/WangCai2
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -38,7 +54,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8| HK
+- name: 8|🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -71,13 +87,23 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🏇68@oneclickvpnkeys
+- name: 9|68@oneclickvpnkeys
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: 653m8mmiy7048p0f
   port: 443
   server: social.klipp.su
   sni: social.klipp.su
+  tls: false
+  type: hysteria2
+- name: 9|+@Azarakhsh_Proxy+
+  obfs: salamander
+  obfs-password: KevinZakarian
+  password: KevinZakarian
+  port: 8443
+  server: 179.61.132.96
+  skip-cert-verify: true
+  sni: 179.61.132.96
   tls: false
   type: hysteria2
 - name: '9|اا تلگرام : MTMVPN'

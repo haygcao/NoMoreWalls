@@ -2,9 +2,9 @@ proxies:
 - name: 8|SG_@WangCai_8
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 18.143.178.20
+  server: 56.10.11.159
   skip-cert-verify: true
-  sni: https://t.me/WangCai2
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|SG
