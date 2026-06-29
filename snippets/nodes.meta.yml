@@ -1,5 +1,5 @@
 proxies:
-- name: 8|64@NetFlowTools
+- name: 8|🏇64@NetFlowTools
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: 653m8mmiy7048p0f
@@ -40,35 +40,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|KR_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.125.209.199
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2
-  tls: false
-  type: hysteria2
 - name: 8|🏇63@NetFlowTools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.231.108.76
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 8|🇰🇷KR_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.34.49.205
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 8|SG_@WangCai_8
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 56.10.11.159
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -79,7 +55,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8|🇰 HK
+- name: 8| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -238,16 +214,6 @@ proxies:
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpn
-  port: 443
-  server: 65.109.177.191
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: 9|kurdconfig
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: t-me-v2rayyngvpn
   port: 443
   server: 65.109.177.191
   skip-cert-verify: true
