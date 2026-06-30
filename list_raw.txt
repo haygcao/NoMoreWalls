@@ -13,6 +13,7 @@ hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@18.143.117.69:443?insecure=1&sni=vpn-sg-001
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@18.143.165.76:443?insecure=1&sni=vpn-sg-001.fastervpn.world#8%7C%F0%9F%8F%8770%40NetFlowTools
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.131.248.82:443?insecure=1&sni=vpn-sg-001.fastervpn.world#8%7C%F0%9F%8F%8769%40NetFlowTools
 hysteria2://rs2mR3g9bZiMloftx6lZQ59Um1Ld@80.66.81.78:9443?insecure=0&sni=tunel1.washing.help&obfs=salamander&obfs-password=oMgvuBy5Lj5kYM57sGsnjpjNcSEQ#8%2C9%7C%E2%9C%85%20%20%40vistav2ray%20%20%F0%9F%91%88%F0%9F%91%88%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%E2%9C%85
+hysteria2://653m8mmiy7048p0f@2.26.49.16:443?sni=social.klipp.su&obfs=salamander&obfs-password=3sv5vpdl9xr84lyb#9%7C18%40oneclickvpnkeys
 hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#9%7C%2B%40Azarakhsh_Proxy%2B
 hysteria2://V2RayyNgvpn@65.109.177.191:443?insecure=1&sni=www.oracle.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#9%7C%D8%A7%D8%A7%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%3A%20MTMVPN
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#9%7C%20-%20NL%20-%20%40FreeOnlineVPN
@@ -53,4 +54,3 @@ vless://52faee73-e0fe-4661-992d-67259257170f@45.206.0.29:8443?allowInsecure=0&sn
 vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14005?allowInsecure=1&sni=apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0055
 vless://057f3c26-0fe7-4315-aabc-90c79d413d70@38.244.20.69:443?allowInsecure=1&sni=www.apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#13%7CUS_speednode_0056
 trojan://Mitivpn@iranpoems.ir:443?allowInsecure=0&sni=www.gamingdll.ir&type=ws&host=www.gamingdll.ir&path=/usa=mitivpn#13%7CUS_speednode_0063
-hhysteria2://2bed923d-0204-4993-ae38-59281c98bfd9@[2a0b:4142:a86::2]:28443/?insecure=1&sni=c9a0c4942b7edk1v6.587458.xyz#🦖10@oneclickvpnkeys
