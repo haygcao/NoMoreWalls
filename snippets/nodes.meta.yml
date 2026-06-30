@@ -40,11 +40,27 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 8|SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.229.94.221
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2
+  tls: false
+  type: hysteria2
 - name: 8|🏇63@NetFlowTools
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.231.108.76
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 8|🇸🇬SG_@WangCai_8
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 47.128.242.210
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
 - name: 8|DE
@@ -122,7 +138,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|18@oneclickvpnkeys
+- name: 9|💙18@oneclickvpnkeys
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: 653m8mmiy7048p0f
@@ -190,6 +206,29 @@ proxies:
   sni: gettestin.xxee.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - h3
+  fingerprint: chrome
+  name: 9|🇩🇪hysteria2-@hollowcon
+  obfs: salamander
+  obfs-password: xdbc2u01v1j9fhvv
+  password: hk6ah4vgb0qp2koh
+  port: 2087
+  server: ger1.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇩🇪💎hysteria-@hollowcon
+  password: hk6ah4vgb0qp2koh
+  port: 4526
+  server: panel.riziro.ir
+  sni: ger1.riziro.ir
+  tls: false
+  type: hysteria2
 - name: 9|@prrofile_purple  ♥️👈 تلگرام
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -209,17 +248,19 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|Finland🇫🇮
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|hysteria
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: s0e9dylundefinedundefinedn
-  port: 443
-  server: 65.109.177.191
-  skip-cert-verify: true
-  sni: www.oracle.com
+  obfs-password: 2gg0tx9d2etug8n9
+  password: rjj39jg8iphgd06h
+  port: 44100
+  server: pro2.riziro.ir
+  sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|🇫🇮لان 🇫🇮
+- name: 9|لان 🇫🇮
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpn
