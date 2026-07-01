@@ -154,15 +154,6 @@ proxies:
   type: hysteria2
 - name: 9|telegram @mtmvpn
   obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: cFihfSrWtH
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '9|telegram @mtmvpn #1'
-  obfs: salamander
   obfs-password: 2a7e8084206388f4
   password: gdubbi2zb6gdp0c8
   port: 443
@@ -204,7 +195,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|telegram @mtmvpn #3'
+- name: '9|telegram @mtmvpn #2'
   obfs: salamander
   obfs-password: T.me/V2RayyNGvpn
   password: rQRuZ8nFbC
@@ -235,7 +226,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|12@NetFlowTools
+- name: 9|🦖12@NetFlowTools
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: v2rayyngvpn
@@ -243,16 +234,6 @@ proxies:
   server: 57.128.108.123
   skip-cert-verify: true
   sni: www.wordreference.com
-  tls: false
-  type: hysteria2
-- name: 9|@filembad
-  obfs: salamander
-  obfs-password: 60wvbymjlc9zw3gk
-  password: zru63dr6vokx56iy
-  port: 52067
-  server: tr-1.metsima.com
-  skip-cert-verify: false
-  sni: tr-1.metsima.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
