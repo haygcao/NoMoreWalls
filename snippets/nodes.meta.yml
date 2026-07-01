@@ -79,6 +79,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 9|FI-@VPNine1
+  password: 00dcd873-9211-4d61-ad35-87999906e5c8
+  port: 443
+  server: 185.75.135.220
+  sni: fta.fontanvpn.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
@@ -195,15 +202,6 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|telegram @mtmvpn #2'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: rQRuZ8nFbC
-  port: 443
-  server: 185.250.41.245
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -216,7 +214,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|✅  @vistav2ray  👈👈کانال ما ✅
+- name: 9|  @vistav2ray  👈👈کانال  ✅
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -224,16 +222,6 @@ proxies:
   server: 80.66.81.78
   skip-cert-verify: false
   sni: tunel1.washing.help
-  tls: false
-  type: hysteria2
-- name: 9|🦖12@NetFlowTools
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: v2rayyngvpn
-  port: 443
-  server: 57.128.108.123
-  skip-cert-verify: true
-  sni: www.wordreference.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
