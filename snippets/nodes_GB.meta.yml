@@ -1,5 +1,5 @@
 proxies:
-- name: 13|GB_speednode_0005
+- name: 12|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 13|GB_speednode_0006
+- name: 12|GB_speednode_0006
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
@@ -20,7 +20,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 13|GB_speednode_0007
+- name: 12|GB_speednode_0007
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com
