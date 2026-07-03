@@ -18,19 +18,6 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h2
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
-  obfs: salamander
-  obfs-password: xdbc2u01v1j9fhvv
-  password: hk6ah4vgb0qp2koh
-  port: 2087
-  server: ger1.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
-- alpn:
   - h3
   fingerprint: chrome
   name: 9|🇩🇪💎hysteria-@hollowcon
