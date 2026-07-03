@@ -7,6 +7,13 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: 9|US_1 | ️ 766KB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.191.165.99
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
