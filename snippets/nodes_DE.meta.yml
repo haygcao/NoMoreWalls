@@ -27,11 +27,3 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2raybazi
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: https://www.calmloud.com
-  tls: false
-  type: hysteria2
