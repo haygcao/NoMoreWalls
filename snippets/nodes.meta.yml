@@ -367,16 +367,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9| @zyzzzoao
-  obfs: salamander
-  obfs-password: iclkvfpcr5clinjs
-  password: 3oj4zp0tzjlwj7jv
-  port: 33321
-  server: 104.233.209.232
-  skip-cert-verify: false
-  sni: 104.233.209.232
-  tls: false
-  type: hysteria2
 - name: 9|️@ATLAS_V2VPN️️432️
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
@@ -460,7 +450,7 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|@filembad
+- name: '9|تلگرام : MTMVPN'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
