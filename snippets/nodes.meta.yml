@@ -63,26 +63,10 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|4🍓@oneclickvpnkeys
+- name: 9|♦️25@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
-  server: 45.196.182.186
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|5🍓@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.196
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|88@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.199
+  server: 45.196.182.175
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -95,70 +79,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|97@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.204
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓95@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.205
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓98@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.206
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓92@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.207
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|3🍓@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.208
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|99@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.209
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓93@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.210
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓94@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.211
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: 9|🪼85@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -167,23 +87,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|🍓100@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.222
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|2🍓@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.231
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|@filembad
+- name: 9|5🪼@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.233
@@ -191,7 +95,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|100@oneclickvpnkeys
+- name: 9|🪼100@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.234
@@ -199,7 +103,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|2@oneclickvpnkeys
+- name: 9|2🪼@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.251
@@ -223,7 +127,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|️@ATLAS_V2VPN️️432️
+- name: 9|️️@ATLAS_V2VPN️️432️
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: 653m8mmiy7048p0f
@@ -279,6 +183,14 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9|FR-@VPNine1
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 9|telegram @mtmvpn
@@ -348,7 +260,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '9|@Qara_atayi | '
+- name: 9|IPv4@proxy_kafee
   obfs: salamander
   obfs-password: OzJ10Bk1Z9MfaTDFAgDX0HldGsMiI7C2
   password: r7386498464aq
