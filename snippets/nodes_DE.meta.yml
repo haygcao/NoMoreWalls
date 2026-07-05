@@ -27,3 +27,21 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
+- name: 9|🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: t-me-V2RayyNGvpN
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2raybazi
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: https://www.calmloud.com
+  tls: false
+  type: hysteria2

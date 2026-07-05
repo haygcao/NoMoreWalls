@@ -63,10 +63,18 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|♦️25@oneclickvpnkeys
+- name: 9|♦️25@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.175
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|88@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.199
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
@@ -185,14 +193,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|FR-@VPNine1
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 9|telegram @mtmvpn
   obfs: salamander
   obfs-password: 2a7e8084206388f4
@@ -292,21 +292,17 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  fingerprint: chrome
-  name: 9|best_internet_iran
+- name: 9|🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
-  obfs-password: 6b95esw2d7h3r7kl
-  password: sm6wj2kn4v412om3
-  port: 33027
-  server: nf.easyiran.org
-  sni: nf.easyiran.org
+  obfs-password: t-me-V2RayyNGvpn
+  password: t-me-V2RayyNGvpN
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇪@V2raybazi
+- name: 9|🇩🇪@V2raybazi
   password: zhangyang
   port: 6443
   server: 130.61.50.75
