@@ -71,7 +71,15 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️56@oneclickvpnkeys
+- name: 9|🕹️74@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.168
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|♦️56@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.172
@@ -95,7 +103,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️59@oneclickvpnkeys
+- name: 9|♦️59@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.184
@@ -111,7 +119,23 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️50@oneclickvpnkeys
+- name: 9|🕹️73@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.199
+  skip-cert-verify: true
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
+- name: 9|🕹️75@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.222
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|♦️50@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.225
@@ -127,7 +151,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️52@oneclickvpnkeys
+- name: 9|♦️52@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.239
@@ -150,7 +174,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️58@oneclickvpnkeys
+- name: 9|♦️58@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.227
@@ -181,7 +205,7 @@ proxies:
   sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
-- name: 9|♦️53@oneclickvpnkeys
+- name: 9|♦️53@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.240
@@ -189,7 +213,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️54@oneclickvpnkeys
+- name: 9|♦️54@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.243
@@ -197,7 +221,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️57@oneclickvpnkeys
+- name: 9|♦️57@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.245
@@ -205,7 +229,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|♦️55@oneclickvpnkeys
+- name: 9|♦️55@NetFlowTools
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.252
