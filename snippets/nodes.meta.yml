@@ -71,6 +71,14 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
+- name: 9|️90@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.161
+  skip-cert-verify: false
+  sni: sni.fi-m247-02.com
+  tls: false
+  type: hysteria2
 - name: 9|🕹️74@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -555,31 +563,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11|🇭🇰 香港3|@ripaojiedian
+- name: 11,12|香港3|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
-  server: 18.162.58.236
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11|🇭🇰 香港4|@ripaojiedian
+- name: 11,12|香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 16.163.150.200
+  port: 4374
+  server: 16.162.33.88
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11|🇭🇰 香港5|@ripaojiedian
+- name: 11,12|香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 29449
-  server: 16.162.150.200
+  server: 16.162.119.181
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11|🇯🇵 日本|@ripaojiedian
+- name: 11,12|日本|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 3.112.52.247
+  port: 47656
+  server: 18.162.113.168
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -587,7 +599,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 55973
-  server: 16.163.138.198
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -595,7 +607,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 3743
-  server: 16.163.138.198
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -610,15 +622,16 @@ proxies:
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 48738
-  server: 16.163.50.86
+  port: 29642
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11|🇸🇬 新加坡3|@ripaojiedian
+- name: 11,12|新加坡3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.163.150.200
+  port: 9149
+  server: 18.166.66.1
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -638,10 +651,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11|🇺🇸 美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.58.154
+  port: 22657
+  server: 18.162.111.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -655,54 +669,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12|香港3|@ripaojiedian
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 16.162.109.204
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 12|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29449
-  server: 16.162.143.22
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 12|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 47656
-  server: 95.40.61.197
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 12|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 51396
-  server: 16.162.34.133
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 12|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 44265
-  server: 18.163.116.155
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 13|AE_speednode_0001
   network: ws
   password: MITIVPN
