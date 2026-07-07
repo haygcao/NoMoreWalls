@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 7|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8,9|@KAFING_2
+- name: 7,8|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn🇩🇪
+- name: 8|@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: T&me&V2RayyNGvpn
@@ -27,7 +27,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2Rayyngvpn
@@ -41,7 +41,7 @@ proxies:
   - h2
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
+  name: 8|🇩🇪hysteria2-@hollowcon
   obfs: salamander
   obfs-password: xdbc2u01v1j9fhvv
   password: hk6ah4vgb0qp2koh
@@ -53,14 +53,14 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇩🇪💎hysteria-@hollowcon
+  name: 8|🇩🇪💎hysteria-@hollowcon
   password: hk6ah4vgb0qp2koh
   port: 4526
   server: panel.riziro.ir
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: '8|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: t-me-V2RayyNGvpN
@@ -70,7 +70,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2raybazi
+- name: 8|🇩🇪@V2raybazi
   password: zhangyang
   port: 6443
   server: 130.61.50.75
