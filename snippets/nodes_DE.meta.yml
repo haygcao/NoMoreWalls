@@ -37,39 +37,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@tootffarangi-7
-  obfs: salamander
-  obfs-password: wbpq2m519yken2qi
-  password: bjqhikidgbvefako
-  port: 34909
-  server: max-ep.443.erangle.ru
-  skip-cert-verify: false
-  sni: a-l.fl-sub.erangle.ru
-  tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪hysteria2-@hollowcon
-  obfs: salamander
-  obfs-password: xdbc2u01v1j9fhvv
-  password: hk6ah4vgb0qp2koh
-  port: 2087
-  server: ger1.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇩🇪💎hysteria-@hollowcon
-  password: hk6ah4vgb0qp2koh
-  port: 4526
-  server: panel.riziro.ir
-  sni: ger1.riziro.ir
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪@V2raybazi
   password: zhangyang
   port: 6443
