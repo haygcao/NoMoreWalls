@@ -362,16 +362,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@tootffarangi-7
-  obfs: salamander
-  obfs-password: wbpq2m519yken2qi
-  password: bjqhikidgbvefako
-  port: 34909
-  server: max-ep.443.erangle.ru
-  skip-cert-verify: false
-  sni: a-l.fl-sub.erangle.ru
-  tls: false
-  type: hysteria2
 - name: '9|تلگرام : MTMVPN'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
