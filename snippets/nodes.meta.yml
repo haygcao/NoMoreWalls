@@ -87,6 +87,16 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
+- name: 9|telegram @mtmvpn
+  obfs: salamander
+  obfs-password: ngljeqgna3hmfr2s
+  password: 91uokb9ud7raz0fk
+  port: 56845
+  server: qg.easyiran.org
+  skip-cert-verify: false
+  sni: qg.easyiran.org
+  tls: false
+  type: hysteria2
 - name: 9|t-me-V2RayyNGvpn️
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -158,6 +168,16 @@ proxies:
 - name: 9|@V2RayyNGvpn🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
+  password: MjLSEZj2IW
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
   password: QjdEEystFJ
   port: 40460
   server: 91.107.152.188
@@ -205,12 +225,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🐞27@v2ray_configs_pools
+- name: '9|Tel: @Daily_Configs'
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: eltgrek81o6w5cd4
   port: 443
   server: social.klipp.su
+  skip-cert-verify: false
   sni: social.klipp.su
   tls: false
   type: hysteria2
