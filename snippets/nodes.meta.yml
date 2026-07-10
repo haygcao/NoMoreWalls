@@ -247,6 +247,16 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
+- name: 9|@filembad
+  obfs: salamander
+  obfs-password: 47tn6dgvjzotndv8
+  password: vyba34ny8juddmmi
+  port: 35288
+  server: wp.zibayeman.com
+  skip-cert-verify: false
+  sni: wp.zibayeman.com
+  tls: false
+  type: hysteria2
 - name: '9|🇩🇪@V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
