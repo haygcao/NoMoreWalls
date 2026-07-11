@@ -63,14 +63,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|♾️𝗝𝗼𝗶𝗻➠🆔️@ATLAS_V2VPN🆓️🛜🔷️432🌐...
+- name: 9|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: 2.26.49.16
-  skip-cert-verify: false
-  sni: social.klipp.su
+  obfs-password: t-me-V2RayyNGvpn
+  password: 58cb3fdyZN
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@V2rayng_Fast
@@ -123,16 +123,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: QjdEEystFJ
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '9|@prrofile_purple  ️ '
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -173,7 +163,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|30@v2ray_configs_pools
+- name: 9|🟢30@v2ray_configs_pools
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
