@@ -73,6 +73,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 9|️@ATLAS_V2VPN️️432️
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: 653m8mmiy7048p0f
+  port: 443
+  server: 2.26.49.16
+  skip-cert-verify: false
+  sni: social.klipp.su
+  tls: false
+  type: hysteria2
 - name: 9|🇩🇪@V2rayng_Fast
   obfs: salamander
   obfs-password: ngljeqgna3hmfr2s
@@ -161,6 +171,13 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 9|4@oneclickvpnkeys
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  sni: hy2.123266.xyz
   tls: false
   type: hysteria2
 - name: 9|🟢30@v2ray_configs_pools
