@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|32@oneclickvpnkeys
+- name: 9|🇩🇪108749 | ⚡️Telegram = t.me/S...
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 202.61.205.86
@@ -141,6 +141,15 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 9|🇩🇪108966 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: pqvmx29fokvh8ubb
+  password: TELEgRAM-ID-conf0088
+  port: 2053
+  server: cuetara.name.cuetara.name
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: '9|@prrofile_purple  ️ '
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -171,14 +180,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|46@oneclickvpnkeys
+- name: 9|🪯46@oneclickvpnkeys
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg2.auragg.org
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
-- name: 9|🇭🇰108787 | ⚡️Telegram = t.me/S...
+- name: 9|108787 | ⚡️Telegram = t.me/SOS...
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: soskeynets.auragg.org

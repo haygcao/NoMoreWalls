@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|32@oneclickvpnkeys
+- name: 9|🇩🇪108749 | ⚡️Telegram = t.me/S...
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 202.61.205.86
@@ -53,6 +53,15 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪108966 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: pqvmx29fokvh8ubb
+  password: TELEgRAM-ID-conf0088
+  port: 2053
+  server: cuetara.name.cuetara.name
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@V2RayyNGvpn🇩🇪hy
