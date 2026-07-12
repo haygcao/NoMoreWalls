@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪108749 | ⚡️Telegram = t.me/S...
+- name: 9|32@oneclickvpnkeys
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 202.61.205.86
@@ -91,6 +91,16 @@ proxies:
   sni: qg.easyiran.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪109031 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: CakZRUUlundefinedS
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 9|t-me-V2RayyNGvpn️
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -111,7 +121,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@V2RayyNGvpn🇪
+- name: 9|@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: KYFundefinedZYs4KB
@@ -231,7 +241,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@v2ray_configs_pools #1'
+- name: 9|🧸@v2ray_configs_pools
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
@@ -241,7 +251,7 @@ proxies:
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
-- name: '9|Tel: @Daily_Configs'
+- name: 9|🇩🇪109092 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 3sv5vpdl9xr84lyb
   password: eltgrek81o6w5cd4
@@ -251,7 +261,7 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: '9|🇳🇱108880 | ⚡️Telegram = t.me/S... #1'
+- name: 9|🇱108880 | ⚡️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
@@ -261,7 +271,7 @@ proxies:
   sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
-- name: 9|hy2@V2RayyNGvpn
+- name: 9|🇩🇪109085 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: hPrGN1Oundefinedwu
