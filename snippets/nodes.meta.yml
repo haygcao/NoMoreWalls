@@ -73,16 +73,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|️@ATLAS_V2VPN️️432️
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: 2.26.49.16
-  skip-cert-verify: false
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪@V2rayng_Fast
   obfs: salamander
   obfs-password: ngljeqgna3hmfr2s
@@ -180,6 +170,36 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
+- name: 9|telegram @mtmvpn 12
+  obfs: salamander
+  obfs-password: cukfjxud1ebjuuzs
+  password: elknam6l7izf3z71
+  port: 52013
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|telegram @mtmvpn 8
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|@GozargahAzad|
+  obfs: salamander
+  obfs-password: txwr28j1lntoy0sj
+  password: elknam6l7izf3z71
+  port: 52067
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: ''
+  tls: false
+  type: hysteria2
 - name: 9|🟢30@v2ray_configs_pools
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
@@ -219,17 +239,27 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪hy
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: y4nJ8poIsh
+  password: tU9Tcz3TMp
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2raybazi
+- name: 9|@V2RayyNGvpn 🇵
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: uQUfGOf9Mx
+  port: 33884
+  server: 140.233.177.48
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tls: false
+  type: hysteria2
+- name: 9|🇪@V2raybazi
   password: zhangyang
   port: 6443
   server: 130.61.50.75
