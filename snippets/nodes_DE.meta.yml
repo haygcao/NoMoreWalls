@@ -17,30 +17,10 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|Telegram🇩🇪V2RayyNGvpn🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: D0KVsHbDlj
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪@V2RayyNGvpn کانال ما 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RAYYNGVPN
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 9|Telegram🇩🇪V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: Z5dFAw7u6U
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
