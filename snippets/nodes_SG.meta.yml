@@ -1,12 +1,4 @@
 proxies:
-- name: 8|SG
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: sg3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
