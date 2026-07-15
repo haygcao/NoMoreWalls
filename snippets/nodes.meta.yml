@@ -85,7 +85,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|@Badangellll-JOIN🤝 ل  ما ین ن ...
+  name: 9|@filembad
   obfs: salamander
   obfs-password: lwhvz2y1ntz8p5nf
   password: BADANGELLLL
@@ -125,6 +125,13 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
+- name: 9|111457 | Telegram = t.me/SOSke...
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
+  port: 443
+  server: 5.255.102.165
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 9|🇩🇪@FreakConfig
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -145,7 +152,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple   تا
+- name: 9|@prrofile_purple  ️ تا
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNgvpn
@@ -155,7 +162,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9| - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -185,7 +192,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@Napsternetvirani #1'
+- name: 9|@Napsternetvirani👾
   obfs: salamander
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
@@ -215,7 +222,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@filembad #1'
+- name: '9|@FreakConfig #1'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -225,7 +232,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮111425 | ️Telegram = t.me/SO...
+- name: 9|🇫🇮111425 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: l6l4n5a0q9epnr5k
   password: elknam6l7izf3z71
@@ -255,7 +262,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮111425 | ⚡️Telegram = t.me/S...
+- name: '9|🇫🇮111425 | ⚡️Telegram = t.me/S... #1'
   obfs: salamander
   obfs-password: l6l4n5a0q9epnr5k
   password: elknam6l7izf3z71
@@ -285,16 +292,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|️️@ATLAS_V2VPN️️447️
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: eltgrek81o6w5cd4
-  port: 443
-  server: social.klipp.su
-  skip-cert-verify: false
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
 - name: 9|@V2RayyNGvpn کانال ما🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -305,7 +302,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|@Alpha_v2rayIP #2'
+- name: '9|@erfanandroid #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -325,7 +322,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: '9|@Alpha_v2rayIP #3'
+- name: '9|@Alpha_v2rayIP #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy
