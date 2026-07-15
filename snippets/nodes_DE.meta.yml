@@ -1,4 +1,12 @@
 proxies:
+- name: 8|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
 - name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -23,16 +31,6 @@ proxies:
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: p3HaP2Lht6
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn کانال ما
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: tf5LINcpQy
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
