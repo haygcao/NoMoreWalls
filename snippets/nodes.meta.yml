@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|ا  @V2RayyNGvpn
+- name: 9|🪙19@oneclickvpnkeys
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 3uIVdQh2vc
@@ -83,9 +83,19 @@ proxies:
   sni: qg.easyiran.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪111643 | Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 92QgVKZjWa
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: 9|@filembad
+  name: 9|@Badangellll-JOIN🤝 ل  ما ین ن ...
   obfs: salamander
   obfs-password: lwhvz2y1ntz8p5nf
   password: BADANGELLLL
@@ -125,27 +135,10 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|111457 | Telegram = t.me/SOSke...
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@FreakConfig
+- name: '9|🇩🇪@V2rayng_Fast #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: NZC2w2V2NQ
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn کانال ما 🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: V2RAYYNGVPN
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -162,7 +155,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -192,7 +185,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@Napsternetvirani👾
+- name: '9|@vmesskhodam #1'
   obfs: salamander
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
@@ -232,66 +225,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮111425 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: l6l4n5a0q9epnr5k
-  password: elknam6l7izf3z71
-  port: 52051
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇮111426 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: fd3olglr2bmimgje
-  password: elknam6l7izf3z71
-  port: 52061
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇮111427 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: txwr28j1lntoy0sj
-  password: elknam6l7izf3z71
-  port: 52067
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|🇫🇮111425 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: l6l4n5a0q9epnr5k
-  password: elknam6l7izf3z71
-  port: 52051
-  server: soskeynets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|🇫🇮111426 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: fd3olglr2bmimgje
-  password: elknam6l7izf3z71
-  port: 52061
-  server: soskeynets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|🇫🇮111427 | ⚡️Telegram = t.me/S... #1'
-  obfs: salamander
-  obfs-password: txwr28j1lntoy0sj
-  password: elknam6l7izf3z71
-  port: 52067
-  server: soskeynets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|@V2RayyNGvpn کانال ما🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -322,7 +255,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: '9|@Alpha_v2rayIP #1'
+- name: 9|@Alpha_v2rayIP🍓
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy
@@ -332,7 +265,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇨🇵کانال ما @V2RayyNGvpn
+- name: 9|🇨کانال ما @V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: vVaz4PV7B7
