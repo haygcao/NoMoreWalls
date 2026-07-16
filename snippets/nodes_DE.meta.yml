@@ -17,6 +17,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪112515 | ⚡️Telegram = t.me/S...
+  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
+  port: 8449
+  server: soskeynets.odnako.site
+  sni: jongjmi.odnako.site
+  tls: false
+  type: hysteria2
 - name: 9|@V2RayyNGvpn ا 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -37,12 +44,14 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|46@oneclickvpnkeys
+- name: 9|🇩🇪Telegram=V2RayyNGvpn
   obfs: salamander
-  obfs-password: dwv3ped4yi46iw8r
-  password: TELEGRAM-ID-soalvajavaab
-  port: 2053
-  server: pristytools.com.pristytools.com
+  obfs-password: t-me-V2RayyNGvpn
+  password: V2RayyNGvpn-
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: 9|@V2RayyNGvpn کانال ما🇩🇪
