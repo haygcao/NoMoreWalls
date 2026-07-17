@@ -1,18 +1,10 @@
 proxies:
-- name: 8|美国2
+- name: 8|зҫҺеӣҪ2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 8|1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 8|JP
@@ -30,7 +22,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8| HK
+- name: 8|рҹҮ HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -63,7 +55,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🪙19@oneclickvpnkeys
+- name: 9|рҹӘҷ19@oneclickvpnkeys
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 3uIVdQh2vc
@@ -73,21 +65,21 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9|68@oneclickvpnkeys
+- name: 9|рҹӘ68@oneclickvpnkeys
   password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
   port: 8449
   server: jongjmi.odnako.site
   sni: jongjmi.odnako.site
   tls: false
   type: hysteria2
-- name: 9|🪭23@oneclickvpnkeys
+- name: 9|рҹӘӯ23@oneclickvpnkeys
   password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2
   port: 8443
   server: 45.155.103.217
   sni: kamil-power-machine.roxa.org
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
+- name: 9|рҹрҹҮ@FreakConfig
   obfs: salamander
   obfs-password: ngljeqgna3hmfr2s
   password: 91uokb9ud7raz0fk
@@ -97,25 +89,7 @@ proxies:
   sni: qg.easyiran.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-@VPNine1
-  obfs: salamander
-  obfs-password: u3do5j2gss7mfri9
-  password: 9204bccb42c743799c6069feccb7832d
-  port: 443
-  server: de1.jamezwin.org
-  sni: de1.jamezwin.org
-  tls: false
-  type: hysteria2
-- name: 9|FI-🚀@VPNine1
-  obfs: salamander
-  obfs-password: rtm0hc7dpaqfd8d7
-  password: 9204bccb42c743799c6069feccb7832d
-  port: 443
-  server: fl1.jamezwin.org
-  sni: fl1.jamezwin.org
-  tls: false
-  type: hysteria2
-- name: 9|@V2RayyNGvpn ا 🇩🇪
+- name: 9|@V2RayyNGvpn Ш§Щ ЩШ§рҹҮ©рҹҮӘ
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 92QgVKZjWa
@@ -125,9 +99,17 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 9|рҹҮрҹҮ113040 | Telegram = t.me...
+  password: 95c61940-2823-4665-a033-d4f2218329b6
+  port: 443
+  server: 46.8.210.209
+  skip-cert-verify: false
+  sni: ru3.kinotorg.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: 9|@Badangellll-JOIN🤝 ل  ما ین ن ...
+  name: 9|@Badangellll-JOINрҹӨқ ЩЩ„ ЩҶ Ш...
   obfs: salamander
   obfs-password: lwhvz2y1ntz8p5nf
   password: BADANGELLLL
@@ -137,7 +119,7 @@ proxies:
   sni: 169.40.32.218
   tls: false
   type: hysteria2
-- name: '9|telegram @mtmvpn '
+- name: 9|telegram @mtmvpn рҹ
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: CakZRUUlundefinedS
@@ -147,7 +129,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|telegram @mtmvpn  #1'
+- name: 9|telegram @mtmvpn рҹҢ
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: JxCHTtg2gX
@@ -157,7 +139,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|Telegram=V2RayyNGvpn🇩🇪
+- name: 9|рҹпёҸTelegram=V2RayyNGvpnрҹҮ©р...
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: KJX4HQHodA
@@ -167,7 +149,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|+@Azarakhsh_Proxy+
+- name: 9|рҹ+@Azarakhsh_Proxy+рҹ©
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -177,7 +159,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2rayng_Fast
+- name: 9|рҹҮ©рҹҮӘ@V2rayng_Fast
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: NZC2w2V2NQ
@@ -187,7 +169,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪Telegram=V2RayyNGvpn🇩🇪
+- name: 9|рҹҮ©рҹҮӘTelegram=V2RayyNGvpnрҹ...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Ov5kSglMCd
@@ -197,7 +179,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
+- name: '9|рҹҮ©рҹҮӘTelegram=V2RayyNGvpnрҹ... #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
@@ -207,7 +189,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🪭46@oneclickvpnkeys
+- name: 9|рҹӘӯ46@oneclickvpnkeys
   obfs: salamander
   obfs-password: dwv3ped4yi46iw8r
   password: TELEGRAM-ID-soalvajavaab
@@ -215,7 +197,7 @@ proxies:
   server: pristytools.com.pristytools.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪Telegram=V2RayyNGvpn
+- name: 9|рҹҮ©рҹҮӘTelegram=V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNGvpn-
@@ -225,7 +207,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|Telegram=V2RayyNGvpn🇦
+- name: 9|рҹҮрҹҮTelegram=V2RayyNGvpnрҹҮЁ...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNGvpn
@@ -235,7 +217,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|Telegram=V2RayyNGvpn🇩🇪2
+- name: 9|Telegram=V2RayyNGvpnрҹҮ©рҹҮӘ2
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: V2RayyNGvpn
@@ -245,7 +227,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple  ️ تا
+- name: 9|@prrofile_purple  впёҸрҹ‘ ШӘЩ„...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: V2RayyNgvpn
@@ -255,7 +237,7 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 9| - NL - @FreeOnlineVPN
+- name: 9|рҹҮрҹҮ - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -263,6 +245,16 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 9|рҹҮ©рҹҮӘTelegram=V2RayyNGvpnрҹ
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: ZkaDQncyundefineda
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: '9|@KAFING_2 #2'
@@ -295,7 +287,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮@FreakConfig
+- name: 9|рҹҮрҹҮ@FreakConfig
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -315,7 +307,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9| t.me/bigAVPN ایا اد 👑
+- name: 9|в… t.me/bigAVPN Ш§ЫҢШұШ§ЩҶ ШШ§...
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -325,7 +317,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn کانال ما
+- name: 9|рҹҮ©рҹҮӘ@V2RayyNGvpn Ъ©Ш§ЩҶШ§Щ...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tf5LINcpQy
@@ -335,7 +327,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇨کانال ما @V2RayyNGvpn
+- name: 9|рҹҮ
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: vVaz4PV7B7
