@@ -80,16 +80,6 @@ proxies:
   sni: kamil-power-machine.roxa.org
   tls: false
   type: hysteria2
-- name: 8|@Leecher56
-  obfs: salamander
-  obfs-password: ngljeqgna3hmfr2s
-  password: 91uokb9ud7raz0fk
-  port: 56845
-  server: qg.easyiran.org
-  skip-cert-verify: false
-  sni: qg.easyiran.org
-  tls: false
-  type: hysteria2
 - name: 8|T-ME-V2RayyNGvpn
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -150,16 +140,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: RKJDOKrcIZ
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 8|🇩🇪T.Me=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
@@ -180,20 +160,20 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|Telegram=V2RayyNGvpn🇦
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: 42286
-  server: 66.92.161.59
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '8|@Surfboardv2ray #1'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: V2RayyNGvpn
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪114518 | ️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: VpxzokH9V4
   port: 25810
   server: 91.107.174.32
   skip-cert-verify: true
@@ -220,7 +200,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 کانال  @V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪114492 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: a6alb4YAgC
@@ -260,7 +240,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@FreakConfig
+- name: 8|@prrofile_purple  ️ تلگرام
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -290,7 +270,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '8| t.me/bigAVPN را  '
+- name: 8|114508 | ⚡️Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
