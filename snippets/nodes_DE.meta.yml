@@ -17,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|Telegram=V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: KJX4HQHodA
-  port: 25810
-  server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 8|@Surfboardv2ray
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
