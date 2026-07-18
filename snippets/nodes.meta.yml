@@ -73,14 +73,31 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 8|23@oneclickvpnkeys
-  password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2
+- name: 8|114892 | Telegram = t.me/SOSke...
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 8443
-  server: 45.155.103.217
-  sni: kamil-power-machine.roxa.org
+  server: fl02.auragg.org
+  sni: fl02.auragg.org
   tls: false
   type: hysteria2
-- name: 8|T-ME-V2RayyNGvpn
+- name: 8|🇫🇮114892 | ⚡️Telegram = t.me/S...
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: soskeynets.auragg.org
+  sni: fl02.auragg.org
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪114918 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 91ZKgmi8pu
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ALg6h4f8Mo
@@ -90,7 +107,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|️Telegram=V2RayyNGvpn🇪
+- name: 8|️Telegram=V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: KJX4HQHodA
@@ -120,7 +137,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|@AzarAndoozVPNbot #1'
+- name: '8|@AzarAndoozVPNbot #2'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Ov5kSglMCd
@@ -150,7 +167,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 کانال  @V2RayyNGvpn🇩🇪
+- name: '8|@Surfboardv2ray #2'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: VpxzokH9V4
@@ -170,7 +187,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '8|@AzarAndoozVPNbot #2'
+- name: '8|@AzarAndoozVPNbot #3'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: ZkaDQncyundefineda
@@ -180,7 +197,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
+- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: a6alb4YAgC
@@ -205,16 +222,6 @@ proxies:
   obfs-password: ielzukpwth087afx
   password: elknam6l7izf3z71
   port: 52002
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '8|@Leecher56 #1'
-  obfs: salamander
-  obfs-password: cukfjxud1ebjuuzs
-  password: elknam6l7izf3z71
-  port: 52013
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
@@ -270,7 +277,7 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- name: '8|@Surfboardv2ray #2'
+- name: '8|@Surfboardv2ray #3'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: vVaz4PV7B7
