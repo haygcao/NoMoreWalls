@@ -150,16 +150,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|️Telegram=V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: KJX4HQHodA
-  port: 25810
-  server: 91.107.174.32
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 8|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -188,16 +178,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 8|未命名
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: R9BN2XHrGV
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: ''
   tls: false
   type: hysteria2
 - name: 8|🇩🇪@V2RayyNGvpn🇩🇪
@@ -260,7 +240,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
+- name: 8|🇩🇪 کانال ما ⭕@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: a6alb4YAgC
@@ -280,7 +260,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple   تلگرام
+- name: 8|@prrofile_purple   ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -288,6 +268,16 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪T-ME-V2RayyNGvpn🎖️
+  obfs: salamander
+  obfs-password: T-ME-V2RayyNGvpn
+  password: idCPgpLEqx
+  port: 25810
+  server: 91.107.174.32
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: '8|T.Me=V2RayyNGvpn🇩🇪 #1'
@@ -300,7 +290,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #2'
+- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: p0IbtS8wCZ
