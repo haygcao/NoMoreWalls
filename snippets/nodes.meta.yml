@@ -73,24 +73,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: 8|116040 | ⚡️Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-  password: 6f436a44f70393da7e45615824a39d3b
-  port: 989
-  server: soskeynets.org
-  sni: bamak.teain.org
-  tls: false
-  type: hysteria2
-- name: 8|🇸🇪116040 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-  password: 6f436a44f70393da7e45615824a39d3b
-  port: 989
-  server: teain.org
-  sni: bamak.teain.org
-  tls: false
-  type: hysteria2
 - name: 8|8@oneclickvpnkeys
   password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
   port: 8443
@@ -105,7 +87,7 @@ proxies:
   sni: fl02.auragg.org
   tls: false
   type: hysteria2
-- name: 8|🇪 ا  @V2RayyNGvpn🇩🇪
+- name: 8| ا  @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 91ZKgmi8pu
@@ -125,7 +107,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|116070 | ⚡️Telegram = t.me/SOS...
+- name: 8|⚽75@oneclickvpnkeys
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 81.27.102.215
@@ -190,7 +172,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪T.Me=V2RayyNGvpn🇩🇪
+- name: 8|telegram @mtmvpn 15
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: UUoAsk2eM4
@@ -220,7 +202,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇱 - NL - @FreeOnlineVPN
+- name: 8| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
