@@ -7,12 +7,11 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?insecure=1
 hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@sg3.oomz.ru:30000?insecure=1&sni=bing.com#7%7CSG
 hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@tw.oomz.ru:30000?insecure=1&sni=bing.com#7%7CTW
 hysteria2://3uIVdQh2vc@140.233.177.48:33884?insecure=1&sni=www.oracle.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%40AzarAndoozVPNbot
-hysteria2://7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr@151.247.219.191:8443?sni=hopp-queen.roxa.org#8%7C115661%20%7C%20Telegram%20%3D%20t.me/SOSke...
 hysteria2://8bc63720-5ec8-45b5-b6a6-9a21ffb490e8@fl02.auragg.org:8443?sni=fl02.auragg.org#8%7C3%40oneclickvpnkeys
 hysteria2://91ZKgmi8pu@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%20%D8%A7%20%20%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA
 hysteria2://ALg6h4f8Mo@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%40AzarAndoozVPNbot%20%231
-hysteria2://FR%2B3uZ%2Bqu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78%3D@vpn.the2oser.lol:8443?insecure=1&sni=vpn.the2oser.lol#8%7C%F0%9F%87%A9%F0%9F%87%AA115671%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
-hysteria2://IoFmkhjUlE@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%F0%9F%87%A9%F0%9F%87%AA115779%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me/S...
+hysteria2://FR%2B3uZ%2Bqu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78%3D@vpn.the2oser.lol:8443?insecure=1&sni=vpn.the2oser.lol#8%7C%E2%9A%BD27%40oneclickvpnkeys
+hysteria2://IoFmkhjUlE@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%E2%AD%95T.Me%3Dirconfiig%F0%9F%87%A9%F0%9F%87%AA
 hysteria2://KJX4HQHodA@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#8%7C%EF%B8%8FTelegram%3DV2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA
 hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#8%7C%2B%40Azarakhsh_Proxy%2B
 hysteria2://M4q4riAk3C@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%40Surfboardv2ray
@@ -26,7 +25,7 @@ hysteria2://a6alb4YAgC@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salam
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#8%7C%40KAFING_2%20%232
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52021?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=mtg2vchyir6la3et#8%7C%40prrofile_purple%20%20%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 hysteria2://kfCR7ekba6@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#8%7CT.Me%3DV2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%20%231
-hysteria2://p0IbtS8wCZ@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#8%7C%F0%9F%87%AA%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA
+hysteria2://p0IbtS8wCZ@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#8%7C%F0%9F%87%A9%F0%9F%87%AA%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%40V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%20%232
 hysteria2://rs2mR3g9bZiMloftx6lZQ59Um1Ld@80.66.81.78:9443?insecure=0&sni=tunel1.washing.help&obfs=salamander&obfs-password=oMgvuBy5Lj5kYM57sGsnjpjNcSEQ#8%7C%20t.me/bigAVPN%20%D8%B1%D8%A7%20%20
 hysteria2://vVaz4PV7B7@140.233.177.48:33884?insecure=1&sni=www.oracle.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7C%40Surfboardv2ray%20%233
 hysteria2://yDkExundefinedconf@91.107.174.32:25810?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=T-ME-V2RayyNGvpn#8%7C%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7V2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA
@@ -59,3 +58,4 @@ vless://52faee73-e0fe-4661-992d-67259257170f@45.206.0.29:8443?allowInsecure=0&sn
 vless://3e06720a-86f0-49b9-8f00-062681e3b385@vip.bcjdvip.com:14005?allowInsecure=1&sni=apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#12%7CUS_speednode_0055
 vless://057f3c26-0fe7-4315-aabc-90c79d413d70@38.244.20.69:443?allowInsecure=1&sni=www.apple.com&flow=xtls-rprx-vision-udp443&fp=safari&security=tls#12%7CUS_speednode_0056
 trojan://Mitivpn@iranpoems.ir:443?allowInsecure=0&sni=www.gamingdll.ir&type=ws&host=www.gamingdll.ir&path=/usa=mitivpn#12%7CUS_speednode_0063
+hhysteria2://7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr@151.247.219.191:8443/?sni=hopp-queen.roxa.org#8@oneclickvpnkeys
