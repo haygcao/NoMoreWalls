@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8| ا  @V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 91ZKgmi8pu
@@ -57,7 +57,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
+- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: lubtxOi8h8
