@@ -93,13 +93,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|75@oneclickvpnkeys
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8443
-  server: 81.27.102.215
-  sni: grape-power-pl.ddnsguru.com
-  tls: false
-  type: hysteria2
 - name: 8|@one_shop_official
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
