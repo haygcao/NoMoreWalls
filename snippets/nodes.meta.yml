@@ -73,6 +73,16 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- name: '8|@V2RayyNGvpn ا  '
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 73x493S1pE
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -211,7 +221,46 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple   ا
+- name: 8|@FarazV2ray
+  obfs: salamander
+  obfs-password: ielzukpwth087afx
+  password: elknam6l7izf3z71
+  port: 52002
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|117667 | Telegram = t.me/SOSke...
+  obfs: salamander
+  obfs-password: 93lc6r07zfx4crct
+  password: elknam6l7izf3z71
+  port: 52008
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 8|🇫🇮FI-@VPNine1
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: 8|🇫🇮117677 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|@prrofile_purple  ️ ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -221,12 +270,31 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪T-ME-V2RayyNGvpn️
+- name: 8|🇫🇮117667 | ⚡️Telegram = t.me/S...
   obfs: salamander
-  obfs-password: T-ME-V2RayyNGvpn
-  password: idCPgpLEqx
-  port: 25810
-  server: 91.107.174.32
+  obfs-password: 93lc6r07zfx4crct
+  password: elknam6l7izf3z71
+  port: 52008
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '8|🇫🇮117677 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: 53cgqwhojoxri5lr
+  password: elknam6l7izf3z71
+  port: 52018
+  server: soskeynets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪117699 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: fGc3qPlaQk
+  port: 31999
+  server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
@@ -256,15 +324,6 @@ proxies:
   password: o3774es6cfv74kaf
   port: 443
   server: social.klipp.su
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪117460 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: o3774es6cfv74kaf
-  port: 443
-  server: soskeynets.klipp.su
   sni: social.klipp.su
   tls: false
   type: hysteria2
