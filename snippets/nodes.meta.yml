@@ -73,6 +73,16 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- name: '8|@V2RayyNGvpn ا  '
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 73x493S1pE
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -141,7 +151,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|telegram @mtmvpn 15
+- name: 8|@mehrosaboran
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: UUoAsk2eM4
@@ -211,6 +221,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 8|118244 | Telegram = t.me/SOSke...
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: 8|@FarazV2ray
   obfs: salamander
   obfs-password: ielzukpwth087afx
@@ -221,7 +238,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple   ا
+- name: 8|@prrofile_purple  ️ ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
