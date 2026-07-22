@@ -73,16 +73,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '8|@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -151,7 +141,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|@mehrosaboran
+- name: 8|telegram @mtmvpn 15
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: UUoAsk2eM4
@@ -221,13 +211,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|118244 | Telegram = t.me/SOSke...
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: 155.248.209.237
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 8|@FarazV2ray
   obfs: salamander
   obfs-password: ielzukpwth087afx
@@ -238,7 +221,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple  ️ ا
+- name: 8|@prrofile_purple   ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -324,48 +307,48 @@ proxies:
 - name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 18.167.109.142
+  port: 47867
+  server: 43.198.78.177
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.15.160
+  port: 27161
+  server: 43.198.11.229
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 10,11|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 43.198.246.144
+  port: 27161
+  server: 43.198.17.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.163.84.128
+  port: 54411
+  server: 43.199.253.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 10,11|日本2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 35.77.80.32
+  port: 38937
+  server: 18.167.84.124
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 95.40.51.248
+  port: 40138
+  server: 16.163.109.164
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -373,7 +356,7 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 95.40.51.248
+  server: 43.198.78.177
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -381,15 +364,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 18.162.245.180
+  server: 18.167.84.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 43.199.146.29
+  port: 45744
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -397,23 +380,23 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 95.40.51.248
-  skip-cert-verify: true
+  server: 16.162.187.38
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.167.109.142
-  skip-cert-verify: true
+  port: 49277
+  server: 18.167.84.124
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 18.166.225.126
+  port: 29085
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
