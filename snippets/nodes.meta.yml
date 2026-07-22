@@ -73,6 +73,26 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
+- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 5NLxoNSwj0
+  port: 40837
+  server: 162.19.181.176
+  skip-cert-verify: true
+  sni: www.oracle.com
+  tls: false
+  type: hysteria2
+- name: '8|🇩🇪@V2RayyNGvpn ا  '
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 73x493S1pE
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '8|@AzarAndoozVPNbot #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -249,15 +269,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 8|📊87@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: lhfl2z9mjngb7csh
-  password: o3774es6cfv74kaf
-  port: 1935
-  server: nrealistic.nn-foto.ru
-  sni: nrealistic.nn-foto.ru
   tls: false
   type: hysteria2
 - name: 8|45@oneclickvpnkeys
