@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 5NLxoNSwj0
@@ -25,16 +25,6 @@ proxies:
   server: 162.19.181.176
   skip-cert-verify: true
   sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: '8|🇩🇪@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
@@ -55,34 +45,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 8|20@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8443
-  server: 172.86.94.97
-  sni: de5-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|9@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: 172.86.95.17
-  sni: de1-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|42@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: de1-hy2.veilvpn.life
-  sni: de1-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- name: 8|55@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8443
-  server: de5-hy2.veilvpn.life
-  sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
 - name: '8|Telegram=V2RayyNGvpn🇩🇪 #1'
