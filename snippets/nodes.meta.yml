@@ -271,16 +271,6 @@ proxies:
   sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- name: 8|@FarazV2ray
-  obfs: salamander
-  obfs-password: ielzukpwth087afx
-  password: elknam6l7izf3z71
-  port: 52002
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 8|@prrofile_purple  ️ ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
@@ -307,16 +297,6 @@ proxies:
   password: l6R1kundefinedu0Dm
   port: 55809
   server: 51.159.137.79
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #2'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: lubtxOi8h8
-  port: 31999
-  server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
