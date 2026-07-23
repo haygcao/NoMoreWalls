@@ -78,6 +78,13 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
+- name: 8|55@oneclickvpnkeys
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8443
+  server: de5-hy2.veilvpn.life
+  sni: de5-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
 - name: '8|Telegram=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn

@@ -28,6 +28,7 @@ hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?insecure=1&
 hysteria2://d2e3768f-cb23-4cfc-a884-dbd6813cb70b@172.86.94.97:8443?sni=de5-hy2.veilvpn.life#8%7C20%40oneclickvpnkeys
 hysteria2://d2e3768f-cb23-4cfc-a884-dbd6813cb70b@172.86.95.17:8433?sni=de1-hy2.veilvpn.life#8%7C9%40oneclickvpnkeys
 hysteria2://d2e3768f-cb23-4cfc-a884-dbd6813cb70b@de1-hy2.veilvpn.life:8433?sni=de1-hy2.veilvpn.life#8%7C42%40oneclickvpnkeys
+hysteria2://d2e3768f-cb23-4cfc-a884-dbd6813cb70b@de5-hy2.veilvpn.life:8443?sni=de5-hy2.veilvpn.life#8%7C55%40oneclickvpnkeys
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52002?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=ielzukpwth087afx#8%7C%40FarazV2ray
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52021?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=mtg2vchyir6la3et#8%7C%40prrofile_purple%20%20%EF%B8%8F%20%D8%A7
 hysteria2://fGc3qPlaQk@91.107.152.188:31999?insecure=1&sni=www.amd.com&obfs=salamander&obfs-password=t-me-V2RayyNGvpn#8%7CTelegram%3DV2RayyNGvpn%F0%9F%87%A9%F0%9F%87%AA%20%231
