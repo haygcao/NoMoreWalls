@@ -63,7 +63,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
+- name: 8|🇸🇨SC-🚀@VPNine1
+  obfs: salamander
+  obfs-password: PZpio8Y2y22jywEO
+  password: 0fe6c2e6-c242-476f-8b7d-068bc0e13e6e
+  port: 65487
+  server: zz12343qq.265897.xyz
+  tls: false
+  type: hysteria2
+- name: 8|@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 5NLxoNSwj0
@@ -86,16 +94,6 @@ proxies:
   port: 443
   server: popa.leontunel.ru
   sni: popa.leontunel.ru
-  tls: false
-  type: hysteria2
-- name: '8|🇩🇪@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: 8|@V2RayyNGvpn🇵
@@ -172,7 +170,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪 ا  @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RSGabzHJGl
@@ -212,16 +210,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '8|🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkWtnfGK6h
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: '8|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -252,7 +240,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|mtmvpn : telegram 5'
+- name: 8|@Napsternetvirani
   obfs: salamander
   obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
   password: hy2_czaawdhc
@@ -290,6 +278,13 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: true
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 8|FR-🚀@VPNine1
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  sni: fr2.h2corp.org
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb

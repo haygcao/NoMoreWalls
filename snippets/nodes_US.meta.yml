@@ -7,16 +7,6 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '8|mtmvpn : telegram 5'
-  obfs: salamander
-  obfs-password: lvy1Hw_j4Hwx8oIL2tEa315Sb4t7QrjF
-  password: hy2_czaawdhc
-  port: 443
-  server: 2.26.92.136
-  skip-cert-verify: false
-  sni: nl2.cleanersaz.help
-  tls: false
-  type: hysteria2
 - name: 10,11|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
