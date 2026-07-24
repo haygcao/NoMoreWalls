@@ -17,17 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@V2RayyNGvpn🇩🇪
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 5NLxoNSwj0
-  port: 40837
-  server: 162.19.181.176
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪 ا  @V2RayyNGvpn🇩🇪
+- name: 8|🇪 ا  @V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RSGabzHJGl
