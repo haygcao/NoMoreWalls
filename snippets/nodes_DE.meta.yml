@@ -27,14 +27,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '8|Channel : @Daily_Configs'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: ger.leontunel.ru
-  skip-cert-verify: false
-  sni: ger.leontunel.ru
-  tls: false
-  type: hysteria2
 - name: '8|🇩🇪@V2RayyNGvpn ا  '
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
