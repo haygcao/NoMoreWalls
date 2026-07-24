@@ -73,16 +73,6 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '8|🇩🇪@V2RayyNGvpn ا  '
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 8|@V2RayyNGvpn🇵
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -217,14 +207,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|120253 | Telegram = t.me/SOSke...
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: 155.248.209.237
-  skip-cert-verify: false
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
 - name: 8|📪20@oneclickvpnkeys
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8443
@@ -253,7 +235,7 @@ proxies:
   sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple  ️ ا
+- name: 8|@prrofile_purple   ا
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -273,7 +255,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|81@oneclickvpnkeys
+- name: 8|📪81@oneclickvpnkeys
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8443
   server: 185.90.61.28
