@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: 8| t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HYi0xllvAM
@@ -47,11 +47,14 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: 8|18@oneclickvpnkeys
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: 172.86.95.17
-  sni: de1-hy2.veilvpn.life
+- name: 8|🇩🇪122489 | Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: 2l74Vm0fNA_WO1R2jF14yKoB
+  password: VpzdpabHmjLYMjq1_8euMPyO9I5BHTQY
+  port: 7443
+  server: www.dataduo.ir
+  skip-cert-verify: false
+  sni: www.dataduo.ir
   tls: false
   type: hysteria2
 - name: 8|🇩🇪 Telegram = V2RayyNGvpn 3🇩🇪

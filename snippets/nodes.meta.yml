@@ -77,6 +77,16 @@ proxies:
   sni: ppl.myispace.xyz
   tls: false
   type: hysteria2
+- name: 8|@FarazV2ray
+  obfs: salamander
+  obfs-password: l960g2kn19nphlra
+  password: 4z2oldt85p494bgb
+  port: 52060
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 8|@meliproxyy
   obfs: salamander
   obfs-password: fd3olglr2bmimgje
@@ -85,15 +95,6 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 8|[]@NetliVPN
-  obfs: salamander
-  obfs-password: fd3olglr2bmimgje
-  password: 4z2oldt85p494bgb
-  port: 52061
-  server: assets.gateway-stream.com
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 8|🎀65@oneclickvpnkeys
@@ -134,7 +135,7 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
-- name: 8|122347 | Telegram = t.me/SOSke...
+- name: 8|15@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.171.236.87
@@ -142,15 +143,7 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 8|15@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.171.236.87
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 8|24@oneclickvpnkeys
+- name: 8|🎴24@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 35.179.138.96
@@ -173,7 +166,7 @@ proxies:
   sni: https://t.me/@oneclickvpnkeys
   tls: false
   type: hysteria2
-- name: 8|🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: 8| t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HYi0xllvAM
@@ -203,7 +196,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 8|🇧 Telegram = V2RayyNGvpn 🇧
+- name: 8| Telegram = V2RayyNGvpn 🇧
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RWn1s1QBjJ
@@ -240,6 +233,16 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- name: 8|🇩🇪122489 | Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: 2l74Vm0fNA_WO1R2jF14yKoB
+  password: VpzdpabHmjLYMjq1_8euMPyO9I5BHTQY
+  port: 7443
+  server: www.dataduo.ir
+  skip-cert-verify: false
+  sni: www.dataduo.ir
+  tls: false
+  type: hysteria2
 - name: 8| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -267,7 +270,7 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
-- name: 8|18@oneclickvpnkeys
+- name: 8|🎀18@oneclickvpnkeys
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8433
   server: 172.86.95.17
