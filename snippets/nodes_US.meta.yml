@@ -31,81 +31,40 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12|US_speednode_0121
-  network: ws
+- name: 12|US_speednode_0085
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 79a5be11-ec1f-4e18-b7fc-aef854234c43
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 12|US_speednode_0122
-  port: 20342
-  server: 141.133.172.222
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: 12|US_speednode_0123
-  network: ws
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 66ea0b4c-8c39-4e8b-92f0-0a9065218d37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 12|US_speednode_0124
-  network: ws
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 46445435-11cd-47e8-87dc-1acc159fc360
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 12|US_speednode_0125
-  network: ws
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 12|US_speednode_0086
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: true
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 79a5be11-ec1f-4e18-b7fc-aef854234c43
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-- name: 12|US_speednode_0126
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: 12|US_speednode_0087
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 5443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: 12|US_speednode_0090
   network: ws
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
+  password: humanity
+  port: 443
+  server: 104.16.174.12
   skip-cert-verify: false
-  tls: false
-  type: vless
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 4b1d39f2-42d4-4850-8b8a-fd4fa2f1ae55
   ws-opts:
     headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
+      Host: www.ignitelimit.com
+    path: /assignment

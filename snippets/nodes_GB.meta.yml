@@ -1,20 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|GB_speednode_0005
+- name: 8|24@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: fl11.myxasecure.space
-  servername: fl11.myxasecure.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  server: 35.179.138.96
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 12|GB_speednode_0006
+  name: 12|GB_speednode_0003
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -27,31 +21,3 @@ proxies:
   type: vless
   udp: true
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 12|GB_speednode_0007
-  port: 443
-  reality-opts:
-    public-key: igTVOq5qGZYKOLuu_RJFMyNC-vY_oi3MCSpQ6HOoYH8
-    short-id: 3545b5f78ec27792
-  server: 46.247.42.198
-  servername: auctiondetective.kz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c01c2da7-6977-4b53-a493-cda17fa61b4f
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 12|GB_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: HOTVBbrNu_CXdYbnC8sumXQfZ_W7NG2vcN8o8SblTGI
-    short-id: e6b0240761f538e1
-  server: 2.26.125.51
-  servername: site.rumedia-cdn.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 320fb564-c329-4d32-8187-89d7058af0eb

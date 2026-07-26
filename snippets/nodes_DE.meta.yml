@@ -17,7 +17,17 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8| Telegram = V2RayyNGvpn 2🇩🇪
+- name: 8|🇪 t-me-V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: HYi0xllvAM
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪 Telegram = V2RayyNGvpn 2🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: T-me-V2RayyNGvpn
@@ -37,6 +47,13 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- name: 8|18@oneclickvpnkeys
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8433
+  server: 172.86.95.17
+  sni: de1-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
 - name: 8|🇩🇪 Telegram = V2RayyNGvpn 3🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -47,16 +64,3 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|DE_speednode_0003
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 194.113.34.160
-  servername: sellflow.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
