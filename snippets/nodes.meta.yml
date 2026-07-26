@@ -70,6 +70,13 @@ proxies:
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
+- name: 8|43@oneclickvpnkeys
+  password: 083f9234-76f8-47f4-915e-726a767b7ad5
+  port: 32050
+  server: gc4.22556666.com
+  sni: gc4.22556666.com
+  tls: false
+  type: hysteria2
 - name: 8|🎀67@oneclickvpnkeys
   password: 419bfbd4-3097-4cef-a6b3-aebd78506ed7
   port: 8443
@@ -112,7 +119,25 @@ proxies:
   sni: ger.leontunel.ru
   tls: false
   type: hysteria2
-- name: 8|🎀68@oneclickvpnkeys
+- name: 8|49@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ed56da70f1614311cbfc1e87
+  password: 72bcd6fe388a12c386a1c40ff55f6c1e
+  port: 8443
+  server: proxy.sailreach.org
+  sni: proxy.sailreach.org
+  tls: false
+  type: hysteria2
+- name: '8|🇺🇸122668 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: ed56da70f1614311cbfc1e87
+  password: 72bcd6fe388a12c386a1c40ff55f6c1e
+  port: 8443
+  server: soskeynets.sailreach.org
+  sni: proxy.sailreach.org
+  tls: false
+  type: hysteria2
+- name: 8|68@oneclickvpnkeys
   password: 76dff95d-a720-4909-8ca6-3d848e786a9c
   port: 443
   server: 159.65.178.189
@@ -135,7 +160,7 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
-- name: 8|15@oneclickvpnkeys
+- name: 8|🎴15@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.171.236.87
@@ -216,14 +241,14 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: 8|🎀75@oneclickvpnkeys
+- name: 8|75@oneclickvpnkeys
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 Telegram = irconfiig 🇩🇪
+- name: 8|🇩🇪 Telegram = V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: V2RayyNGvpn
@@ -231,16 +256,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪122489 | Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: 2l74Vm0fNA_WO1R2jF14yKoB
-  password: VpzdpabHmjLYMjq1_8euMPyO9I5BHTQY
-  port: 7443
-  server: www.dataduo.ir
-  skip-cert-verify: false
-  sni: www.dataduo.ir
   tls: false
   type: hysteria2
 - name: 8| - NL - @FreeOnlineVPN
@@ -340,7 +355,7 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 8|@mehrosaboran
+- name: 8|@Selinc
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: p0IbtS8wCZ
@@ -350,7 +365,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|@mehrosaboran #2'
+- name: '8|@mehrosaboran #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -403,6 +418,14 @@ proxies:
   port: 8443
   server: 205.237.109.212
   sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: 8|48@oneclickvpnkeys
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  port: 8443
+  server: 159.223.157.129
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 8|🎀61@oneclickvpnkeys
