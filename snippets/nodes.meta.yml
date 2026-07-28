@@ -1,9 +1,10 @@
 proxies:
-- name: 7|🇭🇰 HK
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+- name: 7|🇳🇱
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
-  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  server: 5.255.102.165
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: 7,8|@KAFING_2
@@ -16,16 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@vmess_ir
-  obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  password: 4z2oldt85p494bgb
-  port: 52021
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 8|@vmesskhodam
   obfs: salamander
   obfs-password: iknjsvsjagi449mm
@@ -36,7 +27,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@IRan_V2ray1 | VIP15
+- name: 8|️@ATLAS_V2VPN️️491️
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 4z2oldt85p494bgb
@@ -56,7 +47,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: EaDTeupk9I
@@ -170,7 +161,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple  👈 تلگرام
+- name: 8|@prrofile_purple  ️ تلگرام
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -200,7 +191,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '8|@mehrosaboran #1'
+- name: 8|Proxy_mtm Channel 27
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -239,7 +230,7 @@ proxies:
   sni: gretacoin.shop
   tls: false
   type: hysteria2
-- name: '8|🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
+- name: 8|MTMVPN Channel 15
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: voQTxwGh4I
