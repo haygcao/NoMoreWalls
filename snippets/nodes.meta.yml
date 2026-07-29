@@ -47,24 +47,14 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|125314 | ️Telegram = t.me/SOSk...
+- name: 8|@filembad
   obfs: salamander
-  obfs-password: 4b6gmo4jujpapx99
-  password: AstroVPN_official
-  port: 8083
-  server: hystry.accuratenetworkchecker.ir
+  obfs-password: l960g2kn19nphlra
+  password: 84eyebdtl3tcbssn
+  port: 52060
+  server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 8|🇮🇷125314 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 4b6gmo4jujpapx99
-  password: AstroVPN_official
-  port: 8083
-  server: soskeynets.accuratenetworkchecker.ir
-  skip-cert-verify: false
-  sni: vhd.nth.gelzaro.ir
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 8|🇩🇪@V2RayyNGvpn🇩🇪
@@ -97,24 +87,6 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 8|99@oneclickvpnkeys
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  sni: 5.255.102.165
-  tls: false
-  type: hysteria2
-- name: 8|🇩🇪 Telegram = V2RayyNGvpn 2🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: T-me-V2RayyNGvpn
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
 - name: 8| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -145,7 +117,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|@prrofile_purple  ️ تلگرام
+- name: 8|@prrofile_purple  ️ را
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: elknam6l7izf3z71
@@ -233,6 +205,16 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
+  tls: false
+  type: hysteria2
+- name: 8|125426 | ️Telegram = t.me/SOSk...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: t-me-v2rayyngvpn
+  port: 443
+  server: 65.109.177.191
+  skip-cert-verify: true
+  sni: www.oracle.com
   tls: false
   type: hysteria2
 - name: 8|📯41@oneclickvpnkeys
