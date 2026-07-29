@@ -14,7 +14,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 10,11,12|HK_speednode_0024
+- name: 10,11|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -22,8 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 10,11,12|US_speednode_0173
+- name: 10,11,12|US_speednode_0162
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -32,7 +31,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 10,11,12|HK_speednode_0025
+- name: 10,11|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -40,7 +39,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 10,11|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -49,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 10,11,12|HK_speednode_0027
+- name: 10,11,12|HK_speednode_0029
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -66,7 +64,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11,12|HK_speednode_0026
+- name: 10,11|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -74,7 +72,6 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -91,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 10,11,12|US_speednode_0175
+- name: 10,11,12|US_speednode_0163
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -126,40 +123,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12|CN_speednode_0003
+- name: 12|CN_speednode_0005
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
-  server: hkdcrtc-e.catcat321.com
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: 12|CN_speednode_0004
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|CN_speednode_0005
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
 - name: 12|CN_speednode_0006
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: Hkdcrtc-e.catcat321.com
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
   type: trojan
   udp: true
 - name: 12|CN_speednode_0007
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
+  port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hkdcrtc-e.catcat321.com
@@ -167,12 +148,20 @@ proxies:
   udp: true
 - name: 12|CN_speednode_0008
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
+  port: 9450
+  server: rr1.tube-cat.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12|US_speednode_0140
+- name: 12|CN_speednode_0009
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- name: 12|US_speednode_0134
   network: ws
   password: MiTiVPN
   port: 2083
@@ -185,7 +174,7 @@ proxies:
     headers:
       Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- name: 12|US_speednode_0141
+- name: 12|US_speednode_0135
   network: ws
   password: MITIVPN
   port: 8443
@@ -198,22 +187,14 @@ proxies:
     headers:
       Host: mehrosaboran---mehrosaboran-7.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
-- name: 12|US_speednode_0149
+- name: 12|US_speednode_0140
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
+  port: 20066
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 12|US_speednode_0150
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0151
+- name: 12|US_speednode_0145
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -221,26 +202,19 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 12|US_speednode_0171
+- name: 12|US_speednode_0165
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12|US_speednode_0172
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
+  port: 20056
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: 12|US_speednode_0174
+- name: 12|US_speednode_0167
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
+  port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
   type: trojan
   udp: true
