@@ -40,7 +40,7 @@ proxies:
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
-- name: 8|🇫🇮@V2rayng_Fast
+- name: 8|@Daily_Configs
   obfs: salamander
   obfs-password: w0tx1ju9iix6913p
   password: 0puq3lmwv7qtp76t
@@ -149,13 +149,6 @@ proxies:
   port: 443
   server: wopa9.api3-max.ru
   sni: wopa9.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '8|未命名 #1'
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 2.26.85.26
-  sni: fi-one.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: 8|🦄36@oneclickvpnkeys
