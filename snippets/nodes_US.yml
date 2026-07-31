@@ -1,5 +1,5 @@
 proxies:
-- name: 10,11|美国|@ripaojiedian
+- name: 10,11,12|HK_speednode_0006
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -7,7 +7,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 10,11|美国2|@ripaojiedian
+  udp: true
+- name: 10,11,12|HK_speednode_0007
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -15,6 +16,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 10,11|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
