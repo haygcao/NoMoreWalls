@@ -42,6 +42,18 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '8|未命名 #1'
+  obfs: salamander
+  obfs-password: f7jlf6m0hwvcl593
+  password: 0puq3lmwv7qtp76t
+  port: 52070
+  server: assets.gateway-stream.com
+  skip-cert-verify: true
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 8|🇪 Telegram= V2RayyNGvpn 🇩🇪3
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
@@ -144,13 +156,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|60@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
-  sni: mercedes-grape.yyuyy.com
-  tls: false
-  type: hysteria2
 - name: 8|رر ⚡
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
@@ -159,16 +164,6 @@ proxies:
   server: hystry.accuratenetworkchecker.ir
   skip-cert-verify: false
   sni: vhd.nth.gelzaro.ir
-  tls: false
-  type: hysteria2
-- name: 8|🇪 t.me.V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: EaDTeupk9I
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: '8|France '
@@ -189,7 +184,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 8|39@oneclickvpnkeys
+- name: 8|🦄39@oneclickvpnkeys
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 77.74.123.133
@@ -238,20 +233,17 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: c8L7Asi4ur
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 8|🦄79@oneclickvpnkeys
+- name: 8|79@oneclickvpnkeys
   password: dongtaiwang.com
   port: 44356
   server: 142.249.37.90
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
+- name: 8|65@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
@@ -273,7 +265,7 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪5
+- name: 8|🇪 Telegram= V2RayyNGvpn 🇩🇪5
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: im0McIgBXw
@@ -291,14 +283,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 8|🐰49@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: 8|@Selinc
