@@ -132,6 +132,16 @@ proxies:
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
+- name: '8|@filembad #1'
+  obfs: salamander
+  obfs-password: t72hzzenktxmrvgu
+  password: 76kyzc055ahiyfzy
+  port: 52024
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 8|  @vistav2ray  👈ا  ✅
   obfs: salamander
   obfs-password: l960g2kn19nphlra
@@ -159,7 +169,7 @@ proxies:
   sni: vhd.nth.gelzaro.ir
   tls: false
   type: hysteria2
-- name: 8|🇩🇪Telegram=V2RayyNGvpn⚡🇩🇪
+- name: 8|Telegram=V2RayyNGvpn⚡🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HChdbj6duc

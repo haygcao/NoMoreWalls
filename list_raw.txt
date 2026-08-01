@@ -15,10 +15,11 @@ hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@wopa7.api3-max.ru:443?sni=wopa7
 hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@wopa8.api3-max.ru:443?insecure=1&sni=wopa8.api3-max.ru#8%7C%F0%9F%91%81%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F61%40oneclickvpnkeys
 hysteria2://67a1454f-5a95-4e30-9723-1ffcbe7e97f9@wopa9.api3-max.ru:443?sni=wopa9.api3-max.ru#8%7C%F0%9F%91%81%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F44%40oneclickvpnkeys
 hysteria2://71cada65-d23e-418c-88e4-a06188d14689@swe-one.quiet-rogue.site:443?sni=swe-one.quiet-rogue.site#8%7C%F0%9F%91%81%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F65%40oneclickvpnkeys
+hysteria2://76kyzc055ahiyfzy@assets.gateway-stream.com:52024?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=t72hzzenktxmrvgu#8%7C%40filembad%20%231
 hysteria2://84eyebdtl3tcbssn@assets.gateway-stream.com:52060?insecure=0&sni=assets.gateway-stream.com&obfs=salamander&obfs-password=l960g2kn19nphlra#8%7C%20%20%40vistav2ray%20%20%F0%9F%91%88%D8%A7%20%20%E2%9C%85
 hysteria2://Apt1923_N9x234gn_Nal5Nx3j_s@92.118.205.238:8443?sni=grape-power-pl.ddnsguru.com#8%7C%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F59%40oneclickvpnkeys
 hysteria2://AstroVPN_official@hystry.accuratenetworkchecker.ir:8083?insecure=0&sni=vhd.nth.gelzaro.ir&obfs=salamander&obfs-password=4b6gmo4jujpapx99#8%7C%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%B1%20%3A%20https%3A//t.me/AstroVP...
-hysteria2://HChdbj6duc@91.107.178.22:443?insecure=1&sni=www.refersion.com&obfs=salamander&obfs-password=RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak#8%7C%F0%9F%87%A9%F0%9F%87%AATelegram%3DV2RayyNGvpn%E2%9A%A1%F0%9F%87%A9%F0%9F%87%AA
+hysteria2://HChdbj6duc@91.107.178.22:443?insecure=1&sni=www.refersion.com&obfs=salamander&obfs-password=RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak#8%7CTelegram%3DV2RayyNGvpn%E2%9A%A1%F0%9F%87%A9%F0%9F%87%AA
 hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#8%7C%2B%40Azarakhsh_Proxy%2B
 hysteria2://Krab9Hyst2_Rk7pQ2xL@de2.vpn.legendaah.xyz:36723?insecure=1&sni=www.cloudflare.com#8%7C%F0%9F%91%81%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F73%40oneclickvpnkeys
 hysteria2://QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s@hy2-new.aspidnet.xyz:443?insecure=1&sni=hy2-new.aspidnet.xyz&obfs=salamander&obfs-password=c1b4086fea89914496c7e10967a419216566#8%7C%EF%B8%8F%E2%80%8D%F0%9F%97%A8%EF%B8%8F76%40oneclickvpnkeys
@@ -84,5 +85,5 @@ vless://6c21890f-2b2a-98b0-dca1-f444112ced83@f35-production-20fd.up.railway.app:
 vless://28926c34-865c-447e-8d42-a17240af743b@cdn-cloudflare91.korvexe.ir:8880?allowInsecure=0&sni=cdn-cloudflare91.korvexe.ir&type=ws&host=cdn-cloudflare91.korvexe.ir&path=/#12%7CUS_speednode_0195
 vless://6daae99a-82f8-4675-9069-a34a165b6c6b@plcdn-12.nem-osh-rkp.net:443?allowInsecure=0&security=tls#12%7CUS_speednode_0196
 vless://6e2e03e2-4f66-479a-a186-a34d66ca8c91@199.232.78.159:443?allowInsecure=1&sni=ssl.fastly.com&type=ws&host=pan11.global.ssl.fastly.net&path=/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053fp=chrome&security=tls#12%7CUS_speednode_0197
-hhysteria2://0puq3lmwv7qtp76t@assets.gateway-stream.com:52034?security=tls&obfs=salamander&obfs-password=w0tx1ju9iix6913p&insecure=1&sni=assets.gateway-stream.com#@FreakConfig
+hhysteria2://0puq3lmwv7qtp76t@assets.gateway-stream.com:52034?security=tls&obfs=salamander&obfs-password=w0tx1ju9iix6913p&insecure=1&sni=assets.gateway-stream.com#kurdconfig
 hhy2://9abff4cd-ac3b-40ce-a3e7-f71f445d670f@5.183.102.113:443/?mport=50000-53000&insecure=1&sni=iosapps.itunes.apple.com#
