@@ -144,6 +144,13 @@ proxies:
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
+- name: 8|👁️‍🗨️23@oneclickvpnkeys
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa5.api3-max.ru
+  sni: wopa5.api3-max.ru
+  tls: false
+  type: hysteria2
 - name: 8|👁️‍🗨️58@oneclickvpnkeys
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -190,7 +197,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|✅  @vistav2ray  👈انا  ✅
+- name: 8|@erfanandroid
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 84eyebdtl3tcbssn
@@ -222,7 +229,7 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '8|انال تلگرام : https://t.me/Ast...'
+- name: '8|انا تلگرام : https://t.me/Astr...'
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
   password: AstroVPN_official
@@ -358,14 +365,12 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|Proxy_mtm Channel 27
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+- name: 8|🇩🇪131282 | ⚡️Telegram = t.me/S...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 130.49.161.70
+  server: vpn-de-001.fastervpn.world
   skip-cert-verify: true
-  sni: hy2.aspidnet.xyz
+  sni: vpn-de-001.fastervpn.world
   tls: false
   type: hysteria2
 - alpn:
