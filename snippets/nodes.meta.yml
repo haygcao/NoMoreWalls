@@ -7,6 +7,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '8|荷兰 #1'
+  password: 085178e12d2211ec
+  port: 8445
+  server: nl.prisma-access.club
+  sni: nl.prisma-access.club
+  tls: false
+  type: hysteria2
+- name: '8|荷兰 #2'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: lin.cryptoofarm.com
@@ -85,10 +92,11 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #2'
+- name: 8,9|🇹🇭142312 | Telegram = t.me/SOS...
   password: 6f7a8009ecf6a12e10d03f9d88493c89
   port: 55443
   server: gorbachev-th.kvnfreetest.uk
+  skip-cert-verify: false
   sni: gorbachev-th.kvnfreetest.uk
   tls: false
   type: hysteria2
@@ -96,13 +104,6 @@ proxies:
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: 144.31.166.91
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: 8|德国
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
@@ -120,7 +121,7 @@ proxies:
   sni: iq5ny.pleiades.codes
   tls: false
   type: hysteria2
-- name: '8|荷兰 #3'
+- name: '8|荷兰 #4'
   password: 99800091-8337-4112-8756-8cc60eb1ffa8
   port: 10808
   server: nl9.unlockvpn.online
@@ -150,7 +151,7 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '8,9|@Configvibes🇹🇷 #1'
+- name: 8,9|@Configvibes🇹🇷
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------
   password: '@Telegram@Configvibes'
@@ -158,13 +159,6 @@ proxies:
   server: 45.92.219.237
   skip-cert-verify: true
   sni: ftp.debian.org
-  tls: false
-  type: hysteria2
-- name: 8|典
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8443
-  server: 142.111.244.75
-  sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
 - name: 8|美国
@@ -198,7 +192,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
+- name: 8|德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.120
@@ -227,7 +221,7 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #4'
+- name: '8|荷兰 #5'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.66
@@ -235,14 +229,14 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #5'
+- name: '8|荷兰 #6'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.68
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #6'
+- name: '8|荷兰 #7'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 86.107.178.69
@@ -274,14 +268,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|德国 #2'
+- name: '8|德国 #1'
   password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
   port: 443
   server: 87.120.84.189
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '8|荷兰 #7'
+- name: '8|荷兰 #8'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -380,14 +374,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '8|荷兰 #8'
+- name: '8|荷兰 #9'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.216
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '8|荷兰 #9'
+- name: '8|荷兰 #10'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.219
@@ -457,126 +451,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
-  name: 9|dc-udp- Czech Republic-Prague-...
-  obfs: salamander
-  obfs-password: kkh2qmrbxmh8h22a
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52020
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp- Germany-Berlin-met_vg8...
-  obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52021
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇩🇪 Germany-Dusseldorf-m...
-  obfs: salamander
-  obfs-password: 1wcfqg6gwoyxlplo
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52022
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇩🇪 Germany-Frankfurt-me...
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52023
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇩 Denmark-Copenhagen-me...
-  obfs: salamander
-  obfs-password: t72hzzenktxmrvgu
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52024
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇪 Estonia-Tallinn-met_v...
-  obfs: salamander
-  obfs-password: iknjsvsjagi449mm
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52025
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇪 Spain-Barcelona-met_v...
-  obfs: salamander
-  obfs-password: d6pv15sghiq1onts
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52026
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇪🇸 Spain-Madrid-met_vg8...
-  obfs: salamander
-  obfs-password: 4hnuy2eg2xgo6ue0
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52027
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp- France-Bordeaux-met_vg...
-  obfs: salamander
-  obfs-password: x5y77oxwfcl868u3
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52030
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇫🇷 France-Marseille-met...
-  obfs: salamander
-  obfs-password: p61ckuavkc1s2hfl
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52031
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: 9|MTMVPN 7
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
@@ -641,7 +515,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|ConfigV2RayNG 🇫
+- name: '9|ConfigV2RayNG '
   obfs: salamander
   obfs-password: v8h63irhnay97090
   password: 544a7fdaa05a4dbe868288f8a9fb023c
@@ -661,7 +535,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪142130 | Telegram = t.me/SOS...
+- name: 9|@FreakConfig
   obfs: salamander
   obfs-password: AIbOe_791iQ4k6kPUgdsO7B9
   password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599
@@ -671,7 +545,7 @@ proxies:
   sni: a26738d5774ad803.devmrzero.ir
   tls: false
   type: hysteria2
-- name: 9|@Configvibes🇹🇷
+- name: 9|@Configvibes🇹
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes
   password: '@Telegram@Configvibes'
@@ -697,7 +571,7 @@ proxies:
   sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
-- name: '9|@Configvibes🇹🇷 #2'
+- name: '9|@Configvibes🇹🇷 #1'
   obfs: salamander
   obfs-password: IL+pm5"K?4gef:Jvn8^G+:N,Neyy8
   password: Configvibes
