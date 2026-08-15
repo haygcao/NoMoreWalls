@@ -213,7 +213,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: 8,9|️95@oneclickvpnkeys
+- name: 8,9|🛎️95@oneclickvpnkeys
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: fr.vpn.legendaah.xyz
@@ -412,18 +412,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
-  name: 9|FI-@VPNine1
-  obfs: salamander
-  obfs-password: gu74jg3ym0e21zco
-  password: 09e4b638945d44bfa60b4fd00edad131
-  port: 52000
-  server: assets.gateway-stream.com
-  sni: ''
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: 9|Proxy_mtm 33
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
@@ -507,58 +495,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@vmess_ir
-  obfs: salamander
-  obfs-password: hg7rfvz151ftjh0w
-  password: 4ff4adfb8e7a4bae9c959c54fa5af52f
-  port: 52062
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9| @ConfigV2RayNG
-  obfs: salamander
-  obfs-password: gu74jg3ym0e21zco
-  password: 544a7fdaa05a4dbe868288f8a9fb023c
-  port: 52000
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|TELEGRAM:@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 1wcfqg6gwoyxlplo
-  password: 544a7fdaa05a4dbe868288f8a9fb023c
-  port: 52022
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|ConfigV2RayNG 🇫🇮
-  obfs: salamander
-  obfs-password: v8h63irhnay97090
-  password: 544a7fdaa05a4dbe868288f8a9fb023c
-  port: 52029
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9| ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 1n1g1xc7i50ga0v5
-  password: 544a7fdaa05a4dbe868288f8a9fb023c
-  port: 52043
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|@FreakConfig
   obfs: salamander
   obfs-password: AIbOe_791iQ4k6kPUgdsO7B9
@@ -587,14 +523,14 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 9|️97@oneclickvpnkeys
+- name: 9|🛎️97@oneclickvpnkeys
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
   server: 222.167.212.79
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 9|رر م  ارتا ⚡️
+- name: 9|رر م  ارتا ️
   obfs: salamander
   obfs-password: hmvyfx1tpnz6pp3k
   password: AstroVPN_official
@@ -623,7 +559,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇱 - NL - @FreeOnlineVPN
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -683,7 +619,7 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
-- name: 9|🇳🇱142579 | ⚡️Telegram = t.me/S...
+- name: 9|🇳🇱142579 | ️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
