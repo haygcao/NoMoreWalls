@@ -47,6 +47,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 9|🇺🇸|US|@wxgqlfx|251
+  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
+  port: 443
+  server: node3.vpnushka.lol
+  skip-cert-verify: true
+  sni: node3.vpnushka.lol
+  tls: false
+  type: hysteria2
 - name: 9|🇺🇸|US|@wxgqlfx|219
   password: b41ad7f941ffce755cb8601bfd0f02ca
   port: 50160
