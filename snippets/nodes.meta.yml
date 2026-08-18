@@ -401,14 +401,6 @@ proxies:
   sni: gorbachev-new-th.kvnfreetest.uk
   tls: false
   type: hysteria2
-- name: 9||PL|@wxgqlfx|121
-  password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
-  port: 2086
-  server: 144.31.1.28
-  skip-cert-verify: true
-  sni: panel.vlessbotkey.ru
-  tls: false
-  type: hysteria2
 - name: 9|🇵🇱|PL|@wxgqlfx|128
   password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
   port: 2102
@@ -792,7 +784,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇷🇴|RO|@wxgqlfx|206
+- name: 9|🇴|RO|@wxgqlfx|206
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.165
@@ -947,7 +939,7 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '9|kurdconfig #1'
+- name: 9|🇫🇮@FreakConfig
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
   password: m3bqxk03mg221yi2
@@ -1061,91 +1053,13 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇮FI-@VPNine1
-  obfs: salamander
-  obfs-password: 93lc6r07zfx4crct
-  password: t8t2qojzsykqazfu
-  port: 52008
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|@GozargahAzad|🇫🇮
-  obfs: salamander
-  obfs-password: kf1lypzqidy6pimt
-  password: t8t2qojzsykqazfu
-  port: 52009
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '9|@nekopingbot_15460  '
-  obfs: salamander
-  obfs-password: kf1lypzqidy6pimt
-  password: t8t2qojzsykqazfu
-  port: 52009
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇮FI-🚀@VPNine1
-  obfs: salamander
-  obfs-password: kf1lypzqidy6pimt
-  password: t8t2qojzsykqazfu
-  port: 52009
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇮@FreakConfig
+- name: '9|🇫🇮@FreakConfig #1'
   obfs: salamander
   obfs-password: d6pv15sghiq1onts
   password: t8t2qojzsykqazfu
   port: 52026
   server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|未命名 #9'
-  obfs: salamander
-  obfs-password: d6pv15sghiq1onts
-  password: t8t2qojzsykqazfu
-  port: 52026
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com@freenettir ¹
-  tls: false
-  type: hysteria2
-- name: '9|🇫🇮FI-🚀@VPNine1 #1'
-  obfs: salamander
-  obfs-password: v8h63irhnay97090
-  password: t8t2qojzsykqazfu
-  port: 52029
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '9|🇫🇮FI-🚀@VPNine1 #2'
-  obfs: salamander
-  obfs-password: 7206pa46enqqdnmt
-  password: t8t2qojzsykqazfu
-  port: 52040
-  server: assets.gateway-stream.com
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1159,40 +1073,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|🇫🇮FI-🚀@VPNine1 #3'
-  obfs: salamander
-  obfs-password: 7206pa46enqqdnmt
-  password: t8t2qojzsykqazfu
-  port: 52040
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '9|🇫🇮FI-🚀@VPNine1 #4'
-  obfs: salamander
-  obfs-password: jg5vvom5svs9rmnx
-  password: t8t2qojzsykqazfu
-  port: 52045
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '9|🇫🇮FI-🚀@VPNine1 #5'
-  obfs: salamander
-  obfs-password: phos93w1zi0nj6uv
-  password: t8t2qojzsykqazfu
-  port: 52049
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '9|@v2raybaaz  #1'
   obfs: salamander
   obfs-password: fd3olglr2bmimgje
@@ -1200,28 +1080,6 @@ proxies:
   port: 52061
   server: assets.gateway-stream.com
   skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|未命名 #10'
-  obfs: salamander
-  obfs-password: fd3olglr2bmimgje
-  password: t8t2qojzsykqazfu
-  port: 52061
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: 'assets.gateway-stream.com@freenettir '
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '9|🇫🇮FI-🚀@VPNine1 #6'
-  obfs: salamander
-  obfs-password: txwr28j1lntoy0sj
-  password: t8t2qojzsykqazfu
-  port: 52067
-  server: assets.gateway-stream.com
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
@@ -1261,39 +1119,39 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 14684
-  server: 16.163.156.207
+  port: 50887
+  server: 18.162.156.145
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29444
-  server: 43.198.240.223
+  port: 7674
+  server: 18.163.114.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 14684
-  server: 43.198.109.134
+  port: 7674
+  server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49811
-  server: 16.163.139.175
+  port: 9408
+  server: 54.46.126.133
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 55564
+  port: 18617
   server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -1301,23 +1159,15 @@ proxies:
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 11,12|新加坡|@ripaojiedian
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 95.40.14.234
+  port: 26704
+  server: 18.163.114.228
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7375
+  port: 51396
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -1333,24 +1183,24 @@ proxies:
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 18.163.126.92
+  port: 39024
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 16.162.192.182
+  port: 39024
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 16.163.144.245
+  port: 53001
+  server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
