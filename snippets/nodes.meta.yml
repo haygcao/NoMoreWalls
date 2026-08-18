@@ -162,7 +162,7 @@ proxies:
   sni: pg-usa2-hy2.gigatapbot.top
   tls: false
   type: hysteria2
-- name: 8,9|🇸|US|@wxgqlfx|16
+- name: '8,9|🇺🇸|US|@wxgqlfx|16 #1'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.226.172.222
@@ -340,7 +340,7 @@ proxies:
   sni: nl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: 8,9|5🦁@oneclickvpnkeys
+- name: '8|德国 #1'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -447,14 +447,7 @@ proxies:
   sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: 9|🌀25@oneclickvpnkeys
-  password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  port: 10808
-  server: nl1.unlockvpn.online
-  sni: nl1.unlockvpn.online
-  tls: false
-  type: hysteria2
-- name: 9|🌀42@oneclickvpnkeys
+- name: 9|42@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: nl10.unlockvpn.online
@@ -473,13 +466,6 @@ proxies:
   port: 10808
   server: nl3.unlockvpn.online
   sni: nl3.unlockvpn.online
-  tls: false
-  type: hysteria2
-- name: 9|🌀22@oneclickvpnkeys
-  password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
-  port: 10808
-  server: nl6.unlockvpn.online
-  sni: nl6.unlockvpn.online
   tls: false
   type: hysteria2
 - name: 9|🌀50@oneclickvpnkeys
@@ -678,21 +664,6 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 9|94@oneclickvpnkeys
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: 9|1@wxgqlfx#3🦁@oneclickvpnkeys
-  password: 76c1579d-e996-473c-b23f-2c8301082602
-  port: 11683
-  server: 40t1.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 204.44.74.220
-  tls: false
-  type: hysteria2
 - name: 9|🇺|RU|@wxgqlfx|229
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
@@ -745,15 +716,6 @@ proxies:
   server: 222.167.212.24
   skip-cert-verify: false
   sni: grape-power-pl.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: 9|🦁99@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: B86A0475-AB74-44BE-8209-A67F85CBF52C
-  port: 443
-  server: us6.dexlos.com
-  sni: us6.dexlos.com
   tls: false
   type: hysteria2
 - name: 9|🇫🇮|FI|@wxgqlfx|217
@@ -810,6 +772,30 @@ proxies:
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9|Telegram@vpnjey
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 37009
+  server: 31.76.27.23
+  skip-cert-verify: true
+  sni: de.vpnjey.store
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '9|Telegram@vpnjey #1'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 36264
+  server: 77.110.96.201
+  skip-cert-verify: true
+  sni: se.vpnjey2.dpdns.org
+  tls: false
+  type: hysteria2
 - name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -857,6 +843,22 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|@GozargahAzad|🇺🇸
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: 9|50@oneclickvpnkeys
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
+  skip-cert-verify: true
+  sni: 155.248.209.237
+  tls: false
+  type: hysteria2
 - name: 9|🇱|NL|@wxgqlfx|18
   password: c4a4d98d-8d64-4e76-bc50-096b07d82382
   port: 443
@@ -891,14 +893,6 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🦁14@oneclickvpnkeys
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33015
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|🇵🇱|PL|@wxgqlfx|210
   password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
   port: 8444
@@ -907,7 +901,7 @@ proxies:
   sni: premium-nl.geodema.network
   tls: false
   type: hysteria2
-- name: 9|🇺🇸|US|@wxgqlfx|20
+- name: 9|🇸|US|@wxgqlfx|20
   password: ed77b662dbdf1a817d5eb75ae940cac4
   port: 50160
   server: 198-46-188-116.liao.kdns.fr
