@@ -15,7 +15,7 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-- name: 8,9|🇺🇸US-@VPNine1
+- name: 8,9|🇺🇸147466 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -68,23 +68,23 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
-  server: 16.162.192.182
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.100.124
+  port: 28051
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.103.28
+  port: 10418
+  server: 18.163.74.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
