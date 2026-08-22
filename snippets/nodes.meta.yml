@@ -64,7 +64,7 @@ proxies:
   sni: lsj1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 8,9|33@oneclickvpnkeys
+- name: 8|🇺🇸US
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
@@ -72,7 +72,7 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 8,9|🍥16@oneclickvpnkeys
+- name: 8,9|16@oneclickvpnkeys
   password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
   port: 443
   server: pixelcast.wwwinternetvideo.click
@@ -160,7 +160,7 @@ proxies:
   sni: 211-22-154-26.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 8,9|🍥71@oneclickvpnkeys
+- name: '8|波兰 #1'
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: streambox.wwwinternetvideo.click
@@ -199,7 +199,7 @@ proxies:
   sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc
   tls: false
   type: hysteria2
-- name: 8,9|@Configvibes🇹🇷
+- name: '8,9|@Configvibes🇹🇷 #1'
   obfs: salamander
   obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------
   password: '@Telegram@Configvibes'
@@ -265,7 +265,7 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: 8,9|75@oneclickvpnkeys
+- name: '8|德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.169
@@ -425,7 +425,7 @@ proxies:
   sni: 144.225.187.153
   tls: false
   type: hysteria2
-- name: 8,9|60@oneclickvpnkeys
+- name: 8,9|🧮60@oneclickvpnkeys
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 138.124.0.168
@@ -528,14 +528,6 @@ proxies:
   sni: 185.47.172.226
   tls: false
   type: hysteria2
-- name: 9|🍥72@oneclickvpnkeys
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: xby.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: 9|  @vistav2ray  👈ا  ✅
   obfs: salamander
   obfs-password: uw9b2qq5rx
@@ -546,7 +538,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|57@oneclickvpnkeys
+- name: 9|🧮57@oneclickvpnkeys
   password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
   port: 9443
   server: newos.klzvezdi.ru
@@ -554,7 +546,7 @@ proxies:
   sni: newos.klzvezdi.ru
   tls: false
   type: hysteria2
-- name: 9|46@oneclickvpnkeys
+- name: 9|🧮46@oneclickvpnkeys
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: che01plrhy01.tcp-reset-club.net
@@ -606,7 +598,17 @@ proxies:
   sni: archive.ubuntu.com
   tls: false
   type: hysteria2
-- name: 9|90@oneclickvpnkeys
+- name: 9|@Configvibes🇹🇷
+  obfs: salamander
+  obfs-password: Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes
+  password: '@Telegram@Configvibes'
+  port: 2096
+  server: 107.181.155.107
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  tls: false
+  type: hysteria2
+- name: 9|🧮90@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
@@ -614,7 +616,7 @@ proxies:
   sni: 202.146.222.29
   tls: false
   type: hysteria2
-- name: 9|89@oneclickvpnkeys
+- name: 9|🧮89@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.36.96.245
@@ -723,15 +725,15 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🍥53@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
+- name: 9|🇩🇪150017 | Telegram = t.me/SOS...
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.120
   skip-cert-verify: true
-  sni: www.docker.com
+  sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: 9|🧮41@oneclickvpnkeys
+- name: 9|41@oneclickvpnkeys
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8443
   server: 103.246.248.226
