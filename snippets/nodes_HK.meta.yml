@@ -1,5 +1,5 @@
 proxies:
-- name: 8|HK
+- name: 8|рҹҮHK
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -9,7 +9,7 @@ proxies:
   sni: xk7q3.ckpfef.top
   tls: false
   type: hysteria2
-- name: '8|HK #1'
+- name: 8|HK
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -27,24 +27,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
-  network: tcp
+- name: 11|🇭🇰 香港3|@ripaojiedian
   password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
   server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|香港4|@ripaojiedian
-  network: tcp
+- name: 11|🇭🇰 香港4|@ripaojiedian
   password: BxceQaOe
   port: 27161
   server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|香港5|@ripaojiedian
-  network: tcp
+- name: 11|🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 27161
   server: 43.198.21.141
@@ -61,3 +58,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 12|香港3|@ripaojiedian
+  network: tcp
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 25982
+  server: 43.198.107.164
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12|香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 16.163.147.33
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 12|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 18.163.180.82
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
