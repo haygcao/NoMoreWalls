@@ -57,11 +57,3 @@ proxies:
   sni: pixelcast.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|10@oneclickvpnkeys
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: 193.41.5.243
-  skip-cert-verify: true
-  sni: hy2-germany.unlimited-access.ru
-  tls: false
-  type: hysteria2
