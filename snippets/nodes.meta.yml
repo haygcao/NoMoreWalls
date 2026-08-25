@@ -445,7 +445,7 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|151555 | Telegram = t.me/SOSke...
+- name: 9|2🏓@oneclickvpnkeys
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
@@ -453,7 +453,7 @@ proxies:
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
-- name: 9|95@oneclickvpnkeys
+- name: 9|🏓95@oneclickvpnkeys
   password: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
   port: 10808
   server: 79.137.205.35
@@ -502,7 +502,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|96@oneclickvpnkeys
+- name: 9|🏓96@oneclickvpnkeys
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: 217.60.33.215
@@ -510,7 +510,7 @@ proxies:
   sni: streambox.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|94@oneclickvpnkeys
+- name: 9|🏓94@oneclickvpnkeys
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: 185.191.238.202
@@ -582,7 +582,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇳🇱@FreakConfig
+- name: 9|@FreakConfig
   obfs: salamander
   obfs-password: SalamanderNL2026
   password: NL2026hy
@@ -674,7 +674,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '9|94@oneclickvpnkeys #1'
+- name: 9|94@oneclickvpnkeys
   password: e660daf2da753ca8317387342b8af384
   port: 50160
   server: 3.71.196.174
@@ -682,7 +682,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇫🇮151554 | ⚡️Telegram = t.me/S...
+- name: 9|1🏓@oneclickvpnkeys
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8443
   server: 222.167.212.82
@@ -739,7 +739,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|32@oneclickvpnkeys
+- name: 9|🏓32@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 46.229.243.132
@@ -747,7 +747,7 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: 9|97@oneclickvpnkeys
+- name: 9|🏓97@oneclickvpnkeys
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: 217.60.182.79
@@ -767,7 +767,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@v2ray313 کانالمون ️
+- name: '9|@v2ray313 کانالمون '
   obfs: salamander
   obfs-password: kf1lypzqidy6pimt
   password: t8t2qojzsykqazfu
