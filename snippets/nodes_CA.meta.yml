@@ -1,11 +1,1 @@
-proxies:
-- name: 9|🇨🇦154105 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: pr317jpnr2arr09j
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  skip-cert-verify: false
-  sni: lms22.gelzaro.ir
-  tls: false
-  type: hysteria2
+proxies: []
