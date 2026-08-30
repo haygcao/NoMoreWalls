@@ -1,16 +1,16 @@
 proxies:
 - name: 8|德国
-  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  port: 443
-  server: deu0003ntrhy01.tcp-reset-club.net
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.174
   skip-cert-verify: true
-  sni: deu0003ntrhy01.tcp-reset-club.net
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - name: '8|德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
-  server: 85.204.107.174
+  server: 85.204.107.178
   skip-cert-verify: true
   sni: hopp-romania-new.roxa.org
   tls: false
@@ -48,18 +48,19 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|19@oneclickvpnkeys
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.118
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
   sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: 9|49@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 3sv5vpdl9xr84lyb
+  password: sxc15led4b0vp5fy
+  port: 443
+  server: social.klipp.su
+  sni: social.klipp.su
   tls: false
   type: hysteria2
