@@ -48,6 +48,14 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- name: 9|19@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.118
+  skip-cert-verify: true
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config
   password: AstroVPN_official
   port: 36896
