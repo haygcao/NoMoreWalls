@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 9|🇸🇪157089 | ⚡️Telegram = t.me/S...
+  password: 0db4a6c709ca4a46153af8a401b7138a
+  port: 8443
+  server: se.allgoodvpn.su
+  skip-cert-verify: false
+  sni: se.allgoodvpn.su
+  tls: false
+  type: hysteria2
