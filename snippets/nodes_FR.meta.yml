@@ -7,11 +7,3 @@ proxies:
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
-- name: 9|🇫🇷157086 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 51.44.162.6
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
-  tls: false
-  type: hysteria2

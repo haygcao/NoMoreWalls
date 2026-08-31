@@ -7,7 +7,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- name: '8|美国 #1'
+- name: 8,9|🪆74@oneclickvpnkeys
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -23,6 +23,19 @@ proxies:
   server: faq.wwwinternetvideo.click
   skip-cert-verify: true
   sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '9|🇫🇮ConfigV2RayNG #3'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52078
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
