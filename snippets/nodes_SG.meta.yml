@@ -51,8 +51,8 @@ proxies:
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 54.255.201.71
+  port: 9149
+  server: 95.40.28.75
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
