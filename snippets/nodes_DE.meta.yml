@@ -42,7 +42,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇫🇮158099 | ⚡️Telegram = t.me/S...
+  name: '9|Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 4savc5ig1n3549e4
