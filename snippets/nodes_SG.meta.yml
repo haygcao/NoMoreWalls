@@ -7,6 +7,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '8|新加坡 #1'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - name: 8|SG
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
@@ -32,7 +40,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '8|新加坡 #1'
+- name: '8|新加坡 #2'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.229.82.184
@@ -40,7 +48,7 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: '8|新加坡 #2'
+- name: '8|新加坡 #3'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.190.23
