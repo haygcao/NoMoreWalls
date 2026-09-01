@@ -25,7 +25,7 @@ proxies:
   sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
+- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
