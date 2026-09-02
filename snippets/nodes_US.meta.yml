@@ -41,18 +41,6 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp- USA-Kansas City, MO
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 1m1xfvpaa5ek4omq
-  port: 52078
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-gcm
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

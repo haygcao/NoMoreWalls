@@ -52,6 +52,28 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|dc-udp-🇪 Germany-Berlin
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 8f0gvz5eul6omhq4
+  port: 52021
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 8f0gvz5eul6omhq4
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: '9|🇩🇪All | @BigSmoke_Config #1'
   password: AstroVPN_official
   port: 36896
@@ -76,5 +98,13 @@ proxies:
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|36@oneclickvpnkeys
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: 5.83.129.11
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
   tls: false
   type: hysteria2
