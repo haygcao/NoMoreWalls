@@ -345,6 +345,18 @@ proxies:
   sni: gorbachev-new-th.kvnfreetest.uk
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9|- @VConfing
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52029
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 9|@v2ray_phoenix
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -459,7 +471,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|- @VConfing
+  name: '9|- @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1w61o8j0slf0q9yj
@@ -532,14 +544,6 @@ proxies:
   port: 52076
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇦🇹158422 | Telegram = t.me/SOS...
-  password: 2_hysteria2_fastlane_py5fqull8
-  port: 443
-  server: 130.49.219.99
-  skip-cert-verify: false
-  sni: at3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: 9|@MIGAVPNPRO
@@ -1170,7 +1174,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇦dc-udp- Argentina-Buenos Aire...
+  name: 9|🇦🇷dc-udp- Argentina-Buenos Air...
   password: ilkbtuxd94xofam1
   port: 52001
   server: giftcard.gateway-stream.com

@@ -41,6 +41,7 @@ hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.141:8080?sni=grape
 hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@faq.wwwinternetvideo.click:443?insecure=1&sni=cabinet.wwwinternetvideo.click#8%7C%E7%BE%8E%E5%9B%BD%20%232
 hysteria2://umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx@hold.wwwinternetvideo.click:443?insecure=1&sni=germany1.h2corp.local#8%7C%E5%BE%B7%E5%9B%BD%20%233
 hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443?insecure=1&sni=gorbachev-new-th.kvnfreetest.uk#9%7C%F0%9F%94%9247%40oneclickvpnkeys
+hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52029?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C-%20%40VConfing
 hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52029?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40v2ray_phoenix
 hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52030?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CVCONFING
 hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52030?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40v2ray_phoenix%20%231
@@ -51,14 +52,13 @@ hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52067?insecure=0&alpn=h
 hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52078?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7Cdc-udp-%20USA-Kansas%20City%2C%20MO
 hysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52089?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7Cdc-udp-%20South%20Africa-Johannesb...
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52016?sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CChannel%3A%20%40Daily_Configs
-hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52021?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C-%20%40VConfing
+hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52021?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C-%20%40VConfing%20%231
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52024?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40V2ray_Alpha%202
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52029?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C-%F0%9F%87%AB%F0%9F%87%AE%20%40VConfing
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52030?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CVCONFING%20%231
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52060?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40V2ray_Alpha%F0%9F%8C%8E%203
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52067?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C-%F0%9F%87%B9%F0%9F%87%B7%20%40VConfing
 hysteria2://1w61o8j0slf0q9yj@giftcard.gateway-stream.com:52076?sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CChannel%3A%20%40Daily_Configs%20%231
-hysteria2://2_hysteria2_fastlane_py5fqull8@130.49.219.99:443?insecure=0&sni=at3.h.fastlanehosting.ru#9%7C%F0%9F%87%A6%F0%9F%87%B9158422%20%7C%20Telegram%20%3D%20t.me/SOS...
 hysteria2://4savc5ig1n3549e4@giftcard.gateway-stream.com:52000?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40MIGAVPNPRO
 hysteria2://4savc5ig1n3549e4@giftcard.gateway-stream.com:52002?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40MIGAVPNPRO%20%231
 hysteria2://4savc5ig1n3549e4@giftcard.gateway-stream.com:52013?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40MIGAVPNPRO%20%232
@@ -119,7 +119,7 @@ hysteria2://g2d0ooqq3ykzsacc@giftcard.gateway-stream.com:52056?insecure=0&sni=gi
 hysteria2://g2d0ooqq3ykzsacc@giftcard.gateway-stream.com:52067?insecure=0&alpn=h3&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40B2Hub%20%231
 hysteria2://g2d0ooqq3ykzsacc@giftcard.gateway-stream.com:52070?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40V2ray_Alpha%F0%9F%8C%87%203
 hysteria2://ilkbtuxd94xofam1@giftcard.gateway-stream.com:52001?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7Cdc-udp-%F0%9F%87%A6%F0%9F%87%B7%20Argentina-Buenos%20Air...
-hysteria2://ilkbtuxd94xofam1@giftcard.gateway-stream.com:52001?alpn=h3&sni=giftcard.gateway-stream.com#9%7C%F0%9F%87%A6dc-udp-%20Argentina-Buenos%20Aire...
+hysteria2://ilkbtuxd94xofam1@giftcard.gateway-stream.com:52001?alpn=h3&sni=giftcard.gateway-stream.com#9%7C%F0%9F%87%A6%F0%9F%87%B7dc-udp-%20Argentina-Buenos%20Air...
 hysteria2://ilkbtuxd94xofam1@giftcard.gateway-stream.com:52009?alpn=h3&sni=giftcard.gateway-stream.com#9%7Cdc-udp-%20Bulgaria-Sofia
 hysteria2://ilkbtuxd94xofam1@giftcard.gateway-stream.com:52067?alpn=h3&sni=giftcard.gateway-stream.com#9%7C%F0%9F%87%B7dc-udp-%20Turkey-Istanbul
 hysteria2://jbmuokj7p4kg4h4s@giftcard.gateway-stream.com:52021?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%40v2ray313%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%D9%85%D9%88%D9%86%20%20%232
@@ -172,4 +172,3 @@ vless://055dce30-0ee3-44c3-b680-be1c95b8d6e7@107.151.250.68:443?allowInsecure=0&
 vless://9638a83e-f1f7-4cc8-a602-924965d9534f@wr28-6njjgu.linenheath.site:443?allowInsecure=0&sni=www.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0139
 vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:39211?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0142
 vless://ec31f6d7-c71a-413d-93aa-24296805a594@nsuc-znkbig.avonex.top:443?allowInsecure=0&sni=www.bing.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0144
-hhysteria2://1m1xfvpaa5ek4omq@giftcard.gateway-stream.com:52029?security=tls&obfs=salamander&alpn=h3&obfs-password=fuw2k1ddrouwxr3u&insecure=0&sni=giftcard.gateway-stream.com#- @VConfing
