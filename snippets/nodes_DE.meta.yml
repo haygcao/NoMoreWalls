@@ -68,18 +68,6 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇪 Germany-Berlin
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
   name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -112,9 +100,9 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪All | @BigSmoke_Config #2'
-  password: jbmuokj7p4kg4h4s
-  port: 52029
+- name: 9|@proxy_kafee
+  password: fmaznn1lrzys7ddy
+  port: 52050
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
