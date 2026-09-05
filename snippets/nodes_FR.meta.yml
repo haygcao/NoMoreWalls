@@ -1,13 +1,1 @@
-proxies:
-- alpn:
-  - h3
-  name: '9|VCONFING #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
+proxies: []

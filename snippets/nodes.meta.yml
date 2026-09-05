@@ -143,6 +143,14 @@ proxies:
   sni: fin14qr.wwwinternetvideo.click
   tls: false
   type: hysteria2
+- name: '8|国 #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.181.169.140
+  skip-cert-verify: true
+  sni: 35.181.169.140
+  tls: false
+  type: hysteria2
 - name: 8|大利亚
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -215,7 +223,7 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '8|国 #3'
+- name: '8|国 #4'
   password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
   port: 8080
   server: 85.209.157.177
@@ -489,13 +497,6 @@ proxies:
   sni: fast.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|162336 | ⚡️Telegram = t.me/SOS...
-  password: CnVfXXvMzh
-  port: 443
-  server: 72.56.92.120
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 9|🩳96@oneclickvpnkeys
   password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 443
@@ -513,7 +514,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇳🇱162354 | ⚡️Telegram = t.me/S...
+- name: 9|29@oneclickvpnkeys
   password: OD6gGbGU9a
   port: 443
   server: 195.133.24.124
@@ -568,7 +569,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -640,35 +641,11 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '9|-🇩🇪 @VConfing #1'
+- name: '9|@v2ray313 کانالمون  #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
   port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|Channel : @Daily_Configs #5'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '9|-🇫🇮 @VConfing #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52029
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -684,35 +661,11 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '9|VCONFING #1'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '9|@v2ray313 کانالمون  #4'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
   port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇹🇷 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: clz08qwil91241w7
-  port: 52067
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
@@ -726,42 +679,6 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇱 Albania-Tirana
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52000
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇦 Austria-Vienna
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52002
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇦 Australia-Perth
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52006
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: '9|@v2ray_phoenix #4'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -772,31 +689,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp- Spain-Valencia
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52028
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇮 Finland-Helsinki
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52029
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|@proxy_kafee
+- name: '9|@Daily_Configs #4'
   password: fmaznn1lrzys7ddy
   port: 52050
   server: giftcard.gateway-stream.com
@@ -816,7 +709,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇦🇱 Albania-Tirana
+  name: 9|dc-udp-🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
@@ -840,7 +733,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇦🇹 Austria-Vienna
+  name: 9|dc-udp-🇦 Austria-Vienna
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
@@ -959,6 +852,52 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮162638 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮162637 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|Tel-@ProxyMtAlpha5
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|-🇹🇷  @VConfing
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: nqlool6l2dnfg45q
+  port: 52067
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: '9|@Daily_Configs #5'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -1072,52 +1011,48 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|@bored_vpn #1'
+  name: 9|dc-udp-🇦🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52000
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|@bored_vpn #2'
+  name: '9|dc-udp-🇦🇷 Argentina-Buenos Air... #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52001
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|@bored_vpn #3'
+  name: 9|dc-udp-🇧 Belgium-Brussels
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52008
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|@bored_vpn #4'
+  name: 9|dc-udp- Cyprus-Nicosia
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
   port: 52019
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
