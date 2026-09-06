@@ -18,7 +18,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇫🇮163834 | ⚡️Telegram = t.me/S...
+  name: 9|dc-udp-🇬 Singapore-Singapore
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
