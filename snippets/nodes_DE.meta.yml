@@ -39,13 +39,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|🇩🇪All | @BigSmoke_Config
-  password: 4savc5ig1n3549e4
-  port: 52023
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪@AZARBAYJAB1
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -78,7 +71,7 @@ proxies:
   sni: de.vpnjey.store
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #3'
+- name: 9|@Daily_Configs
   password: fmaznn1lrzys7ddy
   port: 52050
   server: giftcard.gateway-stream.com
