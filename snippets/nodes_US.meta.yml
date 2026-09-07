@@ -19,6 +19,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🇺🇸 @AZARBAYJAB1_
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: vz86jgszv4zszchv
+  port: 52076
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   name: 11|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
