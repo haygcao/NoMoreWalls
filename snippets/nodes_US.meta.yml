@@ -7,6 +7,16 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
+- name: 8|US
+  obfs: salamander
+  obfs-password: 7a5537b116d923fe572f85f1db7fe501
+  password: cbb5cf13f04b22883390f1a073753123
+  port: 443
+  server: 147.224.12.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -16,16 +26,6 @@ proxies:
   password: s6gt5e4mof43sfg8
   port: 52088
   server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸 @AZARBAYJAB1_
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52076
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
