@@ -1,12 +1,4 @@
 proxies:
-- name: 8|美国
-  password: 6dcb725e-947e-4bbe-bb35-903374d57179
-  port: 443
-  server: rm-eco-us-01.409648.xyz
-  skip-cert-verify: true
-  sni: mkm.icu
-  tls: false
-  type: hysteria2
 - name: 8|US
   obfs: salamander
   obfs-password: 7a5537b116d923fe572f85f1db7fe501
