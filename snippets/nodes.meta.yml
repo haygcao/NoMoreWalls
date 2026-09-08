@@ -379,6 +379,42 @@ proxies:
   sni: forever.h4ck.me
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9|164945 | ⚡️Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nkm4doh2gkgl5op
+  port: 52049
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮164946 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nkm4doh2gkgl5op
+  port: 52050
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇫🇮164947 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nkm4doh2gkgl5op
+  port: 52051
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 9|✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -444,6 +480,13 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
+- name: 9|164904 | ⚡️Telegram = t.me/SOS...
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
 - name: 9|⭐️64@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -452,7 +495,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 9|🇩164566 | ⚡️Telegram = t.me/SO...
+- name: 9|✅90@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.177
@@ -552,7 +595,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇱PL-@VPNine1
+- name: 9|✅62@oneclickvpnkeys
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: 45.192.12.93
@@ -669,7 +712,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|164720 | ⚡️Telegram = t.me/SOS...
+- name: 9|✅91@oneclickvpnkeys
   obfs: salamander
   obfs-password: 02c4876afcc37c4298f71796b09a55da
   password: ed76d01a068000d9f034144d47baf1a4
@@ -709,7 +752,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇱 Albania-Tirana
+  name: 9|dc-udp-🇦🇱 Albania-Tirana
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
@@ -772,7 +815,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@v2ray313 کانالمون  #5'
+- name: '9|@v2ray313 کانالمون ⭐ #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: jbmuokj7p4kg4h4s
@@ -782,7 +825,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@v2ray313 کانالمون 🇹🇷
+- name: 9|@v2ray313 کانالمون ️
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: jbmuokj7p4kg4h4s
@@ -807,7 +850,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇵 Japan-Tokyo
+  name: 9|dc-udp- Japan-Tokyo
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: mdq80x0xv9wt7520
@@ -884,21 +927,13 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|🇩🇪164715 | ⚡️Telegram = t.me/S...
+- name: 9|✅100@oneclickvpnkeys
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   port: 443
   server: hy2.aspidnet.xyz
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|🇬164551 | ⚡️Telegram = t.me/SO...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.129.0.20
-  skip-cert-verify: true
-  sni: 47.129.0.20
   tls: false
   type: hysteria2
 - alpn:
@@ -931,7 +966,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|dc-udp-🇦🇱 Albania-Tirana
+  name: '9|dc-udp-🇦🇱 Albania-Tirana #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -979,7 +1014,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|- @VConfing
+  name: 9|-🇫🇮 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -1107,7 +1142,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸164718 | ⚡️Telegram = t.me/S...
+- name: 9|4✅@oneclickvpnkeys
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
   server: 159.223.157.129
@@ -1185,7 +1220,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|dc-udp-🇦🇱 Albania-Tirana #1'
+  name: '9|dc-udp-🇦🇱 Albania-Tirana #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
