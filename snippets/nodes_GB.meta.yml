@@ -15,11 +15,3 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 9|53@oneclickvpnkeys
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 443
-  server: labs.frkn.org
-  skip-cert-verify: true
-  sni: labs.frkn.org
-  tls: false
-  type: hysteria2
