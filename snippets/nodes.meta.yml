@@ -299,13 +299,6 @@ proxies:
   sni: de-four.online-vpn.online
   tls: false
   type: hysteria2
-- name: 9|🎡20@oneclickvpnkeys
-  password: 32df539b-e48b-4f0b-8d2d-30edc856cd23
-  port: 443
-  server: nl-two.online-vpn.online
-  sni: nl-two.online-vpn.online
-  tls: false
-  type: hysteria2
 - name: 9|🎡67@oneclickvpnkeys
   obfs: salamander
   obfs-password: 73221641ddc56c49b02bf110ac85afdb
@@ -394,7 +387,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|79@oneclickvpnkeys
+- name: 9|🎡79@oneclickvpnkeys
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: 46.247.41.120
@@ -689,7 +682,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇺@FreakConfig
+- name: 9|🇦🇺@FreakConfig
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: dmbbfqabkdu46mo3
