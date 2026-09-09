@@ -1,18 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|dc-udp-🇬 Singapore-Singapore
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52063
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 11,12|新加坡3|@ripaojiedian
-  network: tcp
+- name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: BxceQaOe
   port: 41142
   server: 54.251.190.150
