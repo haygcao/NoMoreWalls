@@ -1,5 +1,6 @@
 proxies:
-- name: 11|🇸🇬 新加坡3|@ripaojiedian
+- name: 11,12|新加坡3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 41142
   server: 54.251.190.150

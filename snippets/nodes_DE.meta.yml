@@ -41,13 +41,6 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: 9|21@oneclickvpnkeys
-  password: 32df539b-e48b-4f0b-8d2d-30edc856cd23
-  port: 443
-  server: de-four.online-vpn.online
-  sni: de-four.online-vpn.online
-  tls: false
-  type: hysteria2
 - name: 9|🇩🇪All | @BigSmoke_Config
   password: fmaznn1lrzys7ddy
   port: 52050
@@ -75,6 +68,19 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '9|-🇩🇪 @VConfing #1'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪@AZARBAYJAB1
