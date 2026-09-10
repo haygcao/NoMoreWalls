@@ -6,7 +6,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '8,9|کانال را : Free_VPN_CH@'
+- name: '8,9|کانال ا : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -33,6 +33,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9|@ICV2RAY
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: ijrixp6yh62ectfw
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -46,7 +58,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|-🇩🇪 @VConfing
+  name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
