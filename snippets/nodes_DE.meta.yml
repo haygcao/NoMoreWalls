@@ -33,14 +33,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|德国 #1'
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: hold.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
