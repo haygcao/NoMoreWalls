@@ -135,7 +135,7 @@ proxies:
   sni: whatsapp.com
   tls: false
   type: hysteria2
-- name: '8|未命名 #6'
+- name: 8,9|100@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-in-001.fastervpn.world
@@ -260,10 +260,11 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 8,9|🎡71@oneclickvpnkeys
+- name: 8,9|71@oneclickvpnkeys
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: news.gazette.help
+  skip-cert-verify: true
   sni: news.gazette.help
   tls: false
   type: hysteria2
@@ -281,6 +282,13 @@ proxies:
   port: 443
   server: de-four.online-vpn.online
   sni: de-four.online-vpn.online
+  tls: false
+  type: hysteria2
+- name: 9|🎡20@oneclickvpnkeys
+  password: 32df539b-e48b-4f0b-8d2d-30edc856cd23
+  port: 443
+  server: nl-two.online-vpn.online
+  sni: nl-two.online-vpn.online
   tls: false
   type: hysteria2
 - name: 9|🎡67@oneclickvpnkeys
@@ -309,6 +317,13 @@ proxies:
   port: 36758
   server: awlix1.pcjxq.digital
   sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 9|87@oneclickvpnkeys
+  password: 5beff945-adaa-492f-85c6-8aaf5df6cfa5
+  port: 22443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
   tls: false
   type: hysteria2
 - name: '9|Telegram @cnetvpn '
@@ -406,6 +421,14 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
+- name: 9|167615 | ⚡️Telegram = t.me/SOS...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.223.183.81
+  skip-cert-verify: true
+  sni: 15.223.183.81
+  tls: false
+  type: hysteria2
 - name: 9|3@oneclickvpnkeys
   obfs: salamander
   obfs-password: HysteriaHowdy
@@ -434,22 +457,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 9|5@oneclickvpnkeys
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.173
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  tls: false
-  type: hysteria2
-- name: 9|📀6@oneclickvpnkeys
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.175
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
 - name: 9|@Daily_Configs
@@ -605,7 +612,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|Tel: @Daily_Configs'
+- name: 9|🇷🇺167643 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -615,7 +622,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9| t.me/bigAVPN را  '
+- name: '9|@filembad #3'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -655,7 +662,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇺@FreakConfig
+- name: 9|🇦🇺@FreakConfig
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: dmbbfqabkdu46mo3
@@ -665,21 +672,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|📀31@oneclickvpnkeys
+- name: 9|🇷🇺167616 | ⚡️Telegram = t.me/S...
   password: e0b9fb0f-1bbd-478b-9580-c2294778338b
-  port: 8444
-  server: nlq7hy.pleiades.codes
-  sni: nlq7hy.pleiades.codes
+  port: 8443
+  server: cdncache.pleiades.codes
   tls: false
   type: hysteria2
-- name: 9|@v2ray_phoenix
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: fmaznn1lrzys7ddy
-  port: 52006
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
+- name: 9|89@oneclickvpnkeys
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
@@ -822,26 +825,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52000
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|⭐@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: ijrixp6yh62ectfw
-  port: 52001
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: 9|@ICV2RAY
@@ -946,6 +929,14 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
+- name: 9|🇬167617 | ⚡️Telegram = t.me/SO...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.76.106
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
 - name: 9|🎡65@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -954,7 +945,7 @@ proxies:
   sni: 13.250.120.9
   tls: false
   type: hysteria2
-- name: 9|🎡69@oneclickvpnkeys
+- name: 9|69@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.129.0.20
