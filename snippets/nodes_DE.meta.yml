@@ -58,13 +58,12 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|🇩🇪1@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
   port: 52021
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
