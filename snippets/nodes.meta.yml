@@ -86,7 +86,7 @@ proxies:
   sni: crt.ultimagamest.com
   tls: false
   type: hysteria2
-- name: 8,9|🇩🇪169467 | ⚡️Telegram = t.me/S...
+- name: 8,9|☸️33@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.126.7
@@ -289,7 +289,7 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 9|🇸🇪169485 | ️Telegram = t.me/SO...
+- name: 9|☸️59@oneclickvpnkeys
   password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
   port: 25443
   server: se-node.rumedia-cdn.com
@@ -324,7 +324,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 9| @NOFiLTERING2 | ️    ش | ⚡ | ...
+- name: 9|  @vistav2ray  👈ا  ✅
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -334,7 +334,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|  @vistav2ray  👈ا  ✅
+- name: 9|✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -344,7 +344,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|✅  @vistav2ray  👈👈کانال ما ✅
+- name: '9|✅  @vistav2ray  👈👈کانال ما ✅ #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -354,7 +354,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|✅  @vistav2ray  👈👈کانال ما ✅ #1'
+- name: '9|✅  @vistav2ray  👈👈کانال ما ✅ #2'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -712,7 +712,6 @@ proxies:
   password: fr9p9ji70krwnup6
   port: 52067
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -764,7 +763,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱169333 | ⚡️Telegram = t.me/S...
+- name: 9|☸️7@oneclickvpnkeys
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -826,6 +825,16 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇫169607 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: I1LhSz_TLtoY4tlt85XHnPAf
+  password: o4uW5zm869-LQ0b-eRALy538ESbs0mI3
+  port: 5726
+  server: 5khjqztq30ec.dopwiz.com
+  skip-cert-verify: false
+  sni: www.nexia-holic.ir
   tls: false
   type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
@@ -1024,7 +1033,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇮
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
