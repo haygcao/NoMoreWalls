@@ -26,11 +26,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|@filembad
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+- name: 9|🇩🇪V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: V2RayyNGvpn&Telegram
+  password: V2RayyNGvpn
   port: 443
-  server: 162.249.125.133
-  sni: hy2-new.aspidnet.xyz
+  server: 91.107.140.154
+  skip-cert-verify: false
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alpn:
@@ -43,18 +46,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇩🇪170260 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: tivfkvoj305fvjb4
-  password: n1fgob9k4paxx9g3
-  port: 30740
-  server: 168.222.43.132
-  skip-cert-verify: false
-  sni: 168.222.43.132
   tls: false
   type: hysteria2
 - name: 9| @NOFiLTERING2 | ❤️ وصل شدی جو...
