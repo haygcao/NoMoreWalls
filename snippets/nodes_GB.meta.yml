@@ -1,12 +1,4 @@
 proxies:
-- name: 8|英国
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.234
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
 - name: 8,9|رای ال ای جوین شو TelegramID E...
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
