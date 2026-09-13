@@ -100,7 +100,7 @@ hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52067?alpn=h3&fp=chrome
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52069?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%B87%40JKVPN
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52071?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%B88%40JKVPN
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52088?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%BA%F0%9F%87%B89%40JKVPN
-hysteria2://tnnls@bwdf2fnt.xn--e1aatfr8bwa.online:443?insecure=0&sni=bwdf2fnt.xn--e1aatfr8bwa.online&obfs=salamander&obfs-password=b6d1f3888ab1d90dd11aac1dce427b81#9%7C%D9%84%D9%85%D9%88%D9%86%3A%20Express_freevpn%40
+hysteria2://tnnls@bwdf2fnt.xn--e1aatfr8bwa.online:443?insecure=0&sni=bwdf2fnt.xn--e1aatfr8bwa.online&obfs=salamander&obfs-password=b6d1f3888ab1d90dd11aac1dce427b81#9%7C%40fastkanfig%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 hysteria2://vz86jgszv4zszchv@giftcard.gateway-stream.com:52021?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%A9%F0%9F%87%AA%40AZARBAYJAB1
 hysteria2://vz86jgszv4zszchv@giftcard.gateway-stream.com:52030?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%AB%F0%9F%87%B7%40AZARBAYJAB1
 hysteria2://vz86jgszv4zszchv@giftcard.gateway-stream.com:52062?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40cnetvpn%20%F0%9F%87%AA%20%231

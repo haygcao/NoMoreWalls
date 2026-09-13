@@ -973,7 +973,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|لمون: Express_freevpn@'
+- name: 9|@fastkanfig کانال تلگرام
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
