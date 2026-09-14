@@ -272,16 +272,6 @@ proxies:
   sni: hy.quattro-tech.ru
   tls: false
   type: hysteria2
-- name: '9|@Begoo_VPN '
-  obfs: salamander
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: 91.142.73.159
-  skip-cert-verify: true
-  sni: cdn77.dmtr.ru
-  tls: false
-  type: hysteria2
 - name: 9|@awlix_ir
   obfs-password: dzcb7hv6i2kx2zze
   password: 5bcodmhjtyfyyrqh

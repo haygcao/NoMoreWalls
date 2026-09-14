@@ -32,7 +32,6 @@ hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com#8%7C
 hysteria2://sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX@news.gazette.help:443?sni=news.gazette.help#8%7C%E6%9C%AA%E5%91%BD%E5%90%8D%20%2311
 hysteria2://sxc15led4b0vp5fy@musicclips.videolinks.ru:8443?sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#8%7C%E8%8A%AC%E5%85%B0%20%231
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru#9%7C%E2%9B%BD79%40oneclickvpnkeys
-hysteria2://5bcodmhjtyfyyrqh@91.142.73.159:36758?insecure=1&sni=cdn77.dmtr.ru&obfs=salamander&obfs-password=dzcb7hv6i2kx2zze#9%7C%40Begoo_VPN%20
 hysteria2://5bcodmhjtyfyyrqh@awlix1.pcjxq.digital:36758?sni=cdn77.dmtr.ru&obfs-password=dzcb7hv6i2kx2zze#9%7C%40awlix_ir
 hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@els1.mangshe.xyz:2056?insecure=1&sni=www.microsoft.com#9%7C%E2%9B%BD66%40oneclickvpnkeys
 hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?insecure=0&sni=giftcard.gisora.ir&obfs=salamander&obfs-password=09p333uviv2qal0y#9%7CTelegram%20%40cnetvpn%20
@@ -137,3 +136,4 @@ vless://055dce30-0ee3-44c3-b680-be1c95b8d6e7@107.151.250.68:443?allowInsecure=0&
 vless://9638a83e-f1f7-4cc8-a602-924965d9534f@wr28-6njjgu.linenheath.site:443?allowInsecure=0&sni=www.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0139
 vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:39211?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0142
 vless://ec31f6d7-c71a-413d-93aa-24296805a594@nsuc-znkbig.avonex.top:443?allowInsecure=0&sni=www.bing.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0144
+hhysteria2://5bcodmhjtyfyyrqh@91.142.73.159:36758?security=tls&obfs=salamander&obfs-password=dzcb7hv6i2kx2zze&insecure=1&sni=cdn77.dmtr.ru#@Begoo_VPN 
