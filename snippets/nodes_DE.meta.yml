@@ -26,6 +26,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - name: 9|V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn&Telegram
