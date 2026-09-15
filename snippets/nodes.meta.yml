@@ -633,7 +633,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #2'
+- name: 9|🇩🇪DE-@VPNine1
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -643,7 +643,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇺US-@VPNine1
+- name: 9|2🏀@oneclickvpnkeys
   password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
   server: cze-02.node.lumixnet.com
@@ -959,7 +959,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇺🇸7@JKVPN
+  name: 9|🇺7@JKVPN
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8

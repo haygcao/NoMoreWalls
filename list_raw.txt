@@ -68,8 +68,8 @@ hysteria2://c4d7e69958b226a426157a6e80eb9406@80.91.79.136:443?insecure=1&sni=80.
 hysteria2://cd74c0a406664a5bc0bac098220a2468@144.31.49.138:443?insecure=0&sni=ru1.sferavpn.pro&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#9%7C%5B%20%F0%9F%87%B7%F0%9F%87%BA%20%5D%20%7C%20%40Cfox_SerVer%20%231
 hysteria2://cd74c0a406664a5bc0bac098220a2468@144.31.49.138:443?insecure=0&sni=ru1.sferavpn.pro🇷🇺@FreakConfig&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#9%7C%5B%20%F0%9F%87%B7%F0%9F%87%BA%20%5D%20%7C%20%40Cfox_SerVer
 hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.249.79:443?insecure=0&sni=nl1.sferavpn.pro&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#9%7C%E2%99%BE%EF%B8%8F%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%E2%9E%A0%F0%9F%86%94%EF%B8%8F%40ATLAS_V2VPN%F0%9F%86%93%EF%B8%8F%F0%9F%93%B6%E2%80%8E%F0%9F%9B%B0%EF%B8%8F552...
-hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.59.206:443?insecure=1&sni=de1.sferavpn.pro&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#9%7C%5B%20%F0%9F%87%A9%F0%9F%87%AA%20%5D%20%7C%20%40Cfox_SerVer%20%232
-hysteria2://d1224950-ffab-4b9a-8696-431b40a6cfbd@cze-02.node.lumixnet.com:443?insecure=1&sni=cze-02.node.lumixnet.com#9%7C%F0%9F%87%BAUS-%40VPNine1
+hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.59.206:443?insecure=1&sni=de1.sferavpn.pro&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#9%7C%F0%9F%87%A9%F0%9F%87%AADE-%40VPNine1
+hysteria2://d1224950-ffab-4b9a-8696-431b40a6cfbd@cze-02.node.lumixnet.com:443?insecure=1&sni=cze-02.node.lumixnet.com#9%7C2%F0%9F%8F%80%40oneclickvpnkeys
 hysteria2://d4a705d40356ef719212045528e04594@45.149.172.80:443?insecure=1&sni=45.149.172.80&obfs=salamander&obfs-password=5c8f1a3e7b2d9046c1f8a5e3b7d04f2a#9%7C%F0%9F%8F%8097%40oneclickvpnkeys
 hysteria2://f6bcf150bc912812b240caf89bc89264@45.149.172.74:443?insecure=1&sni=45.149.172.74&obfs=salamander&obfs-password=5c8f1a3e7b2d9046c1f8a5e3b7d04f2a#9%7C%F0%9F%8F%80100%40oneclickvpnkeys
 hysteria2://fmaznn1lrzys7ddy@giftcard.gateway-stream.com:52076?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40Cnetvpn%20%F0%9F%87%BA%F0%9F%87%B2
@@ -98,7 +98,7 @@ hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52033?alpn=h3&fp=chrome
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52050?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%B3%F0%9F%87%B15%40JKVPN
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52050?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40cnetvpn%20%F0%9F%87%B1
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52067?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%B9%F0%9F%87%B76%40JKVPN
-hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52069?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%BA%F0%9F%87%B87%40JKVPN
+hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52069?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%BA7%40JKVPN
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52071?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%BA%F0%9F%87%B88%40JKVPN
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52088?alpn=h3&fp=chrome&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7C%F0%9F%87%BA%F0%9F%87%B89%40JKVPN
 hysteria2://tnnls@bwdf2fnt.xn--e1aatfr8bwa.online:443?insecure=0&sni=bwdf2fnt.xn--e1aatfr8bwa.online&obfs=salamander&obfs-password=b6d1f3888ab1d90dd11aac1dce427b81#9%7C%40fastkanfig%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
