@@ -55,7 +55,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|@ICV2RAY
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
