@@ -9,6 +9,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|[ 🇺🇸 ] | @Cfox_SerVer
+  password: dongtaiwang.com
+  port: 44356
+  server: 142.249.37.90
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   name: 11|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
