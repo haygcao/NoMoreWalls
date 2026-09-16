@@ -323,16 +323,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|@V2ray_confiig
-  obfs: salamander
-  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
-  password: 975e9f98b4a1b01285ffdb8158ced798
-  port: 443
-  server: 107.172.76.105
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|⚙️40@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
@@ -353,28 +343,6 @@ proxies:
   server: 72.56.16.243
   skip-cert-verify: true
   sni: hys34.wba-pn.ru
-  tls: false
-  type: hysteria2
-- name: 9|🇳172660 | ⚡️Telegram = t.me/SO...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.207.151.141
-  sni: vpn-in-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '9|@V2ray_confiig #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.223.122.197
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: 9|🇮🇳172666 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.154.58.87
-  sni: vpn-in-001.fastervpn.world
   tls: false
   type: hysteria2
 - name: 9|⚙️90@oneclickvpnkeys
@@ -546,14 +514,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '9|@V2ray_confiig #3'
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 144.31.93.126
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: '9|کانال تلگرام : Free_VPN_CH@ #1'
