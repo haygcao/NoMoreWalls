@@ -19,16 +19,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: V2RayyNGvpn&Telegram
-  password: Ur0okuRxze
-  port: 443
-  server: 91.107.140.154
-  skip-cert-verify: false
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '9|Telegram: @Daily_Configs'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -39,7 +29,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #2'
+- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 64.188.98.171
