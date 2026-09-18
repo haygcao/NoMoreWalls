@@ -174,7 +174,7 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 9|82@oneclickvpnkeys
+- name: 9|[ 🇩🇰 ] | @Cfox_SerVer
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: se.xiaoliyu.cyou
@@ -246,7 +246,7 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '9|[ 🇩 ] | @Cfox_SerVer #1'
+- name: 9|[ 🇩 ] | @Cfox_SerVer
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.176
@@ -263,7 +263,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
+- name: 9|@AZARBAYJAB1
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -619,7 +619,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|[  ] | @Cfox_SerVer
+- name: '9|@Daily_Configs #3'
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
   password: xbr3ppxk7rv068c4
@@ -628,17 +628,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|[ 🇫🇮 ] | @Cfox_SerVer
-  obfs: salamander
-  obfs-password: x5y77oxwfcl868u3
-  password: xbr3ppxk7rv068c4
-  port: 52030
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn 🇮
+- name: 9|Telegram 🆔@cnetvpn
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
