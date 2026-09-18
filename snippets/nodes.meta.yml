@@ -181,11 +181,11 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|[  ] | @Cfox_SerVer
+- name: 9|🐒96@oneclickvpnkeys
   password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
   port: 22443
   server: 91.240.86.70
-  skip-cert-verify: true
+  sni: hy.quattro-tech.ru
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -206,7 +206,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|Telegram @cnetvpn 🇷🇺
+- name: '9|Telegram @cnetvpn '
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -216,7 +216,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '9| @NOFiLTERING2 | ️    ش | ⚡ | '
+- name: '9| @NOFiLTERING2 |     ش |  | '
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -246,19 +246,11 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|97@oneclickvpnkeys
-  password: CompanyHy2_2026!
-  port: 36712
-  server: 38.60.204.239
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|5💈@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+- name: '9|[ 🇩 ] | @Cfox_SerVer #1'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.176
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -271,7 +263,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|🇩🇪173967 | ⚡️Telegram = t.me/S...
+- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -372,7 +364,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|90@oneclickvpnkeys
+- name: 9|🐒90@oneclickvpnkeys
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: 144.31.93.126
@@ -390,7 +382,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|[ 🇷🇺 ] | @Cfox_SerVer #1'
+- name: 9|@proxy_kafee
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -436,14 +428,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
@@ -626,27 +610,25 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|[ 🇫🇮 ] | @Cfox_SerVer
+- name: '9|@Daily_Configs #2'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: xbr3ppxk7rv068c4
   port: 52021
   server: assets.gateway-stream.com
-  skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|[ 🇫🇮 ] | @Cfox_SerVer #2'
+- name: 9|[  ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
   password: xbr3ppxk7rv068c4
   port: 52023
   server: assets.gateway-stream.com
-  skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|[ 🇫🇮 ] | @Cfox_SerVer #3'
+- name: 9|[ 🇫🇮 ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: x5y77oxwfcl868u3
   password: xbr3ppxk7rv068c4
@@ -654,16 +636,6 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: ''
-  tls: false
-  type: hysteria2
-- name: '9|[ 🇫🇮 ] | @Cfox_SerVer #4'
-  obfs: salamander
-  obfs-password: x5y77oxwfcl868u3
-  password: xbr3ppxk7rv068c4
-  port: 52030
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 9|Telegram 🆔@cnetvpn 🇮
