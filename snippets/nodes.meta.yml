@@ -118,7 +118,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '8|未命名 #6'
+- name: 8,9|176534 | ⚡️Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -134,6 +134,14 @@ proxies:
   port: 36758
   server: 91.142.73.159
   skip-cert-verify: true
+  sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 9|@awlix_ir
+  obfs-password: dzcb7hv6i2kx2zze
+  password: 5bcodmhjtyfyyrqh
+  port: 36758
+  server: awlix1.pcjxq.digital
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
@@ -187,15 +195,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|33@oneclickvpnkeys
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 151.247.197.253
-  skip-cert-verify: true
-  sni: 151.247.197.253
-  tls: false
-  type: hysteria2
-- name: '9|@proxy_kafee : کانال تلگرام'
+- name: 9|@filembad
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -444,7 +444,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇮
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
