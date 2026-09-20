@@ -118,7 +118,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: 8,9|[  ] | @Cfox_SerVer
+- name: '8|未命名 #6'
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -135,24 +135,6 @@ proxies:
   server: 91.142.73.159
   skip-cert-verify: true
   sni: cdn77.dmtr.ru
-  tls: false
-  type: hysteria2
-- name: 9|@awlix_ir
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: awlix1.pcjxq.digital
-  sni: cdn77.dmtr.ru
-  tls: false
-  type: hysteria2
-- name: '9|Telegram @cnetvpn '
-  obfs: salamander
-  obfs-password: 09p333uviv2qal0y
-  password: 617z9r1mbzbm1t5z
-  port: 52000
-  server: giftcard.gisora.ir
-  skip-cert-verify: false
-  sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
 - name: '9| @NOFiLTERING2 |     ش |  | '
@@ -183,6 +165,14 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 9|🇭🇰177164 | ⚡️Telegram = t.me/S...
+  password: HysTeria2026!Proxy
+  port: 8443
+  server: mz.hkychina.com
+  skip-cert-verify: false
+  sni: mz.hkychina.com
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -336,7 +326,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇪 @V2_MOD_SHOP
+- name: 9|🇺 @V2_MOD_SHOP
   password: fa1b99c89b5479752ae95af92a79e833
   port: 1443
   server: 89.124.86.136
@@ -424,7 +414,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn 🇮
+- name: 9|Telegram 🆔@cnetvpn
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
