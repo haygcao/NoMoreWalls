@@ -118,7 +118,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: 8,9|176534 | ⚡️Telegram = t.me/SOS...
+- name: 8,9|🇫🇮176534 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -195,7 +195,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@filembad
+- name: '9|@filembad #1'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -354,7 +354,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-@VPNine1
+- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: ue1s9nuqmy5fd9j5
   password: hdgvcjrpa23fi9bk
@@ -364,7 +364,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 9|🇩🇪DE-🚀@VPNine1
+- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
   obfs: salamander
   obfs-password: ue1s9nuqmy5fd9j5
   password: hdgvcjrpa23fi9bk
