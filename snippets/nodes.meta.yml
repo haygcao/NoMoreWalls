@@ -137,6 +137,16 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
+- name: '9|Telegram @cnetvpn '
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
 - name: '9| @NOFiLTERING2 |     ش |  | '
   obfs: salamander
   obfs-password: uw9b2qq5rx
@@ -167,7 +177,7 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|🇭🇰177164 | ⚡️Telegram = t.me/S...
+- name: 9|[  ] | @Cfox_SerVer
   password: HysTeria2026!Proxy
   port: 8443
   server: mz.hkychina.com
@@ -296,7 +306,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|[ 🇷🇺 ] | @Cfox_SerVer
+- name: '9|Tel: @Daily_Configs'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -316,7 +326,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|Telegram: @Daily_Configs'
+- name: '9|Channel: @Daily_Configs'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -326,7 +336,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇺 @V2_MOD_SHOP
+- name: 9|🇪 @V2_MOD_SHOP
   password: fa1b99c89b5479752ae95af92a79e833
   port: 1443
   server: 89.124.86.136
@@ -396,7 +406,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #2'
+- name: '9|[  ] | @Cfox_SerVer #1'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: xbr3ppxk7rv068c4
@@ -414,7 +424,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇮
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: xf2ak19a4uajprxg
