@@ -118,7 +118,7 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: 8,9|🇫🇮176534 | ⚡️Telegram = t.me/S...
+- name: 8,9|[  ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
@@ -195,7 +195,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|@filembad #1'
+- name: '9|@Daily_Configs : کانال ا'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -306,7 +306,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@Daily_Configs
+- name: 9|[ 🇷🇺 ] | @Cfox_SerVer
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -352,26 +352,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|[ 🇩🇪 ] | @Cfox_SerVer
-  obfs: salamander
-  obfs-password: ue1s9nuqmy5fd9j5
-  password: hdgvcjrpa23fi9bk
-  port: 53033
-  server: mirage.ehsanazizi-speed-server.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: '9|[ 🇩🇪 ] | @Cfox_SerVer #1'
-  obfs: salamander
-  obfs-password: ue1s9nuqmy5fd9j5
-  password: hdgvcjrpa23fi9bk
-  port: 53033
-  server: mirage.ehsanazizi-speed-server.com
-  skip-cert-verify: false
-  sni: mirage.ehsanazizi-speed-server.com
   tls: false
   type: hysteria2
 - name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
