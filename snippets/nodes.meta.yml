@@ -17,7 +17,7 @@ proxies:
   sni: es1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 8|嘎嘎
+- name: 8,9|🛖93@oneclickvpnkeys
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: se.xiaoliyu.cyou
@@ -118,20 +118,14 @@ proxies:
   sni: news.gazette.help
   tls: false
   type: hysteria2
-- name: '8|未命名 #6'
+- name: 8,9|🛖97@oneclickvpnkeys
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
   password: sxc15led4b0vp5fy
   port: 8443
   server: musicclips.videolinks.ru
+  skip-cert-verify: true
   sni: musicclips.videolinks.ru
-  tls: false
-  type: hysteria2
-- name: 9|[ 🇷🇺 ] | @Cfox_SerVer
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: itsallproxy.quattro-tech.ru
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -144,7 +138,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|Telegram @cnetvpn 🇷🇺
+- name: '9|Telegram @cnetvpn '
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -182,6 +176,14 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 9|91@oneclickvpnkeys
+  password: BWAFlp8g53
+  port: 443
+  server: hys28.wba-pn.ru
+  skip-cert-verify: true
+  sni: hys28.wba-pn.ru
   tls: false
   type: hysteria2
 - name: 9|107
@@ -293,7 +295,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: 9| - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -323,7 +325,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|Channel: @Daily_Configs'
+- name: 9|🇩🇪178416 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -343,7 +345,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|60@oneclickvpnkeys
+- name: 9|🛖60@oneclickvpnkeys
   password: gf1
   port: 443
   server: 173.212.201.85
@@ -381,6 +383,14 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🛖94@oneclickvpnkeys
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: 217.60.182.79
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: 9|@fastkanfig کانال تلگرام
