@@ -336,14 +336,6 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇪 @V2_MOD_SHOP
-  password: fa1b99c89b5479752ae95af92a79e833
-  port: 1443
-  server: 89.124.86.136
-  skip-cert-verify: false
-  sni: fast.patrik-service.com
-  tls: false
-  type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
