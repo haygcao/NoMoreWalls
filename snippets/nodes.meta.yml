@@ -127,7 +127,14 @@ proxies:
   sni: musicclips.videolinks.ru
   tls: false
   type: hysteria2
-- name: 9|@Begoo_VPN ²⁹⁰
+- name: 9|[ 🇷🇺 ] | @Cfox_SerVer
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 22443
+  server: 91.240.86.70
+  sni: itsallproxy.quattro-tech.ru
+  tls: false
+  type: hysteria2
+- name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
   password: 5bcodmhjtyfyyrqh
@@ -137,7 +144,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '9|Telegram @cnetvpn '
+- name: 9|Telegram @cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -195,7 +202,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@filembad
+- name: 9|@proxy_kafee
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -316,16 +323,6 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|@V2ray_confiig
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.249.79
-  skip-cert-verify: false
-  sni: nl1.sferavpn.pro
-  tls: false
-  type: hysteria2
 - name: '9|Channel: @Daily_Configs'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -344,6 +341,14 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|60@oneclickvpnkeys
+  password: gf1
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
   tls: false
   type: hysteria2
 - name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
@@ -398,7 +403,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #2'
+- name: 9|🛖70@oneclickvpnkeys
+  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
+  port: 8443
+  server: 82.38.64.229
+  skip-cert-verify: true
+  sni: hopp-swizland-new.mysynology.net
+  tls: false
+  type: hysteria2
+- name: '9|@Daily_Configs #3'
   obfs: salamander
   obfs-password: mtg2vchyir6la3et
   password: xbr3ppxk7rv068c4
@@ -407,7 +420,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #3'
+- name: '9|@Daily_Configs #4'
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
   password: xbr3ppxk7rv068c4
