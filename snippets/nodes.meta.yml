@@ -196,7 +196,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@proxy_kafee
+- name: '9|@Daily_Configs : کانال ا'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -287,6 +287,16 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪178943 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 443
+  server: 168.222.43.35
+  skip-cert-verify: false
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -335,14 +345,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🛖60@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
   tls: false
   type: hysteria2
 - name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
