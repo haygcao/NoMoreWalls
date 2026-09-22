@@ -42,14 +42,6 @@ proxies:
 - name: 8|未命名
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 35.181.169.140
-  skip-cert-verify: true
-  sni: 35.181.169.140
-  tls: false
-  type: hysteria2
-- name: '8|未命名 #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
   sni: whatsapp.com
@@ -63,7 +55,7 @@ proxies:
   sni: vpn-uk-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: '8|未命名 #2'
+- name: '8|未命名 #1'
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: go.wwwinternetvideo.click
@@ -87,7 +79,7 @@ proxies:
   server: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '8|未命名 #3'
+- name: '8|未命名 #2'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: gta.internet-card.sbs
@@ -95,7 +87,7 @@ proxies:
   sni: gta.internet-card.sbs
   tls: false
   type: hysteria2
-- name: '8|未命名 #4'
+- name: '8|未命名 #3'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.129.241.226
@@ -111,7 +103,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '8|未命名 #5'
+- name: '8|未命名 #4'
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: news.gazette.help
@@ -126,6 +118,14 @@ proxies:
   server: musicclips.videolinks.ru
   skip-cert-verify: true
   sni: musicclips.videolinks.ru
+  tls: false
+  type: hysteria2
+- name: 9|40
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 22443
+  server: 91.240.86.70
+  skip-cert-verify: false
+  sni: hy.quattro-tech.ru
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -178,20 +178,12 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|91@oneclickvpnkeys
+- name: 9|🛖91@oneclickvpnkeys
   password: BWAFlp8g53
   port: 443
   server: hys28.wba-pn.ru
   skip-cert-verify: true
   sni: hys28.wba-pn.ru
-  tls: false
-  type: hysteria2
-- name: 9|107
-  password: HysTeria2026!Proxy
-  port: 8443
-  server: mz.hkychina.com
-  skip-cert-verify: false
-  sni: mz.hkychina.com
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -295,7 +287,7 @@ proxies:
   sni: se.vpnjey2.dpdns.org
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -325,7 +317,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|🇩🇪178416 | ⚡️Telegram = t.me/S...
+- name: '9|Channel: @Daily_Configs'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -419,24 +411,6 @@ proxies:
   server: 82.38.64.229
   skip-cert-verify: true
   sni: hopp-swizland-new.mysynology.net
-  tls: false
-  type: hysteria2
-- name: '9|@Daily_Configs #3'
-  obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  password: xbr3ppxk7rv068c4
-  port: 52021
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '9|@Daily_Configs #4'
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  password: xbr3ppxk7rv068c4
-  port: 52023
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 9|Telegram 🆔@cnetvpn
