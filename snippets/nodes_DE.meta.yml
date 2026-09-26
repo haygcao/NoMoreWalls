@@ -9,16 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|25@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
-  port: 8443
-  server: 2.26.54.174
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪 V2RayyNGvpn 🇩🇪
+- name: '9|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: Telegram=V2RayyNGvpn
@@ -38,11 +29,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|28@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: '9|Channel : @Daily_Configs #2'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
+  server: 2.27.59.206
+  skip-cert-verify: false
+  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
