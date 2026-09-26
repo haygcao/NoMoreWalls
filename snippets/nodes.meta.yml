@@ -61,7 +61,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|️64@oneclickvpnkeys
+- name: 9|🕊️64@oneclickvpnkeys
   password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   port: 443
   server: se1.chromevpn.cc
@@ -76,7 +76,7 @@ proxies:
   sni: se.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 9|️68@oneclickvpnkeys
+- name: 9|🕊️68@oneclickvpnkeys
   password: 31329f25
   port: 4443
   server: 198.46.215.223
@@ -94,7 +94,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|Telegram @cnetvpn 🇺
+- name: '9|Telegram @cnetvpn '
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -104,7 +104,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 9| @NOFiLTERING2 | ️    ش | ⚡ | ...
+- name: '9| @NOFiLTERING2 | ️    ش |  | '
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -132,14 +132,6 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: 9|181143 | ⚡️Telegram = t.me/SOS...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.223.122.197
-  skip-cert-verify: true
-  sni: 'off'
   tls: false
   type: hysteria2
 - name: 9|@v2raybaaz
@@ -194,7 +186,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
+- name: '9|kurdconfig #1'
   obfs: salamander
   obfs-password: telegram-ID-conf0088
   password: TELEGRAM-ID-conf0088
@@ -203,7 +195,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 9|🇩🇪 V2RayyNGvpn 🇩🇪
+- name: 9|🇩🇪181296 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: Telegram=V2RayyNGvpn
@@ -213,7 +205,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #2'
+- name: '9|🇩🇪@FreakConfig #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -251,7 +243,7 @@ proxies:
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|@prrofile_purple | 𝗙𝗮𝗦𝗧 💚
+- name: 9|✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: d2e3c1b8a16952ae9cf06dfc05b3588a
   password: af24a0e4-f5a2-4b97-a678-992d45346147

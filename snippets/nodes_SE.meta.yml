@@ -1,8 +1,1 @@
-proxies:
-- name: 9|️64@oneclickvpnkeys
-  password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  port: 443
-  server: se1.chromevpn.cc
-  sni: se1.chromevpn.cc
-  tls: false
-  type: hysteria2
+proxies: []
