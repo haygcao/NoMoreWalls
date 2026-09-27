@@ -33,12 +33,24 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|🐸89@oneclickvpnkeys
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
+- name: 9|34@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
+  port: 443
+  server: 152.67.75.161
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '9|@Begoo_VPN '
+  obfs: salamander
+  obfs-password: dzcb7hv6i2kx2zze
+  password: 5bcodmhjtyfyyrqh
+  port: 36758
+  server: 91.142.73.159
+  skip-cert-verify: true
+  sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
 - name: '9|Telegram @cnetvpn '
@@ -51,7 +63,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '9| @NOFiLTERING2 |     ش |  | '
+- name: '9| @NOFiLTERING2 | ️    ش | ⚡ | '
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -59,6 +71,13 @@ proxies:
   server: 31.76.80.69
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
+  tls: false
+  type: hysteria2
+- name: 9|55@oneclickvpnkeys
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  port: 443
+  server: streambox.wwwinternetvideo.click
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '9|Telegram 🆔@Cnetvpn '
@@ -81,13 +100,12 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|🇩🇪182023 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
+- name: 9|🧿13@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
-  server: 2.26.54.174
+  server: 162.249.127.133
   skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -110,7 +128,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|🐸96@oneclickvpnkeys
+- name: 9|96@oneclickvpnkeys
   password: RN_3f80eeb4bbd0f13f
   port: 443
   server: 192.255.128.123
@@ -147,7 +165,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #1'
+- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #2'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -157,7 +175,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9| - NL - @FreeOnlineVPN
+- name: 9|🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -207,6 +225,22 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
+- name: 9|🧿27@oneclickvpnkeys
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.59
+  skip-cert-verify: true
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: 9|🧿24@oneclickvpnkeys
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.78
+  skip-cert-verify: true
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -239,6 +273,14 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
+- name: 9|🧿17@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.100
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
 - name: 9|Telegram 🆔@cnetvpn 🇱
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -247,14 +289,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🐸40@oneclickvpnkeys
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: 217.60.182.79
-  skip-cert-verify: true
-  sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: 9|🐸92@oneclickvpnkeys
@@ -294,7 +328,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|[  ] | @Cfox_SerVer
+- name: 9|[ 🇨🇭 ] | @Cfox_SerVer
   password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
   port: 8443
   server: 82.38.64.237

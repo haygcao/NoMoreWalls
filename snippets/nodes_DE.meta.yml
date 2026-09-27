@@ -9,26 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪182023 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: SalamanderKey1
-  password: HystPass2026!
-  port: 8443
-  server: 2.26.54.174
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: Telegram=V2RayyNGvpn
-  port: 443
-  server: 91.107.150.74
-  skip-cert-verify: false
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #1'
+- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #2'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
