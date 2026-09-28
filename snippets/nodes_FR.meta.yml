@@ -1,9 +1,1 @@
-proxies:
-- name: 9|🇫🇷183069 | ⚡️Telegram = t.me/S...
-  password: 2561c6b1a3069d3170b4d7e1ecc08c65
-  port: 443
-  server: paris.nerabotaet.com
-  skip-cert-verify: true
-  sni: paris.nerabotaet.com
-  tls: false
-  type: hysteria2
+proxies: []
