@@ -15,15 +15,6 @@ proxies:
   sni: se.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 8|182609 | Telegram = t.me/SOSke...
-  obfs: salamander
-  obfs-password: WduP1W9fiqZLfRA93UKXRyN83l6
-  password: 879ec4ed-139e-4204-82c4-4488aaae4699
-  port: 4712
-  server: 104.222.222.222
-  sni: domin.com
-  tls: false
-  type: hysteria2
 - name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -34,7 +25,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|139909 | ⚡️Telegram = t.me/SOS...
+- name: 8|139909 | Telegram = t.me/SOSke...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -305,99 +296,186 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 100.42.228.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 11,12|印尼
+  name: 11,12|香港3|@ripaojiedian
   network: ws
   port: '443'
-  server: 24864168545164.oylfmxz.cn
-  servername: 24864168545164.oylfmxz.cn
+  server: ADncdOvLHR4M1P36.v.3dns.vip
+  servername: ADncdOvLHR4M1P36.v.3dns.vip
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 24864168545164.oylfmxz.cn
-    path: /
-- cipher: aes-128-gcm
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36602
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36602
-  server: gd2.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇨🇳 台湾|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36603
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36604
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36609
-  server: gd.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 美国2-IEPL-GPT
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd2.bjnet2.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 11|🇺🇸 美国|@ripaojiedian
-  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
-  plugin: obfs
-  plugin-opts:
-    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
-    mode: http
-  port: 36608
-  server: gd.bjnet2.com
-  type: ss
+      Host: ADncdOvLHR4M1P36.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|香港2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kBONDXW9liFCi4h4.v.3dns.vip
+  servername: kBONDXW9liFCi4h4.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kBONDXW9liFCi4h4.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|香港4|@ripaojiedian
+  network: ws
+  port: '443'
+  server: aZW0eunYVdvRe73k.v.3dns.vip
+  servername: aZW0eunYVdvRe73k.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: aZW0eunYVdvRe73k.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|香港5|@ripaojiedian
+  network: ws
+  port: '443'
+  server: syJ2gGUgMwBwQwQx.v.3dns.vip
+  servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|日本|@ripaojiedian
+  network: ws
+  port: '443'
+  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|日本2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kQov7UKaDknXb8a3.v.3dns.vip
+  servername: kQov7UKaDknXb8a3.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kQov7UKaDknXb8a3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|日本3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: kneNaKHeSXnZH259.v.3dns.vip
+  servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kneNaKHeSXnZH259.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|新加坡|@ripaojiedian
+  network: ws
+  port: '443'
+  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|韩国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 8nTzyR5KNivfabaT.v.3dns.vip
+  servername: 8nTzyR5KNivfabaT.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 8nTzyR5KNivfabaT.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 53vXOVarmgcreAsv.v.3dns.vip
+  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 53vXOVarmgcreAsv.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 11,12|美国2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
