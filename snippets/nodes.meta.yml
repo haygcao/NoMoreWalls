@@ -33,13 +33,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- fingerprint: chrome
-  name: 9|🇵🇱182689 | ⚡️Telegram = t.me/S...
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+- name: 9|🇫🇷183069 | ⚡️Telegram = t.me/S...
+  password: 2561c6b1a3069d3170b4d7e1ecc08c65
   port: 443
-  server: mix.pantera-radio.ru
+  server: paris.nerabotaet.com
   skip-cert-verify: true
-  sni: mix.pantera-radio.ru
+  sni: paris.nerabotaet.com
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -52,7 +51,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '9|Telegram @cnetvpn '
+- name: 9|Telegram @cnetvpn 🇷
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -62,7 +61,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: '9| @NOFiLTERING2 | ️    ش | ⚡ | '
+- name: 9|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -82,7 +81,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn 🇪
+- name: 9|182939 | ⚡️Telegram = t.me/SOS...
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: nl01ntrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: '1'
+  tls: false
+  type: hysteria2
+- name: '9|Telegram 🆔@cnetvpn '
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
   password: 8z2e26xkqsa598s3
@@ -90,6 +97,13 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 9|🇩183068 | ⚡️Telegram = t.me/SO...
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.189
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -112,7 +126,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #1'
+- name: 9|🇩🇪@FreakConfig
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: Telegram=V2RayyNGvpn
@@ -122,7 +136,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #2'
+- name: 9|🇩🇪183048 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -132,7 +146,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #2'
+- name: '9|🇩🇪 V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: V2RayyNGvpn
@@ -142,7 +156,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇱 - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -152,7 +166,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|  @vistav2ray  👈👈کانال ما ✅
+- name: 9|✅  @vistav2ray  👈👈کانال ما ✅
   obfs: salamander
   obfs-password: d2e3c1b8a16952ae9cf06dfc05b3588a
   password: af24a0e4-f5a2-4b97-a678-992d45346147
@@ -182,7 +196,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '9|Channel : @Daily_Configs #2'
+- name: '9|@Daily_Configs #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -202,7 +216,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|✨ @NOFiLTERING2 | ❤️ وصل شدی ج...
+- name: 9| @NOFiLTERING2 | ️ ل   ش | ⚡ |...
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -253,7 +267,7 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: '9|Telegram 🆔@cnetvpn 🇪 #1'
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
