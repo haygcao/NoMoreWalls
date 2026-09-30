@@ -33,7 +33,15 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|@Begoo_VPN ²⁹⁰
+- name: 9|🇷🇺184413 | ⚡️Telegram = t.me/S...
+  password: 0dd50f72-bf39-4b59-b183-61b3fa52df57
+  port: 443
+  server: 46.254.18.107
+  skip-cert-verify: false
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
   password: 5bcodmhjtyfyyrqh
@@ -43,7 +51,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '9|Telegram @cnetvpn '
+- name: 9|Telegram @cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
   password: 617z9r1mbzbm1t5z
@@ -83,13 +91,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|183683 | Telegram = t.me/SOSke...
-  password: 96ab5cd282733fd4c312a61f972f330a
-  port: 443
-  server: vp3.yysyy.online
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -108,6 +109,14 @@ proxies:
   server: 162.249.125.133
   skip-cert-verify: false
   sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 9|🇺184357 | ⚡️Telegram = t.me/SO...
+  password: RN_3f80eeb4bbd0f13f
+  port: 443
+  server: 192.255.128.123
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: 9|🇩🇪 V2RayyNGvpn 🇩🇪
@@ -160,6 +169,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇺🇸184360 | ⚡️Telegram = t.me/S...
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
 - name: 9|🇷🇺@FreakConfig
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
@@ -178,13 +194,6 @@ proxies:
   server: 2.27.59.206
   skip-cert-verify: false
   sni: de1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: 9|🇺183766 | ⚡️Telegram = t.me/SO...
-  password: cloud
-  port: 443
-  server: ss.marmount.space
-  sni: ss.marmount.space
   tls: false
   type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
