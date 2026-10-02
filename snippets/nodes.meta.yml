@@ -43,6 +43,16 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
+- name: '9|Telegram @cnetvpn '
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
+  skip-cert-verify: false
+  sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
 - name: 9|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
@@ -83,21 +93,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 9|33@oneclickvpnkeys&insecure=1#...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.181.166.40
-  sni: vpn-fr-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 9|🇪185530 | ⚡️Telegram = t.me/SO...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -118,7 +113,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|🇩🇪185614 | ⚡️Telegram = t.me/S...
+- name: 9|🇩🇪185614 | ️Telegram = t.me/SO...
   obfs: salamander
   obfs-password: 6ccfcef2e116b03ce9047333
   password: TPey1Zqj9th9y2JKyiuqVPRTvfjQC-nB
@@ -208,14 +203,6 @@ proxies:
   sni: onecloudstream.com
   tls: false
   type: hysteria2
-- name: 9|🗳️37@oneclickvpnkeys
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 95.85.252.78
-  skip-cert-verify: true
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -253,6 +240,13 @@ proxies:
   port: 8443
   server: 77.74.123.102
   skip-cert-verify: false
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 9|14@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.103
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
