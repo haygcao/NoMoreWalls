@@ -37,14 +37,6 @@ proxies:
   sni: ru1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 9|🪙31@oneclickvpnkeys
-  password: 3a92b39a-5f02-415e-a908-783ec320e83f
-  port: 8443
-  server: 153.76.190.41
-  skip-cert-verify: true
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
 - name: 9|🪙70@oneclickvpnkeys
   password: 4291c983-c520-46ac-82cc-48f14bef573f
   port: 35013
@@ -151,7 +143,7 @@ proxies:
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|🆔️@ATLAS_V2VPN️️597
+- name: 9|️🆔️@ATLAS_V2VPN️️597
   obfs: salamander
   obfs-password: 6ccfcef2e116b03ce9047333
   password: TPey1Zqj9th9y2JKyiuqVPRTvfjQC-nB
@@ -201,7 +193,7 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 9|US-@VPNine1
+- name: 9|🇷🇺@FreakConfig
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
