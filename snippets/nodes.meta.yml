@@ -9,17 +9,17 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@meliproxyy
+- name: 9|@ange1Vpn کانال تلگرام ما
   obfs: salamander
-  obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
-  password: 033dc6b532
-  port: 11592
-  server: 77.232.139.128
+  obfs-password: 7y0p9k93w7ryw8tz
+  password: 17537e14543a478b9c7a558870d814f3
+  port: 51791
+  server: mhzedir.qzz.io
   skip-cert-verify: false
-  sni: srv-8718e6.frd21.ru
+  sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple |  '
+- name: 9|@meliproxyy
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -27,6 +27,13 @@ proxies:
   server: 109.104.153.124
   skip-cert-verify: false
   sni: srv-0e5387.frd21.ru
+  tls: false
+  type: hysteria2
+- name: 9|️64@oneclickvpnkeys
+  password: 529f1911-04d5-4427-94b9-c851fd459a27
+  port: 443
+  server: nl-hy-test.tcp-reset-club.net
+  sni: tcp-reset-club.net
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -89,6 +96,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 9|🛠️38@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.136
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
 - name: 9|کانال تلگرام ما ange1Vpn@
   obfs: salamander
   obfs-password: 7y0p9k93w7ryw8tz
@@ -109,7 +123,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|@FarazV2ray
+- name: '9|@FarazV2ray #1'
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
@@ -129,7 +143,7 @@ proxies:
   sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
-- name: 9| - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -149,9 +163,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|@ICV2RAY
+- name: 9|🇷@FreakConfig
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
@@ -161,7 +173,9 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 9|🇷@FreakConfig
+- alpn:
+  - h3
+  name: '9|@V2raySaman #1'
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
@@ -177,6 +191,16 @@ proxies:
   password: capadm96216165
   port: 443
   server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: 9|🇫🇷187923 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
+  port: 443
+  server: 51.77.217.70
   skip-cert-verify: true
   sni: vpn.local
   tls: false
@@ -227,16 +251,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪187621 | Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: 6ccfcef2e116b03ce9047333
-  password: migrated-d730e46f5c1b
-  port: 5443
-  server: fastly.vexogf.ir
-  skip-cert-verify: false
-  sni: tun-a-1.bexait.ir
-  tls: false
-  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -267,7 +281,7 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- name: 9|️15@oneclickvpnkeys
+- name: 9|🛠️15@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 77.74.123.104
@@ -275,7 +289,7 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- name: 9|️13@oneclickvpnkeys
+- name: 9|🛠️13@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 77.74.123.105
@@ -317,13 +331,6 @@ proxies:
   port: 8443
   server: 82.38.64.237
   skip-cert-verify: false
-  sni: hopp-swizland-new.mysynology.net
-  tls: false
-  type: hysteria2
-- name: 9|@V2ray_confiig
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.239
   sni: hopp-swizland-new.mysynology.net
   tls: false
   type: hysteria2
