@@ -19,16 +19,6 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
-- name: '9|@ange1Vpn ا ا '
-  obfs: salamander
-  obfs-password: 7y0p9k93w7ryw8tz
-  password: 17537e14543a478b9c7a558870d814f3
-  port: 51791
-  server: mhzedir.qzz.io
-  skip-cert-verify: false
-  sni: mhzedir.qzz.io
-  tls: false
-  type: hysteria2
 - name: '9|@prrofile_purple |  '
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
@@ -237,6 +227,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 9|🇩🇪187621 | Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: migrated-d730e46f5c1b
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -267,11 +267,18 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- name: 9|🪙3@oneclickvpnkeys
+- name: 9|️15@oneclickvpnkeys
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
-  server: 77.74.123.99
+  server: 77.74.123.104
   skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 9|️13@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.105
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2

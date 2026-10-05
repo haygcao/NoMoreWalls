@@ -1,6 +1,5 @@
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#8%2C9%7C%40KAFING_2
 hysteria2://033dc6b532@77.232.139.128:11592?insecure=0&sni=srv-8718e6.frd21.ru&obfs=salamander&obfs-password=eba1b4766d2a26d6c167e2d2e9efabf4#9%7C%40meliproxyy
-hysteria2://17537e14543a478b9c7a558870d814f3@mhzedir.qzz.io:51791?insecure=0&sni=mhzedir.qzz.io&obfs=salamander&obfs-password=7y0p9k93w7ryw8tz#9%7C%40ange1Vpn%20%D8%A7%20%D8%A7%20
 hysteria2://35d26d53bc@109.104.153.124:11592?insecure=0&sni=srv-0e5387.frd21.ru&obfs=salamander&obfs-password=87d72c2949c0ca85bbda09459244e374#9%7C%40prrofile_purple%20%7C%20%20
 hysteria2://5bcodmhjtyfyyrqh@91.142.73.159:36758?insecure=1&sni=cdn77.dmtr.ru&obfs=salamander&obfs-password=dzcb7hv6i2kx2zze#9%7C%40Begoo_VPN%20
 hysteria2://617z9r1mbzbm1t5z@giftcard.gisora.ir:52000?insecure=0&sni=giftcard.gisora.ir&obfs=salamander&obfs-password=09p333uviv2qal0y#9%7CTelegram%20%40cnetvpn%20
@@ -22,10 +21,12 @@ hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.59.206:443?insecure=0&sni=de1.
 hysteria2://e19b5aa3-16c9-435a-8bc9-76f2f6ddff43@222.167.245.240:28015?insecure=0&sni=api-test-udp-traffic.kaneki.cfd#9%7C%40ICV2RAY%20%231
 hysteria2://e19b5aa3-16c9-435a-8bc9-76f2f6ddff43@64.188.119.177:28015?insecure=0&sni=api-test-udp-trf.kaneki.cfd#9%7C%40ICV2RAY%20%232
 hysteria2://fmaznn1lrzys7ddy@giftcard.gateway-stream.com:52076?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40Cnetvpn%20%F0%9F%87%BA%F0%9F%87%B2
+hysteria2://migrated-d730e46f5c1b@fastly.vexogf.ir:5443?insecure=0&sni=tun-a-1.bexait.ir&obfs=salamander&obfs-password=6ccfcef2e116b03ce9047333#9%7C%F0%9F%87%A9%F0%9F%87%AA187621%20%7C%20Telegram%20%3D%20t.me/SOS...
 hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?insecure=0&sni=hy2.aspidnet.xyz&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3#9%7C%40confiig_hub%20%231
 hysteria2://rjj39jg8iphgd06h@pro2.riziro.ir:44100?alpn=h3&fp=chrome&sni=pro2.riziro.ir&obfs=salamander&obfs-password=2gg0tx9d2etug8n9#9%7Chysteria
 hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.102:8443?insecure=0&sni=grape-test-italy.dynuddns.net#9%7C8
-hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.99:8443?insecure=1&sni=grape-test-italy.dynuddns.net#9%7C%F0%9F%AA%993%40oneclickvpnkeys
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.104:8443?insecure=1&sni=grape-test-italy.dynuddns.net#9%7C%EF%B8%8F15%40oneclickvpnkeys
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.105:8443?sni=grape-test-italy.dynuddns.net#9%7C%EF%B8%8F13%40oneclickvpnkeys
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52050?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40cnetvpn%20%F0%9F%87%B1
 hysteria2://tnnls@bwdf2fnt.xn--e1aatfr8bwa.online:443?insecure=0&sni=bwdf2fnt.xn--e1aatfr8bwa.online&obfs=salamander&obfs-password=b6d1f3888ab1d90dd11aac1dce427b81#9%7C%40fastkanfig%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 hysteria2://vz86jgszv4zszchv@giftcard.gateway-stream.com:52062?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40cnetvpn%20%F0%9F%87%AA
@@ -67,4 +68,5 @@ vless://055dce30-0ee3-44c3-b680-be1c95b8d6e7@107.151.250.68:443?allowInsecure=0&
 vless://9638a83e-f1f7-4cc8-a602-924965d9534f@wr28-6njjgu.linenheath.site:443?allowInsecure=0&sni=www.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0139
 vless://f06c6039-a489-3d78-a676-ed43be6deca3@155.117.199.13:39211?allowInsecure=0&sni=cdnjs.cloudflare.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0142
 vless://ec31f6d7-c71a-413d-93aa-24296805a594@nsuc-znkbig.avonex.top:443?allowInsecure=0&sni=www.bing.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CUS_speednode_0144
+hhysteria2://17537e14543a478b9c7a558870d814f3@mhzedir.qzz.io:51791?security=tls&obfs=salamander&obfs-password=7y0p9k93w7ryw8tz&insecure=0&sni=mhzedir.qzz.io#@ange1Vpn ا ا 
 hhy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50#139909 | Telegram = t.me/SOSkeyNET
