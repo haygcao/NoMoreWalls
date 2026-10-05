@@ -29,27 +29,7 @@ proxies:
   sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
-- name: 9|96@oneclickvpnkeys
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: '9|@prrofile_purple |  '
-  obfs: salamander
-  obfs-password: 87d72c2949c0ca85bbda09459244e374
-  password: 35d26d53bc
-  port: 11592
-  server: 109.104.153.124
-  skip-cert-verify: false
-  sni: srv-0e5387.frd21.ru
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇳🇱187353 | Telegram = t.me/SOS...
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -159,7 +139,7 @@ proxies:
   sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -179,7 +159,9 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 #1'
+- alpn:
+  - h3
+  name: 9|@ICV2RAY
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
@@ -189,9 +171,7 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇫🇷187350 | ⚡️Telegram = t.me/S...
+- name: 9|🇷@FreakConfig
   obfs: salamander
   obfs-password: ec66908dbc46e6920143d9b684adf277
   password: ca78f919e6
@@ -229,16 +209,6 @@ proxies:
   server: 2.27.59.206
   skip-cert-verify: false
   sni: de1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: 9|🪙98@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  password: d042d150716709bb778cc73889cddb02
-  port: 443
-  server: 138.2.89.249
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '9|@ICV2RAY #1'
