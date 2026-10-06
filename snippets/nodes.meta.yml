@@ -19,7 +19,7 @@ proxies:
   sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
-- name: 9|@meliproxyy
+- name: 9|Tel-@ProxyMtAlpha 2
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
   password: 35d26d53bc
@@ -64,6 +64,14 @@ proxies:
   server: 31.76.80.69
   skip-cert-verify: false
   sni: fiproxy1.lockdwn.com
+  tls: false
+  type: hysteria2
+- name: 9|️93@oneclickvpnkeys
+  password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
+  port: 443
+  server: streambox.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: streambox.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: 9|@vmesskhodam
@@ -143,7 +151,7 @@ proxies:
   sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
-- name: 9|🇳🇱 - NL - @FreeOnlineVPN
+- name: 9|🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -191,16 +199,6 @@ proxies:
   password: capadm96216165
   port: 443
   server: 208.69.78.217
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇷187923 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-  password: capadmbd5f18bd
-  port: 443
-  server: 51.77.217.70
   skip-cert-verify: true
   sni: vpn.local
   tls: false
@@ -271,14 +269,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 9|8
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.102
-  skip-cert-verify: false
-  sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
 - name: 9|🛠️15@oneclickvpnkeys
