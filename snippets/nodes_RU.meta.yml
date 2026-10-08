@@ -1,17 +1,11 @@
 proxies:
-- name: 9|🇷🇺189942 | ️Telegram = t.me/SO...
-  password: Hd7N0TU7Ow5ZqaIx
-  port: 25172
-  server: us5.h1cloud.net
-  skip-cert-verify: true
-  sni: us5.h1cloud.net
-  tls: false
-  type: hysteria2
-- name: 9|🇷🇺190020 | ⚡️Telegram = t.me/S...
-  password: cc4074d6-f450-4025-833a-a6e0100ceaff
-  port: 443
-  server: 138.124.254.233
+- name: 9|Telegram @cnetvpn 🇷🇺
+  obfs: salamander
+  obfs-password: 09p333uviv2qal0y
+  password: 617z9r1mbzbm1t5z
+  port: 52000
+  server: giftcard.gisora.ir
   skip-cert-verify: false
-  sni: crt.molniya.sbs
+  sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
