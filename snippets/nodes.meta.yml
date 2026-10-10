@@ -305,7 +305,7 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 9|191339 | ️Telegram = t.me/SOSk...
+- name: 9|191429 | ️Telegram = t.me/SOSk...
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
@@ -325,17 +325,7 @@ proxies:
   sni: ru1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 9|@B2Hub
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: false
-  sni: de1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: 9|42@oneclickvpnkeys
+- name: 9|🍄42@oneclickvpnkeys
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   port: 9443
   server: 104.165.205.21
@@ -348,24 +338,6 @@ proxies:
   server: lv02.gotosvo.com
   skip-cert-verify: true
   sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: 9|191382 | ⚡️Telegram = t.me/SOS...
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: 152.32.254.68
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰191263 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: nas.aizhzo.com
-  sni: nas.aizhzo.com
   tls: false
   type: hysteria2
 - name: 9|✈️39@oneclickvpnkeys
@@ -399,7 +371,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: 9|🇱🇻hysteria
+  name: 9|hysteria
   obfs: salamander
   obfs-password: 2gg0tx9d2etug8n9
   password: rjj39jg8iphgd06h
