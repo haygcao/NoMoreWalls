@@ -9,12 +9,13 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|✈️71@oneclickvpnkeys
+- name: 9|@meliproxyy
   obfs: salamander
   obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
   password: 033dc6b532
   port: 11592
   server: 77.232.139.128
+  skip-cert-verify: false
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
@@ -60,13 +61,6 @@ proxies:
   server: 91.240.86.70
   skip-cert-verify: true
   sni: hy.quattro-tech.ru
-  tls: false
-  type: hysteria2
-- name: 9|🍁75@oneclickvpnkeys
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
-  sni: srv-17e124.21freedom.net
   tls: false
   type: hysteria2
 - name: 9|✈️44@oneclickvpnkeys
@@ -175,14 +169,6 @@ proxies:
   sni: hy.kirian.su
   tls: false
   type: hysteria2
-- name: 9|🍁65@oneclickvpnkeys
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|✈️35@oneclickvpnkeys
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 28152
@@ -224,7 +210,7 @@ proxies:
   sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪190894 | ️Telegram = t.me/SO...
+- name: 9|✈️64@oneclickvpnkeys
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 9443
   server: 162.249.126.42
@@ -279,6 +265,14 @@ proxies:
   sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
+- name: 9|191042 | ️Telegram = t.me/SOSk...
+  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
+  port: 8443
+  server: 43.156.36.253
+  skip-cert-verify: true
+  sni: tx-hy2
+  tls: false
+  type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -289,18 +283,11 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|US-@VPNine1
+- name: 9|✈️73@oneclickvpnkeys
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: 144.31.49.47
   skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: 9|63@oneclickvpnkeys
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 45.192.12.93
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
@@ -312,16 +299,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪190889 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 1vwbgf5t1k61nxmi
-  password: b967bc328fcf453f18d46518f486283b
-  port: 8397
-  server: 193.42.11.245
-  skip-cert-verify: false
-  sni: 193.42.11.245
   tls: false
   type: hysteria2
 - name: 9|🍁91@oneclickvpnkeys
