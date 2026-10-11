@@ -9,3 +9,11 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪191753 | ⚡️Telegram = t.me/S...
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.178
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
