@@ -1,4 +1,11 @@
 proxies:
+- name: 9|🇫🇷202290 | ⚡️Telegram = t.me/S...
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  port: 443
+  server: 31.185.105.12
+  sni: fr.song69.fun
+  tls: false
+  type: hysteria2
 - name: 13|FR_speednode_0008
   port: 19362
   server: 51.159.225.197
