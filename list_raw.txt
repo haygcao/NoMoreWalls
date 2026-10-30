@@ -13,9 +13,8 @@ hysteria2://Telegram%40vpnjey@179.61.138.145:54759?insecure=1&obfs=salamander&ob
 hysteria2://VPNJEY@179.61.138.145:36264?insecure=1&sni=de2.jey.cc.cd&obfs=salamander&obfs-password=Telegram@vpnjey#9%7CTelegram%40vpnjey%20%236
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#9%7C%20-%20NL%20-%20%40FreeOnlineVPN
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@5.175.249.174:35000?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi#9%7C%40KAFING_2%20%232
-hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9#9%7C203438%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me/SOSk...
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@nas.aizhzo.com:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9#9%7C%40vmess_ir
-hysteria2://f04i31zq8sy80v9b@r5ycmuko.zibayeman.com:54280?insecure=0&sni=r5ycmuko.zibayeman.com&obfs=salamander&obfs-password=hfwq51con9efdxx6#9%7C%EF%B8%8F%F0%9F%86%94%EF%B8%8F%40ATLAS_V2VPN%EF%B8%8F%EF%B8%8F631
+hysteria2://f04i31zq8sy80v9b@r5ycmuko.zibayeman.com:54280?insecure=0&sni=r5ycmuko.zibayeman.com&obfs=salamander&obfs-password=hfwq51con9efdxx6#9%7C%F0%9F%86%94%EF%B8%8F%40ATLAS_V2VPN%EF%B8%8F%EF%B8%8F631
 hysteria2://fmaznn1lrzys7ddy@giftcard.gateway-stream.com:52076?insecure=0&sni=giftcard.gateway-stream.com&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u#9%7CTelegram%20%F0%9F%86%94%40Cnetvpn%20%F0%9F%87%BA%F0%9F%87%B2
 hysteria2://p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR@130.49.161.70:443?insecure=0&sni=hy2.aspidnet.xyz&obfs=salamander&obfs-password=rG07s3COMIEvdnQipRyWzx_H_2xygNC3#9%7C%40vpnbaz%F0%9F%8D%82
 hysteria2://rjj39jg8iphgd06h@pro2.riziro.ir:44100?alpn=h3&fp=chrome&sni=pro2.riziro.ir&obfs=salamander&obfs-password=2gg0tx9d2etug8n9#9%7Chysteria
