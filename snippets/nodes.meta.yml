@@ -39,20 +39,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱NL-@VPNine1
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 144.124.245.52
-  sni: store.blog-forme.ru
-  tls: false
-  type: hysteria2
-- name: 9|🇳🇱NL-🚀@VPNine1
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: store.blog-forme.ru
-  tls: false
-  type: hysteria2
-- name: '9|Telegram @Cnetvpn '
+- name: 9|Telegram @Cnetvpn 🇺
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -70,6 +57,16 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
+  tls: false
+  type: hysteria2
+- name: 9|202941 | ⚡️Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: SalamanderNL2026
+  password: NL2026hy
+  port: 8443
+  server: 147.45.149.88
+  skip-cert-verify: false
+  sni: nl.nobelchat.ru
   tls: false
   type: hysteria2
 - name: 9|Telegram@vpnjey
