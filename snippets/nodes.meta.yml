@@ -19,16 +19,6 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
-- name: '9|@Begoo_VPN '
-  obfs: salamander
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: 91.142.73.159
-  skip-cert-verify: true
-  sni: cdn77.dmtr.ru
-  tls: false
-  type: hysteria2
 - name: 9|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
@@ -39,7 +29,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|Telegram @Cnetvpn 🇺
+- name: '9|Telegram @Cnetvpn '
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -47,6 +37,46 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|203219 | Telegram = t.me/SOSke...
+  obfs: salamander
+  obfs-password: 9765192816a553687801bb170ee1c351
+  password: EjPhwMiHdy7zTIeM5kP0ZA
+  port: 25000
+  server: fenrir.cc.cd
+  skip-cert-verify: false
+  sni: fenrir.cc.cd
+  tls: false
+  type: hysteria2
+- name: 9|NL-@VPNine1
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
+  tls: false
+  type: hysteria2
+- name: 9|🇸🇪203174 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 9765192816a553687801bb170ee1c351
+  password: HyDouble_f1NgaW7sHbMefhNf
+  port: 25000
+  server: fenrir.cc.cd
+  skip-cert-verify: false
+  sni: fenrir.cc.cd
+  tls: false
+  type: hysteria2
+- name: 9|🇸🇪203220 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 9765192816a553687801bb170ee1c351
+  password: HyWarp_1Duy5hQD__8PVu-k
+  port: 25000
+  server: fenrir.cc.cd
+  skip-cert-verify: false
+  sni: fenrir.cc.cd
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -59,13 +89,12 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 9|202941 | ⚡️Telegram = t.me/SOS...
+- name: '9|Channel : @proxy_kafee'
   obfs: salamander
   obfs-password: SalamanderNL2026
   password: NL2026hy
   port: 8443
   server: 147.45.149.88
-  skip-cert-verify: false
   sni: nl.nobelchat.ru
   tls: false
   type: hysteria2
@@ -253,7 +282,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
