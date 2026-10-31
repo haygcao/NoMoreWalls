@@ -9,7 +9,34 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@Begoo_VPN ²⁹⁰
+- name: 9|@tootffarangi
+  obfs: salamander
+  obfs-password: 27b960aa5b199a215c3a84fd4818e5d2
+  password: 24266838d888d903594cc6e33910aeeb
+  port: 443
+  server: 2.28.226.197
+  sni: vpn.172908710.dpdns.org
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪203934 | ⚡️Telegram = t.me/S...
+  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+  port: 443
+  server: 9.247.54.69
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: 9|203919 | ⚡️Telegram = t.me/SOS...
+  obfs: salamander
+  obfs-password: ad7088dafb02115c
+  password: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
+  port: 20222
+  server: 51.75.118.5
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
   password: 5bcodmhjtyfyyrqh
@@ -233,7 +260,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
