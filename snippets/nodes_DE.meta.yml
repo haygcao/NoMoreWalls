@@ -9,6 +9,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇩🇪204269 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.76.221.4
+  skip-cert-verify: true
+  sni: 3.76.221.4
+  tls: false
+  type: hysteria2
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119

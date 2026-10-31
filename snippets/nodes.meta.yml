@@ -9,12 +9,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇵🇱204026 | ⚡️Telegram = t.me/S...
+- name: 9|🇺🇸204148 | ⚡️Telegram = t.me/S...
   password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
   port: 443
-  server: 45.192.12.83
-  skip-cert-verify: true
+  server: 177.3.220.9
   sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: '9|@Begoo_VPN '
+  obfs: salamander
+  obfs-password: dzcb7hv6i2kx2zze
+  password: 5bcodmhjtyfyyrqh
+  port: 36758
+  server: 91.142.73.159
+  skip-cert-verify: true
+  sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
 - name: 9|Telegram:@v2rayng3
@@ -27,14 +36,14 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|204020 | ⚡️Telegram = t.me/SOS...
+- name: 9|🇳🇱NL-@VPNine1
   password: 6da2c981-8c77-4340-bda3-93399b7aea26
   port: 443
-  server: 163.245.41.48
-  sni: blogs.blog-forme.ru
+  server: 195.63.146.10
+  sni: video.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '9|Telegram @Cnetvpn '
+- name: 9|Telegram @Cnetvpn 🇺
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -42,6 +51,22 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|204155 | ⚡️Telegram = t.me/SOS...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.193.79.104
+  skip-cert-verify: true
+  sni: 18.193.79.104
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪204269 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.76.221.4
+  skip-cert-verify: true
+  sni: 3.76.221.4
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -136,7 +161,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|🇱 - NL - @FreeOnlineVPN
+- name: 9|🇳🇱 - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -146,12 +171,19 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🇵🇱204018 | ⚡️Telegram = t.me/S...
+- name: 9|🇱204266 | ⚡️Telegram = t.me/SO...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
-  server: 13.143.189.96
+  server: 13.143.189.105
   skip-cert-verify: true
-  sni: pl3.nexfile.net
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 9|🇵🇱204267 | ⚡️Telegram = t.me/S...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.106
+  sni: pl2.nexfile.net
   tls: false
   type: hysteria2
 - name: '9|@KAFING_2 #2'
@@ -192,14 +224,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|204022 | ⚡️Telegram = t.me/SOS...
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
   tls: false
   type: hysteria2
 - name: 9|@vpnbaz🍂
@@ -254,7 +278,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn
+- name: 9|Telegram 🆔@cnetvpn 🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
