@@ -9,21 +9,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇺🇸204148 | ⚡️Telegram = t.me/S...
-  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-  port: 443
-  server: 177.3.220.9
-  sni: nl1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: '9|@Begoo_VPN '
+- alpn:
+  - h3
+  name: 9|@FXxNET⚡️
   obfs: salamander
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: 91.142.73.159
-  skip-cert-verify: true
-  sni: cdn77.dmtr.ru
+  obfs-password: litevpn
+  password: 59018379-d5df-4314-ab23-df0e838d7953
+  port: 443
+  server: 198.13.140.193
+  skip-cert-verify: false
+  sni: efa11.lumariqis.com
   tls: false
   type: hysteria2
 - name: 9|Telegram:@v2rayng3
@@ -36,14 +31,14 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱NL-@VPNine1
+- name: 9|204271 | ⚡️Telegram = t.me/SOS...
   password: 6da2c981-8c77-4340-bda3-93399b7aea26
   port: 443
   server: 195.63.146.10
   sni: video.blog-forme.ru
   tls: false
   type: hysteria2
-- name: 9|Telegram @Cnetvpn 🇺
+- name: '9|Telegram @Cnetvpn '
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 8f0gvz5eul6omhq4
@@ -53,15 +48,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|204155 | ⚡️Telegram = t.me/SOS...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.193.79.104
-  skip-cert-verify: true
-  sni: 18.193.79.104
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪204269 | ⚡️Telegram = t.me/S...
+- name: 9|204269 | ⚡️Telegram = t.me/SOS...
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.76.221.4
@@ -171,6 +158,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
+- name: 9| ال ای   TelegramID Express_fr...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.188.142
+  skip-cert-verify: false
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
 - name: 9|🇱204266 | ⚡️Telegram = t.me/SO...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
@@ -258,7 +253,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@fastkanfig کانال ا
+- name: 9|@fastkanfig کانال را
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
