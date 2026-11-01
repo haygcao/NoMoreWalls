@@ -1,10 +1,1 @@
-proxies:
-- name: 8|🇸🇪204441 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: awd7e2wmcz9zaoeb
-  password: 84kwheyd5evfdomw
-  port: 54753
-  server: 815mgcee.easyiran.org
-  sni: 815mgcee.easyiran.org
-  tls: false
-  type: hysteria2
+proxies: []
