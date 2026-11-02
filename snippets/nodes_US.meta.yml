@@ -1,49 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 美国|@ripaojiedian
-  network: ws
-  port: 443
-  server: 53vXOVarmgcreAsv.v.3dns.vip
-  servername: 53vXOVarmgcreAsv.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 53vXOVarmgcreAsv.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 443
-  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-    path: /ws-vmess
-- name: 12|美国|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10155
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 19466
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
   type: trojan
-- name: 12|美国2|@ripaojiedian
+- name: 11,12|美国1|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12122
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 49049
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: fe-static.deepseek.com
+  type: trojan
+- name: 11,12|美国2|@ripaojiedian
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 17285
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
 - name: 13|US_speednode_0039
   port: 8443

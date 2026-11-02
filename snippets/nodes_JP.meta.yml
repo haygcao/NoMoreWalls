@@ -1,56 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 443
-  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
-  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 443
-  server: kQov7UKaDknXb8a3.v.3dns.vip
-  servername: kQov7UKaDknXb8a3.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kQov7UKaDknXb8a3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 11|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 443
-  server: kneNaKHeSXnZH259.v.3dns.vip
-  servername: kneNaKHeSXnZH259.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: kneNaKHeSXnZH259.v.3dns.vip
-    path: /ws-vmess
-- name: 12|日本2|@ripaojiedian
+- name: 11,12|日本1|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10125
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24914
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: 11,12|日本2|@ripaojiedian
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18295
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: 11,12|日本3|@ripaojiedian
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 43992
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: wximg.qq.com
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
