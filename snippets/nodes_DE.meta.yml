@@ -9,14 +9,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #7'
+- name: 8,9|@tootffarangi🍓-1
   obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: vpnjey
-  port: 36264
-  server: 179.61.138.145
-  skip-cert-verify: true
-  sni: de2.jey.cc.cd
+  obfs-password: egnqz8stetfo2ci9
+  password: eik6hcffscbuqdbt
+  port: 46183
+  server: kp09bn7y.easyiran.org
+  skip-cert-verify: false
+  sni: kp09bn7y.easyiran.org
   tls: false
   type: hysteria2
 - name: 13|DE_speednode_0004
