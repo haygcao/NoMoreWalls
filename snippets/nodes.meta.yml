@@ -18,17 +18,7 @@ proxies:
   sni: ll5xoe8j.easyiran.org
   tls: false
   type: hysteria2
-- name: 8,9|@tootffarangi🍓-1
-  obfs: salamander
-  obfs-password: egnqz8stetfo2ci9
-  password: eik6hcffscbuqdbt
-  port: 46183
-  server: kp09bn7y.easyiran.org
-  skip-cert-verify: false
-  sni: kp09bn7y.easyiran.org
-  tls: false
-  type: hysteria2
-- name: 8|139909 | ⚡️Telegram = t.me/SOS...
+- name: 8|139909 | Telegram = t.me/SOSke...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -36,21 +26,12 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|205310 | Telegram = t.me/SOSke...
+- name: 9|⏳74@oneclickvpnkeys
   password: 1671a252e2a97dc2bda4e515475931da
   port: 50160
   server: 132.226.226.189
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 9|7@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: litevpn
-  password: 59018379-d5df-4314-ab23-df0e838d7953
-  port: 443
-  server: 198.13.140.193
-  sni: efa11.lumariqis.com
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -63,11 +44,18 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|⚡96@oneclickvpnkeys
+- name: 9|96@oneclickvpnkeys
   password: 63e1b9462d708b56d5d5a0267cffecdc
   port: 443
   server: 88.216.195.188
   sni: promo3.goonars.com
+  tls: false
+  type: hysteria2
+- name: 9|⏳94@oneclickvpnkeys
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  port: 443
+  server: forshynewh.duckdns.org
+  sni: forshynewh.duckdns.org
   tls: false
   type: hysteria2
 - name: 9|Telegram:@v2rayng3
@@ -80,33 +68,11 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|37@oneclickvpnkeys
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 163.245.41.48
-  sni: blogs.blog-forme.ru
-  tls: false
-  type: hysteria2
-- name: 9|🎃91@oneclickvpnkeys
-  password: 6da2c981-8c77-4340-bda3-93399b7aea26
-  port: 443
-  server: 195.63.146.10
-  sni: video.blog-forme.ru
-  tls: false
-  type: hysteria2
 - name: 9|⏳1@oneclickvpnkeys
   password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
   port: 443
   server: 141.0.187.15
   sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇸🇪SE-@VPNine1
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  port: 443
-  server: se.mimowhat.online
-  skip-cert-verify: false
-  sni: se.mimowhat.online
   tls: false
   type: hysteria2
 - name: '9|Telegram @Cnetvpn '
@@ -119,7 +85,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|205308 | ⚡️Telegram = t.me/SOS...
+- name: 9|⏳71@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 160.187.100.109
@@ -135,28 +101,12 @@ proxies:
   sni: https://t.me/WangCai2
   tls: false
   type: hysteria2
-- name: 9|🇰205312 | ⚡️Telegram = t.me/SO...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰205301 | ⚡️Telegram = t.me/S...
+- name: 9|⏳63@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
   sni: https://t.me/clashv8🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🎃96@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.76.221.4
-  skip-cert-verify: true
-  sni: 3.76.221.4
   tls: false
   type: hysteria2
 - name: 9|⚡73@oneclickvpnkeys
@@ -249,18 +199,6 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇷205188 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: ad7088dafb02115c
-  password: Vt-D1BUk4HLncS1rtf8mUZ8h
-  port: 20222
-  server: 51.75.118.5
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -279,29 +217,6 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|🎃93@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.105
-  skip-cert-verify: true
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🎃94@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🎃34@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.96
-  skip-cert-verify: true
-  sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
 - name: '9|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -310,20 +225,6 @@ proxies:
   server: 5.175.249.174
   skip-cert-verify: true
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 9|⚡15@oneclickvpnkeys
-  password: e48078c8-21ae-4d27-9438-b85492972894
-  port: 443
-  server: 84.245.18.209
-  sni: hy.gerqix.autos
-  tls: false
-  type: hysteria2
-- name: 9|8@oneclickvpnkeys
-  password: e5ec2586-59b3-40fa-91b7-bb37a2f7744e
-  port: 443
-  server: 45.88.12.26
-  sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
 - name: 9|@vmess_ir
@@ -346,6 +247,13 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
+- name: 9|13@oneclickvpnkeys
+  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
+  port: 443
+  server: 45.91.237.78
+  sni: node.aweom.su
+  tls: false
+  type: hysteria2
 - name: 9|Telegram 🆔@Cnetvpn 🇺🇲
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -356,15 +264,17 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|39@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 173.212.201.85
-  skip-cert-verify: true
-  sni: www.docker.com
+- name: 9|@ConfigV2RayNG
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: h05ff7mbgbj6dhwy
+  port: 2098
+  server: panel.trapxan.ir
+  skip-cert-verify: false
+  sni: panel.trapxan.ir
   tls: false
   type: hysteria2
-- name: 9|🇰🇷205309 | ⚡️Telegram = t.me/S...
+- name: 9|⏳73@oneclickvpnkeys
   password: maintell
   port: 2053
   server: 152.70.237.123

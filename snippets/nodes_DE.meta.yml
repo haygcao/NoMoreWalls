@@ -9,16 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8,9|@tootffarangi🍓-1
-  obfs: salamander
-  obfs-password: egnqz8stetfo2ci9
-  password: eik6hcffscbuqdbt
-  port: 46183
-  server: kp09bn7y.easyiran.org
-  skip-cert-verify: false
-  sni: kp09bn7y.easyiran.org
-  tls: false
-  type: hysteria2
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119
