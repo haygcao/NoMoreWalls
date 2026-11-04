@@ -25,6 +25,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|🇫🇷206471 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 6ae3fff53efc6d7e
+  password: 541d46d8-5fc6-4d57-a7c4-9ccd3b5966eb
+  port: 20222
+  server: 51.75.118.5
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -56,15 +66,6 @@ proxies:
   password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
   port: 443
   server: 141.0.187.15
-  sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇩🇪206217 | ⚡️Telegram = t.me/L...
-  password: 80cbaaec-caff-4181-8539-ea6e51731007
-  port: 443
-  server: 45.88.12.119
   sni: crt.onecloudstream.com
   tls: false
   type: hysteria2
@@ -200,7 +201,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|66@oneclickvpnkeys
+- name: 9|🍪66@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.143
@@ -208,7 +209,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|@vasl_bashim
+- name: '9|@vasl_bashim #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.105
@@ -232,7 +233,7 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|61@oneclickvpnkeys
+- name: 9|🍪61@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.143
@@ -255,7 +256,15 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|73@oneclickvpnkeys
+- name: 9|🇵🇱206450 | ⚡️Telegram = t.me/L...
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.96
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 9|🍪73@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: pl3.nexfile.net
@@ -307,16 +316,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: h05ff7mbgbj6dhwy
-  port: 2098
-  server: panel.trapxan.ir
-  skip-cert-verify: false
-  sni: panel.trapxan.ir
   tls: false
   type: hysteria2
 - name: 9|⏳73@oneclickvpnkeys
@@ -388,7 +387,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|Telegram 🆔@cnetvpn 🇪
+- name: 9|Telegram 🆔@cnetvpn
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: vz86jgszv4zszchv
