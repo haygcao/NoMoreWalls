@@ -1,41 +1,145 @@
 proxies:
-- name: 11,12|香港2|@ripaojiedian
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK01|@ripaojiedian
   network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 44837
-  server: ench-snet-app.w-ctrip.cn
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.132
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 11,12|香港1|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK02|@ripaojiedian
   network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 14699
-  server: ench-snet-app.w-ctrip.cn
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.133
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: fe-static.deepseek.com
-  type: trojan
-- name: 11,12|香港4|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK03|@ripaojiedian
   network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 41495
-  server: ench-snet-app.w-ctrip.cn
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.130
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: 11,12|香港3|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK04|@ripaojiedian
   network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 34926
-  server: ench-snet-app.w-ctrip.cn
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.124
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: wximg.qq.com
-  type: trojan
-- name: 11,12|香港5|@ripaojiedian
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK05|@ripaojiedian
   network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 43638
-  server: ench-snet-app.w-ctrip.cn
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.123
+  servername: www.apple.com
   skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK06|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 50.7.250.82
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK07|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.131
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK08|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.122
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|🇭🇰HK09|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.134
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
