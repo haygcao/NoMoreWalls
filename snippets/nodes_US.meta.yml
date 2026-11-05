@@ -1,9 +1,57 @@
 proxies:
-- name: 9|75@oneclickvpnkeys
+- name: 9|🇺🇸US-@VPNine1
+  obfs: salamander
+  obfs-password: sbxbz19890604
+  password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
+  port: 443
+  server: oh.sbbz.tech
+  sni: oh.sbbz.tech
+  tls: false
+  type: hysteria2
+- name: 9|95@oneclickvpnkeys
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  port: 443
+  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|96@oneclickvpnkeys
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: 443
+  server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
+  sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|97@oneclickvpnkeys
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|98@oneclickvpnkeys
+  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+  port: 443
+  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|92@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
-  server: 179.253.82.33
+  server: 179.253.82.47
   sni: fl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 9|99@oneclickvpnkeys
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  port: 443
+  server: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
