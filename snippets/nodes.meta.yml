@@ -33,7 +33,7 @@ proxies:
   sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸US-@VPNine1
+- name: 9|🇺🇸206889 | ⚡️Telegram = t.me/L...
   obfs: salamander
   obfs-password: sbxbz19890604
   password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
@@ -327,6 +327,16 @@ proxies:
   sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
   tls: false
   type: hysteria2
+- name: '9|Channel id: @ConfigV2RayNG '
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
+  skip-cert-verify: false
+  sni: nas.aizhzo.com
+  tls: false
+  type: hysteria2
 - name: 9|@vmess_ir
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
@@ -423,6 +433,20 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 9|@tootffarangi🍓
+  obfs: salamander
+  obfs-password: a99lje1n7ystml9q
+  password: xo43w4tc13ou2h3x
+  port: 50000
+  server: mein-1.octavia.dpdns.org
+  skip-cert-verify: false
+  sni: main-1.octavia.dpdns.org
   tls: false
   type: hysteria2
 - name: 9|🇸🇪206923 | ⚡️Telegram = t.me/L...
