@@ -25,7 +25,7 @@ proxies:
   sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|94@oneclickvpnkeys
+- name: 9|🧿94@oneclickvpnkeys
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 443
   server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
@@ -33,16 +33,7 @@ proxies:
   sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸206889 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: sbxbz19890604
-  password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
-  port: 443
-  server: oh.sbbz.tech
-  sni: oh.sbbz.tech
-  tls: false
-  type: hysteria2
-- name: 9|95@oneclickvpnkeys
+- name: 9|🧿95@oneclickvpnkeys
   password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
   port: 443
   server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
@@ -60,13 +51,6 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: '9|94@oneclickvpnkeys #1'
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  port: 443
-  server: forshynewh.duckdns.org
-  sni: forshynewh.duckdns.org
-  tls: false
-  type: hysteria2
 - name: 9|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
@@ -77,21 +61,21 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|96@oneclickvpnkeys
+- name: 9|🧿96@oneclickvpnkeys
   password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   port: 443
   server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
   sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|⏳1@oneclickvpnkeys
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
+- name: 9|11@oneclickvpnkeys
+  password: 769f34f0-1500-488f-b414-03bc90666502
   port: 443
-  server: 141.0.187.15
-  sni: crt.onecloudstream.com
+  server: 185.153.55.28
+  sni: se.mimowhat.online
   tls: false
   type: hysteria2
-- name: 9|97@oneclickvpnkeys
+- name: 9|🧿97@oneclickvpnkeys
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
@@ -99,7 +83,7 @@ proxies:
   sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|98@oneclickvpnkeys
+- name: 9|🧿98@oneclickvpnkeys
   password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
   port: 443
   server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
@@ -109,10 +93,24 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇺🇸206884 | ⚡️Telegram = t.me/L...
-  password: 948b48e5-a202-4770-8552-f35a12dac378
-  port: 18687
-  server: 172.245.6.155
+  - h2
+  - http/1.1
+  fingerprint: chrome
+  name: 9|telegram:@pirozi_ArGaP
+  obfs: salamander
+  obfs-password: TYrQkc4C2MJMKlzlge0M_hrH
+  password: EOaHwQIGHSjmsbYl_g6nPanNsQ2td2Yv
+  port: 8443
+  server: ip.immahan.ir
+  sni: tr.tu5pars.ir
+  tls: false
+  type: hysteria2
+- name: 9|🇺🇸207468 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 0Jy/BjMrgPxwRG9bx+YIyZz2hqUfE7Cf
+  password: GnVqzYNYGYRXNUq8fBOxGsv9pNBdYvKP
+  port: 443
+  server: 204.152.221.177
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -154,31 +152,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '9|Telegram@vpnjey #2'
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: Telegram-vpnjey
-  port: 37009
-  server: 31.76.27.23
-  skip-cert-verify: true
-  sni: de.vpnjey.store
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '9|Telegram@vpnjey #3'
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: Telegram-vpnjey
-  port: 36264
-  server: 77.110.96.201
-  skip-cert-verify: true
-  sni: se.vpnjey2.dpdns.org
-  tls: false
-  type: hysteria2
-- name: '9|Telegram@vpnjey #4'
+- name: '9|Telegram@vpnjey #2'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram
@@ -188,7 +162,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #5'
+- name: '9|Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram@vpnjey
@@ -197,7 +171,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #6'
+- name: '9|Telegram@vpnjey #4'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VPNJEY
@@ -215,22 +189,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: 9| ال ای ن  TelegramID Express_f...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.188.142
-  skip-cert-verify: false
-  sni: bl1.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🍪66@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.188.143
-  skip-cert-verify: true
-  sni: bl1.nexfile.net
   tls: false
   type: hysteria2
 - name: '9|@vasl_bashim #1'
@@ -257,13 +215,6 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|🍪61@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.143
-  sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
 - name: '9|@vpnbaz #2'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
@@ -272,12 +223,20 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|برای اتصال دائمی جوین شو Teleg...
+- name: 9| ال ای ن  TelegramID Express_f...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.149
   skip-cert-verify: false
   sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: 9|63@oneclickvpnkeys
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.80
+  skip-cert-verify: true
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '9|@vasl_bashim #6'
@@ -295,18 +254,11 @@ proxies:
   sni: fl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|92@oneclickvpnkeys
+- name: 9|🧿92@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.253.82.47
   sni: fl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🍪73@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: pl3.nexfile.net
-  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '9|@KAFING_2 #2'
@@ -319,7 +271,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|99@oneclickvpnkeys
+- name: 9|🧿99@oneclickvpnkeys
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 443
   server: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
@@ -337,7 +289,7 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: 9|@vmess_ir
+- name: 9|@Selinc
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -357,11 +309,19 @@ proxies:
   sni: r5ycmuko.zibayeman.com
   tls: false
   type: hysteria2
-- name: 9|🍪13@oneclickvpnkeys
+- name: 9|13@oneclickvpnkeys
   password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
   port: 443
   server: 45.91.237.78
   sni: node.aweom.su
+  tls: false
+  type: hysteria2
+- name: 9|🇺🇸207351 | ⚡️Telegram = t.me/L...
+  password: kztyblVC7ZlEKR3ZO5HW
+  port: 443
+  server: 142.11.207.17
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
@@ -372,15 +332,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|🍪42@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 7kydvvvn3bwt66ff
-  password: ripa841juk7gwn4t
-  port: 10005
-  server: 31.76.241.169
-  sni: de.c0d1xdev.xyz
   tls: false
   type: hysteria2
 - alpn:
@@ -415,7 +366,17 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #7'
+- name: '9|Telegram@vpnjey #5'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpnJey
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
+- name: '9|Telegram@vpnjey #6'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
@@ -435,21 +396,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 9|@tootffarangi🍓
-  obfs: salamander
-  obfs-password: a99lje1n7ystml9q
-  password: xo43w4tc13ou2h3x
-  port: 50000
-  server: mein-1.octavia.dpdns.org
-  skip-cert-verify: false
-  sni: main-1.octavia.dpdns.org
-  tls: false
-  type: hysteria2
-- name: 9|🇸🇪206923 | ⚡️Telegram = t.me/L...
+- name: '9|channel : @Daily_Configs'
   obfs: salamander
   obfs-password: ckwudzzsfoltmbmi
   password: xo43w4tc13ou2h3x
