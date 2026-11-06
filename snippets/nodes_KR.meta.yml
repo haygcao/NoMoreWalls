@@ -1,1 +1,69 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇰🇷 KR1@ripaojiedian
+  network: ws
+  port: 443
+  server: 109.61.127.247
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇰🇷 KR2@ripaojiedian
+  network: ws
+  port: 28017
+  server: 121.154.67.134
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|KR1@ripaojiedian
+  network: ws
+  port: 443
+  server: 109.61.127.247
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|KR2@ripaojiedian
+  network: ws
+  port: 28017
+  server: 121.154.67.134
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'

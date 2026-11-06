@@ -1,108 +1,72 @@
 proxies:
-- name: 9|🇺🇸207351 | ⚡️Telegram = t.me/L...
-  password: kztyblVC7ZlEKR3ZO5HW
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇺🇸 US1@ripaojiedian
+  network: ws
   port: 443
-  server: 142.11.207.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US02|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US03|@ripaojiedian
-  network: tcp
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇺🇸 US2@ripaojiedian
+  network: ws
   port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.212
-  servername: www.apple.com
+  server: 154.17.9.239
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US04|@ripaojiedian
-  network: tcp
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|US1@ripaojiedian
+  network: ws
   port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.38
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
   type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US05|@ripaojiedian
-  network: tcp
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|US2@ripaojiedian
+  network: ws
   port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.58
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+  server: 154.17.9.239
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
   type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US06|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.210
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US07|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.211
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
 - name: 13|US_speednode_0039
   port: 8443
   server: 44.248.167.117

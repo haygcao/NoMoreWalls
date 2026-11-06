@@ -1,164 +1,103 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP01|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.121
-  servername: www.apple.com
+- client-fingerprint: firefox
+  name: 11|🇯🇵 日本｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: jp01.564895.xyz
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP03|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.123
-  servername: www.apple.com
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: jp01.564895.xyz
+    path: /asdasd
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇯🇵 JP1@ripaojiedian
+  network: ws
+  port: 5002
+  server: 104.194.83.133
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP04|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.124
-  servername: www.apple.com
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇯🇵 JP2@ripaojiedian
+  network: ws
+  port: 18549
+  server: 45.196.233.54
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP06|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.201
-  servername: www.apple.com
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇯🇵日本｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: jp01.564895.xyz
   skip-cert-verify: true
-  tfo: false
-  tls: false
+  tls: true
   type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP07|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: jp01.564895.xyz
+    path: '%2Fasdasd'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|JP1@ripaojiedian
+  network: ws
+  port: 5002
+  server: 104.194.83.133
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
   type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP08|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|JP2@ripaojiedian
+  network: ws
+  port: 18549
+  server: 45.196.233.54
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
   type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP09|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP10|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP12|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP15|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|JP_speednode_0018

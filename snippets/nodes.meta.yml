@@ -1,4 +1,19 @@
 proxies:
+- name: 8|🇫🇷4@exclavevpn
+  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
+  port: 23661
+  server: 194.113.235.254
+  sni: fr.verymad.net
+  tls: false
+  type: hysteria2
+- name: 8,9|🥌63@oneclickvpnkeys
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.80
+  skip-cert-verify: true
+  sni: pl3.nexfile.net
+  tls: false
+  type: hysteria2
 - name: 8,9|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -7,6 +22,15 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 8|@V2ray_confiig
+  obfs: salamander
+  obfs-password: qkdqum5rllpyup7h
+  password: dq6rfcyex30h1b6z
+  port: 22357
+  server: ll5xoe8j.easyiran.org
+  sni: ll5xoe8j.easyiran.org
   tls: false
   type: hysteria2
 - name: 8|139909 | Telegram = t.me/SOSke...
@@ -105,16 +129,6 @@ proxies:
   sni: tr.tu5pars.ir
   tls: false
   type: hysteria2
-- name: 9|🇺🇸207468 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 0Jy/BjMrgPxwRG9bx+YIyZz2hqUfE7Cf
-  password: GnVqzYNYGYRXNUq8fBOxGsv9pNBdYvKP
-  port: 443
-  server: 204.152.221.177
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
@@ -191,14 +205,6 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '9|@vasl_bashim #1'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.105
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
 - name: 9|@vpnbaz
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
@@ -231,15 +237,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|63@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.80
-  skip-cert-verify: true
-  sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '9|@vasl_bashim #6'
+- name: '9|@vasl_bashim #3'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.96
@@ -299,7 +297,7 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: 9|️️@ATLAS_V2VPN️️631
+- name: 9|️@ATLAS_V2VPN️️631
   obfs: salamander
   obfs-password: hfwq51con9efdxx6
   password: f04i31zq8sy80v9b
@@ -314,14 +312,6 @@ proxies:
   port: 443
   server: 45.91.237.78
   sni: node.aweom.su
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸207351 | ⚡️Telegram = t.me/L...
-  password: kztyblVC7ZlEKR3ZO5HW
-  port: 443
-  server: 142.11.207.17
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
@@ -406,1251 +396,641 @@ proxies:
   sni: main-1.octavia.dpdns.org
   tls: false
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP01|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.121
-  servername: www.apple.com
+- name: 11|🇹🇼 台湾｜02｜HiNet
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 6549
+  server: tw.ccwink.cc
   skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP03|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP04|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP06|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP07|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP08|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP09|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP10|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP12|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇯🇵JP15|@ripaojiedian
-  network: tcp
-  port: 2090
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK01|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.132
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK02|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK03|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.130
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK04|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK05|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK06|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 50.7.250.82
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK07|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.131
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK08|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.122
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇭🇰HK09|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.134
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG01|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.36
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG02|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.38
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG03|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.28
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG04|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.35
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG05|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.29
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG06|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.37
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG07|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG08|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇸🇬SG09|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 50.7.252.50
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9efe4030-ba38-4fd3-a424-a41beeb462d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US02|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US03|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.212
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US04|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.38
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US05|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.58
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US06|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.210
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇺🇸US07|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.34.190.211
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA01|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 188.95.52.121
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA02|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA03|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA04|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA05|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA06|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA07|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA08|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA09|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇨🇦CA10|@ripaojiedian
-  network: tcp
-  port: 2093
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 219a22c9-bec8-444a-b208-ef670d8167e2
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE01|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 188.95.52.121
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE02|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE03|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE04|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE05|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE06|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE07|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE08|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE09|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇩🇪DE10|@ripaojiedian
-  network: tcp
-  port: 2094
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL01|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL02|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL03|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.205
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL04|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL05|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL06|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL07|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇳🇱NL08|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 69f50a1f-c637-49a5-8dcd-8f4d27290b70
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR01|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 188.95.52.121
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR02|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR03|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR04|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR05|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR06|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR07|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR08|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR09|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇫🇷FR10|@ripaojiedian
-  network: tcp
-  port: 2092
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES01|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 188.95.52.121
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES02|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 188.95.52.120
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES03|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 188.95.52.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES04|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 188.95.52.124
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES05|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.204
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES06|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.201
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES07|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.195
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES08|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.199
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES09|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.197
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇪🇸ES10|@ripaojiedian
-  network: tcp
-  port: 2095
-  reality-opts:
-    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
-    short-id: 3869d49a9a79e06a
-  server: 213.152.165.200
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 32bc68da-f36a-475b-88a4-a29ee4fe1b53
-- flow: xtls-rprx-vision
-  name: 11,12|🇮🇷IR01|@ripaojiedian
-  network: tcp
+  sni: baidu.com
+  type: anytls
+  udp: true
+- client-fingerprint: firefox
+  name: 11|🇹🇼 台湾｜06｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: tw01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: tw01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 11|🇯🇵 日本｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: jp01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: jp01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 11|🇸🇬 新加坡｜07｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: sg01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 11|🇸🇬 新加坡｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: sg01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 11|🇩🇪 德国｜06｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 11|🇩🇪 德国｜07｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|tg频道:@ripaojiedian
+  network: ws
   port: 8443
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  server: 198.16.113.220
-  servername: www.apple.com
+  server: cf.danfeng.eu.org
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: eb6fbbdd-669b-4055-9379-4eeba938578a
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇭🇰 HK1@ripaojiedian
+  network: ws
+  port: 11310
+  server: 218.102.64.147
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇭🇰 HK2@ripaojiedian
+  network: ws
+  port: 9383
+  server: 218.102.64.147
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇭🇰 HK3@ripaojiedian
+  network: ws
+  port: 12611
+  server: 45.221.114.46
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇯🇵 JP1@ripaojiedian
+  network: ws
+  port: 5002
+  server: 104.194.83.133
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇯🇵 JP2@ripaojiedian
+  network: ws
+  port: 18549
+  server: 45.196.233.54
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇰🇷 KR1@ripaojiedian
+  network: ws
+  port: 443
+  server: 109.61.127.247
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇰🇷 KR2@ripaojiedian
+  network: ws
+  port: 28017
+  server: 121.154.67.134
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇸🇬 SG1@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.225
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇸🇬 SG2@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.241
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇹🇼 TW@ripaojiedian
+  network: ws
+  port: 53725
+  server: 45.207.159.60
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇺🇸 US1@ripaojiedian
+  network: ws
+  port: 443
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 11|🇺🇸 US2@ripaojiedian
+  network: ws
+  port: 443
+  server: 154.17.9.239
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇹🇼台湾｜06｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: tw01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: tw01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇯🇵日本｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: jp01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: jp01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇸🇬新加坡｜07｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: sg01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇸🇬新加坡｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: sg01.564895.xyz
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇩🇪德国｜06｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: ''
+  name: 12|🇩🇪德国｜07｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: '%2Fasdasd'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: '12|tg频道:@ripaojiedian #1'
+  network: ws
+  port: 8443
+  server: cf.danfeng.eu.org
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|HK1@ripaojiedian
+  network: ws
+  port: 11310
+  server: 218.102.64.147
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|HK2@ripaojiedian
+  network: ws
+  port: 9383
+  server: 218.102.64.147
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|HK3@ripaojiedian
+  network: ws
+  port: 12611
+  server: 45.221.114.46
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|JP1@ripaojiedian
+  network: ws
+  port: 5002
+  server: 104.194.83.133
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|JP2@ripaojiedian
+  network: ws
+  port: 18549
+  server: 45.196.233.54
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|KR1@ripaojiedian
+  network: ws
+  port: 443
+  server: 109.61.127.247
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|KR2@ripaojiedian
+  network: ws
+  port: 28017
+  server: 121.154.67.134
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|SG1@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.225
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|SG2@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.241
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|TW@ripaojiedian
+  network: ws
+  port: 53725
+  server: 45.207.159.60
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|US1@ripaojiedian
+  network: ws
+  port: 443
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: ''
+  name: 12|US2@ripaojiedian
+  network: ws
+  port: 443
+  server: 154.17.9.239
+  servername: speedtest.danfengno1.kdns.fr
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
 - name: 13|AT_speednode_0001
   network: ws
   port: 8443
