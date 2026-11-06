@@ -115,18 +115,14 @@ proxies:
   sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  fingerprint: chrome
-  name: 9|telegram:@pirozi_ArGaP
+- name: 9|7@oneclickvpnkeys
   obfs: salamander
-  obfs-password: TYrQkc4C2MJMKlzlge0M_hrH
-  password: EOaHwQIGHSjmsbYl_g6nPanNsQ2td2Yv
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
   port: 8443
-  server: ip.immahan.ir
-  sni: tr.tu5pars.ir
+  server: 51.15.19.206
+  skip-cert-verify: true
+  sni: t.me
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -205,28 +201,12 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|@vpnbaz
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '9|@vpnbaz #1'
+- name: '9|@vasl_bashim #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.142
   skip-cert-verify: false
   sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '9|@vpnbaz #2'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.147
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
   tls: false
   type: hysteria2
 - name: 9| ال ای ن  TelegramID Express_f...
@@ -245,14 +225,7 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|75@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 179.253.82.33
-  sni: fl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🧿92@oneclickvpnkeys
+- name: 9|92@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.253.82.47
@@ -305,13 +278,6 @@ proxies:
   server: r5ycmuko.zibayeman.com
   skip-cert-verify: false
   sni: r5ycmuko.zibayeman.com
-  tls: false
-  type: hysteria2
-- name: 9|13@oneclickvpnkeys
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  port: 443
-  server: 45.91.237.78
-  sni: node.aweom.su
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
