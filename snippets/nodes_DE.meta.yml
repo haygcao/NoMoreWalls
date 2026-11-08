@@ -1,14 +1,4 @@
 proxies:
-- name: '9|Telegram@vpnjey #5'
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
-  password: vpnJey
-  port: 36264
-  server: 179.61.138.145
-  skip-cert-verify: true
-  sni: de2.jey.cc.cd
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   name: 11|🇩🇪 德国｜06｜BGP
   network: ws
