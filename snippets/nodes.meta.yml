@@ -6,6 +6,14 @@ proxies:
   sni: fi1.obxodvpn.us
   tls: false
   type: hysteria2
+- name: 8| 8@exclavevpn
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.23.62
+  skip-cert-verify: true
+  sni: hy530899-3.w-mebel.pro
+  tls: false
+  type: hysteria2
 - name: 8|@V2ray_confiig
   obfs: salamander
   obfs-password: qkdqum5rllpyup7h
@@ -33,14 +41,6 @@ proxies:
   sni: hank.hankli1214.xyz
   tls: false
   type: hysteria2
-- name: 9|🇺🇸209904 | ⚡️Telegram = t.me/L...
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 443
-  server: 177.202.75.56
-  skip-cert-verify: false
-  sni: fi1.obxodvpn.us
-  tls: false
-  type: hysteria2
 - name: 9|2@oneclickvpnkeys
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
   port: 443
@@ -48,36 +48,36 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
-- name: 9|🇳🇱209933 | ⚡️Telegram = t.me/L...
+- name: 9|🇳🇱210106 | ⚡️Telegram = t.me/L...
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
-  server: 84.32.102.153
+  server: 84.32.102.144
   skip-cert-verify: false
   sni: hy62c5d8.w-mebel.pro
   tls: false
   type: hysteria2
-- name: 9|🇸🇬209902 | ⚡️Telegram = t.me/L...
+- name: 9|🇳🇱210102 | ⚡️Telegram = t.me/L...
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
-  server: 84.32.23.76
+  server: 84.32.102.145
   skip-cert-verify: false
-  sni: hy530899.w-mebel.pro
+  sni: auto.w-mebel.pro
   tls: false
   type: hysteria2
-- name: 9|🇺🇸209907 | ⚡️Telegram = t.me/L...
+- name: 9|🇳🇱210098 | ⚡️Telegram = t.me/L...
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
-  server: 88.216.254.13
+  server: 84.32.102.158
   skip-cert-verify: false
-  sni: hy51290d.w-mebel.pro
+  sni: hy62c5d8.w-mebel.pro
   tls: false
   type: hysteria2
-- name: 9|🇺🇸209903 | ⚡️Telegram = t.me/L...
+- name: 9|🇳🇱210100 | ⚡️Telegram = t.me/L...
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
-  server: 88.216.57.197
+  server: 84.32.102.163
   skip-cert-verify: false
-  sni: hy51290d.w-mebel.pro
+  sni: hy62c5d8.w-mebel.pro
   tls: false
   type: hysteria2
 - name: '9|@Begoo_VPN '
@@ -88,6 +88,16 @@ proxies:
   server: 91.142.73.159
   skip-cert-verify: true
   sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪210216 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: 5ictxgawam84vgrp
+  port: 2098
+  server: 109.70.74.213
+  skip-cert-verify: false
+  sni: 109.70.74.213
   tls: false
   type: hysteria2
 - name: 9|Telegram:@v2rayng3
@@ -106,16 +116,6 @@ proxies:
   server: 46.8.210.209
   skip-cert-verify: true
   sni: ru3.kinotorg.net
-  tls: false
-  type: hysteria2
-- name: 9|7@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: 51.15.19.206
-  skip-cert-verify: true
-  sni: t.me
   tls: false
   type: hysteria2
 - name: 9|91@oneclickvpnkeys
@@ -202,7 +202,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|برای اتصال دائمی جوین شو Teleg...
+- name: 9|@V2rayNGVPN > کان رایان
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.101
@@ -210,7 +210,7 @@ proxies:
   sni: pl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|🇵🇱209913 | ⚡️Telegram = t.me/L...
+- name: 9|برای اتصال دائمی جوین شو️ Tele...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.106
@@ -218,7 +218,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|🇵🇱209911 | ⚡️Telegram = t.me/L...
+- name: 9|برای اتصال دائمی جوین شو☄️ Tel...
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.142
@@ -226,12 +226,20 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|🇵🇱209912 | ⚡️Telegram = t.me/L...
+- name: '9|برای اتصال دائمی جوین شو☄️ Tel... #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.149
   skip-cert-verify: false
   sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '9|@vasl_bashim #3'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.189.96
+  skip-cert-verify: false
+  sni: pl3.nexfile.net
   tls: false
   type: hysteria2
 - name: 9|45@oneclickvpnkeys
@@ -292,14 +300,6 @@ proxies:
   sni: vip.trapxan.ir
   tls: false
   type: hysteria2
-- name: 9|🇫🇮209905 | ⚡️Telegram = t.me/L...
-  password: p5xt6oLOA3qikIaj
-  port: 25482
-  server: fi-p1.h1cloud.net
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|@vpnbaz
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -322,7 +322,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|@fastkanfig کانال را
+- name: 9|@fastkanfig کانال گا
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -350,16 +350,6 @@ proxies:
   server: 179.61.138.145
   skip-cert-verify: true
   sni: de2.jey.cc.cd
-  tls: false
-  type: hysteria2
-- name: 9|Telegram @cnetvpn
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52062
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 11|🇹🇼 台湾｜02｜HiNet
