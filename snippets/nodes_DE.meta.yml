@@ -31,36 +31,19 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: /asdasd
-- client-fingerprint: firefox
-  flow: ''
-  name: 12|🇩🇪德国｜06｜BGP
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|德国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
+    short-id: 83faf94a0e
+  server: jp2static.xyy123.bid
+  servername: amazon.com
+  tls: false
   type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
-  name: 12|🇩🇪德国｜07｜BGP
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
+  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119

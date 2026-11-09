@@ -50,38 +50,46 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: ''
-  name: 12|US1@ripaojiedian
+  name: 12|美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 156.225.64.8
-  servername: speedtest.danfengno1.kdns.fr
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
   ws-opts:
     headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: 12|US2@ripaojiedian
-  network: ws
+      Host: imanvipreserved.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '12|美国2|@ripaojiedian #1'
+  network: tcp
   port: 443
-  server: 154.17.9.239
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
+  reality-opts:
+    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
+    short-id: 732d5d
+  server: jp2static.xyy123.bid
+  servername: image.semiconductor.samsung.com
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+  uuid: 2aabf881-60dd-492b-97f6-774377dc3882
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12|美国1|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
+    short-id: 732d5d
+  server: jp2static.xyy123.bid
+  servername: download.led.samsung.com
+  tls: false
+  type: vless
+  uuid: d8af34bf-d02f-4fe2-8063-386635d026ae
 - name: 13|US_speednode_0039
   port: 8443
   server: 44.248.167.117
