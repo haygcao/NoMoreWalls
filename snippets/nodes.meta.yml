@@ -6,11 +6,11 @@ proxies:
   sni: fi1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 8,9|🇸🇬210346 | ⚡️Telegram = t.me/L...
+- name: 8| 8@exclavevpn
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20443
   server: 84.32.23.62
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hy530899-3.w-mebel.pro
   tls: false
   type: hysteria2
@@ -31,7 +31,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|@FreakConfig
+- name: 9|@vmesskhodam
   obfs: salamander
   obfs-password: MeJA9qgoYMH4UMunHowisrbd
   password: 02df03e3-3029-4c95-bffe-8f211b480672
@@ -69,15 +69,7 @@ proxies:
   sni: hy6b373d.w-mebel.pro
   tls: false
   type: hysteria2
-- name: 9|🇺🇸210305 | ⚡️Telegram = t.me/L...
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  port: 20445
-  server: 88.216.183.164
-  skip-cert-verify: false
-  sni: hy51290d-3.w-mebel.pro
-  tls: false
-  type: hysteria2
-- name: 9|42@oneclickvpnkeys
+- name: 9|💫42@oneclickvpnkeys
   password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
   port: 20444
   server: 88.216.60.117
@@ -94,7 +86,7 @@ proxies:
   sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
-- name: 9|🇩🇪210343 | ⚡️Telegram = t.me/L...
+- name: '9|@V2ray_confiig #1'
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5icixgawam84vgrp
@@ -104,7 +96,7 @@ proxies:
   sni: 109.70.74.213
   tls: false
   type: hysteria2
-- name: 9|🇩🇪210216 | ⚡️Telegram = t.me/L...
+- name: 9|T𝗝𝗼𝗶𝗻 ➠ @v2raymelliii✰
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5ictxgawam84vgrp
@@ -149,6 +141,14 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
+  tls: false
+  type: hysteria2
+- name: 9|92@oneclickvpnkeys
+  password: MZKlrFbG73bKvCDe8VPul5PR9xQm
+  port: 20999
+  server: 35.207.53.51
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: '9|@v2ray313 ا '
@@ -207,7 +207,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|61@oneclickvpnkeys
+- name: 9|💫61@oneclickvpnkeys
   obfs: salamander
   obfs-password: ZuPf4OcXKvotJdDxlTus
   password: YV1sd3tfCZngTtnvRmy7
@@ -285,14 +285,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|31@oneclickvpnkeys
+- name: 9|💫31@oneclickvpnkeys
   password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
   port: 8443
   server: 89.105.218.106
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: 9|🇭🇰210323 | ⚡️Telegram = t.me/L...
+- name: '9|Channel id: @ConfigV2RayNG '
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
