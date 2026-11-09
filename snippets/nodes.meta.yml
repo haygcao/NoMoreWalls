@@ -31,20 +31,6 @@ proxies:
   sni: fi1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 9|💫32@oneclickvpnkeys
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  port: 20443
-  server: 84.32.98.84
-  sni: hy6b373d.w-mebel.pro
-  tls: false
-  type: hysteria2
-- name: 9|💫42@oneclickvpnkeys
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  port: 20444
-  server: 88.216.60.117
-  sni: hy60c117-2.w-mebel.pro
-  tls: false
-  type: hysteria2
 - name: '9|@Begoo_VPN '
   obfs: salamander
   obfs-password: dzcb7hv6i2kx2zze
@@ -158,16 +144,17 @@ proxies:
 - name: '9|Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
-  password: Telegram@vpnjey
-  port: 54759
+  password: VPNJEY
+  port: 36264
   server: 179.61.138.145
   skip-cert-verify: true
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - name: '9|Telegram@vpnjey #4'
   obfs: salamander
   obfs-password: Telegram@vpnjey
-  password: VPNJEY
+  password: VPNJey
   port: 36264
   server: 179.61.138.145
   skip-cert-verify: true
@@ -251,30 +238,12 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: 9|🇺🇸210637 | ⚡️Telegram = t.me/L...
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  skip-cert-verify: false
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: '9|Channel id: @ConfigV2RayNG '
+- name: 9|@tootffarangi
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
   port: 5010
   server: 152.32.254.68
-  skip-cert-verify: false
-  sni: nas.aizhzo.com
-  tls: false
-  type: hysteria2
-- name: 9|@Selinc
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  port: 5010
-  server: nas.aizhzo.com
   skip-cert-verify: false
   sni: nas.aizhzo.com
   tls: false
@@ -287,6 +256,13 @@ proxies:
   server: vip.trapxan.ir
   skip-cert-verify: false
   sni: vip.trapxan.ir
+  tls: false
+  type: hysteria2
+- name: 9|🇷🇺RU-@VPNine1
+  password: kKd2watTl7WACOoIAjkzt4MW6ak6I3c1Un8c4-oNMtU
+  port: 5443
+  server: 84.252.100.138
+  sni: nl.vip-get.ru
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
@@ -311,7 +287,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 9|@fastkanfig کانال را
+- name: 9|@fastkanfig کانال گا
   obfs: salamander
   obfs-password: b6d1f3888ab1d90dd11aac1dce427b81
   password: tnnls
@@ -321,7 +297,7 @@ proxies:
   sni: bwdf2fnt.xn--e1aatfr8bwa.online
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #5'
+- name: '9|Telegram@vpnjey #6'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnJey
@@ -331,7 +307,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #6'
+- name: '9|Telegram@vpnjey #7'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
