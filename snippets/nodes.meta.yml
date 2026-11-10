@@ -6,12 +6,56 @@ proxies:
   sni: fi1.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|@FXxNET
+  password: 184cdec28da5a09450803c8debcd2cc9
+  port: 50160
+  server: 138.3.208.26
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 8|@FXxNET⚡️
+  password: 184cdec28da5a09450803c8debcd2cc9
+  port: 50160
+  server: 138.3.208.26
+  skip-cert-verify: true
+  sni: 138.3.208.26
+  tls: false
+  type: hysteria2
+- name: 8| 8@exclavevpn
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.23.62
+  skip-cert-verify: true
+  sni: hy530899-3.w-mebel.pro
+  tls: false
+  type: hysteria2
+- name: 8|[]t.me/ConfigsHub
+  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
+  port: 8443
+  server: 104.165.205.42
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- name: '8|@FXxNET⚡️ #2'
+  password: 96ab5cd282733fd4c312a61f972f330a
+  port: 443
+  server: 45.32.10.7
+  sni: vp3.yysyy.online
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '8|@FXxNET⚡️ #3'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 9|kurdconfig
@@ -29,16 +73,6 @@ proxies:
   port: 443
   server: 177.202.75.56
   sni: fi1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: '9|@Begoo_VPN '
-  obfs: salamander
-  obfs-password: dzcb7hv6i2kx2zze
-  password: 5bcodmhjtyfyyrqh
-  port: 36758
-  server: 91.142.73.159
-  skip-cert-verify: true
-  sni: cdn77.dmtr.ru
   tls: false
   type: hysteria2
 - name: 9|@V2ray_confiig
@@ -206,6 +240,14 @@ proxies:
 - name: '9|برای اتصال دائمی جوین شو☄️ Tel... #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
+  server: 13.143.189.147
+  skip-cert-verify: false
+  sni: pl2.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '9|برای اتصال دائمی جوین شو☄️ Tel... #2'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
   server: 13.143.189.149
   skip-cert-verify: false
   sni: pl2.nexfile.net
@@ -238,7 +280,7 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: 9|@tootffarangi
+- name: 9|@V2rayNGVPN > کان رایان
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -258,7 +300,7 @@ proxies:
   sni: vip.trapxan.ir
   tls: false
   type: hysteria2
-- name: 9|🇷🇺RU-@VPNine1
+- name: 9|🇷🇺211060 | ⚡️Telegram = t.me/L...
   password: kKd2watTl7WACOoIAjkzt4MW6ak6I3c1Un8c4-oNMtU
   port: 5443
   server: 84.252.100.138
