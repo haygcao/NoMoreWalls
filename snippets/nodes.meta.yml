@@ -111,7 +111,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|31@oneclickvpnkeys
+- name: 9|🗼31@oneclickvpnkeys
   password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
   port: 443
   server: 194.48.250.233
