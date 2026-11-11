@@ -14,42 +14,70 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇺🇸 US1@ripaojiedian
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|美国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.39
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+- client-fingerprint: chrome
+  name: 11|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 156.225.64.8
-  servername: speedtest.danfengno1.kdns.fr
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
   ws-opts:
     headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇺🇸 US2@ripaojiedian
+      Host: imanvipreserved.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|美国3|@ripaojiedian
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.39
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+- client-fingerprint: chrome
+  name: 11|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: 443
-  server: 154.17.9.239
-  servername: speedtest.danfengno1.kdns.fr
+  port: 8443
+  server: cdn-us.skyvora.app
+  servername: cdn-us.skyvora.app
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
   ws-opts:
     headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+      Host: cdn-us.skyvora.app
+    path: /kqdyeo2k4b1
 - client-fingerprint: chrome
   flow: ''
   name: 12|美国2|@ripaojiedian
@@ -65,31 +93,19 @@ proxies:
       Host: imanvipreserved.pages.dev
     path: '%2F'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '12|美国2|@ripaojiedian #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
-    short-id: 732d5d
-  server: jp2static.xyy123.bid
-  servername: image.semiconductor.samsung.com
-  tls: false
+  flow: ''
+  name: 12|美国4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-us.skyvora.app
+  servername: cdn-us.skyvora.app
+  tls: true
   type: vless
-  uuid: 2aabf881-60dd-492b-97f6-774377dc3882
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 12|美国1|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
-    short-id: 732d5d
-  server: jp2static.xyy123.bid
-  servername: download.led.samsung.com
-  tls: false
-  type: vless
-  uuid: d8af34bf-d02f-4fe2-8063-386635d026ae
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  ws-opts:
+    headers:
+      Host: cdn-us.skyvora.app
+    path: '%2Fkqdyeo2k4b1'
 - name: 13|US_speednode_0039
   port: 8443
   server: 44.248.167.117

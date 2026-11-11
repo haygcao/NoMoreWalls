@@ -1,82 +1,82 @@
 proxies:
-- client-fingerprint: firefox
-  name: 11|🇯🇵 日本｜08｜BGP
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: jp01.564895.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: jp01.564895.xyz
-    path: /asdasd
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇯🇵 JP1@ripaojiedian
-  network: ws
-  port: 5002
-  server: 104.194.83.133
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇯🇵 JP2@ripaojiedian
-  network: ws
-  port: 18549
-  server: 45.196.233.54
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|日本1|@ripaojiedian
+  name: 11,12|日本|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
-    public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
-    short-id: 2c92d6
-  server: jpgajma.xyy123.date
-  servername: home.amazon.com
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+  server: 50.7.44.27
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: a4fa57a2-d4df-482b-afec-aa38a824a23a
+  udp: true
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|日本2|@ripaojiedian
+  name: 11,12|日本2|@ripaojiedian
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: aa0760ff
-  server: jp2static.xyy123.bid
-  servername: p-yo-www-amazon-com-kalias.amazon.com
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+  server: 50.7.44.27
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 97d628e6-f4f2-4673-ac1f-703b8d4c871b
+  udp: true
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|日本3|@ripaojiedian
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: bb472a184677af64
+  server: 50.7.44.27
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+- client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-jp.skyvora.app
+  servername: cdn-jp.skyvora.app
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  ws-opts:
+    headers:
+      Host: cdn-jp.skyvora.app
+    path: /pmcxbjzdau6
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|日本4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-jp.skyvora.app
+  servername: cdn-jp.skyvora.app
+  tls: true
+  type: vless
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  ws-opts:
+    headers:
+      Host: cdn-jp.skyvora.app
+    path: '%2Fpmcxbjzdau6'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|JP_speednode_0018

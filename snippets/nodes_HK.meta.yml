@@ -1,68 +1,79 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇭🇰 HK1@ripaojiedian
-  network: ws
-  port: 11310
-  server: 218.102.64.147
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇭🇰 HK2@ripaojiedian
-  network: ws
-  port: 9383
-  server: 218.102.64.147
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 11|🇭🇰 HK3@ripaojiedian
-  network: ws
-  port: 12611
-  server: 45.221.114.46
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|香港|@ripaojiedian
+  name: 11,12|香港|@ripaojiedian
   network: tcp
-  port: 443
+  port: 2083
   reality-opts:
-    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
-    short-id: d188c855
-  server: jp2support.xyy123.bid
-  servername: developer.qa.nvidia.cn
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.123
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
-  uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
+  udp: true
+  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|香港2|@ripaojiedian
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.133
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|香港3|@ripaojiedian
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 66.90.115.133
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+- client-fingerprint: chrome
+  name: 11|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-hk.skyvora.app
+  servername: cdn-hk.skyvora.app
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+  ws-opts:
+    headers:
+      Host: cdn-hk.skyvora.app
+    path: /zmeadqv620k
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|香港4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-hk.skyvora.app
+  servername: cdn-hk.skyvora.app
+  tls: true
+  type: vless
+  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+  ws-opts:
+    headers:
+      Host: cdn-hk.skyvora.app
+    path: '%2Fzmeadqv620k'
