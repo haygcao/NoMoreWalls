@@ -26,7 +26,38 @@ proxies:
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
   port: 443
   server: steel7.hadsvpn.com
+  skip-cert-verify: false
   sni: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
+- name: 9|42@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: AJyvWNsoDgVkMkboZ3juMJXYNRf6uEQE
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  port: 443
+  server: 177.202.65.158
+  skip-cert-verify: true
+  sni: hy2-fi2.snobvpn.online
+  tls: false
+  type: hysteria2
+- name: 9|32@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: sFQIE4F3SbaXCYoCQTY-4YvYiif8__By
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  port: 443
+  server: 201.58.190.235
+  skip-cert-verify: true
+  sni: hy2-pl.snobvpn.online
+  tls: false
+  type: hysteria2
+- name: 9|🪅1@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: JGIhnEi-CcIJOfNTqvNxX_5wRAYUZ0J2
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  port: 8443
+  server: 206.245.153.57
+  skip-cert-verify: true
+  sni: hy2-nl.snobvpn.online
   tls: false
   type: hysteria2
 - name: 9|12@oneclickvpnkeys
@@ -41,6 +72,14 @@ proxies:
   port: 443
   server: 213.21.232.4
   sni: mytubeproxy10.duckdns.org
+  tls: false
+  type: hysteria2
+- name: 9|🪅6@oneclickvpnkeys
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  port: 443
+  server: 212.34.137.105
+  skip-cert-verify: true
+  sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
 - name: '9|@OutlineReleasedKey #1'
@@ -109,7 +148,7 @@ proxies:
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 9|92@oneclickvpnkeys
+- name: 9|🫆92@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.69.232.199
@@ -191,14 +230,6 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|31@oneclickvpnkeys
-  password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3
-  port: 443
-  server: 194.48.250.233
-  skip-cert-verify: true
-  sni: mol.ultimagamest.com
-  tls: false
-  type: hysteria2
 - name: '9|@OutlineReleasedKey #5'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
@@ -246,9 +277,17 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
+- name: '9|@OutlineReleasedKey #7'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 2.27.210.6
+  skip-cert-verify: true
+  sni: lv2.nexfile.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '9|@OutlineReleasedKey #7'
+  name: '9|@OutlineReleasedKey #8'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 2.27.210.6
@@ -262,7 +301,7 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #8'
+- name: '9|@OutlineReleasedKey #9'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: bl1.nexfile.net
