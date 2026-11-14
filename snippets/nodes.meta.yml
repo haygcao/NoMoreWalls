@@ -22,16 +22,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇷🇺214054 | ⚡️Telegram = t.me/L...
-  password: '1794613669'
-  port: 443
-  server: 212.41.9.190
-  skip-cert-verify: false
-  sni: hu.lumacache.com
-  tls: false
-  type: hysteria2
 - name: 9|@OutlineReleasedKey
   password: 23c82941-70f4-4381-90db-bd28e9a902e9
   port: 443
@@ -70,14 +60,15 @@ proxies:
   sni: hy2-nl.snobvpn.online
   tls: false
   type: hysteria2
-- name: 9|12@oneclickvpnkeys
-  password: 2be4ee40-0d2a-43cb-a267-8769df96da2a
-  port: 443
-  server: 45.88.12.158
-  sni: va.stream-room.com
+- name: 9|🪅97@oneclickvpnkeys
+  password: 4afd4e1b1b0edd429b10d800a1cf64a7
+  port: 8443
+  server: 47.89.232.46
+  skip-cert-verify: true
+  sni: hysteria2.local
   tls: false
   type: hysteria2
-- name: 9|🫆34@oneclickvpnkeys
+- name: 9|34@oneclickvpnkeys
   password: 4b13c29ebe735e47
   port: 443
   server: 213.21.232.4
@@ -112,16 +103,6 @@ proxies:
   port: 8443
   server: 104.165.205.42
   sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: '9|@V2ray_confiig #1'
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: 5icixgawam84vgrp
-  port: 2098
-  server: 109.70.74.213
-  skip-cert-verify: false
-  sni: 109.70.74.213
   tls: false
   type: hysteria2
 - name: 9|T𝗝𝗼𝗶𝗻 ➠ @v2raymelliii✰
@@ -272,7 +253,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: '9|@V2ray_confiig #2'
+- name: '9|@V2ray_confiig #1'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.71
@@ -295,20 +276,17 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: '9|@V2ray_confiig #3'
+- name: '9|@V2ray_confiig #2'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 31.76.62.148
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇺🇸214009 | ⚡️Telegram = t.me/L...
+- name: 9|15@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 48.102.214.167
-  skip-cert-verify: false
   sni: fl5.edgeport.cloud
   tls: false
   type: hysteria2
@@ -352,18 +330,6 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|hysteria
-  obfs: salamander
-  obfs-password: 2gg0tx9d2etug8n9
-  password: rjj39jg8iphgd06h
-  port: 44100
-  server: pro2.riziro.ir
-  sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
 - name: '9|Telegram@vpnjey #5'
   obfs: salamander
   obfs-password: Telegram@vpnjey
@@ -382,6 +348,14 @@ proxies:
   server: 179.61.138.145
   skip-cert-verify: true
   sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
+- name: 9|🇺🇸US-@VPNine1
+  password: yO8pug5XmwkBXBAjleYIaVt
+  port: 443
+  server: 192.255.152.147
+  skip-cert-verify: true
+  sni: 192.255.152.147
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
