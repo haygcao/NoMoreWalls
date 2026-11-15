@@ -15,98 +15,88 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|美国|@ripaojiedian
+- name: 11,12|美国4|@ripaojiedian
   network: tcp
+  password: MiTiVPN
   port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
+  server: 167.82.76.27
   skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
+  sni: ssl.fastly.com
+  type: trojan
   udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
 - client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-  ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|美国3|@ripaojiedian
-  network: tcp
-  port: 2053
   reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
-- client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: /kqdyeo2k4b1
+    path: /ws
+- client-fingerprint: chrome
+  name: 11|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  ws-opts:
+    path: /ws
+- name: 11,12|美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: ''
   name: 12|美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
-  tls: true
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: '%2F'
+    path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: 12|美国4|@ripaojiedian
+  name: 12|美国3|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: '%2Fkqdyeo2k4b1'
+    path: '%2Fws'
 - name: 13|US_speednode_0039
   port: 8443
   server: 44.248.167.117

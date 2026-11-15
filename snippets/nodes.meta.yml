@@ -7,7 +7,7 @@ proxies:
   sni: nlll.obxodvpn.us
   tls: false
   type: hysteria2
-- name: 8|69@oneclickvpnkeys
+- name: '8,9|69@oneclickvpnkeys #1'
   password: 307ee0e53ea04dfd86a7f2f9fcd53844
   port: 443
   server: s5.libertyrunet.store
@@ -19,6 +19,16 @@ proxies:
   port: 24433
   server: 94.183.164.119
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 8|🇳🇱215939 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: 51.15.19.206
+  skip-cert-verify: true
+  sni: hysteria.udpgw.co
   tls: false
   type: hysteria2
 - name: 8|🙏66@oneclickvpnkeys
@@ -52,7 +62,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 8|🇵🇱215632 | ⚡️Telegram = t.me/L...
+- name: 8| 🙏104@oneclickvpnkeys
   password: lCk4_xMXmmLQV45zGLuQ5BRmzKEHDU8Q
   port: 443
   server: 81.90.17.166
@@ -65,6 +75,14 @@ proxies:
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪215956 | ⚡️Telegram = t.me/L...
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  port: 443
+  server: 177.202.66.212
+  skip-cert-verify: true
+  sni: de1.obxodvpn.us
   tls: false
   type: hysteria2
 - name: 9|@OutlineReleasedKey
@@ -95,16 +113,6 @@ proxies:
   sni: hy2-pl.snobvpn.online
   tls: false
   type: hysteria2
-- name: 9|🪅1@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: JGIhnEi-CcIJOfNTqvNxX_5wRAYUZ0J2
-  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
-  port: 8443
-  server: 206.245.153.57
-  skip-cert-verify: true
-  sni: hy2-nl.snobvpn.online
-  tls: false
-  type: hysteria2
 - name: 9|🪅97@oneclickvpnkeys
   password: 4afd4e1b1b0edd429b10d800a1cf64a7
   port: 8443
@@ -129,13 +137,6 @@ proxies:
   sni: lakes.blog-forme.ru
   tls: false
   type: hysteria2
-- name: 9|43@oneclickvpnkeys
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 443
-  server: guide.blog-forme.ru
-  sni: guide.blog-forme.ru
-  tls: false
-  type: hysteria2
 - name: 9|@vpnsal
   password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
   port: 8443
@@ -143,7 +144,7 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: 9|Telegram    @tik7net_vpn
+- name: 9|Telegram  ️  @tik7net_vpn
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5ictxgawam84vgrp
@@ -170,7 +171,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|214601 | ️Telegram = t.me/v2ra...
+- name: 9|214601 | ⚡️Telegram = t.me/v2r...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -184,14 +185,6 @@ proxies:
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   skip-cert-verify: true
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 9|🫆92@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.69.232.199
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -321,7 +314,7 @@ proxies:
   sni: lv2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|15@oneclickvpnkeys
+- name: 9|🙏15@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 48.102.214.167
@@ -402,341 +395,197 @@ proxies:
   server: 202.50.253.27
   type: ss
   udp: true
-- flow: xtls-rprx-vision
-  name: 11,12|日本|@ripaojiedian
-  network: tcp
+- name: 11|🇯🇵 日本|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- flow: xtls-rprx-vision
-  name: 11,12|日本2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- flow: xtls-rprx-vision
-  name: 11,12|日本3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- name: 11|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-jp.skyvora.app
-  servername: cdn-jp.skyvora.app
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  server: 139.162.91.239
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   ws-opts:
-    headers:
-      Host: cdn-jp.skyvora.app
-    path: /pmcxbjzdau6
-- flow: xtls-rprx-vision
-  name: 11,12|香港|@ripaojiedian
+    path: /ws
+- name: 11,12|美国4|@ripaojiedian
   network: tcp
-  port: 2083
+  password: MiTiVPN
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 11,12|法国|@ripaojiedian
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.123
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vless
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- flow: xtls-rprx-vision
-  name: 11,12|香港2|@ripaojiedian
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+- name: 11,12|日本2|@ripaojiedian
   network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
   skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
+  type: trojan
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- flow: xtls-rprx-vision
-  name: 11,12|香港3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- name: 11|🇭🇰 香港4|@ripaojiedian
+- name: 11|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
+  port: 443
+  reality-opts:
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  server: 172.105.216.21
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: /zmeadqv620k
-- flow: xtls-rprx-vision
-  name: 11,12|新加坡|@ripaojiedian
-  network: tcp
+    path: /ws
+- name: 11|🇸🇬 新加坡|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- flow: xtls-rprx-vision
-  name: 11,12|新加坡2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.26
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- flow: xtls-rprx-vision
-  name: 11,12|新加坡3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- name: 11|🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: /axzfrv47qcn
-- flow: xtls-rprx-vision
-  name: 11,12|美国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+    path: /ws
 - name: 11|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: 11,12|美国3|@ripaojiedian
-  network: tcp
-  port: 2053
+    path: /ws
+- name: 11|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  ws-opts:
+    path: /ws
+- name: 11,12|美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- flow: ''
+  name: 12|日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  server: 139.162.91.239
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
-- name: 11|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: /kqdyeo2k4b1
-- flow: xtls-rprx-vision
-  name: 11,12|德国|@ripaojiedian
-  network: tcp
-  port: 2053
+    path: '%2Fws'
+- flow: ''
+  name: 12|日本3|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  server: 172.105.216.21
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- flow: xtls-rprx-vision
-  name: 11,12|德国2|@ripaojiedian
-  network: tcp
-  port: 2053
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
+  ws-opts:
+    path: '%2Fws'
+- flow: ''
+  name: 12|新加坡|@ripaojiedian
+  network: ws
+  port: 443
   reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- flow: ''
-  name: 12|日本4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-jp.skyvora.app
-  servername: cdn-jp.skyvora.app
-  tls: true
-  type: vless
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-jp.skyvora.app
-    path: '%2Fpmcxbjzdau6'
-- flow: ''
-  name: 12|香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
-  tls: true
-  type: vless
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-  ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: '%2Fzmeadqv620k'
-- flow: ''
-  name: 12|新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
-  tls: true
-  type: vless
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: '%2Faxzfrv47qcn'
+    path: '%2Fws'
 - flow: ''
   name: 12|美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
-  tls: true
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: '%2F'
+    path: '%2Fws'
 - flow: ''
-  name: 12|美国4|@ripaojiedian
+  name: 12|美国3|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: '%2Fkqdyeo2k4b1'
+    path: '%2Fws'
 - name: 13|AT_speednode_0001
   network: ws
   port: 8443

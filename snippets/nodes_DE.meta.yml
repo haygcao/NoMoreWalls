@@ -1,36 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|德国|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|德国2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119

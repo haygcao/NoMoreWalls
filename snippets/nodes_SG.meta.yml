@@ -1,79 +1,33 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|新加坡|@ripaojiedian
-  network: tcp
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|新加坡2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.26
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|新加坡3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: /axzfrv47qcn
+    path: /ws
 - client-fingerprint: chrome
   flow: ''
-  name: 12|新加坡4|@ripaojiedian
+  name: 12|新加坡|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: '%2Faxzfrv47qcn'
+    path: '%2Fws'
