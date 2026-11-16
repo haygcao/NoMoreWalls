@@ -1,24 +1,9 @@
 proxies:
-- name: 8|🇺🇸12@exclavevpn
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 443
-  server: nlll.obxodvpn.us
-  skip-cert-verify: true
-  sni: nlll.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: '8,9|69@oneclickvpnkeys #1'
+- name: 8,9|69@oneclickvpnkeys
   password: 307ee0e53ea04dfd86a7f2f9fcd53844
   port: 443
   server: s5.libertyrunet.store
   sni: s5.libertyrunet.store
-  tls: false
-  type: hysteria2
-- name: 8| 12@exclavevpn
-  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 24433
-  server: 94.183.164.119
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 8|🇩🇪216664 | ⚡️Telegram = t.me/L...
@@ -88,12 +73,19 @@ proxies:
   sni: n34.neproxy.net
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
+- name: 8|139909 | ⚡️Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 8|ᴇ  = @xxᴇᴛ
+  password: yO8pug5XmwkBXBAjleYIaVt
+  port: 443
+  server: 192.255.152.147
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 8| 🇸 15@exclavevpn
@@ -125,6 +117,22 @@ proxies:
   server: steel7.hadsvpn.com
   skip-cert-verify: false
   sni: steel7.hadsvpn.com
+  tls: false
+  type: hysteria2
+- name: '9|ᴇ  = @xxᴇᴛ #1'
+  password: 3OAaD9HeUplLnOOA0StMZG
+  port: 443
+  server: 43.239.249.178
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 9|🇷🇺216805 | ⚡️Telegram = t.me/L...
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  skip-cert-verify: true
+  sni: srv-17e124
   tls: false
   type: hysteria2
 - fingerprint: chrome
@@ -169,7 +177,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|214601 | ️Telegram = t.me/v2ra...
+- name: 9|214601 | ⚡️Telegram = t.me/v2r...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -183,6 +191,22 @@ proxies:
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
   skip-cert-verify: true
   sni: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪216807 | ⚡️Telegram = t.me/L...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.194.242.173
+  skip-cert-verify: true
+  sni: 18.194.242.173
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪216810 | ⚡️Telegram = t.me/L...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.76.203.180
+  skip-cert-verify: true
+  sni: 3.76.203.180
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -311,7 +335,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|telegram:@pirozi_ArGaP
+- name: '9|Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: km9oqmefh2km1i5n
   password: d1gkicdgem3bsoaa

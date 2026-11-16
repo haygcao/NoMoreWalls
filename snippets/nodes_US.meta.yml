@@ -1,20 +1,4 @@
 proxies:
-- name: 8|🇺🇸12@exclavevpn
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 443
-  server: nlll.obxodvpn.us
-  skip-cert-verify: true
-  sni: nlll.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - name: 11,12|美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
