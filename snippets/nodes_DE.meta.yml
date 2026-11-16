@@ -1,4 +1,18 @@
 proxies:
+- name: 8|🇩🇪216655 | ⚡️Telegram = t.me/L...
+  password: e45c1654-9184-40c7-b68b-2929ce2a0a89
+  port: 443
+  server: 86.107.179.245
+  sni: cruises-cdn.travel-blogmir.blog
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪216653 | ⚡️Telegram = t.me/L...
+  password: lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5
+  port: 443
+  server: 212.102.227.131
+  sni: n34.neproxy.net
+  tls: false
+  type: hysteria2
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119
