@@ -6,7 +6,22 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8| 15@exclavevpn
+  password: b36a14f8-fc3f-4142-968f-48031cf5f330
+  port: 25318
+  server: 179.254.127.219
+  sni: 775c8bt.lt4.h1clayd.click
+  tls: false
+  type: hysteria2
+- name: 8|🇸🇬217490 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.179.113.70
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 8|🇺139909 | ⚡️Telegram = t.me/SO...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -51,8 +66,15 @@ proxies:
   sni: steel7.hadsvpn.com
   tls: false
   type: hysteria2
+- name: '9|@OutlineReleasedKey #3'
+  password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
+  port: 443
+  server: 212.34.137.105
+  sni: shorts.blog-forme.ru
+  tls: false
+  type: hysteria2
 - fingerprint: chrome
-  name: '9|@OutlineReleasedKey #4'
+  name: '9|@OutlineReleasedKey #5'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 24433
   server: 94.183.164.119
@@ -94,17 +116,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|ᴇ  = @xxᴇᴛ
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|@OutlineReleasedKey #5'
+- name: '9|@OutlineReleasedKey #6'
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
   server: 88f7008b-tmm5c0-tonrqx-1khwf.nw4.hyhuawei.com
@@ -120,22 +132,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 9|⚕️74@oneclickvpnkeys
-  password: MZKlrFbG73bKvCDe8VPul5PR9xQm
-  port: 20999
-  server: 35.207.53.51
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 9|🇩🇪216914 | ⚡️Telegram = t.me/L...
-  password: R1jGEIdkkdgxUmduZjeR1Pfi
-  port: 18888
-  server: 89.144.8.91
-  skip-cert-verify: false
-  sni: pic.bstarstatic.com
   tls: false
   type: hysteria2
 - name: '9|@v2ray313 ا '
@@ -179,19 +175,21 @@ proxies:
 - name: '9|Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
-  password: VPNJey
+  password: VPNJEy
   port: 36264
   server: 179.61.138.145
   skip-cert-verify: true
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #6'
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.96
-  skip-cert-verify: false
-  sni: pl3.nexfile.net
+- name: '9|Telegram@vpnjey #5'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: VPNJey
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
 - name: '9|@OutlineReleasedKey #7'
@@ -257,20 +255,19 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
+- name: 9|93@oneclickvpnkeys
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 9|⚕️35@oneclickvpnkeys
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰216973 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 9veAh9pTbrAfDwM1fIYI
-  password: hAUdd15a7YGHUSgiPOUz
-  port: 443
-  server: 43.103.2.53
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
@@ -283,7 +280,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #5'
+- name: '9|Telegram@vpnjey #7'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnJey
@@ -293,7 +290,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #6'
+- name: '9|Telegram@vpnjey #8'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
