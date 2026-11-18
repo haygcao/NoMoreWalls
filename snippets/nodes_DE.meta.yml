@@ -1,4 +1,14 @@
 proxies:
+- name: 9|66@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HATATEAYA
+  password: HATATEAYA
+  port: 8964
+  server: 77.90.15.183
+  skip-cert-verify: true
+  sni: ganlanc.at
+  tls: false
+  type: hysteria2
 - name: 13|DE_speednode_0004
   port: 443
   server: 213.109.163.119
