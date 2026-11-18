@@ -1,4 +1,12 @@
 proxies:
+- name: 8|🇷🇺218228 | ⚡️Telegram = t.me/L...
+  password: 41edb44c8e
+  port: 11592
+  server: 103.88.243.142
+  skip-cert-verify: true
+  sni: srv-17e124.21freedom.net
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 13|RU_speednode_0029

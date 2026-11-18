@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 9|9@oneclickvpnkeys
+  password: 2d399e38-245c-4f07-abf2-cfce7397ba9c
+  port: 8443
+  server: 31.76.106.92
+  sni: va.stream-room.com
+  tls: false
+  type: hysteria2
