@@ -6,20 +6,12 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|🇺139909 | Telegram = t.me/SOSk...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
   sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 8| 🇺🇸 15@exclavevpn
-  password: yO8pug5XmwkBXBAjleYIaVt
-  port: 443
-  server: 192.255.152.147
-  skip-cert-verify: true
-  sni: 192.255.152.147
   tls: false
   type: hysteria2
 - name: 9|@OutlineReleasedKey
@@ -49,7 +41,9 @@ proxies:
   sni: media.embrofree.org
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #3'
+- alpn:
+  - h3
+  name: '9|@OutlineReleasedKey #2'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -57,12 +51,12 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- fingerprint: chrome
-  name: '9|@OutlineReleasedKey #4'
+- name: '9|@OutlineReleasedKey #4'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
-  port: 24433
-  server: 94.183.164.119
-  sni: lakes.blog-forme.ru
+  port: 443
+  server: 212.34.137.105
+  skip-cert-verify: true
+  sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
 - name: '9|@OutlineReleasedKey #5'
@@ -99,18 +93,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 7wjvepshx5g115x4
-  password: 99a271e85dbc4aa8950f9c7beee06b19
-  port: 30746
-  server: ide.vipvirtualnet.eu
-  skip-cert-verify: false
-  sni: del.vipvirtualnet.eu
-  tls: false
-  type: hysteria2
 - name: 9|🔹69@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -119,7 +101,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: 9|🔹66@oneclickvpnkeys
+- name: '9|Channel : @Daily_Configs'
   obfs: salamander
   obfs-password: HATATEAYA
   password: HATATEAYA
@@ -127,6 +109,16 @@ proxies:
   server: 77.90.15.183
   skip-cert-verify: true
   sni: ganlanc.at
+  tls: false
+  type: hysteria2
+- name: 9|10@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HysteriaHowdy
+  password: HowdyHysteria2023w0W
+  port: 8443
+  server: hysteria.udpgw.com
+  skip-cert-verify: true
+  sni: sni-here.com
   tls: false
   type: hysteria2
 - name: 9|+@Azarakhsh_Proxy+
@@ -232,7 +224,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|Channel : @Daily_Configs'
+- name: '9|Channel : @Daily_Configs #1'
   obfs: salamander
   obfs-password: km9oqmefh2km1i5n
   password: d1gkicdgem3bsoaa
@@ -273,14 +265,6 @@ proxies:
   sni: cloudehouse24.ru
   tls: false
   type: hysteria2
-- name: 9|🇯🇵218802 | ⚡️Telegram = t.me/L...
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -289,16 +273,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|@iranping24
-  obfs: salamander
-  obfs-password: mn1g0eianbese7bl
-  password: u9axzkplfc3463am
-  port: 16146
-  server: sub.macdonalder.cyou
-  skip-cert-verify: false
-  sni: sub.macdonalder.cyou
   tls: false
   type: hysteria2
 - name: '9|Telegram@vpnjey #7'
