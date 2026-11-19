@@ -42,7 +42,7 @@ proxies:
   sni: va.stream-room.com
   tls: false
   type: hysteria2
-- name: 9|71@oneclickvpnkeys
+- name: 9|🔹71@oneclickvpnkeys
   password: 3a17ce52-4547-45aa-9820-a7d03ad5faca
   port: 443
   server: 45.86.74.193
@@ -71,14 +71,7 @@ proxies:
   server: guide.blog-forme.ru
   tls: false
   type: hysteria2
-- name: 9|@vpnsal
-  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
-  port: 8443
-  server: 104.165.205.42
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: 9|Telegram  ️  @tik7net_vpn
+- name: 9|Telegram    @tik7net_vpn
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5ictxgawam84vgrp
@@ -98,7 +91,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|214601 | ⚡️Telegram = t.me/v2r...
+- name: 9|214601 | ️Telegram = t.me/v2ra...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -118,7 +111,7 @@ proxies:
   sni: del.vipvirtualnet.eu
   tls: false
   type: hysteria2
-- name: 9|69@oneclickvpnkeys
+- name: 9|🔹69@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.194.242.173
@@ -126,7 +119,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: 9|66@oneclickvpnkeys
+- name: 9|🔹66@oneclickvpnkeys
   obfs: salamander
   obfs-password: HATATEAYA
   password: HATATEAYA
