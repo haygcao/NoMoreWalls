@@ -93,12 +93,30 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: 9|93@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 9|🔹69@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.194.242.173
   skip-cert-verify: true
   sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: 9|🔵92@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
 - name: '9|Channel : @Daily_Configs'
@@ -111,7 +129,7 @@ proxies:
   sni: ganlanc.at
   tls: false
   type: hysteria2
-- name: 9|10@oneclickvpnkeys
+- name: 9|🔵10@oneclickvpnkeys
   obfs: salamander
   obfs-password: HysteriaHowdy
   password: HowdyHysteria2023w0W
@@ -263,6 +281,14 @@ proxies:
   port: 10444
   server: 195.63.138.212
   sni: cloudehouse24.ru
+  tls: false
+  type: hysteria2
+- name: 9|100@oneclickvpnkeys
+  password: linlin-2026
+  port: 36712
+  server: 13.55.52.44
+  skip-cert-verify: true
+  sni: 13.55.52.44
   tls: false
   type: hysteria2
 - name: '9|@confiig_hub #1'
