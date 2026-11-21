@@ -1,13 +1,4 @@
 proxies:
-- name: 9|🇸US-🚀@VPNine1
-  obfs: salamander
-  obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
-  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
-  port: 443
-  server: 89.117.172.45
-  sni: eth.todsm.com
-  tls: false
-  type: hysteria2
 - name: 11,12|美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
