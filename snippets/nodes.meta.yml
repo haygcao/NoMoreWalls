@@ -30,7 +30,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|@OutlineReleasedKey #1'
+  name: 9|@OutlineReleasedKey
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -38,7 +38,7 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #3'
+- name: '9|@OutlineReleasedKey #1'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -46,7 +46,7 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #4'
+- name: '9|@OutlineReleasedKey #2'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: guide.blog-forme.ru
@@ -103,13 +103,6 @@ proxies:
   server: germanyafterpool.fun
   skip-cert-verify: true
   sni: germanyafterpool.fun
-  tls: false
-  type: hysteria2
-- name: 9|@V2rayNPVTConfig
-  password: AIcYjw5Oc9Rrrr9SGDUBbBIC
-  port: 36712
-  server: 38.76.150.108
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '9|Channel : @Daily_Configs'
@@ -190,15 +183,15 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #5'
+- name: '9|@OutlineReleasedKey #4'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.254.191.251
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #6'
+- name: '9|@OutlineReleasedKey #5'
   obfs: ''
   obfs-password: ''
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
@@ -239,17 +232,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇷🇺223650 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6
-  password: b7941807-1f4d-4bda-a878-92d708b84494
-  port: 8446
-  server: 46.8.210.33
-  skip-cert-verify: false
-  sni: litelitvalitter.rooferz.surf
-  tls: false
-  type: hysteria2
-- name: '9|@OutlineReleasedKey #7'
+- name: '9|@OutlineReleasedKey #6'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 45.137.201.211
@@ -276,33 +259,31 @@ proxies:
   sni: panel.autonetshop.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '9|@V2rayNPVTConfig #1'
-  password: ePPsH1bMFD
-  port: 50541
-  server: 23.141.172.229
-  skip-cert-verify: true
-  sni: is1-ssl.mzstatic.com
+- name: '9|@meliproxyy #1'
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  port: 5010
+  server: 152.32.254.68
+  skip-cert-verify: false
+  sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #8'
+- name: '9|@OutlineReleasedKey #7'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #9'
+- name: '9|@OutlineReleasedKey #8'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 5443
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #10'
+- name: '9|@OutlineReleasedKey #9'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.138.212
@@ -317,14 +298,6 @@ proxies:
   sni: hy2k2p.local
   tls: false
   type: hysteria2
-- name: 9|⭕62@oneclickvpnkeys
-  password: gf1
-  port: 443
-  server: 185.156.44.99
-  skip-cert-verify: true
-  sni: www.amazon.com
-  tls: false
-  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -333,14 +306,6 @@ proxies:
   server: 130.49.161.70
   skip-cert-verify: false
   sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
-- name: 9|73@oneclickvpnkeys
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.78.215
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
 - name: 9|⭕94@oneclickvpnkeys
