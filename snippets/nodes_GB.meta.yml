@@ -15,3 +15,10 @@ proxies:
   type: vless
   udp: true
   uuid: 3112c3f2-7172-417d-bce6-d168135d1603
+- name: 13|GB_speednode_0008
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

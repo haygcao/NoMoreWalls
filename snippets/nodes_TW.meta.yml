@@ -15,3 +15,18 @@ proxies:
   type: vless
   udp: true
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|TW_speednode_0026
+  network: tcp
+  port: 47396
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7

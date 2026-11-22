@@ -97,16 +97,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|93@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 9|⚙️64@oneclickvpnkeys
   password: 9a9f167d-b461-466f-be50-f0ffd598a6f8
   port: 443
@@ -120,14 +110,6 @@ proxies:
   port: 36712
   server: 38.76.150.108
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 9|🔵92@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
 - name: '9|Channel : @Daily_Configs'
@@ -257,11 +239,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 9|🇷🇺223650 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6
+  password: b7941807-1f4d-4bda-a878-92d708b84494
+  port: 8446
+  server: 46.8.210.33
+  skip-cert-verify: false
+  sni: litelitvalitter.rooferz.surf
+  tls: false
+  type: hysteria2
 - name: '9|@OutlineReleasedKey #7'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 45.137.201.211
   sni: wwe.fantoff.online
+  tls: false
+  type: hysteria2
+- name: 9|5@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: HVD1C0uyo38mMz8B
+  password: capadmae6e0190
+  port: 443
+  server: 51.15.16.68
+  skip-cert-verify: true
+  sni: vpn.local
   tls: false
   type: hysteria2
 - name: 9|@v2ray_phoenix
@@ -323,14 +325,6 @@ proxies:
   sni: www.amazon.com
   tls: false
   type: hysteria2
-- name: 9|🔵100@oneclickvpnkeys
-  password: linlin-2026
-  port: 36712
-  server: 13.55.52.44
-  skip-cert-verify: true
-  sni: 13.55.52.44
-  tls: false
-  type: hysteria2
 - name: '9|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -341,7 +335,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 9|⭕73@oneclickvpnkeys
+- name: 9|73@oneclickvpnkeys
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.212.78.215
@@ -662,198 +656,121 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
-- name: 13|AT_speednode_0001
-  network: ws
-  port: 8443
-  server: au2.pad-sservice.lat
-  servername: au2.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: au2.pad-service.com
-    path: /A11U
-- client-fingerprint: firefox
-  name: 13|AT_speednode_0002
-  network: ws
-  port: 8443
-  server: 152.53.31.46
-  servername: usa3.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa3.pad-service.com
-    path: /U1SA
-- name: 13|BR_speednode_0003
-  network: ws
-  port: 8443
-  server: de9.pad-sservice.lat
-  servername: de9.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: de9.pad-service.com
-    path: /DE9W
-- name: 13|DE_speednode_0004
+- name: 13|BE_speednode_0001
   port: 443
-  server: 213.109.163.119
+  server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
+- name: 13|BR_speednode_0002
+  password: None
+  port: 9443
+  server: 152.233.16.174
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|DK_speednode_0006
+- name: 13|DE_speednode_0003
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|DK_speednode_0004
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|ES_speednode_0007
-  network: ws
-  port: 8443
-  server: au5.pad-sservice.lat
-  servername: au5.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: au5.pad-sservice.lat
-    path: /AU5W
-- name: 13|FR_speednode_0008
-  port: 19362
-  server: 51.159.225.197
+- name: 13|DK_speednode_0005
+  password: None
+  port: 9002
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|FR_speednode_0009
-  port: 8090
-  server: 83.206.1.225
+- name: 13|DK_speednode_0006
+  port: 9002
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
+- name: 13|FR_speednode_0007
+  port: 6103
+  server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: 'null'
-- name: 13|FR_speednode_0011
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|FR_speednode_0012
+- name: 13|GB_speednode_0008
   port: 443
-  server: 82.65.162.76
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|IE_speednode_0013
+- name: 13|IE_speednode_0009
   port: 443
   server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- flow: xtls-rprx-vision
-  name: 13|JP_speednode_0018
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|JP_speednode_0019
-  network: tcp
-  packet-encoding: xudp
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
-  server: funagfrdfs.alixxplay.com
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 13|LV_speednode_0020
+- name: 13|IE_speednode_0010
   port: 443
-  server: 185.219.159.15
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|LV_speednode_0021
-  password: None
+- name: 13|NL_speednode_0014
   port: 443
-  server: 185.219.159.16
+  server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0022
+- name: 13|NL_speednode_0015
   password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- name: 13|NL_speednode_0023
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|NL_speednode_0024
-  password: None
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0025
+  username: 'null'
+- name: 13|NL_speednode_0016
+  password: 'null'
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 13|NL_speednode_0017
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|NL_speednode_0018
+  password: 'null'
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 13|NL_speednode_0019
   password: None
   port: 9002
   server: 84.17.47.149
@@ -861,14 +778,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0026
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|NL_speednode_0027
+- name: 13|NL_speednode_0020
   password: None
   port: 9002
   server: 84.17.47.123
@@ -876,189 +786,55 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|PL_speednode_0028
-  port: 443
-  server: 31.186.220.204
+- name: 13|NL_speednode_0021
+  password: None
+  port: 9002
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0029
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.119
-  servername: ozon.ru
-  skip-cert-verify: false
+- name: 13|NL_speednode_0022
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0030
-  network: tcp
+- name: 13|NN_speednode_0023
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.145
-  servername: abuse.ozon.ru
-  skip-cert-verify: false
+  server: usgp1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0031
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.47.117
-  servername: ozon.ru
-  skip-cert-verify: false
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 13|RO_speednode_0024
+  password: None
+  port: 9002
+  server: 193.176.84.24
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0032
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.159
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0033
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.176
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0034
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-    short-id: 88d9dc52ef39c8bd
-  server: 92.42.201.107
-  servername: node-slo02.rkitman.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0035
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 147.45.46.183
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
 - flow: xtls-rprx-vision
-  name: 13|RU_speednode_0036
+  name: 13|TW_speednode_0026
   network: tcp
-  port: 443
+  port: 47396
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.151.71.167
-  servername: abuse.ozon.ru
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  server: free.fugui.lol
+  servername: swdist.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|RU_speednode_0037
-  network: tcp
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- name: 13|US_speednode_0027
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 37.235.249.12
-  servername: gb.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-- flow: xtls-rprx-vision
-  name: 13|TR_speednode_0038
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.160.141.27
-  servername: abuse.ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-- name: 13|US_speednode_0039
-  port: 8443
-  server: 44.248.167.117
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|US_speednode_0040
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|US_speednode_0041
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|US_speednode_0042
-  port: 19167
-  server: mx001.zestapp778.com
-  servername: mx001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: 13|US_speednode_0043
-  port: 54857
-  server: 130.94.18.208
-  servername: us001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80

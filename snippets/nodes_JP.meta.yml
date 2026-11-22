@@ -22,34 +22,3 @@ proxies:
   type: vless
   udp: true
   uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|JP_speednode_0018
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|JP_speednode_0019
-  network: tcp
-  packet-encoding: xudp
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
-  server: funagfrdfs.alixxplay.com
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134

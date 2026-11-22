@@ -47,44 +47,10 @@ proxies:
   type: vless
   udp: true
   uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
-- name: 13|US_speednode_0039
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 13|US_speednode_0040
+- name: 13|US_speednode_0027
   port: 443
-  server: 38.247.141.135
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|US_speednode_0041
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: 13|US_speednode_0042
-  port: 19167
-  server: mx001.zestapp778.com
-  servername: mx001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: 13|US_speednode_0043
-  port: 54857
-  server: 130.94.18.208
-  servername: us001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
