@@ -16,6 +16,23 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|新加坡2|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
+    short-id: 4d1244cd42a20e6c
+  server: 47.84.39.7
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
 - client-fingerprint: chrome
   flow: ''
   name: 12|新加坡|@ripaojiedian

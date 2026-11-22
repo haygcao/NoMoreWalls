@@ -1,9 +1,1 @@
-proxies:
-- name: 11,12|日本2|@ripaojiedian
-  network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+proxies: []

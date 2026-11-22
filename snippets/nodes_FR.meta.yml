@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|法国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - name: 13|FR_speednode_0008
   port: 19362
   server: 51.159.225.197

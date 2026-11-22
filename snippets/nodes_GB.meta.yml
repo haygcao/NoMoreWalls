@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|英国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
+    short-id: 5a6f99962a27cdbc
+  server: 8.208.101.215
+  servername: www.ebay.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3112c3f2-7172-417d-bce6-d168135d1603

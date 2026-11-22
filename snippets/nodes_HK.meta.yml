@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|香港|@ripaojiedian
+  network: tcp
+  port: 11103
+  reality-opts:
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: 9564e1a7a1cf8b3a
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|香港2|@ripaojiedian
+  network: tcp
+  port: 11107
+  reality-opts:
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: e2ccd8eedcbee2ce
+  server: 116.213.43.43
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|香港3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: 58d234c8c6a009bc
+  server: 47.243.230.253
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862

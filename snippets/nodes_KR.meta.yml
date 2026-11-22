@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 11,12|韩国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
+    short-id: b79a86e2b1a586a0
+  server: 43.108.109.112
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4ded3111-b418-475a-93de-0360932508b2

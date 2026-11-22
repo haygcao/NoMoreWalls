@@ -7,77 +7,21 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-    short-id: 7c6d6833
-  server: 139.162.91.239
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
-  ws-opts:
-    path: /ws
-- name: 11,12|日本2|@ripaojiedian
+  flow: xtls-rprx-vision
+  name: 11,12|日本|@ripaojiedian
   network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 443
+  port: 11101
   reality-opts:
-    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-    short-id: c29f9af4
-  server: 172.105.216.21
-  servername: itunes.apple.com
+    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
+    short-id: 82f99830e7b834e2
+  server: 116.213.43.43
+  servername: www.apple.com
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
-  ws-opts:
-    path: /ws
-- client-fingerprint: chrome
-  flow: ''
-  name: 12|日本|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-    short-id: 7c6d6833
-  server: 139.162.91.239
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
-  ws-opts:
-    path: '%2Fws'
-- client-fingerprint: chrome
-  flow: ''
-  name: 12|日本3|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-    short-id: c29f9af4
-  server: 172.105.216.21
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
-  ws-opts:
-    path: '%2Fws'
+  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|JP_speednode_0018
