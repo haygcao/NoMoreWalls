@@ -1,5 +1,5 @@
 proxies:
-- name: 13|FR_speednode_0007
+- name: 12|FR_speednode_0007
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true

@@ -1,5 +1,5 @@
 proxies:
-- name: 8|🇳🇱 23@exclavevpn
+- name: 7|🇳🇱 23@exclavevpn
   password: 04920673-035c-410d-94e4-5b1469d3fb6f
   port: 42848
   server: 171.22.183.158
@@ -7,14 +7,14 @@ proxies:
   sni: 171.22.183.158
   tls: false
   type: hysteria2
-- name: 8|  20@exclavevpn
+- name: 7|  20@exclavevpn
   password: gG1JyjbJgDmEMvdTgcD9wVOS
   port: 443
   server: 35.221.91.82
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 7|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -22,7 +22,7 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 9|33@oneclickvpnkeys
+- name: 8|33@oneclickvpnkeys
   obfs: salamander
   obfs-password: S4iBMpc3aIzLC1c-6fE6rU15ZzXyfjr0ciGdh0A3alI
   password: 247802ca-0fbb-428a-b807-91a6e571b5c7
@@ -33,7 +33,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|@OutlineReleasedKey
+  name: 8|@OutlineReleasedKey
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -41,7 +41,7 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #2'
+- name: '8|@OutlineReleasedKey #2'
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   port: 443
   server: 212.34.137.105
@@ -49,7 +49,7 @@ proxies:
   sni: shorts.blog-forme.ru
   tls: false
   type: hysteria2
-- name: 9|66@oneclickvpnkeys
+- name: 8|66@oneclickvpnkeys
   obfs: salamander
   obfs-password: 6fltjteoyab7fjf1
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -59,7 +59,7 @@ proxies:
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
-- name: 9|@VPsave
+- name: 8|@VPsave
   obfs: salamander
   obfs-password: off3io88xwyc76g8
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -71,7 +71,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|@VPsave #1'
+  name: '8|@VPsave #1'
   obfs: salamander
   obfs-password: e3ymhs6gbzptjysj
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -81,7 +81,7 @@ proxies:
   sni: dg3rb.ianai.it.com
   tls: false
   type: hysteria2
-- name: '9|@VPsave #2'
+- name: '8|@VPsave #2'
   obfs: salamander
   obfs-password: e3ymhs6gbzptjysj
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -91,7 +91,7 @@ proxies:
   sni: dg3rb.ianai.it.com
   tls: false
   type: hysteria2
-- name: 9|Telegram  ️  @tik7net_vpn
+- name: 8|Telegram  ️  @tik7net_vpn
   obfs: salamander
   obfs-password: 7922smqtd5qm70fu
   password: 5ictxgawam84vgrp
@@ -101,7 +101,7 @@ proxies:
   sni: 109.70.74.213
   tls: false
   type: hysteria2
-- name: 9|@B2Hub
+- name: 8|@B2Hub
   obfs: salamander
   obfs-password: v0qq015d7c8zgzu7
   password: 5s7qa8f78hznlw8g
@@ -111,7 +111,7 @@ proxies:
   sni: quotes.ali-khamenei.world
   tls: false
   type: hysteria2
-- name: 9|Telegram:@v2rayng3
+- name: 8|Telegram:@v2rayng3
   obfs: salamander
   obfs-password: uw9b2qq5rx
   password: 6aab8efdf13945829ae3699c342be406
@@ -121,7 +121,7 @@ proxies:
   sni: fiproxy1.lockdwn.com
   tls: false
   type: hysteria2
-- name: 9|214601 | ⚡️Telegram = t.me/v2r...
+- name: 8|214601 | ⚡️Telegram = t.me/v2r...
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
   server: 18.143.176.12
@@ -129,7 +129,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|@V2rayNPVTConfig
+- name: 8|@V2rayNPVTConfig
   password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
   port: 443
   server: 217.60.33.215
@@ -137,7 +137,7 @@ proxies:
   sni: streambox.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|+@Azarakhsh_Proxy+
+- name: 8|+@Azarakhsh_Proxy+
   obfs: salamander
   obfs-password: KevinZakarian
   password: KevinZakarian
@@ -147,7 +147,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|@v2ray313 کانال '
+- name: '8|@v2ray313 کانال '
   password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
   port: 26503
   server: ir.config7x.site
@@ -155,7 +155,7 @@ proxies:
   sni: hy.config7x.site
   tls: false
   type: hysteria2
-- name: 9|Telegram@vpnjey
+- name: 8|Telegram@vpnjey
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram-vpnjey
@@ -165,7 +165,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #1'
+- name: '8|Telegram@vpnjey #1'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: Telegram
@@ -175,7 +175,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #2'
+- name: '8|Telegram@vpnjey #2'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VPNJEY
@@ -185,7 +185,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #3'
+- name: '8|Telegram@vpnjey #3'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VPNJEy
@@ -195,7 +195,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #5'
+- name: '8|Telegram@vpnjey #5'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VPNJey
@@ -205,7 +205,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #7'
+- name: '8|Telegram@vpnjey #7'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: VpNJEy
@@ -215,7 +215,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #4'
+- name: '8|@OutlineReleasedKey #4'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.254.191.251
@@ -223,7 +223,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #5'
+- name: '8|@OutlineReleasedKey #5'
   obfs: ''
   obfs-password: ''
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
@@ -233,7 +233,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|@KAFING_2
+- name: 8|@KAFING_2
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -243,7 +243,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|@KAFING_2 #2'
+- name: '8|@KAFING_2 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -253,14 +253,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #6'
+- name: '8|@OutlineReleasedKey #6'
   password: ca60984f-b1f0-4073-bd33-4c75168f749a
   port: 443
   server: 45.137.201.211
   sni: wwe.fantoff.online
   tls: false
   type: hysteria2
-- name: 9|🇳🇱227073 | ⚡️Telegram = t.me/L...
+- name: 8|🇳🇱227073 | ⚡️Telegram = t.me/L...
   obfs: salamander
   obfs-password: HVD1C0uyo38mMz8B
   password: capadmae6e0190
@@ -270,7 +270,7 @@ proxies:
   sni: vpn.local
   tls: false
   type: hysteria2
-- name: 9|@v2ray_phoenix
+- name: 8|@v2ray_phoenix
   obfs: salamander
   obfs-password: km9oqmefh2km1i5n
   password: d1gkicdgem3bsoaa
@@ -280,7 +280,7 @@ proxies:
   sni: panel.autonetshop.ir
   tls: false
   type: hysteria2
-- name: 9|را اصال ای ن  TelegramID Expre...
+- name: 8|را اصال ای ن  TelegramID Expre...
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -290,28 +290,28 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #7'
+- name: '8|@OutlineReleasedKey #7'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #8'
+- name: '8|@OutlineReleasedKey #8'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 5443
   server: 195.63.128.21
   sni: germany.cloudhouse1.ru
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #9'
+- name: '8|@OutlineReleasedKey #9'
   password: fa937345-6d3e-4ff4-8127-1a836987a0db
   port: 10444
   server: 195.63.138.212
   sni: cloudehouse24.ru
   tls: false
   type: hysteria2
-- name: '9|@VPsave #3'
+- name: '8|@VPsave #3'
   obfs: salamander
   obfs-password: 9veAh9pTbrAfDwM1fIYI
   password: hAUdd15a7YGHUSgiPOUz
@@ -321,7 +321,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 9|96@oneclickvpnkeys
+- name: 8|96@oneclickvpnkeys
   password: oracle_hy2_pass_2026
   port: 8443
   server: 129.225.181.46
@@ -329,7 +329,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|@confiig_hub #1'
+- name: '8|@confiig_hub #1'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -339,7 +339,7 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #9'
+- name: '8|Telegram@vpnjey #9'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnJey
@@ -349,7 +349,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '9|Telegram@vpnjey #10'
+- name: '8|Telegram@vpnjey #10'
   obfs: salamander
   obfs-password: Telegram@vpnjey
   password: vpnjey
@@ -360,20 +360,20 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
-  name: 11|🇮🇹 意大利|@ripaojiedian
+  name: 10|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 11|🇮🇹 意大利2|@ripaojiedian
+  name: 10|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 11|🇸🇬 新加坡5|@ripaojiedian
+- name: 10|🇸🇬 新加坡5|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -391,7 +391,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - flow: xtls-rprx-vision
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 10,11|新加坡2|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
@@ -405,7 +405,7 @@ proxies:
   type: vless
   udp: true
   uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
-- name: 11|🇭🇰 香港2|@ripaojiedian
+- name: 10|🇭🇰 香港2|@ripaojiedian
   password: 2902c46c8493
   port: 443
   server: ibsdsf.df6h451rh.xin
@@ -413,7 +413,7 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- name: 11,12|日本|@ripaojiedian
+- name: 10,11|日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -422,7 +422,7 @@ proxies:
   sni: nu2rb.supertoolify.com
   type: trojan
   udp: true
-- name: 11|🇯🇵 日本3|@ripaojiedian
+- name: 10|🇯🇵 日本3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -441,7 +441,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
     v2ray-http-upgrade: false
-- name: 11|🇯🇵 日本2|@ripaojiedian
+- name: 10|🇯🇵 日本2|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -461,7 +461,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  name: 11,12|新加坡1|@ripaojiedian
+  name: 10,11|新加坡1|@ripaojiedian
   obfs: salamander
   obfs-password: sj1awrdwnn5lbuno
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -472,7 +472,7 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: 11|🇸🇬 新加坡3|@ripaojiedian
+- name: 10|🇸🇬 新加坡3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -492,7 +492,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - flow: xtls-rprx-vision
-  name: 11,12|台湾|@ripaojiedian
+  name: 10,11|台湾|@ripaojiedian
   network: tcp
   port: 11102
   reality-opts:
@@ -506,7 +506,7 @@ proxies:
   type: vless
   udp: true
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-- name: 11|🇹🇼 台湾2|@ripaojiedian
+- name: 10|🇹🇼 台湾2|@ripaojiedian
   password: 0324fbc29561
   port: 443
   server: a54ge.df6h451rh.xin
@@ -514,7 +514,7 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- name: 11,12|越南|@ripaojiedian
+- name: 10,11|越南|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -523,7 +523,7 @@ proxies:
   sni: xvxn1hkzf.mateflora.com
   type: trojan
   udp: true
-- name: 11|🇭🇰 香港3|@ripaojiedian
+- name: 10|🇭🇰 香港3|@ripaojiedian
   network: ws
   port: 8443
   server: 151.158.0.83
@@ -539,7 +539,7 @@ proxies:
       Host: senflarelink-node-6b9.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇭🇰 香港4|@ripaojiedian
+- name: 10|🇭🇰 香港4|@ripaojiedian
   network: ws
   port: 8443
   server: 206.237.18.145
@@ -555,7 +555,7 @@ proxies:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇹🇼 台湾3|@ripaojiedian
+- name: 10|🇹🇼 台湾3|@ripaojiedian
   network: ws
   port: 8443
   server: 154.40.61.186
@@ -571,7 +571,7 @@ proxies:
       Host: senflarelink-node-wj1gsa.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇭🇰 香港|@ripaojiedian
+- name: 10|🇭🇰 香港|@ripaojiedian
   password: 0324fbc29561
   port: 443
   server: 5641sdds.df6h451rh.xin
@@ -579,7 +579,7 @@ proxies:
   sni: images.ctfassets.net
   type: anytls
   udp: true
-- name: 11|🇸🇬 新加坡|@ripaojiedian
+- name: 10|🇸🇬 新加坡|@ripaojiedian
   network: ws
   port: 8443
   server: 43.159.41.66
@@ -595,7 +595,7 @@ proxies:
       Host: senflarelink-node-il65vh.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇺🇸 美国|@ripaojiedian
+- name: 10|🇺🇸 美国|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -614,7 +614,7 @@ proxies:
       Host: itunes.apple.com
     path: /ws
     v2ray-http-upgrade: false
-- name: 11|🇸🇬 新加坡4|@ripaojiedian
+- name: 10|🇸🇬 新加坡4|@ripaojiedian
   network: ws
   port: 8443
   server: 43.134.187.97
@@ -630,7 +630,7 @@ proxies:
       Host: senflarelink-node-2ott2x.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇯🇵 日本4|@ripaojiedian
+- name: 10|🇯🇵 日本4|@ripaojiedian
   network: ws
   port: 8443
   server: 166.88.14.71
@@ -646,7 +646,7 @@ proxies:
       Host: senflarelink-node-71i.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇯🇵 日本5|@ripaojiedian
+- name: 10|🇯🇵 日本5|@ripaojiedian
   network: ws
   port: 8443
   server: 45.32.57.15
@@ -662,7 +662,7 @@ proxies:
       Host: senflarelink-node-nwz76h.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇰🇷 韩国|@ripaojiedian
+- name: 10|🇰🇷 韩国|@ripaojiedian
   network: ws
   port: 8443
   server: 131.186.22.95
@@ -678,7 +678,7 @@ proxies:
       Host: senflarelink-node-il65vh.pages.dev
     path: /
     v2ray-http-upgrade: false
-- name: 11|🇰🇷 韩国2|@ripaojiedian
+- name: 10|🇰🇷 韩国2|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -695,7 +695,7 @@ proxies:
     path: /
     v2ray-http-upgrade: false
 - flow: ''
-  name: 12|新加坡5|@ripaojiedian
+  name: 11|新加坡5|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -709,7 +709,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - flow: ''
-  name: 12|日本3|@ripaojiedian
+  name: 11|日本3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -725,7 +725,7 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
-  name: 12|日本2|@ripaojiedian
+  name: 11|日本2|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -741,7 +741,7 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
-  name: 12|新加坡3|@ripaojiedian
+  name: 11|新加坡3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -757,7 +757,7 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
-  name: 12|香港3|@ripaojiedian
+  name: 11|香港3|@ripaojiedian
   network: ws
   port: 8443
   server: 151.158.0.83
@@ -770,7 +770,7 @@ proxies:
       Host: senflarelink-node-6b9.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|香港4|@ripaojiedian
+  name: 11|香港4|@ripaojiedian
   network: ws
   port: 8443
   server: 206.237.18.145
@@ -783,7 +783,7 @@ proxies:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|台湾3|@ripaojiedian
+  name: 11|台湾3|@ripaojiedian
   network: ws
   port: 8443
   server: 154.40.61.186
@@ -796,7 +796,7 @@ proxies:
       Host: senflarelink-node-wj1gsa.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|新加坡|@ripaojiedian
+  name: 11|新加坡|@ripaojiedian
   network: ws
   port: 8443
   server: 43.159.41.66
@@ -809,7 +809,7 @@ proxies:
       Host: senflarelink-node-il65vh.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|美国|@ripaojiedian
+  name: 11|美国|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -825,7 +825,7 @@ proxies:
       Host: itunes.apple.com
     path: '%2Fws'
 - flow: ''
-  name: 12|新加坡4|@ripaojiedian
+  name: 11|新加坡4|@ripaojiedian
   network: ws
   port: 8443
   server: 43.134.187.97
@@ -838,7 +838,7 @@ proxies:
       Host: senflarelink-node-2ott2x.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|日本4|@ripaojiedian
+  name: 11|日本4|@ripaojiedian
   network: ws
   port: 8443
   server: 166.88.14.71
@@ -851,7 +851,7 @@ proxies:
       Host: senflarelink-node-71i.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|日本5|@ripaojiedian
+  name: 11|日本5|@ripaojiedian
   network: ws
   port: 8443
   server: 45.32.57.15
@@ -864,7 +864,7 @@ proxies:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|韩国|@ripaojiedian
+  name: 11|韩国|@ripaojiedian
   network: ws
   port: 8443
   server: 131.186.22.95
@@ -877,7 +877,7 @@ proxies:
       Host: senflarelink-node-il65vh.pages.dev
     path: '%2F'
 - flow: ''
-  name: 12|韩国2|@ripaojiedian
+  name: 11|韩国2|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -889,14 +889,14 @@ proxies:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
-- name: 13|BE_speednode_0001
+- name: 12|BE_speednode_0001
   port: 443
   server: 146.70.123.98
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|BR_speednode_0002
+- name: 12|BR_speednode_0002
   password: None
   port: 9443
   server: 152.233.16.174
@@ -904,7 +904,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|DE_speednode_0003
+- name: 12|DE_speednode_0003
   password: None
   port: 443
   server: 149.36.50.1
@@ -912,14 +912,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|DK_speednode_0004
+- name: 12|DK_speednode_0004
   port: 9002
   server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|DK_speednode_0005
+- name: 12|DK_speednode_0005
   password: None
   port: 9002
   server: 158.173.154.4
@@ -927,49 +927,49 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|DK_speednode_0006
+- name: 12|DK_speednode_0006
   port: 9002
   server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|FR_speednode_0007
+- name: 12|FR_speednode_0007
   port: 6103
   server: 87.98.174.157
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|GB_speednode_0008
+- name: 12|GB_speednode_0008
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|IE_speednode_0009
+- name: 12|IE_speednode_0009
   port: 443
   server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|IE_speednode_0010
+- name: 12|IE_speednode_0010
   port: 443
   server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0014
+- name: 12|NL_speednode_0014
   port: 443
   server: 149.36.51.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0015
+- name: 12|NL_speednode_0015
   password: 'null'
   port: 9002
   server: 84.17.47.148
@@ -978,7 +978,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 13|NL_speednode_0016
+- name: 12|NL_speednode_0016
   password: 'null'
   port: 9002
   server: 84.17.47.125
@@ -987,14 +987,14 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 13|NL_speednode_0017
+- name: 12|NL_speednode_0017
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0018
+- name: 12|NL_speednode_0018
   password: 'null'
   port: 9002
   server: 84.17.47.147
@@ -1003,7 +1003,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 13|NL_speednode_0019
+- name: 12|NL_speednode_0019
   password: None
   port: 9002
   server: 84.17.47.149
@@ -1011,7 +1011,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0020
+- name: 12|NL_speednode_0020
   password: None
   port: 9002
   server: 84.17.47.123
@@ -1019,7 +1019,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0021
+- name: 12|NL_speednode_0021
   password: None
   port: 9002
   server: 84.17.47.148
@@ -1027,14 +1027,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 13|NL_speednode_0022
+- name: 12|NL_speednode_0022
   port: 9002
   server: 84.17.47.124
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 13|NN_speednode_0023
+- name: 12|NN_speednode_0023
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: usgp1-cdn-route.couldflare-cdn.com
@@ -1042,7 +1042,7 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 13|RO_speednode_0024
+- name: 12|RO_speednode_0024
   password: None
   port: 9002
   server: 193.176.84.24
@@ -1051,7 +1051,7 @@ proxies:
   type: http
   udp: true
 - flow: xtls-rprx-vision
-  name: 13|TW_speednode_0026
+  name: 12|TW_speednode_0026
   network: tcp
   port: 47396
   reality-opts:
@@ -1064,7 +1064,7 @@ proxies:
   type: vless
   udp: true
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-- name: 13|US_speednode_0027
+- name: 12|US_speednode_0027
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
