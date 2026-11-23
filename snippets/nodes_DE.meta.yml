@@ -1,4 +1,13 @@
 proxies:
+- name: 9|33@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: S4iBMpc3aIzLC1c-6fE6rU15ZzXyfjr0ciGdh0A3alI
+  password: 247802ca-0fbb-428a-b807-91a6e571b5c7
+  port: 443
+  server: 166.0.28.140
+  sni: static-de.snobmenu.xyz
+  tls: false
+  type: hysteria2
 - name: 13|DE_speednode_0003
   password: None
   port: 443

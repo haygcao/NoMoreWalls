@@ -1,12 +1,4 @@
 proxies:
-- name: 9|🇸🇬226664 | ⚡️Telegram = t.me/L...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.129.241.99
-  skip-cert-verify: true
-  sni: 47.129.241.99
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 11|🇸🇬 新加坡5|@ripaojiedian
   network: ws
