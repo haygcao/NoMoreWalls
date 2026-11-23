@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|德国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
-    short-id: b73c53b18b65dd90
-  server: 189.24.82.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b354463f-ac84-422e-9a26-556c81ba001c
 - name: 13|DE_speednode_0003
   password: None
   port: 443

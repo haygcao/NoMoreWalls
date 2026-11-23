@@ -1,17 +1,63 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|韩国|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
-    short-id: b79a86e2b1a586a0
-  server: 43.108.109.112
-  servername: www.samsung.com
+  name: 11|🇰🇷 韩国|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 131.186.22.95
+  servername: senflarelink-node-il65vh.pages.dev
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 4ded3111-b418-475a-93de-0360932508b2
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇰🇷 韩国2|@ripaojiedian
+  network: ws
+  port: 12101
+  server: 14.44.19.57
+  servername: senflarelink-node-nwz76h.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|韩国|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 131.186.22.95
+  servername: senflarelink-node-il65vh.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|韩国2|@ripaojiedian
+  network: ws
+  port: 12101
+  server: 14.44.19.57
+  servername: senflarelink-node-nwz76h.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    path: '%2F'

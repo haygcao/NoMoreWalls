@@ -1,6 +1,14 @@
 proxies:
+- name: 9|🇸🇬226664 | ⚡️Telegram = t.me/L...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.241.99
+  skip-cert-verify: true
+  sni: 47.129.241.99
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡5|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -33,9 +41,75 @@ proxies:
   type: vless
   udp: true
   uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
+- auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  name: 11,12|新加坡1|@ripaojiedian
+  obfs: salamander
+  obfs-password: sj1awrdwnn5lbuno
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: bgsg2.hikigo.com
+  skip-cert-verify: true
+  sni: bgsg2.hikigo.com
+  tls: false
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 43.159.41.66
+  servername: senflarelink-node-il65vh.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 43.134.187.97
+  servername: senflarelink-node-2ott2x.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-2ott2x.pages.dev
+    path: /
+    v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: 12|新加坡|@ripaojiedian
+  name: 12|新加坡5|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -48,3 +122,48 @@ proxies:
   uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
   ws-opts:
     path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|新加坡3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|新加坡|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 43.159.41.66
+  servername: senflarelink-node-il65vh.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|新加坡4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 43.134.187.97
+  servername: senflarelink-node-2ott2x.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-2ott2x.pages.dev
+    path: '%2F'

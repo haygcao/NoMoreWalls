@@ -1,52 +1,41 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|美国|@ripaojiedian
-  network: tcp
+  name: 11|🇺🇸 美国|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
-    short-id: ce90a4459f024897
-  server: 103.119.15.175
-  servername: www.amazon.com
+    public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
+    short-id: 5818adc3
+  server: 172.233.129.172
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
+  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|美国2|@ripaojiedian
-  network: tcp
-  port: 11105
-  reality-opts:
-    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
-    short-id: d9180a5730e950d2
-  server: 116.213.43.43
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|美国3|@ripaojiedian
-  network: tcp
+  flow: ''
+  name: 12|美国|@ripaojiedian
+  network: ws
   port: 443
   reality-opts:
-    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
-    short-id: 5bcc25a95dcd415b
-  server: 166.0.27.137
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tfo: false
+    public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
+    short-id: 5818adc3
+  server: 172.233.129.172
+  servername: itunes.apple.com
   tls: false
   type: vless
-  udp: true
-  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
+  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
 - name: 13|US_speednode_0027
   port: 443
   server: 172.64.69.89
