@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 10,11|台湾|@ripaojiedian
+  name: 11,12|台湾|@ripaojiedian
   network: tcp
   port: 11102
   reality-opts:
@@ -16,7 +16,7 @@ proxies:
   udp: true
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
 - client-fingerprint: chrome
-  name: 10|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   password: 0324fbc29561
   port: 443
   server: a54ge.df6h451rh.xin
@@ -25,7 +25,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 10|🇹🇼 台湾3|@ripaojiedian
+  name: 11|🇹🇼 台湾3|@ripaojiedian
   network: ws
   port: 8443
   server: 154.40.61.186
@@ -43,7 +43,7 @@ proxies:
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: 11|台湾3|@ripaojiedian
+  name: 12|台湾3|@ripaojiedian
   network: ws
   port: 8443
   server: 154.40.61.186
@@ -57,7 +57,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|TW_speednode_0026
+  name: 13|TW_speednode_0026
   network: tcp
   port: 47396
   reality-opts:

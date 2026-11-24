@@ -1,5 +1,5 @@
 proxies:
-- name: 12|GB_speednode_0008
+- name: 13|GB_speednode_0008
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true

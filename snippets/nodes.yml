@@ -1,19 +1,19 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 10|🇮🇹 意大利|@ripaojiedian
+  name: 11|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 10|🇮🇹 意大利2|@ripaojiedian
+  name: 11|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
-- name: 10,11|日本|@ripaojiedian
+- name: 11,12|日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
@@ -22,7 +22,7 @@ proxies:
   sni: nu2rb.supertoolify.com
   type: trojan
   udp: true
-- name: 10,11|越南|@ripaojiedian
+- name: 11,12|越南|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
