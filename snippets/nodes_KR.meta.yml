@@ -1,12 +1,4 @@
 proxies:
-- name: 9|KR-@VPNine1
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 43.203.228.99
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
   network: ws
