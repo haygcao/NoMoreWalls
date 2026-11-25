@@ -10,40 +10,6 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   name: 11|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 151.158.0.83
-  servername: senflarelink-node-6b9.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 206.237.18.145
-  servername: senflarelink-node-m3bfbn.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
   password: 0324fbc29561
   port: 443
   server: 5641sdds.df6h451rh.xin
@@ -52,30 +18,33 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  flow: ''
-  name: 12|香港3|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   network: ws
   port: 8443
-  server: 151.158.0.83
-  servername: senflarelink-node-6b9.pages.dev
+  server: 185.206.171.66
+  servername: senflarelink-node-7uv.pages.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: '%2F'
+      Host: senflarelink-node-7uv.pages.dev
+    path: /
+    v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: 12|香港4|@ripaojiedian
+  name: 12|香港|@ripaojiedian
   network: ws
   port: 8443
-  server: 206.237.18.145
-  servername: senflarelink-node-m3bfbn.pages.dev
+  server: 185.206.171.66
+  servername: senflarelink-node-7uv.pages.dev
   tls: true
   type: vless
   uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
+      Host: senflarelink-node-7uv.pages.dev
     path: '%2F'

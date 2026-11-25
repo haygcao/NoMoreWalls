@@ -1,21 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 11,12|台湾|@ripaojiedian
-  network: tcp
-  port: 11102
-  reality-opts:
-    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
-    short-id: ed571d022f7bc3bf
-  server: 116.213.43.43
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-- client-fingerprint: chrome
   name: 11|🇹🇼 台湾2|@ripaojiedian
   password: 0324fbc29561
   port: 443
@@ -24,37 +8,6 @@ proxies:
   sni: docs.microsoft.com
   type: anytls
   udp: true
-- client-fingerprint: chrome
-  name: 11|🇹🇼 台湾3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 154.40.61.186
-  servername: senflarelink-node-wj1gsa.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-wj1gsa.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: 12|台湾3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 154.40.61.186
-  servername: senflarelink-node-wj1gsa.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-wj1gsa.pages.dev
-    path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|TW_speednode_0026

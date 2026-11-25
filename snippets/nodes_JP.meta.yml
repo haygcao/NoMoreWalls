@@ -1,13 +1,4 @@
 proxies:
-- name: 11,12|日本|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
-  skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: 11|🇯🇵 日本3|@ripaojiedian
   network: ws

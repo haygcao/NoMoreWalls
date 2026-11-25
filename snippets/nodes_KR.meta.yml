@@ -1,23 +1,14 @@
 proxies:
+- name: 9|KR-@VPNine1
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 43.203.228.99
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -36,20 +27,6 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   name: 12|韩国|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: 12|韩国2|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57
