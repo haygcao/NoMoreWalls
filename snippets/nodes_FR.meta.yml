@@ -1,34 +1,4 @@
 proxies:
-- name: 9|🇫🇷230827 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: 4cbeddb7-022d-46a8-bca8-a3667abda9ac
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇷230828 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: b6492705-8cac-4454-9d34-1498dd2ded87
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇷230767 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: N2rvCMYcDxnEWHVQ
-  password: cc0212a7-6b18-42f8-bb1f-177e035d1acb
-  port: 45206
-  server: v1fr4.stablenode.cloud
-  skip-cert-verify: false
-  sni: v1fr4.stablenode.cloud
-  tls: false
-  type: hysteria2
 - name: 13|FR_speednode_0007
   port: 6103
   server: 87.98.174.157
