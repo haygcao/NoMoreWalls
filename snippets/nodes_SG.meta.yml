@@ -8,21 +8,64 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   network: ws
-  port: 2087
-  server: 13.140.95.76
-  servername: senflarelink-node-6b9.pages.dev
+  port: 443
+  reality-opts:
+    public-key: 8yWkbzkxKDySkY_xUKZCb7z-XnoNIvq7bJpa_-8BiX8
+    short-id: 9360f0d0
+  server: 172.104.48.162
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 0dbe84f8-74fd-4bd1-99fe-e67eb7eaff85
   ws-opts:
     headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: u_4r8NRmRsN5Ndbt0koyC73DLC7mCcK4wAA0YiIR4ko
+    short-id: b0af872e
+  server: 172.104.48.194
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a28d0884-193d-4591-aa64-8638ba1481ce
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: xGPjO2ukRsGiMm-vAzcLcFYu5ivYe2paztFS64q3Bkw
+    short-id: b29516da
+  server: 172.104.186.185
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 87ff88cc-5c1f-4f46-86b8-c43f55b71dd2
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''

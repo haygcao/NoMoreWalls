@@ -9,34 +9,8 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 0324fbc29561
-  port: 443
-  server: 5641sdds.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 185.206.171.66
-  servername: senflarelink-node-7uv.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-7uv.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|香港|@ripaojiedian
+  name: 11,12|香港|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
@@ -44,6 +18,9 @@ proxies:
     short-id: 6a3c0a718181
   server: jp2mqtt.jumpernode.site
   servername: stg.nvbugspro.nvidia.com
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vless
+  udp: true
   uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
