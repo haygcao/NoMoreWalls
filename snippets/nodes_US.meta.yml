@@ -9,6 +9,20 @@ proxies:
   sni: psstatic.cdn.bcebos.com
   tls: false
   type: hysteria2
+- name: 8|🇺🇸 27@exclavevpn
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.106
+  sni: de1-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
+- name: 8,9|@VPsave
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  port: 443
+  server: 135.126.21.107
+  sni: de2-balance.rezproffx.ru
+  tls: false
+  type: hysteria2
 - name: 8|🇺🇸139909 | Telegram = t.me/SOS...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443

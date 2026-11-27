@@ -1,12 +1,4 @@
 proxies:
-- name: 9|🇸🇬SG-🚀@VPNine1
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 47.129.155.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
   network: ws
