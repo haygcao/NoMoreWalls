@@ -23,7 +23,7 @@ proxies:
   sni: de2-balance.rezproffx.ru
   tls: false
   type: hysteria2
-- name: '8,9|@OutlineReleasedKey #4'
+- name: '8,9|@OutlineReleasedKey #5'
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: 128.254.186.57
@@ -158,15 +158,16 @@ proxies:
 - name: 9|KR-@VPNine1
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 3.35.174.64
+  server: 3.38.208.216
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #3'
+- name: '9|@OutlineReleasedKey #4'
   password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
   port: 443
   server: 136.148.83.69
+  skip-cert-verify: true
   sni: szqbx-ru-77dc.my-fade.cloud
   tls: false
   type: hysteria2
@@ -191,7 +192,7 @@ proxies:
   sni: mother-earth.fyi
   tls: false
   type: hysteria2
-- name: '9|@OutlineReleasedKey #5'
+- name: '9|@OutlineReleasedKey #6'
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
@@ -223,7 +224,7 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
-- name: 9|🇳🇱232427 | ⚡️Telegram = t.me/L...
+- name: 9|#️⃣65@oneclickvpnkeys
   obfs: salamander
   obfs-password: HysteriaHowdy
   password: HowdyHysteria2023w0W
@@ -313,47 +314,7 @@ proxies:
   sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 9|🇵🇱232417 | ⚡️Telegram = t.me/L...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.105
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🇵🇱232413 | ⚡️Telegram = t.me/L...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.106
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🇵🇱232416 | ⚡️Telegram = t.me/L...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.142
-  skip-cert-verify: false
-  sni: pl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🇵🇱232415 | ⚡️Telegram = t.me/L...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.147
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 9|🇵🇱232412 | ⚡️Telegram = t.me/L...
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 13.143.189.149
-  skip-cert-verify: false
-  sni: pl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '9|@OutlineReleasedKey #7'
+- name: '9|@OutlineReleasedKey #8'
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 179.254.191.251
@@ -393,7 +354,7 @@ proxies:
   sni: tomsk.gosgenarchive.com
   tls: false
   type: hysteria2
-- name: 9|🇱24@exclavevpn
+- name: 9|24@exclavevpn
   password: d4ca9415f0eac7897472e1e5b86d2e96
   port: 443
   server: 50.7.38.243
@@ -413,7 +374,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|@OutlineReleasedKey #8'
+  name: '9|@OutlineReleasedKey #9'
   password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf
   port: 443
   server: n42.neproxy.net
@@ -555,21 +516,6 @@ proxies:
   sni: px.ads.linkedin.com
   type: anytls
   udp: true
-- flow: xtls-rprx-vision
-  name: 11,12|香港|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
-    short-id: 6a3c0a718181
-  server: jp2mqtt.jumpernode.site
-  servername: stg.nvbugspro.nvidia.com
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
 - cipher: aes-256-gcm
   name: 11|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -737,6 +683,37 @@ proxies:
       Host: itunes.apple.com
     path: /ws
     v2ray-http-upgrade: false
+- name: 11|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- flow: xtls-rprx-vision
+  name: 11,12|香港3|@ripaojiedian
+  network: tcp
+  port: 28418
+  reality-opts:
+    public-key: mfxE6lW_fuPZKWtrySdTx9HOh0vtX3-7aMiYDCh2YCA
+    short-id: ddd21e20
+  server: 38.207.172.59
+  servername: op.gg
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e6552569-97ce-430c-a324-53ad1c546e05
 - flow: ''
   name: 12|日本3|@ripaojiedian
   network: ws
@@ -913,6 +890,19 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
+- flow: ''
+  name: 12|香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
 - name: 13|BE_speednode_0001
   port: 443
   server: 146.70.123.98

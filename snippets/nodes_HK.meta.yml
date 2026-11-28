@@ -9,18 +9,49 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: /
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 11,12|香港|@ripaojiedian
+  name: 11,12|香港3|@ripaojiedian
   network: tcp
-  port: 443
+  port: 28418
   reality-opts:
-    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
-    short-id: 6a3c0a718181
-  server: jp2mqtt.jumpernode.site
-  servername: stg.nvbugspro.nvidia.com
+    public-key: mfxE6lW_fuPZKWtrySdTx9HOh0vtX3-7aMiYDCh2YCA
+    short-id: ddd21e20
+  server: 38.207.172.59
+  servername: op.gg
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vless
   udp: true
-  uuid: 330a570e-c0ba-4a9d-8e37-d20540cc8eaa
+  uuid: e6552569-97ce-430c-a324-53ad1c546e05
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|香港|@ripaojiedian
+  network: ws
+  port: 1891
+  server: 216.236.51.44
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'

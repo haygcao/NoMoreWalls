@@ -2,7 +2,7 @@ proxies:
 - name: 9|KR-@VPNine1
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 3.35.174.64
+  server: 3.38.208.216
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
